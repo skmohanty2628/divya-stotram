@@ -6,6 +6,9 @@ export default function TrackVisit() {
   const pathname = usePathname();
 
   useEffect(() => {
+    // Don't track admin page
+    if (pathname === '/admin' || pathname.startsWith('/admin')) return;
+    
     const track = async () => {
       try {
         const { initializeApp, getApps } = await import('firebase/app');

@@ -122,11 +122,6 @@ function HomeContent() {
         </div>
       </div>
 
-      {/* Ad — top leaderboard */}
-      <div className="mb-12 flex justify-center">
-        <AdSlot slot="1111111111" size="banner" />
-      </div>
-
       {/* Featured stotrams */}
       <section className="mb-16">
         <div className="flex items-center gap-4 mb-8">
@@ -138,11 +133,6 @@ function HomeContent() {
           {featured.map((s, i) => <StotramCard key={s.slug} s={s} index={i} />)}
         </div>
       </section>
-
-      {/* Mid ad */}
-      <div className="my-12 flex justify-center">
-        <AdSlot slot="2222222222" size="square" />
-      </div>
 
       {/* All stotrams */}
       <section>

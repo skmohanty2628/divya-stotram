@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,67 +7,29 @@
   --saffron: #e8760a;
   --gold: #c9922a;
   --gold-light: #f0c040;
-  --ivory: #fdf3e3;
-  --ivory-dim: #e8d5b5;
+  --bg: #fdf6e3;
+  --bg-card: #fff8ee;
 }
 
 html { scroll-behavior: smooth; }
 
 body {
-  background: #0d0202;
-  color: #fdf3e3;
+  background: #fdf6e3;
+  color: #1a0a00;
   font-family: 'EB Garamond', Georgia, serif;
   overflow-x: hidden;
 }
 
 /* Scrollbar */
 ::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: #1a0505; }
+::-webkit-scrollbar-track { background: #f5e6c8; }
 ::-webkit-scrollbar-thumb { background: #c9922a; border-radius: 3px; }
 
-/* Gold divider utility */
 .gold-divider {
   height: 1px;
   background: linear-gradient(90deg, transparent, #c9922a, transparent);
 }
 
-/* Verse card hover glow */
 .verse-card:hover {
-  box-shadow: 0 0 30px rgba(201,146,42,0.12), 0 4px 20px rgba(0,0,0,0.5);
-}
-
-/* Ad slot placeholder */
-.ad-slot {
-  background: rgba(201,146,42,0.05);
-  border: 1px dashed rgba(201,146,42,0.2);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgba(201,146,42,0.3);
-  font-family: 'Cinzel', serif;
-  font-size: 11px;
-  letter-spacing: 2px;
-}
-
-/* Staggered animation delays */
-.stagger-1 { animation-delay: 0.05s; }
-.stagger-2 { animation-delay: 0.10s; }
-.stagger-3 { animation-delay: 0.15s; }
-.stagger-4 { animation-delay: 0.20s; }
-.stagger-5 { animation-delay: 0.25s; }
-
-@layer utilities {
-  .text-gradient-gold {
-    background: linear-gradient(135deg, #f0c040, #c9922a, #f0c040);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-  .bg-card {
-    background: linear-gradient(135deg, rgba(40,10,5,0.92) 0%, rgba(20,5,2,0.96) 100%);
-  }
-  .border-gold {
-    border-color: rgba(201,146,42,0.25);
-  }
+  box-shadow: 0 0 30px rgba(201,146,42,0.2), 0 4px 20px rgba(0,0,0,0.1);
 }

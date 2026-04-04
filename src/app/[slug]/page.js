@@ -60,10 +60,10 @@ function StotramContent({ meta, verseData }) {
     <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-32">
 
       {/* Hero — compact */}
-      <div className="flex items-center gap-4 pt-6 pb-5 border-b border-[#c9922a]/15 mb-6">
+      <div className="flex items-center gap-4 pt-6 pb-5 border-b border-[#c9922a]/20 mb-6">
         <span className="text-4xl flex-shrink-0">{meta.deityEmoji}</span>
         <div className="flex-1 min-w-0">
-          <h1 className="font-cinzel text-xl sm:text-3xl font-bold text-[#f0c040] leading-tight truncate">
+          <h1 className="font-cinzel text-xl sm:text-3xl font-bold text-[#8b1a00] leading-tight truncate">
             {meta.title[lang] || meta.title.en}
           </h1>
           <p className="font-cinzel-reg text-[10px] tracking-[2px] uppercase text-[#c9922a]/60 mt-1">
@@ -121,49 +121,11 @@ export default function StotramPage({ params }) {
 
   return (
     <LangProvider>
-      <div className="min-h-screen bg-[#0d0202]">
-        {/* Star canvas — same as home page */}
-        <canvas id="slug-stars" className="fixed inset-0 z-0 pointer-events-none" />
-
-        {/* Mandala background */}
-        <div className="fixed inset-0 z-0 pointer-events-none flex items-center justify-center opacity-[0.03]">
-          <div className="w-[600px] h-[600px] border border-[#c9922a] rounded-full" style={{ animation: 'spin 120s linear infinite' }} />
-          <div className="absolute w-[400px] h-[400px] border border-[#c9922a] rounded-full" style={{ animation: 'spin 80s linear infinite reverse' }} />
-          <div className="absolute w-[200px] h-[200px] border border-[#c9922a] rounded-full" />
-        </div>
-
+      <div className="min-h-screen" style={{ background: '#fdf6e3' }}>
         <Navbar />
         <StotramContent meta={meta} verseData={verseData} />
         <MusicPlayer youtubeId={meta.youtubeId} title={meta.title.en} />
         <AskPandit stotramContext={`${meta.title.en} — ${meta.description.en}`} />
-
-        {/* Star animation script */}
-        <script dangerouslySetInnerHTML={{ __html: `
-          (function() {
-            var canvas = document.getElementById('slug-stars');
-            if (!canvas) return;
-            var ctx = canvas.getContext('2d');
-            var stars = [];
-            function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
-            resize();
-            window.addEventListener('resize', resize);
-            for (var i = 0; i < 180; i++) {
-              stars.push({ x: Math.random()*window.innerWidth, y: Math.random()*window.innerHeight, r: Math.random()*1.2+0.2, phase: Math.random()*Math.PI*2, speed: Math.random()*0.008+0.003 });
-            }
-            var t = 0;
-            function draw() {
-              ctx.clearRect(0,0,canvas.width,canvas.height);
-              t += 0.01;
-              stars.forEach(function(s) {
-                var a = 0.25 + 0.5*Math.sin(s.phase + t*s.speed*10);
-                ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
-                ctx.fillStyle = 'rgba(255,230,170,'+a+')'; ctx.fill();
-              });
-              requestAnimationFrame(draw);
-            }
-            draw();
-          })();
-        `}} />
       </div>
     </LangProvider>
   );

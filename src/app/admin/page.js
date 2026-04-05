@@ -288,13 +288,13 @@ export default function AdminPage() {
           <p className="font-cinzel-reg text-[10px] tracking-[3px] uppercase text-[#e8760a] mb-5">💰 Monetization Status</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { label: 'Site Live on Vercel',  status: '✅', note: 'divya-stotram.vercel.app' },
-              { label: 'Firebase Connected',   status: '✅', note: 'Real-time visitor tracking active' },
-              { label: 'AI Pandit Active',     status: '✅', note: 'Groq API connected and working' },
-              { label: 'AdSense Ready',        status: '✅', note: 'Ad slots placed on all pages' },
-              { label: 'GA4 Analytics',        status: process.env.NEXT_PUBLIC_GA_ID ? '✅' : '⚡', note: process.env.NEXT_PUBLIC_GA_ID ? 'Connected' : 'Add NEXT_PUBLIC_GA_ID in Vercel env vars' },
-              { label: 'Custom Domain',        status: '📅', note: 'Buy divyastotram.com (~$10) then connect to Vercel' },
-              { label: 'Google AdSense',       status: '📅', note: 'Apply after getting consistent traffic (Month 2)' },
+              { label: 'Site Live',          status: '✅', note: 'divyastotram.com is live!' },
+              { label: 'Custom Domain',      status: '✅', note: 'divyastotram.com connected to Vercel' },
+              { label: 'Firebase Tracking',  status: '✅', note: 'Real-time visitors tracked' },
+              { label: 'AI Pandit',          status: '✅', note: 'Groq API working' },
+              { label: 'GA4 Analytics',      status: '✅', note: 'Google Analytics connected' },
+              { label: 'Google Indexed',     status: '✅', note: 'Pages submitted to Search Console' },
+              { label: 'Google AdSense',     status: '📅', note: 'Apply Month 2 after getting traffic' },
             ].map((item, i) => (
               <div key={i} className="bg-[#0d0202] border border-[#c9922a]/15 rounded-lg p-4">
                 <div className="flex items-center gap-2 mb-1">
@@ -312,20 +312,30 @@ export default function AdminPage() {
           <p className="font-cinzel-reg text-[10px] tracking-[3px] uppercase text-[#e8760a] mb-5">🚀 Setup Checklist</p>
           <div className="space-y-3">
             {[
-              ['✅ Site built with Next.js + all stotrams (8 stotrams, 4 languages)',  true],
-              ['✅ Pushed code to GitHub (github.com/skmohanty2628/divya-stotram)',     true],
-              ['✅ Site deployed live on Vercel (divya-stotram.vercel.app)',            true],
-              ['✅ Firebase project created & Realtime Database enabled',               true],
-              ['✅ Firebase keys added to Vercel environment variables',                true],
-              ['✅ Groq AI Pandit chatbot working on live site',                        true],
-              ['✅ About, Contact, Privacy Policy pages added',                         true],
-              ['⚡ NEXT: Get new Groq API key (old one was exposed on GitHub)',        false],
-              ['⚡ NEXT: Change admin password — add NEXT_PUBLIC_ADMIN_PASS in Vercel env vars', false],
-              ['⚡ NEXT: Submit site to Google Search Console → search.google.com/search-console', false],
-              ['⚡ NEXT: Share in WhatsApp groups & Facebook Hindu/Odia groups',       false],
-              ['📅 WEEK 2: Set up Google Analytics 4 — add NEXT_PUBLIC_GA_ID to Vercel', false],
-              ['📅 WEEK 3-4: Buy domain divyastotram.com (~$10/year on GoDaddy)',      false],
-              ['📅 MONTH 2: Apply for Google AdSense (need traffic first)',            false],
+              ['✅ Site built — 8 stotrams, 4 languages (EN/HI/OD/TE)',                true],
+              ['✅ GitHub repo + Vercel deployment live',                               true],
+              ['✅ Custom domain divyastotram.com connected',                           true],
+              ['✅ Firebase live tracking + GA4 Analytics connected',                   true],
+              ['✅ Groq AI Pandit chatbot working',                                     true],
+              ['✅ About, Contact, Privacy Policy pages',                               true],
+              ['✅ New logo + favicon added',                                            true],
+              ['✅ SEO content — What is, Benefits, FAQ for all 8 stotrams',           true],
+              ['✅ Google Search Console verified + sitemap submitted',                  true],
+              ['✅ 9 major pages indexed on Google',                                    true],
+              ['✅ Fixed sitemap URL to divyastotram.com',                              true],
+              ['⚡ TOMORROW: Index 4 remaining pages in Search Console',               false],
+              ['⚡ TOMORROW: /ganesh-aarti, /about, /contact, /privacy-policy',        false],
+              ['🔴 SEO FIX: Remove "use client" from [slug]/page.js — Google cannot read JS-rendered pages', false],
+              ['🔴 SEO FIX: Add per-page meta titles for each stotram page',           false],
+              ['🔴 SEO FIX: Add keywords — "hanuman chalisa odia", "durga stotram telugu meaning"', false],
+              ['📖 ADD MANTRA: Ram Raksha Stotram (very popular, low competition)',    false],
+              ['📖 ADD MANTRA: Shri Suktam (Lakshmi prayer, high searches)',           false],
+              ['📖 ADD MANTRA: Aditya Hridayam (Sun prayer, very popular)',            false],
+              ['📖 ADD MANTRA: Lalitha Sahasranamam (1000 names of Devi)',             false],
+              ['📖 ADD MANTRA: Navagraha Stotram (9 planets prayer, unique niche)',    false],
+              ['📣 THIS WEEK: Share in WhatsApp & Facebook Hindu/Odia groups',         false],
+              ['📅 TARGET: 25+ pages before applying for AdSense (currently 13)',      false],
+              ['📅 MONTH 2: Apply for Google AdSense after consistent traffic',        false],
             ].map(([task, done], i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className={`text-sm mt-0.5 ${done ? 'text-green-500' : 'text-[#c9922a]/40'}`}>

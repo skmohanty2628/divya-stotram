@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://divya-stotram.vercel.app';
+  const baseUrl = 'https://divyastotram.com';
   
   const stotrams = [
     'hanuman-chalisa',

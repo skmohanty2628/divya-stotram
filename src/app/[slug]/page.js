@@ -5,6 +5,7 @@ import VerseCard from '@/components/VerseCard';
 import AdSlot from '@/components/AdSlot';
 import MusicPlayer from '@/components/MusicPlayer';
 import AskPandit from '@/components/AskPandit';
+import StotramInfo from '@/components/StotramInfo';
 import { LangProvider, useLang } from '@/components/LanguageSwitcher';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 import { hanumanChalisa } from '@/data/hanuman-chalisa';
@@ -81,6 +82,9 @@ function StotramContent({ meta, verseData }) {
           </div>
         ))}
       </div>
+
+      {/* Info section — What is, Benefits, FAQ */}
+      <StotramInfo slug={meta.slug} />
 
       {/* Share section */}
       <div className="mt-12 text-center border-t border-[#c9922a]/15 pt-10">

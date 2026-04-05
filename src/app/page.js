@@ -96,6 +96,9 @@ function HomeContent() {
           <span className="font-cinzel-reg text-[11px] tracking-[5px] uppercase text-[#e8760a]">Welcome to</span>
           <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#c9922a]" />
         </div>
+        <div className="flex justify-center mb-6">
+          <img src="/logo.svg" alt="Divya Stotram" width="100" height="100" style={{ borderRadius: '20px' }} />
+        </div>
         <h1 className="font-cinzel text-4xl sm:text-6xl lg:text-7xl font-bold text-[#8b1a00] mb-4 leading-tight"
             style={{ textShadow: '0 2px 8px rgba(139,26,0,0.15)' }}>
           दिव्य स्तोत्रम्

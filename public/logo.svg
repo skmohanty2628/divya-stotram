@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="40" fill="#8b1a00"/>
+  <text x="100" y="115" text-anchor="middle" font-size="90" fill="#f0c040" font-family="serif">ॐ</text>
+  <rect x="30" y="150" width="140" height="2" fill="#c9922a" opacity="0.6"/>
+  <text x="100" y="175" text-anchor="middle" font-size="18" fill="#f0c040" font-family="sans-serif" letter-spacing="3">DIVYA</text>
+</svg>

@@ -33,9 +33,9 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-            <span className="text-2xl">🕉️</span>
-            <span className="font-cinzel text-lg font-bold text-[#8b1a00] hidden sm:block tracking-wider">
+          <Link href="/" className="flex items-center gap-2.5 flex-shrink-0">
+            <img src="/logo.svg" alt="Divya Stotram" width="36" height="36" style={{ borderRadius: '8px' }} />
+            <span className="font-cinzel text-base font-bold text-[#8b1a00] hidden sm:block tracking-wider">
               DIVYA STOTRAM
             </span>
           </Link>

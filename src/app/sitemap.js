@@ -2,6 +2,7 @@ export default function sitemap() {
   const baseUrl = 'https://divyastotram.com';
 
   const stotrams = [
+    // Original 8
     'hanuman-chalisa',
     'durga-stotram',
     'shiva-tandav',
@@ -10,6 +11,12 @@ export default function sitemap() {
     'mahalakshmi-ashtakam',
     'saraswati-vandana',
     'ganesh-aarti',
+    // 5 New
+    'ram-raksha-stotram',
+    'aditya-hridayam',
+    'navagraha-stotram',
+    'aigiri-nandini',
+    'shiv-chalisa',
   ];
 
   const stotramUrls = stotrams.map((slug) => ({

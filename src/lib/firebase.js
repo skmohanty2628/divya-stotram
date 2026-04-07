@@ -3,13 +3,13 @@ import { initializeApp, getApps } from 'firebase/app';
 import { getDatabase, ref, onValue, set, increment, onDisconnect } from 'firebase/database';
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  apiKey:            process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain:        process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  databaseURL:       process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL,
+  projectId:         process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket:     process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
   messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  appId:             process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
 let app;
@@ -59,10 +59,7 @@ function registerPresence(slug) {
   const sessionId = getSessionId();
   const presenceRef = ref(db, `presence/${slug}/${sessionId}`);
 
-  set(presenceRef, {
-    ts: Date.now(),
-    page: slug,
-  });
+  set(presenceRef, { ts: Date.now(), page: slug });
 
   try {
     onDisconnect(presenceRef).remove();
@@ -70,10 +67,7 @@ function registerPresence(slug) {
     console.warn('onDisconnect setup failed:', error);
   }
 
-  const cleanup = () => {
-    set(presenceRef, null).catch(() => {});
-  };
-
+  const cleanup = () => { set(presenceRef, null).catch(() => {}); };
   window.addEventListener('beforeunload', cleanup);
 
   return () => {
@@ -89,27 +83,18 @@ export function trackPageVisit(slug) {
   const sessionId = getSessionId();
   const visitFlagRef = ref(db, `sessionPageViews/${slug}/${sessionId}`);
 
-  onValue(
-    visitFlagRef,
-    (snap) => {
-      if (!snap.exists()) {
-        set(visitFlagRef, { ts: Date.now() });
-        set(ref(db, `pageViews/${slug}`), increment(1));
-        set(ref(db, 'stats/totalVisits'), increment(1));
-      }
-    },
-    {
-      onlyOnce: true,
+  onValue(visitFlagRef, (snap) => {
+    if (!snap.exists()) {
+      set(visitFlagRef, { ts: Date.now() });
+      set(ref(db, `pageViews/${slug}`), increment(1));
+      set(ref(db, 'stats/totalVisits'), increment(1));
     }
-  );
+  }, { onlyOnce: true });
 }
 
 export function watchPagePresence(slug, callback) {
   const db = initFirebase();
-  if (!db) {
-    callback(0);
-    return () => {};
-  }
+  if (!db) { callback(0); return () => {}; }
 
   const cleanupPresence = registerPresence(slug);
   const pagePresenceRef = ref(db, `presence/${slug}`);
@@ -119,27 +104,24 @@ export function watchPagePresence(slug, callback) {
     callback(data ? Object.keys(data).length : 0);
   });
 
-  return () => {
-    cleanupPresence();
-    unsub();
-  };
+  return () => { cleanupPresence(); unsub(); };
+}
+
+// ✅ Combined helper used by StotramClientPage —
+// tracks the visit AND watches live presence count in one call
+export function trackAndWatch(slug, callback) {
+  trackPageVisit(slug);
+  return watchPagePresence(slug, callback);
 }
 
 export function watchLiveTotal(callback) {
   const db = initFirebase();
-  if (!db) {
-    callback(0);
-    return () => {};
-  }
+  if (!db) { callback(0); return () => {}; }
 
   const presenceRef = ref(db, 'presence');
 
   const unsub = onValue(presenceRef, (snap) => {
-    if (!snap.exists()) {
-      callback(0);
-      return;
-    }
-
+    if (!snap.exists()) { callback(0); return; }
     let total = 0;
     snap.forEach((pageSnap) => {
       const pageData = pageSnap.val();
@@ -147,7 +129,6 @@ export function watchLiveTotal(callback) {
         total += Object.keys(pageData).length;
       }
     });
-
     callback(total);
   });
 
@@ -156,33 +137,19 @@ export function watchLiveTotal(callback) {
 
 export function watchTotalVisits(callback) {
   const db = initFirebase();
-  if (!db) {
-    callback(0);
-    return () => {};
-  }
+  if (!db) { callback(0); return () => {}; }
 
   const totalRef = ref(db, 'stats/totalVisits');
-
-  const unsub = onValue(totalRef, (snap) => {
-    callback(snap.val() || 0);
-  });
-
+  const unsub = onValue(totalRef, (snap) => { callback(snap.val() || 0); });
   return unsub;
 }
 
 export function watchPageViews(callback) {
   const db = initFirebase();
-  if (!db) {
-    callback({});
-    return () => {};
-  }
+  if (!db) { callback({}); return () => {}; }
 
   const pageViewsRef = ref(db, 'pageViews');
-
-  const unsub = onValue(pageViewsRef, (snap) => {
-    callback(snap.val() || {});
-  });
-
+  const unsub = onValue(pageViewsRef, (snap) => { callback(snap.val() || {}); });
   return unsub;
 }
 
@@ -191,10 +158,5 @@ export function logSearch(query) {
   if (!db || !query?.trim()) return;
 
   const key = `${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
-  const searchRef = ref(db, `searches/${key}`);
-
-  set(searchRef, {
-    query: query.trim(),
-    ts: Date.now(),
-  });
+  set(ref(db, `searches/${key}`), { query: query.trim(), ts: Date.now() });
 }

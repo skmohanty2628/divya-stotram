@@ -1,0 +1,43 @@
+// ─────────────────────────────────────────────────────────────────────────────
+// STEP 1 — At the BOTTOM of src/data/other-stotrams.js, add this line:
+// ─────────────────────────────────────────────────────────────────────────────
+
+export { ramRakshaStotram, adityaHridayam, navagrahaStotram, aigiriNandini, shivChalisa } from './new-stotrams';
+
+
+// ─────────────────────────────────────────────────────────────────────────────
+// STEP 2 — In src/app/[slug]/page.js, update the VERSE_DATA object to add:
+// ─────────────────────────────────────────────────────────────────────────────
+
+// Add these 5 imports at the top (alongside existing imports from other-stotrams):
+import {
+  durgaStotram,
+  shivaTandav,
+  gayatriMantra,
+  ganeshAarti,
+  saraswatiVandana,
+  mahalakshmiAshtakam,
+  vishnuSahasranamam,
+  ramRakshaStotram,       // ← NEW
+  adityaHridayam,         // ← NEW
+  navagrahaStotram,       // ← NEW
+  aigiriNandini,          // ← NEW
+  shivChalisa,            // ← NEW
+} from '@/data/other-stotrams';
+
+// Then add these 5 entries to the VERSE_DATA object:
+const VERSE_DATA = {
+  'hanuman-chalisa':      hanumanChalisa,
+  'durga-stotram':        durgaStotram,
+  'shiva-tandav':         shivaTandav,
+  'gayatri-mantra':       gayatriMantra,
+  'ganesh-aarti':         ganeshAarti,
+  'saraswati-vandana':    saraswatiVandana,
+  'mahalakshmi-ashtakam': mahalakshmiAshtakam,
+  'vishnu-sahasranamam':  vishnuSahasranamam,
+  'ram-raksha-stotram':   ramRakshaStotram,   // ← NEW
+  'aditya-hridayam':      adityaHridayam,     // ← NEW
+  'navagraha-stotram':    navagrahaStotram,   // ← NEW
+  'aigiri-nandini':       aigiriNandini,      // ← NEW
+  'shiv-chalisa':         shivChalisa,        // ← NEW
+};

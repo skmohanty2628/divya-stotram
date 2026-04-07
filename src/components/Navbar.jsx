@@ -57,6 +57,12 @@ export default function Navbar() {
               className="font-cinzel-reg text-xs tracking-[2px] uppercase text-[#3d1a00]/70 hover:text-[#8b1a00] transition-colors">
               All Stotrams
             </Link>
+
+            {/* Chanting Room — highlighted */}
+            <Link href="/chanting-room"
+              className="font-cinzel-reg text-xs tracking-[2px] uppercase flex items-center gap-1.5 bg-[#c9922a]/10 hover:bg-[#c9922a]/20 border border-[#c9922a]/30 text-[#8b1a00] px-3 py-1.5 rounded-full transition-all">
+              🎙️ Chanting Room
+            </Link>
           </div>
 
           {/* Right side */}
@@ -117,6 +123,18 @@ export default function Navbar() {
         {mobileOpen && (
           <div className="md:hidden fixed inset-0 top-16 z-50" style={{ background: '#fdf6e3' }}>
             <div className="px-6 py-6 space-y-1 overflow-y-auto h-full">
+
+              {/* Chanting Room — top of mobile menu */}
+              <Link href="/chanting-room"
+                onClick={() => setMobileOpen(false)}
+                className="flex items-center gap-3 py-3 px-4 mb-4 bg-[#c9922a]/10 border border-[#c9922a]/30 rounded-xl">
+                <span className="text-2xl">🎙️</span>
+                <div>
+                  <p className="font-cinzel-reg text-sm text-[#8b1a00] font-bold">Chanting Room</p>
+                  <p className="font-garamond text-xs text-[#c9922a]/70">Voice japa mala counter</p>
+                </div>
+              </Link>
+
               <p className="font-cinzel-reg text-[10px] tracking-[4px] uppercase text-[#e8760a]/60 mb-4">All Stotrams</p>
               {STOTRAMS_INDEX.map(s => (
                 <Link key={s.slug} href={`/${s.slug}`}
@@ -129,6 +147,7 @@ export default function Navbar() {
                   </div>
                 </Link>
               ))}
+
               <div className="pt-4 border-t border-[#c9922a]/15 mt-4">
                 <Link href="/about" onClick={() => setMobileOpen(false)} className="block py-3 font-cinzel-reg text-sm text-[#3d1a00]/60">About</Link>
                 <Link href="/contact" onClick={() => setMobileOpen(false)} className="block py-3 font-cinzel-reg text-sm text-[#3d1a00]/60">Contact</Link>

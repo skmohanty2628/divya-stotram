@@ -1,5 +1,4 @@
 export default function sitemap() {
-  // ✅ Fixed: was pointing to old vercel subdomain, now uses real domain
   const baseUrl = 'https://divyastotram.com';
 
   const stotrams = [
@@ -26,6 +25,12 @@ export default function sitemap() {
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1.0,
+    },
+    {
+      url: `${baseUrl}/chanting-room`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/about`,

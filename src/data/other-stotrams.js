@@ -702,3 +702,5 @@ export const STOTRAM_DATA = {
   'mahalakshmi-ashtakam':  mahalakshmiAshtakam,
   'vishnu-sahasranamam':   vishnuSahasranamam,
 };
+
+export { ramRakshaStotram, adityaHridayam, navagrahaStotram, aigiriNandini, shivChalisa } from './new-stotrams';

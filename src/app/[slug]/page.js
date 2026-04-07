@@ -10,6 +10,11 @@ import {
   saraswatiVandana,
   mahalakshmiAshtakam,
   vishnuSahasranamam,
+  ramRakshaStotram,
+  adityaHridayam,
+  navagrahaStotram,
+  aigiriNandini,
+  shivChalisa,
 } from '@/data/other-stotrams';
 import StotramClientPage from './StotramClientPage';
 
@@ -24,6 +29,11 @@ const VERSE_DATA = {
   'saraswati-vandana':    saraswatiVandana,
   'mahalakshmi-ashtakam': mahalakshmiAshtakam,
   'vishnu-sahasranamam':  vishnuSahasranamam,
+  'ram-raksha-stotram':   ramRakshaStotram,
+  'aditya-hridayam':      adityaHridayam,
+  'navagraha-stotram':    navagrahaStotram,
+  'aigiri-nandini':       aigiriNandini,
+  'shiv-chalisa':         shivChalisa,
 };
 
 function getMeta(slug) {
@@ -79,7 +89,6 @@ export default function StotramPage({ params }) {
 
   const verseData = VERSE_DATA[slug] || null;
 
-  // JSON-LD structured data — helps Google understand each page
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',

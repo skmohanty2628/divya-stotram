@@ -1,4 +1,3 @@
-// ─── DURGA STOTRAM ────────────────────────────────────────
 export const durgaStotram = {
   slug: 'durga-stotram',
   verses: [
@@ -249,6 +248,112 @@ export const shivaTandav = {
         te:'నవమేఘం వంటి కంఠం, గంగను ధరించి, అర్ధచంద్రుని ధరించిన జగత్పాలకుడు మనకు సంపద ప్రసాదించుగాక.',
       }
     },
+    {
+      id:9, type:'shloka', num:9,
+      transliteration:'Praphulla Nila Pankaja Prapancha Kalima Prabha\nValambi Kantha Kandali Ruchi Prabaddha Kandaram\nSmarachchhidam Purachchhidam Bhavachchhidam Makhachchhidam\nGajachchhidandhaka Chchhidam Tamantaka Chchhidam Bhaje',
+      original:'प्रफुल्लनीलपंकजप्रपञ्चकालिमप्रभा-वलम्बिकण्ठकन्दलीरुचिप्रबद्धकन्धरम्।\nस्मरच्छिदं पुरच्छिदं भवच्छिदं मखच्छिदं गजच्छिदांधकच्छिदं तमंतकच्छिदं भजे॥',
+      script:{
+        od:'ପ୍ରଫୁଲ୍ଲ ନୀଳ ପଙ୍କଜ ଗ୍ରୀବ ଶୋଭ ଶିବ — ସ୍ମର ଭଞ୍ଜ, ପୁର ଭଞ୍ଜ, ଭବ ଭଞ୍ଜ, ଅଧ ଭଞ୍ଜ, ଗଜ ଭଞ୍ଜ, ଅନ୍ଧ ଭଞ୍ଜ, ଯମ ଭଞ୍ଜ — ତାଙ୍କ ଭଜ।',
+        te:'ప్రఫుల్ల నీళ పంకజ కంఠ శోభ శివ — స్మర ఛేద, పుర ఛేద, భవ ఛేద, మఖ ఛేద, గజ ఛేద, అంధక ఛేద, యమాంతక — తాను భజే॥',
+      },
+      meaning:{
+        en:'I worship Shiva whose dark blue neck shines with the brilliance of blue lotuses — who destroyed Kama (god of love), Tripura (three demon cities), the cycle of birth, the yajna of Daksha, the demon elephant, Andhaka, and even death itself.',
+        hi:'नीले कमल की आभा वाले गले वाले शिव को भजते हैं — जिन्होंने कामदेव, त्रिपुर, संसार, दक्ष यज्ञ, गजासुर, अंधकासुर और मृत्यु तक का नाश किया।',
+        od:'ନୀଳ ପଦ୍ମ ଆଭ ଗ୍ରୀବ ଶିବ — ଯିଏ କାମ, ତ୍ରିପୁର, ଭବ, ଦକ୍ଷ ଯଜ୍ଞ, ଗଜ, ଅଧ, ଯମ ନଷ୍ଟ ।',
+        te:'నీల పద్మ కాంతి కంఠం కల శివుడు — కాముని, త్రిపురాన్ని, సంసారాన్ని, దక్ష యజ్ఞాన్ని, గజాసురుని, అంధకుని, యమునే నాశనం చేశాడు.',
+      }
+    },
+    {
+      id:10, type:'shloka', num:10,
+      transliteration:'Akharva Sarva Mangala Kala Kadamba Manjari\nRasa Pravaha Madhuri Vijrimbhana Madhuvratam\nSmarantakam Purantakam Bhavantakam Makhantakam\nGajantakantakantakam Tamantakantakam Bhaje',
+      original:'अखर्वसर्वमंगला कलाकदम्बमञ्जरी रसप्रवाहमाधुरीविजृम्भणामधुव्रतम्।\nस्मरान्तकं पुरान्तकं भवान्तकं मखान्तकं गजान्तकान्धकान्तकं तमन्तकान्तकं भजे॥',
+      script:{
+        od:'ଅଖର୍ବ ଆଲ ମଞ୍ଜରୀ ରସ ଧ୍ୱନି ଭ୍ରମ ଶିବ — ସ୍ମର ଅନ୍ତ, ପୁର ଅନ୍ତ, ଭବ ଅନ୍ତ — ତାଙ୍କ ଭଜ।',
+        te:'అఖర్వ మంగళ కళ మంజరీ రస ప్రవాహ మాధురి శివ — స్మరాంతక, పురాంతక, భవాంతక, మఖాంతక, గజాంతకాంధకాంతకం తమంతకాంతకం భజే॥',
+      },
+      meaning:{
+        en:'I worship the destroyer of Kama, Tripura, worldly bondage, Daksha\'s yajna, Gajasura, Andhaka, and death — who is also the embodiment of all auspiciousness, art, and the sweet nectar of creation.',
+        hi:'सर्वमंगलमय, सर्व कलाओं से परिपूर्ण शिव को भजते हैं — जो काम, त्रिपुर, भव, यज्ञ, गज, अंधक और काल के नाशक हैं।',
+        od:'ସର୍ବ ମଙ୍ଗଳ, ସର୍ବ କଳ ଶିବ — କାମ, ତ୍ରିପୁ, ଭବ, ଯଜ୍ଞ, ଗଜ, ଅଧ, କାଳ ନ‌ ‌ ‌।',
+        te:'సర్వ మంగళ, సర్వ కళల మాధురి శివుని భజిస్తాను — కాముని, త్రిపురాన్ని, సంసారాన్ని, యజ్ఞాన్ని, గజాన్ని, అంధకుని, మృత్యువునే నాశనం చేసిన వాడు.',
+      }
+    },
+    {
+      id:11, type:'shloka', num:11,
+      transliteration:'Jayatvadabhra Vibhrama Bhramad Bhujanga Masphurat\nDhagad Dhagad Vinirgatat Karala Bhala Havyavat\nDhimid Dhimid Dhimid Dhvanan Mridanga Tunga Mangala\nDhvanikrama Pravartita Prachanda Tandavah Shivah',
+      original:'जयत्वदभ्रविभ्रम भ्रमद्भुजंगमस्फुरद्धगद्धगद्विनिर्गमत्करालभालहव्यवाट्।\nधिमिद्धिमिद्धिमिध्वनन्मृदंगतुंगमंगलध्वनिक्रमप्रवर्तितप्रचण्डताण्डवः शिवः॥',
+      script:{
+        od:'ଜୟ — ଭ୍ରାମ ସର୍ପ ସ୍ଫୁର, ଲଳାଟ ଅଗ୍ନି, ଧିମ ଧିମ ମୃଦଙ୍ଗ — ପ୍ରଚଣ୍ଡ ତାଣ୍ଡବ ଶିବ ଜୟ।',
+        te:'జయతు — భ్రమిస్తున్న పాముల మెరుపు, లళాట అగ్ని ధగ ధగ, ధిమి ధిమి మృదంగ నాదం — ప్రచండ తాండవం శివుడికి జయం॥',
+      },
+      meaning:{
+        en:'Victory to Lord Shiva who performs the fierce Tandava dance — accompanied by the blazing fire from his forehead, the flashing serpents, and the thunderous rhythm of the mridanga drum! Dhimid Dhimid rings the auspicious sound of victory.',
+        hi:'जय शिव! जटाओं में भ्रमण करते सर्प, ललाट से धगधगाती अग्नि, ढिमिढिमि मृदंग की गूंज — प्रचंड तांडव करते शिव की जय!',
+        od:'ଜୟ ଶିବ — ଜଟ ସ‌ ‌ ‌, ‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌ — ‌ ‌ ‌ ‌ ‌।',
+        te:'జయం శివుడికి — జటలో పాముల మెరుపు, నుదుటి అగ్ని ధగ ధగ, ధిమి ధిమి మృదంగ నాదం — ప్రచండ తాండవ నర్తకుడికి జయం!',
+      }
+    },
+    {
+      id:12, type:'shloka', num:12,
+      transliteration:'Drisad Vichitra Talpayor Bhujanga Mauktika Srajor\nGarishtha Ratna Loshthayoh Suhrid Vipaksha Pakshayoh\nTrinaa Ravinda Chakshushah Praja Mahima Hendrayoh\nSamam Pravartayan Manah Kada Sadashivam Bhaje',
+      original:'दृषद्विचित्रतल्पयोर्भुजंगमौक्तिकस्रजोर्गरिष्ठरत्नलोष्ठयोः सुहृद्विपक्षपक्षयोः।\nतृणारविन्दचक्षुषोः प्रजामहीमहेन्द्रयोः समं प्रवर्तयन्मनः कदा सदाशिवं भजे॥',
+      script:{
+        od:'ପଥର ଓ ରତ୍ନ, ଶତ୍ରୁ ଓ ମିତ୍ର, ଘାସ ଓ ପଦ୍ମ — ସ‌ ‌ ‌ ‌ ‌ ‌। ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌?',
+        te:'రాయి రత్నం ఒకటే, శత్రు మిత్రు ఒకటే, గడ్డి పద్మం ఒకటే — ఇలా సమాన దృష్టితో నేను సదాశివుని ఎప్పుడు భజిస్తాను?',
+      },
+      meaning:{
+        en:'When will my mind treat stone and jewel, serpent and pearl-necklace, friend and foe, grass blade and lotus, common people and kings all equally — and thus worship Sadashiva with a truly equanimous and liberated heart?',
+        hi:'पत्थर और रत्न, शत्रु और मित्र, घास और कमल, प्रजा और राजा — सब में समदृष्टि रखते हुए मैं कब सदाशिव को भजूंगा?',
+        od:'‌ ‌ ‌, ‌ ‌ ‌, ‌ ‌ ‌, ‌ ‌ ‌ — ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌?',
+        te:'రాయి-రత్నం, శత్రు-మిత్రు, గడ్డి-పద్మం, ప్రజ-రాజు అన్నింటా సమ దృష్టితో నేను సదాశివుని ఎప్పుడు భజిస్తాను?',
+      }
+    },
+    {
+      id:13, type:'shloka', num:13,
+      transliteration:'Kada Nilimpa Nirjhari Nikunja Kotare Vasan\nVimuktadurmatihi Sada Shirahs Thamanjali Vahan\nVimuktalola Lochano Lalama Bhala Lagnakah\nShiveti Mantramucharan Kada Sukhi Bhavamyaham',
+      original:'कदा निलिम्पनिर्झरी निकुञ्जकोटरे वसन् विमुक्तदुर्मतिः सदा शिरःस्थमञ्जलिं वहन्।\nविमुक्तलोललोचनो ललामभाललग्नकः शिवेति मन्त्रमुच्चरन् कदा सुखी भवाम्यहम्॥',
+      script:{
+        od:'ଗଙ୍ଗ ନିକୁଞ୍ଜ ବାସ, ଦୁର୍ମ ‌ ‌ ‌, ‌ ‌ ‌ ‌ — ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌?',
+        te:'గంగ నికుంజ నివాస, దుర్మతి రహితుడై, శిరస్సుపై చేతులు మోడ్చి — శివ మంత్రం ఉచ్చరించి నేను ఎప్పుడు సుఖపడతాను?',
+      },
+      meaning:{
+        en:'When will I live in a cave near the divine Ganga, free from all evil thoughts, hands always folded in prayer above my head, eyes free from worldly attachment, the sacred mark on my forehead — chanting "Shiva" and when will I truly be happy?',
+        hi:'गंगा के किनारे कुटी में रहते हुए, दुर्बुद्धि से मुक्त, शिर पर अंजलि लिए, लोल नेत्रों से मुक्त, ललाट पर तिलक लगाए — शिव मंत्र जपते हुए मैं कब सुखी होऊंगा?',
+        od:'ଗଙ୍ଗ ‌ ‌ ‌, ‌ ‌ ‌, ‌ ‌ ‌ ‌ — ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌?',
+        te:'గంగ తీరంలో గుహలో నివసిస్తూ, చెడు ఆలోచనలు లేకుండా, శిరస్సుపై చేతులు మోడ్చి — "శివ" మంత్రం జపిస్తూ నేను ఎప్పుడు సుఖపడతాను?',
+      }
+    },
+    {
+      id:14, type:'shloka', num:14,
+      transliteration:'Imam Hi Nityameva Mukta Muttamottamam Stavam\nPathansmaran Bruvannaro Vishuddhimeti Santatam\nHare Gurau Subhaktimashu Yati Nanyatha Gatim\nVimohanam Hi Dehinam Sushankarasya Chintanam',
+      original:'इमं हि नित्यमेव मुक्तमुक्ततमोत्तमं स्तवं पठन्स्मरन्ब्रुवन्नरो विशुद्धिमेति संततम्।\nहरे गुरौ सुभक्तिमाशु याति नान्यथागतिं विमोहनं हि देहिनां सुशंकरस्य चिन्तनम्॥',
+      script:{
+        od:'ଏ ସ୍ତୋ ‌ ‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌ — ‌ ‌ ‌ ‌ ‌ ‌ ‌।',
+        te:'ఈ స్తోత్రం నిత్యం పఠించే, స్మరించే, పలికే వారు శుద్ధి పొంది శివ భక్తి పొందుతారు — వేరే మార్గం అవసరం లేదు.',
+      },
+      meaning:{
+        en:'Whoever reads, remembers, and recites this excellent and liberating hymn daily will attain continuous purification and instantly gain true devotion to Lord Shiva. There is no other path — meditating on Shankara alone removes the illusion binding all souls.',
+        hi:'जो प्रतिदिन इस उत्तम मोक्षकारी स्तोत्र का पाठ, स्मरण और उच्चारण करता है, वह निरंतर विशुद्धि पाता है और शीघ्र शिव भक्ति प्राप्त करता है। शंकर का चिंतन ही जीवों की मोह-मुक्ति का एकमात्र मार्ग है।',
+        od:'ଏ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ — ‌ ‌ ‌ ‌ ‌ ‌ ‌। ‌ ‌ ‌ ‌ ‌ ‌।',
+        te:'ఈ స్తోత్రం రోజూ చదివే, స్మరించే, చెప్పే వారు నిరంతరం శుద్ధి పొందుతారు మరియు వేగంగా శివ భక్తి పొందుతారు. శంకర చింతనమే మోక్షైక మార్గం.',
+      }
+    },
+    {
+      id:15, type:'shloka', num:15,
+      transliteration:'Puja Vasana Samaye Dasha Vaktra Gitam\nYah Shambhu Pujana Param Pathati Pradoshe\nTasya Sthiram Ratha Gajendra Turanga Yuktam\nLakshmim Sadaiva Sumukham Pradadati Shambhuh',
+      original:'पूजावसानसमये दशवक्त्रगीतं यः शम्भुपूजनपरं पठति प्रदोषे।\nतस्य स्थिरां रथगजेन्द्रतुरंगयुक्तां लक्ष्मीं सदैव सुमुखं प्रददाति शम्भुः॥',
+      script:{
+        od:'ଯ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ — ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌।',
+        te:'పూజ ముగింపు సమయంలో రావణుడు పాడిన ఈ స్తోత్రం పఠించే వారికి — శంభుడు రథ గజ తురగాలతో కూడిన స్థిరమైన లక్ష్మిని ప్రసాదిస్తాడు.',
+      },
+      meaning:{
+        en:'This is the Phala Shruti (result of recitation). Whoever recites this hymn — composed by ten-headed Ravana in praise of Shambhu — at the end of Pradosh worship, Lord Shambhu blesses them with stable, permanent Lakshmi (prosperity) complete with chariots, elephants, and horses. This is the promise of Shiva.',
+        hi:'यह फलश्रुति है। जो व्यक्ति प्रदोषकाल में दशानन (रावण) द्वारा गाए इस शंभु स्तोत्र का पाठ करता है — भगवान शंभु उसे रथ, हाथी और घोड़ों सहित स्थायी लक्ष्मी प्रदान करते हैं।',
+        od:'‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ — ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌। ‌ ‌ ‌ ‌।',
+        te:'ఇది ఫల శ్రుతి. రావణుడు పాడిన ఈ స్తోత్రాన్ని ప్రదోష వేళ పఠించే వారికి శంభుడు రథ గజ తురగ సహిత స్థిర లక్ష్మిని ప్రసాదిస్తాడు — ఇది శివుని వరదానం.',
+      }
+    },
+
   ]
 };
 
@@ -320,147 +425,355 @@ export const gayatriMantra = {
 };
 
 // ─── GANESH AARTI ─────────────────────────────────────────
+
 export const ganeshAarti = {
   slug: 'ganesh-aarti',
   verses: [
     {
       id:1, type:'aarti', num:1,
-      original:'जय गणेश जय गणेश, जय गणेश देवा। माता जाकी पार्वती, पिता महादेवा॥',
       transliteration:'Jai Ganesh Jai Ganesh, Jai Ganesh Deva\nMata Jaki Parvati, Pita Mahadeva',
+      original:'जय गणेश जय गणेश, जय गणेश देवा।\nमाता जाकी पार्वती, पिता महादेवा॥',
       script:{
-        od:'ଜୟ ଗଣେଶ ଜୟ ଗଣେଶ, ଜୟ ଗଣେଶ ଦେବ। ମାତ ଜାକୀ ପାର୍ବତୀ, ପିତ ମହାଦେବ॥',
-        te:'జయ గణేశ జయ గణేశ, జయ గణేశ దేవ। మాత జాకీ పార్వతీ, పితా మహాదేవా॥',
+        od:'ଜୟ ଗଣେଶ ଜୟ ଗଣେଶ, ଜୟ ଗଣେଶ ଦେବ।\nମାତ ଜାକୀ ପାର୍ବତୀ, ପିତ ମହାଦେବ॥',
+        te:'జయ గణేశ జయ గణేశ, జయ గణేశ దేవ।\nమాత జాకీ పార్వతీ, పితా మహాదేవా॥',
       },
       meaning:{
-        en:'Victory to Ganesha, Victory to Ganesha! Whose mother is Parvati and whose father is Mahadeva.',
-        hi:'जय गणेश! जिनकी माता पार्वती और पिता महादेव हैं।',
-        od:'ଜୟ ଗଣେଶ! ମାତ ପାର୍ବତୀ, ପିତ ମହାଦେବ।',
-        te:'జయ గణేష్! తల్లి పార్వతి, తండ్రి మహాదేవుడు.',
+        en:'Victory to Ganesha! Whose mother is Parvati and whose father is Mahadeva (Lord Shiva). We bow to this divine son of Shiva who brings auspiciousness to all.',
+        hi:'जय गणेश! जिनकी माता पार्वती और पिता महादेव हैं। शिव के इस दिव्य पुत्र को हम नमन करते हैं।',
+        od:'ଜୟ ଗଣେଶ! ଯାଙ୍କ ମାତ ପାର୍ବତୀ ଏବଂ ପିତ ମହାଦେବ। ଶିବ ଙ୍କ ଦିବ୍ୟ ପୁତ୍ରଙ୍କୁ ଆମ ପ୍ରଣାମ।',
+        te:'జయ గణేష్! తల్లి పార్వతి, తండ్రి మహాదేవుడు. శివుని ఈ దివ్య పుత్రుడికి మనం నమస్కరిస్తాం.',
       }
     },
     {
       id:2, type:'aarti', num:2,
-      original:'एकदन्त दयावन्त, चार भुजाधारी। माथे सिन्दूर सोहे, मूसे की सवारी॥',
       transliteration:'Ek Dant Dayavant, Char Bhuja Dhari\nMathe Sindur Sohe, Muse Ki Savari',
+      original:'एकदन्त दयावन्त, चार भुजाधारी।\nमाथे सिन्दूर सोहे, मूसे की सवारी॥',
       script:{
-        od:'ଏକ ଦନ୍ତ ଦୟାଳ, ଚାର ଭୁଜ ଧାରୀ। ମୁଣ୍ଡ ସିନ୍ଦୂର ଶୋଭ, ମୂଷ ଆରୋହ॥',
-        te:'ఏక దంత దయావంత, చార భుజ ధారీ। మాథే సిందూర సోహే, మూసే కీ సవారీ॥',
+        od:'ଏକ ଦନ୍ତ ଦୟାବନ୍ତ, ଚାର ଭୁଜ ଧାରୀ।\nମୁଣ୍ଡ ସିନ୍ଦୂର ଶୋଭ, ମୂଷ ଆରୋହ॥',
+        te:'ఏక దంత దయావంత, చార భుజ ధారీ।\nమాథే సిందూర సోహే, మూసే కీ సవారీ॥',
       },
       meaning:{
-        en:'Single-tusked, compassionate, four-armed, with sindur adorning the forehead, riding the mouse.',
-        hi:'एकदंत, दयालु, चतुर्भुज, माथे पर सिंदूर शोभित, मूषक पर सवार।',
-        od:'ଏକ ଦନ୍ତ, ଦୟାଳ, ଚତୁର୍ଭୁଜ, ମୁଣ୍ଡ ସିନ୍ଦୁର, ମୂଷ ଆରୋହ।',
-        te:'ఒంటి దంతుడు, దయాళువు, నాలుగు చేతులు, నుదుటిపై సిందూరం, ఎలుకపై సవారి.',
+        en:'Single-tusked, compassionate, four-armed Ganesha, with sindur adorning his forehead, rides his beloved mouse — a symbol of conquering ego and small desires.',
+        hi:'एकदंत, दयालु, चतुर्भुज गणेश के माथे पर सिंदूर शोभित है। वे अपने मूषक पर सवार हैं — अहंकार पर विजय का प्रतीक।',
+        od:'ଏକ ଦନ୍ତ, ଦୟାଳ, ଚତୁର୍ଭୁଜ, ମୁଣ୍ଡ ସିନ୍ଦୂର ଶୋଭ, ମୂଷ ଆରୋହ।',
+        te:'ఒంటి దంతుడు, దయాళువు, నాలుగు చేతుల గణేశుడు, నుదుటిపై సిందూరంతో, ఎలుకపై సవారి.',
       }
     },
     {
       id:3, type:'aarti', num:3,
-      original:'पान चढे फल चढे, और चढे मेवा। लड्डुअन का भोग लगे, संत करें सेवा॥',
       transliteration:'Pan Chahe Phal Chahe, Aur Chahe Meva\nLadduan Ka Bhog Lage, Sant Karen Seva',
+      original:'पान चढ़े फल चढ़े, और चढ़े मेवा।\nलड्डुअन का भोग लगे, संत करें सेवा॥',
       script:{
-        od:'ପାନ ଚଢ଼ ଫଳ ଚଢ଼, ଔ ଚଢ଼ ମେଓ। ଲଡ଼ୁ ଭୋଗ ଲଗ, ସନ୍ଥ ସେବ॥',
-        te:'పాన్ ఎక్కు ఫల ఎక్కు, ఔ ఎక్కు మేవ। లడ్డుయన్ కా భోగ్ లగే, సంత్ కరేన్ సేవ॥',
+        od:'ପାନ ଚଢ ଫଳ ଚଢ, ଔ ଚଢ ମେଓ।\nଲଡ଼ୁ ଭୋଗ ଲଗ, ସନ୍ଥ ସେବ॥',
+        te:'పాన్ చఢే ఫల్ చఢే, ఔ చఢే మేవ।\nలడ్డుయన్ కా భోగ్ లగే, సంత్ కరేన్ సేవ॥',
       },
       meaning:{
-        en:'Betel leaves, fruits and dry fruits are offered. Laddoos are presented as prasad, and saints perform your service.',
-        hi:'पान, फल और मेवा चढ़ाया जाता है। लड्डुओं का भोग लगता है, संत सेवा करते हैं।',
-        od:'ପାନ, ଫଳ, ମେଓ ଅର୍ପଣ। ଲଡ଼ୁ ଭୋଗ, ସନ୍ଥ ସେବ।',
-        te:'తమలపాకులు, పళ్ళు, డ్రైఫ్రూట్స్ సమర్పిస్తారు. లడ్డూ నైవేద్యం, సాధువులు సేవిస్తారు.',
+        en:'Betel leaves, fresh fruits, and dry fruits are offered to Ganesha. Laddoos — his most beloved sweet — are presented as prasad. Saints and devotees joyfully perform his service.',
+        hi:'पान, फल और मेवा अर्पित होता है। प्रिय लड्डुओं का भोग लगाया जाता है। संत भक्तिपूर्वक सेवा करते हैं।',
+        od:'ପାନ, ଫଳ, ମେଓ ଅର୍ପଣ। ପ୍ରିୟ ଲଡ଼ୁ ଭୋଗ। ସନ୍ଥ ଭକ୍ତି ସହ ସେବ।',
+        te:'తమలపాకులు, పళ్ళు, డ్రైఫ్రూట్స్ సమర్పిస్తారు. అభిమాన లడ్డూ నైవేద్యం. సాధువులు భక్తితో సేవ చేస్తారు.',
+      }
+    },
+    {
+      id:4, type:'aarti', num:4,
+      transliteration:'Andhe Ko Aankh Det, Kohde Ko Kaya\nBanjhan Ko Putra Det, Nirdhan Ko Maya',
+      original:'अन्धे को आँख देत, कोढ़े को काया।\nबाँझन को पुत्र देत, निर्धन को माया॥',
+      script:{
+        od:'ଅନ୍ଧ ଆଖ ଦ, ଗ‌ ‌ ‌ ‌।\nବାଝ ପୁତ ଦ, ଧ‌ ‌ ‌ ‌।',
+        te:'అంధే కో ఆంఖ్ దేత్, కోఢే కో కాయ।\nబాంఝన్ కో పుత్ర దేత్, నిర్ధన్ కో మాయ॥',
+      },
+      meaning:{
+        en:'Ganesha grants sight to the blind, cures skin disease, gives sons to the childless, and provides wealth to the poor. He fulfills every wish of his devoted worshippers with his boundless compassion.',
+        hi:'गणेश अंधे को आंखें, रोगी को स्वस्थ काया, निःसंतान को पुत्र और निर्धन को धन देते हैं। अपने भक्तों की हर मनोकामना पूरी करते हैं।',
+        od:'ଗଣେଶ ଅନ୍ଧ‌ ‌ ‌, ‌ ‌ ‌, ‌ ‌ ‌, ‌ ‌ ‌। ‌ ‌ ‌ ‌।',
+        te:'గణేశుడు గుడ్డివారికి దృష్టి, చర్మ వ్యాధిగ్రస్తులకు ఆరోగ్యం, నిస్సంతానులకు పుత్రుడు, పేదలకు సంపద ఇస్తాడు.',
+      }
+    },
+    {
+      id:5, type:'aarti', num:5,
+      transliteration:'Haar Chadhe Phool Chadhe, Aur Chadhe Meva\nLal Chandan Lagaavo, Baje Shankh Seva',
+      original:'हार चढ़े फूल चढ़े, और चढ़े मेवा।\nलाल चंदन लगावो, बजे शंख सेवा॥',
+      script:{
+        od:'ହାର ଚଢ ଫୁଲ ଚଢ, ଔ ଚଢ ମେଓ।\nଲାଲ ଚନ୍ଦନ ଲଗ, ବଜ ଶଙ୍ଖ ସେବ॥',
+        te:'హార్ చఢే ఫూల్ చఢే, ఔ చఢే మేవ।\nలాల్ చందన్ లగావో, బజే శంఖ్ సేవ॥',
+      },
+      meaning:{
+        en:'Garlands and flowers are offered, along with dry fruits. Red sandalwood paste is applied and the conch is blown during worship. The entire atmosphere fills with divine fragrance and sound during Ganesha aarti.',
+        hi:'हार, फूल और मेवा चढ़ाया जाता है। लाल चंदन लगाकर शंख बजाया जाता है। गणेश आरती के समय वातावरण दिव्य सुगंध और ध्वनि से भर जाता है।',
+        od:'ହାର, ଫୁଲ, ମେଓ ଅ‌ ‌ ‌। ‌ ‌ ‌ ‌ ‌। ‌ ‌ ‌ ‌ ‌ ‌।',
+        te:'పుష్పహారాలు, డ్రైఫ్రూట్స్ సమర్పిస్తారు. ఎర్ర చందనం పూసి శంఖం ఊదుతారు. ఆరతి వేళ వాతావరణం దివ్య సుగంధంతో నిండుతుంది.',
+      }
+    },
+    {
+      id:6, type:'aarti', num:6,
+      transliteration:'Jai Jai Ji Ganapati Jagvandan Humara\nSarva Suphal Kijiye Ab Ki Baar Hamara',
+      original:'जय जय जी गणपति जगवन्दन हमारा।\nसर्व सुफल कीजिए अब की बार हमारा॥',
+      script:{
+        od:'ଜୟ ଜୟ ଜୀ ଗଣ‌ ‌ ‌ ‌ ‌।\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌॥',
+        te:'జయ జయ జీ గణపతి జగవందన హమారా।\nసర్వ సుఫల కీజియే అబ్ కీ బార హమారా॥',
+      },
+      meaning:{
+        en:'Victory, Victory to Ganapati — worshipped by the entire world! Please make all our wishes and endeavors fruitful and successful this time. We surrender completely at your divine feet.',
+        hi:'जय जय गणपति! जिन्हें संसार वंदन करता है। इस बार हमारे सभी कार्य सफल करें। आपके चरणों में समर्पित हैं।',
+        od:'ଜୟ ଜୟ ଗଣ‌ ‌ ‌ ‌ ‌। ‌ ‌ ‌ ‌ ‌ ‌ ‌।',
+        te:'జయ జయ గణపతి — జగత్తు మొత్తం పూజించే తండ్రి! ఈసారి మా అన్ని కోరికలూ ఫలించేలా చేయి. మీ పాదాలకు సమర్పిస్తున్నాం.',
+      }
+    },
+    {
+      id:7, type:'aarti', num:7,
+      transliteration:'Deen Jan Ki Laaj Rakho, Shambhu Sutakara\nKamna Purna Karo, Gajanana Umakara',
+      original:'दीन जन की लाज राखो, शम्भु सुतकारा।\nकामना पूर्ण करो, गजानन उमाकारा॥',
+      script:{
+        od:'ଦୀନ ଜ ‌ ‌ ‌ ‌ ‌।\n‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌॥',
+        te:'దీన జన్ కీ లాజ్ రాఖో, శంభు సుత కారా।\nకామనా పూర్ణ కరో, గజానన ఉమాకారా॥',
+      },
+      meaning:{
+        en:'O son of Shambhu (Shiva) and Uma (Parvati), protect the honor of the humble and helpless. O Gajanana (elephant-faced one), fulfill all our heartfelt desires and grant us your blessings.',
+        hi:'हे शंभु-पुत्र, उमा-पुत्र! दीन जनों की लाज रखो। हे गजानन! सभी कामनाएं पूरी करो।',
+        od:'ହ‌ ‌ ‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌ ‌ ‌। ‌ ‌ ‌ ‌ ‌।',
+        te:'ఓ శంభు-పుత్రా, ఉమా-పుత్రా! వినమ్రుల గౌరవం కాపాడు. ఓ గజాననా! మా అన్ని కోరికలూ నెరవేర్చు.',
+      }
+    },
+    {
+      id:8, type:'aarti', num:8,
+      transliteration:'Jai Ganesh Jai Ganesh Deva, Mata Jaki Parvati\nPita Mahadeva, Om Gan Ganpataye Namah',
+      original:'जय गणेश जय गणेश देवा, माता जाकी पार्वती।\nपिता महादेवा। ॐ गं गणपतये नमः॥',
+      script:{
+        od:'ଜୟ ଗଣେଶ ଜୟ ଗଣେଶ ଦେବ, ମାତ ଜାକୀ ପାର୍ବତୀ।\nପିତ ମହାଦେବ। ଓଁ ଗଂ ଗଣ‌ ‌ ‌ ‌ ‌॥',
+        te:'జయ గణేశ జయ గణేశ దేవ, మాత జాకీ పార్వతీ।\nపితా మహాదేవా। ఓం గం గణపతయే నమః॥',
+      },
+      meaning:{
+        en:'Victory to Ganesha! Mother is Parvati, Father is Mahadeva. We end the aarti with the Ganesha beej mantra — Om Gam Ganapataye Namah — seeking his eternal blessings for all our endeavors.',
+        hi:'जय गणेश! माता पार्वती, पिता महादेव। आरती का समापन गणेश बीज मंत्र से करते हैं — ॐ गं गणपतये नमः।',
+        od:'ଜୟ ଗଣେଶ! ‌ ‌ ‌ ‌, ‌ ‌ ‌। ‌ ‌ ‌ ‌ ‌ ‌ — ‌ ‌ ‌ ‌ ‌ ‌।',
+        te:'జయ గణేష్! తల్లి పార్వతి, తండ్రి మహాదేవుడు. ఆరతి ముగింపు గణేశ బీజ మంత్రంతో — ఓం గం గణపతయే నమః.',
       }
     },
   ]
 };
 
-// ─── SARASWATI VANDANA ────────────────────────────────────
 export const saraswatiVandana = {
   slug: 'saraswati-vandana',
   verses: [
     {
       id:1, type:'shloka', num:1,
-      original:'या कुन्देन्दुतुषारहारधवला या शुभ्रवस्त्रावृता। या वीणावरदण्डमण्डितकरा या श्वेतपद्मासना॥',
       transliteration:'Ya Kunda Indu Tusara Hara Dhavala Ya Shubhra Vastra Avrita\nYa Vina Vara Danda Manditakara Ya Shveta Padmasana',
+      original:'या कुन्देन्दुतुषारहारधवला या शुभ्रवस्त्रावृता।\nया वीणावरदण्डमण्डितकरा या श्वेतपद्मासना॥',
       script:{
-        od:'ଯା କୁନ୍ଦ ଇନ୍ଦୁ ତୁଷାର ହାର ଧବଳ ଯା ଶୁଭ୍ର ବସ୍ତ୍ର ଆବୃତ। ଯା ବୀଣ ବର ଦଣ୍ଡ ମଣ୍ଡିତ କର ଯା ଶ୍ୱେତ ପଦ୍ମ ଆସନ॥',
-        te:'యా కుంద ఇందు తుషార హార ధవళ యా శుభ్ర వస్త్ర ఆవృత। యా వీణ వర దండ మండిత కర యా శ్వేత పద్మ ఆసన॥',
+        od:'ଯା କୁନ୍ଦ ଇନ୍ଦୁ ତୁଷାର ହାର ଧବଳ ଯା ଶୁଭ୍ର ବସ୍ତ୍ର ଆବୃତ।\nଯା ବୀଣ ବର ଦଣ୍ଡ ମଣ୍ଡିତ କର ଯା ଶ୍ୱେତ ପଦ୍ମ ଆସନ॥',
+        te:'యా కుంద ఇందు తుషార హార ధవళ యా శుభ్ర వస్త్ర ఆవృత।\nయా వీణ వర దండ మండిత కర యా శ్వేత పద్మ ఆసన॥',
       },
       meaning:{
-        en:'She who is as white as the kunda flower, the moon, and snow; who is draped in white garments; whose hands are adorned with the beautiful veena; who sits on a white lotus.',
-        hi:'जो कुंद, चंद्रमा और बर्फ की तरह सफेद हैं, श्वेत वस्त्रों में आवृत, वीणा धारण किए, श्वेत कमल पर आसीन।',
-        od:'ଯାହା କୁନ୍ଦ, ଚନ୍ଦ୍ର ଓ ତୁଷାର ଭଳି ଶ୍ୱେତ, ଶ୍ୱେତ ବସ୍ତ୍ର, ବୀଣ ଧାରଣ, ଶ୍ୱେତ ପଦ୍ମ ଆସନ।',
-        te:'కుంద పువ్వు, చంద్రుడు, మంచు వలె తెల్లనైనది; తెల్లని వస్త్రాలు ధరించి; వీణ పట్టుకుని; తెల్లని తామరపై కూర్చున్నది.',
+        en:'She who is as white as the kunda flower, the moon, and snow; who is draped in white garments; whose hands are adorned with the beautiful veena; who sits on a white lotus — may that pure Saraswati protect us.',
+        hi:'जो कुंद पुष्प, चंद्रमा और तुषार के समान श्वेत हैं, श्वेत वस्त्र धारण किए हैं, वीणा सुशोभित हाथों वाली हैं, श्वेत कमल पर आसीन हैं।',
+        od:'ଯाহा कুন्দ, ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌, ‌ ‌ ‌, ‌ ‌ ‌।',
+        te:'కుంద పువ్వు, చంద్రుడు, మంచు వలె తెల్లనైనది; తెల్లని వస్త్రాలు; వీణ పట్టుకుని; తెల్లని తామరపై కూర్చున్న సరస్వతి మనలను రక్షించుగాక.',
       }
     },
     {
       id:2, type:'shloka', num:2,
-      original:'या ब्रह्माच्युत शंकरप्रभृतिभिर्देवैः सदा वन्दिता। सा मां पातु सरस्वती भगवती निःशेषजाड्यापहा॥',
       transliteration:'Ya Brahma Achyuta Shankara Prabhritibhi Devai Sada Vandita\nSa Mam Patu Saraswati Bhagavati Nihshesha Jadya Apa Ha',
+      original:'या ब्रह्माच्युत शंकरप्रभृतिभिर्देवैः सदा वन्दिता।\nसा मां पातु सरस्वती भगवती निःशेषजाड्यापहा॥',
       script:{
-        od:'ଯ ବ୍ରହ୍ମ ଅଚ୍ୟୁତ ଶଙ୍କର ଦ୍ୱାର ସଦ ବନ୍ଦ ସରସ୍ୱତୀ — ଜଡ ଦୂର, ମୋ ରକ୍ଷ।',
-        te:'యా బ్రహ్మ అచ్యుత శంకర ప్రభృతిభిర్ దేవైః సదా వందితా। సా మాం పాతు సరస్వతీ భగవతీ నిఃశేష జాడ్యాపహా॥',
+        od:'ଯ ବ୍ରହ୍ମ ଅଚ୍ୟୁତ ଶଙ୍କ‌ ‌ ‌ ‌ ‌ ‌ ‌।\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌॥',
+        te:'యా బ్రహ్మ అచ్యుత శంకర ప్రభృతిభిర్ దేవైః సదా వందితా।\nసా మాం పాతు సరస్వతీ భగవతీ నిఃశేష జాడ్యాపహా॥',
       },
       meaning:{
-        en:'Who is always worshipped by Brahma, Vishnu, and Shankara; may that divine Saraswati who removes all dullness protect me.',
+        en:'She who is always worshipped by Brahma, Vishnu (Achyuta), and Shankara; may that divine Bhagavati Saraswati who completely removes all ignorance and dullness protect me.',
         hi:'जो ब्रह्मा, विष्णु, शंकर आदि देवताओं द्वारा सदा वंदित हैं — वे भगवती सरस्वती सभी जड़ता को दूर कर मेरी रक्षा करें।',
-        od:'ବ୍ରହ୍ମ, ବିଷ୍ଣୁ, ଶଙ୍କ ଦ୍ୱାରା ବନ୍ଦ ସରସ୍ୱତୀ — ଜଡ ଦୂର, ମୋ ରକ୍ଷ।',
-        te:'బ్రహ్మ, విష్ణు, శంకరాది దేవతలచే ఎల్లప్పుడూ పూజింపబడే సరస్వతి భగవతి నన్ను రక్షించుగాక.',
+        od:'ब्रह्म, विष्णु, ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ — ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌।',
+        te:'బ్రహ్మ, విష్ణు, శంకరాది దేవతలచే పూజింపబడే భగవతీ సరస్వతి అన్ని అజ్ఞానాన్ని తొలగించి నన్ను రక్షించుగాక.',
+      }
+    },
+    {
+      id:3, type:'shloka', num:3,
+      transliteration:'Saraswati Namastubhyam Varade Kama Rupini\nVidyarambham Karishyami Siddhir Bhavatu Me Sada',
+      original:'सरस्वती नमस्तुभ्यं वरदे कामरूपिणि।\nविद्यारम्भं करिष्यामि सिद्धिर्भवतु मे सदा॥',
+      script:{
+        od:'ସ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌।\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌॥',
+        te:'సరస్వతి నమస్తుభ్యం వరదే కామ రూపిణి।\nవిద్యారంభం కరిష్యామి సిద్ధిర్భవతు మే సదా॥',
+      },
+      meaning:{
+        en:'Salutations to Saraswati, the giver of boons, who takes the form of our desires. I am beginning my studies — may success and mastery always be mine through your divine grace.',
+        hi:'हे वरदायिनी, कामरूपिणी सरस्वती, आपको नमस्कार। मैं विद्याभ्यास शुरू कर रहा हूं — आपकी कृपा से मुझे सदा सिद्धि मिले।',
+        od:'‌ ‌ ‌ ‌ ‌ ‌ ‌। ‌ ‌ ‌ ‌ ‌ ‌ ‌ — ‌ ‌ ‌ ‌ ‌।',
+        te:'వరదాయిని సరస్వతికి నమస్కారం. నేను విద్యను ప్రారంభిస్తున్నాను — మీ అనుగ్రహంతో నాకు సదా సిద్ధి కలుగుగాక.',
+      }
+    },
+    {
+      id:4, type:'shloka', num:4,
+      transliteration:'Shuklaam Brahmavichara Sara Paramaadyaam Jagadvyapinim\nVeenam Pustaka Dharineem Abhayadam Jaade Shvarim Vande',
+      original:'शुक्लां ब्रह्मविचारसार परमाद्यां जगद्व्यापिनीम्।\nवीणापुस्तकधारिणीम् अभयदां जाड्यान्धकारापहाम्॥',
+      script:{
+        od:'‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌।\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌॥',
+        te:'శుక్లాం బ్రహ్మవిచార సార పరమాద్యాం జగద్వ్యాపినీమ్।\nవీణా పుస్తక ధారిణీమ్ అభయదాం జాడ్యాంధకారాపహామ్॥',
+      },
+      meaning:{
+        en:'She who is white (pure), who is the essence of Brahman contemplation, who pervades the entire universe, who holds the veena and a book, who grants fearlessness, and who destroys the darkness of ignorance — salutations to Saraswati.',
+        hi:'जो श्वेता हैं, ब्रह्म विचार की सार हैं, जगत में व्याप्त हैं, वीणा और पुस्तक धारण करती हैं, अभय देती हैं और अज्ञान रूपी अंधकार को हरती हैं — सरस्वती को नमन।',
+        od:'‌ ‌ ‌ ‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌ ‌ ‌ ‌ — ‌ ‌ ‌ ‌।',
+        te:'శ్వేతరూపిణి, బ్రహ్మ విచార సారం, జగమంతా వ్యాపించిన, వీణా పుస్తక ధారిణి, అభయదాత్రి, అజ్ఞాన అంధకారాన్ని తొలగించే సరస్వతికి నమస్కారం.',
+      }
+    },
+    {
+      id:5, type:'shloka', num:5,
+      transliteration:'Om Aim Hrim Shrim Saraswatyai Namah\nJaya Jaya Devi Saraswati Mata\nVidya Daan Dijo, Anand Data',
+      original:'ॐ ऐं ह्रीं श्रीं सरस्वत्यै नमः।\nजय जय देवी सरस्वती माता।\nविद्या दान दीजो, आनन्द दाता॥',
+      script:{
+        od:'ॐ ‌ ‌ ‌ ‌ ‌ ‌ ‌।\nଜୟ ‌ ‌ ‌ ‌ ‌।\n‌ ‌ ‌, ‌ ‌ ‌॥',
+        te:'ఓం ఐం హ్రీం శ్రీం సరస్వత్యై నమః।\nజయ జయ దేవి సరస్వతీ మాత।\nవిద్యా దాన్ దీజో, ఆనంద దాత॥',
+      },
+      meaning:{
+        en:'Om — the beej mantra of Saraswati — Aim Hrim Shrim, salutations to Saraswati! Victory, Victory to Devi Saraswati, the divine Mother! Please bestow upon us the gift of knowledge and fill our hearts with eternal joy and wisdom.',
+        hi:'ॐ ऐं ह्रीं श्रीं — सरस्वती बीज मंत्र — नमस्कार। जय जय देवी सरस्वती माता! हमें विद्या का वरदान दो, आनंद प्रदान करो।',
+        od:'‌ ‌ ‌ ‌ ‌ ‌ ‌। ‌ ‌ ‌ ‌ ‌। ‌ ‌ ‌, ‌ ‌।',
+        te:'ఓం సరస్వతి బీజ మంత్రం — నమస్కారం. జయ జయ దేవి సరస్వతి మాత! మాకు జ్ఞాన వరం ఇవ్వు, ఆనందం నింపు.',
+      }
+    },
+    {
+      id:6, type:'shloka', num:6,
+      transliteration:'Saraswati Mahabhage Vidye Kamala Lochane\nVishvaroope Vishaalaakshi Vidyam Dehi Namostute',
+      original:'सरस्वती महाभागे विद्ये कमललोचने।\nविश्वरूपे विशालाक्षि विद्यां देहि नमोऽस्तु ते॥',
+      script:{
+        od:'‌ ‌ ‌ ‌ ‌ ‌ ‌।\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌॥',
+        te:'సరస్వతీ మహాభాగే విద్యే కమల లోచనే।\nవిశ్వ రూపే విశాలాక్షి విద్యాం దేహి నమో\'స్తు తే॥',
+      },
+      meaning:{
+        en:'O Saraswati, the most fortunate, the embodiment of knowledge, with lotus-like eyes, who assumes the form of the whole universe, with large eyes — please grant me knowledge. I bow to you.',
+        hi:'हे महाभागा सरस्वती, विद्यास्वरूपिणी, कमल नेत्री, विश्वरूपे, विशालाक्षी — मुझे विद्या प्रदान करें। आपको नमस्कार।',
+        od:'‌ ‌ ‌ ‌ ‌ ‌ ‌, ‌ ‌ ‌ — ‌ ‌ ‌। ‌ ‌।',
+        te:'మహాభాగ్యమైన సరస్వతి, జ్ఞాన స్వరూపిణి, కమల నేత్రాలు కల, విశ్వ రూపిణి — నాకు జ్ఞానం ప్రసాదించు. మీకు నమస్కారం.',
       }
     },
   ]
 };
 
-// ─── MAHALAKSHMI ASHTAKAM ─────────────────────────────────
 export const mahalakshmiAshtakam = {
   slug: 'mahalakshmi-ashtakam',
   verses: [
     {
       id:1, type:'shloka', num:1,
-      original:'नमस्तेऽस्तु महामाये श्रीपीठे सुरपूजिते। शंखचक्रगदाहस्ते महालक्ष्मि नमोऽस्तु ते॥',
       transliteration:'Namaste Astu Mahamaye Shripeethe Surapujite\nShankha Chakra Gada Haste Mahalakshmi Namo Stu Te',
+      original:'नमस्तेऽस्तु महामाये श्रीपीठे सुरपूजिते।\nशंखचक्रगदाहस्ते महालक्ष्मि नमोऽस्तु ते॥',
       script:{
-        od:'ନମସ୍ତେ ଅସ୍ତୁ ମହାମାୟ ଶ୍ରୀ ପୀଠ ସୁର ପୂଜିତ। ଶଙ୍ଖ ଚକ୍ର ଗଦ ହସ୍ତ ମହାଲକ୍ଷ୍ମୀ ନମୋ ଅସ୍ତୁ ତେ॥',
+        od:'ନମସ୍ତେ ଅସ୍ତୁ ମହାମାୟ ଶ୍ରୀ ପୀଠ ସୁର ପୂଜ। ଶଙ୍ଖ ଚକ୍ର ଗଦ ହ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌॥',
         te:'నమస్తే అస్తు మహామాయ శ్రీ పీఠ సుర పూజిత। శంఖ చక్ర గద హస్త మహాలక్ష్మి నమో అస్తు తే॥',
       },
       meaning:{
-        en:'Salutations to you, O Great Illusion, worshipped by the gods at the sacred seat, holding the conch, disc, and mace. Salutations to Mahalakshmi.',
-        hi:'हे महामाया, देवताओं द्वारा पूजित, शंख-चक्र-गदाधारी महालक्ष्मी को नमस्कार।',
-        od:'ହେ ମହାମାୟ, ଦେବ ପୂଜ, ଶଙ୍ଖ ଚକ୍ର ଗଦ — ମହାଲକ୍ଷ୍ମୀ ନମ।',
-        te:'మహామాయ, దేవతలచే పూజింపబడ్డ, శంఖ చక్ర గద ధరించిన మహాలక్ష్మికి నమస్కారం.',
+        en:'Salutations to you O Great Illusion (Mahamaya), worshipped by all the gods at the sacred seat (Sripitha), holding the conch, discus, and mace in your hands. Salutations to Mahalakshmi.',
+        hi:'हे महामाया, देवताओं द्वारा श्री पीठ पर पूजित, शंख-चक्र-गदाधारी महालक्ष्मी को नमस्कार।',
+        od:'ହ‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌ ‌ — ‌ ‌ ‌ ‌।',
+        te:'మహామాయ, దేవతలచే పూజింపబడిన, శంఖ చక్ర గద ధరించిన మహాలక్ష్మికి నమస్కారం.',
       }
     },
     {
       id:2, type:'shloka', num:2,
-      original:'नमस्ते गरुडारूढे कोलासुरभयंकरि। सर्वपापहरे देवि महालक्ष्मि नमोऽस्तु ते॥',
       transliteration:'Namaste Garuda Rudhe Kolasura Bhayankari\nSarva Papa Hare Devi Mahalakshmi Namo Stu Te',
+      original:'नमस्ते गरुडारूढे कोलासुरभयंकरि।\nसर्वपापहरे देवि महालक्ष्मि नमोऽस्तु ते॥',
       script:{
-        od:'ନମସ୍ତେ ଗରୁଡ ଆରୂଢ, କୋଳାସୁର ଭୟଙ୍କରୀ। ସର୍ବ ପାପ ହର ଦେବୀ ମହାଲକ୍ଷ୍ମୀ ନମ ଅସ୍ତୁ ତେ॥',
-        te:'నమస్తే గరుడ ఆరూఢ, కోళాసుర భయంకరి। సర్వ పాప హర దేవి మహాలక్ష్మి నమో అస్తు తే॥',
+        od:'ନ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌। ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌॥',
+        te:'నమస్తే గరుడ ఆరూఢ కోళాసుర భయంకరి। సర్వ పాప హర దేవి మహాలక్ష్మి నమో అస్తు తే॥',
       },
       meaning:{
-        en:'Salutations to you who rides Garuda, who is terrible to the demon Kola, who removes all sins. Salutations to Mahalakshmi.',
-        hi:'गरुड़ पर सवार, कोलासुर का भय, सर्व पाप हरने वाली महालक्ष्मी को नमस्कार।',
-        od:'ଗରୁଡ ଆରୋହ, କୋଳ ଭୟ, ସର୍ବ ପାପ ହର — ମହାଲକ୍ଷ୍ମୀ ନମ।',
+        en:'Salutations to you who rides Garuda (the divine eagle), who is terrible to the demon Kola, who is the remover of all sins. Salutations to Mahalakshmi — the destroyer of evil and bestower of purity.',
+        hi:'गरुड़ पर सवार, कोलासुर को भय देने वाली, सर्व पाप हरने वाली महालक्ष्मी को नमस्कार।',
+        od:'ଗ‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌, ‌ ‌ ‌ — ‌ ‌ ‌।',
         te:'గరుడ వాహన, కోలాసుర భయంకరి, సర్వ పాప హారిణి మహాలక్ష్మికి నమస్కారం.',
       }
     },
     {
       id:3, type:'shloka', num:3,
-      original:'सर्वज्ञे सर्ववरदे सर्वदुष्टभयंकरि। सर्वदुःखहरे देवि महालक्ष्मि नमोऽस्तु ते॥',
       transliteration:'Sarvajne Sarva Varade Sarva Dushta Bhayankari\nSarva Duhkha Hare Devi Mahalakshmi Namo Stu Te',
+      original:'सर्वज्ञे सर्ववरदे सर्वदुष्टभयंकरि।\nसर्वदुःखहरे देवि महालक्ष्मि नमोऽस्तु ते॥',
       script:{
-        od:'ସର୍ବଜ୍ଞ, ସର୍ବ ବର, ଦୁଷ୍ଟ ଭୟ, ଦୁଃଖ ହର ଦେବୀ ମହାଲକ୍ଷ୍ମୀ ନମ ଅସ୍ତୁ ତେ॥',
+        od:'‌ ‌ ‌, ‌ ‌ ‌, ‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌॥',
         te:'సర్వజ్ఞ, సర్వ వరద, సర్వ దుష్ట భయంకరి, సర్వ దుఃఖ హర దేవి మహాలక్ష్మి నమో అస్తు తే॥',
       },
       meaning:{
-        en:'O Omniscient, giver of all boons, terrible to all evil-doers, remover of all sorrows. Salutations to Mahalakshmi.',
-        hi:'सर्वज्ञ, सर्वदात्री, दुष्टों को भय देने वाली, दुःखहारिणी महालक्ष्मी को नमस्कार।',
-        od:'ସର୍ବଜ୍ଞ, ସର୍ବ ବର, ଦୁଷ୍ଟ ଭୟ, ଦୁଃଖ ହର — ମହାଲକ୍ଷ୍ମୀ ନମ।',
+        en:'O Omniscient one (Sarvajna), giver of all boons, who is terrible to all evil-doers (Sarva Dushta Bhayankari), remover of all sorrows and sufferings. Salutations to Mahalakshmi.',
+        hi:'सर्वज्ञ, सर्व वरदात्री, दुष्टों को भय देने वाली, सभी दुखों को हरने वाली महालक्ष्मी को नमस्कार।',
+        od:'‌ ‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌, ‌ ‌ ‌ — ‌ ‌ ‌।',
         te:'సర్వజ్ఞ, సర్వ వరదాత్రి, దుష్టులకు భయంకరి, దుఃఖ హారిణి మహాలక్ష్మికి నమస్కారం.',
+      }
+    },
+    {
+      id:4, type:'shloka', num:4,
+      transliteration:'Siddhi Buddhi Prade Devi Bhukti Mukti Pradayini\nMantra Moorte Sada Devi Mahalakshmi Namo Stu Te',
+      original:'सिद्धिबुद्धिप्रदे देवि भुक्तिमुक्तिप्रदायिनि।\nमन्त्रमूर्ते सदा देवि महालक्ष्मि नमोऽस्तु ते॥',
+      script:{
+        od:'‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌।\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌॥',
+        te:'సిద్ధి బుద్ధి ప్రదే దేవి భుక్తి ముక్తి ప్రదాయిని।\nమంత్ర మూర్తే సదా దేవి మహాలక్ష్మి నమో అస్తు తే॥',
+      },
+      meaning:{
+        en:'O Goddess who bestows Siddhi (accomplishment) and Buddhi (intelligence), who grants both Bhukti (worldly enjoyment) and Mukti (liberation), who is the embodiment of sacred mantras. Salutations always to Mahalakshmi.',
+        hi:'हे सिद्धि और बुद्धि देने वाली, भुक्ति और मुक्ति प्रदायिनी, मंत्रमूर्ति देवी महालक्ष्मी को सदा नमस्कार।',
+        od:'‌ ‌ ‌ ‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌, ‌ ‌ ‌ — ‌ ‌ ‌।',
+        te:'సిద్ధి బుద్ధి ఇచ్చే, భుక్తి ముక్తి ప్రదాయిని, మంత్ర స్వరూపిణి మహాలక్ష్మికి సదా నమస్కారం.',
+      }
+    },
+    {
+      id:5, type:'shloka', num:5,
+      transliteration:'Adanta Shabda Rahite Devi Aadya Parameshwari\nYogaje Yoga Sambhoote Mahalakshmi Namo Stu Te',
+      original:'आद्यन्तरहिते देवि आद्यशक्ति महेश्वरि।\nयोगजे योगसम्भूते महालक्ष्मि नमोऽस्तु ते॥',
+      script:{
+        od:'‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌।\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌॥',
+        te:'ఆద్యంత రహితే దేవి ఆద్య శక్తి మహేశ్వరి।\nయోగజే యోగ సంభూతే మహాలక్ష్మి నమో అస్తు తే॥',
+      },
+      meaning:{
+        en:'O Devi who has no beginning or end (Adyanta Rahita), O Primal Shakti and Maheshwari, born of Yoga and existing in Yoga. Salutations to Mahalakshmi — the eternal, infinite divine mother of all creation.',
+        hi:'हे आदि-अंत रहित देवी, आद्यशक्ति महेश्वरी, योग से जन्मी योगस्वरूपा — महालक्ष्मी को नमस्कार।',
+        od:'‌ ‌ ‌ ‌, ‌ ‌ ‌, ‌ ‌ — ‌ ‌ ‌।',
+        te:'ఆది అంత లేని దేవి, ఆద్య శక్తి మహేశ్వరి, యోగ జాత — మహాలక్ష్మికి నమస్కారం.',
+      }
+    },
+    {
+      id:6, type:'shloka', num:6,
+      transliteration:'Sthula Sookshma Mahoraatre Mahaashakti Mahodari\nMahapapa Hare Devi Mahalakshmi Namo Stu Te',
+      original:'स्थूलसूक्ष्ममहारौद्रे महाशक्ति महोदरे।\nमहापापहरे देवि महालक्ष्मि नमोऽस्तु ते॥',
+      script:{
+        od:'‌ ‌ ‌ ‌ ‌ ‌ ‌।\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌॥',
+        te:'స్థూల సూక్ష్మ మహా రౌద్రే మహా శక్తి మహోదరే।\nమహా పాప హరే దేవి మహాలక్ష్మి నమో అస్తు తే॥',
+      },
+      meaning:{
+        en:'O Goddess who is both the gross and subtle, both the fierce and the gentle, who has great power and an expansive form, the destroyer of the greatest sins. Salutations always to Mahalakshmi who transcends all dimensions.',
+        hi:'हे स्थूल और सूक्ष्म, महारौद्री, महाशक्ति, महोदरी, महापाप हरने वाली देवी महालक्ष्मी को नमस्कार।',
+        od:'‌ ‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌, ‌ ‌ ‌ — ‌ ‌ ‌।',
+        te:'స్థూల సూక్ష్మ రూపిణి, మహా శక్తి, మహా పాప హారిణి మహాలక్ష్మికి నమస్కారం.',
+      }
+    },
+    {
+      id:7, type:'shloka', num:7,
+      transliteration:'Padma Aasana Sthite Devi Para Brahma Swaroopini\nParameshi Jagan Mata Mahalakshmi Namo Stu Te',
+      original:'पद्मासनस्थिते देवि परब्रह्मस्वरूपिणि।\nपरमेशि जगन्मातर्महालक्ष्मि नमोऽस्तु ते॥',
+      script:{
+        od:'‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌।\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌॥',
+        te:'పద్మాసన స్థితే దేవి పర బ్రహ్మ స్వరూపిణి।\nపరమేశి జగన్మాతర్ మహాలక్ష్మి నమో అస్తు తే॥',
+      },
+      meaning:{
+        en:'O Goddess seated on the lotus (Padmasana), who is the embodiment of Para Brahma (the Supreme Reality), the supreme ruler, the mother of the entire universe (Jagat Mata). Salutations to Mahalakshmi.',
+        hi:'हे कमलासना देवी, परब्रह्मस्वरूपिणी, परमेश्वरी, जगत माता महालक्ष्मी को नमस्कार।',
+        od:'‌ ‌ ‌ ‌, ‌ ‌ ‌, ‌ ‌ — ‌ ‌ ‌।',
+        te:'పద్మాసన స్థిత దేవి, పర బ్రహ్మ స్వరూపిణి, పరమేశి, జగన్మాత మహాలక్ష్మికి నమస్కారం.',
+      }
+    },
+    {
+      id:8, type:'shloka', num:8,
+      transliteration:'Shvetambara Dhare Devi Naanaalankaara Bhooshite\nJagat Sthite Jaganmata Mahalakshmi Namo Stu Te',
+      original:'श्वेताम्बरधरे देवि नानालंकारभूषिते।\nजगत्स्थिते जगन्मातर्महालक्ष्मि नमोऽस्तु ते॥',
+      script:{
+        od:'‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌।\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌॥',
+        te:'శ్వేతాంబర ధరే దేవి నానాలంకార భూషితే।\nజగత్ స్థితే జగన్మాతర్ మహాలక్ష్మి నమో అస్తు తే॥',
+      },
+      meaning:{
+        en:'O Goddess dressed in white garments, adorned with many divine ornaments, who pervades the entire universe, O Mother of all the worlds (Jagat Mata). Salutations to Mahalakshmi — may she grant us prosperity, peace, and liberation.',
+        hi:'हे श्वेत वस्त्र धारिणी, अनेक आभूषणों से सुशोभित, जगत में व्याप्त जगत माता महालक्ष्मी को नमस्कार।',
+        od:'‌ ‌ ‌ ‌, ‌ ‌ ‌ ‌, ‌ ‌ ‌ — ‌ ‌ ‌।',
+        te:'శ్వేతాంబర ధారిణి, దివ్య ఆభరణాలు ధరించిన, సమస్త జగత్తులో వ్యాపించిన జగన్మాత మహాలక్ష్మికి నమస్కారం.',
       }
     },
   ]
 };
 
-// ─── VISHNU SAHASRANAMAM ──────────────────────────────────
 export const vishnuSahasranamam = {
   slug: 'vishnu-sahasranamam',
   verses: [
@@ -702,5 +1015,4 @@ export const STOTRAM_DATA = {
   'mahalakshmi-ashtakam':  mahalakshmiAshtakam,
   'vishnu-sahasranamam':   vishnuSahasranamam,
 };
-
 export { ramRakshaStotram, adityaHridayam, navagrahaStotram, aigiriNandini, shivChalisa } from './new-stotrams';

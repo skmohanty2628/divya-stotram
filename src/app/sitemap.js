@@ -1,9 +1,10 @@
 export default function sitemap() {
+  // ✅ Fixed: was pointing to old vercel subdomain, now uses real domain
   const baseUrl = 'https://divyastotram.com';
-  
+
   const stotrams = [
     'hanuman-chalisa',
-    'durga-stotram', 
+    'durga-stotram',
     'shiva-tandav',
     'gayatri-mantra',
     'vishnu-sahasranamam',
@@ -12,7 +13,7 @@ export default function sitemap() {
     'ganesh-aarti',
   ];
 
-  const stotramUrls = stotrams.map(slug => ({
+  const stotramUrls = stotrams.map((slug) => ({
     url: `${baseUrl}/${slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly',

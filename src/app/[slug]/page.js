@@ -1,3 +1,4 @@
+// ✅ SERVER COMPONENT — no 'use client' here
 import { notFound } from 'next/navigation';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 import { hanumanChalisa } from '@/data/hanuman-chalisa';
@@ -15,28 +16,22 @@ import StotramClientPage from './StotramClientPage';
 const SITE_URL = 'https://divyastotram.com';
 
 const VERSE_DATA = {
-  'hanuman-chalisa': hanumanChalisa,
-  'durga-stotram': durgaStotram,
-  'shiva-tandav': shivaTandav,
-  'gayatri-mantra': gayatriMantra,
-  'ganesh-aarti': ganeshAarti,
-  'saraswati-vandana': saraswatiVandana,
+  'hanuman-chalisa':      hanumanChalisa,
+  'durga-stotram':        durgaStotram,
+  'shiva-tandav':         shivaTandav,
+  'gayatri-mantra':       gayatriMantra,
+  'ganesh-aarti':         ganeshAarti,
+  'saraswati-vandana':    saraswatiVandana,
   'mahalakshmi-ashtakam': mahalakshmiAshtakam,
-  'vishnu-sahasranamam': vishnuSahasranamam,
+  'vishnu-sahasranamam':  vishnuSahasranamam,
 };
 
 function getMeta(slug) {
   return STOTRAMS_INDEX.find((s) => s.slug === slug);
 }
 
-function getVerseData(slug) {
-  return VERSE_DATA[slug] || null;
-}
-
 export function generateStaticParams() {
-  return STOTRAMS_INDEX.map((item) => ({
-    slug: item.slug,
-  }));
+  return STOTRAMS_INDEX.map((item) => ({ slug: item.slug }));
 }
 
 export async function generateMetadata({ params }) {
@@ -50,40 +45,29 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const pageTitle = `${meta.title?.en || 'Stotram'} | Divya Stotram`;
-  const pageDescription =
-    meta.description?.en ||
-    `Read ${meta.title?.en || 'this stotram'} in multiple languages with meaning, benefits, FAQs, and devotional guidance.`;
-
-  const canonicalUrl = `${SITE_URL}/${slug}`;
-  const ogImage = `${SITE_URL}/og-image.png`;
+  const pageTitle       = `${meta.title?.en || 'Stotram'} | Divya Stotram`;
+  const pageDescription = meta.description?.en ||
+    `Read ${meta.title?.en} in English, Hindi, Odia and Telugu with meaning, benefits and FAQs.`;
+  const canonicalUrl    = `${SITE_URL}/${slug}`;
+  const ogImage         = `${SITE_URL}/og-image.png`;
 
   return {
     title: pageTitle,
     description: pageDescription,
-    alternates: {
-      canonical: canonicalUrl,
-    },
+    alternates: { canonical: canonicalUrl },
     openGraph: {
-      title: pageTitle,
+      title:       pageTitle,
       description: pageDescription,
-      url: canonicalUrl,
-      siteName: 'Divya Stotram',
-      type: 'article',
-      images: [
-        {
-          url: ogImage,
-          width: 1200,
-          height: 630,
-          alt: meta.title?.en || 'Divya Stotram',
-        },
-      ],
+      url:         canonicalUrl,
+      siteName:    'Divya Stotram',
+      type:        'article',
+      images: [{ url: ogImage, width: 1200, height: 630, alt: meta.title?.en }],
     },
     twitter: {
-      card: 'summary_large_image',
-      title: pageTitle,
+      card:        'summary_large_image',
+      title:       pageTitle,
       description: pageDescription,
-      images: [ogImage],
+      images:      [ogImage],
     },
   };
 }
@@ -91,10 +75,41 @@ export async function generateMetadata({ params }) {
 export default function StotramPage({ params }) {
   const { slug } = params;
   const meta = getMeta(slug);
-
   if (!meta) return notFound();
 
-  const verseData = getVerseData(slug);
+  const verseData = VERSE_DATA[slug] || null;
 
-  return <StotramClientPage meta={meta} verseData={verseData} />;
+  // JSON-LD structured data — helps Google understand each page
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: meta.title?.en,
+    description: meta.description?.en,
+    url: `${SITE_URL}/${slug}`,
+    inLanguage: ['en', 'hi', 'or', 'te'],
+    about: {
+      '@type': 'Thing',
+      name: meta.deity,
+      description: `Hindu deity — ${meta.deity}`,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Divya Stotram',
+      url: SITE_URL,
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${SITE_URL}/${slug}`,
+    },
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <StotramClientPage meta={meta} verseData={verseData} />
+    </>
+  );
 }

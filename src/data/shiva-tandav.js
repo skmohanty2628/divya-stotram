@@ -184,7 +184,7 @@ Nipeetapanchasayakam Namannilimpanayakam`,
         od:`ଶିବ ସମସ୍ତ ଅସୁଭକୁ ନାଶ କରନ୍ତି।`,
         te:`శివుడు అన్ని దుష్టులను నశింపజేస్తాడు.`
       }
-    }
+    },
 
 
     {

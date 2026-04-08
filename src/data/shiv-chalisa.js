@@ -64,7 +64,7 @@ export const shivChalisa = {
       transliteration: 'Do Bhuj Char Chaturdash Kiye\nTrinayan Shobhit Tilak Lagaye',
       original: 'दो भुज चार चतुर्दश कीए।\nत्रिनयन शोभित तिलक लगाए॥',
       script: {
-        od: 'ଦୁଇ ଭୁଜ ଚାରି ଚଉଦ  ।\nତ୍ରି      ॥',
+        od: 'ଦୋ ଭୁଜ ଚାରି ଚତୁର୍ଦଶ କୀଏ।\nତ୍ରିନୟନ ଶୋଭିତ ତିଳକ ଲଗାଏ॥',
         te: 'దో భుజ చార చతుర్దశ కియే।\nత్రినయన శోభిత తిలక లగాయే॥',
       },
       meaning: {
@@ -81,13 +81,13 @@ export const shivChalisa = {
       transliteration: 'Akshamal Vanamala Mundamal Dhari\nChandan Mrigamad Sohe Bhaalmahi Bhaari',
       original: 'अक्षमाला वनमाला मुण्डमाला धारी।\nचंदन मृगमद सोहे भाल बिहारी॥',
       script: {
-        od: 'ଅକ୍ଷ      ।\nଚନ୍ଦନ      ॥',
+        od: 'ଅକ୍ଷମାଳ ବନମାଳ ମୁଣ୍ଡମାଳ ଧାରୀ।\nଚନ୍ଦନ ମୃଗମଦ ସୋହେ ଭାଲ ବିହାରୀ॥',
         te: 'అక్షమాల వనమాల ముండమాల ధారీ।\nచందన మృగమద సోహే భాల విహారీ॥',
       },
       meaning: {
         en: `Lord Shiva wears a rosary (Akshamala), a garland of flowers (Vanamala), and a garland of skulls (Mundamala). His forehead shines beautifully with sandalwood paste and musk, the divine wanderer.`,
         hi: 'भगवान शिव अक्षमाला, वनमाला और मुण्डमाला धारण करते हैं। उनके भाल पर चंदन और मृगमद की खुशबू शोभायमान है।',
-        od: 'ଶିବ ଅକ୍ଷ, ବନ ଓ ମୁଣ୍ଡ   ।      ।',
+        od: 'ଶିବ ଅକ୍ଷମାଳ, ବନମାଳ ଓ ମୁଣ୍ଡମାଳ ଧାରଣ କରନ୍ତି। ସେଙ୍କ ଲଳାଟ ଚନ୍ଦନ ଓ ମୃଗ ମଦ ସୁଗନ୍ଧରେ ଶୋଭାୟମାନ।',
         te: 'శివుడు అక్షమాల, వనమాల, ముండమాల ధరిస్తాడు. నుదుటిపై చందనం మరియు కస్తూరి సువాసన శోభిస్తున్నాయి.',
       },
     },
@@ -98,13 +98,13 @@ export const shivChalisa = {
       transliteration: 'Shvetambar Peetambar Baghambar Ange\nSankat Harat Vibhuti Bhooshit Rang',
       original: 'श्वेताम्बर पीताम्बर बाघम्बर अंगे।\nसनकादिक ब्रह्मादिक भूतादिक संगे॥',
       script: {
-        od: 'ଶ୍ୱେତ      ।\nସନ     ॥',
+        od: 'ଶ୍ୱେତାମ୍ବର ପୀତାମ୍ବର ବାଘାମ୍ବର ଅଙ୍ଗେ।\nସନକାଦିକ ବ୍ରହ୍ମାଦିକ ଭୂତାଦିକ ସଙ୍ଗେ॥',
         te: 'శ్వేతాంబర పీతాంబర బాఘాంబర అంగే।\nసనకాదిక బ్రహ్మాదిక భూతాదిక సంగే॥',
       },
       meaning: {
         en: `His divine body is adorned with white, yellow, and tiger-skin garments. He is accompanied by Sanaka and other sages, Brahma and other gods, and all the ghosts and spirits.`,
         hi: 'उनका दिव्य शरीर श्वेत, पीत और व्याघ्राम्बर वस्त्रों से सुशोभित है। सनकादि ऋषि, ब्रह्मादि देव और भूत-प्रेत सब उनके संग रहते हैं।',
-        od: 'ଶ୍ୱେତ,      ।     ।',
+        od: 'ସେଙ୍କ ଦିବ୍ୟ ଶରୀର ଶ୍ୱେତ, ପୀତ ଓ ବ୍ୟାଘ୍ର ଚର୍ମ ବସ୍ତ୍ରରେ ଶୋଭିତ। ସନକାଦି ଋଷି, ବ୍ରହ୍ମାଦି ଦେବ ଓ ଭୂତ ପ୍ରେତ ସଭ ସଙ୍ଗରେ ଥାଆନ୍ତି।',
         te: 'తెల్లని, పీత మరియు పులి చర్మ వస్త్రాలతో దివ్య శరీరం. సనకాది ఋషులు, బ్రహ్మాది దేవతలు, భూత ప్రేతాలు అన్నీ ఆయన వెంట.',
       },
     },

@@ -61,7 +61,7 @@ export const STOTRAMS_INDEX = [
     color: 'from-purple-950 to-violet-950',
     accent: '#9b59b6',
     youtubeId: 'bSOqMqMzN4Q',
-    verseCount: 108,
+    verseCount: 15,
     language: 'Sanskrit',
     featured: false,
   },

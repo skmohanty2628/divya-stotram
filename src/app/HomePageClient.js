@@ -323,41 +323,6 @@ function HomeContent() {
         )}
       </section>
 
-      <section className="mb-16">
-        <div className="bg-white border border-[#c9922a]/20 rounded-2xl p-6 sm:p-8 shadow-sm">
-          <h2 className="font-cinzel text-2xl text-[#8b1a00] font-bold mb-4">
-            Why this helps SEO
-          </h2>
-
-          <div className="grid md:grid-cols-3 gap-4">
-            {[
-              {
-                title: 'Crawlable content',
-                text: 'Your important prayer pages are linked clearly from the homepage.',
-              },
-              {
-                title: 'Search intent match',
-                text: 'Users search for prayer names, meanings, benefits and language versions.',
-              },
-              {
-                title: 'Topical depth',
-                text: 'Better intros, FAQs and related links improve relevance page by page.',
-              },
-            ].map((item) => (
-              <div
-                key={item.title}
-                className="rounded-xl border border-[#c9922a]/15 p-4 bg-[#fffaf1]"
-              >
-                <h3 className="font-cinzel text-lg text-[#8b1a00] font-bold mb-2">
-                  {item.title}
-                </h3>
-                <p className="font-garamond text-base text-[#3d1a00]/80">{item.text}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <footer className="mt-16 pt-8 border-t border-[#c9922a]/20 text-center">
         <p className="font-cinzel text-lg text-[#8b1a00] font-bold mb-4">
           🕉️ OM NAMAH SHIVAYA 🕉️

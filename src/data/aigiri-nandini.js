@@ -1,368 +1,387 @@
-// ─────────────────────────────────────────────────────────────────────────────
-// AIGIRI NANDINI — MAHISHASURA MARDINI STOTRAM
-// Complete 21 verses — English · Hindi · Odia · Telugu
-// Attributed to Adi Shankaracharya | Chandrakala meter
-// ─────────────────────────────────────────────────────────────────────────────
-
 export const aigiriNandini = {
   slug: 'aigiri-nandini',
   verses: [
+
     {
-      id: 'ain-1',
-      type: 'shloka',
-      num: 1,
-      transliteration: 'Ayi Giri Nandini Nandita Medini Vishva Vinodini Nanda Nute\nGiri Vara Vindhya Shirodhini Vaasini Vishnu Vilaasini Jishnu Nute\nBhagavati He Shiti Kantha Kutumbini Bhoori Kutumbini Bhoori Krute\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'अयि गिरिनन्दिनि नन्दितमेदिनि विश्वविनोदिनि नन्दनुते।\nगिरिवरविन्ध्यशिरोऽधिनिवासिनि विष्णुविलासिनि जिष्णुनुते।\nभगवति हे शितिकण्ठकुटुम्बिनि भूरिकुटुम्बिनि भूरिकृते।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ଅୟି ଗିରି ନନ୍ଦିନୀ ନନ୍ଦିତ ମେଦିନୀ ବିଶ୍ୱ ବିନୋଦିନୀ ନନ୍ଦ ନୁତେ।\nଗିରି ବର ବିନ୍ଧ୍ୟ ଶିରୋ ଅଧି ନିବାସିନୀ ବିଷ୍ଣୁ ବିଳାସିନୀ ଜିଷ୍ଣୁ ନୁତେ।\nଭଗବତୀ ହେ ଶିତି କଣ୍ଠ କୁଟୁମ୍ବିନୀ ଭୂରି କୁଟୁମ୍ବିନୀ ଭୂରି କୃତେ।\nଜୟ ଜୟ ହେ ମହିଷ ଅସୁର ମର୍ଦ୍ଦିନୀ ରମ୍ୟ କ ପର୍ଦ୍ଦିନୀ ଶୈଳ ସୁତେ॥',
-        te: 'అయి గిరి నందిని నందిత మేదిని విశ్వ వినోదిని నంద నుతే।\nగిరి వర వింధ్య శిరో అధి నివాసిని విష్ణు విలాసిని జిష్ణు నుతే।\nభగవతి హే శితి కంఠ కుటుంబిని భూరి కుటుంబిని భూరి కృతే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
+      id:1, type:'shloka', num:1,
+      original:`अयि गिरिनन्दिनि नन्दितमेदिनि विश्वविनोदिनि नन्दिनुते
+गिरिवरविन्ध्यशिरोधिनिवासिनि विष्णुविलासिनि जिष्णुनुते॥`,
+      transliteration:`Ayi Giri Nandini Nandita Medini Vishva Vinodini Nandinute
+Giri Vara Vindhya Shirodhi Nivasini Vishnu Vilasini Jishnu Nute`,
+      script:{
+        od:`ଅୟି ଗିରିନନ୍ଦିନୀ ନନ୍ଦିତମେଦିନୀ ବିଶ୍ୱବିନୋଦିନୀ ନନ୍ଦିନୁତେ
+ଗିରିବର ବିନ୍ଧ୍ୟଶିରୋଧିନିବାସିନୀ ବିଷ୍ଣୁବିଲାସିନୀ ଜିଷ୍ଣୁନୁତେ॥`,
+        te:`అయి గిరినందిని నందితమేదిని విశ్వవినోదిని నందినుతే
+గిరివర విన్ధ్యశిరోధినివాసిని విష్ణువిలాసిని జిష్ణునుతే॥`
       },
-      meaning: {
-        en: 'O Daughter of the Mountain who delights the Earth, who entertains the whole Universe, praised by Nanda! You who dwell atop the great Vindhya mountains, beloved of Vishnu, praised by Arjuna! O Goddess, wife of blue-throated Shiva (Neelkantha), of many households and great deeds! Victory, Victory to you — O Mahishasura Mardini, with beautiful matted hair, O Daughter of the Mountain!',
-        hi: 'हे पर्वत पुत्री! हे पृथ्वी को आनंदित करने वाली, विश्व का मनोरंजन करने वाली, नंद द्वारा वंदित! हे विंध्याचल शिखर पर निवास करने वाली, विष्णुप्रिया, अर्जुन वंदित! हे नीलकंठ (शिव) की पत्नी! जय जय हे महिषासुरमर्दिनि, सुंदर जटाधारिणी, शैलपुत्री!',
-        od: 'ହେ ପର୍ବତ ନନ୍ଦିନୀ! ହେ ପୃଥ୍ୱୀ ଆନନ୍ଦ କାରିଣୀ, ବିଶ୍ୱ ବିନୋଦିନୀ! ବିନ୍ଧ୍ୟ ଶୃଙ୍ଗ ନିବାସିନୀ, ବିଷ୍ଣୁ ପ୍ରିୟ! ହେ ନୀଳ କଣ୍ଠ ଶିବ ପ୍ରିୟ! ଜୟ ଜୟ ହେ ମହିଷ ଅସୁର ମର୍ଦ୍ଦିନୀ, ଶୈଳ ସୁତା!',
-        te: 'ఓ పర్వత పుత్రి! భూమిని ఆనందింపజేసే, విశ్వాన్ని వినోదింపజేసే తల్లి! వింధ్య పర్వత శిఖరాన నివసించే, విష్ణుప్రియ! ఓ నీలకంఠ శివుని భార్య! జయ జయ ఓ మహిషాసుర మర్దిని, అందమైన జటాజూటధారి, శైలపుత్రి!',
+      meaning:{
+        en:`O Daughter of the Mountain, who delights the world and is praised by all gods.`,
+        hi:`हे पर्वत की पुत्री, जो संसार को आनंद देती हैं और देवताओं द्वारा स्तुत हैं।`,
+        od:`ହେ ପର୍ବତକନ୍ୟା! ଆପଣ ସମସ୍ତ ଜଗତକୁ ଆନନ୍ଦ ଦିଅନ୍ତି।`,
+        te:`ఓ గిరిపుత్రి! నీవు ప్రపంచానికి ఆనందాన్ని ఇస్తావు.`
+      }
+    },
+
+    {
+      id:2, type:'shloka', num:2,
+      original:`भगवति हे शितिकण्ठकुटुम्बिनि भूरिकुटुम्बिनि भूरिकृते
+जय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥`,
+      transliteration:`Bhagavati He Shitikanta Kutumbini Bhuri Kutumbini Bhurikrite
+Jaya Jaya He Mahishasura Mardini Ramya Kapardini Shaila Sute`,
+      script:{
+        od:`ଭଗବତୀ ହେ ଶିତିକଣ୍ଠକୁଟୁମ୍ବିନୀ ଭୂରିକୁଟୁମ୍ବିନୀ ଭୂରିକୃତେ
+ଜୟ ଜୟ ହେ ମହିଷାସୁରମର୍ଦିନୀ ରମ୍ୟକପର୍ଦିନୀ ଶୈଳସୁତେ॥`,
+        te:`భగవతి హే శితికంఠకుటుంబిని భూరికుటుంబిని భూరికృతే
+జయ జయ హే మహిషాసురమర్దిని రమ్యకపర్దిని శైలసుతే॥`
       },
+      meaning:{
+        en:`Victory to the destroyer of Mahishasura, O daughter of the mountain.`,
+        hi:`हे महिषासुर मर्दिनी, पर्वत की पुत्री, आपको विजय हो।`,
+        od:`ହେ ମହିଷାସୁରମର୍ଦିନୀ! ଆପଣଙ୍କୁ ଜୟ।`,
+        te:`మహిషాసురుని సంహరించిన దేవి, నీకు జయము.`
+      }
+    },
+
+    {
+      id:3, type:'shloka', num:3,
+      original:`अयि जगदम्ब मदम्ब कदम्बवनप्रियवासिनि हासरते
+शिखरि शिरोमणि तुङ्ग हिमालय शृङ्ग निजालय मध्यगते॥`,
+      transliteration:`Ayi Jagadamba Madamba Kadamba Vanapriya Vaasini Haasarate
+Shikhari Shiromani Tunga Himalaya Shringa Nijalaya Madhyagate`,
+      script:{
+        od:`ଅୟି ଜଗଦମ୍ବ ମଦମ୍ବ କଦମ୍ବବନପ୍ରିୟବାସିନୀ ହାସରତେ
+ଶିଖରିଶିରୋମଣି ତୁଙ୍ଗ ହିମାଳୟ ଶୃଙ୍ଗ ନିଜାଳୟ ମଧ୍ୟଗତେ॥`,
+        te:`అయి జగదంబ మదంబ కదంబవనప్రియవాసిని హాసరతే
+శిఖరిశిరోమణి తుంగ హిమాలయ శృంగ నిజాలయ మధ్యగతే॥`
+      },
+      meaning:{
+        en:`O Mother of the Universe, who resides in the Himalayas and delights in divine joy.`,
+        hi:`हे जगदम्बा, जो हिमालय में निवास करती हैं।`,
+        od:`ହେ ଜଗତ ଜନନୀ! ଆପଣ ହିମାଳୟରେ ବାସ କରନ୍ତି।`,
+        te:`ఓ జగదంబ! నీవు హిమాలయంలో నివసిస్తావు.`
+      }
+    },
+
+    {
+      id:4, type:'shloka', num:4,
+      original:`अयि शतखण्ड विकण्डित रुण्ड वितुण्डित शुण्ड गजाधिपते
+रिपुगजगण्ड विदारणचण्ड पराक्रमशुण्ड मृगाधिपते॥`,
+      transliteration:`Ayi Shatakhand Vikhandita Runda Vitundita Shunda Gajadhipate
+Ripu Gaja Ganda Vidarana Chanda Parakrama Shunda Mrigadhipate`,
+      script:{
+        od:`ଅୟି ଶତଖଣ୍ଡ ବିଖଣ୍ଡିତ ରୁଣ୍ଡ ବିତୁଣ୍ଡିତ ଶୁଣ୍ଡ ଗଜାଧିପତେ
+ରିପୁଗଜଗଣ୍ଡ ବିଦାରଣଚଣ୍ଡ ପରାକ୍ରମ ଶୁଣ୍ଡ ମୃଗାଧିପତେ॥`,
+        te:`అయి శతఖండ వికండిత రుండ విటుండిత శుండ గజాధిపతే
+రిపుగజగండ విదారణచండ పరాక్రమ శుండ మృగాధిపతే॥`
+      },
+      meaning:{
+        en:`O fierce Goddess who destroys demons with immense power.`,
+        hi:`हे देवी, जो दुष्टों का नाश करती हैं।`,
+        od:`ହେ ଦେବୀ! ଆପଣ ଦୁଷ୍ଟମାନଙ୍କୁ ନାଶ କରନ୍ତି।`,
+        te:`దుష్టులను సంహరించే దేవి.`
+      }
+    },
+
+    {
+      id:5, type:'shloka', num:5,
+      original:`अयि रणदुर्मद शत्रुवधोदित दुर्धर निर्झर शक्तिभृते
+चतुरविचार धुरीण महाशिव दूतकृत प्रमथाधिपते॥`,
+      transliteration:`Ayi Ranadurmada Shatru Vadodita Durdhara Nirjara Shakti Bhrute`,
+      script:{
+        od:`ଅୟି ରଣଦୁର୍ମଦ ଶତ୍ରୁବଧୋଦିତ ଦୁର୍ଧର ନିର୍ଝର ଶକ୍ତିଭୃତେ॥`,
+        te:`అయి రణదుర్మద శత్రువధోదిత దుర్ధర నిర్జర శక్తిభృతే॥`
+      },
+      meaning:{
+        en:`O Goddess, wielder of immense divine power.`,
+        hi:`हे देवी, जो महान शक्ति धारण करती हैं।`,
+        od:`ହେ ଦେବୀ! ଆପଣ ଅସୀମ ଶକ୍ତିର ଧାରକ।`,
+        te:`అపార శక్తిని కలిగిన దేవి.`
+      }
     },
     {
-      id: 'ain-2',
-      type: 'shloka',
-      num: 2,
-      transliteration: 'Sura Vara Varshini Durdhara Dharshini Durmukha Marshini Harsha Rate\nTri Bhuvana Poshini Shankara Toshini Kilbisha Moshini Ghosha Rate\nDanuja Niroshini Diti Suta Roshini Durmada Shoshini Sindhu Sute\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'सुरवरवर्षिणि दुर्धरधर्षिणि दुर्मुखमर्षिणि हर्षरते।\nत्रिभुवनपोषिणि शंकरतोषिणि किल्बिषमोषिणि घोषरते।\nदनुजनिरोषिणि दितिसुतरोषिणि दुर्मदशोषिणि सिन्धुसुते।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ସୁର ବର ବର୍ଷିଣୀ ଦୁର୍ଧର ଧର୍ଷିଣୀ ଦୁର୍ମୁଖ ମର୍ଷିଣୀ ହର୍ଷ ରତେ।\nତ୍ରି ଭୁବନ ପୋଷିଣୀ ଶଂକର ତୋଷିଣୀ କିଲ୍ବିଷ ମୋଷିଣୀ ଘୋଷ ରତେ।\nଦନୁଜ ନିରୋଷିଣୀ ଦିତି ସୁତ ରୋଷିଣୀ ଦୁର୍ମଦ ଶୋଷିଣୀ ସିନ୍ଧୁ ସୁତେ।\nଜୟ ଜୟ ହେ ମହିଷ ଅସୁର ମର୍ଦ୍ଦିନୀ ରମ୍ୟ କ ପର୍ଦ୍ଦିନୀ ଶୈଳ ସୁତେ॥',
-        te: 'సుర వర వర్షిణి దుర్ధర ధర్షిణి దుర్ముఖ మర్షిణి హర్ష రతే।\nత్రి భువన పోషిణి శంకర తోషిణి కిల్బిష మోషిణి ఘోష రతే।\nదనుజ నిరోషిణి దితి సుత రోషిణి దుర్మద శోషిణి సింధు సుతే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'You who shower blessings on the great gods, who strikes terror into the fierce demons, who suppresses the arrogant, who delights in joy! Who nourishes the three worlds, who pleases Shankara, who steals away sins, who delights in great sound! Who is angered by demons, who angers the sons of Diti, who dries up arrogance, O Daughter of the Ocean! Victory, Victory O Mahishasura Mardini!',
-        hi: 'हे देवताओं पर वर्षा करने वाली, दुर्दांत दुष्टों को दलने वाली, दुर्मुखों को रोकने वाली, हर्ष में रमने वाली! तीनों लोकों की पोषिका, शंकर को प्रसन्न करने वाली, पापों को हरने वाली! जय जय हे महिषासुरमर्दिनि!',
-        od: 'ଦେବ ବର ବର୍ଷଣ, ଦୁଷ୍ଟ ଦର୍ଷଣ, ଦୁର୍ମୁଖ ଦଳନ, ହର୍ଷ ରତ। ତ୍ରି ଭୁବନ ପୋଷ, ଶଂକର ତୋଷ,   । ଜୟ ଜୟ ହେ    !',
-        te: 'దేవతలపై వర్షించే, దుష్టులను దెబ్బతీసే, దుర్ముఖులను అణచే, హర్షంలో తేలే తల్లి! మూడు లోకాలను పోషించే, శంకరుని సంతోషింపజేసే, పాపాలను హరించే తల్లి! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-3',
-      type: 'shloka',
-      num: 3,
-      transliteration: 'Ayi Jagadamba Madamba Kadamba Vana Priya Vaasini Haasa Rate\nShikhari Shiromani Tunga Himalaya Shrunga Nijalaya Madhyagate\nMadhu Madhure Madhu Kaitabha Ganjini Kaitabha Bhanjini Raasa Sute\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'अयि जगदम्ब मदम्ब कदम्ब वनप्रियवासिनि हासरते।\nशिखरिशिरोमणि तुंगहिमालय शृङ्गनिजालय मध्यगते।\nमधुमधुरे मधुकैटभगञ्जिनि कैटभभञ्जिनि राससुते।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ଅୟି ଜଗଦ ଅମ୍ବ ମଦ ଅମ୍ବ କଦମ୍ବ ବନ ପ୍ରିୟ ବାସିନୀ ହାସ ରତେ।\nଶିଖରୀ ଶିରୋ ମଣି ତୁଙ୍ଗ ହିମାଳୟ ଶୃଙ୍ଗ ନିଜ ଆଳୟ ମଧ୍ୟ ଗତେ।\nମଧୁ ମଧୁରେ ମଧୁ କୈଟଭ ଗଞ୍ଜିନୀ କୈଟଭ ଭଞ୍ଜିନୀ ରାସ ସୁତେ।\nଜୟ ଜୟ ହେ ମହିଷ ଅସୁର ମର୍ଦ୍ଦିନୀ ରମ୍ୟ କ ପର୍ଦ୍ଦିନୀ ଶୈଳ ସୁତେ॥',
-        te: 'అయి జగదంబ మదంబ కదంబ వన ప్రియ వాసిని హాస రతే।\nశిఖరి శిరో మణి తుంగ హిమాళయ శృంగ నిజ ఆళయ మధ్య గతే।\nమధు మధురే మధు కైటభ గంజిని కైటభ భంజిని రాస సుతే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'O Mother of the Universe, my Mother! You who love dwelling in the Kadamba forest and smile joyfully! You who reside at the peak of the tall Himalayas, the crest-jewel of mountains! O sweet and beautiful one who destroyed the demons Madhu and Kaitabha! Victory, Victory O Mahishasura Mardini!',
-        hi: 'हे जगदंबा, मेरी माँ! कदंब वन में रहने वाली, सुहासिनी! ऊंचे हिमालय शिखर पर निवास करने वाली! मधु-कैटभ असुरों का नाश करने वाली! जय जय हे महिषासुरमर्दिनि!',
-        od: 'ହେ ଜଗଦ ଅମ୍ବ, ମୋ ଅମ୍ବ! କଦମ୍ବ ବନ ପ୍ରିୟ, ହାସ ରତ! ଉଚ୍ଚ ହିମାଳୟ ଶୃଙ୍ଗ ନିବାସ! ମଧୁ କୈଟଭ ନାଶିନୀ! ଜୟ ଜୟ    !',
-        te: 'ఓ జగదంబ, నా తల్లి! కదంబ వనంలో నివసించే, ప్రసన్న వదన! ఉన్నత హిమాలయ శిఖరాన నివసించే తల్లి! మధు కైటభులను సంహరించిన తల్లి! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-4',
-      type: 'shloka',
-      num: 4,
-      transliteration: 'Ayi Shata Khanda Vikhandita Runda Vitundita Shunda Gajadhipate\nRipu Gaja Ganda Vidarana Chanda Parakrama Shunda Mrigadhipate\nNija Bhuja Danda Nipatita Khanda Vipatita Munda Bhatadhipate\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'अयि शतखण्ड विखण्डितरुण्ड वितुण्डितशुण्ड गजाधिपते।\nरिपुगजगण्ड विदारणचण्ड पराक्रमशुण्ड मृगाधिपते।\nनिजभुजदण्ड निपातितखण्ड विपातितमुण्ड भटाधिपते।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ଅୟି ଶତ ଖଣ୍ଡ ବିଖଣ୍ଡିତ ରୁଣ୍ଡ ବିତୁଣ୍ଡିତ ଶୁଣ୍ଡ ଗଜ ଅଧିପତ।\nରିପୁ ଗଜ ଗଣ୍ଡ ବିଦାରଣ ଚଣ୍ଡ ପରାକ୍ରମ ଶୁଣ୍ଡ ମୃଗ ଅଧିପତ।\nନିଜ ଭୁଜ ଦଣ୍ଡ ନିପାତିତ ଖଣ୍ଡ ବିପାତିତ ମୁଣ୍ଡ ଭଟ ଅଧିପତ।\nଜୟ ଜୟ ହେ ମହିଷ ଅସୁର ମର୍ଦ୍ଦିନୀ ରମ୍ୟ କ ପର୍ଦ୍ଦିନୀ ଶୈଳ ସୁତେ॥',
-        te: 'అయి శత ఖండ విఖండిత రుండ వితుండిత శుండ గజ అధిపత।\nరిపు గజ గండ విదారణ చండ పరాక్రమ శుండ మృగ అధిపత।\nనిజ భుజ దండ నిపాతిత ఖండ విపాతిత ముండ భట అధిపత।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'O Goddess who cuts the trunks of enemy elephants into hundreds of pieces, lord of elephants! With fierce valor you tear open the cheeks of enemy war-elephants, O lion-rider! With your own powerful arms you sever the heads of warrior-commanders! Victory, Victory O Mahishasura Mardini!',
-        hi: 'हे देवी जो शत्रु हाथियों की सूंड सैकड़ों टुकड़ों में काट देती हैं! शत्रु गजराजों के कपोल विदीर्ण करती हैं! अपनी भुजाओं से योद्धाओं के मस्तक काट देती हैं! जय जय हे महिषासुरमर्दिनि!',
-        od: 'ଶତ ଖଣ୍ଡ ଗଜ ଶୁଣ୍ଡ ଛେଦ! ଶତ୍ରୁ ଗଜ ଗଣ୍ଡ ବିଦାର! ଭୁଜ ଦଣ୍ଡ ଭଟ ମୁଣ୍ଡ ପାତ! ଜୟ ଜୟ    !',
-        te: 'శత్రు గజాల తొండాలు వందల ముక్కలు చేసే తల్లి! శత్రు గజాల చెక్కిళ్ళు చీల్చే పరాక్రమ! స్వంత భుజబలంతో యోధుల తలలు నరికే తల్లి! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-5',
-      type: 'shloka',
-      num: 5,
-      transliteration: 'Ayi Rana Durmada Shatru Vadhodita Durdhara Nirjara Shakti Bhrute\nChatura Vichara Dhureena Mahashiva Doota Kruta Pramatha Dhipate\nDurita Durih Duraashaya Durmati Daanava Dute Kritanta Mate\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'अयि रणदुर्मद शत्रुवधोदित दुर्धरनिर्जर शक्तिभृते।\nचतुरविचार धुरीणमहाशिव दूतकृत प्रमथाधिपते।\nदुरितदुरीह दुराशयदुर्मति दानवदुते कृतान्तमते।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ଅୟି ରଣ ଦୁର୍ମଦ ଶତ୍ରୁ ବଧ ଉଦ୍ଦୀତ ଦୁର୍ଧର ନିର୍ଜର ଶକ୍ତି ଭୃତେ।\nଚତୁର ବିଚାର ଧୁରୀଣ ମହ ଶିବ ଦୂତ କୃତ ପ୍ରମଥ ଆଧିପତ।\nଦୁରିତ ଦୁରୀହ ଦୁରାଶୟ ଦୁର୍ମତି ଦାନବ ଦୁତ କୃତ ଅନ୍ତ ମତ।\nଜୟ ଜୟ ହେ ମହିଷ ଅସୁର ମର୍ଦ୍ଦିନୀ ରମ୍ୟ କ ପର୍ଦ୍ଦିନୀ ଶୈଳ ସୁତେ॥',
-        te: 'అయి రణ దుర్మద శత్రు వధ ఉద్దీత దుర్ధర నిర్జర శక్తి భృతే।\nచతుర విచార ధురీణ మహ శివ దూత కృత ప్రమథ ఆధిపత।\nదురిత దురీహ దురాశయ దుర్మతి దానవ దుత కృత అంత మత।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'O Goddess who wields irresistible power, roused by the slaughter of arrogant enemies in battle! You who made Shiva your messenger by wise counsel, lord of the Ganas! Who destroys evil intentions, evil desires, and wicked thoughts of the demons! Victory, Victory O Mahishasura Mardini!',
-        hi: 'हे रण में उत्तेजित, दुर्दांत शक्तिधारिणी! महाशिव को दूत बनाने वाली, प्रमथाधिपति! दुष्ट भावनाओं और दुर्मति दानवों का नाश करने वाली! जय जय हे महिषासुरमर्दिनि!',
-        od: 'ରଣ ଉ     !     !     !     !',
-        te: 'రణంలో ఉద్రేకపడి శత్రువులను సంహరించే అజేయ శక్తి! శివుడిని దూతగా చేసుకున్న చతురమైన తల్లి! దుష్ట సంకల్పాలు, దుర్మతులైన రాక్షసులను నాశనం చేసే తల్లి! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-6',
-      type: 'shloka',
-      num: 6,
-      transliteration: 'Ayi Sharanagata Vairi Vadhu Vara Veera Varabhaya Dayakare\nTri Bhuvana Mastaka Shoola Virodhi Shirodhi Krutamala Shoolakare\nDumidumi Taama Ra Dhundhubhi Naadamaho Mukhareekriuta Ding Makare\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'अयि शरणागत वैरिवधूवर वीरवराभय दायकरे।\nत्रिभुवनमस्तक शूलविरोधि शिरोऽधिकृतामल शूलकरे।\nदुमिदुमितामर धुन्दुभिनादमहो मुखरीकृत दिङ्मकरे।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ଅୟି ଶରଣ ଆଗତ ବୈରି ବଧୂ ବର ବୀର ବର ଅଭୟ ଦାୟ କରେ।\nତ୍ରି ଭୁବନ ମସ୍ତକ ଶୂଳ ବିରୋଧ ଶିରୋ ଅଧି କୃତ ଆମଳ ଶୂଳ କରେ।\nଦୁମି ଦୁମି ତ ଅମର ଧୁନ୍ଦୁଭି ନାଦ ଅହୋ ମୁଖରୀ କୃତ ଦିଙ୍ ମକରେ।\nଜୟ ଜୟ ହେ ମହିଷ ଅସୁର ମର୍ଦ୍ଦିନୀ ରମ୍ୟ କ ପର୍ଦ୍ଦିନୀ ଶୈଳ ସୁତେ॥',
-        te: 'అయి శరణ ఆగత వైరి వధూ వర వీర వర అభయ దాయ కరే।\nత్రి భువన మస్తక శూళ విరోధ శిరో అధి కృత ఆమళ శూళ కరే।\nదుమి దుమి త అమర ధుందుభి నాద అహో ముఖరీ కృత దింగ్ మకరే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'O Goddess who grants fearlessness to the brave and refuge to those who surrender! Who holds the pure trident that pierces the heads of those who oppose the three worlds! Whose divine war drums — Dumidumi — fill all directions with thunderous sound! Victory, Victory O Mahishasura Mardini!',
-        hi: 'हे शरणागतों को अभय देने वाली! त्रिभुवन के शत्रुओं के शिर में शूल चुभाने वाली! देवताओं की दुंदुभी की गूंज से दिशाओं को मुखरित करने वाली! जय जय हे महिषासुरमर्दिनि!',
-        od: 'ଶ      !       !     !     !',
-        te: 'శరణాగతులకు అభయం ఇచ్చే తల్లి! మూడు లోకాల శత్రువుల తలలను శూలంతో ఛేదించే! అమర దుందుభి నాదంతో అన్ని దిక్కులను మారుమోగించే! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-7',
-      type: 'shloka',
-      num: 7,
-      transliteration: 'Ayi Nija Hunkruti Matra Nirakruta Dhumra Vilochana Durmada Shatrau\nSamara Vishoshita Shonita Beeja Samudbhava Shonita Beeja Late\nShiva Shiva Shumbha Nishumbha Mahahava Tarpita Bhoota Pishacha Rate\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'अयि निजहुङ्कृति मात्रनिराकृत धूम्रविलोचन दुर्मदशत्रौ।\nसमरविशोषित शोणितबीज समुद्भवशोणित बीजलते।\nशिव शिव शुम्भ निशुम्भ महाहव तर्पितभूत पिशाचरते।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ଅୟି ନିଜ ହୁଂ କୃତି ମାତ୍ର ନିରାକ୍ରୁତ ଧୂମ୍ର ବିଳୋଚନ ଦୁର୍ମଦ ଶତ୍ରୌ।\nସମର ବିଶୋଷିତ ଶୋଣିତ ବୀଜ ସମୁଦ୍ଭବ ଶୋଣିତ ବୀଜ ଳତ।\nଶିବ ଶିବ ଶୁମ୍ଭ ନିଶୁମ୍ଭ ମହ ଆହବ ତର୍ପିତ ଭୂତ ପିଶାଚ ରତ।\nଜୟ ଜୟ ହେ ମହିଷ ଅସୁର ମର୍ଦ୍ଦିନୀ ରମ୍ୟ କ ପର୍ଦ୍ଦିନୀ ଶୈଳ ସୁତେ॥',
-        te: 'అయి నిజ హుంకృతి మాత్ర నిరాకృత ధూమ్ర విలోచన దుర్మద శత్రౌ।\nసమర విశోషిత శోణిత బీజ సముద్భవ శోణిత బీజ లత।\nశివ శివ శుంభ నిశుంభ మహ ఆహవ తర్పిత భూత పిశాచ రత।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'O Goddess who destroyed the arrogant demon Dhumravilochana with just a single roar! Who in battle dried up and destroyed Raktabija (the demon who multiplied from each drop of blood)! Who in the great battle against Shumbha and Nishumbha satisfied the spirits and ghosts with demon blood! Victory, Victory O Mahishasura Mardini!',
-        hi: 'हे देवी जिन्होंने केवल हुंकार से दुर्मद धूम्रलोचन का नाश किया! रक्तबीज को युद्ध में सोख कर नष्ट किया! शुंभ-निशुंभ युद्ध में भूत-पिशाचों को तृप्त किया! जय जय हे महिषासुरमर्दिनि!',
-        od: 'ଏକ ହୁଂ     !     !     !     !',
-        te: 'ఒక్క హుంకారంతో దుర్మద ధూమ్రవిలోచనుడిని నాశనం చేసిన తల్లి! రక్తబీజుడిని అడగింపజేసిన తల్లి! శుంభ నిశుంభ యుద్ధంలో భూత పిశాచాలను తృప్తిపరచిన తల్లి! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-8',
-      type: 'shloka',
-      num: 8,
-      transliteration: 'Dhanura Nushanga Rana Kshana Sanga Parisphuradanga Natat Katake\nKanaka Pishanga Prushat Kanishanga Rasadbhata Shrunga Hata Batuke\nKruta Chaturanga Bala Kshiti Ranga Ghatad Bahu Ranga Ratat Batuke\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'धनुरनुषङ्ग रणक्षणसङ्ग परिस्फुरदङ्ग नटत्कटके।\nकनकपिशङ्ग पृषत्कनिषङ्ग रसद्भटशृङ्ग हताबटुके।\nकृतचतुरङ्ग बलक्षितिरङ्ग घटद्बहुरङ्ग रटद्बटुके।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ଧନୁ ଅନୁ ଷଙ୍ଗ ରଣ କ୍ଷଣ ସଙ୍ଗ ପରି ସ୍ଫୁରଦ ଅଙ୍ଗ ନଟ   ।\nକନକ ପିଶଙ୍ଗ        ।\nକୃତ ଚତୁ        ।\nଜୟ ଜୟ        ॥',
-        te: 'ధనురను షంగ రణ క్షణ సంగ పరి స్ఫురదంగ నటత్ కటకే।\nకనక పిశంగ పృషత్ కనిషంగ రసద్భట శృంగ హత బటుకే।\nకృత చతురంగ బల క్షితి రంగ ఘటద్ బహు రంగ రటద్ బటుకే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'With your bow in hand, your body shimmering gloriously in the moment of battle, your bracelets dancing and tinkling! Wearing golden-yellow quivers of arrows, while warriors\' horns resound! Arranging the four divisions of the army on the battlefield in many formations! Victory, Victory O Mahishasura Mardini!',
-        hi: 'धनुष लिए, युद्ध के क्षण में दमकते अंगों से नृत्य करते कंगनों के साथ! सुनहरे तरकश में तीर, रणभेरी की गूंज! चतुरंग सेना को रणभूमि पर सजाते हुए! जय जय हे महिषासुरमर्दिनि!',
-        od: 'ଧ      !     !     !     !',
-        te: 'ధనుస్సు పట్టుకుని, యుద్ధ క్షణంలో దేహం మెరుస్తుండగా, కంకణాలు నాట్యమాడుతుండగా! బంగారు అమ్ముల పొదితో, రణభేరి మోగిస్తూ! చతురంగ సేనను రణభూమిలో సర్దుతూ! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-9',
-      type: 'shloka',
-      num: 9,
-      transliteration: 'Jaya Jaya Japya Jaye Jaya Shabda Para Stuti Tat Para Vishva Nute\nJhana Jhana Jhinjhimi Jhing Kruta Nupura Sinjita Mohita Bhoota Pate\nNatita Natardha Natee Nata Naayaka Naatita Naatya Sugana Rate\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'जय जय जप्य जयेजयशब्द परस्तुति तत्परविश्वनुते।\nझणझणझिञ्झिमि झिङ्कृतनूपुर सिञ्जितमोहित भूतपते।\nनटित नटार्ध नटी नट नायक नाटितनाट्य सुगानरते।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ଜୟ ଜୟ ଜପ୍ୟ ଜୟ ଏ ଜୟ ଶବ୍ଦ ପର ସ୍ତୁତି ତତ ପର ବିଶ୍ୱ ନୁତ।\nଝଣ ଝଣ ଝିଞ୍ଝିମି ଝିଙ୍       ।\nନଟିତ       ।\nଜୟ ଜୟ        ॥',
-        te: 'జయ జయ జప్య జయ ఏ జయ శబ్ద పర స్తుతి తత్పర విశ్వ నుత।\nఝణ ఝణ ఝింఝిమి ఝింగ్ కృత నూపుర సింజిత మోహిత భూత పత।\nనటిత నటార్థ నటీ నట నాయక నాటిత నాట్య సుగాన రత।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'Victory! Victory! You are worthy of chanting as "Jaya, Jaya", praised by the entire universe devoted to proclaiming your glory! The sound of your anklets — Jhana Jhana Jhinjhimi — enchants even the lord of all beings! You are the dancer, the dance itself, the female dancer, the male dancer, the dance director — delighting in music and dance! Victory, Victory O Mahishasura Mardini!',
-        hi: 'जय जय! आप जय जय कहकर जपने योग्य हैं, सम्पूर्ण विश्व आपकी स्तुति में लगा है! झण झण झिंझिम की नूपुर ध्वनि भूतपति को मोहित करती है! आप नर्तकी, नर्तक, नायिका और नाट्य का आनंद हैं! जय जय हे महिषासुरमर्दिनि!',
-        od: '   !     !     !     !',
-        te: 'జయ జయ! మీరు జయ జయ అని జపించదగినవారు, విశ్వమంతా మీ కీర్తిని ప్రకటిస్తోంది! మీ అందెల ఝణ ఝణ శబ్దం భూతపతిని సైతం మోహింపజేస్తోంది! నర్తకి, నాయిక, నాట్య రసలోలుడు మీరే! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-10',
-      type: 'shloka',
-      num: 10,
-      transliteration: 'Ayi Sumanah Sumanah Sumanah Sumanah Sumanoha Rakanti Yute\nShrita Rajani Rajani Rajani Rajani Rajani Kara Vaktra Vrute\nSu Nayana Vibhrama Ra Bhramara Bhramara Bhramara Bhramara Adhipate\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'अयि सुमनःसुमनःसुमनः सुमनःसुमनोहरकान्तियुते।\nश्रितरजनी रजनीरजनी रजनीरजनीकर वक्त्रवृते।\nसुनयनविभ्रमर भ्रमरभ्रमर भ्रमरभ्रमराधिपते।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ଅୟି ସୁ ମନ ସୁ ମନ ସୁ ମନ ସୁ ମନ ସୁ ମନୋ    ।\n       ।\n       ।\nଜୟ ଜୟ        ॥',
-        te: 'అయి సు మన సు మన సు మన సు మన సు మనో హర కాంతి యుత।\nశ్రిత రజని రజని రజని రజని రజని కర వక్త్ర వృత।\nసు నయన విభ్రమర భ్రమర భ్రమర భ్రమర భ్రమర ఆధిపత।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'O Goddess adorned with beautiful flowers, endowed with captivating beauty! Your face is surrounded by moonlight (Rajani) upon moonlight, glowing like the moon (Rajanikara)! Your large, roaming, lotus-like eyes are like the queen of bees — the lord of all bees! Victory, Victory O Mahishasura Mardini!',
-        hi: 'हे सुंदर पुष्पों से सजी, मनमोहक कांति युक्त! चंद्रमा जैसे मुखमंडल को चंद्रिका से घेरे! भौंरों की रानी जैसी विशाल चंचल नेत्रों वाली! जय जय हे महिषासुरमर्दिनि!',
-        od: '   !    !    !    !',
-        te: 'సుందర పుష్పాలంకృత, మనోహర కాంతి యుత తల్లి! చంద్రుడి వెన్నెల వలె ముఖం వెలిగిపోయే! తుమ్మెదల రాజు వంటి విశాల చలించే కన్నులు! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-11',
-      type: 'shloka',
-      num: 11,
-      transliteration: 'Sahita Mahahava Malla Matallika Mallita Rallaka Malla Rate\nVirachita Vallika Pallika Mallika Jhillika Bhillika Varga Vrute\nShita Kruta Phulla Samullasita Aruna Tallaja Pallava Sallalite\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'सहितमहाहव मल्लमतल्लिक मल्लितरल्लक मल्लरते।\nविरचितवल्लिक पल्लिकमल्लिक झिल्लिकभिल्लिक वर्गवृते।\nशितकृत फुल्ल समुल्लसितारुण तल्लजपल्लव सल्ललिते।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ସହିତ       ।\n       ।\n       ।\nଜୟ ଜୟ        ॥',
-        te: 'సహిత మహాహవ మల్ల మతల్లిక మల్లిత రల్లక మల్ల రతే।\nవిరచిత వల్లిక పల్లిక మల్లిక ఝిల్లిక భిల్లిక వర్గ వృతే।\nశిత కృత ఫుల్ల సముల్లసిత అరుణ తల్లజ పల్లవ సల్లలితే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'You who delights in the great battle, where mighty warriors wrestle with one another! Surrounded by groups of dancing girls, tribal women, and forest dwellers! Adorned with tender reddish new sprouts, blossoming with the beauty of spring! Victory, Victory O Mahishasura Mardini!',
-        hi: 'महायुद्ध में मल्लयुद्ध में आनंद लेने वाली! नर्तकियों, ग्रामीण महिलाओं और वनवासियों के समूह से घिरी! लाल नव कोंपलों से सुशोभित, वसंत की सुंदरता से खिली! जय जय हे महिषासुरमर्दिनि!',
-        od: '   !    !    !    !',
-        te: 'మహా యుద్ధంలో మల్లయుద్ధ రసికురాలు! నృత్యకత్తెలు, గ్రామీణ మహిళలు, వనవాసుల గుంపుతో చుట్టుముట్టబడిన! అరుణ నవ చిగుళ్ళతో వసంత సౌందర్యంతో విలసిల్లే! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-12',
-      type: 'shloka',
-      num: 12,
-      transliteration: 'Avirala Ganda Galanmada Medura Matta Matanga Jaraja Pate\nTri Bhuvana Bhooshana Bhoota Kalanidhi Roopa Payonidhi Raja Sute\nAyi Sudatee Jana Lalasa Sumana Vadana Jala Chandra Kaladhara Te\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'अविरलगण्ड गलन्मदमेदुर मत्तमतङ्ग जराजपते।\nत्रिभुवनभूषण भूतकलानिधि रूपपयोनिधि राजसुते।\nअयि सुदतीजन लालससुमन वदनजलचन्द्र कलाधरते।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ଅବିରଳ       ।\nତ୍ରି       ।\nଅୟି       ।\nଜୟ ଜୟ        ॥',
-        te: 'అవిరళ గండ గళన్మద మేదుర మత్త మతంగ జరాజ పతే।\nత్రి భువన భూషణ భూత కళానిధి రూప పయోనిధి రాజ సుతే।\nఅయి సుదతీ జన లాళస సుమన వదన జళ చంద్ర కళా ధర తే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'You who are the lord of intoxicated aged elephants with continuous streams of mada flowing down their cheeks! The ornament of the three worlds, the treasure of all arts, an ocean of beauty, daughter of the King! O Goddess whose moon-like face is desired by beautiful-toothed young women! Victory, Victory O Mahishasura Mardini!',
-        hi: 'मदस्रावी मतवाले वृद्ध हाथियों के स्वामी! त्रिभुवन की आभूषण, कलानिधि, रूप-समुद्र, राजकुमारी! सुंदर दाँतों वाली तरुणियों के मुखचंद्र को ललचाने वाली! जय जय हे महिषासुरमर्दिनि!',
-        od: '   !    !    !    !',
-        te: 'మద ప్రవాహం ఉన్న మత్త వృద్ధ గజపతి! త్రిభువన ఆభరణ, కళానిధి, రూప సాగరం, రాజపుత్రి! సుందర దంతాల యువతుల ముఖ చంద్రుని ఆకర్షించే తల్లి! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-13',
-      type: 'shloka',
-      num: 13,
-      transliteration: 'Kamala Dalamala Komala Kanti Kala Kalitamala Bhala Late\nSakala Vilaasa Kalanilayakrama Keli Chalat Kala Hamsa Kule\nAli Kula Sankula Kuvalaya Mandala Maulimidat Bakulaali Kule\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'कमलदलामल कोमलकान्ति कलाकलितामल भाललते।\nसकलविलास कलानिलयक्रम केलिचलत्कल हंसकुले।\nअलिकुलसङ्कुल कुवलयमण्डल मौलिमिलद्बकुलालिकुले।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'କମଳ       ।\n       ।\n       ।\nଜୟ ଜୟ        ॥',
-        te: 'కమళ దళ ఆమళ కోమళ కాంతి కళ కళిత ఆమళ భాళ లతే।\nసకళ విళాస కళా నిళయ క్రమ కేళి చళత్ కళ హంస కులే।\nఆళి కుళ సంకుళ కువళయ మండళ మౌళి మిళద్ బకుళ ఆళి కులే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'Whose forehead is like a pure, tender lotus petal, spotlessly beautiful, decorated with intricate artistry! Whose graceful movements are like a family of elegant swans in all their splendid arts! Whose crown is surrounded by swarms of bees buzzing around a circle of water-lily flowers! Victory, Victory O Mahishasura Mardini!',
-        hi: 'जिनका माथा कोमल, निर्मल कमल दल के समान सुंदर, कलाकारी से अलंकृत! सारी कलाओं में पारंगत, हंसों के समान चाल वाली! कुवलय फूलों के मंडल के चारों ओर मधुमक्खियों से सज्जित! जय जय हे महिषासुरमर्दिनि!',
-        od: '   !    !    !    !',
-        te: 'పద్మ పత్రాల వలె స్వచ్ఛ, కోమల, కళాత్మక లలాటం! హంసల వంటి గంభీర నడకతో సకల కళలు నిలయమైన తల్లి! కువలయ పూల చుట్టూ తుమ్మెదలు వింజామరలు వీసే! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-14',
-      type: 'shloka',
-      num: 14,
-      transliteration: 'Kara Muraleerava Veejita Koojita Lajjita Kokila Manju Mate\nMilita Pulinda Manoha Ragunzhita Ranjita Shaila Nikunja Gate\nNija Gana Bhoota Mahaashaba Reegana Sadguna Sambhruta Keli Tale\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'करमुरलीरव वीजितकूजित लज्जितकोकिल मञ्जुमते।\nमिलितपुलिन्द मनोहरगुञ्जित रञ्जितशैल निकुञ्जगते।\nनिजगणभूत महाशबरीगण सद्गुणसम्भृत केलितले।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'କର       ।\n       ।\n       ।\nଜୟ ଜୟ        ॥',
-        te: 'కర ముళ్ళి రవ వీజిత కూజిత లజ్జిత కోకిల మంజు మతే।\nమిళిత పుళింద మనోహర గుంజిత రంజిత శైళ నికుంజ గతే।\nనిజ గణ భూత మహా శబరీ గణ సద్గుణ సంభ్రుత కేళి తలే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'Whose flute-playing puts the cuckoo to shame with its beauty! Who is adored by the tribal Pulinda people, and wanders through the enchanting forest groves of the mountain! Whose divine attendants are like a great community of tribal women, filled with good virtues and devoted to playful sport! Victory, Victory O Mahishasura Mardini!',
-        hi: 'जिनकी बांसुरी की ध्वनि कोयल को भी लजाती है! पुलिंद जनजाति द्वारा वंदित, पर्वत के सुंदर कुंजों में विचरण करने वाली! जिनके अपने गण बड़े शबरियों के समुदाय हैं! जय जय हे महिषासुरमर्दिनि!',
-        od: '   !    !    !    !',
-        te: 'వేణు గానం కోకిలను సైతం సిగ్గుపడించే! పులింద తెగ వారిచే ఆరాధించబడి, పర్వత కుంజాలలో విహరించే! శబరీ గుంపుల వంటి దివ్య పరివారంతో ఆడుకునే! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-15',
-      type: 'shloka',
-      num: 15,
-      transliteration: 'Kati Tata Peeta Dukula Vichitra Maya Khi Tiraskruta Chandra Ruche\nPranata Sura Sura Maulimanisphura Damshula Sannakha Chandra Ruche\nJita Kanakachala Maulipadoorjita Nirbhara Kunjara Kumbha Kuche\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'कटितटपीत दुकूलविचित्र मयूखतिरस्कृत चन्द्ररुचे।\nप्रणतसुरासुर मौलिमणिस्फुर दंशुलसन्नख चन्द्ररुचे।\nजितकनकाचल मौलिपदोर्जित निर्भरकुञ्जर कुम्भकुचे।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'କଟି       ।\n       ।\n       ।\nଜୟ ଜୟ        ॥',
-        te: 'కటి తట పీత దుకూళ విచిత్ర మయూఖ తిరస్కృత చంద్ర రుచే।\nప్రణత సురాసుర మౌళి మణి స్ఫుర దంశుళ సన్నఖ చంద్ర రుచే।\nజిత కనకాచళ మౌళి పద ఊర్జిత నిర్భర కుంజర కుంభ కుచే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'Whose golden yellow silk garment on the waist outshines the moon\'s beauty with its rays! The gems on the crowns of bowing gods and demons sparkle like crescent-moons on your nails! Your full breasts rival the golden Meru mountain\'s peak! Victory, Victory O Mahishasura Mardini!',
-        hi: 'कमर में पीला वस्त्र जिसकी किरणें चंद्रमा को मात देती हैं! नमन करते देव-असुरों के मुकुट-मणियाँ जिनके नाखूनों पर चंद्र-आभा! सुमेरु की चोटी को मात देने वाले पूर्ण वक्ष! जय जय हे महिषासुरमर्दिनि!',
-        od: '   !    !    !    !',
-        te: 'నడుముపై పీత వస్త్ర కాంతి చంద్రుని మించే! నమస్కరించే దేవాసురుల కిరీట మణులు నఖాలపై చంద్ర ప్రభ! సువర్ణ మేరు శిఖరాన్ని మించే పూర్ణ వక్షస్థలం! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-16',
-      type: 'shloka',
-      num: 16,
-      transliteration: 'Vijita Sahasra Karaika Sahasra Karaika Sahasra Karaika Nute\nKruta Sura Taraka Sangha Rataraka Sangha Rataraka Soonu Sute\nSu Ratha Samadhi Samana Samadhi Samadhi Samadhi Su Jaata Rate\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'विजितसहस्रकरैक सहस्रकर ैकसहस्रकर ैक नुते।\nकृतसुरतारक सङ्घरतारक सङ्घरतारक सूनुसुते।\nसुरथसमाधि समानसमाधि समाधिसमाधि सुजातरते।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ବିଜ       ।\n       ।\n       ।\nଜୟ ଜୟ        ॥',
-        te: 'విజిత సహస్ర కరైక సహస్ర కరైక సహస్ర కరైక నుతే।\nకృత సుర తారక సంఘ రతారక సంఘ రతారక సూను సుతే।\nసురథ సమాధి సమాన సమాధి సమాధి సమాధి సుజాత రతే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'You who are praised by thousands upon thousands upon thousands of hands! Who protected the gods and killed Taraka and his army — O daughter of Taraka\'s killer! Who finds joy in the samadhi (deep meditation) of the king Suradha who was devoted to you! Victory, Victory O Mahishasura Mardini!',
-        hi: 'सहस्र-सहस्र हाथों द्वारा वंदित! देवताओं की रक्षा कर तारकासुर का वध करने वाली! सुरथ राजा के समाधि में आनंदित! जय जय हे महिषासुरमर्दिनि!',
-        od: '   !    !    !    !',
-        te: 'వేల వేల చేతులచే నుతింపబడే! దేవతలను కాపాడి తారకాసురుడిని సంహరించిన! సురథ రాజు సమాధిలో ఆనందించే! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-17',
-      type: 'shloka',
-      num: 17,
-      transliteration: 'Pada Kamalam Karunaanilaye Varivasya Ti Yonudinam Sushive\nAyi Kamale Kamalaanilaye Kamalaanilayah Sa Katham Na Bhavet\nTava Padameva Param Padamitya Nusheelayato Mama Kim Na Shive\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'पदकमलं करुणानिलये वरिवस्यति योऽनुदिनं सुशिवे।\nअयि कमले कमलानिलये कमलानिलयः स कथं न भवेत्।\nतव पदमेव परं पदमित्यनु शीलयतो मम किं न शिवे।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ପଦ       ।\n       ।\n       ।\nଜୟ ଜୟ        ॥',
-        te: 'పద కమళం కరుణా నిళయే వరివస్యతి యో అనుదినం సుశివే।\nఆయి కమళే కమళా నిళయే కమళా నిళయః స కథం న భవేత్।\nతవ పదమేవ పరం పదమిత్యను శీళయతో మమ కిం న శివే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'O auspicious Goddess, O abode of compassion, whoever worships your lotus feet daily — O Kamala (Lakshmi), O abode of lotus — how can he not become the abode of Lakshmi himself? One who meditates only on your feet as the supreme refuge, O Shive — what will he not attain? Victory, Victory O Mahishasura Mardini!',
-        hi: 'हे करुणानिलये, जो नित्य आपके चरण कमलों की सेवा करता है — हे कमले, कमला निलये — वह कमला निलय (लक्ष्मी का निवास) कैसे न बने? आपके पद को ही परम पद मानने वाले को क्या नहीं मिलेगा! जय जय हे महिषासुरमर्दिनि!',
-        od: '   !    !    !    !',
-        te: 'ఓ కరుణా నిలయ, నిత్యం మీ పాద కమలాలు సేవించే వాడు — లక్ష్మీ నివాసం కాకుండా ఎలా ఉంటాడు? మీ పాదమే పరమ పదమని ధ్యానించే వారికి ఏది లభించదు? జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-18',
-      type: 'shloka',
-      num: 18,
-      transliteration: 'Kanaka Lasat Kala Sindhuja Laira Nusinchinute Guna Ranga Bhuvam\nBhajati Sa Kim Na Shachi Pati Saukhyatara Divasa Maagamava Njaa Nubhoom\nTava Charanam Sharanam Karaani Natamara Vaani Nivaasi Shivam\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'कनकलसत्कल सिन्धुजलैरनु सिञ्चिनुतेगुण रङ्गभुवम्।\nभजति स किं न शचीपति सौख्यतरा दिव समागमवाञ्छनुभूम्।\nतव चरणं शरणं करवाणि नतामरवाणि निवासि शिवम्।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'କନକ       ।\n       ।\nତବ       ।\nଜୟ ଜୟ        ॥',
-        te: 'కనక లసత్ కళ సింధు జళైర్ అను సించినుతే గుణ రంగ భువం।\nభజతి స కిం న శచీ పతి సౌఖ్యతరా దివ సమాగమ వాంఛనుభూం।\nతవ చరణం శరణం కరవాణి నతా మర వాణి నివాసి శివం।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'One who sprinkles the ground of virtue with golden ocean waters as an offering — does he not attain the joy of Indra, does he not wish to join the divine assembly? I take refuge at your feet, O Goddess praised by bowing celestials, you who dwell in auspiciousness! Victory, Victory O Mahishasura Mardini!',
-        hi: 'जो सोने के जल से गुण की भूमि को सींचता है — क्या वह इंद्र का सुख नहीं पाता? मैं तुम्हारे चरणों की शरण लेता हूं, हे देवताओं द्वारा वंदित, शिवा! जय जय हे महिषासुरमर्दिनि!',
-        od: '   !    !    !    !',
-        te: 'బంగారు జలంతో గుణ భూమిని సేవించే వాడు ఇంద్ర సౌఖ్యం పొందడా? దేవతలచే నమస్కరించబడే, శివ నివాసిణి అయిన మీ చరణాలను శరణు కోరుతున్నాను! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-19',
-      type: 'shloka',
-      num: 19,
-      transliteration: 'Tava Vimalendu Kulam Vadanendu Malam Sakalam Nanu Koolayate\nKimu Puruhuta Pureendhu Mukhi Sumukhee Bhira Sau Vimukhi Kriyate\nMama Tu Matam Shiva Naama Dhane Bhavati Krupa Ya Kimuta Kriyate\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'तव विमलेन्दुकुलं वदनेन्दुमलं सकलं ननु कूलयते।\nकिमु पुरुहूत पुरीन्दु मुखी सुमुखीभिर सौ विमुखीक्रियते।\nमम तु मतं शिवनामधने भवती कृपयासि यथासि तथानुमितासि रमे।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ତବ       ।\n       ।\n       ।\nଜୟ ଜୟ        ॥',
-        te: 'తవ విమళేందు కుళం వదనేందు మళం సకళం ననూ కూళయతే।\nకిమూ పురుహూత పురీందు ముఖీ సుముఖీభి రసౌ విముఖీ క్రియతే।\nమమ తు మతం శివ నామ ధనే భవతీ కృపయా కిమూత క్రియతే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'Your pure moon-faced lineage puts the full moon to shame completely! Will Indrani (wife of Indra) and other beautiful-faced goddesses really turn away from you? My belief is this — O Goddess rich with Shiva\'s name, what can you not do with your grace? Victory, Victory O Mahishasura Mardini!',
-        hi: 'तुम्हारा निर्मल चंद्र-मुख पूर्ण चंद्र को मात देता है! क्या इंद्राणी जैसी सुंदर मुखी देवियां तुमसे विमुख हो सकती हैं? मेरा विश्वास है — शिव नाम धन वाली देवी कृपा से क्या नहीं कर सकतीं! जय जय हे महिषासुरमर्दिनि!',
-        od: '   !    !    !    !',
-        te: 'మీ నిర్మల చంద్ర ముఖం పూర్ణ చంద్రుని మించే! ఇంద్రాణి వంటి సుముఖులు మీ నుండి విముఖులవుతారా? శివ నామ ధనవంతురాలైన మీరు కృపతో ఏమి చేయలేరు? జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-20',
-      type: 'shloka',
-      num: 20,
-      transliteration: 'Ayi Mayi Deena Dayaalutayaa Kruapayaiva Tvayaa Bhavitavyam Ume\nAyi Jagato Janani Krupayaasi Yathaasi Tathaanu Mitaasi Rame\nYadu Chitama Tra Bhavatyu Rareekuru Taaduru Taapama Paakurute\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'अयि मयि दीनदयालुतया कृपयैव त्वया भवितव्यमुमे।\nअयि जगतो जननी कृपयासि यथासि तथानुमितासि रमे।\nयदुचितमत्र भवत्युररीकुरुतादुरुतापमपाकुरुते।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ଅୟି       ।\n       ।\n       ।\nଜୟ ଜୟ        ॥',
-        te: 'అయి మయి దీన దయాళుతయా కృపయైవ త్వయా భవితవ్యముమే।\nఆయి జగతో జననీ కృపయాసి యథాసి తథా అనుమితాసి రమే।\nయదు చితమత్ర భవత్యు రారీ కురుతా దురు తాపమ పాకురుతే।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'O Uma, you must be compassionate to me, a wretched soul — please show your grace! O Mother of the Universe, you exist as you are — you are known as Lakshmi (Rame). Whatever is appropriate, please accept it wholeheartedly and remove this great sorrow! Victory, Victory O Mahishasura Mardini!',
-        hi: 'हे उमे! आपको मुझ दीन पर दयालुता से कृपा करनी ही होगी! हे जगत जननी! आप जैसी हैं वैसी ही लक्ष्मी के रूप में जानी जाती हैं। जो उचित हो वह स्वीकार करें और मेरी महापीड़ा दूर करें! जय जय हे महिषासुरमर्दिनि!',
-        od: 'ହ  !    !    !    !',
-        te: 'ఓ ఉమ, నా వంటి దీనుడిపై దయతో కృప చూపించాలి! ఓ జగన్మాత, మీరు ఉన్న విధంగా లక్ష్మిగా అనుమానించబడుతున్నారు. ఉచితమైనది చేయి, ఈ మహాదుఃఖం తొలగించు! జయ జయ ఓ మహిషాసుర మర్దిని!',
-      },
-    },
-    {
-      id: 'ain-21',
-      type: 'shloka',
-      num: 21,
-      transliteration: 'Ayi Sumanah Sumanah Sumanah Sumanah Sumanoha Rakanti Yute\nShrita Rajani Rajani Rajani Rajani Rajani Kara Vaktra Vrute\nSu Nayana Vibhrama Ra Bhramara Bhramara Bhramara Bhrumara Dhipate\nJaya Jaya He Mahishasura Mardini Ramyaka Pardini Shaila Sute',
-      original: 'अयि सुमनःसुमनःसुमनः सुमनःसुमनोहरकान्तियुते।\nश्रितरजनी रजनीरजनी रजनीरजनीकर वक्त्रवृते।\nसुनयनविभ्रमर भ्रमरभ्रमर भ्रमरभ्रमराधिपते।\nजय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥',
-      script: {
-        od: 'ଅୟି ସୁ ମନ ସୁ ମନ ସୁ ମନ ସୁ ମନ ସୁ ମନୋ    ।\nଶ୍ରିତ        ।\nସୁ        ।\nଜୟ ଜୟ        ॥',
-        te: 'అయి సు మన సు మన సు మన సు మన సు మనో హర కాంతి యుత।\nశ్రిత రజని రజని రజని రజని రజని కర వక్త్ర వృత।\nసు నయన విభ్రమర భ్రమర భ్రమర భ్రమర భ్రమరా ధిపత।\nజయ జయ హే మహిష అసుర మర్దిని రమ్యక పర్దిని శైళ సుతే॥',
-      },
-      meaning: {
-        en: 'O Goddess adorned with beautiful flowers in multitudes, endowed with captivating beauty! Your moon-like face is surrounded by layer upon layer of moonlight! Your beautiful large eyes roam like the queen of all bees! Victory, Victory O Mahishasura Mardini, with beautiful matted hair, O Daughter of the Mountain — we surrender at your divine feet! Jai Mata Di!',
-        hi: 'हे सुंदर पुष्पों से सुसज्जित, मनमोहक कांति वाली! चंद्रमा जैसे मुखमंडल को चंद्रिका की परतों ने ढका! भौंरों की महारानी जैसी बड़ी चंचल आंखों वाली! जय जय हे महिषासुरमर्दिनि, रम्यकपर्दिनि, शैलसुते! जय माता दी!',
-        od: 'ସୁ   !    !    !    !    !',
-        te: 'పుష్పాభరణాలంకృత మనోహర కాంతి తల్లి! చంద్ర ముఖాన్ని చంద్ర వెన్నెల అలలు చుట్టుముట్టాయి! తుమ్మెదల రాణి వంటి విశాల చలించే కన్నులు! జయ జయ ఓ మహిషాసుర మర్దిని, రమ్యక పర్దిని, శైళ సుతే! జై మాత దీ!',
-      },
-    },
-  ],
+  id:6, type:'shloka', num:6,
+  original:`अयि शरणागत वैरिवधूवर वीरवराभय दायकरे
+त्रिभुवन मस्तक शूलविरोधि शिरोधिकृतामल शूलकरे॥`,
+  transliteration:`Ayi Sharanagata Vairi Vadhu Vara Veera Varaabhaya Dayakare
+Tribhuvana Mastaka Shoola Virodhi Shirodhikritaamala Shoolakare`,
+  script:{
+    od:`ଅୟି ଶରଣାଗତ ବୈରିବଧୂବର ବୀରବରାଭୟ ଦାୟକରେ
+ତ୍ରିଭୁବନ ମସ୍ତକ ଶୂଳବିରୋଧି ଶିରୋଧିକୃତାମଳ ଶୂଳକରେ॥`,
+    te:`అయి శరణాగత వైరివధూవర వీరవరాభయ దాయకరే
+త్రిభువన మస్తక శూలవిరోధి శిరోధికృతామల శూలకరే॥`
+  },
+  meaning:{
+    en:`O Goddess, you give fearlessness to devotees who surrender to you and destroy the enemies of the three worlds with your pure trident.`,
+    hi:`हे देवी! जो आपकी शरण में आते हैं उन्हें आप अभय देती हैं और अपने त्रिशूल से तीनों लोकों के शत्रुओं का नाश करती हैं।`,
+    od:`ହେ ଦେବୀ! ଯେମାନେ ଆପଣଙ୍କ ଶରଣ ନେଇଥାନ୍ତି, ତାଙ୍କୁ ଆପଣ ନିର୍ଭୟ କରନ୍ତି। ଆପଣ ନିଜ ପବିତ୍ର ତ୍ରିଶୂଳରେ ତିନିଲୋକର ଶତ୍ରୁଙ୍କୁ ନାଶ କରନ୍ତି।`,
+    te:`ఓ దేవి! నీ శరణు వచ్చిన వారికి అభయం ఇస్తావు. నీ పవిత్ర త్రిశూలంతో మూడు లోకాల శత్రువులను సంహరిస్తావు.`
+  }
+},
+{
+  id:7, type:'shloka', num:7,
+  original:`अयि निजहुंकृति मात्र निराकृत धूम्रविलोचन धूम्रशते
+समरविशोषित शोणितबीज समुद्भव शोणितबीजलते॥`,
+  transliteration:`Ayi Nijahunkriti Matra Nirakrita Dhumravilochana Dhumrashate`,
+  script:{
+    od:`ଅୟି ନିଜହୁଙ୍କୃତି ମାତ୍ର ନିରାକୃତ ଧୂମ୍ରବିଲୋଚନ ଧୂମ୍ରଶତେ॥`,
+    te:`అయి నిజహుంకృతి మాత్ర నిరాకృత ధూమ్రవిలోచన ధూమ్రశతే॥`
+  },
+  meaning:{
+    en:`You destroyed the demon Dhumralochana with just your roar.`,
+    hi:`आपने धूम्रलोचन को केवल हुंकार से नष्ट किया।`,
+    od:`ଆପଣ ମାତ୍ର ହୁଙ୍କାରରେ ଧୂମ୍ରଲୋଚନଙ୍କୁ ନାଶ କଲେ।`,
+    te:`నీవు హుంకారంతో ధూమ్రలోచనను సంహరించావు.`
+  }
+},
+
+{
+  id:8, type:'shloka', num:8,
+  original:`धनुरनुषंग रणक्षणसंग परिस्फुरदङ्ग नटत्कटके
+कनकपिशंग पृथुष्कनिषंग रसद्भटशृंग हताबटुके॥`,
+  transliteration:`Dhanuranushanga Ranakshanasanga Parisphuradanga Nataṭkaṭake`,
+  script:{
+    od:`ଧନୁରନୁଷଙ୍ଗ ରଣକ୍ଷଣସଙ୍ଗ ପରିସ୍ଫୁରଦଙ୍ଗ ନଟତ୍କଟକେ॥`,
+    te:`ధనురనుషంగ రణక్షణసంగ పరిస్ఫురదంగ నటత్కటకే॥`
+  },
+  meaning:{
+    en:`You shine in battle, holding weapons and destroying enemies.`,
+    hi:`आप युद्ध में शस्त्र धारण कर शत्रुओं का नाश करती हैं।`,
+    od:`ଆପଣ ଯୁଦ୍ଧରେ ଶସ୍ତ୍ରଧାରଣ କରି ଶତ୍ରୁଙ୍କୁ ନାଶ କରନ୍ତି।`,
+    te:`నీవు యుద్ధంలో శత్రువులను సంహరిస్తావు.`
+  }
+},
+
+{
+  id:9, type:'shloka', num:9,
+  original:`सुरललना ततथेयि ततथेयि कृताभिनयोदर नृत्यरते
+हसितमहाहसिते महिषासुरमर्दिनि नाटितनाट्यसुते॥`,
+  transliteration:`Suralalana Tatatheyi Tatatheyi Kritabhinaya Nartyarate`,
+  script:{
+    od:`ସୁରଲଲନା ତତଥେୟି ତତଥେୟି କୃତାଭିନୟୋଦର ନୃତ୍ୟରତେ॥`,
+    te:`సురలలనా తతథేయి తతథేయి కృతాభినయోదర నృత్యరతే॥`
+  },
+  meaning:{
+    en:`You dance beautifully and delight the divine beings.`,
+    hi:`आपका नृत्य देवताओं को आनंद देता है।`,
+    od:`ଆପଣଙ୍କ ନୃତ୍ୟ ଦେବମାନଙ୍କୁ ଆନନ୍ଦ ଦିଏ।`,
+    te:`నీ నృత్యం దేవతలకు ఆనందాన్ని ఇస్తుంది.`
+  }
+},
+
+{
+  id:10, type:'shloka', num:10,
+  original:`जय जय जप्य जयेजय शब्द परस्तुतितत्त्व परानुते
+भणितभणिनि भणिनि भणिनि नृत्यविलासविलासिनि नृत्यसुते॥`,
+  transliteration:`Jaya Jaya Japya Jayejaya Shabda Parastuti Tatva Paranute`,
+  script:{
+    od:`ଜୟ ଜୟ ଜପ୍ୟ ଜୟେଜୟ ଶବ୍ଦ ପରସ୍ତୁତିତତ୍ତ୍ୱ ପରାନୁତେ॥`,
+    te:`జయ జయ జప్య జయేజయ శబ్ద పరస్తుతితత్వ పరానుతే॥`
+  },
+  meaning:{
+    en:`You are praised by all with chants of victory.`,
+    hi:`आपकी जय-जयकार सभी करते हैं।`,
+    od:`ସମସ୍ତେ ଆପଣଙ୍କ ଜୟ ଜୟକାର କରନ୍ତି।`,
+    te:`అందరూ నీకు జయ జయ అంటారు.`
+  }
+},
+
+{
+  id:11, type:'shloka', num:11,
+  original:`अयि सुमनः सुमनः सुमनः सुमनः सुमनोहर कान्तियुते
+श्रियुत शशाङ्कवदन चन्द्रकला लसदङ्गकुटुम्बिनि राजसुते॥`,
+  transliteration:`Ayi Sumanah Sumanah Sumanah Sumanah Sumanohara Kantiyute`,
+  script:{
+    od:`ଅୟି ସୁମନଃ ସୁମନଃ ସୁମନଃ ସୁମନଃ ସୁମନୋହର କାନ୍ତିୟୁତେ॥`,
+    te:`అయి సుమనః సుమనః సుమనః సుమనః సుమనోహర కాంతియుతే॥`
+  },
+  meaning:{
+    en:`O beautiful Goddess, radiant and graceful.`,
+    hi:`हे सुंदर देवी, आप अत्यंत शोभायमान हैं।`,
+    od:`ହେ ସୁନ୍ଦରୀ ଦେବୀ! ଆପଣ ଅତ୍ୟନ୍ତ ଦୀପ୍ତିମାନ।`,
+    te:`ఓ అందమైన దేవి! నీవు ప్రకాశవంతమైనవు.`
+  }
+},
+
+{
+  id:12, type:'shloka', num:12,
+  original:`कमलदलामल कोमल कान्ति कला कलितामल भाललते
+सकलविलास कला निलयक्रम केलि चलत्कल हंसकुले॥`,
+  transliteration:`Kamaladalāmala Komala Kānti Kalā Kalitāmala Bhālalate`,
+  script:{
+    od:`କମଳଦଳାମଳ କୋମଳକାନ୍ତି କଳାକଳିତାମଳ ଭାଳଲତେ॥`,
+    te:`కమలదళామల కోమలకాంతి కళాకలితామల భాలలతే॥`
+  },
+  meaning:{
+    en:`You shine like a lotus, soft and radiant.`,
+    hi:`आप कमल के समान कोमल और सुंदर हैं।`,
+    od:`ଆପଣ କମଳ ପରି କୋମଳ ଏବଂ ସୁନ୍ଦର।`,
+    te:`నీవు కమలం లాగా అందంగా ఉన్నావు.`
+  }
+},
+
+{
+  id:13, type:'shloka', num:13,
+  original:`करमुरली रव वीणि कूजित लज्जित कोकिल मञ्जुमते
+मिलित पुलिन्द मनोहर गुञ्जित रञ्जित शैल निकुञ्जगते॥`,
+  transliteration:`Karamuralīrava Vīṇi Kūjita Lajjita Kokila Manjumate`,
+  script:{
+    od:`କରମୁରଳୀରବ ବୀଣି କୂଜିତ ଲଜ୍ଜିତ କୋକିଳ ମଞ୍ଜୁମତେ॥`,
+    te:`కరమురళీరవ వీణి కూజిత లజ్జిత కోకిల మంజుమతే॥`
+  },
+  meaning:{
+    en:`Your voice is sweeter than music and birds.`,
+    hi:`आपकी वाणी कोकिल से भी मधुर है।`,
+    od:`ଆପଣଙ୍କ ସ୍ୱର କୋକିଳ ଠାରୁ ମଧୁର।`,
+    te:`నీ స్వరం కోయిల కంటే మధురంగా ఉంటుంది.`
+  }
+},
+
+{
+  id:14, type:'shloka', num:14,
+  original:`कटितटपीत दुकूल विचित्र मयूख तिरस्कृत चन्द्ररुचे
+प्रणत सुरासुर मौलि मणिस्फुर दंशुल सन्नख चन्द्ररुचे॥`,
+  transliteration:`Katiṭaṭapīta Dukūla Vichitra Mayūkha Tiraskṛta Chandraruche`,
+  script:{
+    od:`କଟିତଟପୀତଦୁକୂଳ ବିଚିତ୍ର ମୟୂଖ ତିରସ୍କୃତ ଚନ୍ଦ୍ରରୁଚେ॥`,
+    te:`కటితటపీత దుకూల విచిత్ర మయూఖ తిరస్కృత చంద్రరుచే॥`
+  },
+  meaning:{
+    en:`Your beauty surpasses even the moon.`,
+    hi:`आपकी शोभा चन्द्रमा से भी अधिक है।`,
+    od:`ଆପଣଙ୍କ ଶୋଭା ଚନ୍ଦ୍ରକୁ ମଧ୍ୟ ମାଟି ଦେଏ।`,
+    te:`నీ అందం చంద్రుడిని మించిపోతుంది.`
+  }
+},
+
+{
+  id:15, type:'shloka', num:15,
+  original:`जय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥`,
+  transliteration:`Jaya Jaya He Mahishasura Mardini Ramya Kapardini Shaila Sute`,
+  script:{
+    od:`ଜୟ ଜୟ ହେ ମହିଷାସୁରମର୍ଦିନୀ ରମ୍ୟକପର୍ଦିନୀ ଶୈଳସୁତେ॥`,
+    te:`జయ జయ హే మహిషాసురమర్దిని రమ్యకపర్దిని శైలసుతే॥`
+  },
+  meaning:{
+    en:`Victory to Goddess Durga, destroyer of Mahishasura.`,
+    hi:`महिषासुर मर्दिनी देवी को जय हो।`,
+    od:`ମହିଷାସୁରମର୍ଦିନୀ ଦେବୀଙ୍କୁ ଜୟ।`,
+    te:`మహిషాసుర మర్దిని దేవికి జయము.`
+  }
+},
+
+{
+  id:16, type:'shloka', num:16,
+  original:`अयि मयि दीनदयालुतया कृपयैव त्वया भवितव्यमुमे
+अयि जगतो जननी कृपयासि यथासि तथानुमितासि रमे॥`,
+  transliteration:`Ayi Mayi Deenadayalutaya Kripayaiva Tvaya Bhavitavyam Ume
+Ayi Jagato Janani Kripayasi Yathasi Tathanumitas Rame`,
+  script:{
+    od:`ଅୟି ମୟି ଦୀନଦୟାଳୁତୟା କୃପୟୈବ ତ୍ୱୟା ଭବିତବ୍ୟମୁମେ
+ଅୟି ଜଗତୋ ଜନନୀ କୃପୟାସି ଯଥାସି ତଥାନୁମିତାସି ରମେ॥`,
+    te:`అయి మయి దీనదయాళుతయా కృపయైవ త్వయా భవితవ్యముమే
+అయి జగతో జననీ కృపయాసి యథాసి తథానుమితాసి రమే॥`
+  },
+  meaning:{
+    en:`O compassionate Mother, please show your mercy to me.`,
+    hi:`हे करुणामयी माता, मुझ पर कृपा करें।`,
+    od:`ହେ କରୁଣାମୟୀ ମା! ମୋ ପ୍ରତି କୃପା କରନ୍ତୁ।`,
+    te:`ఓ దయామయి తల్లి! నాపై కృప చూపించు.`
+  }
+},
+
+{
+  id:17, type:'shloka', num:17,
+  original:`यदुचितमत्र भवत्युररीकुरुतादुरुतापमपाकुरुते
+जय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥`,
+  transliteration:`Yaduchitam Atra Bhavatyurareekurutadurutapam Apakurute`,
+  script:{
+    od:`ଯଦୁଚିତମତ୍ର ଭବତ୍ୟୁରରୀକୁରୁତାଦୁରୁତାପମପାକୁରୁତେ
+ଜୟ ଜୟ ହେ ମହିଷାସୁରମର୍ଦିନୀ ରମ୍ୟକପର୍ଦିନୀ ଶୈଳସୁତେ॥`,
+    te:`యదుచితమత్ర భవత్యురరీకురుతాదురుతాపమపాకురుతే
+జయ జయ హే మహిషాసురమర్దిని రమ్యకపర్దిని శైలసుతే॥`
+  },
+  meaning:{
+    en:`O Goddess, remove my suffering and do what is best for me.`,
+    hi:`हे देवी, मेरे दुख दूर करें और जो उचित हो वही करें।`,
+    od:`ହେ ଦେବୀ! ମୋର ଦୁଃଖ ଦୂର କରି ଯାହା ଉଚିତ୍ ସେହି କରନ୍ତୁ।`,
+    te:`ఓ దేవి! నా బాధలను తొలగించి మంచిదే చేయు.`
+  }
+},
+
+{
+  id:18, type:'shloka', num:18,
+  original:`सुरवरवर्षिणि दुर्दरधर्षिणि दुर्मुखमर्षिणि हर्षरते
+त्रिभुवनपोषिणि शंकरतोषिणि किल्बिषमोचिनि घोषरते॥`,
+  transliteration:`Suravara Varshini Durdhara Dharshini Durmukha Marshini Harsharate`,
+  script:{
+    od:`ସୁରବରବର୍ଷିଣୀ ଦୁର୍ଧରଧର୍ଷିଣୀ ଦୁର୍ମୁଖମର୍ଷିଣୀ ହର୍ଷରତେ
+ତ୍ରିଭୁବନପୋଷିଣୀ ଶଙ୍କରତୋଷିଣୀ କିଲ୍ବିଷମୋଚିଣୀ ଘୋଷରତେ॥`,
+    te:`సురవరవర్షిణి దుర్ధరధర్షిణి దుర్ముఖమర్షిణి హర్షరతే
+త్రిభువనపోషిణి శంకరతోషిణి కిల్బిషమోచిణి ఘోషరతే॥`
+  },
+  meaning:{
+    en:`O Goddess who protects the universe and removes sins.`,
+    hi:`हे देवी, जो संसार की रक्षा करती हैं और पापों का नाश करती हैं।`,
+    od:`ହେ ଦେବୀ! ଆପଣ ସମସ୍ତ ଜଗତକୁ ରକ୍ଷା କରି ପାପକୁ ଦୂର କରନ୍ତି।`,
+    te:`ప్రపంచాన్ని రక్షించి పాపాలను తొలగించే దేవి.`
+  }
+},
+
+{
+  id:19, type:'shloka', num:19,
+  original:`धनुर्जितशत्रु सुभटसहस्र करैर्निषूदित दुर्गमते
+जय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥`,
+  transliteration:`Dhanurjita Shatru Subhata Sahasra Karair Nishoodita Durgamate`,
+  script:{
+    od:`ଧନୁର୍ଜିତ ଶତ୍ରୁ ସୁଭଟ ସହସ୍ର କରୈର୍ନିଷୂଦିତ ଦୁର୍ଗମତେ
+ଜୟ ଜୟ ହେ ମହିଷାସୁରମର୍ଦିନୀ ରମ୍ୟକପର୍ଦିନୀ ଶୈଳସୁତେ॥`,
+    te:`ధనుర్జిత శత్రు సుభట సహస్ర కరైర్నిషూదిత దుర్గమతే
+జయ జయ హే మహిషాసురమర్దిని రమ్యకపర్దిని శైలసుతే॥`
+  },
+  meaning:{
+    en:`You defeat countless enemies and protect the righteous.`,
+    hi:`आप असंख्य शत्रुओं का नाश कर धर्म की रक्षा करती हैं।`,
+    od:`ଆପଣ ଅସଂଖ୍ୟ ଶତ୍ରୁଙ୍କୁ ନାଶ କରି ଧର୍ମକୁ ରକ୍ଷା କରନ୍ତି।`,
+    te:`నీవు శత్రువులను సంహరించి ధర్మాన్ని కాపాడుతావు.`
+  }
+},
+
+{
+  id:20, type:'shloka', num:20,
+  original:`सुरनरमुनिजनसंस्तुत पदपंकज युग्मनि रम्यगते
+जय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥`,
+  transliteration:`Sura Nara Muni Jana Samstuta Pada Pankaja Yugmani Ramyagate`,
+  script:{
+    od:`ସୁରନରମୁନିଜନସଂସ୍ତୁତ ପଦପଙ୍କଜ ଯୁଗ୍ମନି ରମ୍ୟଗତେ
+ଜୟ ଜୟ ହେ ମହିଷାସୁରମର୍ଦିନୀ ରମ୍ୟକପର୍ଦିନୀ ଶୈଳସୁତେ॥`,
+    te:`సురనరమునిజనసంస్తుత పదపంకజ యుగ్మని రమ్యగతే
+జయ జయ హే మహిషాసురమర్దిని రమ్యకపర్దిని శైలసుతే॥`
+  },
+  meaning:{
+    en:`Your lotus feet are worshipped by gods, humans, and sages.`,
+    hi:`देव, मनुष्य और ऋषि आपके चरणों की पूजा करते हैं।`,
+    od:`ଦେବ, ମନୁଷ୍ୟ ଓ ଋଷିମାନେ ଆପଣଙ୍କ ପଦକମଳକୁ ପୂଜା କରନ୍ତି।`,
+    te:`దేవతలు, మనుషులు, ఋషులు నీ పాదాలను పూజిస్తారు.`
+  }
+},
+
+{
+  id:21, type:'shloka', num:21,
+  original:`जय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते॥`,
+  transliteration:`Jaya Jaya He Mahishasura Mardini Ramya Kapardini Shaila Sute`,
+  script:{
+    od:`ଜୟ ଜୟ ହେ ମହିଷାସୁରମର୍ଦିନୀ ରମ୍ୟକପର୍ଦିନୀ ଶୈଳସୁତେ॥`,
+    te:`జయ జయ హే మహిషాసురమర్దిని రమ్యకపర్దిని శైలసుతే॥`
+  },
+  meaning:{
+    en:`Victory to the Goddess who destroyed Mahishasura.`,
+    hi:`महिषासुर मर्दिनी देवी को बार-बार प्रणाम।`,
+    od:`ମହିଷାସୁରମର୍ଦିନୀ ଦେବୀଙ୍କୁ ପୁନଃପୁନଃ ପ୍ରଣାମ।`,
+    te:`మహిషాసుర మర్దిని దేవికి జయము.`
+  }
+}
+    
+    
+
+  ]
 };

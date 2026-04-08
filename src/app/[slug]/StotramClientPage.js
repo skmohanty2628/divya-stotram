@@ -1,4 +1,4 @@
-  'use client';
+'use client';
 
   import Link from 'next/link';
   import { useEffect, useMemo, useState } from 'react';
@@ -453,7 +453,7 @@
           </p>
         </ContentSection>
 
-        <ContentSection title={`${meta.title?.en} Lyrics / Verses`}>
+        <ContentSection title={`${meta.title?.en} — Verses`}>
           <div className="flex flex-col gap-5">
             {verses.map((verse, i) => (
               <div key={verse.id || i}>

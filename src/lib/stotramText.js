@@ -1,16 +1,14 @@
 import { convertDevanagariToScript } from '@/lib/scriptConvert';
 
-const PLACEHOLDER_PATTERNS = [
-  /\s{3,}/,
-  /[।]{0,2}\s{2,}[।।॥]{0,2}\s*$/,
-  /[^a-zA-Zऀ-ॿ\u0B00-\u0B7F\u0C00-\u0C7Fа-яА-Я\u{1000}-\u{109F}।॥ ]/u,
-  /[।]{1}[\s]{3,}/,
-];
-
+// Detects broken/placeholder text patterns
 const BROKEN_PATTERNS = [
-  /\s{4,}/,         // 4+ consecutive spaces = placeholder
-  /।\s{2,}।/,       // ।   । style gaps = incomplete
-  /॥\s{2,}/,        // ॥ followed by spaces = broken
+  /\s{4,}/,                          // 4+ consecutive spaces = placeholder
+  /।\s{2,}।/,                        // ।   । style gaps
+  /॥\s{2,}/,                         // ॥ followed by spaces
+  /,\s*,/,                           // ,, or , , = broken placeholders
+  /[\u0B00-\u0B7F]\s[\u0B00-\u0B7F]\s[\u0B00-\u0B7F]/, // spaced Odia chars
+  /[\u0C00-\u0C7F]\s[\u0C00-\u0C7F]\s[\u0C00-\u0C7F]/, // spaced Telugu chars
+  /[ଅ-ୱ]\s[ଅ-ୱ]\s[ଅ-ୱ]\s[ଅ-ୱ]/,    // 4 spaced Odia chars (stricter)
 ];
 
 function normalizeText(text) {
@@ -21,72 +19,64 @@ function normalizeText(text) {
 function isBrokenText(text) {
   const value = normalizeText(text);
   if (!value) return true;
-  // Check for obviously broken placeholder patterns (ChatGPT incomplete output)
   return BROKEN_PATTERNS.some((rx) => rx.test(value));
 }
 
+// Returns { text, isFallback }
 function getMeaningText(verse, lang) {
   const localizedMeaning = verse?.meaning?.[lang];
-  const englishMeaning = verse?.meaning?.en;
-  const hindiMeaning = verse?.meaning?.hi;
+  const englishMeaning   = verse?.meaning?.en;
+  const hindiMeaning     = verse?.meaning?.hi;
 
-  if (lang === 'en') return normalizeText(englishMeaning || hindiMeaning || '');
+  if (lang === 'en') {
+    return { text: normalizeText(englishMeaning || hindiMeaning || ''), isFallback: false };
+  }
+
   if (lang === 'hi' || lang === 'sa') {
-    return normalizeText(hindiMeaning || englishMeaning || '');
+    return { text: normalizeText(hindiMeaning || englishMeaning || ''), isFallback: false };
   }
 
   // For od / te: use localized if valid, else English fallback
   if (!isBrokenText(localizedMeaning)) {
-    return normalizeText(localizedMeaning);
-  }
-
-  return normalizeText(englishMeaning || hindiMeaning || '');
-}
-
-export function getVerseDisplayText(verse, lang = 'en') {
-  const original = normalizeText(verse?.original || '');
-  const transliteration = normalizeText(verse?.transliteration || '');
-
-  if (lang === 'en') {
-    return {
-      verseText: transliteration || original,
-      meaningText: getMeaningText(verse, lang),
-      usedFallback: false,
-    };
-  }
-
-  if (lang === 'hi' || lang === 'sa') {
-    return {
-      verseText: original,
-      meaningText: getMeaningText(verse, lang),
-      usedFallback: false,
-    };
-  }
-
-  if (lang === 'od' || lang === 'te') {
-    // ✅ ALWAYS check native script data first (most accurate)
-    const nativeScript = normalizeText(verse?.script?.[lang] || '');
-    
-    if (nativeScript && !isBrokenText(nativeScript)) {
-      return {
-        verseText: nativeScript,
-        meaningText: getMeaningText(verse, lang),
-        usedFallback: false,
-      };
-    }
-
-    // Fallback: auto-convert Devanagari (less accurate but better than nothing)
-    const converted = convertDevanagariToScript(original, lang);
-    return {
-      verseText: converted || transliteration || original,
-      meaningText: getMeaningText(verse, lang),
-      usedFallback: true,
-    };
+    return { text: normalizeText(localizedMeaning), isFallback: false };
   }
 
   return {
-    verseText: original || transliteration,
-    meaningText: getMeaningText(verse, lang),
-    usedFallback: true,
+    text: normalizeText(englishMeaning || hindiMeaning || ''),
+    isFallback: true,
   };
+}
+
+export function getVerseDisplayText(verse, lang = 'en') {
+  const original        = normalizeText(verse?.original || '');
+  const transliteration = normalizeText(verse?.transliteration || '');
+
+  if (lang === 'en') {
+    const { text, isFallback } = getMeaningText(verse, lang);
+    return { verseText: transliteration || original, meaningText: text, meaningIsFallback: isFallback };
+  }
+
+  if (lang === 'hi' || lang === 'sa') {
+    const { text, isFallback } = getMeaningText(verse, lang);
+    return { verseText: original, meaningText: text, meaningIsFallback: isFallback };
+  }
+
+  if (lang === 'od' || lang === 'te') {
+    // ✅ Use native script data first (if available and not broken)
+    const nativeScript = normalizeText(verse?.script?.[lang] || '');
+
+    let verseText;
+    if (nativeScript && !isBrokenText(nativeScript)) {
+      verseText = nativeScript;
+    } else {
+      // Fall back: auto-convert Devanagari → Odia/Telugu
+      verseText = convertDevanagariToScript(original, lang) || transliteration || original;
+    }
+
+    const { text, isFallback } = getMeaningText(verse, lang);
+    return { verseText, meaningText: text, meaningIsFallback: isFallback };
+  }
+
+  const { text, isFallback } = getMeaningText(verse, lang);
+  return { verseText: original || transliteration, meaningText: text, meaningIsFallback: isFallback };
 }

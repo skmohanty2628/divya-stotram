@@ -7,7 +7,7 @@ export default function VerseCard({ verse }) {
   const { lang } = useLang();
   const isDoha = verse.type === 'doha' || verse.type === 'mantra';
 
-  const { verseText, meaningText } = getVerseDisplayText(verse, lang);
+  const { verseText, meaningText, meaningIsFallback } = getVerseDisplayText(verse, lang);
 
   const handleShare = async () => {
     const shareText = `${verseText}\n\n${meaningText}\n\nDivya Stotram`;
@@ -48,13 +48,14 @@ export default function VerseCard({ verse }) {
   };
 
   const verseFontClass =
-    lang === 'od'
-      ? 'font-normal not-italic'
-      : lang === 'te'
-      ? 'font-normal not-italic'
-      : lang === 'hi' || lang === 'sa'
-      ? 'font-normal not-italic'
-      : 'font-garamond italic';
+    lang === 'od' ? 'font-normal not-italic'
+    : lang === 'te' ? 'font-normal not-italic'
+    : lang === 'hi' || lang === 'sa' ? 'font-normal not-italic'
+    : 'font-garamond italic';
+
+  // When meaning falls back to English (broken/missing localized meaning),
+  // show "Meaning" label instead of the local-language label so user knows it's English
+  const meaningLabel = meaningIsFallback ? MEANING_LABEL.en : (MEANING_LABEL[lang] || MEANING_LABEL.en);
 
   return (
     <div
@@ -91,7 +92,7 @@ export default function VerseCard({ verse }) {
         </div>
 
         <p className="font-cinzel-reg text-[9px] tracking-[2.5px] uppercase text-[#8b4513]/70 mb-2">
-          {MEANING_LABEL[lang] || MEANING_LABEL.en}
+          {meaningLabel}
         </p>
 
         <p className="font-garamond text-[#1a0a00] text-lg sm:text-xl leading-[1.9] font-semibold whitespace-pre-line">

@@ -1,15 +1,23 @@
 'use client';
+
 import { initializeApp, getApps } from 'firebase/app';
-import { getDatabase, ref, onValue, set, increment, onDisconnect } from 'firebase/database';
+import {
+  getDatabase,
+  ref,
+  onValue,
+  set,
+  get,
+  onDisconnect,
+} from 'firebase/database';
 
 const firebaseConfig = {
-  apiKey:            process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain:        process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  databaseURL:       process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL,
-  projectId:         process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket:     process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  databaseURL: process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
   messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId:             process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
 let app;
@@ -52,14 +60,25 @@ function getSessionId() {
   return sessionId;
 }
 
+function normalizeSlug(slug) {
+  if (!slug || slug === '/') return 'home';
+  return String(slug).replace(/^\/+/, '').replace(/\//g, '-');
+}
+
 function registerPresence(slug) {
   const db = initFirebase();
   if (!db) return () => {};
 
+  const safeSlug = normalizeSlug(slug);
   const sessionId = getSessionId();
-  const presenceRef = ref(db, `presence/${slug}/${sessionId}`);
+  const presenceRef = ref(db, `presence/${safeSlug}/${sessionId}`);
 
-  set(presenceRef, { ts: Date.now(), page: slug });
+  set(presenceRef, {
+    ts: Date.now(),
+    page: safeSlug,
+  }).catch((error) => {
+    console.error('Presence set failed:', error);
+  });
 
   try {
     onDisconnect(presenceRef).remove();
@@ -67,7 +86,10 @@ function registerPresence(slug) {
     console.warn('onDisconnect setup failed:', error);
   }
 
-  const cleanup = () => { set(presenceRef, null).catch(() => {}); };
+  const cleanup = () => {
+    set(presenceRef, null).catch(() => {});
+  };
+
   window.addEventListener('beforeunload', cleanup);
 
   return () => {
@@ -76,39 +98,55 @@ function registerPresence(slug) {
   };
 }
 
-export function trackPageVisit(slug) {
+export async function trackPageVisit(slug) {
   const db = initFirebase();
   if (!db) return;
 
+  const safeSlug = normalizeSlug(slug);
   const sessionId = getSessionId();
-  const visitFlagRef = ref(db, `sessionPageViews/${slug}/${sessionId}`);
 
-  onValue(visitFlagRef, (snap) => {
-    if (!snap.exists()) {
-      set(visitFlagRef, { ts: Date.now() });
-      set(ref(db, `pageViews/${slug}`), increment(1));
-      set(ref(db, 'stats/totalVisits'), increment(1));
+  try {
+    const visitFlagRef = ref(db, `sessionPageViews/${safeSlug}/${sessionId}`);
+    const visitSnap = await get(visitFlagRef);
+
+    if (!visitSnap.exists()) {
+      await set(visitFlagRef, { ts: Date.now() });
+
+      const pageRef = ref(db, `pageViews/${safeSlug}`);
+      const pageSnap = await get(pageRef);
+      await set(pageRef, (pageSnap.val() || 0) + 1);
+
+      const totalRef = ref(db, 'stats/totalVisits');
+      const totalSnap = await get(totalRef);
+      await set(totalRef, (totalSnap.val() || 0) + 1);
     }
-  }, { onlyOnce: true });
+  } catch (error) {
+    console.error('trackPageVisit failed:', error);
+  }
 }
 
 export function watchPagePresence(slug, callback) {
   const db = initFirebase();
-  if (!db) { callback(0); return () => {}; }
+  if (!db) {
+    callback(0);
+    return () => {};
+  }
 
-  const cleanupPresence = registerPresence(slug);
-  const pagePresenceRef = ref(db, `presence/${slug}`);
+  const safeSlug = normalizeSlug(slug);
+  const cleanupPresence = registerPresence(safeSlug);
+  const pagePresenceRef = ref(db, `presence/${safeSlug}`);
 
   const unsub = onValue(pagePresenceRef, (snap) => {
     const data = snap.val();
     callback(data ? Object.keys(data).length : 0);
   });
 
-  return () => { cleanupPresence(); unsub(); };
+  return () => {
+    cleanupPresence();
+    unsub();
+  };
 }
 
-// ✅ Combined helper used by StotramClientPage —
-// tracks the visit AND watches live presence count in one call
 export function trackAndWatch(slug, callback) {
   trackPageVisit(slug);
   return watchPagePresence(slug, callback);
@@ -116,19 +154,28 @@ export function trackAndWatch(slug, callback) {
 
 export function watchLiveTotal(callback) {
   const db = initFirebase();
-  if (!db) { callback(0); return () => {}; }
+  if (!db) {
+    callback(0);
+    return () => {};
+  }
 
   const presenceRef = ref(db, 'presence');
 
   const unsub = onValue(presenceRef, (snap) => {
-    if (!snap.exists()) { callback(0); return; }
+    if (!snap.exists()) {
+      callback(0);
+      return;
+    }
+
     let total = 0;
+
     snap.forEach((pageSnap) => {
       const pageData = pageSnap.val();
       if (pageData && typeof pageData === 'object') {
         total += Object.keys(pageData).length;
       }
     });
+
     callback(total);
   });
 
@@ -137,19 +184,31 @@ export function watchLiveTotal(callback) {
 
 export function watchTotalVisits(callback) {
   const db = initFirebase();
-  if (!db) { callback(0); return () => {}; }
+  if (!db) {
+    callback(0);
+    return () => {};
+  }
 
   const totalRef = ref(db, 'stats/totalVisits');
-  const unsub = onValue(totalRef, (snap) => { callback(snap.val() || 0); });
+  const unsub = onValue(totalRef, (snap) => {
+    callback(snap.val() || 0);
+  });
+
   return unsub;
 }
 
 export function watchPageViews(callback) {
   const db = initFirebase();
-  if (!db) { callback({}); return () => {}; }
+  if (!db) {
+    callback({});
+    return () => {};
+  }
 
   const pageViewsRef = ref(db, 'pageViews');
-  const unsub = onValue(pageViewsRef, (snap) => { callback(snap.val() || {}); });
+  const unsub = onValue(pageViewsRef, (snap) => {
+    callback(snap.val() || {});
+  });
+
   return unsub;
 }
 
@@ -158,5 +217,11 @@ export function logSearch(query) {
   if (!db || !query?.trim()) return;
 
   const key = `${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
-  set(ref(db, `searches/${key}`), { query: query.trim(), ts: Date.now() });
+
+  set(ref(db, `searches/${key}`), {
+    query: query.trim(),
+    ts: Date.now(),
+  }).catch((error) => {
+    console.error('logSearch failed:', error);
+  });
 }

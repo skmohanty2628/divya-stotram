@@ -1,4 +1,5 @@
 import './globals.css';
+import Link from 'next/link';
 import TrackVisit from '@/components/TrackVisit';
 
 const SITE_URL = 'https://divyastotram.com';
@@ -57,6 +58,78 @@ export const metadata = {
   },
   manifest: '/site.webmanifest',
 };
+
+function SiteFooter() {
+  const year = new Date().getFullYear();
+
+  return (
+    <footer className="mt-16 border-t border-[#c9922a]/20 bg-gradient-to-br from-[#2b0d00] via-[#5c1d0c] to-[#8b1a00] text-white">
+      <div className="mx-auto max-w-7xl px-6 py-10 sm:px-8 lg:px-10">
+        <div className="grid gap-10 md:grid-cols-3">
+          <div>
+            <h3 className="font-cinzel-reg text-lg sm:text-xl tracking-[0.18em] uppercase text-[#ffd68a] font-bold">
+              Divya Stotram
+            </h3>
+            <p className="mt-3 text-sm sm:text-base leading-7 text-white/85 font-medium">
+              Sacred Hindu prayers, stotrams and mantras in English, Hindi, Odia and Telugu with meaning.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="font-cinzel-reg text-xs tracking-[0.2em] uppercase text-[#ffd68a] font-bold">
+              Quick Links
+            </h4>
+            <div className="mt-4 grid gap-2 text-sm sm:text-[15px]">
+              <Link href="/" className="text-white/85 hover:text-[#ffd68a] transition-colors font-semibold">
+                Home
+              </Link>
+              <Link href="/about" className="text-white/85 hover:text-[#ffd68a] transition-colors font-semibold">
+                About
+              </Link>
+              <Link href="/contact" className="text-white/85 hover:text-[#ffd68a] transition-colors font-semibold">
+                Contact
+              </Link>
+              <Link href="/privacy-policy" className="text-white/85 hover:text-[#ffd68a] transition-colors font-semibold">
+                Privacy Policy
+              </Link>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="font-cinzel-reg text-xs tracking-[0.2em] uppercase text-[#ffd68a] font-bold">
+              Popular Stotrams
+            </h4>
+            <div className="mt-4 grid gap-2 text-sm sm:text-[15px]">
+              <Link href="/hanuman-chalisa" className="text-white/85 hover:text-[#ffd68a] transition-colors font-semibold">
+                Hanuman Chalisa
+              </Link>
+              <Link href="/shiva-tandav" className="text-white/85 hover:text-[#ffd68a] transition-colors font-semibold">
+                Shiva Tandav
+              </Link>
+              <Link href="/durga-stotram" className="text-white/85 hover:text-[#ffd68a] transition-colors font-semibold">
+                Durga Stotram
+              </Link>
+              <Link href="/vishnu-sahasranamam" className="text-white/85 hover:text-[#ffd68a] transition-colors font-semibold">
+                Vishnu Sahasranamam
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="my-8 h-px w-full bg-gradient-to-r from-transparent via-[#ffd68a]/50 to-transparent" />
+
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <p className="text-xs sm:text-sm text-white/75 font-medium">
+            © {year} Divya Stotram. All rights reserved.
+          </p>
+          <p className="text-xs sm:text-sm text-white/75 font-medium">
+            Built with devotion for sacred reading and learning.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
 
 export default function RootLayout({ children }) {
   const websiteJsonLd = {
@@ -120,8 +193,16 @@ export default function RootLayout({ children }) {
             />
           )}
       </head>
-      <body>
-        {children}
+
+      <body className="min-h-screen bg-white text-[#1a0a00]">
+        <div className="flex min-h-screen flex-col">
+          <main className="flex-1">
+            {children}
+          </main>
+
+          <SiteFooter />
+        </div>
+
         <TrackVisit />
       </body>
     </html>

@@ -2,676 +2,741 @@ export const hanumanChalisa = {
   slug: 'hanuman-chalisa',
   verses: [
     {
-      id:1, type:'doha', label:{en:'Opening Doha',hi:'दोहा',od:'ଦୋହା',te:'ప్రారంభ దోహా'},
-      original:'श्री गुरु चरण सरोज रज, निज मनु मुकुरु सुधारि। वरनउँ रघुवर विमल जसु, जो दायकु फल चारि॥',
-      transliteration:'Shri Guru Charan Saroj Raj, Nij mane mukure sudhar\nVarnao Raghuvar Vimal Jasu, Jo dayaku phal char',
-      script:{
-        od:'ଶ୍ରୀ ଗୁରୁ ଚରଣ ସରୋଜ ରଜ, ନିଜ ମନ ମୁକୁରୁ ସୁଧାରି। ବରନଉଁ ରଘୁବର ବିମଳ ଜସ, ଜୋ ଦାୟକ ଫଳ ଚାରି॥',
-        te:'శ్రీ గురు చరణ సరోజ రజ, నిజ మన ముకురు సుధారి। వర్ణఉఁ రఘువర విమల జస, జో దాయక ఫల చారి॥',
+      id: 1,
+      type: 'doha',
+      label: { en: 'Opening Doha', hi: 'दोहा', od: 'ଦୋହା', te: 'ప్రారంభ దోహా' },
+      original:
+        'श्री गुरु चरण सरोज रज, निज मनु मुकुरु सुधारि। वरनउँ रघुवर विमल जसु, जो दायकु फल चारि॥',
+      transliteration:
+        'Shri Guru Charan Saroj Raj, Nij mane mukure sudhar\nVarnao Raghuvar Vimal Jasu, Jo dayaku phal char',
+      script: {
+        od: 'ଶ୍ରୀ ଗୁରୁ ଚରଣ ସରୋଜ ରଜ, ନିଜ ମନ ମୁକୁରୁ ସୁଧାରି। ବରନଉଁ ରଘୁବର ବିମଳ ଜସ, ଜୋ ଦାୟକ ଫଳ ଚାରି॥',
+        te: 'శ్రీ గురు చరణ సరోజ రజ, నిజ మన ముకురు సుధారి। వర్ణఉఁ రఘువర విమల జస, జో దాయక ఫల చారి॥',
       },
-      meaning:{
-        en:"After cleansing the mirror of my mind with the pollen dust of holy Guru's Lotus feet, I profess the pure, untainted glory of Shri Raghuvar which bestows the fourfold fruits of life — Dharma, Artha, Kama and Moksha.",
-        hi:'श्री गुरु के चरण कमलों की धूल से अपने मन के दर्पण को साफ करके, मैं श्री रघुवर का निर्मल यश वर्णन करता हूँ जो चारों फलों को देने वाला है।',
-        od:'ଶ୍ରୀ ଗୁରୁ ଚରଣ ପଦ୍ମ ଧୂଳିରେ ମନ ଦର୍ପଣ ଶୁଦ୍ଧ କରି, ମୁଁ ଶ୍ରୀ ରଘୁବୀରଙ୍କ ନିର୍ମଳ ଯଶ ବର୍ଣ୍ଣନ କରୁଛି।',
-        te:'గురువు పాద పద్మముల ధూళితో మనస్సు అనే అద్దాన్ని శుభ్రపరచి, చతుర్విధ ఫలాలను ప్రసాదించే రఘువర యశస్సును వర్ణిస్తున్నాను.',
-        sa:'श्री गुरु के चरण कमलों की धूल से मन रूपी दर्पण को शुद्ध करके रघुवर का निर्मल यश वर्णन करता हूँ।',
-      }
+      meaning: {
+        en: "After cleansing the mirror of my mind with the pollen dust of holy Guru's Lotus feet, I profess the pure, untainted glory of Shri Raghuvar which bestows the fourfold fruits of life — Dharma, Artha, Kama and Moksha.",
+        hi: 'श्री गुरु के चरण कमलों की धूल से अपने मन के दर्पण को साफ करके, मैं श्री रघुवर का निर्मल यश वर्णन करता हूँ जो चारों फलों को देने वाला है।',
+        od: 'ଶ୍ରୀ ଗୁରୁଙ୍କ ଚରଣ କମଳର ଧୂଳିରେ ମୋର ମନର ଦର୍ପଣକୁ ପବିତ୍ର କରି, ମୁଁ ଶ୍ରୀ ରଘୁବରଙ୍କ ନିର୍ମଳ ଯଶ ବର୍ଣ୍ଣନା କରୁଛି, ଯାହା ଧର୍ମ, ଅର୍ଥ, କାମ ଓ ମୋକ୍ଷ ଏହି ଚାରି ଫଳ ଦେଇଥାଏ।',
+        te: 'గురువు పాద పద్మముల ధూళితో మనస్సు అనే అద్దాన్ని శుభ్రపరచి, చతుర్విధ ఫలాలను ప్రసాదించే శ్రీ రఘువీరుని నిర్మల యశస్సును వర్ణిస్తున్నాను.',
+      },
     },
     {
-      id:2, type:'doha', label:{en:'Opening Doha',hi:'दोहा',od:'ଦୋହା',te:'ప్రారంభ దోహా'},
-      original:'बुद्धिहीन तनु जानिके, सुमिरौं पवन-कुमार। बल बुधि विद्या देहु मोहिं, हरहु कलेस विकार॥',
-      transliteration:'Budhi Hin Tanu Janike, Sumirau Pavan Kumar\nBal budhi Vidya dehu mohe, Harahu Kalesa Vikar',
-      script:{
-        od:'ବୁଦ୍ଧିହୀନ ତନୁ ଜାନିକେ, ସୁମିରଉ ପବନ କୁମାର। ବଳ ବୁଦ୍ଧି ବିଦ୍ୟା ଦେହୁ ମୋହି, ହରହୁ କଳେଶ ବିକାର॥',
-        te:'బుద్ధిహీన తను జానికే, సుమిరౌ పవన కుమార। బల బుద్ధి విద్యా దేహు మోహి, హరహు కళేశ వికార॥',
+      id: 2,
+      type: 'doha',
+      label: { en: 'Opening Doha', hi: 'दोहा', od: 'ଦୋହା', te: 'ప్రారంభ దోహా' },
+      original:
+        'बुद्धिहीन तनु जानिके, सुमिरौं पवन-कुमार। बल बुद्धि विद्या देहु मोहिं, हरहु कलेश विकार॥',
+      transliteration:
+        'Buddhi heen tanu janike, Sumiro Pavan Kumar\nBal Buddhi Vidya Dehu Mohe, Harahu Kalesh Vikar',
+      script: {
+        od: 'ବୁଦ୍ଧିହୀନ ତନୁ ଜାଣିକେ, ସୁମିରଉଁ ପବନ କୁମାର। ବଳ ବୁଦ୍ଧି ବିଦ୍ୟା ଦେହୁ ମୋହିଁ, ହରହୁ କଲେଶ ବିକାର॥',
+        te: 'బుద్ధిహీన తను జానికే, సుమిరౌం పవన కుమార్। బల బుద్ధి విద్యా దేహు మొహిం, హరహు కలేశ వికార్॥',
       },
-      meaning:{
-        en:'Aware of my limited intelligence, I concentrate on Pavan Kumar and humbly ask for strength, intelligence and true knowledge to relieve me of all pain and blemishes.',
-        hi:'अपने शरीर को बुद्धिहीन जानकर मैं पवनकुमार का स्मरण करता हूँ। हे प्रभु! मुझे बल, बुद्धि और विद्या दो और मेरे कष्टों और विकारों को हरो।',
-        od:'ନିଜ ଦେହ ବୁଦ୍ଧିହୀନ ଜାଣି, ପବନ କୁମାରଙ୍କୁ ସ୍ମରଣ କରୁଛି। ମୋତେ ବଳ, ବୁଦ୍ଧି ଓ ବିଦ୍ୟା ଦିଅ ଏବଂ ମୋ କଷ୍ଟ ଦୂର କର।',
-        te:'నా దేహం బుద్ధిహీనమని తెలుసుకుని, పవన కుమారుని స్మరిస్తున్నాను. బలం, బుద్ధి, విద్య ప్రసాదించి నా కష్టాలను తొలగించు.',
-        sa:'बुद्धिहीन शरीर जानकर पवनकुमार का स्मरण करता हूँ, बल-बुद्धि-विद्या दें और क्लेश-विकार हरें।',
-      }
+      meaning: {
+        en: 'Knowing myself to be ignorant, I remember you, O Hanuman, son of Pavan. Bless me with strength, wisdom and knowledge, and remove my sorrows and flaws.',
+        hi: 'अपने को बुद्धिहीन जानकर मैं पवनपुत्र हनुमान का स्मरण करता हूँ। मुझे बल, बुद्धि और विद्या दें, और मेरे क्लेश व दोष दूर करें।',
+        od: 'ନିଜକୁ ବୁଦ୍ଧିହୀନ ଭାବି ମୁଁ ପବନପୁତ୍ର ହନୁମାନଙ୍କୁ ସ୍ମରଣ କରୁଛି। ମୋତେ ବଳ, ବୁଦ୍ଧି ଓ ବିଦ୍ୟା ଦିଅନ୍ତୁ, ଏବଂ ମୋର କ୍ଲେଶ ଓ ଦୋଷ ଦୂର କରନ୍ତୁ।',
+        te: 'నన్ను బుద్ధిహీనుడిగా భావించి పవన కుమారుడైన హనుమంతుని స్మరిస్తున్నాను. నాకు బలం, బుద్ధి, విద్యలను ప్రసాదించి కష్టాలు, దోషాలను తొలగించు.',
+      },
     },
     {
-      id:3, type:'chaupai', num:1,
-      original:'जय हनुमान ज्ञान गुण सागर। जय कपीस तिहुँ लोक उजागर॥',
-      transliteration:'Jai Hanuman gyan gun sagar\nJai Kapis tihun lok ujagar',
-      script:{
-        od:'ଜୟ ହନୁମାନ ଜ୍ଞାନ ଗୁଣ ସାଗର। ଜୟ କପୀଶ ତିହୁଁ ଲୋକ ଉଜାଗର॥',
-        te:'జయ హనుమాన జ్ఞాన గుణ సాగర। జయ కపీశ తిహుఁ లోక ఉజాగర॥',
+      id: 3,
+      type: 'chaupai',
+      num: 1,
+      original: 'जय हनुमान ज्ञान गुन सागर। जय कपीस तिहुँ लोक उजागर॥',
+      transliteration: 'Jai Hanuman gyan gun sagar, Jai Kapis tihun lok ujagar',
+      script: {
+        od: 'ଜୟ ହନୁମାନ ଜ୍ଞାନ ଗୁଣ ସାଗର। ଜୟ କପୀଶ ତିହୁଁ ଲୋକ ଉଜାଗର॥',
+        te: 'జయ హనుమాన్ జ్ఞాన గుణ సాగర। జయ కపీశ తిహుఁ లోక ఉజాగర॥',
       },
-      meaning:{
-        en:"Victory to thee O Hanuman! Ocean of Wisdom — All hail O Kapisa! You illuminate all the three worlds with your glory.",
-        hi:'हे हनुमान जी! आप ज्ञान और गुणों के सागर हैं। हे कपीश्वर! तीनों लोकों को प्रकाशित करने वाले आपकी जय हो।',
-        od:'ହେ ହନୁମାନ! ଆପଣ ଜ୍ଞାନ ଓ ଗୁଣ ସାଗର। ହେ କପୀଶ! ତ୍ରିଲୋକ ଆଲୋକ ଆପଣଙ୍କ ଜୟ।',
-        te:'జ్ఞాన గుణ సాగరుడైన హనుమంతుడికి జయము! మూడు లోకాలను వెలిగించే కపీశ్వరా జయము!',
-        sa:'हे हनुमान! ज्ञान-गुण के सागर, तीनों लोकों को प्रकाशित करने वाले कपीश की जय।',
-      }
+      meaning: {
+        en: 'Victory to Hanuman, ocean of wisdom and virtue. Victory to the lord of monkeys who is renowned across the three worlds.',
+        hi: 'ज्ञान और गुणों के सागर हनुमानजी को जय हो। तीनों लोकों में प्रकाशित कपिश को जय हो।',
+        od: 'ହେ ହନୁମାନ! ଆପଣ ଜ୍ଞାନ ଓ ଗୁଣର ସାଗର। ତ୍ରିଲୋକରେ ପ୍ରସିଦ୍ଧ କପୀଶଙ୍କୁ ଜୟ।',
+        te: 'జ్ఞానం, గుణాల సముద్రమైన హనుమంతునికి జయం. మూడు లోకాలలో ప్రసిద్ధుడైన కపీశునికి జయం.',
+      },
     },
     {
-      id:4, type:'chaupai', num:2,
-      original:'राम दूत अतुलित बल धामा। अंजनि-पुत्र पवनसुत नामा॥',
-      transliteration:'Ram doot atulit bal dhama\nAnjani-putra Pavan sut nama',
-      script:{
-        od:'ରାମ ଦୂତ ଅତୁଳ ବଳ ଧାମ। ଅଞ୍ଜନୀ ପୁତ୍ର ପବନ ସୁତ ନାମ॥',
-        te:'రామ దూత అతుల బల ధామ। అంజనీ పుత్ర పవన సుత నామ॥',
+      id: 4,
+      type: 'chaupai',
+      num: 2,
+      original: 'राम दूत अतुलित बल धामा। अंजनि-पुत्र पवनसुत नामा॥',
+      transliteration: 'Ram doot atulit bal dhama, Anjani putra Pavan sut nama',
+      script: {
+        od: 'ରାମ ଦୂତ ଅତୁଲିତ ବଳ ଧାମା। ଅଞ୍ଜନୀ-ପୁତ୍ର ପବନସୁତ ନାମା॥',
+        te: 'రామ దూత అతులిత బల ధామా। అంజని పుత్ర పవనసుత నామా॥',
       },
-      meaning:{
-        en:'You are the divine messenger of Shri Ram, the repository of immeasurable strength, known as Son of Anjani and Son of Pavan (Wind).',
-        hi:'आप श्री राम के दूत हैं, अतुलित बल के धाम हैं। आपका नाम अंजनी-पुत्र और पवनसुत है।',
-        od:'ଆପଣ ଶ୍ରୀ ରାମ ଦୂତ, ଅତୁଳ ବଳ ଧାମ। ଅଞ୍ଜନୀ ପୁତ୍ର ଓ ପବନ ସୁତ।',
-        te:'నువ్వు రాముని దూత, అమేయ బలసంపన్నుడు. అంజనీ పుత్రుడు, పవన సుతుడు.',
-        sa:'अंजनी-पुत्र, पवन-सुत, राम-दूत, अतुलित बल के धाम।',
-      }
+      meaning: {
+        en: 'You are the messenger of Lord Rama, the abode of incomparable strength. You are known as the son of Anjani and the son of the Wind God.',
+        hi: 'आप श्रीराम के दूत और अतुलनीय बल के धाम हैं। आप अंजनीपुत्र और पवनसुत नाम से प्रसिद्ध हैं।',
+        od: 'ଆପଣ ଶ୍ରୀରାମଙ୍କ ଦୂତ ଏବଂ ଅତୁଳନୀୟ ବଳର ଧାମ। ଆପଣ ଅଞ୍ଜନୀପୁତ୍ର ଓ ପବନସୁତ ଭାବେ ପରିଚିତ।',
+        te: 'మీరు శ్రీరాముడి దూత, అతుల్యబలానికి నిలయం. అంజనీ పుత్రుడు, పవనసుతుడిగా ప్రసిద్ధి పొందారు.',
+      },
     },
     {
-      id:5, type:'chaupai', num:3,
-      original:'महावीर विक्रम बजरंगी। कुमति निवार सुमति के संगी॥',
-      transliteration:'Mahavir Vikram Bajrangi\nKumati nivar sumati Ke sangi',
-      script:{
-        od:'ମହାବୀର ବିକ୍ରମ ବଜ୍ରଙ୍ଗୀ। କୁମତି ନିବାର ସୁମତି କେ ସଙ୍ଗୀ॥',
-        te:'మహావీర విక్రమ బజ్రంగీ। కుమతి నివార సుమతి కే సంగీ॥',
+      id: 5,
+      type: 'chaupai',
+      num: 3,
+      original: 'महाबीर बिक्रम बजरंगी। कुमति निवार सुमति के संगी॥',
+      transliteration: 'Mahavir vikram Bajrangi, Kumati nivar sumati ke sangi',
+      script: {
+        od: 'ମହାବୀର ବିକ୍ରମ ବଜରଙ୍ଗୀ। କୁମତି ନିବାର ସୁମତି କେ ସଙ୍ଗୀ॥',
+        te: 'మహావీర విక్రమ బజరంగీ। కుమతి నివార సుమతి కే సంగీ॥',
       },
-      meaning:{
-        en:'With limbs as sturdy as Vajra you are valiant and brave. You dispel evil thoughts and are the companion of good wisdom.',
-        hi:'आप महावीर, विक्रमशाली और वज्र अंगों वाले हैं। कुबुद्धि को हटाकर सुबुद्धि के साथ रहने वाले।',
-        od:'ମହାବୀର, ବଜ୍ର ଅଙ୍ଗ ଧାରୀ। କୁମତି ଦୂର କରି ସୁମତି ସଙ୍ଗ।',
-        te:'మహావీర వజ్రాంగి! దురభిప్రాయాన్ని తొలగించి సుమతితో కూడినవాడు.',
-        sa:'महावीर, वज्रांगी, कुमति निवारक, सुमति संगी।',
-      }
+      meaning: {
+        en: 'O mighty hero Bajrangi, you are valiant and powerful. You remove wicked intellect and are the companion of pure wisdom.',
+        hi: 'हे महावीर बजरंगी! आप पराक्रमी और बलशाली हैं। आप कुमति को दूर करते हैं और सुमति के साथी हैं।',
+        od: 'ହେ ମହାବୀର ବଜରଙ୍ଗୀ! ଆପଣ ପରାକ୍ରମୀ ଓ ବଳଶାଳୀ। ଆପଣ କୁମତିକୁ ଦୂର କରନ୍ତି ଏବଂ ସୁମତିଙ୍କ ସାଥୀ।',
+        te: 'ఓ మహావీర బజరంగీ! మీరు పరాక్రమశాలి. కుబంధిని తొలగించి సద్బుద్ధికి సహచరుడవు.',
+      },
     },
     {
-      id:6, type:'chaupai', num:4,
-      original:'कंचन वरन विराज सुवेसा। कानन कुंडल कुंचित केसा॥',
-      transliteration:'Kanchan varan viraj subesa\nKanan Kundal Kunchit Kesa',
-      script:{
-        od:'କଞ୍ଚନ ବରଣ ବିରାଜ ସୁବେଶ। କାନନ କୁଣ୍ଡଳ କୁଞ୍ଚିତ କେଶ॥',
-        te:'కంచన వరణ విరాజ సుభేశ। కానన కుండల కుంచిత కేశ॥',
+      id: 6,
+      type: 'chaupai',
+      num: 4,
+      original: 'कंचन बरन बिराज सुबेसा। कानन कुण्डल कुंचित केसा॥',
+      transliteration: 'Kanchan baran viraj subesa, Kanan kundal kunchit kesa',
+      script: {
+        od: 'କଞ୍ଚନ ବରନ ବିରାଜ ସୁବେସା। କାନନ କୁଣ୍ଡଳ କୁଞ୍ଚିତ କେସା॥',
+        te: 'కంచన బరణ విరాజ సుబేసా। కానన కుండల కుంచిత కేసా॥',
       },
-      meaning:{
-        en:'Your physique is golden-coloured and your dress is beautiful. You wear ear rings and have long curly hair.',
-        hi:'आपका रूप सोने जैसा पीला है और वेश बहुत सुंदर है। आपके कानों में कुंडल और घुंघराले बाल हैं।',
-        od:'ଆପଣଙ୍କ ରୂପ ସୁବର୍ଣ ବର୍ଣ, ଦିବ୍ୟ ବେଶ। କଣ୍ଠରେ କୁଣ୍ଡଳ, କୁଞ୍ଚିତ କେଶ।',
-        te:'మీ స్వరూపం స్వర్ణ వర్ణము, వేషభూషణం సుందరమైనది. చెవులకు కుండలాలు, మురిగిన కురులు.',
-        sa:'कंचन वर्ण, सुंदर वेश, कान में कुंडल, घुंघराले केश।',
-      }
+      meaning: {
+        en: 'Your golden complexion and graceful attire shine brilliantly. You wear earrings in your ears and your hair is curly and beautiful.',
+        hi: 'आपका स्वर्ण के समान वर्ण और सुंदर वेश अत्यंत शोभायमान है। कानों में कुण्डल और घुँघराले केश शोभते हैं।',
+        od: 'ଆପଣଙ୍କ ସୁବର୍ଣ୍ଣ ସମାନ ଦେହବର୍ଣ୍ଣ ଓ ସୁନ୍ଦର ବେଶ ଦୀପ୍ତିମାନ। କାନରେ କୁଣ୍ଡଳ ଏବଂ କୁଞ୍ଚିତ କେଶ ଆପଣଙ୍କୁ ଅତ୍ୟନ୍ତ ଶୋଭା ଦେଉଛି।',
+        te: 'మీ బంగారు వర్ణం, సుందర వేషం అద్భుతంగా ప్రకాశిస్తున్నాయి. చెవుల్లో కుండలాలు, వంచిన కేశాలు ఎంతో శోభిస్తున్నాయి.',
+      },
     },
     {
-      id:7, type:'chaupai', num:5,
-      original:'हाथ बज्र औ ध्वजा बिराजे। काँधे मूँज जनेऊ साजे॥',
-      transliteration:'Hath Vajra Aur Dhuvaje Viraje\nKandhe moonj janehu sajai',
-      script:{
-        od:'ହାଥ ବଜ୍ର ଔ ଧ୍ୱଜ ବିରାଜୈ। କାନ୍ଧ ମୂଞ୍ଜ ଜନେଉ ସାଜୈ॥',
-        te:'హాత వజ్ర ఔ ధ్వజ విరాజై। కాంధ మూంజ జనేఉ సాజై॥',
+      id: 7,
+      type: 'chaupai',
+      num: 5,
+      original: 'हाथ बज्र औ ध्वजा बिराजै। काँधे मूँज जनेऊ साजै॥',
+      transliteration: 'Hath bajra aur dhvaja biraje, Kandhe moonj janeu saje',
+      script: {
+        od: 'ହାଥ ବଜ୍ର ଔ ଧ୍ୱଜା ବିରାଜୈ। କାଁଧେ ମୂଁଜ ଜନେଉ ସାଜୈ॥',
+        te: 'హాథ్ బజ్ర ఔ ధ్వజా బిరాజై। కాంధే మూంజ్ జనేఊ సాజై॥',
       },
-      meaning:{
-        en:'You carry in your hand a lightning bolt along with a victory flag and wear the sacred thread of munja grass on your shoulder.',
-        hi:'आपके हाथ में वज्र और ध्वजा विराजती है। कंधे पर मूंज घास का जनेऊ सुशोभित है।',
-        od:'ହାତରେ ବଜ୍ର ଓ ଧ୍ୱଜ ବିରାଜ। କାନ୍ଧରେ ମୂଞ୍ଜ ଯଜ୍ଞୋପବୀତ।',
-        te:'చేతిలో వజ్రం, విజయ ధ్వజం ధరించి, భుజాన మూంజ జనివారం ధరించావు.',
-        sa:'हस्त में वज्र-ध्वज, कंधे पर मूंज-जनेऊ।',
-      }
+      meaning: {
+        en: 'You hold the thunderbolt and the flag in your hands. The sacred thread of munja grass adorns your shoulder.',
+        hi: 'आपके हाथ में वज्र और ध्वजा शोभायमान हैं। आपके कंधे पर मूंज का जनेऊ सुशोभित है।',
+        od: 'ଆପଣଙ୍କ ହାତରେ ବଜ୍ର ଓ ଧ୍ୱଜା ଶୋଭା ପାଉଛି। କାନ୍ଧରେ ମୂଞ୍ଜର ଯଜ୍ଞୋପବୀତ ସୁନ୍ଦର ଭାବେ ବିରାଜମାନ।',
+        te: 'మీ చేతిలో వజ్రాయుధం, పతాకం ఉన్నాయి. భుజంపై మూంజ్ జనేఊ శోభిస్తోంది.',
+      },
     },
     {
-      id:8, type:'chaupai', num:6,
-      original:'शंकर सुवन केसरी नंदन। तेज प्रताप महा जग वंदन॥',
-      transliteration:'Sankar suvan kesri Nandan\nTej pratap maha jag vandan',
-      script:{
-        od:'ଶଙ୍କର ସୁବନ କେଶରୀ ନନ୍ଦନ। ତେଜ ପ୍ରତାପ ମହ ଜଗ ବନ୍ଦନ॥',
-        te:'శంకర సువన కేసరీ నందన। తేజ ప్రతాప మహా జగ వందన॥',
+      id: 8,
+      type: 'chaupai',
+      num: 6,
+      original: 'शंकर सुवन केसरी नंदन। तेज प्रताप महा जगवंदन॥',
+      transliteration: 'Shankar suvan Kesari nandan, Tej pratap maha jag vandan',
+      script: {
+        od: 'ଶଂକର ସୁବନ କେସରୀ ନନ୍ଦନ। ତେଜ ପ୍ରତାପ ମହା ଜଗବନ୍ଦନ॥',
+        te: 'శంకర సువన కేసరీ నందన। తేజ ప్రతాప మహా జగవందన॥',
       },
-      meaning:{
-        en:'As a descendant of Lord Shankara and the pride of Kesari, your vast glory and power is worshipped across the universe.',
-        hi:'आप शंकर के अंश और केसरी के नंदन हैं। आपका तेज और प्रताप महान है।',
-        od:'ଶଙ୍କର ସ୍ୱରୂପ, କେଶରୀ ନନ୍ଦନ। ମହା ତେଜ ପ୍ରତାପ, ଜଗ ବନ୍ଦନ।',
-        te:'శంకర స్వరూప, కేసరీ నందన. మహా తేజస్సు ప్రతాపం, జగద్వంద్యుడు.',
-        sa:'शंकर-सुवन, केसरी-नंदन, महातेजस्वी, जगद्वंदनीय।',
-      }
+      meaning: {
+        en: 'You are the manifestation of Shankara and the beloved son of Kesari. Your brilliance and glory are revered by the whole world.',
+        hi: 'आप शंकर के अंश और केसरी के पुत्र हैं। आपका तेज और प्रताप पूरे जगत द्वारा वंदित है।',
+        od: 'ଆପଣ ଶଙ୍କରଙ୍କ ଅଂଶ ଏବଂ କେସରୀଙ୍କ ପ୍ରିୟ ପୁତ୍ର। ଆପଣଙ୍କ ତେଜ ଓ ପ୍ରତାପକୁ ସମଗ୍ର ଜଗତ ବନ୍ଦନା କରେ।',
+        te: 'మీరు శంకరుని అంసం, కేసరికి ప్రియమైన కుమారుడు. మీ తేజస్సు, ప్రతాప్‌ను జగత్తంతా వందిస్తుంది.',
+      },
     },
     {
-      id:9, type:'chaupai', num:7,
-      original:'विद्यावान गुणी अति चातुर। राम काज करिबे को आतुर॥',
-      transliteration:'Vidyavan guni ati chatur\nRam kaj karibe ko aatur',
-      script:{
-        od:'ବିଦ୍ୟାବାନ ଗୁଣୀ ଅତି ଚତୁର। ରାମ କାଜ କରିବେ କୋ ଆତୁର॥',
-        te:'విద్యావాన గుణి అతి చతుర। రామ కాజ కరిబే కో ఆతుర॥',
+      id: 9,
+      type: 'chaupai',
+      num: 7,
+      original: 'विद्यावान गुनी अति चातुर। राम काज करिबे को आतुर॥',
+      transliteration: 'Vidyavan guni ati chatur, Ram kaj karibe ko aatur',
+      script: {
+        od: 'ବିଦ୍ୟାବାନ ଗୁଣୀ ଅତି ଚାତୁର। ରାମ କାଜ କରିବେ କୋ ଆତୁର॥',
+        te: 'విద్యావాన్ గుణీ అతి చాతుర। రామ కాజ్ కరిబే కో ఆతుర॥',
       },
-      meaning:{
-        en:'You are the repository of learning, virtuous and fully accomplished, always eager to carry out the behests of Shri Ram.',
-        hi:'आप विद्यावान, गुणी और अत्यंत चतुर हैं। श्री राम का कार्य करने के लिए हमेशा आतुर।',
-        od:'ଆପଣ ବିଦ୍ୟାବାନ, ଗୁଣୀ, ଅତ୍ୟନ୍ତ ଚତୁର। ଶ୍ରୀ ରାମ କାର୍ଯ୍ୟ ସାଧନ ନିମ୍ତ ଆଗ୍ରହୀ।',
-        te:'మీరు విద్యావంతులు, గుణవంతులు, అత్యంత చతురులు. రాముని పని చేయడానికి ఎల్లప్పుడూ సిద్ధంగా ఉంటారు.',
-        sa:'विद्यावान, गुणी, अतिचतुर, राम-कार्य के लिए सदा आतुर।',
-      }
+      meaning: {
+        en: 'You are knowledgeable, virtuous, and supremely intelligent. You are always eager to perform the work of Lord Rama.',
+        hi: 'आप विद्वान, गुणी और अत्यंत चतुर हैं। आप सदैव श्रीराम के कार्य करने को उत्सुक रहते हैं।',
+        od: 'ଆପଣ ବିଦ୍ୟାବାନ, ଗୁଣୀ ଏବଂ ଅତ୍ୟନ୍ତ ଚତୁର। ଆପଣ ସଦା ଶ୍ରୀରାମଙ୍କ କାର୍ଯ୍ୟ କରିବାକୁ ଉତ୍ସୁକ।',
+        te: 'మీరు విద్యావంతుడు, గుణవంతుడు, అత్యంత చాతుర్యశాలి. శ్రీరాముడి పనులు చేయడానికి ఎల్లప్పుడూ సిద్ధంగా ఉంటారు.',
+      },
     },
     {
-      id:10, type:'chaupai', num:8,
-      original:'प्रभु चरित्र सुनिबे को रसिया। राम लखन सीता मन बसिया॥',
-      transliteration:'Prabu charitra sunibe ko rasiya\nRam Lakhan Sita man Basiya',
-      script:{
-        od:'ପ୍ରଭୁ ଚରିତ ସୁନିବେ କୋ ରସିଆ। ରାମ ଲଖନ ସୀତା ମନ ବସିଆ॥',
-        te:'ప్రభు చరిత్ర సునిబే కో రసియా। రామ లఖన సీతా మన బసియా॥',
+      id: 10,
+      type: 'chaupai',
+      num: 8,
+      original: 'प्रभु चरित्र सुनिबे को रसिया। राम लखन सीता मन बसिया॥',
+      transliteration: 'Prabhu charitra sunibe ko rasiya, Ram Lakhan Sita man basiya',
+      script: {
+        od: 'ପ୍ରଭୁ ଚରିତ୍ର ସୁନିବେ କୋ ରସିୟା। ରାମ ଲଖନ ସୀତା ମନ ବସିୟା॥',
+        te: 'ప్రభు చరిత్ర సునిబే కో రసియా। రామ్ లఖన్ సీతా మన బసియా॥',
       },
-      meaning:{
-        en:"You are an ardent listener of Shri Ram's life stories. You forever dwell in the hearts of Shri Ram, Lakshman and Sita.",
-        hi:'आप प्रभु श्री राम के चरित्र सुनने के बड़े रसिया हैं। आप राम, लखन और सीता के मन में बसे हैं।',
-        od:'ଆପଣ ପ୍ରଭୁ ଚରିତ ଶ୍ରବଣ ଭକ୍ତ। ରାମ, ଲକ୍ଷ୍ମଣ ଓ ସୀତା ହୃଦୟ ବାସୀ।',
-        te:'ప్రభు రాముని చరిత్ర వినడం మీకు ఆనందదదాయకం. రాం, లక్ష్మణ, సీతల హృదయంలో నివసించువాడు.',
-        sa:'प्रभु-चरित्र के रसिया, राम-लखन-सीता के मन-निवासी।',
-      }
+      meaning: {
+        en: 'You delight in listening to the divine stories of the Lord. Rama, Lakshmana, and Sita dwell in your heart.',
+        hi: 'आप प्रभु के चरित्र सुनने में आनन्द लेने वाले हैं। श्रीराम, लक्ष्मण और सीता आपके हृदय में बसते हैं।',
+        od: 'ଆପଣ ପ୍ରଭୁଙ୍କ ଚରିତ୍ର ଶୁଣିବାରେ ଅତ୍ୟନ୍ତ ଆନନ୍ଦ ପାଆନ୍ତି। ଶ୍ରୀରାମ, ଲକ୍ଷ୍ମଣ ଓ ସୀତା ଆପଣଙ୍କ ହୃଦୟରେ ବସନ୍ତି।',
+        te: 'ప్రభువు చరిత్రలను వినడంలో మిక్కిలి ఆనందిస్తారు. రామ, లక్ష్మణ, సీతలు మీ హృదయంలో నివసిస్తారు.',
+      },
     },
     {
-      id:11, type:'chaupai', num:9,
-      original:'सूक्ष्म रूप धरि सियहिं दिखावा। विकट रूप धरि लंक जरावा॥',
-      transliteration:'Sukshma roop dhari Siyahi dikhava\nVikat roop dhari lanka jarava',
-      script:{
-        od:'ସୂକ୍ଷ୍ମ ରୂପ ଧରି ସିୟହି ଦିଖାବ। ବିକଟ ରୂପ ଧରି ଲଙ୍କ ଜଳାବ॥',
-        te:'సూక్ష్మ రూప ధరి సియహి దిఖావ। వికట రూప ధరి లంక జరావ॥',
+      id: 11,
+      type: 'chaupai',
+      num: 9,
+      original: 'सूक्ष्म रूप धरि सियहिं दिखावा। बिकट रूप धरि लंक जरावा॥',
+      transliteration: 'Sukshma roop dhari Siyahi dikhava, Vikat roop dhari Lank jarava',
+      script: {
+        od: 'ସୂକ୍ଷ୍ମ ରୂପ ଧରି ସିଯହିଁ ଦିଖାୱା। ବିକଟ ରୂପ ଧରି ଲଙ୍କ ଜରାୱା॥',
+        te: 'సూక్ష్మ రూప్ ధరి సియహిం దిఖావా। వికట్ రూప్ ధరి లంక జరావా॥',
       },
-      meaning:{
-        en:'You appeared before Sita in a diminutive form and spoke with humility. You assumed a fearsome form and set Lanka ablaze.',
-        hi:'आपने सूक्ष्म रूप धारण कर सीता जी को दर्शन दिए। और विकट रूप धारण कर लंका को जलाया।',
-        od:'ସୂକ୍ଷ୍ମ ରୂପ ଧାରଣ କରି ସୀତାଙ୍କୁ ଦର୍ଶନ ଦେଲ। ବିକଟ ରୂପ ଧାରଣ କରି ଲଙ୍କା ଜାଳିଲ।',
-        te:'సూక్ష్మ రూపంలో సీతకు దర్శనమిచ్చావు. భయంకర రూపం ధరించి లంకను దగ్ధం చేశావు.',
-        sa:'सूक्ष्म रूप धारण कर सीता को दर्शन, विकट रूप धारण कर लंकादहन।',
-      }
+      meaning: {
+        en: 'You assumed a tiny form to appear before Sita. Then you took a terrifying form and burned Lanka.',
+        hi: 'आपने सूक्ष्म रूप धरकर सीताजी को दर्शन दिए, और विकराल रूप धरकर लंका जला दी।',
+        od: 'ଆପଣ ସୂକ୍ଷ୍ମ ରୂପ ଧାରଣ କରି ସୀତାଜୀଙ୍କୁ ଦର୍ଶନ ଦେଲେ। ପରେ ଭୟାନକ ରୂପ ଧାରଣ କରି ଲଙ୍କାକୁ ଜ୍ୱାଳାୟିତ କଲେ।',
+        te: 'మీరు సూక్ష్మరూపంలో సీతమ్మకు దర్శనమిచ్చి, భయంకర రూపంతో లంకను దహనం చేశారు.',
+      },
     },
     {
-      id:12, type:'chaupai', num:10,
-      original:'भीम रूप धरि असुर सँहारे। रामचंद्र के काज सँवारे॥',
-      transliteration:'Bhima roop dhari asur sanghare\nRamachandra ke kaj sanvare',
-      script:{
-        od:'ଭୀମ ରୂପ ଧରି ଅସୁର ସଂହାରେ। ରାମଚନ୍ଦ୍ର କେ କାଜ ସଂବାରେ॥',
-        te:'భీమ రూప ధరి అసుర సంహారే। రామచంద్ర కే కాజ సంవారే॥',
+      id: 12,
+      type: 'chaupai',
+      num: 10,
+      original: 'भीम रूप धरि असुर सँहारे। रामचंद्र के काज सँवारे॥',
+      transliteration: 'Bhima roop dhari asur sanhare, Ramchandra ke kaj sanvare',
+      script: {
+        od: 'ଭୀମ ରୂପ ଧରି ଅସୁର ସଁହାରେ। ରାମଚନ୍ଦ୍ର କେ କାଜ ସଁୱାରେ॥',
+        te: 'భీమ రూప్ ధరి అసుర సంహారే। రామచంద్ర కే కాజ్ సంవారే॥',
       },
-      meaning:{
-        en:'With overwhelming might you destroyed the demons and performed all tasks assigned by Shri Ram with great skill.',
-        hi:'भीम रूप धारण कर असुरों का संहार किया। श्री रामचंद्र के सभी कार्य संपन्न किए।',
-        od:'ଭୀମ ରୂପ ଧାରଣ କରି ଅସୁର ସଂହାର। ଶ୍ରୀ ରାମଚନ୍ଦ୍ରଙ୍କ ସମସ୍ତ କାର୍ଯ୍ୟ ସଂପନ୍ନ।',
-        te:'భీమ రూపంతో రాక్షసులను నిర్మూలించావు. రామచంద్రుని అన్ని కార్యాలు నిర్వహించావు.',
-        sa:'भीम रूप धारण कर असुर संहार, रामचंद्र के कार्य सम्पन्न किए।',
-      }
+      meaning: {
+        en: 'You assumed a formidable form and destroyed demons. You completed and perfected all the tasks of Lord Ramachandra.',
+        hi: 'आपने भीम रूप धारण कर असुरों का संहार किया और श्रीरामचंद्र के सभी कार्य सफल बनाए।',
+        od: 'ଆପଣ ଭୀମ ରୂପ ଧାରଣ କରି ଅସୁରମାନଙ୍କୁ ସଂହାର କଲେ। ଶ୍ରୀରାମଚନ୍ଦ୍ରଙ୍କ ସମସ୍ତ କାର୍ଯ୍ୟକୁ ସଫଳ କରିଦେଲେ।',
+        te: 'మీరు భీమరూపంలో అసురులను సంహరించి, శ్రీరామచంద్రుని అన్ని కార్యాలను విజయవంతం చేశారు.',
+      },
     },
     {
-      id:13, type:'chaupai', num:11,
-      original:'लाय सजीवन लखन जियाये। श्री रघुवीर हरषि उर लाये॥',
-      transliteration:'Laye Sanjivan Lakhan Jiyaye\nShri Raghuvir Harashi ur laye',
-      script:{
-        od:'ଲାୟ ସଞ୍ଜୀବନ ଲଖନ ଜିୟାୟେ। ଶ୍ରୀ ରଘୁବୀର ହରଷି ଉର ଲାୟେ॥',
-        te:'లాయ సంజీవన లఖన జియాయే। శ్రీ రఘువీర హరషి ఉర లాయే॥',
+      id: 13,
+      type: 'chaupai',
+      num: 11,
+      original: 'लाय सजीवन लखन जियाए। श्री रघुबीर हरषि उर लाए॥',
+      transliteration: 'Laye Sanjivan Lakhan jiyaye, Shri Raghuvir harashi ur laye',
+      script: {
+        od: 'ଲାୟ ସଜୀବନ ଲଖନ ଜିୟାଏ। ଶ୍ରୀ ରଘୁବୀର ହରଷି ଉର ଲାଏ॥',
+        te: 'లాయ్ సంజీవన్ లఖన్ జియాయే। శ్రీ రఘువీర్ హరషి ఉర్ లాయే॥',
       },
-      meaning:{
-        en:'You brought the Sanjivani herb and restored Lakshman to life. Shri Ram joyfully embraced you.',
-        hi:'संजीवनी लाकर लक्ष्मण को जीवित किया। श्री रघुवीर ने हर्षित होकर आपको हृदय से लगाया।',
-        od:'ସଞ୍ଜୀବନୀ ଆଣି ଲକ୍ଷ୍ମଣ ଜୀବନ ଦାନ। ଶ୍ରୀ ରଘୁବୀର ଆନନ୍ଦରେ ଆଲିଙ୍ଗନ।',
-        te:'సంజీవని తెచ్చి లక్ష్మణుని బ్రతికించావు. రఘువీరుడు సంతోషంతో నిన్ను హృదయానికి హత్తుకున్నాడు.',
-        sa:'संजीवनी लाकर लक्ष्मण को जीवित किया, रघुवीर ने हर्षित हो हृदय से लगाया।',
-      }
+      meaning: {
+        en: 'You brought the Sanjivani herb and revived Lakshmana. Filled with joy, Shri Raghuvir embraced you to his heart.',
+        hi: 'आप संजीवनी लाकर लक्ष्मण को जीवित कर लाए। प्रसन्न होकर श्रीरघुवीर ने आपको हृदय से लगा लिया।',
+        od: 'ଆପଣ ସଞ୍ଜୀବନୀ ଆଣି ଲକ୍ଷ୍ମଣଙ୍କୁ ପୁନର୍ଜୀବନ ଦେଲେ। ଆନନ୍ଦିତ ହୋଇ ଶ୍ରୀ ରଘୁବୀର ଆପଣଙ୍କୁ ହୃଦୟରେ ଆଲିଙ୍ଗନ କଲେ।',
+        te: 'మీరు సంజీవని తీసుకువచ్చి లక్ష్మణుడికి ప్రాణం పోశారు. సంతోషించిన శ్రీరఘువీరుడు మిమ్మల్ని ఆలింగనం చేసుకున్నాడు.',
+      },
     },
     {
-      id:14, type:'chaupai', num:12,
-      original:'रघुपति कीन्ही बहुत बड़ाई। तुम मम प्रिय भरतहि सम भाई॥',
-      transliteration:'Raghupati Kinhi bahut badai\nTum mam priye Bharat-hi sam bhai',
-      script:{
-        od:'ରଘୁପତି କୀନ୍ହି ବହୁତ ବଡ଼ାଈ। ତୁମ ମମ ପ୍ରିୟ ଭରତ ହି ସମ ଭାଈ॥',
-        te:'రఘుపతి కీన్హి బహుత బడాఈ। తుమ మమ ప్రియ భరత హి సమ భాఈ॥',
+      id: 14,
+      type: 'chaupai',
+      num: 12,
+      original: 'रघुपति कीन्ही बहुत बड़ाई। तुम मम प्रिय भरतहि सम भाई॥',
+      transliteration: 'Raghupati kinhi bahut badai, Tum mam priya Bharat-hi sam bhai',
+      script: {
+        od: 'ରଘୁପତି କୀନ୍ହୀ ବହୁତ ବଡ଼ାଇ। ତୁମ ମମ ପ୍ରିୟ ଭରତହି ସମ ଭାଇ॥',
+        te: 'రఘుపతి కీన్హీ బహుత్ బడాయీ। తుమ్ మమ ప్రియ భరతహి సమ్ భాయీ॥',
       },
-      meaning:{
-        en:'Shri Ram praised you lavishly and said "You are as dear to me as my own brother Bharat."',
-        hi:'रघुपति ने आपकी बहुत प्रशंसा की और कहा: "तुम मेरे भरत के समान प्रिय भाई हो।"',
-        od:'ରଘୁପତି ଆପଣଙ୍କ ବହୁ ପ୍ରଶଂସା କଲେ। ଭରତ ଭଳି ପ୍ରିୟ ଭ୍ରାତା ବୋଲି କହିଲେ।',
-        te:'రఘుపతి మీ యొక్క ఎంతో స్తుతించారు. నువ్వు నా భరత సమానమైన ప్రియ సోదరుడవు అన్నారు.',
-        sa:'रघुपति ने अत्यंत प्रशंसा की: तुम मेरे भरत के समान प्रिय भाई हो।',
-      }
+      meaning: {
+        en: 'Raghupati greatly praised you and said, “You are as dear to me as my beloved brother Bharata.”',
+        hi: 'रघुपति ने आपकी बहुत प्रशंसा की और कहा — तुम मुझे भरत के समान प्रिय हो।',
+        od: 'ରଘୁପତି ଆପଣଙ୍କୁ ବହୁତ ପ୍ରଶଂସା କରି କହିଲେ — ତୁମେ ମୋ ପାଇଁ ଭରତଭଳି ପ୍ରିୟ ଭାଇ।',
+        te: 'రఘుపతి మిమ్మల్ని ఎంతో స్తుతించి — నువ్వు నాకు భరతుడి వంటి ప్రియుడవు అని అన్నాడు.',
+      },
     },
     {
-      id:15, type:'chaupai', num:13,
-      original:'सहस बदन तुम्हरो यश गावैं। उस कहि श्रीपति कण्ठ लगावैं॥',
-      transliteration:'Sahas badan tumharo yash gaave\nUs kahi Shripati kanth lagaave',
-      script:{
-        od:'ସହସ ବଦନ ତୁମ୍ହରୋ ଯଶ ଗାବୈ। ଉସ କହି ଶ୍ରୀପତି କଣ୍ଠ ଲଗାବୈ॥',
-        te:'సహస వదన తుమ్హరో యశ గావై। ఉస కహి శ్రీపతి కంఠ లగావై॥',
+      id: 15,
+      type: 'chaupai',
+      num: 13,
+      original: 'सहस बदन तुम्हरो जस गावैं। अस कहि श्रीपति कंठ लगावैं॥',
+      transliteration: 'Sahas badan tumharo jas gavain, As kahi Shripati kanth lagavain',
+      script: {
+        od: 'ସହସ ବଦନ ତୁମ୍ହରୋ ଜସ ଗାୱୈଁ। ଅସ କହି ଶ୍ରୀପତି କଂଠ ଲଗାୱୈଁ॥',
+        te: 'సహస్ బదన్ తుమ్హరో జస్ గావైం। అస్ కహి శ్రీపతి కంఠ్ లగావైం॥',
       },
-      meaning:{
-        en:'Thousands of beings chant your glory. Saying thus, Shri Ram warmly hugged you.',
-        hi:'हजार मुखों से लोग तुम्हारी यश गाते हैं। यह कहकर श्रीपति ने तुम्हें गले लगाया।',
-        od:'ସହସ ମୁଖ ତୁମ ଯଶ ଗାନ। ଶ୍ରୀପତି ଗଳ ଲଗାଇ ଆଲିଙ୍ଗନ।',
-        te:'వేల నోళ్ళు నీ కీర్తిని పాడుతాయి. అని చెప్పి శ్రీపతి నిన్ను కంఠంలో హత్తుకున్నారు.',
-        sa:'सहस्र मुखों से यश गाते हैं, श्रीपति ने कंठ से लगाया।',
-      }
+      meaning: {
+        en: 'The Lord said that even a thousand mouths sing your glory. Saying this, Shri Hari embraced you.',
+        hi: 'श्रीपति ने कहा कि सहस्र मुख भी तुम्हारा यश गाते हैं, और ऐसा कहकर उन्होंने तुम्हें गले लगाया।',
+        od: 'ପ୍ରଭୁ କହିଲେ ଯେ ସହସ୍ର ମୁଖ ମଧ୍ୟ ଆପଣଙ୍କ ଯଶ ଗାଇଥାଏ; ଏମିତି କହି ଶ୍ରୀପତି ଆପଣଙ୍କୁ ଆଲିଙ୍ଗନ କଲେ।',
+        te: 'సహస్రముఖాలూ నీ యశస్సును గానిస్తాయని చెప్పి శ్రీపతి నిన్ను ఆలింగనం చేశాడు.',
+      },
     },
     {
-      id:16, type:'chaupai', num:14,
-      original:'संकादिक ब्रह्मादि मुनीसा। नारद सारद सहित अहीसा॥',
-      transliteration:'Sankadik Brahmadi Muneesa\nNarad Sarad sahit Aheesa',
-      script:{
-        od:'ସନକାଦିକ ବ୍ରହ୍ମାଦି ମୁନୀଶ। ନାରଦ ଶାରଦ ସହିତ ଅହୀଶ॥',
-        te:'సనకాదిక బ్రహ్మాది మునీశ। నారద శారద సహిత అహీశ॥',
+      id: 16,
+      type: 'chaupai',
+      num: 14,
+      original: 'सनकादिक ब्रह्मादि मुनीसा। नारद सारद सहित अहीसा॥',
+      transliteration: 'Sankadik Brahmadi Munisa, Narad Sarad sahit Ahisa',
+      script: {
+        od: 'ସନକାଦିକ ବ୍ରହ୍ମାଦି ମୁନୀସା। ନାରଦ ସାରଦ ସହିତ ଅହୀସା॥',
+        te: 'సనకాదిక బ్రహ్మాది మునీసా। నారద్ సారద్ సహిత్ అహీసా॥',
       },
-      meaning:{
-        en:'Prophets like Sanaka, Lord Brahma, the sage Narad himself, Goddess Saraswati and Shesha — all sing your praises.',
-        hi:'सनक आदि, ब्रह्मा आदि मुनीश्वर, नारद, सरस्वती और शेषनाग — सभी आपका यश गाते हैं।',
-        od:'ସନକ, ବ୍ରହ୍ମ, ନାରଦ, ଶାରଦ, ଅହୀଶ — ସମସ୍ତ ଆପଣଙ୍କ ଯଶ ଗାନ।',
-        te:'సనక, బ్రహ్మ, నారద, సరస్వతి, అహీశ — అందరూ నీ కీర్తిని కీర్తిస్తారు.',
-        sa:'सनकादि, ब्रह्मादि, नारद, शारदा, शेषनाग — सभी यश गाते हैं।',
-      }
+      meaning: {
+        en: 'Sanaka and other sages, Brahma and the great seers, Narada, Saraswati, and even Shesha all sing your glory.',
+        hi: 'सनकादिक, ब्रह्मा, मुनिजन, नारद, सरस्वती और शेषनाग भी आपकी महिमा का गान करते हैं।',
+        od: 'ସନକାଦି ଋଷି, ବ୍ରହ୍ମା, ମହାମୁନି, ନାରଦ, ସରସ୍ୱତୀ ଓ ଅହୀଶ ଶେଷନାଗ ମଧ୍ୟ ଆପଣଙ୍କ ମହିମା ଗାନ କରନ୍ତି।',
+        te: 'సనకాది ఋషులు, బ్రహ్మ, మునులు, నారదుడు, సరస్వతి, ఆదిశేషుడు కూడా నీ మహిమను కీర్తిస్తారు.',
+      },
     },
     {
-      id:17, type:'chaupai', num:15,
-      original:'जम कुबेर दिगपाल जहाँ ते। कवि कोविद कहि सके कहाँ ते॥',
-      transliteration:'Yam Kuber Digpal Jahan te\nKavi kovid kahi sake kahan te',
-      script:{
-        od:'ଯମ କୁବେର ଦିଗ୍ପାଳ ଜହାଁ ତେ। କବି କୋବିଦ କହି ସକେ କହାଁ ତେ॥',
-        te:'యమ కుబేర దిగ్పాల జహాఁ తే। కవి కోవిద కహి సకే కహాఁ తే॥',
+      id: 17,
+      type: 'chaupai',
+      num: 15,
+      original: 'यम कुबेर दिगपाल जहाँ ते। कवि कोविद कहि सके कहाँ ते॥',
+      transliteration: 'Yam Kuber Digpal jahan te, Kavi kovid kahi sake kahan te',
+      script: {
+        od: 'ଯମ କୁବେର ଦିଗପାଳ ଯହାଁ ତେ। କବି କୋବିଦ କହି ସକେ କହାଁ ତେ॥',
+        te: 'యమ్ కుబేర్ దిగ్‌పాల్ జహాం తే। కవి కోవిద్ కహి సకే కహాం తే॥',
       },
-      meaning:{
-        en:'Even Yamraj, Kuber and the Digpals offer you homage. What then can a mere poet say to adequately praise your glory?',
-        hi:'यमराज, कुबेर और दिगपाल — सभी आपकी वंदना करते हैं। कोई भी कवि आपके गुण वर्णन नहीं कर सकता।',
-        od:'ଯମ, କୁବେର, ଦିଗ୍ପାଳ ସମସ୍ତ ବନ୍ଦନ। କୌଣସି କବି ଆପଣଙ୍କ ଗୁଣ ବର୍ଣ୍ଣ କରି ପାରିବ ନାହିଁ।',
-        te:'యముడు, కుబేరుడు, దిగ్పాలకులు — అందరూ నీకు నమస్కరిస్తారు. ఏ కవి నీ గుణాలను వర్ణించగలడు?',
-        sa:'यम, कुबेर, दिग्पाल सभी वंदन करते, कवि-कोविद क्या वर्णन कर सकें?',
-      }
+      meaning: {
+        en: 'Yama, Kubera, and the guardians of the directions cannot fully describe your greatness; then how can even the most learned poets do so?',
+        hi: 'यम, कुबेर और दिग्पाल भी आपकी महिमा का पूर्ण वर्णन नहीं कर सकते, फिर कवि और विद्वान कैसे कर सकते हैं?',
+        od: 'ଯମ, କୁବେର ଓ ଦିଗ୍ପାଳମାନେ ମଧ୍ୟ ଆପଣଙ୍କ ମହିମାର ପୁରା ବର୍ଣ୍ଣନା କରିପାରୁନାହାନ୍ତି; ତେବେ ବିଦ୍ୱାନ କବିମାନେ କିପରି କରିପାରିବେ?',
+        te: 'యముడు, కుబేరుడు, దిక్పాలకులు కూడా నీ మహిమను పూర్తిగా వర్ణించలేరు; మరి కవులు ఎలా వర్ణించగలరు?',
+      },
     },
     {
-      id:18, type:'chaupai', num:16,
-      original:'तुम उपकार सुग्रीवहिं कीन्हा। राम मिलाय राज पद दीन्हा॥',
-      transliteration:'Tum upkar Sugreevahin keenha\nRam milaye rajpad deenha',
-      script:{
-        od:'ତୁମ ଉପକାର ସୁଗ୍ରୀବହି କୀନ୍ହ। ରାମ ମିଳାୟ ରାଜ ପଦ ଦୀନ୍ହ॥',
-        te:'తుమ ఉపకార సుగ్రీవహి కీన్హ। రామ మిళాయ రాజ పద దీన్హ॥',
+      id: 18,
+      type: 'chaupai',
+      num: 16,
+      original: 'तुम उपकार सुग्रीवहिं कीन्हा। राम मिलाय राज पद दीन्हा॥',
+      transliteration: 'Tum upkar Sugrivahin kinha, Ram milay raj pad dinha',
+      script: {
+        od: 'ତୁମ ଉପକାର ସୁଗ୍ରୀବହିଁ କୀନ୍ହା। ରାମ ମିଲାୟ ରାଜ ପଦ ଦୀନ୍ହା॥',
+        te: 'తుమ్ ఉపకార్ సుగ్రీవహిం కీన్హా। రామ్ మిలాయ్ రాజ్ పద్ దీన్హా॥',
       },
-      meaning:{
-        en:'You greatly helped Sugriv by uniting him with Shri Ram and getting him the kingdom.',
-        hi:'आपने सुग्रीव का बड़ा उपकार किया। उन्हें राम से मिलाकर राजपद दिलाया।',
-        od:'ସୁଗ୍ରୀବଙ୍କୁ ଉପକାର। ରାମ ସହ ମିଳନ ଓ ରାଜ ପଦ ଦାନ।',
-        te:'సుగ్రీవుడికి ఎంతో ఉపకారం చేశావు. రాముని తో కలిపి రాజ్యమిప్పించావు.',
-        sa:'सुग्रीव को राम से मिलाकर राजपद दिलाया।',
-      }
+      meaning: {
+        en: 'You helped Sugriva by uniting him with Lord Ram, and through that he attained the kingdom.',
+        hi: 'आपने सुग्रीव पर उपकार किया, उन्हें श्रीराम से मिलाया और राजपद दिलाया।',
+        od: 'ଆପଣ ସୁଗ୍ରୀବଙ୍କୁ ଶ୍ରୀରାମଙ୍କ ସହ ମିଳାଇ ବଡ଼ ଉପକାର କଲେ, ଏବଂ ତାହାର ଫଳରେ ସେ ରାଜ୍ୟ ପାଇଲେ।',
+        te: 'మీరు సుగ్రీవునికి సహాయం చేసి, శ్రీరాముడితో కలిపి, అతనికి రాజ్యాన్ని సంపాదింపజేశారు.',
+      },
     },
     {
-      id:19, type:'chaupai', num:17,
-      original:'युग सहस्त्र योजन पर भानू। लीलो ताहि मधुर फल जानू॥',
-      transliteration:'Yug sahastra jojan par Bhanu\nLeelyo tahi madhur phal janu',
-      script:{
-        od:'ଯୁଗ ସହସ୍ର ଯୋଜନ ପର ଭାନୁ। ଲୀଳ୍ୟୋ ତାହି ମଧୁର ଫଳ ଜାନୁ॥',
-        te:'యుగ సహస్ర యోజన పర భాను। లీల్యో తాహి మధుర ఫల జాను॥',
+      id: 19,
+      type: 'chaupai',
+      num: 17,
+      original: 'तुम्हरो मंत्र बिभीषण माना। लंकेश्वर भए सब जग जाना॥',
+      transliteration: 'Tumharo mantra Vibhishan mana, Lankeshwar bhaye sab jag jana',
+      script: {
+        od: 'ତୁମ୍ହରୋ ମନ୍ତ୍ର ବିଭୀଷଣ ମାନା। ଲଂକେଶ୍ୱର ଭଏ ସବ ଜଗ ଜାନା॥',
+        te: 'తుమ్హరో మంత్ర విభీషణ్ మానా। లంకేశ్వర్ భయే సబ్ జగ్ జానా॥',
       },
-      meaning:{
-        en:'You dashed upon the Sun thousands of miles away, thinking it to be a sweet luscious fruit.',
-        hi:'हजारों योजन दूर के सूर्य को आपने मीठा फल समझकर निगल लिया था।',
-        od:'ହଜାର ଯୋଜନ ଦୂର ସୂର୍ଯ୍ୟ ଫଳ ଜାଣି ଖାଇ ଗଲ।',
-        te:'వేల యోజనాల దూరంలోని సూర్యుని తీపి పండుగా భావించి మింగావు.',
-        sa:'सहस्र योजन दूर सूर्य को मधुर फल समझ लीला से निगल लिया।',
-      }
+      meaning: {
+        en: 'Vibhishana accepted your counsel, and as the whole world knows, he became the king of Lanka.',
+        hi: 'विभीषण ने आपका मंत्र माना और वे लंकेश्वर बने — यह बात सब जगत जानता है।',
+        od: 'ବିଭୀଷଣ ଆପଣଙ୍କ ପରାମର୍ଶକୁ ଗ୍ରହଣ କଲେ, ଏବଂ ସମସ୍ତ ଜଗତ ଜାଣେ ଯେ ସେ ଲଙ୍କେଶ୍ୱର ହେଲେ।',
+        te: 'విభీషణుడు మీ సలహాను అంగీకరించి, లంకేశ్వరుడయ్యాడు — దీనిని జగత్తంతా తెలుసు.',
+      },
     },
     {
-      id:20, type:'chaupai', num:18,
-      original:'प्रभु मुद्रिका मेलि मुख माहीं। जलधि लाँघि गये अचरज नाहीं॥',
-      transliteration:'Prabhu mudrika meli mukh mahee\nJaladhi langhi gaye achraj nahee',
-      script:{
-        od:'ପ୍ରଭୁ ମୁଦ୍ରିକା ମେଳି ମୁଖ ମାହୀ। ଜଳଧି ଲାଁଘି ଗୟେ ଅଚ୍ଛ ନାହୀ॥',
-        te:'ప్రభు ముద్రికా మేళి ముఖ మాహీ। జలధి లాంఘి గయే అచ్ఛ నాహీ॥',
+      id: 20,
+      type: 'chaupai',
+      num: 18,
+      original: 'जुग सहस्र जोजन पर भानू। लील्यो ताहि मधुर फल जानू॥',
+      transliteration: 'Jug sahastra jojan par Bhanu, Lilyo tahi madhur phal janu',
+      script: {
+        od: 'ଜୁଗ ସହସ୍ର ଯୋଜନ ପର ଭାନୂ। ଲୀଲ୍ୟୋ ତାହି ମଧୁର ଫଳ ଜାନୂ॥',
+        te: 'జుగ్ సహస్ర జోజన్ పర్ భానూ। లీల్యో తాహి మధుర ఫల్ జానూ॥',
       },
-      meaning:{
-        en:"Carrying the Lord's Signet Ring in your mouth, you leaped across the ocean — there is no wonder in this.",
-        hi:'प्रभु की मुद्रिका मुँह में रखकर आप समुद्र लाँघ गए — इसमें कोई आश्चर्य नहीं।',
-        od:'ପ୍ରଭୁ ମୁଦ୍ରା ମୁଖରେ ରଖି ସମୁଦ୍ର ଲଙ୍ଘନ — ଏଥିରେ ଆଶ୍ଚର୍ଯ୍ୟ ନାହିଁ।',
-        te:'ప్రభువు ముద్రను నోటిలో ఉంచి సముద్రాన్ని దాటావు — ఇందులో ఆశ్చర్యమేమీ లేదు.',
-        sa:'प्रभु की मुद्रिका मुख में रख समुद्र लांघ गए — आश्चर्य नहीं।',
-      }
+      meaning: {
+        en: 'The sun was thousands of yojanas away, yet you leapt toward it, thinking it to be a sweet fruit.',
+        hi: 'सूर्य हजारों योजन दूर था, फिर भी आपने उसे मीठा फल समझकर निगलने का प्रयत्न किया।',
+        od: 'ସୂର୍ଯ୍ୟ ହଜାର ଯୋଜନ ଦୂରେ ଥିଲା, ତଥାପି ଆପଣ ତାକୁ ମିଠା ଫଳ ଭାବି ଧରିବାକୁ ଲାଘବ କଲେ।',
+        te: 'సూర్యుడు వేల యోజనల దూరంలో ఉన్నా, దానిని మధురఫలమని భావించి దూకారు.',
+      },
     },
     {
-      id:21, type:'chaupai', num:19,
-      original:'दुर्गाम काज जगत के जेते। सुगम अनुग्रह तुम्हरे तेते॥',
-      transliteration:'Durgaam kaj jagat ke jete\nSugam anugraha tumhre tete',
-      script:{
-        od:'ଦୁର୍ଗମ କାଜ ଜଗତ କେ ଜେତେ। ସୁଗମ ଅନୁଗ୍ରହ ତୁମ୍ହରେ ତେତେ॥',
-        te:'దుర్గమ కాజ జగత కే జేతే। సుగమ అనుగ్రహ తుమ్హరే తేతే॥',
+      id: 21,
+      type: 'chaupai',
+      num: 19,
+      original: 'प्रभु मुद्रिका मेलि मुख माहीं। जलधि लाँघि गये अचरज नाहीं॥',
+      transliteration: 'Prabhu mudrika meli mukh mahin, Jaladhi langhi gaye acharaj nahin',
+      script: {
+        od: 'ପ୍ରଭୁ ମୁଦ୍ରିକା ମେଲି ମୁଖ ମାହୀଁ। ଜଳଧି ଲାଁଘି ଗଏ ଅଚରଜ ନାହୀଁ॥',
+        te: 'ప్రభు ముద్రికా మేలి ముఖ్ మాహీం। జలధి లాంఘి గయే అచరజ్ నాహీం॥',
       },
-      meaning:{
-        en:'All the difficult tasks in the world become easy with your kind grace.',
-        hi:'दुनिया के सभी कठिन कार्य आपकी कृपा से सुगम हो जाते हैं।',
-        od:'ଜଗତର ଦୁର୍ଗମ କାର୍ଯ୍ୟ ଆପଣ କୃପାରେ ସୁଗମ।',
-        te:'ప్రపంచంలోని అన్ని కష్టమైన పనులు నీ అనుగ్రహంతో సులువు అవుతాయి.',
-        sa:'जगत के दुर्गम कार्य तुम्हारे अनुग्रह से सुगम हो जाते।',
-      }
+      meaning: {
+        en: 'Placing the Lord’s ring in your mouth, you crossed the ocean — and in that there is no surprise, for your power is immeasurable.',
+        hi: 'प्रभु की मुद्रिका मुख में रखकर आपने समुद्र लांघ लिया — इसमें आश्चर्य नहीं, क्योंकि आपकी शक्ति अपरंपार है।',
+        od: 'ପ୍ରଭୁଙ୍କ ମୁଦ୍ରିକାକୁ ମୁଖରେ ରଖି ଆପଣ ସମୁଦ୍ର ଲଂଘିଗଲେ; ଏଥିରେ କୌଣସି ଆଶ୍ଚର୍ଯ୍ୟ ନାହିଁ, କାରଣ ଆପଣଙ୍କ ଶକ୍ତି ଅସୀମ।',
+        te: 'ప్రభువు ముద్రికను నోట్లో ఉంచుకుని సముద్రం దాటారు — ఇందులో ఆశ్చర్యం లేదు, ఎందుకంటే మీ శక్తి అపారమైనది.',
+      },
     },
     {
-      id:22, type:'chaupai', num:20,
-      original:'राम दुआरे तुम रखवारे। होत न आज्ञा बिनु पैसारे॥',
-      transliteration:'Ram dware tum rakhvare\nHoat na agya binu paisare',
-      script:{
-        od:'ରାମ ଦ୍ୱାରେ ତୁମ ରଖବାରେ। ହୋଅତ ନ ଆଜ୍ଞ ବିନ ପୈସାରେ॥',
-        te:'రామ ద్వారే తుమ రఖవారే। హోత న ఆజ్ఞ బిన పైసారే॥',
+      id: 22,
+      type: 'chaupai',
+      num: 20,
+      original: 'दुर्गम काज जगत के जेते। सुगम अनुग्रह तुम्हरे तेते॥',
+      transliteration: 'Durgam kaj jagat ke jete, Sugam anugrah tumhare tete',
+      script: {
+        od: 'ଦୁର୍ଗମ କାଜ ଜଗତ କେ ଜେତେ। ସୁଗମ ଅନୁଗ୍ରହ ତୁମ୍ହରେ ତେତେ॥',
+        te: 'దుర్గమ్ కాజ్ జగత్ కే జేతే। సుగమ్ అనుగ్రహ్ తుమ్హరే తేతే॥',
       },
-      meaning:{
-        en:"You are the guardian at the door of Shri Ram's Divine Abode. No one can enter without your permission.",
-        hi:'आप श्री राम के द्वार के रक्षक हैं। आपकी आज्ञा के बिना कोई प्रवेश नहीं कर सकता।',
-        od:'ଆପଣ ଶ୍ରୀ ରାମ ଦ୍ୱାର ରକ୍ଷକ। ଆଜ୍ଞ ବିନ ପ୍ରବେଶ ନଥାଏ।',
-        te:'నువ్వు రాముని ద్వారపాలకుడు. నీ అనుమతి లేకుండా ఎవరూ ప్రవేశించలేరు.',
-        sa:'राम-द्वार के रक्षक, बिना आज्ञा कोई प्रवेश नहीं।',
-      }
+      meaning: {
+        en: 'All difficult tasks in the world become easy by your grace.',
+        hi: 'जगत के सभी दुर्गम कार्य आपकी कृपा से सुगम हो जाते हैं।',
+        od: 'ଜଗତର ସମସ୍ତ ଦୁର୍ଗମ କାର୍ଯ୍ୟ ଆପଣଙ୍କ କୃପାରେ ସୁଗମ ହୋଇଯାଏ।',
+        te: 'జగత్తులోని కఠినమైన కార్యాలన్నీ మీ కృపతో సులభమవుతాయి.',
+      },
     },
     {
-      id:23, type:'chaupai', num:21,
-      original:'सब सुख लहैं तुम्हारी सरना। तुम रक्षक काहू को डर ना॥',
-      transliteration:'Sub sukh lahai tumhari sarna\nTum rakshak kahu ko dar na',
-      script:{
-        od:'ସବ ସୁଖ ଲହୈ ତୁମ୍ହାରି ଶରଣ। ତୁମ ରକ୍ଷକ କାହୂ କୋ ଡ଼ର ଣ॥',
-        te:'సబ సుఖ లహై తుమ్హారి శరణ। తుమ రక్షక కాహూ కో డర న॥',
+      id: 23,
+      type: 'chaupai',
+      num: 21,
+      original: 'राम दुआरे तुम रखवारे। होत न आज्ञा बिनु पैसारे॥',
+      transliteration: 'Ram dware tum rakhvare, Hot na agya binu paisare',
+      script: {
+        od: 'ରାମ ଦୁଆରେ ତୁମ ରଖୱାରେ। ହୋତ ନ ଆଜ୍ଞା ବିନୁ ପୈସାରେ॥',
+        te: 'రామ్ దువారే తుమ్ రఖ్వారే। హోత్ న ఆజ్ఞా బిను పైసారే॥',
       },
-      meaning:{
-        en:'All happiness lies at your feet. Those under your protection feel fearless.',
-        hi:'आपकी शरण में आकर सब सुख मिलते हैं। आप रक्षक हैं तो किसी को कोई भय नहीं।',
-        od:'ଆପଣ ଶରଣ ସମସ୍ତ ସୁଖ। ଆପଣ ରକ୍ଷକ ହେଲେ ଭୟ ନଥାଏ।',
-        te:'నీ శరణంలో అన్ని సుఖాలు లభిస్తాయి. నీ రక్షణలో ఉంటే ఎటువంటి భయం లేదు.',
-        sa:'शरण लेने पर सब सुख, तुम रक्षक तो कोई भय नहीं।',
-      }
+      meaning: {
+        en: 'You are the guardian of Rama’s door. No one can enter without your permission.',
+        hi: 'आप श्रीराम के द्वार के रक्षक हैं। आपकी आज्ञा बिना कोई प्रवेश नहीं कर सकता।',
+        od: 'ଆପଣ ଶ୍ରୀରାମଙ୍କ ଦ୍ୱାରର ରକ୍ଷକ। ଆପଣଙ୍କ ଆଜ୍ଞା ବିନା କେହି ପ୍ରବେଶ କରିପାରେ ନାହିଁ।',
+        te: 'మీరు శ్రీరాముడి ద్వారపాలకుడు. మీ అనుమతి లేకుండా ఎవరూ ప్రవేశించలేరు.',
+      },
     },
     {
-      id:24, type:'chaupai', num:22,
-      original:'आपन तेज सम्हारो आपै। तीनों लोक हाँक तें काँपैं॥',
-      transliteration:'Aapan tej samharo aapai\nTeenhon lok hank te kanpai',
-      script:{
-        od:'ଆପନ ତେଜ ସମ୍ହାରୋ ଆପୈ। ତୀନହୋ ଲୋକ ହାଁକ ତେ କାଁପୈ॥',
-        te:'ఆపన తేజ సంహారో ఆపై। తీనహో లోక హాఁక తే కాఁపై॥',
+      id: 24,
+      type: 'chaupai',
+      num: 22,
+      original: 'सब सुख लहै तुम्हारी सरना। तुम रच्छक काहू को डर ना॥',
+      transliteration: 'Sab sukh lahai tumhari sarna, Tum rakshak kahu ko dar na',
+      script: {
+        od: 'ସବ ସୁଖ ଲହୈ ତୁମ୍ହାରୀ ସରନା। ତୁମ ରଚ୍ଛକ କାହୂ କୋ ଡର ନା॥',
+        te: 'సబ్ సుఖ్ లహై తుమ్హారీ సరణా। తుమ్ రక్షక్ కాహూ కో డర్ నా॥',
       },
-      meaning:{
-        en:'Only you can contain your own splendid valour. All three worlds tremble at your thunderous call.',
-        hi:'अपना तेज आप ही संभाल सकते हैं। आपके हुंकार से तीनों लोक काँप उठते हैं।',
-        od:'ନିଜ ତେଜ ନିଜେ ସଂଭାଳ। ତ୍ରୈଲୋକ୍ୟ ଡ଼ାକ ଶୁଣି ଥରହର।',
-        te:'నీ తేజస్సును నీవే నియంత్రించగలవు. నీ గర్జనకు మూడు లోకాలు వణుకుతాయి.',
-        sa:'अपना तेज स्वयं संभालो, तीनों लोक हुंकार से कांपते।',
-      }
+      meaning: {
+        en: 'All happiness is obtained by taking refuge in you. When you are the protector, there is no fear of anyone.',
+        hi: 'आपकी शरण में आने से सब सुख मिलते हैं। जब आप रक्षक हैं, तब किसी का भय नहीं रहता।',
+        od: 'ଆପଣଙ୍କ ଶରଣେ ଆସିଲେ ସମସ୍ତ ସୁଖ ଲାଭ ହୁଏ। ଆପଣ ରକ୍ଷକ ଥିବାବେଳେ କାହାରି ଭୟ ରହେ ନାହିଁ।',
+        te: 'మీ శరణులోకి వచ్చినవారికి అన్ని సుఖాలు లభిస్తాయి. మీరు రక్షకుడై ఉంటే ఎటువంటి భయం ఉండదు.',
+      },
     },
     {
-      id:25, type:'chaupai', num:23,
-      original:'भूत पिसाच निकट नहिं आवैं। महावीर जब नाम सुनावैं॥',
-      transliteration:'Bhoot pisach Nikat nahin aavai\nMahavir jab naam sunavai',
-      script:{
-        od:'ଭୂତ ପିଶାଚ ନିକଟ ନହି ଆବୈ। ମହାବୀର ଜବ ନାମ ସୁନାବୈ॥',
-        te:'భూత పిశాచ నికట నహి ఆవై। మహావీర జబ నామ సునావై॥',
+      id: 25,
+      type: 'chaupai',
+      num: 23,
+      original: 'आपन तेज सम्हारो आपै। तीनों लोक हाँक तें काँपै॥',
+      transliteration: 'Aapan tej samharo aapai, Tino lok hank te kanpai',
+      script: {
+        od: 'ଆପନ ତେଜ ସମ୍ହାରୋ ଆପୈ। ତୀନୋଁ ଲୋକ ହାଁକ ତେଁ କାଁପୈ॥',
+        te: 'ఆపన్ తేజ్ సమ్హారో ఆపై। తీనోం లోక్ హాంక్ తేం కాంపై॥',
       },
-      meaning:{
-        en:'All ghosts, demons and evil spirits stay away when your great name is invoked, O Mahaveer!',
-        hi:'भूत पिशाच पास नहीं आते जब महावीर का नाम लिया जाता है।',
-        od:'ଭୂତ ପିଶାଚ ପାଖ ଆସନ୍ତି ନାହିଁ ଯେବେ ମହାବୀର ନାମ ଉଚ୍ଚାରଣ।',
-        te:'మహావీర నామం వినగానే భూతప్రేతాలు దూరంగా పారిపోతాయి.',
-        sa:'महावीर का नाम सुनते ही भूत-पिशाच पास नहीं आते।',
-      }
+      meaning: {
+        en: 'You alone can control your own immense radiance. At your mighty roar, the three worlds tremble.',
+        hi: 'अपने तेज को आप स्वयं ही संभाल सकते हैं। आपकी हुंकार से तीनों लोक काँप उठते हैं।',
+        od: 'ଆପଣଙ୍କ ଅପାର ତେଜକୁ ଆପଣ ନିଜେ ନିୟନ୍ତ୍ରଣ କରିପାରନ୍ତି। ଆପଣଙ୍କ ଘୋଷଣାରେ ତିନିଲୋକ କମ୍ପିତ ହୋଇଯାଏ।',
+        te: 'మీ అపార తేజస్సును మీరు మాత్రమే నియంత్రించగలరు. మీ గర్జనతో మూడు లోకాలు కంపిస్తాయి.',
+      },
     },
     {
-      id:26, type:'chaupai', num:24,
-      original:'नासै रोग हरैं सब पीरा। जपत निरंतर हनुमत बीरा॥',
-      transliteration:'Nase rog harai sab peera\nJapat nirantar Hanumant beera',
-      script:{
-        od:'ନାଶେ ରୋଗ ହରୈ ସବ ପୀରା। ଜପତ ନିରନ୍ତର ହନୁମତ ବୀରା॥',
-        te:'నాశే రోగ హరై సబ పీరా। జపత నిరంతర హనుమత వీరా॥',
+      id: 26,
+      type: 'chaupai',
+      num: 24,
+      original: 'भूत पिसाच निकट नहिं आवै। महावीर जब नाम सुनावै॥',
+      transliteration: 'Bhoot pisaach nikat nahin aavai, Mahavir jab naam sunavai',
+      script: {
+        od: 'ଭୂତ ପିସାଚ ନିକଟ ନହିଁ ଆୱୈ। ମହାବୀର ଜବ ନାମ ସୁନାୱୈ॥',
+        te: 'భూత్ పిశాచ నికట్ నహిం ఆవై। మహావీర్ జబ్ నామ్ సునావై॥',
       },
-      meaning:{
-        en:'All diseases and pain disappear when one continuously recites the name of the brave Hanuman.',
-        hi:'निरंतर हनुमान के नाम का जाप करने से रोग और सभी पीड़ाएँ दूर हो जाती हैं।',
-        od:'ନିରନ୍ତର ହନୁମାନ ନାମ ଜପ — ରୋଗ ଓ ଯନ୍ତ୍ରଣା ଦୂର ହୁଏ।',
-        te:'నిరంతరం హనుమంతుని నామం జపిస్తే రోగాలు, బాధలు అన్నీ తొలగిపోతాయి.',
-        sa:'निरंतर जप से रोग नष्ट, सब पीड़ाएं हरण।',
-      }
+      meaning: {
+        en: 'Ghosts and evil spirits do not come near when the mighty name of Mahavir Hanuman is heard.',
+        hi: 'जब महावीर हनुमान का नाम लिया जाता है, तब भूत-पिशाच निकट नहीं आते।',
+        od: 'ମହାବୀର ହନୁମାନଙ୍କ ନାମ ଉଚ୍ଚାରଣ ହେଲେ ଭୂତ ପିଶାଚ ନିକଟକୁ ଆସିପାରେ ନାହିଁ।',
+        te: 'మహావీర హనుమంతుని నామం వినబడినప్పుడు భూత పిశాచాలు దగ్గరకు రావు.',
+      },
     },
     {
-      id:27, type:'chaupai', num:25,
-      original:'संकट तें हनुमान छुड़ावैं। मन क्रम बचन ध्यान जो लावैं॥',
-      transliteration:'Sankat se Hanuman chudavai\nMan Karam Vachan dyan jo lavai',
-      script:{
-        od:'ସଙ୍କଟ ସେ ହନୁମାନ ଛୁଡ଼ାବୈ। ମନ କ୍ରମ ବଚନ ଧ୍ୟାନ ଜୋ ଲାବୈ॥',
-        te:'సంకట సే హనుమాన ఛుడావై। మన క్రమ వచన ధ్యాన జో లావై॥',
+      id: 27,
+      type: 'chaupai',
+      num: 25,
+      original: 'नासै रोग हरै सब पीरा। जपत निरंतर हनुमत बीरा॥',
+      transliteration: 'Nasai rog harai sab pira, Japat nirantar Hanumat bira',
+      script: {
+        od: 'ନାସୈ ରୋଗ ହରୈ ସବ ପୀରା। ଜପତ ନିରନ୍ତର ହନୁମତ ବୀରା॥',
+        te: 'నాసై రోగ్ హరై సబ్ పీరా। జపత్ నిరంతర్ హనుమత్ వీరా॥',
       },
-      meaning:{
-        en:'Those who remember Hanuman in thought, deed and word with sincerity are rescued from all crises.',
-        hi:'जो मन, कर्म और वचन से हनुमान का ध्यान करते हैं, वे सभी संकटों से मुक्त हो जाते हैं।',
-        od:'ମନ, କର୍ମ, ବଚନରେ ହନୁମାନ ଧ୍ୟାନ — ସମସ୍ତ ସଂକଟ ମୁକ୍ତ।',
-        te:'మనసా, కర్మణా, వాచా హనుమంతుని ధ్యానించేవారు అన్ని సంకటాల నుండి విడుదలవుతారు.',
-        sa:'मन-कर्म-वचन से ध्यान करने पर हनुमान संकट से मुक्त करते।',
-      }
+      meaning: {
+        en: 'All diseases are destroyed and every pain is removed by constantly chanting the name of brave Hanuman.',
+        hi: 'वीर हनुमान का निरंतर जप करने से रोग नष्ट होते हैं और सब पीड़ाएँ दूर होती हैं।',
+        od: 'ବୀର ହନୁମାନଙ୍କ ନାମକୁ ନିରନ୍ତର ଜପ କଲେ ରୋଗ ନାଶ ହୁଏ ଏବଂ ସମସ୍ତ ପୀଡ଼ା ଦୂର ହୁଏ।',
+        te: 'వీర హనుమంతుని నామాన్ని నిరంతరం జపిస్తే రోగాలు నశించి అన్ని బాధలు తొలగిపోతాయి.',
+      },
     },
     {
-      id:28, type:'chaupai', num:26,
-      original:'सब पर राम तपस्वी राजा। तिन के काज सकल तुम साजा॥',
-      transliteration:'Sub par Ram tapasvee raja\nTin ke kaj sakal Tum saja',
-      script:{
-        od:'ସବ ପର ରାମ ତପସ୍ୱୀ ରାଜ। ତିନ କେ କାଜ ସକଳ ତୁମ ସାଜ॥',
-        te:'సబ పర రామ తపస్వీ రాజ। తిన కే కాజ సకల తుమ సాజ॥',
+      id: 28,
+      type: 'chaupai',
+      num: 26,
+      original: 'संकट तें हनुमान छुड़ावै। मन क्रम वचन ध्यान जो लावै॥',
+      transliteration: 'Sankat te Hanuman chhudavai, Man kram vachan dhyan jo lavai',
+      script: {
+        od: 'ସଂକଟ ତେଁ ହନୁମାନ ଛୁଡ଼ାୱୈ। ମନ କ୍ରମ ବଚନ ଧ୍ୟାନ ଜୋ ଲାୱୈ॥',
+        te: 'సంకట్ తేం హనుమాన్ ఛుడావై। మన క్రమ్ వచన్ ధ్యాన్ జో లావై॥',
       },
-      meaning:{
-        en:"All who hail Shri Ram as the Supreme King — you ensure all their tasks are accomplished.",
-        hi:'श्री राम सबसे बड़े तपस्वी राजा हैं। उनके भक्तों के सभी कार्य आप संपन्न करते हैं।',
-        od:'ରାମ ଭକ୍ତ ସମସ୍ତ। ସେ ଭକ୍ତ କାର୍ଯ୍ୟ ଆପଣ ସୁଗମ।',
-        te:'రాముడే సర్వోన్నత తపస్వీ రాజు. ఆ రాముని భక్తుల కార్యాలన్నీ నువ్వు నిర్వహిస్తావు.',
-        sa:'राम सबसे ऊपर तपस्वी राजा, उनके भक्तों के कार्य तुम सम्पन्न करते।',
-      }
+      meaning: {
+        en: 'Hanuman frees one from troubles when a person meditates upon him in mind, action, and speech.',
+        hi: 'जो मन, कर्म और वचन से हनुमानजी का ध्यान करता है, उसे हनुमान सभी संकटों से छुड़ाते हैं।',
+        od: 'ଯେ ମନ, କର୍ମ ଓ ବଚନରେ ହନୁମାନଙ୍କୁ ଧ୍ୟାନ କରେ, ହନୁମାନ ତାକୁ ସମସ୍ତ ସଂକଟରୁ ମୁକ୍ତ କରନ୍ତି।',
+        te: 'మనసా, కర్మణా, వాచా హనుమంతుని ధ్యానించే వాడిని హనుమంతుడు అన్ని కష్టాల నుండి విడిపిస్తాడు.',
+      },
     },
     {
-      id:29, type:'chaupai', num:27,
-      original:'और मनोरथ जो कोइ लावैं। सोइ अमित जीवन फल पावैं॥',
-      transliteration:'Aur manorath jo koi lavai\nSohi amit jeevan phal pavai',
-      script:{
-        od:'ଔର ମନୋରଥ ଜୋ କୋଇ ଲାବୈ। ସୋଇ ଅମିତ ଜୀବନ ଫଳ ପାବୈ॥',
-        te:'ఔర మనోరథ జో కోఇ లావై। సోఇ అమిత జీవన ఫల పావై॥',
+      id: 29,
+      type: 'chaupai',
+      num: 27,
+      original: 'सब पर राम तपस्वी राजा। तिन के काज सकल तुम साजा॥',
+      transliteration: 'Sab par Ram tapasvi raja, Tin ke kaj sakal tum saja',
+      script: {
+        od: 'ସବ ପର ରାମ ତପସ୍ୱୀ ରାଜା। ତିନ କେ କାଜ ସକଲ ତୁମ ସାଜା॥',
+        te: 'సబ్ పర్ రామ్ తపస్వీ రాజా। తిన్ కే కాజ్ సకల్ తుమ్ సాజా॥',
       },
-      meaning:{
-        en:'Whosoever comes to you with faith for any desire shall receive the imperishable fruit of human life.',
-        hi:'जो कोई भी मनोकामना लेकर आता है, उसे अमित जीवन फल प्राप्त होता है।',
-        od:'ଯିଏ ଆପଣ ପାଖ ଇଚ୍ଛା ଲୋଈ ଆସ, ଅମିତ ଜୀବନ ଫଳ ପ୍ରାପ୍ତ।',
-        te:'ఏ ఆశయంతో నీ దగ్గరకు వచ్చినా, అతనికి అమూల్యమైన జీవిత ఫలం లభిస్తుంది.',
-        sa:'जो भी मनोरथ लेकर आए, अमित जीवन फल पाए।',
-      }
+      meaning: {
+        en: 'Lord Ram, the ascetic king, is supreme over all. You complete all his tasks perfectly.',
+        hi: 'सभी के ऊपर तपस्वी राजा श्रीराम हैं। उनके सभी कार्य आप ही पूरा करते हैं।',
+        od: 'ସମସ୍ତଙ୍କ ଉପରେ ତପସ୍ୱୀ ରାଜା ଶ୍ରୀରାମ ବିରାଜମାନ। ତାଙ୍କ ସମସ୍ତ କାର୍ଯ୍ୟ ଆପଣ ସଫଳତାରେ ସମ୍ପନ୍ନ କରନ୍ତି।',
+        te: 'అందరిలో శ్రేష్ఠుడు తపస్వీరాజు శ్రీరాముడు. ఆయన అన్ని పనులను మీరు విజయవంతంగా పూర్తి చేస్తారు.',
+      },
     },
     {
-      id:30, type:'chaupai', num:28,
-      original:'चारों जुग परताप तुम्हारा। है परसिद्ध जगत उजियारा॥',
-      transliteration:'Charon Yug partap tumhara\nHai persidh jagat ujiyara',
-      script:{
-        od:'ଚାରୋ ଯୁଗ ପ୍ରତାପ ତୁମ୍ହାର। ହୈ ପ୍ରସିଦ୍ଧ ଜଗତ ଉଜିୟାର॥',
-        te:'చారో యుగ ప్రతాప తుమ్హార। హై ప్రసిద్ధ జగత ఉజియార॥',
+      id: 30,
+      type: 'chaupai',
+      num: 28,
+      original: 'और मनोरथ जो कोई लावै। सोई अमित जीवन फल पावै॥',
+      transliteration: 'Aur manorath jo koi lavai, Soi amit jivan phal pavai',
+      script: {
+        od: 'ଔର ମନୋରଥ ଜୋ କୋଇ ଲାୱୈ। ସୋଇ ଅମିତ ଜୀବନ ଫଳ ପାୱୈ॥',
+        te: 'ఔర్ మనోరథ్ జో కోయి లావై। సోయి అమిత్ జీవన్ ఫల్ పావై॥',
       },
-      meaning:{
-        en:'Through all four ages your magnificent glory is acclaimed far and wide across the entire cosmos.',
-        hi:'चारों युगों में तुम्हारा प्रताप है। जगत में तुम्हारी प्रसिद्धि और उजाला है।',
-        od:'ଚାରି ଯୁଗ ଆପଣ ପ୍ରତାପ। ଜଗତ ଆଲୋକ ଓ ପ୍ରସିଦ୍ଧ।',
-        te:'చతుర్యుగాలలో నీ ప్రతాపం ప్రసిద్ధి. సర్వ విశ్వంలో నీ కీర్తి వెలిగిపోతోంది.',
-        sa:'चारों युगों में प्रताप, जगत में प्रसिद्ध उजियारा।',
-      }
+      meaning: {
+        en: 'Whoever brings any heartfelt desire before you obtains abundant and noble fruits in life.',
+        hi: 'जो कोई भी अपनी मनोकामना लेकर आपके पास आता है, वह जीवन में असीम फल पाता है।',
+        od: 'ଯେ କେହି ନିଜ ହୃଦୟର ଇଚ୍ଛା ନେଇ ଆପଣଙ୍କ ଶରଣେ ଆସେ, ସେ ଜୀବନରେ ଅମିତ ଓ ଶୁଭ ଫଳ ପାଏ।',
+        te: 'ఎవరు తమ మనోరథంతో మీ శరణు వస్తారో వారు జీవితంలో అపారమైన శుభఫలాలను పొందుతారు.',
+      },
     },
     {
-      id:31, type:'chaupai', num:29,
-      original:'साधु-संत के तुम रखवारे। असुर निकंदन राम दुलारे॥',
-      transliteration:'Sadhu Sant ke tum Rakhware\nAsur nikandan Ram dulhare',
-      script:{
-        od:'ସାଧୁ ସନ୍ତ କେ ତୁମ ରଖୱାରେ। ଅସୁର ନିକନ୍ଦନ ରାମ ଦୁଲାରେ॥',
-        te:'సాధు సంత కే తుమ రఖవారే। అసుర నికందన రామ దులారే॥',
+      id: 31,
+      type: 'chaupai',
+      num: 29,
+      original: 'चारों जुग परताप तुम्हारा। है परसिद्ध जगत उजियारा॥',
+      transliteration: 'Charon jug partap tumhara, Hai parasiddh jagat ujiyara',
+      script: {
+        od: 'ଚାରୋଁ ଜୁଗ ପରତାପ ତୁମ୍ହାରା। ହୈ ପରସିଦ୍ଧ ଜଗତ ଉଜିୟାରା॥',
+        te: 'చారోం జుగ్ పరతాప్ తుమ్హారా। హై పరసిద్ధ్ జగత్ ఉజియారా॥',
       },
-      meaning:{
-        en:'You are the saviour and guardian angel of saints and sages, destroyer of demons, and the beloved of Shri Ram.',
-        hi:'आप साधु-संतों के रक्षक हैं। असुरों का नाश करने वाले और श्री राम के प्रिय हैं।',
-        od:'ସାଧୁ ସନ୍ତ ରକ୍ଷକ। ଅସୁର ବିନାଶ। ଶ୍ରୀ ରାମ ପ୍ରିୟ।',
-        te:'నువ్వు సాధు సంతుల రక్షకుడు. రాక్షస సంహారకుడు. రాముని అత్యంత ప్రియమైనవాడు.',
-        sa:'साधु-संत रक्षक, असुर निकंदन, राम के प्रिय।',
-      }
+      meaning: {
+        en: 'Your glory shines in all four ages, and your fame illuminates the whole world.',
+        hi: 'चारों युगों में आपका प्रताप है और आपकी कीर्ति से जगत प्रकाशित है।',
+        od: 'ଚାରିଯୁଗରେ ଆପଣଙ୍କ ପ୍ରତାପ ବିରାଜମାନ, ଏବଂ ଆପଣଙ୍କ ଯଶରେ ସମସ୍ତ ଜଗତ ଉଜ୍ଜ୍ୱଳ।',
+        te: 'నాలుగు యుగాలలో మీ ప్రతాప్ వెలుగుతుంది; మీ కీర్తితో జగత్తంతా ప్రకాశిస్తోంది.',
+      },
     },
     {
-      id:32, type:'chaupai', num:30,
-      original:'अष्ट सिद्धि नव निधि के दाता। अस बर दीन जानकी माता॥',
-      transliteration:'Ashta sidhi nav nidhi ke dhata\nUs var deen Janki mata',
-      script:{
-        od:'ଅଷ୍ଟ ସିଦ୍ଧି ନବ ନିଧି କେ ଦାତ। ଉସ ବର ଦୀନ ଜାନକୀ ମାତ॥',
-        te:'అష్ట సిద్ధి నవ నిధి కే దాత। ఉస వర దీన జానకీ మాత॥',
+      id: 32,
+      type: 'chaupai',
+      num: 30,
+      original: 'साधु संत के तुम रखवारे। असुर निकंदन राम दुलारे॥',
+      transliteration: 'Sadhu sant ke tum rakhvare, Asur nikandan Ram dulare',
+      script: {
+        od: 'ସାଧୁ ସନ୍ତ କେ ତୁମ ରଖୱାରେ। ଅସୁର ନିକନ୍ଦନ ରାମ ଦୁଲାରେ॥',
+        te: 'సాధు సంత్ కే తుమ్ రఖ్వారే। అసుర్ నికందన్ రామ్ దులారే॥',
       },
-      meaning:{
-        en:'You can grant anyone the eight Siddhis and nine Nidhis. This boon was conferred on you by Mother Janki herself.',
-        hi:'आप अष्ट सिद्धि और नौ निधि देने में सक्षम हैं। माता जानकी ने यह वर दिया है।',
-        od:'ଅଷ୍ଟ ସିଦ୍ଧି ଓ ନବ ନିଧି ଦାତା। ମାତା ଜାନକୀ ଏ ବର ଦେଇଛନ୍ତି।',
-        te:'అష్ట సిద్ధులు, నవ నిధులు ప్రసాదించే శక్తి నీకుంది. ఈ వరాన్ని మాత జానకి ప్రసాదించారు.',
-        sa:'अष्ट सिद्धि नव निधि के दाता — यह वर माता जानकी ने दिया।',
-      }
+      meaning: {
+        en: 'You are the protector of saints and holy men, destroyer of demons, and beloved of Lord Ram.',
+        hi: 'आप साधु-संतों के रक्षक, असुरों के संहारक और श्रीराम के दुलारे हैं।',
+        od: 'ଆପଣ ସାଧୁ ସନ୍ତମାନଙ୍କ ରକ୍ଷକ, ଅସୁରମାନଙ୍କ ସଂହାରକ ଏବଂ ଶ୍ରୀରାମଙ୍କ ଅତ୍ୟନ୍ତ ପ୍ରିୟ।',
+        te: 'మీరు సాధు సంతుల రక్షకుడు, అసురుల సంహారకుడు, శ్రీరాముడికి ప్రియుడు.',
+      },
     },
     {
-      id:33, type:'chaupai', num:31,
-      original:'राम रसायन तुम्हरे पासा। सदा रहो रघुपति के दासा॥',
-      transliteration:'Ram rasayan tumhare pasa\nSada raho Raghupati ke dasa',
-      script:{
-        od:'ରାମ ରସାୟନ ତୁମ୍ହରେ ପାସ। ସଦା ରହୋ ରଘୁପତି କେ ଦାସ॥',
-        te:'రామ రసాయన తుమ్హరే పాస। సదా రహో రఘుపతి కే దాస॥',
+      id: 33,
+      type: 'chaupai',
+      num: 31,
+      original: 'अष्ट सिद्धि नव निधि के दाता। अस बर दीन्ह जानकी माता॥',
+      transliteration: 'Ashta siddhi nav nidhi ke data, As bar dinh Janaki mata',
+      script: {
+        od: 'ଅଷ୍ଟ ସିଦ୍ଧି ନବ ନିଧି କେ ଦାତା। ଅସ ବର ଦୀନ୍ହ ଜାନକୀ ମାତା॥',
+        te: 'అష్ట సిద్ధి నవ నిధి కే దాతా। అస్ బర్ దీన్హ్ జానకీ మాతా॥',
       },
-      meaning:{
-        en:"You hold the elixir of devotion to Shri Ram. You shall always remain Raghupati's most dedicated servant.",
-        hi:'राम नाम रूपी रसायन आपके पास है। आप सदा रघुपति के दास बने रहेंगे।',
-        od:'ରାମ ରସାୟନ ତୁମ ପାଖ। ଚିରକାଳ ରଘୁପତି ଦାସ।',
-        te:'రామ నామ రసాయనం నీ దగ్గర ఉంది. సదా రఘుపతి దాసుడిగా ఉంటావు.',
-        sa:'राम-रसायन पास में, सदा रघुपति के दास।',
-      }
+      meaning: {
+        en: 'You are the giver of the eight siddhis and the nine treasures — such a boon was granted to you by Mother Janaki.',
+        hi: 'आप अष्टसिद्धि और नवनिधि के दाता हैं। यह वरदान आपको माता जानकी ने दिया।',
+        od: 'ଆପଣ ଅଷ୍ଟସିଦ୍ଧି ଓ ନବନିଧିର ଦାତା। ଏହି ବରଦାନ ଆପଣଙ୍କୁ ମାତା ଜାନକୀ ଦେଇଥିଲେ।',
+        te: 'మీరు అష్టసిద్ధులు, నవనిధుల దాత. ఈ వరాన్ని మీకు జనకీమాత ప్రసాదించింది.',
+      },
     },
     {
-      id:34, type:'chaupai', num:32,
-      original:'तुम्हरे भजन राम को पावैं। जनम जनम के दुख बिसरावैं॥',
-      transliteration:'Tumhare bhajan Ram ko pavai\nJanam janam ke dukh bisravai',
-      script:{
-        od:'ତୁମ୍ହରେ ଭଜନ ରାମ କୋ ପାବୈ। ଜନ୍ମ ଜନ୍ମ କେ ଦୁଖ ବିସ୍ରାବୈ॥',
-        te:'తుమ్హరే భజన రామ కో పావై। జన్మ జన్మ కే దుఖ బిస్రావై॥',
+      id: 34,
+      type: 'chaupai',
+      num: 32,
+      original: 'राम रसायन तुम्हरे पासा। सदा रहो रघुपति के दासा॥',
+      transliteration: 'Ram rasayan tumhare pasa, Sada raho Raghupati ke dasa',
+      script: {
+        od: 'ରାମ ରସାୟନ ତୁମ୍ହରେ ପାସା। ସଦା ରହୋ ରଘୁପତି କେ ଦାସା॥',
+        te: 'రామ్ రసాయన్ తుమ్హరే పాసా। సదా రహో రఘుపతి కే దాసా॥',
       },
-      meaning:{
-        en:'Through devotional songs to you one can find Shri Ram and become free from the sorrows of many births.',
-        hi:'तुम्हारे भजन से राम की प्राप्ति होती है। जन्म-जन्म के दुख भूल जाते हैं।',
-        od:'ତୁମ ଭଜନ ରାମ ପ୍ରାପ୍ତ। ଜନ୍ମ ଜନ୍ମ ଦୁଃଖ ଭୁଲ।',
-        te:'నీ భజనలతో రాముని ప్రాప్తి కలుగుతుంది. జన్మజన్మాల దుఃఖాలు తొలగిపోతాయి.',
-        sa:'तुम्हारे भजन से राम-प्राप्ति, जन्म-जन्म के दुख विस्मृत।',
-      }
+      meaning: {
+        en: 'You possess the elixir of devotion to Ram, and you forever remain the servant of Raghupati.',
+        hi: 'आपके पास रामभक्ति रूपी रसायन है और आप सदा रघुपति के दास बने रहते हैं।',
+        od: 'ଆପଣଙ୍କ ପାଖରେ ରାମଭକ୍ତିର ଅମୃତ ରହିଛି, ଏବଂ ଆପଣ ସଦା ରଘୁପତିଙ୍କ ଦାସ ଭାବେ ବିରାଜମାନ।',
+        te: 'మీ వద్ద రామభక్తి అనే అమృతరసాయనం ఉంది; మీరు ఎల్లప్పుడూ రఘుపతి సేవకుడిగానే ఉంటారు.',
+      },
     },
     {
-      id:35, type:'chaupai', num:33,
-      original:'अंत काल रघुवर पुर जाई। जहाँ जन्म हरि-भक्त कहाई॥',
-      transliteration:'Anth kaal Raghuvir pur jayee\nJahan janam Hari-Bakht Kahayee',
-      script:{
-        od:'ଅନ୍ଥ କାଳ ରଘୁବୀର ପୁର ଜାଈ। ଜହାଁ ଜନ୍ମ ହରି ଭକ୍ତ କହାଈ॥',
-        te:'అంత కాల రఘువీర పుర జాఈ। జహాఁ జన్మ హరి భక్త కహాఈ॥',
+      id: 35,
+      type: 'chaupai',
+      num: 33,
+      original: 'तुम्हरे भजन राम को पावै। जनम जनम के दुख बिसरावै॥',
+      transliteration: 'Tumhare bhajan Ram ko pavai, Janam janam ke dukh bisravai',
+      script: {
+        od: 'ତୁମ୍ହରେ ଭଜନ ରାମ କୋ ପାୱୈ। ଜନମ ଜନମ କେ ଦୁଖ ବିସରାୱୈ॥',
+        te: 'తుమ్హరే భజన్ రామ్ కో పావై। జనమ్ జనమ్ కే దుఖ్ బిసరావై॥',
       },
-      meaning:{
-        en:"At the time of death one enters Shri Ram's divine abode, and in all future births is born as the Lord's devotee.",
-        hi:'अंत काल में रघुवर के धाम जाते हैं। जहाँ भी जन्म लें वहाँ हरि भक्त कहलाते हैं।',
-        od:'ଅନ୍ତ ସମୟ ରଘୁବୀର ଧାମ। ଜନ୍ମ ଜନ୍ମ ହରି ଭକ୍ତ।',
-        te:'అంత్య సమయంలో రఘువీర ధామం చేరతారు. తర్వాత జన్మలో హరి భక్తుడని పిలువబడతారు.',
-        sa:'अंत काल में रघुवर-पुर गमन, प्रत्येक जन्म में हरि-भक्त कहाए।',
-      }
+      meaning: {
+        en: 'By worshiping you, one attains Lord Ram and forgets the sorrows accumulated over many births.',
+        hi: 'आपका भजन करने से श्रीराम की प्राप्ति होती है और जन्म-जन्म के दुःख भूल जाते हैं।',
+        od: 'ଆପଣଙ୍କ ଭଜନ କରିଲେ ଶ୍ରୀରାମଙ୍କ ପ୍ରାପ୍ତି ହୁଏ ଏବଂ ଅନେକ ଜନ୍ମର ସଞ୍ଚିତ ଦୁଃଖ ଭୁଲିଯାଏ।',
+        te: 'మీ భజన చేయడం వల్ల శ్రీరాముడు లభిస్తాడు; అనేక జన్మల దుఃఖాలు మరిచిపోతాయి.',
+      },
     },
     {
-      id:36, type:'chaupai', num:34,
-      original:'और देवता चित्त न धरई। हनुमत सेइ सर्व सुख करई॥',
-      transliteration:'Aur Devta Chit na dharehi\nHanumanth se hi sarve sukh karehi',
-      script:{
-        od:'ଔର ଦେବତା ଚିତ ନ ଧରଈ। ହନୁମନ୍ଥ ସେ ହି ସର୍ବ ସୁଖ କରଈ॥',
-        te:'ఔర దేవతా చిత న ధరఈ। హనుమంత సే హి సర్వ సుఖ కరఈ॥',
+      id: 36,
+      type: 'chaupai',
+      num: 34,
+      original: 'अंतकाल रघुबर पुर जाई। जहाँ जन्म हरि-भक्त कहाई॥',
+      transliteration: 'Ant kal Raghuvar pur jai, Jahan janm Hari bhakt kahai',
+      script: {
+        od: 'ଅନ୍ତକାଳ ରଘୁବର ପୁର ଜାଇ। ଯହାଁ ଜନ୍ମ ହରି-ଭକ୍ତ କହାଇ॥',
+        te: 'అంత్‌కాల్ రఘువర్ పుర్ జాయి। జహాం జన్మ హరి-భక్త్ కహాయి॥',
       },
-      meaning:{
-        en:'No need to pray to any other deity — devotion to Shri Hanuman alone can bestow all happiness.',
-        hi:'अन्य देवताओं का चिंतन न करो। हनुमान की भक्ति से ही सभी सुख मिलते हैं।',
-        od:'ଅନ୍ୟ ଦେବତା ଚିନ୍ତ ନ। ହନୁମାନ ଭକ୍ତିରୁ ସମସ୍ତ ସୁଖ।',
-        te:'ఇతర దేవతలను ఆరాధించాల్సిన అవసరం లేదు. హనుమంతుని భక్తి ఒక్కటే అన్ని సుఖాలు ఇస్తుంది.',
-        sa:'अन्य देवता का चिंतन छोड़, हनुमत-सेवा से सर्व सुख।',
-      }
+      meaning: {
+        en: 'At the end of life, one goes to the abode of Raghuvar, and in the next birth is known as a devotee of Hari.',
+        hi: 'अंत समय रघुवर के धाम को प्राप्त होता है और अगले जन्म में हरिभक्त कहलाता है।',
+        od: 'ଜୀବନର ଅନ୍ତ ସମୟରେ ଭକ୍ତ ରଘୁବରଙ୍କ ଧାମକୁ ପହଞ୍ଚେ, ଏବଂ ପୁନର୍ଜନ୍ମରେ ହରିଭକ୍ତ ଭାବେ ପରିଚିତ ହୁଏ।',
+        te: 'అంత్యకాలంలో భక్తుడు రఘువర ధామాన్ని చేరి, తదుపరి జన్మలో హరిభక్తుడిగా ప్రసిద్ధి పొందుతాడు.',
+      },
     },
     {
-      id:37, type:'chaupai', num:35,
-      original:'संकट कटै मिटै सब पीरा। जो सुमिरै हनुमत बलबीरा॥',
-      transliteration:'Sankat kate mite sab peera\nJo sumirai Hanumat Balbeera',
-      script:{
-        od:'ସଙ୍କଟ କଟୈ ମିଟୈ ସବ ପୀରା। ଜୋ ସୁମିରୈ ହନୁମତ ବଳ ବୀରା॥',
-        te:'సంకట కటై మిటై సబ పీరా। జో సుమిరై హనుమత బలవీరా॥',
+      id: 37,
+      type: 'chaupai',
+      num: 35,
+      original: 'और देवता चित्त न धरई। हनुमत सेइ सर्ब सुख करई॥',
+      transliteration: 'Aur devta chitt na dharai, Hanumat sei sarv sukh karai',
+      script: {
+        od: 'ଔର ଦେବତା ଚିତ୍ତ ନ ଧରଇ। ହନୁମତ ସେଇ ସର୍ବ ସୁଖ କରଇ॥',
+        te: 'ఔర్ దేవతా చిత్త్ న ధరై। హనుమత్ సేయి సర్వ సుఖ్ కరై॥',
       },
-      meaning:{
-        en:'All sufferings and ill-fated contingencies are removed for one who adores the mighty Hanuman.',
-        hi:'सभी संकट कट जाते हैं और सब पीड़ाएँ मिट जाती हैं। जो हनुमान का स्मरण करता है।',
-        od:'ସଂକଟ ଦୂର, ସମସ୍ତ ଯନ୍ତ୍ରଣା ବିଲୋଇ — ଯିଏ ହନୁମାନ ସ୍ମରଣ।',
-        te:'సంకటాలు తొలగి అన్ని బాధలు నశిస్తాయి — శక్తివంతుడైన హనుమంతుని స్మరించినవారికి.',
-        sa:'स्मरण करने पर संकट कटे, सब पीड़ा मिटे।',
-      }
+      meaning: {
+        en: 'One need not fix the mind on other deities; serving Hanuman alone brings all happiness.',
+        hi: 'अन्य देवताओं में चित्त लगाने की आवश्यकता नहीं; हनुमानजी की सेवा से सब सुख मिलते हैं।',
+        od: 'ଅନ୍ୟ ଦେବଦେବୀଙ୍କୁ ଚିନ୍ତା କରିବାର ଆବଶ୍ୟକତା ନାହିଁ; ହନୁମାନଙ୍କ ସେବାରେ ସମସ୍ତ ସୁଖ ଲାଭ ହୁଏ।',
+        te: 'ఇతర దేవతలపై మనస్సు పెట్టనవసరం లేదు; హనుమంతుని సేవతోనే అన్ని సుఖాలు లభిస్తాయి.',
+      },
     },
     {
-      id:38, type:'chaupai', num:36,
-      original:'जय जय जय हनुमान गोसाईं। कृपा करहु गुरुदेव की नाईं॥',
-      transliteration:'Jai Jai Jai Hanuman Gosahin\nKripa Karahu Gurudev ki nyahin',
-      script:{
-        od:'ଜୟ ଜୟ ଜୟ ହନୁମାନ ଗୋସାଈ। କୃପ କରହୁ ଗୁରୁଦେବ କୀ ନ୍ୟାଈ॥',
-        te:'జయ జయ జయ హనుమాన గోసాఈ। కృప కరహు గురుదేవ కీ న్యాఈ॥',
+      id: 38,
+      type: 'chaupai',
+      num: 36,
+      original: 'संकट कटै मिटै सब पीरा। जो सुमिरै हनुमत बलबीरा॥',
+      transliteration: 'Sankat katai mitai sab pira, Jo sumirai Hanumat balbira',
+      script: {
+        od: 'ସଂକଟ କଟୈ ମିଟୈ ସବ ପୀରା। ଜୋ ସୁମିରୈ ହନୁମତ ବଳବୀରା॥',
+        te: 'సంకట్ కటై మిటై సబ్ పీరా। జో సుమిరై హనుమత్ బలబీరా॥',
       },
-      meaning:{
-        en:'Hail, Hail, Hail, Shri Hanuman! Let your victory over evil be firm and final. Bless me as my supreme Guru.',
-        hi:'जय जय जय हनुमान गोसाईं! गुरुदेव की भाँति कृपा करो।',
-        od:'ଜୟ ଜୟ ଜୟ ହନୁମାନ! ଗୁରୁ ଭଳି କୃପା।',
-        te:'జయ జయ జయ హనుమాన్! గురుదేవుని మాదిరి దయ చూపించు.',
-        sa:'जय जय जय हनुमान गोसाईं, गुरुदेव की भांति कृपा करो।',
-      }
+      meaning: {
+        en: 'All troubles end and all pain vanishes for one who remembers Hanuman, the mighty hero.',
+        hi: 'जो बलवीर हनुमान का स्मरण करता है, उसके संकट कट जाते हैं और सब पीड़ाएँ मिट जाती हैं।',
+        od: 'ଯେ ବଳବୀର ହନୁମାନଙ୍କୁ ସ୍ମରଣ କରେ, ତାହାର ସଂକଟ କଟିଯାଏ ଏବଂ ସମସ୍ତ ପୀଡ଼ା ଦୂର ହୋଇଯାଏ।',
+        te: 'బలవీరుడైన హనుమంతుని స్మరించినవారి కష్టాలు తొలగి అన్ని బాధలు నశిస్తాయి.',
+      },
     },
     {
-      id:39, type:'chaupai', num:37,
-      original:'जो सत बार पाठ कर कोई। छूटहिं बंदि महा सुख होई॥',
-      transliteration:'Jo sat bar path kare kohi\nChutehi bandhi maha sukh hohi',
-      script:{
-        od:'ଜୋ ଶତ ବାର ପାଠ କରେ କୋଈ। ଛୁଟେ ହି ବନ୍ଦି ମହ ସୁଖ ହୋଈ॥',
-        te:'జో శత బార పాఠ కరే కోఈ। ఛుటే హి బంది మహ సుఖ హోఈ॥',
+      id: 39,
+      type: 'chaupai',
+      num: 37,
+      original: 'जय जय जय हनुमान गोसाईं। कृपा करहु गुरु देव की नाईं॥',
+      transliteration: 'Jai Jai Jai Hanuman Gosai, Kripa karahu Gurudev ki nai',
+      script: {
+        od: 'ଜୟ ଜୟ ଜୟ ହନୁମାନ ଗୋସାଇଁ। କୃପା କରହୁ ଗୁରୁ ଦେବ କୀ ନାଇଁ॥',
+        te: 'జయ జయ జయ హనుమాన్ గోసాయీ। కృపా కరహు గురు దేవ్ కీ నాయీ॥',
       },
-      meaning:{
-        en:'One who recites this Chalisa one hundred times becomes free from the bondage of life and death and enjoys the highest bliss.',
-        hi:'जो सौ बार पाठ करे, उसकी बंधन मुक्ति होती है और महासुख प्राप्त होता है।',
-        od:'ଶହ ବେଳ ପଢ଼ — ବନ୍ଧ ମୁକ୍ତ, ମହାସୁଖ।',
-        te:'ఈ చాలీసాను నూరుసార్లు చదివితే బంధనాల నుండి విముక్తి, మహా సుఖం.',
-        sa:'शत बार पाठ से बंधन मुक्ति, महासुख प्राप्ति।',
-      }
+      meaning: {
+        en: 'Victory, victory, victory to Lord Hanuman! Bestow your grace upon me just as a revered Guru bestows compassion.',
+        hi: 'जय, जय, जय हनुमान गोसाईं! गुरु देव के समान मुझ पर कृपा करें।',
+        od: 'ଜୟ, ଜୟ, ଜୟ ହନୁମାନ ଗୋସାଇଁ! ଗୁରୁଦେବଙ୍କ ଭଳି ମୋପରେ କୃପା କରନ୍ତୁ।',
+        te: 'జయ జయ జయ హనుమాన్ గోసాయి! గురుదేవుడిలా నాపై కరుణ చూపించు.',
+      },
     },
     {
-      id:40, type:'chaupai', num:38,
-      original:'जो यह पढ़ै हनुमान चालीसा। होय सिद्धि साखी गौरीसा॥',
-      transliteration:'Jo yah padhe Hanuman Chalisa\nHoye siddhi sakhi Gaureesa',
-      script:{
-        od:'ଜୋ ୟହ ପଢ଼େ ହନୁମାନ ଚାଳୀସ। ହୋୟ ସିଦ୍ଧି ସାକ୍ଷ ଗୌରୀଶ॥',
-        te:'జో యహ పఢే హనుమాన చాలీస। హోయే సిద్ధి సాక్షి గౌరీశ॥',
+      id: 40,
+      type: 'chaupai',
+      num: 38,
+      original: 'जो सत बार पाठ कर कोई। छूटहि बंदि महा सुख होई॥',
+      transliteration: 'Jo sat bar path kar koi, Chhutahi bandi maha sukh hoi',
+      script: {
+        od: 'ଜୋ ସତ ବାର ପାଠ କର କୋଇ। ଛୂଟହି ବନ୍ଦି ମହା ସୁଖ ହୋଇ॥',
+        te: 'జో సత్ బార్ పాఠ్ కర్ కోయీ। ఛూటహి బంది మహా సుఖ్ హోయీ॥',
       },
-      meaning:{
-        en:'All who recite Hanuman Chalisa regularly are sure to be benedicted. Such is the testimony of Bhagwan Shankar.',
-        hi:'जो हनुमान चालीसा पढ़ता है, उसे सिद्धि मिलती है — यह गौरीश का साक्षी है।',
-        od:'ହନୁମାନ ଚାଳୀସ ପଢ଼ ─ ସିଦ୍ଧି ପ୍ରାପ୍ତ, ଗୌରୀଶ ସାକ୍ଷ।',
-        te:'హనుమాన్ చాలీసా పఠించేవారికి సిద్ధి కలుగుతుంది — ఇది గౌరీశుడి సాక్ష్యం.',
-        sa:'हनुमान चालीसा पढ़ने से सिद्धि — गौरीश इसके साक्षी।',
-      }
+      meaning: {
+        en: 'Whoever recites this a hundred times is freed from bondage and attains great happiness.',
+        hi: 'जो कोई इसका सौ बार पाठ करता है, वह बंधन से छूट जाता है और महान सुख प्राप्त करता है।',
+        od: 'ଯେ କେହି ଏହାକୁ ଶତବାର ପାଠ କରେ, ସେ ବନ୍ଧନରୁ ମୁକ୍ତି ପାଏ ଏବଂ ମହାସୁଖ ଲାଭ କରେ।',
+        te: 'ఎవరు దీనిని నూరుసార్లు పఠిస్తారో వారు బంధనాల నుండి విముక్తి పొంది మహాసుఖాన్ని పొందుతారు.',
+      },
     },
     {
-      id:41, type:'chaupai', num:39,
-      original:'तुलसीदास सदा हरि चेरा। कीजे नाथ हृदय महँ डेरा॥',
-      transliteration:'Tulsidas sada hari chera\nKeejai Das Hrdaye mein dera',
-      script:{
-        od:'ତୁଳସୀଦାସ ସଦା ହରି ଚେର। କୀଜୈ ଦାସ ହୃଦୟ ମହ ଡ଼େର॥',
-        te:'తులసీదాస సదా హరి చేర। కీజై దాస హృదయ మహఁ డేర॥',
+      id: 41,
+      type: 'chaupai',
+      num: 39,
+      original: 'जो यह पढ़ै हनुमान चालीसा। होय सिद्धि साखी गौरीसा॥',
+      transliteration: 'Jo yah padhe Hanuman Chalisa, Hoye siddhi sakhi Gaurisa',
+      script: {
+        od: 'ଜୋ ଯହ ପଢ଼ୈ ହନୁମାନ ଚାଳୀସା। ହୋୟ ସିଦ୍ଧି ସାଖୀ ଗୌରୀସା॥',
+        te: 'జో యహ్ పఢై హనుమాన్ చాలీసా। హోయ్ సిద్ధి సాఖీ గౌరీసా॥',
       },
-      meaning:{
-        en:'Tulsidas as a devoted servant of the Lord prays: "O Lord! Please enshrine yourself within my heart and soul."',
-        hi:'तुलसीदास सदा हरि के सेवक हैं। हे नाथ! मेरे हृदय में डेरा करो।',
-        od:'ତୁଳସୀଦାସ ସଦା ହରି ଦାସ। ହୃଦୟ ଭିତରେ ବାସ।',
-        te:'తులసీదాసు సదా హరి దాసుడు. స్వామీ! నా హృదయంలో నివసించు.',
-        sa:'तुलसीदास सदा हरि के दास, हृदय में वास करें।',
-      }
+      meaning: {
+        en: 'Whoever reads this Hanuman Chalisa attains spiritual accomplishment — Lord Shiva himself is the witness to this truth.',
+        hi: 'जो यह हनुमान चालीसा पढ़ता है, उसे सिद्धि प्राप्त होती है — इसके साक्षी स्वयं गौरीशंकर हैं।',
+        od: 'ଯେ ଏହି ହନୁମାନ ଚାଳୀସା ପାଠ କରେ, ସେ ସିଦ୍ଧି ଲାଭ କରେ — ଏହାର ସାକ୍ଷୀ ସ୍ୱୟଂ ଗୌରୀଶଙ୍କର।',
+        te: 'ఈ హనుమాన్ చాలీసాను పఠించే వాడు సిద్ధిని పొందుతాడు — దీనికి సాక్షి స్వయంగా గౌరీశుడు.',
+      },
     },
     {
-      id:42, type:'doha', label:{en:'Closing Doha',hi:'दोहा',od:'ଦୋହା',te:'ముగింపు దోహా'},
-      original:'पवनतनय संकट हरन, मंगल मूरति रूप। राम लखन सीता सहित, हृदय बसहु सुर भूप॥',
-      transliteration:'Pavantnai sankat haran, Mangal murti roop\nRam Lakhan Sita sahit, Hrdaye basahu sur bhoop',
-      script:{
-        od:'ପବନ ତନୟ ସଙ୍କଟ ହରଣ, ମଙ୍ଗଳ ମୂର୍ତ୍ତି ରୂପ। ରାମ ଲଖନ ସୀତ ସହିତ, ହୃଦୟ ବସହୁ ସୁର ଭୂପ॥',
-        te:'పవన తనయ సంకట హరణ, మంగళ మూర్తి రూప। రామ లఖన సీత సహిత, హృదయ బసహు సుర భూప॥',
+      id: 42,
+      type: 'chaupai',
+      num: 40,
+      original: 'तुलसीदास सदा हरि चेरा। कीजै नाथ हृदय महँ डेरा॥',
+      transliteration: 'Tulsidas sada Hari chera, Kijai Nath hriday mah dera',
+      script: {
+        od: 'ତୁଲସୀଦାସ ସଦା ହରି ଚେରା। କୀଜୈ ନାଥ ହୃଦୟ ମହଁ ଡେରା॥',
+        te: 'తులసీదాస్ సదా హరి చేరా। కీజై నాథ్ హృదయ్ మహం డేరా॥',
       },
-      meaning:{
-        en:'O Son of the Wind, Destroyer of miseries, you are the symbol of auspiciousness. Along with Shri Ram, Lakshman and Sita, please reside in my heart.',
-        hi:'हे पवनपुत्र, संकट हरने वाले, मंगल मूर्ति! राम, लक्ष्मण, सीता सहित मेरे हृदय में वास करो।',
-        od:'ହେ ପବନ ପୁତ୍ର ସଂକଟ ହରଣ! ରାମ, ଲକ୍ଷ୍ମଣ, ସୀତ ସହ ହୃଦୟ ବାସ।',
-        te:'వాయుపుత్రా, సంకటహరణ, మంగళమూర్తి! రాం, లక్ష్మణ, సీతలతో నా హృదయంలో నివసించు.',
-        sa:'पवनतनय संकटहरण, राम-लखन-सीता सहित हृदय में वास करें।',
-      }
+      meaning: {
+        en: 'Tulsidas is forever the servant of Hari. O Lord, kindly dwell in my heart always.',
+        hi: 'तुलसीदास सदा हरि के सेवक हैं। हे नाथ, मेरे हृदय में अपना निवास करें।',
+        od: 'ତୁଳସୀଦାସ ସଦା ହରିଙ୍କ ସେବକ। ହେ ନାଥ, ମୋର ହୃଦୟମଧ୍ୟରେ ସଦା ନିବାସ କରନ୍ତୁ।',
+        te: 'తులసీదాసు ఎల్లప్పుడూ హరికి సేవకుడు. ఓ నాథా, నా హృదయంలో ఎల్లప్పుడూ నివసించు.',
+      },
     },
-  ]
+    {
+      id: 43,
+      type: 'doha',
+      label: { en: 'Closing Doha', hi: 'दोहा', od: 'ଦୋହା', te: 'ముగింపు దోహా' },
+      original:
+        'पवन तनय संकट हरन, मंगल मूरति रूप। राम लखन सीता सहित, हृदय बसहु सुर भूप॥',
+      transliteration:
+        'Pavan Tanay Sankat Haran, Mangal Murti Roop\nRam Lakhan Sita Sahit, Hriday Basahu Sur Bhoop',
+      script: {
+        od: 'ପବନ ତନୟ ସଂକଟ ହରନ, ମଙ୍ଗଳ ମୂରତି ରୂପ। ରାମ ଲଖନ ସୀତା ସହିତ, ହୃଦୟ ବସହୁ ସୁର ଭୂପ॥',
+        te: 'పవన తనయ సంకట హరణ, మంగళ మూర్తి రూప। రామ్ లఖన్ సీతా సహిత్, హృదయ్ బసహు సుర భూప॥',
+      },
+      meaning: {
+        en: 'O son of the Wind, remover of distress, embodiment of auspiciousness — dwell in my heart together with Shri Ram, Lakshman, and Sita.',
+        hi: 'हे पवनपुत्र, संकटों को हरने वाले, मंगलमूर्ति! श्रीराम, लक्ष्मण और सीता सहित मेरे हृदय में निवास करें।',
+        od: 'ହେ ପବନପୁତ୍ର, ସଂକଟ ହରଣକାରୀ, ମଙ୍ଗଳମୂର୍ତ୍ତି! ଶ୍ରୀରାମ, ଲକ୍ଷ୍ମଣ ଓ ସୀତାଙ୍କ ସହିତ ମୋର ହୃଦୟରେ ବସନ୍ତୁ।',
+        te: 'ఓ పవనపుత్రా, సంకట హరుడా, మంగళమూర్తీ! శ్రీరామ, లక్ష్మణ, సీతలతో కలిసి నా హృదయంలో నివసించు.',
+      },
+    },
+  ],
 };

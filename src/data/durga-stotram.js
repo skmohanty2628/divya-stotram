@@ -91,8 +91,11 @@ export const durgaStotram = {
         te: 'నాకు సౌభాగ్యం, ఆరోగ్యం, సుఖం, విజయం మరియు కీర్తి ప్రసాదించు, శత్రువులను తొలగించు.',
       }
     },
+
     {
-      id: 6, type: 'shloka', num: 6,
+      id: 6,
+      type: 'shloka',
+      num: 6,
       original: 'या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता। नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥',
       transliteration: 'Ya Devi Sarva Bhooteshu Shakti Rupena Samsthita\nNamas Tasyai Namas Tasyai Namas Tasyai Namo Namah',
       script: {
@@ -102,13 +105,15 @@ export const durgaStotram = {
       meaning: {
         en: 'The Goddess who is present in all beings as Power (Shakti) — salutations to her, salutations to her, salutations to her, again and again.',
         hi: 'जो देवी सभी प्राणियों में शक्ति रूप से स्थित हैं — उन्हें नमस्कार, उन्हें नमस्कार, उन्हें नमस्कार, बारंबार नमस्कार।',
-        od: 'ଯେ ଦେବୀ ସମସ୍ତ ଜୀବ ଭିତ ରେ ଶ କ ୍ ତ ି ଭ ା ବ ରେ ବ ିଦ ୍ ୟ ମ ା ନ — ସ େ ଙ ୍ କ ୁ ବ ା ର ଂ ବ ା ର ପ ୍ ର ଣ ା ମ।',
+        od: 'ଯେ ଦେବୀ ସମସ୍ତ ଭୂତମାନଙ୍କ ଭିତରେ ଶକ୍ତିରୂପେ ବିରାଜମାନ, ସେହି ଦେବୀଙ୍କୁ ପୁନଃ ପୁନଃ ପ୍ରଣାମ।',
         te: 'అన్ని జీవులలో శక్తి రూపంలో ఉన్న దేవికి నమస్కారం, నమస్కారం, నమస్కారం, మళ్ళీ మళ్ళీ నమస్కారం.',
       }
     },
 
     {
-      id: 7, type: 'shloka', num: 7,
+      id: 7,
+      type: 'shloka',
+      num: 7,
       original: 'या देवी सर्वभूतेषु मातृरूपेण संस्थिता। नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥',
       transliteration: 'Ya Devi Sarva Bhooteshu Matri Rupena Samsthita\nNamas Tasyai Namas Tasyai Namas Tasyai Namo Namah',
       script: {
@@ -118,13 +123,15 @@ export const durgaStotram = {
       meaning: {
         en: 'The Goddess who is present in all beings as the Mother — salutations to her, salutations to her, salutations to her, again and again.',
         hi: 'जो देवी सभी प्राणियों में माता रूप से स्थित हैं — उन्हें नमस्कार, नमस्कार, नमस्कार, बारंबार।',
-        od: 'ଯେ ଦେବୀ ସ ମ ସ ୍ ତ ଜ ୀ ବ ର ଭ ି ତ ରେ ମ ା ତ ୃ ଭ ା ବ ରେ ବ ିଦ ୍ ୟ ମ ା ନ — ସ େ ଙ ୍ କ ୁ ବ ା ର ଂ ବ ା ର ପ ୍ ର ଣ ା ମ।',
+        od: 'ଯେ ଦେବୀ ସମସ୍ତ ଜୀବମାନଙ୍କ ଭିତରେ ମାତୃରୂପେ ବିରାଜମାନ, ସେହି ଦେବୀଙ୍କୁ ପୁନଃ ପୁନଃ ପ୍ରଣାମ।',
         te: 'అన్ని జీవులలో తల్లి రూపంలో ఉన్న దేవికి నమస్కారం, నమస్కారం, నమస్కారం, మళ్ళీ మళ్ళీ.',
       }
     },
 
     {
-      id: 8, type: 'shloka', num: 8,
+      id: 8,
+      type: 'shloka',
+      num: 8,
       original: 'या देवी सर्वभूतेषु शान्तिरूपेण संस्थिता। नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥',
       transliteration: 'Ya Devi Sarva Bhooteshu Shanti Rupena Samsthita\nNamas Tasyai Namas Tasyai Namas Tasyai Namo Namah',
       script: {
@@ -134,10 +141,9 @@ export const durgaStotram = {
       meaning: {
         en: 'The Goddess who is present in all beings as Peace (Shanti) — salutations to her, salutations to her, salutations to her, again and again. 🙏',
         hi: 'जो देवी सभी प्राणियों में शांति रूप से स्थित हैं — उन्हें नमस्कार, नमस्कार, नमस्कार, बारंबार। 🙏',
-        od: 'ଯ େ ଦ େ ବ ୀ ସ ମ ସ ୍ ତ ଜ ୀ ବ ର ଭ ି ତ ରେ ଶ ା ନ ୍ ତ ି ଭ ା ବ ରେ ବ ିଦ ୍ ୟ ମ ା ନ — ସ େ ଙ ୍ କ ୁ ବ ା ର ଂ ବ ା ର ପ ୍ ର ଣ ା ମ। 🙏',
+        od: 'ଯେ ଦେବୀ ସମସ୍ତ ଭୂତମାନଙ୍କ ଭିତରେ ଶାନ୍ତିରୂପେ ବିରାଜମାନ, ସେହି ଦେବୀଙ୍କୁ ପୁନଃ ପୁନଃ ପ୍ରଣାମ। 🙏',
         te: 'అన్ని జీవులలో శాంతి రూపంలో ఉన్న దేవికి నమస్కారం, నమస్కారం, నమస్కారం, మళ్ళీ మళ్ళీ. 🙏',
       }
     },
-
   ]
 };

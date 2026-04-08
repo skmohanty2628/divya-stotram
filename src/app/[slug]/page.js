@@ -19,20 +19,25 @@ import StotramClientPage from './StotramClientPage';
 
 const SITE_URL = 'https://divyastotram.com';
 
+/**
+ * Important:
+ * Pass the FULL mantra object to the client page.
+ * The client page expects verseData.verses, not a raw array.
+ */
 const VERSE_DATA = {
-  'hanuman-chalisa': hanumanChalisa.verses || hanumanChalisa,
-  'durga-stotram': durgaStotram.verses || durgaStotram,
-  'shiva-tandav': shivaTandav.verses || shivaTandav,
-  'gayatri-mantra': gayatriMantra.verses || gayatriMantra,
-  'ganesh-aarti': ganeshAarti.verses || ganeshAarti,
-  'saraswati-vandana': saraswatiVandana.verses || saraswatiVandana,
-  'mahalakshmi-ashtakam': mahalakshmiAshtakam.verses || mahalakshmiAshtakam,
-  'vishnu-sahasranamam': vishnuSahasranamam.verses || vishnuSahasranamam,
-  'ram-raksha-stotram': ramRakshaStotram.verses || ramRakshaStotram,
-  'aditya-hridayam': adityaHridayam.verses || adityaHridayam,
-  'navagraha-stotram': navagrahaStotram.verses || navagrahaStotram,
-  'aigiri-nandini': aigiriNandini.verses || aigiriNandini,
-  'shiv-chalisa': shivChalisa.verses || shivChalisa,
+  'hanuman-chalisa': hanumanChalisa,
+  'durga-stotram': durgaStotram,
+  'shiva-tandav': shivaTandav,
+  'gayatri-mantra': gayatriMantra,
+  'ganesh-aarti': ganeshAarti,
+  'saraswati-vandana': saraswatiVandana,
+  'mahalakshmi-ashtakam': mahalakshmiAshtakam,
+  'vishnu-sahasranamam': vishnuSahasranamam,
+  'ram-raksha-stotram': ramRakshaStotram,
+  'aditya-hridayam': adityaHridayam,
+  'navagraha-stotram': navagrahaStotram,
+  'aigiri-nandini': aigiriNandini,
+  'shiv-chalisa': shivChalisa,
 };
 
 const SEO_COPY = {

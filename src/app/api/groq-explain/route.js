@@ -11,19 +11,14 @@ export async function POST(req) {
 
     const languageName = languageMap[lang] || 'English';
 
-    const prompt = `
-You are a helpful Hindu devotional guide.
+    if (!process.env.GROQ_API_KEY) {
+      return Response.json({ result: 'GROQ_API_KEY missing on server' }, { status: 500 });
+    }
 
-Explain the following verse in very simple ${languageName}.
-Keep the answer:
-- short
-- clear
-- devotional
-- beginner-friendly
+    const prompt = `Explain this Hindu devotional verse in very simple ${languageName}. Keep it short, clear, and respectful.
 
 Verse:
-${verse}
-`;
+${verse}`;
 
     const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
@@ -52,26 +47,14 @@ ${verse}
 
     if (!response.ok) {
       console.error('GROQ API ERROR:', data);
-      return Response.json(
-        {
-          result: 'AI service error',
-        },
-        { status: 500 }
-      );
+      return Response.json({ result: `AI service error: ${data?.error?.message || 'unknown error'}` }, { status: 500 });
     }
 
-    const result = data?.choices?.[0]?.message?.content?.trim();
-
     return Response.json({
-      result: result || 'No response from AI',
+      result: data?.choices?.[0]?.message?.content?.trim() || 'No response from AI',
     });
   } catch (error) {
     console.error('ROUTE ERROR:', error);
-    return Response.json(
-      {
-        result: 'Server error',
-      },
-      { status: 500 }
-    );
+    return Response.json({ result: 'Server error' }, { status: 500 });
   }
 }

@@ -48,7 +48,7 @@ export default function AskPandit({ stotramContext }) {
     setLoading(true);
 
     try {
-      const res = await fetch('/api/pandit', {
+      const res = await fetch('/api/ask-pandit'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

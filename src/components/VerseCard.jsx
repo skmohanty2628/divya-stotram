@@ -26,24 +26,28 @@ export default function VerseCard({ verse }) {
   };
 
   const fetchAIExplanation = async () => {
-    try {
-      setLoadingAI(true);
-      setAiResponse('');
+  try {
+    setLoadingAI(true);
+    setAiResponse('');
 
-      const res = await fetch('/api/groq-explain', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ verse: verseText, lang }),
-      });
+    const res = await fetch('/api/groq-explain', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        verse: verseText,
+        lang,
+      }),
+    });
 
-      const data = await res.json();
-      setAiResponse(data.result);
-    } catch (err) {
-      setAiResponse('Error getting explanation');
-    } finally {
-      setLoadingAI(false);
-    }
-  };
+    const data = await res.json();
+    setAiResponse(data.result || 'No response from AI');
+  } catch (err) {
+    console.error(err);
+    setAiResponse('Error getting explanation');
+  } finally {
+    setLoadingAI(false);
+  }
+};
 
   const LABELS = {
     explain: {

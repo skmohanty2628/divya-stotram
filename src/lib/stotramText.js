@@ -25,6 +25,34 @@ function hasLatin(text) {
   return /[A-Za-z]/.test(text || '');
 }
 
+function cleanOdiaText(text) {
+  if (typeof text !== 'string') return '';
+
+  let cleaned = text;
+
+  // remove spaces between Odia letters
+  cleaned = cleaned.replace(/([\u0B00-\u0B7F])\s+(?=[\u0B00-\u0B7F])/g, '$1');
+
+  // remove spaces before Odia vowel signs / marks if separated badly
+  cleaned = cleaned.replace(/\s+([\u0B3C-\u0B4D\u0B56-\u0B57])/g, '$1');
+
+  // normalize repeated spaces
+  cleaned = cleaned.replace(/[ \t]+/g, ' ').trim();
+
+  return cleaned;
+}
+
+function cleanTeluguText(text) {
+  if (typeof text !== 'string') return '';
+
+  let cleaned = text;
+  cleaned = cleaned.replace(/([\u0C00-\u0C7F])\s+(?=[\u0C00-\u0C7F])/g, '$1');
+  cleaned = cleaned.replace(/\s+([\u0C3C-\u0C4D\u0C55-\u0C56])/g, '$1');
+  cleaned = cleaned.replace(/[ \t]+/g, ' ').trim();
+
+  return cleaned;
+}
+
 function isPlaceholderLike(text) {
   const value = normalizeText(text);
   if (!value) return true;
@@ -43,7 +71,16 @@ function isPlaceholderLike(text) {
 }
 
 function isBrokenLocalizedText(text, lang) {
-  const value = normalizeText(text);
+  const rawValue = normalizeText(text);
+  if (!rawValue) return true;
+
+  const value =
+    lang === 'od'
+      ? cleanOdiaText(rawValue)
+      : lang === 'te'
+        ? cleanTeluguText(rawValue)
+        : rawValue;
+
   if (!value) return true;
   if (isPlaceholderLike(value)) return true;
 
@@ -59,7 +96,16 @@ function isBrokenLocalizedText(text, lang) {
 }
 
 function isBrokenScriptText(text, lang) {
-  const value = normalizeText(text);
+  const rawValue = normalizeText(text);
+  if (!rawValue) return true;
+
+  const value =
+    lang === 'od'
+      ? cleanOdiaText(rawValue)
+      : lang === 'te'
+        ? cleanTeluguText(rawValue)
+        : rawValue;
+
   if (!value) return true;
   if (isPlaceholderLike(value)) return true;
 
@@ -79,8 +125,8 @@ function getMeaningText(verse, lang) {
 
   const englishMeaning = normalizeText(meaning.en);
   const hindiMeaning = normalizeText(meaning.hi);
-  const odiaMeaning = normalizeText(meaning.od);
-  const teluguMeaning = normalizeText(meaning.te);
+  const odiaMeaning = cleanOdiaText(normalizeText(meaning.od));
+  const teluguMeaning = cleanTeluguText(normalizeText(meaning.te));
   const sanskritMeaning = normalizeText(meaning.sa);
 
   if (lang === 'en') {
@@ -134,7 +180,11 @@ export function getVerseDisplayText(verse, lang = 'en') {
   }
 
   if (lang === 'od' || lang === 'te') {
-    const nativeScript = normalizeText(script[lang] || '');
+    const rawNativeScript = normalizeText(script[lang] || '');
+    const nativeScript =
+      lang === 'od'
+        ? cleanOdiaText(rawNativeScript)
+        : cleanTeluguText(rawNativeScript);
 
     if (!isBrokenScriptText(nativeScript, lang)) {
       return {
@@ -144,7 +194,11 @@ export function getVerseDisplayText(verse, lang = 'en') {
       };
     }
 
-    const converted = normalizeText(convertDevanagariToScript(original, lang) || '');
+    const convertedRaw = normalizeText(convertDevanagariToScript(original, lang) || '');
+    const converted =
+      lang === 'od'
+        ? cleanOdiaText(convertedRaw)
+        : cleanTeluguText(convertedRaw);
 
     return {
       verseText: converted || transliteration || original,

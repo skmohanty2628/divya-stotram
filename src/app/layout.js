@@ -153,11 +153,18 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="PgObA56qPvqCtYo6wbzYDQBhAW7SC2zgpYK8JlCI3Yc"
         />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
+        />
+
+        {/* Odia font fix */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;600;700&display=swap"
+          rel="stylesheet"
         />
 
         <script
@@ -196,10 +203,7 @@ export default function RootLayout({ children }) {
 
       <body className="min-h-screen bg-white text-[#1a0a00]">
         <div className="flex min-h-screen flex-col">
-          <main className="flex-1">
-            {children}
-          </main>
-
+          <main className="flex-1">{children}</main>
           <SiteFooter />
         </div>
 

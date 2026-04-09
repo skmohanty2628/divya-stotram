@@ -9,6 +9,32 @@ function collapseSpaces(text) {
   return normalizeText(text).replace(/\s+/g, ' ').trim();
 }
 
+/* =========================
+   🔥 MAIN FIX — ODIA CLEAN
+========================= */
+function cleanOdiaText(text) {
+  let cleaned = normalizeText(text);
+
+  if (!cleaned) return '';
+
+  // remove unwanted spaces between characters
+  cleaned = cleaned.replace(/\s+/g, ' ');
+
+  // ❗ REMOVE space BEFORE virama (୍)
+  cleaned = cleaned.replace(/\s+([\u0B4D])/g, '$1');
+
+  // ❗ REMOVE space AFTER virama
+  cleaned = cleaned.replace(/([\u0B4D])\s+/g, '$1');
+
+  // ❗ REMOVE space between combining marks and base chars
+  cleaned = cleaned.replace(/([\u0B3C\u0B3E-\u0B44\u0B47-\u0B48\u0B4B-\u0B4C])\s+/g, '$1');
+  cleaned = cleaned.replace(/\s+([\u0B3C\u0B3E-\u0B44\u0B47-\u0B48\u0B4B-\u0B4C])/g, '$1');
+
+  return cleaned.trim();
+}
+
+/* ========================= */
+
 function hasOdia(text) {
   return /[\u0B00-\u0B7F]/.test(text || '');
 }
@@ -33,10 +59,6 @@ function isPlaceholderLike(text) {
     /^\.*$/.test(value) ||
     /^[।॥\s]+$/.test(value) ||
     value.includes('      ') ||
-    value.includes('     ।') ||
-    value.includes('।     ') ||
-    value.includes('॥     ') ||
-    value.includes('     ॥') ||
     /[।॥]\s{2,}[।॥]?/.test(value) ||
     /\s{4,}/.test(value)
   );
@@ -63,23 +85,21 @@ function isBrokenScriptText(text, lang) {
   if (!value) return true;
   if (isPlaceholderLike(value)) return true;
 
-  if (lang === 'od') {
-    return !hasOdia(value);
-  }
-
-  if (lang === 'te') {
-    return !hasTelugu(value);
-  }
+  if (lang === 'od') return !hasOdia(value);
+  if (lang === 'te') return !hasTelugu(value);
 
   return false;
 }
 
+/* =========================
+   ✅ MEANING FIX (NO ENGLISH LEAK)
+========================= */
 function getMeaningText(verse, lang) {
   const meaning = verse?.meaning || {};
 
   const englishMeaning = normalizeText(meaning.en);
   const hindiMeaning = normalizeText(meaning.hi);
-  const odiaMeaning = normalizeText(meaning.od);
+  const odiaMeaning = cleanOdiaText(meaning.od);
   const teluguMeaning = normalizeText(meaning.te);
   const sanskritMeaning = normalizeText(meaning.sa);
 
@@ -99,7 +119,7 @@ function getMeaningText(verse, lang) {
     if (!isBrokenLocalizedText(odiaMeaning, 'od')) {
       return odiaMeaning;
     }
-    return '';
+    return ''; // ❗ NO ENGLISH FALLBACK
   }
 
   if (lang === 'te') {
@@ -112,6 +132,9 @@ function getMeaningText(verse, lang) {
   return englishMeaning || hindiMeaning || '';
 }
 
+/* =========================
+   🚀 MAIN DISPLAY FUNCTION
+========================= */
 export function getVerseDisplayText(verse, lang = 'en') {
   const original = normalizeText(verse?.original || '');
   const transliteration = normalizeText(verse?.transliteration || '');
@@ -134,7 +157,12 @@ export function getVerseDisplayText(verse, lang = 'en') {
   }
 
   if (lang === 'od' || lang === 'te') {
-    const nativeScript = normalizeText(script[lang] || '');
+    let nativeScript = normalizeText(script[lang] || '');
+
+    // 🔥 CLEAN ODIA SCRIPT
+    if (lang === 'od') {
+      nativeScript = cleanOdiaText(nativeScript);
+    }
 
     if (!isBrokenScriptText(nativeScript, lang)) {
       return {
@@ -144,7 +172,13 @@ export function getVerseDisplayText(verse, lang = 'en') {
       };
     }
 
-    const converted = normalizeText(convertDevanagariToScript(original, lang) || '');
+    let converted = normalizeText(
+      convertDevanagariToScript(original, lang) || ''
+    );
+
+    if (lang === 'od') {
+      converted = cleanOdiaText(converted);
+    }
 
     return {
       verseText: converted || transliteration || original,

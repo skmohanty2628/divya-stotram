@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
+import { devotionalPages, getPageBySlug } from '@/data/devotionalPages';
 
 import { hanumanChalisa } from '@/data/hanuman-chalisa';
 import { durgaStotram } from '@/data/durga-stotram';
@@ -20,9 +21,7 @@ import StotramClientPage from './StotramClientPage';
 const SITE_URL = 'https://divyastotram.com';
 
 /**
- * Important:
- * Pass the FULL mantra object to the client page.
- * The client page expects verseData.verses, not a raw array.
+ * Main stotram verse data
  */
 const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
@@ -123,33 +122,22 @@ function getSeoCopy(slug, meta) {
   );
 }
 
-export function generateStaticParams() {
-  return STOTRAMS_INDEX.map((item) => ({ slug: item.slug }));
+function isMainStotram(slug) {
+  return STOTRAMS_INDEX.some((item) => item.slug === slug);
 }
 
-export async function generateMetadata({ params }) {
-  const { slug } = await params;
-  const meta = getMeta(slug);
-
-  if (!meta) {
-    return {
-      title: 'Page Not Found',
-      description: 'The requested stotram page could not be found.',
-    };
-  }
-
-  const seo = getSeoCopy(slug, meta);
+function buildDevotionalMetadata(page, slug) {
   const canonicalUrl = `${SITE_URL}/${slug}`;
 
   return {
-    title: seo.title,
-    description: seo.description,
+    title: page.title,
+    description: page.description,
     alternates: {
       canonical: canonicalUrl,
     },
     openGraph: {
-      title: seo.title,
-      description: seo.description,
+      title: page.title,
+      description: page.description,
       url: canonicalUrl,
       siteName: 'Divya Stotram',
       type: 'article',
@@ -158,36 +146,218 @@ export async function generateMetadata({ params }) {
           url: '/logo.svg',
           width: 1200,
           height: 630,
-          alt: meta.title?.en,
+          alt: page.title,
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: seo.title,
-      description: seo.description,
+      title: page.title,
+      description: page.description,
       images: ['/logo.svg'],
     },
   };
 }
 
+export function generateStaticParams() {
+  const stotramParams = STOTRAMS_INDEX.map((item) => ({ slug: item.slug }));
+  const devotionalParams = devotionalPages.map((page) => ({ slug: page.slug }));
+
+  const merged = [...stotramParams, ...devotionalParams];
+
+  const seen = new Set();
+  return merged.filter((item) => {
+    if (seen.has(item.slug)) return false;
+    seen.add(item.slug);
+    return true;
+  });
+}
+
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+
+  if (isMainStotram(slug)) {
+    const meta = getMeta(slug);
+
+    if (!meta) {
+      return {
+        title: 'Page Not Found',
+        description: 'The requested stotram page could not be found.',
+      };
+    }
+
+    const seo = getSeoCopy(slug, meta);
+    const canonicalUrl = `${SITE_URL}/${slug}`;
+
+    return {
+      title: seo.title,
+      description: seo.description,
+      alternates: {
+        canonical: canonicalUrl,
+      },
+      openGraph: {
+        title: seo.title,
+        description: seo.description,
+        url: canonicalUrl,
+        siteName: 'Divya Stotram',
+        type: 'article',
+        images: [
+          {
+            url: '/logo.svg',
+            width: 1200,
+            height: 630,
+            alt: meta.title?.en,
+          },
+        ],
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: seo.title,
+        description: seo.description,
+        images: ['/logo.svg'],
+      },
+    };
+  }
+
+  const devotionalPage = getPageBySlug(slug);
+  if (devotionalPage) {
+    return buildDevotionalMetadata(devotionalPage, slug);
+  }
+
+  return {
+    title: 'Page Not Found',
+    description: 'The requested page could not be found.',
+  };
+}
+
+function DevotionalContentPage({ page }) {
+  return (
+    <main className="mx-auto max-w-4xl px-4 py-10">
+      <article className="space-y-8">
+        <header className="space-y-4">
+          <h1 className="text-3xl font-bold leading-tight md:text-4xl">
+            {page.h1}
+          </h1>
+          <p className="text-base leading-7 text-neutral-700 md:text-lg">
+            {page.intro}
+          </p>
+        </header>
+
+        {page.sections?.map((section, index) => (
+          <section key={index} className="space-y-3">
+            <h2 className="text-2xl font-semibold">{section.heading}</h2>
+            <p className="text-base leading-7 text-neutral-800">
+              {section.content}
+            </p>
+          </section>
+        ))}
+
+        {!!page.faqs?.length && (
+          <section className="space-y-4">
+            <h2 className="text-2xl font-semibold">FAQs</h2>
+            <div className="space-y-4">
+              {page.faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="rounded-2xl border border-neutral-200 p-4"
+                >
+                  <h3 className="text-lg font-medium">{faq.q}</h3>
+                  <p className="mt-2 text-base leading-7 text-neutral-800">
+                    {faq.a}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+      </article>
+    </main>
+  );
+}
+
 export default async function StotramPage({ params }) {
   const { slug } = await params;
-  const meta = getMeta(slug);
 
-  if (!meta) return notFound();
+  if (isMainStotram(slug)) {
+    const meta = getMeta(slug);
 
-  const seo = getSeoCopy(slug, meta);
-  const verseData = VERSE_DATA[slug] || null;
+    if (!meta) return notFound();
+
+    const seo = getSeoCopy(slug, meta);
+    const verseData = VERSE_DATA[slug] || null;
+    const canonicalUrl = `${SITE_URL}/${slug}`;
+
+    const articleJsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: seo.title,
+      description: seo.description,
+      url: canonicalUrl,
+      inLanguage: ['en', 'hi', 'or', 'te'],
+      author: {
+        '@type': 'Organization',
+        name: 'Divya Stotram',
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Divya Stotram',
+        url: SITE_URL,
+      },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': canonicalUrl,
+      },
+      about: {
+        '@type': 'Thing',
+        name: meta.deity,
+      },
+    };
+
+    const breadcrumbJsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: SITE_URL,
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: meta.title?.en,
+          item: canonicalUrl,
+        },
+      ],
+    };
+
+    return (
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        />
+        <StotramClientPage meta={meta} verseData={verseData} />
+      </>
+    );
+  }
+
+  const devotionalPage = getPageBySlug(slug);
+  if (!devotionalPage) return notFound();
+
   const canonicalUrl = `${SITE_URL}/${slug}`;
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: seo.title,
-    description: seo.description,
+    headline: devotionalPage.title,
+    description: devotionalPage.description,
     url: canonicalUrl,
-    inLanguage: ['en', 'hi', 'or', 'te'],
     author: {
       '@type': 'Organization',
       name: 'Divya Stotram',
@@ -200,10 +370,6 @@ export default async function StotramPage({ params }) {
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': canonicalUrl,
-    },
-    about: {
-      '@type': 'Thing',
-      name: meta.deity,
     },
   };
 
@@ -220,7 +386,7 @@ export default async function StotramPage({ params }) {
       {
         '@type': 'ListItem',
         position: 2,
-        name: meta.title?.en,
+        name: devotionalPage.title,
         item: canonicalUrl,
       },
     ],
@@ -236,7 +402,7 @@ export default async function StotramPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <StotramClientPage meta={meta} verseData={verseData} />
+      <DevotionalContentPage page={devotionalPage} />
     </>
   );
 }

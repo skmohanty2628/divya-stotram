@@ -279,6 +279,44 @@ function HomeContent() {
           </div>
         </section>
       )}
+      {/* 🔥 NEW SECTION — SEO PAGES */}
+<section className="mb-16">
+  <div className="flex items-center gap-4 mb-8">
+    <div className="h-px flex-1 bg-gradient-to-r from-[#c9922a]/30 to-transparent" />
+    <p className="font-cinzel-reg text-[11px] tracking-[5px] uppercase text-[#e8760a] font-bold">
+      Mantras for Life Situations
+    </p>
+    <div className="h-px flex-1 bg-gradient-to-l from-[#c9922a]/30 to-transparent" />
+  </div>
+
+  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+
+    <Link href="/mantra-for-anxiety" className="bg-white p-4 rounded-xl border hover:shadow">
+      Mantra for Anxiety
+    </Link>
+
+    <Link href="/mantra-for-confidence" className="bg-white p-4 rounded-xl border hover:shadow">
+      Mantra for Confidence
+    </Link>
+
+    <Link href="/mantra-for-study-focus" className="bg-white p-4 rounded-xl border hover:shadow">
+      Mantra for Study
+    </Link>
+
+    <Link href="/mantra-for-money" className="bg-white p-4 rounded-xl border hover:shadow">
+      Mantra for Money
+    </Link>
+
+    <Link href="/prayer-for-inner-peace" className="bg-white p-4 rounded-xl border hover:shadow">
+      Prayer for Peace
+    </Link>
+
+    <Link href="/mantra-for-sleep" className="bg-white p-4 rounded-xl border hover:shadow">
+      Mantra for Sleep
+    </Link>
+
+  </div>
+</section>
 
       <section className="mb-16">
         <div className="flex items-center gap-4 mb-8">

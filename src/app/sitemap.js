@@ -1,8 +1,9 @@
+import { devotionalPages } from '@/data/devotionalPages';
+
 export default function sitemap() {
   const baseUrl = 'https://divyastotram.com';
 
   const stotrams = [
-    // Original 8
     'hanuman-chalisa',
     'durga-stotram',
     'shiva-tandav',
@@ -11,7 +12,6 @@ export default function sitemap() {
     'mahalakshmi-ashtakam',
     'saraswati-vandana',
     'ganesh-aarti',
-    // 5 New
     'ram-raksha-stotram',
     'aditya-hridayam',
     'navagraha-stotram',
@@ -24,6 +24,14 @@ export default function sitemap() {
     lastModified: new Date(),
     changeFrequency: 'monthly',
     priority: 0.9,
+  }));
+
+  // 🔥 NEW — DEVOTIONAL PAGES
+  const devotionalUrls = devotionalPages.map((page) => ({
+    url: `${baseUrl}/${page.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.7,
   }));
 
   return [
@@ -58,5 +66,6 @@ export default function sitemap() {
       priority: 0.3,
     },
     ...stotramUrls,
+    ...devotionalUrls, // 🔥 IMPORTANT
   ];
 }

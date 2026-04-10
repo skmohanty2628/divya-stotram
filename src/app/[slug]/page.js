@@ -232,7 +232,6 @@ export async function generateMetadata({ params }) {
 
 function DevotionalContentPage({ page }) {
 
-  // 🔥 AUTO DETECT MANTRA
   const detectMantra = () => {
     const text = (page.slug + " " + page.title).toLowerCase();
 
@@ -262,11 +261,11 @@ function DevotionalContentPage({ page }) {
       <article className="space-y-8">
 
         <header className="space-y-4">
-          <h1 className="text-3xl font-bold leading-tight md:text-4xl">
+          <h1 className="text-3xl font-bold md:text-4xl">
             {page.h1}
           </h1>
 
-          <p className="text-base leading-7 text-neutral-700 md:text-lg">
+          <p className="text-base text-neutral-700 md:text-lg">
             {page.intro}
           </p>
 
@@ -277,37 +276,41 @@ function DevotionalContentPage({ page }) {
           >
             🔊 Start Chanting {mantra.name}
           </a>
-
         </header>
 
         {page.sections?.map((section, index) => (
-          <section key={index} className="space-y-3">
+          <section key={index}>
             <h2 className="text-2xl font-semibold">{section.heading}</h2>
-            <p className="text-base leading-7 text-neutral-800">
+            <p className="text-base text-neutral-800">
               {section.content}
             </p>
           </section>
         ))}
 
         {!!page.faqs?.length && (
-          <section className="space-y-4">
+          <section>
             <h2 className="text-2xl font-semibold">FAQs</h2>
 
-            <div className="space-y-4">
-              {page.faqs.map((faq, index) => (
-                <div
-                  key={index}
-                  className="rounded-2xl border border-neutral-200 p-4"
-                >
-                  <h3 className="text-lg font-medium">{faq.q}</h3>
-                  <p className="mt-2 text-base leading-7 text-neutral-800">
-                    {faq.a}
-                  </p>
-                </div>
-              ))}
-            </div>
+            {page.faqs.map((faq, index) => (
+              <div key={index} className="border p-4 rounded-xl mt-3">
+                <h3 className="font-medium">{faq.q}</h3>
+                <p className="text-neutral-700">{faq.a}</p>
+              </div>
+            ))}
           </section>
         )}
+
+        {/* 🔥 INTERNAL LINKING */}
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold">🔗 Related Mantras</h2>
+
+          <ul className="mt-4 space-y-2">
+            <li><a href="/mantra-for-anxiety" className="text-orange-600">Mantra for Anxiety</a></li>
+            <li><a href="/mantra-for-confidence" className="text-orange-600">Mantra for Confidence</a></li>
+            <li><a href="/mantra-for-study-focus" className="text-orange-600">Mantra for Study</a></li>
+            <li><a href="/prayer-for-inner-peace" className="text-orange-600">Prayer for Peace</a></li>
+          </ul>
+        </section>
 
       </article>
     </main>

@@ -2140,3 +2140,4 @@ export function getPageBySlug(slug) {
 export function getAllPageSlugs() {
   return devotionalPages.map((page) => page.slug);
 }
+

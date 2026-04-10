@@ -291,31 +291,31 @@ function HomeContent() {
 
   <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
 
-    <Link href="/mantra-for-anxiety" className="bg-white p-4 rounded-xl border hover:shadow">
-      Mantra for Anxiety
-    </Link>
+  <Link href="/best-mantra-for-anxiety" className="bg-white p-4 rounded-xl border hover:shadow transition">
+    Best Mantra for Anxiety
+  </Link>
 
-    <Link href="/mantra-for-confidence" className="bg-white p-4 rounded-xl border hover:shadow">
-      Mantra for Confidence
-    </Link>
+  <Link href="/best-mantra-for-confidence" className="bg-white p-4 rounded-xl border hover:shadow transition">
+    Best Mantra for Confidence
+  </Link>
 
-    <Link href="/mantra-for-study-focus" className="bg-white p-4 rounded-xl border hover:shadow">
-      Mantra for Study
-    </Link>
+  <Link href="/best-mantra-for-study-focus" className="bg-white p-4 rounded-xl border hover:shadow transition">
+    Best Mantra for Study
+  </Link>
 
-    <Link href="/mantra-for-money" className="bg-white p-4 rounded-xl border hover:shadow">
-      Mantra for Money
-    </Link>
+  <Link href="/best-mantra-for-money" className="bg-white p-4 rounded-xl border hover:shadow transition">
+    Best Mantra for Money
+  </Link>
 
-    <Link href="/prayer-for-inner-peace" className="bg-white p-4 rounded-xl border hover:shadow">
-      Prayer for Peace
-    </Link>
+  <Link href="/best-prayer-for-inner-peace" className="bg-white p-4 rounded-xl border hover:shadow transition">
+    Best Prayer for Inner Peace
+  </Link>
 
-    <Link href="/mantra-for-sleep" className="bg-white p-4 rounded-xl border hover:shadow">
-      Mantra for Sleep
-    </Link>
+  <Link href="/best-mantra-for-sleep" className="bg-white p-4 rounded-xl border hover:shadow transition">
+    Best Mantra for Sleep
+  </Link>
 
-  </div>
+</div>
 </section>
 
       <section className="mb-16">

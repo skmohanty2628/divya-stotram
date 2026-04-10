@@ -231,88 +231,142 @@ export async function generateMetadata({ params }) {
 }
 
 function DevotionalContentPage({ page }) {
-
   const detectMantra = () => {
-    const text = (page.slug + " " + page.title).toLowerCase();
+    const text = `${page.slug} ${page.title}`.toLowerCase();
 
-    if (text.includes("anxiety") || text.includes("peace")) {
-      return { name: "Om Namah Shivaya", link: "shiva" };
+    if (text.includes('anxiety')) {
+      return { name: 'Om Namah Shivaya', link: '/shiva-tandav' };
     }
 
-    if (text.includes("confidence") || text.includes("fear")) {
-      return { name: "Hanuman Chalisa", link: "hanuman" };
+    if (text.includes('confidence')) {
+      return { name: 'Hanuman Chalisa', link: '/hanuman-chalisa' };
     }
 
-    if (text.includes("study") || text.includes("exam")) {
-      return { name: "Saraswati Vandana", link: "saraswati" };
+    if (text.includes('study') || text.includes('exam')) {
+      return { name: 'Saraswati Vandana', link: '/saraswati-vandana' };
     }
 
-    if (text.includes("money") || text.includes("wealth")) {
-      return { name: "Mahalakshmi Ashtakam", link: "lakshmi" };
+    if (text.includes('money') || text.includes('wealth')) {
+      return { name: 'Mahalakshmi Ashtakam', link: '/mahalakshmi-ashtakam' };
     }
 
-    return { name: "Om Chanting", link: "om" };
+    if (text.includes('peace')) {
+      return { name: 'Gayatri Mantra', link: '/gayatri-mantra' };
+    }
+
+    if (text.includes('sleep')) {
+      return { name: 'Om Namah Shivaya', link: '/shiva-tandav' };
+    }
+
+    return { name: 'Explore Stotrams', link: '/' };
   };
 
   const mantra = detectMantra();
 
   return (
-    <main className="bg-white mx-auto max-w-4xl px-4 py-10">
-      <article className="space-y-8">
+    <main className="relative z-10 max-w-5xl mx-auto px-4 py-20">
+      <div className="bg-white border border-[#c9922a]/20 rounded-3xl p-8 shadow-md backdrop-blur-sm">
+        <article className="space-y-8">
+          <header className="space-y-5">
+            <div className="flex items-center gap-3">
+              <div className="h-px w-12 bg-gradient-to-r from-transparent to-[#c9922a]" />
+              <span className="font-cinzel-reg text-[11px] tracking-[4px] uppercase text-[#e8760a]">
+                Spiritual Guidance
+              </span>
+              <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#c9922a]" />
+            </div>
 
-        <header className="space-y-4">
-          <h1 className="text-3xl font-bold md:text-4xl">
-            {page.h1}
-          </h1>
+            <h1 className="font-cinzel text-3xl md:text-5xl font-bold text-[#8b1a00] leading-tight">
+              {page.h1}
+            </h1>
 
-          <p className="text-base text-neutral-700 md:text-lg">
-            {page.intro}
-          </p>
-
-          {/* 🔥 CHANT BUTTON */}
-          <a
-            href={`/chanting-room?mantra=${mantra.link}`}
-            className="inline-block mt-4 bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-orange-600 transition"
-          >
-            🔊 Start Chanting {mantra.name}
-          </a>
-        </header>
-
-        {page.sections?.map((section, index) => (
-          <section key={index}>
-            <h2 className="text-2xl font-semibold">{section.heading}</h2>
-            <p className="text-base text-neutral-800">
-              {section.content}
+            <p className="font-garamond text-lg text-[#3d1a00]/80 leading-relaxed">
+              {page.intro}
             </p>
+
+            <a
+              href={mantra.link}
+              className="inline-block mt-2 bg-[#e8760a] text-white px-6 py-3 rounded-full font-cinzel-reg tracking-wide shadow hover:bg-[#d96a05] transition"
+            >
+              🔊 Start Chanting {mantra.name}
+            </a>
+          </header>
+
+          {page.sections?.map((section, index) => (
+            <section key={index} className="space-y-3 mt-6">
+              <h2 className="font-cinzel text-2xl font-bold text-[#8b1a00]">
+                {section.heading}
+              </h2>
+              <p className="font-garamond text-lg text-[#3d1a00]/80 leading-relaxed">
+                {section.content}
+              </p>
+            </section>
+          ))}
+
+          {!!page.faqs?.length && (
+            <section className="space-y-4 pt-2">
+              <h2 className="font-cinzel text-2xl font-bold text-[#8b1a00]">
+                FAQs
+              </h2>
+
+              {page.faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="border border-[#c9922a]/20 p-5 rounded-2xl bg-[#fffaf1] mt-4"
+                >
+                  <h3 className="font-cinzel text-lg font-semibold text-[#8b1a00]">
+                    {faq.q}
+                  </h3>
+                  <p className="mt-2 font-garamond text-lg text-[#3d1a00]/80 leading-relaxed">
+                    {faq.a}
+                  </p>
+                </div>
+              ))}
+            </section>
+          )}
+
+          <section className="mt-10">
+            <h2 className="font-cinzel text-2xl font-bold text-[#8b1a00]">
+              🔗 Related Mantras
+            </h2>
+
+            <ul className="mt-4 space-y-2">
+              <li>
+                <a
+                  href="/best-mantra-for-anxiety"
+                  className="text-orange-600 hover:text-orange-700"
+                >
+                  Best Mantra for Anxiety
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/best-mantra-for-confidence"
+                  className="text-orange-600 hover:text-orange-700"
+                >
+                  Best Mantra for Confidence
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/best-mantra-for-study-focus"
+                  className="text-orange-600 hover:text-orange-700"
+                >
+                  Best Mantra for Study
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/best-prayer-for-inner-peace"
+                  className="text-orange-600 hover:text-orange-700"
+                >
+                  Best Prayer for Inner Peace
+                </a>
+              </li>
+            </ul>
           </section>
-        ))}
-
-        {!!page.faqs?.length && (
-          <section>
-            <h2 className="text-2xl font-semibold">FAQs</h2>
-
-            {page.faqs.map((faq, index) => (
-              <div key={index} className="border p-4 rounded-xl mt-3">
-                <h3 className="font-medium">{faq.q}</h3>
-                <p className="text-neutral-700">{faq.a}</p>
-              </div>
-            ))}
-          </section>
-        )}
-
-        {/* 🔥 INTERNAL LINKING */}
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold">🔗 Related Mantras</h2>
-
-          <ul className="mt-4 space-y-2">
-            <li><a href="/mantra-for-anxiety" className="text-orange-600">Mantra for Anxiety</a></li>
-            <li><a href="/mantra-for-confidence" className="text-orange-600">Mantra for Confidence</a></li>
-            <li><a href="/mantra-for-study-focus" className="text-orange-600">Mantra for Study</a></li>
-            <li><a href="/prayer-for-inner-peace" className="text-orange-600">Prayer for Peace</a></li>
-          </ul>
-        </section>
-
-      </article>
+        </article>
+      </div>
     </main>
   );
 }

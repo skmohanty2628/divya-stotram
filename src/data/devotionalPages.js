@@ -871,7 +871,7 @@ export const devotionalPages = [
   },
 
   {
-    slug: 'mantra-for-anxiety',
+    slug: 'best-mantra-for-anxiety',
     title: 'Best Mantra for Anxiety',
     description: 'A practical devotional guide to choosing and using mantras for anxiety and emotional calm.',
     h1: 'Best Mantra for Anxiety',
@@ -890,7 +890,7 @@ export const devotionalPages = [
     ]
   },
   {
-    slug: 'mantra-for-stress',
+    slug: 'best-mantra-for-stress',
     title: 'Best Mantra for Stress',
     description: 'Learn how mantra chanting can support calmness, focus, and stress relief in everyday life.',
     h1: 'Best Mantra for Stress',
@@ -909,7 +909,7 @@ export const devotionalPages = [
     ]
   },
   {
-    slug: 'mantra-for-job',
+    slug: 'best-mantra-for-job',
     title: 'Best Mantra for Job',
     description: 'A devotional guide to choosing a mantra for confidence, focus, and strength during job search and career stress.',
     h1: 'Best Mantra for Job',
@@ -928,7 +928,7 @@ export const devotionalPages = [
     ]
   },
   {
-    slug: 'mantra-for-money',
+    slug: 'best-mantra-for-money',
     title: 'Best Mantra for Money',
     description: 'A devotional guide to mantras commonly used for prosperity, financial peace, and abundance.',
     h1: 'Best Mantra for Money',
@@ -947,7 +947,7 @@ export const devotionalPages = [
     ]
   },
   {
-    slug: 'mantra-for-health',
+    slug: 'best-mantra-for-health',
     title: 'Best Mantra for Health',
     description: 'A devotional guide to choosing a mantra for peace, strength, and prayer during health concerns.',
     h1: 'Best Mantra for Health',
@@ -966,7 +966,7 @@ export const devotionalPages = [
     ]
   },
   {
-    slug: 'mantra-for-success',
+    slug: 'best-mantra-for-success',
     title: 'Best Mantra for Success',
     description: 'Learn how mantra chanting can support focus, discipline, and spiritual balance on the path to success.',
     h1: 'Best Mantra for Success',
@@ -985,7 +985,7 @@ export const devotionalPages = [
     ]
   },
   {
-    slug: 'mantra-for-protection',
+    slug: 'best-mantra-for-protection',
     title: 'Best Mantra for Protection',
     description: 'A devotional guide to mantras commonly used for protection, courage, and spiritual reassurance.',
     h1: 'Best Mantra for Protection',
@@ -1769,7 +1769,7 @@ export const devotionalPages = [
     ]
   },
   {
-    slug: 'mantra-for-peace',
+    slug: 'best-mantra-for-peace',
     title: 'Best Mantra for Peace',
     description: 'A devotional guide to choosing a calming mantra for inner peace and steadiness.',
     h1: 'Best Mantra for Peace',
@@ -1788,7 +1788,7 @@ export const devotionalPages = [
     ]
   },
   {
-    slug: 'mantra-for-confidence-before-interview',
+    slug: 'best-mantra-for-confidence-before-interview',
     title: 'Mantra for Confidence Before Interview',
     description: 'A simple devotional guide to using mantra before interviews for confidence and calmness.',
     h1: 'Mantra for Confidence Before Interview',
@@ -1807,7 +1807,7 @@ export const devotionalPages = [
     ]
   },
   {
-    slug: 'mantra-for-study-focus',
+    slug: 'best-mantra-for-study-focus',
     title: 'Mantra for Study Focus',
     description: 'A devotional guide to using mantra before study for focus, calmness, and better concentration.',
     h1: 'Mantra for Study Focus',
@@ -1826,7 +1826,7 @@ export const devotionalPages = [
     ]
   },
   {
-    slug: 'mantra-for-family-peace',
+    slug: 'best-mantra-for-family-peace',
     title: 'Mantra for Family Peace',
     description: 'A devotional guide to using mantra chanting for harmony, peace, and gentleness in family life.',
     h1: 'Mantra for Family Peace',
@@ -1845,7 +1845,7 @@ export const devotionalPages = [
     ]
   },
   {
-    slug: 'mantra-for-sleep',
+    slug: 'best-mantra-for-sleep',
     title: 'Mantra for Better Sleep',
     description: 'A simple devotional guide to calming mantras that may support restful sleep.',
     h1: 'Mantra for Better Sleep',

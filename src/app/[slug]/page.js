@@ -235,8 +235,8 @@ function DevotionalContentPage({ page }) {
     const text = `${page.slug} ${page.title}`.toLowerCase();
 
     if (text.includes('anxiety')) {
-      return { name: 'Om Namah Shivaya', link: '/shiva-tandav' };
-    }
+  return { name: 'Calming Chant (Om Namah Shivaya)', link: '/chanting-room?type=calm' };
+}
 
     if (text.includes('confidence')) {
       return { name: 'Hanuman Chalisa', link: '/hanuman-chalisa' };
@@ -255,8 +255,8 @@ function DevotionalContentPage({ page }) {
     }
 
     if (text.includes('sleep')) {
-      return { name: 'Om Namah Shivaya', link: '/shiva-tandav' };
-    }
+  return { name: 'Sleep Chant (Omm)', link: '/chanting-room?type=sleep' };
+}
 
     return { name: 'Explore Stotrams', link: '/' };
   };

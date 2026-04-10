@@ -2073,7 +2073,7 @@ export const devotionalPages = [
     ]
   },
   {
-    slug: 'prayer-for-inner-peace',
+    slug: 'best-prayer-for-inner-peace',
     title: 'Prayer for Inner Peace',
     description: 'A gentle devotional guide to prayer and mantra for inner peace and emotional steadiness.',
     h1: 'Prayer for Inner Peace',

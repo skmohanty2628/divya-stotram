@@ -231,16 +231,53 @@ export async function generateMetadata({ params }) {
 }
 
 function DevotionalContentPage({ page }) {
+
+  // 🔥 AUTO DETECT MANTRA
+  const detectMantra = () => {
+    const text = (page.slug + " " + page.title).toLowerCase();
+
+    if (text.includes("anxiety") || text.includes("peace")) {
+      return { name: "Om Namah Shivaya", link: "shiva" };
+    }
+
+    if (text.includes("confidence") || text.includes("fear")) {
+      return { name: "Hanuman Chalisa", link: "hanuman" };
+    }
+
+    if (text.includes("study") || text.includes("exam")) {
+      return { name: "Saraswati Vandana", link: "saraswati" };
+    }
+
+    if (text.includes("money") || text.includes("wealth")) {
+      return { name: "Mahalakshmi Ashtakam", link: "lakshmi" };
+    }
+
+    return { name: "Om Chanting", link: "om" };
+  };
+
+  const mantra = detectMantra();
+
   return (
-    <main className="mx-auto max-w-4xl px-4 py-10">
+    <main className="bg-white mx-auto max-w-4xl px-4 py-10">
       <article className="space-y-8">
+
         <header className="space-y-4">
           <h1 className="text-3xl font-bold leading-tight md:text-4xl">
             {page.h1}
           </h1>
+
           <p className="text-base leading-7 text-neutral-700 md:text-lg">
             {page.intro}
           </p>
+
+          {/* 🔥 CHANT BUTTON */}
+          <a
+            href={`/chanting-room?mantra=${mantra.link}`}
+            className="inline-block mt-4 bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-orange-600 transition"
+          >
+            🔊 Start Chanting {mantra.name}
+          </a>
+
         </header>
 
         {page.sections?.map((section, index) => (
@@ -255,6 +292,7 @@ function DevotionalContentPage({ page }) {
         {!!page.faqs?.length && (
           <section className="space-y-4">
             <h2 className="text-2xl font-semibold">FAQs</h2>
+
             <div className="space-y-4">
               {page.faqs.map((faq, index) => (
                 <div
@@ -270,6 +308,7 @@ function DevotionalContentPage({ page }) {
             </div>
           </section>
         )}
+
       </article>
     </main>
   );

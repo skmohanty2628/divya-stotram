@@ -927,25 +927,25 @@ export const devotionalPages = [
       { q: 'Which day is best?', a: 'Tuesday or Monday are popular depending on the mantra you choose.' }
     ]
   },
-  {
-    slug: 'best-mantra-for-money',
-    title: 'Best Mantra for Money',
-    description: 'A devotional guide to mantras commonly used for prosperity, financial peace, and abundance.',
-    h1: 'Best Mantra for Money',
-    intro: 'Many devotees pray for financial peace, not just wealth. A mantra practice can support gratitude, focus, and disciplined prosperity.',
-    sections: [
-      { heading: 'Popular mantra choices', content: 'Lakshmi mantras are the most common, though some devotees also use Vishnu or Shiva mantras depending on their tradition.' },
-      { heading: 'What mantra practice can support', content: 'It can create a grounded mindset, gratitude, and spiritual support during financial uncertainty.' },
-      { heading: 'Best time to chant', content: 'Friday, morning, and evening diya time are especially popular.' },
-      { heading: 'How to chant', content: 'Repeat slowly with a clear intention and avoid a mechanical rush.' },
-      { heading: 'Pray for wisdom too', content: 'Ask for right income, responsible use of money, and freedom from harmful habits.' }
-    ],
-    faqs: [
-      { q: 'Can I chant daily?', a: 'Yes.' },
-      { q: 'Do I need special offerings?', a: 'No.' },
-      { q: 'Will mantra alone solve financial problems?', a: 'No, practical effort remains essential.' }
-    ]
-  },
+//   {
+//     slug: 'best-mantra-for-money',
+//     title: 'Best Mantra for Money',
+//     description: 'A devotional guide to mantras commonly used for prosperity, financial peace, and abundance.',
+//     h1: 'Best Mantra for Money',
+//     intro: 'Many devotees pray for financial peace, not just wealth. A mantra practice can support gratitude, focus, and disciplined prosperity.',
+//     sections: [
+//       { heading: 'Popular mantra choices', content: 'Lakshmi mantras are the most common, though some devotees also use Vishnu or Shiva mantras depending on their tradition.' },
+//       { heading: 'What mantra practice can support', content: 'It can create a grounded mindset, gratitude, and spiritual support during financial uncertainty.' },
+//       { heading: 'Best time to chant', content: 'Friday, morning, and evening diya time are especially popular.' },
+//       { heading: 'How to chant', content: 'Repeat slowly with a clear intention and avoid a mechanical rush.' },
+//       { heading: 'Pray for wisdom too', content: 'Ask for right income, responsible use of money, and freedom from harmful habits.' }
+//     ],
+//     faqs: [
+//       { q: 'Can I chant daily?', a: 'Yes.' },
+//       { q: 'Do I need special offerings?', a: 'No.' },
+//       { q: 'Will mantra alone solve financial problems?', a: 'No, practical effort remains essential.' }
+//     ]
+//   },
   {
     slug: 'best-mantra-for-health',
     title: 'Best Mantra for Health',
@@ -1004,25 +1004,25 @@ export const devotionalPages = [
     ]
   },
 
-  {
-    slug: 'best-mantra-for-anxiety',
-    title: 'Best Mantra for Anxiety and Overthinking',
-    description: 'A beginner-friendly guide to choosing a calm, steady mantra for anxiety and overthinking.',
-    h1: 'Best Mantra for Anxiety and Overthinking',
-    intro: 'Anxiety and overthinking can make the mind feel heavy and unsettled. Many people find comfort in a simple, repeated mantra.',
-    sections: [
-      { heading: 'What makes a mantra helpful for anxiety', content: 'A useful mantra is simple, repeatable, and emotionally comforting.' },
-      { heading: 'Good choices for beginners', content: 'Om Namah Shivaya and gentle devotional chants are common starting points.' },
-      { heading: 'How to practice', content: 'Repeat slowly, breathe gently, and stay with the sound instead of fighting your thoughts.' },
-      { heading: 'When to chant', content: 'Morning, before sleep, or during anxious episodes are all useful times.' },
-      { heading: 'Keep a balanced approach', content: 'Mantra is a spiritual tool, not a replacement for needed professional care.' }
-    ],
-    faqs: [
-      { q: 'Can I chant in my head?', a: 'Yes.' },
-      { q: 'Can short sessions help?', a: 'Yes, even a few minutes can be useful.' },
-      { q: 'Should I use one mantra or many?', a: 'One is usually easier for consistency.' }
-    ]
-  },
+//   {
+//     slug: 'best-mantra-for-anxiety',
+//     title: 'Best Mantra for Anxiety and Overthinking',
+//     description: 'A beginner-friendly guide to choosing a calm, steady mantra for anxiety and overthinking.',
+//     h1: 'Best Mantra for Anxiety and Overthinking',
+//     intro: 'Anxiety and overthinking can make the mind feel heavy and unsettled. Many people find comfort in a simple, repeated mantra.',
+//     sections: [
+//       { heading: 'What makes a mantra helpful for anxiety', content: 'A useful mantra is simple, repeatable, and emotionally comforting.' },
+//       { heading: 'Good choices for beginners', content: 'Om Namah Shivaya and gentle devotional chants are common starting points.' },
+//       { heading: 'How to practice', content: 'Repeat slowly, breathe gently, and stay with the sound instead of fighting your thoughts.' },
+//       { heading: 'When to chant', content: 'Morning, before sleep, or during anxious episodes are all useful times.' },
+//       { heading: 'Keep a balanced approach', content: 'Mantra is a spiritual tool, not a replacement for needed professional care.' }
+//     ],
+//     faqs: [
+//       { q: 'Can I chant in my head?', a: 'Yes.' },
+//       { q: 'Can short sessions help?', a: 'Yes, even a few minutes can be useful.' },
+//       { q: 'Should I use one mantra or many?', a: 'One is usually easier for consistency.' }
+//     ]
+//   },
   {
     slug: 'best-mantra-for-depression',
     title: 'Best Mantra for Depression Support',
@@ -1061,25 +1061,25 @@ export const devotionalPages = [
       { q: 'Do I need to sit formally?', a: 'No.' }
     ]
   },
-  {
-    slug: 'best-mantra-for-job',
-    title: 'Best Mantra for Job and Career',
-    description: 'A guide to choosing a mantra for job search, interviews, confidence, and career steadiness.',
-    h1: 'Best Mantra for Job and Career',
-    intro: 'Career pressure can bring fear, uncertainty, and self-doubt. A mantra routine can provide emotional steadiness during this process.',
-    sections: [
-      { heading: 'What to look for in a career mantra', content: 'Choose a mantra that supports courage, clarity, and discipline.' },
-      { heading: 'Popular devotional choices', content: 'Hanuman Chalisa and Shiva mantra are often used by devotees facing career challenges.' },
-      { heading: 'How to build a routine', content: 'Chant each morning before applications, interviews, or work.' },
-      { heading: 'What to pray for', content: 'Pray for right opportunities, confidence, and focused effort.' },
-      { heading: 'Combine faith with preparation', content: 'Use prayer to support action, not replace it.' }
-    ],
-    faqs: [
-      { q: 'Can I chant before interviews?', a: 'Yes.' },
-      { q: 'Can I chant for promotion?', a: 'Yes.' },
-      { q: 'Is one daily chant enough?', a: 'Yes.' }
-    ]
-  },
+//   {
+//     slug: 'best-mantra-for-job',
+//     title: 'Best Mantra for Job and Career',
+//     description: 'A guide to choosing a mantra for job search, interviews, confidence, and career steadiness.',
+//     h1: 'Best Mantra for Job and Career',
+//     intro: 'Career pressure can bring fear, uncertainty, and self-doubt. A mantra routine can provide emotional steadiness during this process.',
+//     sections: [
+//       { heading: 'What to look for in a career mantra', content: 'Choose a mantra that supports courage, clarity, and discipline.' },
+//       { heading: 'Popular devotional choices', content: 'Hanuman Chalisa and Shiva mantra are often used by devotees facing career challenges.' },
+//       { heading: 'How to build a routine', content: 'Chant each morning before applications, interviews, or work.' },
+//       { heading: 'What to pray for', content: 'Pray for right opportunities, confidence, and focused effort.' },
+//       { heading: 'Combine faith with preparation', content: 'Use prayer to support action, not replace it.' }
+//     ],
+//     faqs: [
+//       { q: 'Can I chant before interviews?', a: 'Yes.' },
+//       { q: 'Can I chant for promotion?', a: 'Yes.' },
+//       { q: 'Is one daily chant enough?', a: 'Yes.' }
+//     ]
+//   },
   {
     slug: 'best-mantra-for-money',
     title: 'Best Mantra for Money and Prosperity',
@@ -1118,44 +1118,44 @@ export const devotionalPages = [
       { q: 'Should I do this daily?', a: 'If it helps you stay peaceful and focused, yes.' }
     ]
   },
-  {
-    slug: 'best-mantra-for-health',
-    title: 'Best Mantra for Health and Healing Prayer',
-    description: 'A respectful devotional guide to choosing a mantra for health, peace, and strength.',
-    h1: 'Best Mantra for Health and Healing Prayer',
-    intro: 'When health becomes a concern, spiritual practices can offer hope, calmness, and emotional support.',
-    sections: [
-      { heading: 'What a health mantra can offer', content: 'It can support mental peace, hope, and a prayerful attitude through recovery or treatment.' },
-      { heading: 'Choosing a mantra', content: 'People often choose Shiva mantra, Vishnu prayers, or Hanuman Chalisa depending on devotion.' },
-      { heading: 'How to practice', content: 'Gentle chanting or listening is often the easiest approach.' },
-      { heading: 'Best time', content: 'Morning or evening is ideal, but any calm time works.' },
-      { heading: 'Keep medical care central', content: 'Prayer can support healing emotionally and spiritually while proper healthcare continues.' }
-    ],
-    faqs: [
-      { q: 'Can I chant for someone in hospital?', a: 'Yes.' },
-      { q: 'Can I just listen?', a: 'Yes.' },
-      { q: 'Should I chant loudly?', a: 'Only if it feels comfortable and appropriate.' }
-    ]
-  },
-  {
-    slug: 'best-mantra-for-success',
-    title: 'Best Mantra for Success in Life',
-    description: 'A devotional guide to choosing a mantra for success, discipline, and right direction.',
-    h1: 'Best Mantra for Success in Life',
-    intro: 'Success can mean career growth, study progress, emotional maturity, or spiritual steadiness. A mantra can support the mindset needed for all of these.',
-    sections: [
-      { heading: 'What success really requires', content: 'Success usually needs clarity, patience, discipline, and the ability to continue through setbacks.' },
-      { heading: 'How mantra supports this', content: 'Regular chanting can steady the mind and strengthen your daily routine.' },
-      { heading: 'Popular choices', content: 'Devotees often choose Hanuman, Shiva, Vishnu, or Saraswati prayers depending on the goal.' },
-      { heading: 'Best time to chant', content: 'Morning before beginning work or study is ideal.' },
-      { heading: 'Stay practical', content: 'Mantra supports disciplined action; it does not replace it.' }
-    ],
-    faqs: [
-      { q: 'Can this help with exam success?', a: 'It can support focus and calmness.' },
-      { q: 'Can professionals use it?', a: 'Yes.' },
-      { q: 'Do I need a fixed count?', a: 'No.' }
-    ]
-  },
+//   {
+//     slug: 'best-mantra-for-health',
+//     title: 'Best Mantra for Health and Healing Prayer',
+//     description: 'A respectful devotional guide to choosing a mantra for health, peace, and strength.',
+//     h1: 'Best Mantra for Health and Healing Prayer',
+//     intro: 'When health becomes a concern, spiritual practices can offer hope, calmness, and emotional support.',
+//     sections: [
+//       { heading: 'What a health mantra can offer', content: 'It can support mental peace, hope, and a prayerful attitude through recovery or treatment.' },
+//       { heading: 'Choosing a mantra', content: 'People often choose Shiva mantra, Vishnu prayers, or Hanuman Chalisa depending on devotion.' },
+//       { heading: 'How to practice', content: 'Gentle chanting or listening is often the easiest approach.' },
+//       { heading: 'Best time', content: 'Morning or evening is ideal, but any calm time works.' },
+//       { heading: 'Keep medical care central', content: 'Prayer can support healing emotionally and spiritually while proper healthcare continues.' }
+//     ],
+//     faqs: [
+//       { q: 'Can I chant for someone in hospital?', a: 'Yes.' },
+//       { q: 'Can I just listen?', a: 'Yes.' },
+//       { q: 'Should I chant loudly?', a: 'Only if it feels comfortable and appropriate.' }
+//     ]
+//   },
+//   {
+//     slug: 'best-mantra-for-success',
+//     title: 'Best Mantra for Success in Life',
+//     description: 'A devotional guide to choosing a mantra for success, discipline, and right direction.',
+//     h1: 'Best Mantra for Success in Life',
+//     intro: 'Success can mean career growth, study progress, emotional maturity, or spiritual steadiness. A mantra can support the mindset needed for all of these.',
+//     sections: [
+//       { heading: 'What success really requires', content: 'Success usually needs clarity, patience, discipline, and the ability to continue through setbacks.' },
+//       { heading: 'How mantra supports this', content: 'Regular chanting can steady the mind and strengthen your daily routine.' },
+//       { heading: 'Popular choices', content: 'Devotees often choose Hanuman, Shiva, Vishnu, or Saraswati prayers depending on the goal.' },
+//       { heading: 'Best time to chant', content: 'Morning before beginning work or study is ideal.' },
+//       { heading: 'Stay practical', content: 'Mantra supports disciplined action; it does not replace it.' }
+//     ],
+//     faqs: [
+//       { q: 'Can this help with exam success?', a: 'It can support focus and calmness.' },
+//       { q: 'Can professionals use it?', a: 'Yes.' },
+//       { q: 'Do I need a fixed count?', a: 'No.' }
+//     ]
+//   },
   {
     slug: 'best-mantra-for-fear',
     title: 'Best Mantra for Fear',

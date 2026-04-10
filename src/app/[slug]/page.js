@@ -500,5 +500,6 @@ export default async function StotramPage({ params }) {
       />
       <DevotionalContentPage page={devotionalPage} />
     </>
-  );
+ 
+);
 }

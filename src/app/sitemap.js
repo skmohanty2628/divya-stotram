@@ -3,6 +3,10 @@ import { devotionalPages } from '@/data/devotionalPages';
 export default function sitemap() {
   const baseUrl = 'https://divyastotram.com';
 
+  // ✅ Fixed stable date (update only when content changes)
+  const LAST_MODIFIED = '2026-04-10';
+
+  // 📿 Main Stotram Pages
   const stotrams = [
     'hanuman-chalisa',
     'durga-stotram',
@@ -21,51 +25,58 @@ export default function sitemap() {
 
   const stotramUrls = stotrams.map((slug) => ({
     url: `${baseUrl}/${slug}`,
-    lastModified: new Date(),
+    lastModified: LAST_MODIFIED,
     changeFrequency: 'monthly',
-    priority: 0.9,
+    priority: 0.9, // High authority pages
   }));
 
-  // 🔥 NEW — DEVOTIONAL PAGES
+  // 🔥 SEO / Devotional Pages (Traffic Pages)
   const devotionalUrls = devotionalPages.map((page) => ({
     url: `${baseUrl}/${page.slug}`,
-    lastModified: new Date(),
+    lastModified: LAST_MODIFIED,
     changeFrequency: 'weekly',
-    priority: 0.7,
+    priority: 0.8, // Increased priority (important for ranking)
   }));
 
   return [
+    // 🏠 Homepage (Highest Priority)
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: LAST_MODIFIED,
       changeFrequency: 'weekly',
       priority: 1.0,
     },
+
+    // 🔊 Chanting Room (High Engagement Page)
     {
       url: `${baseUrl}/chanting-room`,
-      lastModified: new Date(),
+      lastModified: LAST_MODIFIED,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+
+    // 📄 Static Pages
     {
       url: `${baseUrl}/about`,
-      lastModified: new Date(),
+      lastModified: LAST_MODIFIED,
       changeFrequency: 'monthly',
       priority: 0.5,
     },
     {
       url: `${baseUrl}/contact`,
-      lastModified: new Date(),
+      lastModified: LAST_MODIFIED,
       changeFrequency: 'monthly',
       priority: 0.5,
     },
     {
       url: `${baseUrl}/privacy-policy`,
-      lastModified: new Date(),
+      lastModified: LAST_MODIFIED,
       changeFrequency: 'monthly',
       priority: 0.3,
     },
+
+    // 📿 + 🔥 Combined URLs
     ...stotramUrls,
-    ...devotionalUrls, // 🔥 IMPORTANT
+    ...devotionalUrls,
   ];
 }

@@ -1,6 +1,6 @@
 import './globals.css';
 import Link from 'next/link';
-import TrackVisit from '@/components/TrackVisit';
+// import TrackVisit from '@/components/TrackVisit';
 
 const SITE_URL = 'https://divyastotram.com';
 
@@ -207,7 +207,7 @@ export default function RootLayout({ children }) {
           <SiteFooter />
         </div>
 
-        <TrackVisit />
+        {/* <TrackVisit /> */}
       </body>
     </html>
   );

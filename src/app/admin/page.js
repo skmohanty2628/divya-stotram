@@ -31,7 +31,7 @@ function StatCard({ icon: Icon, title, value, subtitle, accent = '#f0c040' }) {
       </div>
 
       <div
-        className="font-cinzel text-2xl font-bold break-words"
+        className="font-cinzel break-words text-2xl font-bold"
         style={{ color: accent }}
       >
         {value}
@@ -77,9 +77,7 @@ function prettifyLabel(raw) {
     .split('/')
     .filter(Boolean)
     .map((part) =>
-      part
-        .replace(/-/g, ' ')
-        .replace(/\b\w/g, (c) => c.toUpperCase())
+      part.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())
     )
     .join(' / ');
 }
@@ -137,10 +135,25 @@ export default function AdminPage() {
         cache: 'no-store',
       });
 
-      const data = await res.json();
+      const contentType = res.headers.get('content-type') || '';
+      const rawText = await res.text();
 
-      if (!res.ok || !data.ok) {
-        throw new Error(data.error || 'Failed to load analytics.');
+      let data = null;
+
+      if (contentType.includes('application/json')) {
+        try {
+          data = JSON.parse(rawText);
+        } catch {
+          throw new Error('API returned invalid JSON.');
+        }
+      } else {
+        throw new Error(
+          `API returned non-JSON response (${res.status}). Check /api/admin/analytics route.`
+        );
+      }
+
+      if (!res.ok || !data?.ok) {
+        throw new Error(data?.error || 'Failed to load analytics.');
       }
 
       setLiveUsers(data.liveUsers || 0);
@@ -224,7 +237,7 @@ export default function AdminPage() {
 
   if (!authed) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[#0d0000]">
+      <div className="flex min-h-screen items-center justify-center bg-[#0d0000]">
         <div className="w-full max-w-sm px-6">
           <div className="mb-8 text-center">
             <p className="mb-3 text-4xl">🕉️</p>

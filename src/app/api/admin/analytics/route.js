@@ -1,6 +1,7 @@
 import { BetaAnalyticsDataClient } from '@google-analytics/data';
 
 export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
 
 function getAnalyticsClient() {
   const clientEmail = process.env.GA_CLIENT_EMAIL;
@@ -163,7 +164,7 @@ export async function GET() {
     return Response.json(
       {
         ok: false,
-        error: error.message || 'Failed to fetch GA4 analytics.',
+        error: error?.message || 'Failed to fetch GA4 analytics.',
       },
       { status: 500 }
     );

@@ -3,50 +3,44 @@ import { BetaAnalyticsDataClient } from '@google-analytics/data';
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
 
-function cleanEnv(value) {
-  if (!value) return '';
-  return String(value).trim();
-}
-
-function getPrivateKey() {
-  const raw = cleanEnv(process.env.GA_PRIVATE_KEY);
+function getServiceAccount() {
+  const raw = process.env.GA_SERVICE_ACCOUNT_JSON;
 
   if (!raw) {
-    throw new Error('Missing GA_PRIVATE_KEY.');
+    throw new Error('Missing GA_SERVICE_ACCOUNT_JSON.');
   }
 
-  const normalized = raw.replace(/\\n/g, '\n').trim();
-
-  if (
-    !normalized.includes('BEGIN PRIVATE KEY') ||
-    !normalized.includes('END PRIVATE KEY')
-  ) {
-    throw new Error(
-      'GA_PRIVATE_KEY format invalid. Missing BEGIN/END PRIVATE KEY lines.'
-    );
+  let parsed;
+  try {
+    parsed = JSON.parse(raw);
+  } catch {
+    throw new Error('GA_SERVICE_ACCOUNT_JSON is not valid JSON.');
   }
 
-  return normalized;
+  if (!parsed.client_email) {
+    throw new Error('GA_SERVICE_ACCOUNT_JSON missing client_email.');
+  }
+
+  if (!parsed.private_key) {
+    throw new Error('GA_SERVICE_ACCOUNT_JSON missing private_key.');
+  }
+
+  return parsed;
 }
 
 function getAnalyticsClient() {
-  const clientEmail = cleanEnv(process.env.GA_CLIENT_EMAIL);
-  const privateKey = getPrivateKey();
-
-  if (!clientEmail) {
-    throw new Error('Missing GA_CLIENT_EMAIL.');
-  }
+  const sa = getServiceAccount();
 
   return new BetaAnalyticsDataClient({
     credentials: {
-      client_email: clientEmail,
-      private_key: privateKey,
+      client_email: sa.client_email,
+      private_key: sa.private_key,
     },
   });
 }
 
 function getPropertyName() {
-  const propertyId = cleanEnv(process.env.GA4_PROPERTY_ID);
+  const propertyId = String(process.env.GA4_PROPERTY_ID || '').trim();
 
   if (!propertyId) {
     throw new Error('Missing GA4_PROPERTY_ID.');
@@ -76,25 +70,6 @@ function normalizePath(pathname) {
 
 export async function GET() {
   try {
-    const rawKey = cleanEnv(process.env.GA_PRIVATE_KEY);
-    const normalizedKey = rawKey.replace(/\\n/g, '\n').trim();
-
-    // Temporary debug
-    console.log('GA DEBUG => email exists:', !!process.env.GA_CLIENT_EMAIL);
-    console.log('GA DEBUG => property exists:', !!process.env.GA4_PROPERTY_ID);
-    console.log(
-      'GA DEBUG => key starts correctly:',
-      normalizedKey.startsWith('-----BEGIN PRIVATE KEY-----')
-    );
-    console.log(
-      'GA DEBUG => key ends correctly:',
-      normalizedKey.endsWith('-----END PRIVATE KEY-----')
-    );
-    console.log(
-      'GA DEBUG => key line count:',
-      normalizedKey.split('\n').length
-    );
-
     const client = getAnalyticsClient();
     const property = getPropertyName();
 

@@ -6,8 +6,6 @@ import { usePathname } from 'next/navigation';
 import { Search, X, Menu } from 'lucide-react';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 import LanguageSwitcher from './LanguageSwitcher';
-import LiveCounter from './LiveCounter';
-// import { logSearch } from '@/lib/firebase';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -34,18 +32,16 @@ export default function Navbar() {
 
     const lowerQ = q.toLowerCase();
 
-    const matched = STOTRAMS_INDEX.filter((s) =>
-      s.title.en.toLowerCase().includes(lowerQ) ||
-      s.deity.toLowerCase().includes(lowerQ) ||
-      s.description.en.toLowerCase().includes(lowerQ)
+    const matched = STOTRAMS_INDEX.filter(
+      (s) =>
+        s.title.en.toLowerCase().includes(lowerQ) ||
+        s.deity.toLowerCase().includes(lowerQ) ||
+        s.description.en.toLowerCase().includes(lowerQ)
     );
 
     setResults(matched);
-
-    // optional: remove tracking OR use GA later
   };
 
-  // Lock body scroll when mobile drawer is open
   useEffect(() => {
     const previousOverflow = document.body.style.overflow;
     const previousTouchAction = document.body.style.touchAction;
@@ -64,7 +60,6 @@ export default function Navbar() {
     };
   }, [mobileOpen]);
 
-  // Close overlays when route changes
   useEffect(() => {
     setMobileOpen(false);
     setSearchOpen(false);
@@ -72,7 +67,6 @@ export default function Navbar() {
     setResults([]);
   }, [pathname]);
 
-  // Close mobile drawer with Escape
   useEffect(() => {
     const onKeyDown = (e) => {
       if (e.key === 'Escape') {
@@ -96,7 +90,6 @@ export default function Navbar() {
         }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
-          {/* Logo */}
           <Link
             href="/"
             className="flex items-center gap-2.5 flex-shrink-0"
@@ -114,7 +107,6 @@ export default function Navbar() {
             </span>
           </Link>
 
-          {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-6">
             {[
               { href: '/hanuman-chalisa', label: 'Hanuman' },
@@ -146,12 +138,9 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* Right */}
           <div className="flex items-center gap-2 sm:gap-3">
-            <LiveCounter />
             <LanguageSwitcher />
 
-            {/* Search */}
             <div className="relative">
               <button
                 onClick={() => {
@@ -213,7 +202,6 @@ export default function Navbar() {
               </div>
             </div>
 
-            {/* About */}
             <Link
               href="/about"
               className="hidden md:block font-cinzel-reg text-xs tracking-widest uppercase text-[#8b1a00]/50 hover:text-[#8b1a00] transition-colors"
@@ -221,7 +209,6 @@ export default function Navbar() {
               About
             </Link>
 
-            {/* Mobile hamburger */}
             <button
               onClick={() => {
                 setMobileOpen((prev) => !prev);
@@ -237,14 +224,12 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile overlay + smooth drawer */}
       <div
         className={`md:hidden fixed inset-0 z-[9999] transition-all duration-300 ease-out ${
           mobileOpen ? 'pointer-events-auto' : 'pointer-events-none'
         }`}
         aria-hidden={!mobileOpen}
       >
-        {/* Backdrop */}
         <button
           aria-label="Close mobile menu backdrop"
           onClick={closeMobileMenu}
@@ -255,14 +240,12 @@ export default function Navbar() {
           }`}
         />
 
-        {/* Drawer */}
         <aside
           className={`absolute top-0 right-0 h-full w-[88%] max-w-[360px] bg-[#fffaf0]/95 backdrop-blur-2xl border-l border-[#c9922a]/20 shadow-[-10px_0_40px_rgba(0,0,0,0.18)] transition-transform duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] ${
             mobileOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
         >
           <div className="h-full flex flex-col">
-            {/* Drawer header */}
             <div className="h-16 px-5 flex items-center justify-between border-b border-[#c9922a]/15">
               <div className="flex items-center gap-3">
                 <img
@@ -291,7 +274,6 @@ export default function Navbar() {
               </button>
             </div>
 
-            {/* Drawer body */}
             <div className="flex-1 overflow-y-auto px-5 py-5">
               <Link
                 href="/chanting-room"
@@ -325,9 +307,7 @@ export default function Navbar() {
                     style={{
                       transitionDelay: mobileOpen ? `${index * 18}ms` : '0ms',
                       opacity: mobileOpen ? 1 : 0,
-                      transform: mobileOpen
-                        ? 'translateX(0px)'
-                        : 'translateX(18px)',
+                      transform: mobileOpen ? 'translateX(0px)' : 'translateX(18px)',
                     }}
                   >
                     <span className="text-2xl">{s.deityEmoji}</span>

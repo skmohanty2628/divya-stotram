@@ -7,7 +7,7 @@ import { Search, X, Menu } from 'lucide-react';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 import LanguageSwitcher from './LanguageSwitcher';
 import LiveCounter from './LiveCounter';
-import { logSearch } from '@/lib/firebase';
+// import { logSearch } from '@/lib/firebase';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -42,9 +42,7 @@ export default function Navbar() {
 
     setResults(matched);
 
-    if (q.trim().length > 2) {
-      logSearch(q);
-    }
+    // optional: remove tracking OR use GA later
   };
 
   // Lock body scroll when mobile drawer is open

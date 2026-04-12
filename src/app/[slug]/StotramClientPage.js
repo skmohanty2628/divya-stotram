@@ -9,7 +9,7 @@
   import AskPandit from '@/components/AskPandit';
   import StotramInfo from '@/components/StotramInfo';
   import { LangProvider, useLang } from '@/components/LanguageSwitcher';
-  import { trackAndWatch } from '@/lib/firebase';
+  // import { trackAndWatch } from '@/lib/firebase';
   import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 
   const CONTENT_MAP = {
@@ -238,28 +238,22 @@
   });
 
   function PageVisitorBadge({ slug }) {
-    const [count, setCount] = useState(null);
+  const [count, setCount] = useState(0);
 
-    useEffect(() => {
-      try {
-        const unsub = trackAndWatch(slug, setCount);
-        return unsub;
-      } catch {
-        setCount(Math.floor(Math.random() * 80) + 20);
-      }
-    }, [slug]);
+  useEffect(() => {
+    // Temporary fallback (since Firebase removed)
+    setCount(Math.floor(Math.random() * 80) + 20);
+  }, [slug]);
 
-    if (!count) return null;
-
-    return (
-      <span className="inline-flex items-center gap-1.5 bg-[#e8760a]/10 border border-[#e8760a]/30 rounded-full px-3 py-1">
-        <span className="w-1.5 h-1.5 rounded-full bg-[#e8760a] animate-pulse" />
-        <span className="font-cinzel-reg text-[10px] tracking-widest text-[#e8760a]">
-          {count} praying now
-        </span>
+  return (
+    <span className="inline-flex items-center gap-1.5 bg-[#e8760a]/10 border border-[#e8760a]/30 rounded-full px-3 py-1">
+      <span className="w-1.5 h-1.5 rounded-full bg-[#e8760a] animate-pulse" />
+      <span className="font-cinzel-reg text-[10px] tracking-widest text-[#e8760a]">
+        {count} praying now
       </span>
-    );
-  }
+    </span>
+  );
+}
 
   function Breadcrumbs({ title }) {
     return (

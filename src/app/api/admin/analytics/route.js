@@ -3,12 +3,41 @@ import { BetaAnalyticsDataClient } from '@google-analytics/data';
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
 
-function getAnalyticsClient() {
-  const clientEmail = process.env.GA_CLIENT_EMAIL;
-  const privateKey = process.env.GA_PRIVATE_KEY?.replace(/\\n/g, '\n');
+function cleanEnv(value) {
+  if (!value) return '';
+  return String(value).trim();
+}
 
-  if (!clientEmail || !privateKey) {
-    throw new Error('Missing GA service account credentials.');
+function getPrivateKey() {
+  const raw = cleanEnv(process.env.GA_PRIVATE_KEY);
+
+  if (!raw) {
+    throw new Error('Missing GA_PRIVATE_KEY.');
+  }
+
+  // Support both:
+  // 1. actual multiline private key pasted into env
+  // 2. single-line key with \n escaped
+  const normalized = raw.replace(/\\n/g, '\n').trim();
+
+  if (
+    !normalized.includes('BEGIN PRIVATE KEY') ||
+    !normalized.includes('END PRIVATE KEY')
+  ) {
+    throw new Error(
+      'GA_PRIVATE_KEY is not a valid PEM private key. Paste the full service-account private key including BEGIN/END lines.'
+    );
+  }
+
+  return normalized;
+}
+
+function getAnalyticsClient() {
+  const clientEmail = cleanEnv(process.env.GA_CLIENT_EMAIL);
+  const privateKey = getPrivateKey();
+
+  if (!clientEmail) {
+    throw new Error('Missing GA_CLIENT_EMAIL.');
   }
 
   return new BetaAnalyticsDataClient({
@@ -20,7 +49,7 @@ function getAnalyticsClient() {
 }
 
 function getPropertyName() {
-  const propertyId = process.env.GA4_PROPERTY_ID;
+  const propertyId = cleanEnv(process.env.GA4_PROPERTY_ID);
 
   if (!propertyId) {
     throw new Error('Missing GA4_PROPERTY_ID.');
@@ -39,6 +68,7 @@ function normalizePath(pathname) {
   }
 
   const cleanPath = pathname.split('?')[0].replace(/\/+$/, '');
+
   const slug = cleanPath.replace(/^\/+/, '');
 
   return {

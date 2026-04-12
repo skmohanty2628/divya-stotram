@@ -15,9 +15,6 @@ function getPrivateKey() {
     throw new Error('Missing GA_PRIVATE_KEY.');
   }
 
-  // Support both:
-  // 1. actual multiline private key pasted into env
-  // 2. single-line key with \n escaped
   const normalized = raw.replace(/\\n/g, '\n').trim();
 
   if (
@@ -25,7 +22,7 @@ function getPrivateKey() {
     !normalized.includes('END PRIVATE KEY')
   ) {
     throw new Error(
-      'GA_PRIVATE_KEY is not a valid PEM private key. Paste the full service-account private key including BEGIN/END lines.'
+      'GA_PRIVATE_KEY format invalid. Missing BEGIN/END PRIVATE KEY lines.'
     );
   }
 
@@ -68,21 +65,36 @@ function normalizePath(pathname) {
   }
 
   const cleanPath = pathname.split('?')[0].replace(/\/+$/, '');
-
   const slug = cleanPath.replace(/^\/+/, '');
 
   return {
     slug,
-    label: slug
-      .split('/')
-      .filter(Boolean)
-      .join(' / '),
+    label: slug.split('/').filter(Boolean).join(' / '),
     path: cleanPath || '/',
   };
 }
 
 export async function GET() {
   try {
+    const rawKey = cleanEnv(process.env.GA_PRIVATE_KEY);
+    const normalizedKey = rawKey.replace(/\\n/g, '\n').trim();
+
+    // Temporary debug
+    console.log('GA DEBUG => email exists:', !!process.env.GA_CLIENT_EMAIL);
+    console.log('GA DEBUG => property exists:', !!process.env.GA4_PROPERTY_ID);
+    console.log(
+      'GA DEBUG => key starts correctly:',
+      normalizedKey.startsWith('-----BEGIN PRIVATE KEY-----')
+    );
+    console.log(
+      'GA DEBUG => key ends correctly:',
+      normalizedKey.endsWith('-----END PRIVATE KEY-----')
+    );
+    console.log(
+      'GA DEBUG => key line count:',
+      normalizedKey.split('\n').length
+    );
+
     const client = getAnalyticsClient();
     const property = getPropertyName();
 

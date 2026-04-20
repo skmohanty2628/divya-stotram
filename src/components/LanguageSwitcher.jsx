@@ -1,5 +1,5 @@
 'use client';
-import { createContext, useContext, useState, useEffect } from 'react';
+import { createContext, useContext, useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 
 export const LangContext = createContext({ lang: 'en', setLang: () => {} });
@@ -7,14 +7,13 @@ export function useLang() {
   return useContext(LangContext);
 }
 
-export function LangProvider({ children }) {
+function LangProviderInner({ children }) {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const router = useRouter();
 
   // Read initial language from URL parameter, fallback to 'en'
   const [lang, setLangState] = useState(() => {
-    if (typeof window === 'undefined') return 'en';
     const urlLang = searchParams.get('lang');
     return ['en', 'hi', 'od', 'te'].includes(urlLang) ? urlLang : 'en';
   });
@@ -26,7 +25,7 @@ export function LangProvider({ children }) {
     if (newLang !== lang) {
       setLangState(newLang);
     }
-  }, [searchParams]);
+  }, [searchParams, lang]);
 
   // Update URL when language changes
   const setLang = (newLang) => {
@@ -51,6 +50,14 @@ export function LangProvider({ children }) {
   );
 }
 
+export function LangProvider({ children }) {
+  return (
+    <Suspense fallback={<LangContext.Provider value={{ lang: 'en', setLang: () => {} }}>{children}</LangContext.Provider>}>
+      <LangProviderInner>{children}</LangProviderInner>
+    </Suspense>
+  );
+}
+
 const LANGS = [
   { code: 'en', label: 'EN', name: 'English' },
   { code: 'hi', label: 'हि', name: 'Hindi' },
@@ -61,7 +68,6 @@ const LANGS = [
 export default function LanguageSwitcher() {
   const { lang, setLang } = useLang();
   const [open, setOpen] = useState(false);
-  const current = LANGS.find((l) => l.code === lang);
 
   return (
     <div className="relative">

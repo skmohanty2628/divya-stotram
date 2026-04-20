@@ -6,6 +6,9 @@ export default function sitemap() {
   // ✅ Fixed stable date (update only when content changes)
   const LAST_MODIFIED = '2026-04-10';
 
+  // 🌐 Language codes for multi-language support
+  const languages = ['en', 'hi', 'od', 'te'];
+
   // 📿 Main Stotram Pages
   const stotrams = [
     'hanuman-chalisa',
@@ -23,12 +26,23 @@ export default function sitemap() {
     'shiv-chalisa',
   ];
 
-  const stotramUrls = stotrams.map((slug) => ({
-    url: `${baseUrl}/${slug}`,
-    lastModified: LAST_MODIFIED,
-    changeFrequency: 'monthly',
-    priority: 0.9, // High authority pages
-  }));
+  // Generate stotram URLs with all language variants
+  const stotramUrls = [];
+  stotrams.forEach((slug) => {
+    languages.forEach((lang) => {
+      const url =
+        lang === 'en'
+          ? `${baseUrl}/${slug}`
+          : `${baseUrl}/${slug}?lang=${lang}`;
+
+      stotramUrls.push({
+        url,
+        lastModified: LAST_MODIFIED,
+        changeFrequency: 'monthly',
+        priority: 0.9, // High authority pages
+      });
+    });
+  });
 
   // 🔥 SEO / Devotional Pages (Traffic Pages)
   const devotionalUrls = devotionalPages.map((page) => ({
@@ -75,7 +89,7 @@ export default function sitemap() {
       priority: 0.3,
     },
 
-    // 📿 + 🔥 Combined URLs
+    // 📿 + 🔥 Combined URLs (includes all language variants for stotrams)
     ...stotramUrls,
     ...devotionalUrls,
   ];

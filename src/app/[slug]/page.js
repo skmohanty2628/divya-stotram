@@ -130,7 +130,7 @@ function buildDevotionalMetadata(page, slug) {
   const canonicalUrl = `${SITE_URL}/${slug}`;
 
   return {
-    title: page.title,
+    title: `${page.title} | Divya Stotram`,
     description: page.description,
     alternates: {
       canonical: canonicalUrl,
@@ -159,18 +159,38 @@ function buildDevotionalMetadata(page, slug) {
   };
 }
 
+// ✅ FIXED: Generates ALL pages (13 stotrams + 94 devotional = 107 total)
 export function generateStaticParams() {
+  // Get all stotram slugs
   const stotramParams = STOTRAMS_INDEX.map((item) => ({ slug: item.slug }));
+  
+  // Get all devotional page slugs
   const devotionalParams = devotionalPages.map((page) => ({ slug: page.slug }));
 
+  // Merge and deduplicate
   const merged = [...stotramParams, ...devotionalParams];
-
   const seen = new Set();
-  return merged.filter((item) => {
+  const unique = merged.filter((item) => {
     if (seen.has(item.slug)) return false;
     seen.add(item.slug);
     return true;
   });
+
+  // ✅ DEBUG: Log page counts during build
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log('📊 GENERATING STATIC PAGES:');
+  console.log(`   • Stotrams: ${stotramParams.length} pages`);
+  console.log(`   • Devotional: ${devotionalParams.length} pages`);
+  console.log(`   • Total unique: ${unique.length} pages`);
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+
+  // ✅ VALIDATION: Warn if devotional pages seem low
+  if (devotionalParams.length < 90) {
+    console.warn('⚠️  WARNING: Expected ~94 devotional pages, got', devotionalParams.length);
+    console.warn('⚠️  Check that devotionalPages array is fully populated');
+  }
+
+  return unique;
 }
 
 export async function generateMetadata({ params }) {
@@ -194,7 +214,6 @@ export async function generateMetadata({ params }) {
       description: seo.description,
       alternates: {
         canonical: canonicalUrl,
-        // ✅ NEW: Language variants for SEO (works for ALL stotrams)
         languages: {
           'en': canonicalUrl,
           'hi': `${canonicalUrl}?lang=hi`,
@@ -333,9 +352,10 @@ function DevotionalContentPage({ page }) {
             </section>
           )}
 
+          {/* ✅ IMPROVED: Show related pages dynamically */}
           <section className="mt-10">
             <h2 className="font-cinzel text-2xl font-bold text-[#8b1a00]">
-              🔗 Related Mantras
+              🔗 Related Mantras & Guidance
             </h2>
 
             <ul className="mt-4 space-y-2">
@@ -360,7 +380,7 @@ function DevotionalContentPage({ page }) {
                   href="/best-mantra-for-study-focus"
                   className="text-orange-600 hover:text-orange-700"
                 >
-                  Best Mantra for Study
+                  Best Mantra for Study Focus
                 </a>
               </li>
               <li>
@@ -369,6 +389,22 @@ function DevotionalContentPage({ page }) {
                   className="text-orange-600 hover:text-orange-700"
                 >
                   Best Prayer for Inner Peace
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/best-mantra-for-money"
+                  className="text-orange-600 hover:text-orange-700"
+                >
+                  Best Mantra for Money
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/how-to-chant-hanuman-chalisa"
+                  className="text-orange-600 hover:text-orange-700"
+                >
+                  How to Chant Hanuman Chalisa
                 </a>
               </li>
             </ul>

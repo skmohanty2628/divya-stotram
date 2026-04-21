@@ -1,8 +1,21 @@
 import Groq from 'groq-sdk';
 
-const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+// ✅ FIXED: Only create Groq client if API key exists
+// This prevents build-time crashes when env var is missing
+let groq = null;
+
+if (process.env.GROQ_API_KEY) {
+  groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+}
 
 export async function POST(request) {
+  // ✅ Handle missing API key gracefully
+  if (!groq) {
+    return Response.json({
+      reply: 'The Pandit is temporarily unavailable. Please configure GROQ_API_KEY. 🙏'
+    }, { status: 503 });
+  }
+
   try {
     const { message, context, language = 'English', history = [] } = await request.json();
 

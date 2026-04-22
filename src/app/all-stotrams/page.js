@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useMemo, useState } from 'react';
+import { Suspense, useEffect, useMemo, useState } from 'react';
 import { Search } from 'lucide-react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import Navbar from '@/components/Navbar';
@@ -201,7 +201,7 @@ function AllStotramsContent() {
     if (urlPage !== currentPage) {
       setCurrentPage(urlPage);
     }
-  }, [searchParams]);
+  }, [searchParams, query, currentPage]);
 
   useEffect(() => {
     if (currentPage > totalPages) {
@@ -309,12 +309,38 @@ function AllStotramsContent() {
   );
 }
 
+function AllStotramsFallback() {
+  return (
+    <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-24">
+      <div className="text-center mb-14">
+        <div className="flex items-center justify-center gap-4 mb-6">
+          <div className="h-px w-20 bg-gradient-to-r from-transparent to-[#c9922a]" />
+          <span className="font-cinzel-reg text-[12px] tracking-[5px] uppercase text-[#e8760a]">
+            All Stotrams
+          </span>
+          <div className="h-px w-20 bg-gradient-to-l from-transparent to-[#c9922a]" />
+        </div>
+
+        <h1 className="font-cinzel text-4xl sm:text-5xl font-bold text-[#8b1a00] mb-4">
+          Browse All Sacred Prayers
+        </h1>
+
+        <p className="font-garamond text-lg text-[#3d1a00]/70 max-w-2xl mx-auto">
+          Loading all stotrams...
+        </p>
+      </div>
+    </div>
+  );
+}
+
 export default function AllStotramsPage() {
   return (
     <LangProvider>
       <div className="min-h-screen bg-[#fdf6e3]">
         <Navbar />
-        <AllStotramsContent />
+        <Suspense fallback={<AllStotramsFallback />}>
+          <AllStotramsContent />
+        </Suspense>
       </div>
     </LangProvider>
   );

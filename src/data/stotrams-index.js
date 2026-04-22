@@ -1,13 +1,12 @@
 export const STOTRAMS_INDEX = [
-  // ── EXISTING 8 ─────────────────────────────────────────────────────────────
   {
     slug: 'hanuman-chalisa',
-    title: { en: 'Hanuman Chalisa', hi: 'हनुमान चालीसा', od: 'ହନୁମାନ ଚାଳୀସା', te: 'హనుమాన్ చాలీసా' },
+    title: { en: 'Hanuman Chalisa', hi: 'हनुमान चालीसा', od: 'ହନୁମାନ ଚାଳୀଶା', te: 'హనుమాన్ చాలీసా' },
     deity: 'Hanuman',
-    deityEmoji: '🚩',
-    description: { en: 'The 40-verse hymn composed by Tulsidas in praise of Lord Hanuman', hi: 'तुलसीदास द्वारा रचित 40 चौपाइयों की स्तुति', od: 'ତୁଳସୀଦାସ ରଚିତ ୪୦ ଚୌପାଈ', te: 'తులసీదాస్ రచించిన 40 చరణాల స్తోత్రం' },
+    deityEmoji: '🐒',
+    description: { en: 'The 40-verse hymn composed by Tulsidas in praise of Lord Hanuman', hi: 'तुलसीदास द्वारा रचित हनुमान जी की महिमा का 40 चौपाइयों वाला स्तोत्र', od: 'ତୁଳସୀଦାସଙ୍କ ରଚିତ ହନୁମାନଙ୍କ ୪୦ ଚୌପାଇଁ', te: 'తులసీదాస్ రచించిన హనుమంతుని 40 చౌపాయిల స్తోత్రం' },
     color: 'from-orange-950 to-red-950',
-    accent: '#e8760a',
+    accent: '#c9922a',
     youtubeId: 'AETFvQonfV8',
     verseCount: 42,
     language: 'Awadhi Hindi',
@@ -104,8 +103,6 @@ export const STOTRAMS_INDEX = [
     language: 'Hindi/Marathi',
     featured: false,
   },
-
-  // ── 5 NEW STOTRAMS ──────────────────────────────────────────────────────────
   {
     slug: 'ram-raksha-stotram',
     title: { en: 'Ram Raksha Stotram', hi: 'राम रक्षा स्तोत्रम्', od: 'ରାମ ରକ୍ଷା ସ୍ତୋତ୍ରମ୍', te: 'రామ రక్షా స్తోత్రం' },
@@ -196,18 +193,21 @@ export const STOTRAMS_INDEX = [
     language: 'Hindi',
     featured: false,
   },
-
-  // ── KRISHNA VASUDEVAYA MANTRA (NEW - SEO OPTIMIZED) ────────────────────────
   {
     slug: 'krishna-vasudevaya-mantra',
-    title: { en: 'Krishna Vasudevaya Mantra', hi: 'कृष्ण वासुदेवाय मंत्र', od: 'କୃଷ୍ଣ ବାସୁଦେବାୟ ମନ୍ତ୍ର', te: 'కృష్ణ వాసుదేవాయ మంత్రం' },
+    title: {
+      en: 'Om Krishnaya Vasudevaya Mantra',
+      hi: 'ॐ कृष्णाय वासुदेवाय मंत्र',
+      od: 'ଓଁ କୃଷ୍ଣାୟ ବାସୁଦେବାୟ ମନ୍ତ୍ର',
+      te: 'ఓం కృష్ణాయ వాసుదేవాయ మంత్రం'
+    },
     deity: 'Krishna',
     deityEmoji: '🦚',
     description: {
-      en: 'The most powerful single-verse Krishna mantra — Om Krishnaya Vasudevaya Haraye Paramatmane — destroyer of all sorrows, grants peace, prosperity, divine protection and moksha',
-      hi: 'सबसे शक्तिशाली एकल श्लोक कृष्ण मंत्र — ॐ कृष्णाय वासुदेवाय हरये परमात्मने — सभी दुखों का नाश करता है, शांति, समृद्धि, दिव्य सुरक्षा और मोक्ष देता है',
-      od: 'ସବୁଠୁ ଶକ୍ତିଶାଳୀ ଏକକ ଶ୍ଲୋକ କୃଷ୍ଣ ମନ୍ତ୍ର — ଓଁ କୃଷ୍ଣାୟ ବାସୁଦେବାୟ ହରୟେ ପରମାତ୍ମନେ — ସମସ୍ତ ଦୁଃଖ ନାଶ କରେ, ଶାନ୍ତି, ସମୃଦ୍ଧି, ଦିବ୍ୟ ସୁରକ୍ଷା ଓ ମୋକ୍ଷ ଦିଏ',
-      te: 'అత్యంత శక్తివంతమైన ఏక శ్లోక కృష్ణ మంత్రం — ఓం కృష్ణాయ వాసుదేవాయ హరయే పరమాత్మనే — అన్ని దుఃఖాలను నాశనం చేస్తుంది, శాంతి, శ్రేయస్సు, దివ్య రక్షణ మరియు మోక్షం ప్రసాదిస్తుంది',
+      en: 'The powerful Krishna mantra — Om Krishnaya Vasudevaya Haraye Paramatmane — destroyer of sorrows, grants peace, prosperity, divine protection and moksha',
+      hi: 'शक्तिशाली कृष्ण मंत्र — ॐ कृष्णाय वासुदेवाय हरये परमात्मने — दुखों का नाश करता है, शांति, समृद्धि, दिव्य सुरक्षा और मोक्ष देता है',
+      od: 'ଶକ୍ତିଶାଳୀ କୃଷ୍ଣ ମନ୍ତ୍ର — ଓଁ କୃଷ୍ଣାୟ ବାସୁଦେବାୟ ହରୟେ ପରମାତ୍ମନେ — ଦୁଃଖ ନାଶ କରେ, ଶାନ୍ତି, ସମୃଦ୍ଧି, ଦିବ୍ୟ ସୁରକ୍ଷା ଓ ମୋକ୍ଷ ଦିଏ',
+      te: 'శక్తివంతమైన కృష్ణ మంత్రం — ఓం కృష్ణాయ వాసుదేవాయ హరయే పరమాత్మనే — దుఃఖాలను నాశనం చేస్తుంది, శాంతి, శ్రేయస్సు, దివ్య రక్షణ మరియు మోక్షం ప్రసాదిస్తుంది',
     },
     color: 'from-blue-950 to-purple-950',
     accent: '#4a90d9',
@@ -219,5 +219,5 @@ export const STOTRAMS_INDEX = [
 ];
 
 export function getStotramBySlug(slug) {
-  return STOTRAMS_INDEX.find(s => s.slug === slug);
+  return STOTRAMS_INDEX.find((s) => s.slug === slug);
 }

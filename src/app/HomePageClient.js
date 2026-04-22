@@ -139,9 +139,9 @@ function HomeContent() {
     const items = STOTRAMS_INDEX.filter((s) => s.featured);
     const hasKrishna = items.some((s) => s.slug === krishnaSlug);
 
-    const finalItems = hasKrishna || !krishnaItem ? items : [krishnaItem, ...items];
+    const merged = hasKrishna || !krishnaItem ? items : [krishnaItem, ...items];
 
-    return finalItems.sort((a, b) => {
+    return merged.sort((a, b) => {
       if (a.slug === krishnaSlug) return -1;
       if (b.slug === krishnaSlug) return 1;
       return 0;
@@ -305,23 +305,18 @@ function HomeContent() {
           <Link href="/best-mantra-for-anxiety" className="bg-white p-4 rounded-xl border hover:shadow transition">
             Best Mantra for Anxiety
           </Link>
-
           <Link href="/best-mantra-for-confidence" className="bg-white p-4 rounded-xl border hover:shadow transition">
             Best Mantra for Confidence
           </Link>
-
           <Link href="/best-mantra-for-study-focus" className="bg-white p-4 rounded-xl border hover:shadow transition">
             Best Mantra for Study
           </Link>
-
           <Link href="/best-mantra-for-money" className="bg-white p-4 rounded-xl border hover:shadow transition">
             Best Mantra for Money
           </Link>
-
           <Link href="/best-prayer-for-inner-peace" className="bg-white p-4 rounded-xl border hover:shadow transition">
             Best Prayer for Inner Peace
           </Link>
-
           <Link href="/best-mantra-for-sleep" className="bg-white p-4 rounded-xl border hover:shadow transition">
             Best Mantra for Sleep
           </Link>

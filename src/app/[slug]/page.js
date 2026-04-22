@@ -1,3 +1,4 @@
+
 import { notFound } from 'next/navigation';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 import { devotionalPages, getPageBySlug } from '@/data/devotionalPages';
@@ -23,7 +24,7 @@ const SITE_URL = 'https://divyastotram.com';
 
 // ✅ FORCE FULL DYNAMIC RENDERING - Fix Krishna 404 issue
 export const dynamic = 'force-dynamic';
-export const dynamicParams = true;
+export const revalidate = 0;
 
 /**
  * Main stotram verse data

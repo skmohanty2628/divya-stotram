@@ -70,12 +70,15 @@ function StotramIcon({ s, className = 'h-[66px] w-[66px] mb-4' }) {
   );
 }
 
-function StotramCard({ s, index }) {
+function StotramCard({ s, index, backHref }) {
   const { lang } = useLang();
 
   return (
     <Link
-      href={`/${s.slug}`}
+      href={{
+        pathname: `/${s.slug}`,
+        query: backHref ? { from: backHref } : undefined,
+      }}
       className="group relative bg-white border border-[#c9922a]/30 rounded-2xl p-6 hover:border-[#c9922a] hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden min-h-[360px] flex flex-col"
       style={{ animationDelay: `${index * 0.08}s` }}
       scroll={true}
@@ -128,11 +131,11 @@ function AllStotramsContent() {
 
   const ITEMS_PER_PAGE = 8;
 
-  const initialQuery = searchParams.get('q') || '';
-  const initialPage = Math.max(1, Number(searchParams.get('page') || '1') || 1);
+  const urlQuery = searchParams.get('q') || '';
+  const urlPage = Math.max(1, Number(searchParams.get('page') || '1') || 1);
 
-  const [query, setQuery] = useState(initialQuery);
-  const [currentPage, setCurrentPage] = useState(initialPage);
+  const [query, setQuery] = useState(urlQuery);
+  const [currentPage, setCurrentPage] = useState(urlPage);
 
   const krishnaSlug = 'krishna-vasudevaya-mantra';
   const krishnaItem = STOTRAMS_INDEX.find((s) => s.slug === krishnaSlug);
@@ -186,22 +189,36 @@ function AllStotramsContent() {
   }, [query, allPrayers]);
 
   const totalPages = Math.max(1, Math.ceil(filteredAll.length / ITEMS_PER_PAGE));
-  const safeCurrentPage = Math.min(currentPage, totalPages);
+  const safeCurrentPage = Math.min(Math.max(1, currentPage), totalPages);
   const startIndex = (safeCurrentPage - 1) * ITEMS_PER_PAGE;
   const paginatedAll = filteredAll.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
+  const backHref = useMemo(() => {
+    const params = new URLSearchParams();
+
+    if (query.trim()) {
+      params.set('q', query.trim());
+    }
+
+    if (safeCurrentPage > 1) {
+      params.set('page', String(safeCurrentPage));
+    }
+
+    return params.toString() ? `${pathname}?${params.toString()}` : pathname;
+  }, [pathname, query, safeCurrentPage]);
+
   useEffect(() => {
-    const urlQuery = searchParams.get('q') || '';
-    const urlPage = Math.max(1, Number(searchParams.get('page') || '1') || 1);
+    const nextQuery = searchParams.get('q') || '';
+    const nextPage = Math.max(1, Number(searchParams.get('page') || '1') || 1);
 
-    if (urlQuery !== query) {
-      setQuery(urlQuery);
+    if (nextQuery !== query) {
+      setQuery(nextQuery);
     }
 
-    if (urlPage !== currentPage) {
-      setCurrentPage(urlPage);
+    if (nextPage !== currentPage) {
+      setCurrentPage(nextPage);
     }
-  }, [searchParams, query, currentPage]);
+  }, [searchParams]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (currentPage > totalPages) {
@@ -220,11 +237,11 @@ function AllStotramsContent() {
       params.set('page', String(safeCurrentPage));
     }
 
-    const newUrl = params.toString() ? `${pathname}?${params.toString()}` : pathname;
+    const nextUrl = params.toString() ? `${pathname}?${params.toString()}` : pathname;
     const currentUrl = searchParams.toString() ? `${pathname}?${searchParams.toString()}` : pathname;
 
-    if (newUrl !== currentUrl) {
-      router.replace(newUrl, { scroll: false });
+    if (nextUrl !== currentUrl) {
+      router.replace(nextUrl, { scroll: false });
     }
   }, [query, safeCurrentPage, pathname, router, searchParams]);
 
@@ -267,7 +284,7 @@ function AllStotramsContent() {
         <>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {paginatedAll.map((s, index) => (
-              <StotramCard key={s.slug} s={s} index={index} />
+              <StotramCard key={s.slug} s={s} index={index} backHref={backHref} />
             ))}
           </div>
 

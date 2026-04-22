@@ -304,9 +304,21 @@ function HomeContent() {
           </div>
 
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
-            {filteredFeatured.map((s, index) => (
-              <StotramCard key={s.slug} s={s} index={index} />
-            ))}
+            {filteredFeatured.map((s, index) => {
+              const isLast = index === filteredFeatured.length - 1;
+              const isOdd = filteredFeatured.length % 2 !== 0;
+
+              return (
+                <div
+                  key={s.slug}
+                  className={isOdd && isLast ? 'col-span-2 flex justify-center lg:col-span-1 lg:block' : ''}
+                >
+                  <div className={isOdd && isLast ? 'w-[85%] sm:w-full lg:w-full' : 'w-full'}>
+                    <StotramCard s={s} index={index} />
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </section>
       )}

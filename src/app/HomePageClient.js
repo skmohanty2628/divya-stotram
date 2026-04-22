@@ -131,6 +131,8 @@ function StotramCard({ s, index }) {
 
 function HomeContent() {
   const [query, setQuery] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const ITEMS_PER_PAGE = 8;
 
   const krishnaSlug = 'krishna-vasudevaya-mantra';
   const krishnaItem = STOTRAMS_INDEX.find((s) => s.slug === krishnaSlug);
@@ -203,6 +205,17 @@ function HomeContent() {
   }, [query, allPrayers]);
 
   const totalResults = filteredAll.length;
+
+  // Pagination logic for All Prayers section
+  const totalPages = Math.ceil(filteredAll.length / ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const endIndex = startIndex + ITEMS_PER_PAGE;
+  const paginatedAll = filteredAll.slice(startIndex, endIndex);
+
+  // Reset to page 1 when search query changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [query]);
 
   return (
     <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
@@ -323,7 +336,7 @@ function HomeContent() {
         </div>
       </section>
 
-      <section className="mb-16">
+      <section className="mb-16" id="all-stotrams">
         <div className="flex items-center gap-4 mb-8">
           <div className="h-px flex-1 bg-gradient-to-r from-[#c9922a]/30 to-transparent" />
           <p className="font-cinzel-reg text-[11px] tracking-[5px] uppercase text-[#e8760a] font-bold">
@@ -333,11 +346,43 @@ function HomeContent() {
         </div>
 
         {filteredAll.length ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {filteredAll.map((s, i) => (
-              <StotramCard key={`all-${s.slug}`} s={s} index={i} />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+              {paginatedAll.map((s, i) => (
+                <StotramCard key={`all-${s.slug}`} s={s} index={i} />
+              ))}
+            </div>
+
+            {/* Pagination Controls */}
+            {totalPages > 1 && (
+              <div className="mt-10 flex items-center justify-center gap-6">
+                <button
+                  onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+                  disabled={currentPage === 1}
+                  className="font-cinzel-reg text-sm tracking-widest uppercase px-6 py-3 rounded-full border border-[#c9922a]/30 bg-white hover:bg-[#fffaf1] hover:border-[#c9922a] transition-all disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-white disabled:hover:border-[#c9922a]/30"
+                >
+                  ← Previous
+                </button>
+
+                <div className="flex items-center gap-3">
+                  <span className="font-cinzel text-sm text-[#8b1a00]">
+                    Page {currentPage} of {totalPages}
+                  </span>
+                  <span className="font-garamond text-xs text-[#c9922a]/70">
+                    ({filteredAll.length} total stotrams)
+                  </span>
+                </div>
+
+                <button
+                  onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+                  disabled={currentPage === totalPages}
+                  className="font-cinzel-reg text-sm tracking-widest uppercase px-6 py-3 rounded-full border border-[#c9922a]/30 bg-white hover:bg-[#fffaf1] hover:border-[#c9922a] transition-all disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-white disabled:hover:border-[#c9922a]/30"
+                >
+                  Next →
+                </button>
+              </div>
+            )}
+          </>
         ) : (
           <div className="bg-white border border-[#c9922a]/20 rounded-2xl p-8 text-center shadow-sm">
             <p className="font-cinzel text-lg text-[#8b1a00] font-bold mb-2">

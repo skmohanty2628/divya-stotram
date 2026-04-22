@@ -1,4 +1,4 @@
-// KRISHNA VASUDEVAYA MANTRA — Most Powerful Single-Verse Krishna Mantra
+// KRISHNA VASUDEVAYA MANTRA - Most Powerful Krishna Mantra for Peace & Prosperity
 export const krishnaVasudevayaMantra = {
   slug: 'krishna-vasudevaya-mantra',
   verses: [

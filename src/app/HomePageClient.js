@@ -132,51 +132,40 @@ function StotramCard({ s, index }) {
 function HomeContent() {
   const [query, setQuery] = useState('');
 
-  const krishnaCard = useMemo(
-    () => STOTRAMS_INDEX.find((s) => s.slug === 'krishna-vasudevaya-mantra'),
-    []
-  );
-
-  const sortKrishnaFirst = (items) => {
-    return [...items].sort((a, b) => {
-      if (a.slug === 'krishna-vasudevaya-mantra' && b.slug !== 'krishna-vasudevaya-mantra') {
-        return -1;
-      }
-      if (b.slug === 'krishna-vasudevaya-mantra' && a.slug !== 'krishna-vasudevaya-mantra') {
-        return 1;
-      }
-      return 0;
-    });
-  };
+  const krishnaSlug = 'krishna-vasudevaya-mantra';
+  const krishnaItem = STOTRAMS_INDEX.find((s) => s.slug === krishnaSlug);
 
   const featured = useMemo(() => {
-    const baseFeatured = STOTRAMS_INDEX.filter((s) => s.featured);
-    const hasKrishna = baseFeatured.some((s) => s.slug === 'krishna-vasudevaya-mantra');
+    const items = STOTRAMS_INDEX.filter((s) => s.featured);
+    const hasKrishna = items.some((s) => s.slug === krishnaSlug);
 
-    const finalFeatured =
-      !hasKrishna && krishnaCard ? [krishnaCard, ...baseFeatured] : baseFeatured;
+    const finalItems = hasKrishna || !krishnaItem ? items : [krishnaItem, ...items];
 
-    return sortKrishnaFirst(finalFeatured);
-  }, [krishnaCard]);
+    return finalItems.sort((a, b) => {
+      if (a.slug === krishnaSlug) return -1;
+      if (b.slug === krishnaSlug) return 1;
+      return 0;
+    });
+  }, [krishnaItem]);
 
   const allPrayers = useMemo(() => {
     const seen = new Set();
-    const merged = [];
+    const items = [];
 
-    if (krishnaCard) {
-      merged.push(krishnaCard);
-      seen.add(krishnaCard.slug);
+    if (krishnaItem) {
+      items.push(krishnaItem);
+      seen.add(krishnaItem.slug);
     }
 
-    for (const item of STOTRAMS_INDEX) {
-      if (!seen.has(item.slug)) {
-        merged.push(item);
-        seen.add(item.slug);
+    for (const s of STOTRAMS_INDEX) {
+      if (!seen.has(s.slug)) {
+        items.push(s);
+        seen.add(s.slug);
       }
     }
 
-    return sortKrishnaFirst(merged);
-  }, [krishnaCard]);
+    return items;
+  }, [krishnaItem]);
 
   const matchesQuery = (s, q) => {
     const fields = [

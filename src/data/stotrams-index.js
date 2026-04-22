@@ -59,7 +59,7 @@ export const STOTRAMS_INDEX = [
     slug: 'vishnu-sahasranamam',
     title: { en: 'Vishnu Sahasranamam', hi: 'विष्णु सहस्रनामम्', od: 'ବିଷ୍ଣୁ ସହସ୍ରନାମ', te: 'విష్ణు సహస్రనామం' },
     deity: 'Vishnu',
-    deityEmoji: '\❗/',
+    deityEmoji: '\!/',
     deityIcon: '',
     description: { en: '1000 names of Lord Vishnu from the Mahabharata, the ultimate Vaishnava prayer', hi: 'महाभारत से भगवान विष्णु के 1000 नाम', od: 'ମହାଭାରତରୁ ଭଗବାନ ବିଷ୍ଣୁଙ୍କ ୧୦୦୦ ନାମ', te: 'మహాభారతంలోని విష్ణువు 1000 నామాలు' },
     color: 'from-purple-950 to-violet-950',

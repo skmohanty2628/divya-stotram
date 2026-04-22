@@ -100,7 +100,7 @@ function StotramCard({ s, index }) {
       <span className="text-4xl block mb-4">{s.deityEmoji}</span>
 
       <h2 className="font-cinzel text-base font-bold text-[#8b1a00] mb-1 leading-tight">
-        {s.title[lang] || s.title.en}
+        {s.title?.[lang] || s.title?.en}
       </h2>
 
       <p className="font-cinzel-reg text-xs text-[#e8760a] tracking-widest mb-3 uppercase">
@@ -108,7 +108,7 @@ function StotramCard({ s, index }) {
       </p>
 
       <p className="font-garamond text-sm text-[#3d1a00]/70 leading-relaxed mb-4 line-clamp-2">
-        {s.description[lang] || s.description.en}
+        {s.description?.[lang] || s.description?.en}
       </p>
 
       <div className="flex items-center justify-between">
@@ -133,11 +133,37 @@ function StotramCard({ s, index }) {
 function HomeContent() {
   const [query, setQuery] = useState('');
 
-  const featured = STOTRAMS_INDEX.filter((s) => s.featured);
+  const sortWithKrishnaFirst = (items) => {
+    return [...items].sort((a, b) => {
+      if (a.slug === 'krishna-vasudevaya-mantra') return -1;
+      if (b.slug === 'krishna-vasudevaya-mantra') return 1;
+      return 0;
+    });
+  };
 
-  const filteredOthers = useMemo(() => {
+  const featured = useMemo(() => {
+    const baseFeatured = STOTRAMS_INDEX.filter((s) => s.featured);
+
+    const krishnaCard = STOTRAMS_INDEX.find(
+      (s) => s.slug === 'krishna-vasudevaya-mantra'
+    );
+
+    const alreadyIncluded = baseFeatured.some(
+      (s) => s.slug === 'krishna-vasudevaya-mantra'
+    );
+
+    const safeFeatured = alreadyIncluded
+      ? baseFeatured
+      : krishnaCard
+        ? [krishnaCard, ...baseFeatured]
+        : baseFeatured;
+
+    return sortWithKrishnaFirst(safeFeatured);
+  }, []);
+
+  const filteredAll = useMemo(() => {
     const q = query.trim().toLowerCase();
-    const base = STOTRAMS_INDEX.filter((s) => !s.featured);
+    const base = sortWithKrishnaFirst(STOTRAMS_INDEX);
 
     if (!q) return base;
 
@@ -148,10 +174,12 @@ function HomeContent() {
         s.language,
         s.title?.en,
         s.title?.hi,
+        s.title?.od,
         s.title?.or,
         s.title?.te,
         s.description?.en,
         s.description?.hi,
+        s.description?.od,
         s.description?.or,
         s.description?.te,
       ]
@@ -175,10 +203,12 @@ function HomeContent() {
         s.language,
         s.title?.en,
         s.title?.hi,
+        s.title?.od,
         s.title?.or,
         s.title?.te,
         s.description?.en,
         s.description?.hi,
+        s.description?.od,
         s.description?.or,
         s.description?.te,
       ]
@@ -190,7 +220,7 @@ function HomeContent() {
     });
   }, [query, featured]);
 
-  const totalResults = filteredFeatured.length + filteredOthers.length;
+  const totalResults = filteredAll.length;
 
   return (
     <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
@@ -279,45 +309,60 @@ function HomeContent() {
           </div>
         </section>
       )}
-      {/* 🔥 NEW SECTION — SEO PAGES */}
-<section className="mb-16">
-  <div className="flex items-center gap-4 mb-8">
-    <div className="h-px flex-1 bg-gradient-to-r from-[#c9922a]/30 to-transparent" />
-    <p className="font-cinzel-reg text-[11px] tracking-[5px] uppercase text-[#e8760a] font-bold">
-      Mantras for Life Situations
-    </p>
-    <div className="h-px flex-1 bg-gradient-to-l from-[#c9922a]/30 to-transparent" />
-  </div>
 
-  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      <section className="mb-16">
+        <div className="flex items-center gap-4 mb-8">
+          <div className="h-px flex-1 bg-gradient-to-r from-[#c9922a]/30 to-transparent" />
+          <p className="font-cinzel-reg text-[11px] tracking-[5px] uppercase text-[#e8760a] font-bold">
+            Mantras for Life Situations
+          </p>
+          <div className="h-px flex-1 bg-gradient-to-l from-[#c9922a]/30 to-transparent" />
+        </div>
 
-  <Link href="/best-mantra-for-anxiety" className="bg-white p-4 rounded-xl border hover:shadow transition">
-    Best Mantra for Anxiety
-  </Link>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          <Link
+            href="/best-mantra-for-anxiety"
+            className="bg-white p-4 rounded-xl border hover:shadow transition"
+          >
+            Best Mantra for Anxiety
+          </Link>
 
-  <Link href="/best-mantra-for-confidence" className="bg-white p-4 rounded-xl border hover:shadow transition">
-    Best Mantra for Confidence
-  </Link>
+          <Link
+            href="/best-mantra-for-confidence"
+            className="bg-white p-4 rounded-xl border hover:shadow transition"
+          >
+            Best Mantra for Confidence
+          </Link>
 
-  <Link href="/best-mantra-for-study-focus" className="bg-white p-4 rounded-xl border hover:shadow transition">
-    Best Mantra for Study
-  </Link>
+          <Link
+            href="/best-mantra-for-study-focus"
+            className="bg-white p-4 rounded-xl border hover:shadow transition"
+          >
+            Best Mantra for Study
+          </Link>
 
-  <Link href="/best-mantra-for-money" className="bg-white p-4 rounded-xl border hover:shadow transition">
-    Best Mantra for Money
-  </Link>
+          <Link
+            href="/best-mantra-for-money"
+            className="bg-white p-4 rounded-xl border hover:shadow transition"
+          >
+            Best Mantra for Money
+          </Link>
 
-  <Link href="/best-prayer-for-inner-peace" className="bg-white p-4 rounded-xl border hover:shadow transition">
-    Best Prayer for Inner Peace
-  </Link>
+          <Link
+            href="/best-prayer-for-inner-peace"
+            className="bg-white p-4 rounded-xl border hover:shadow transition"
+          >
+            Best Prayer for Inner Peace
+          </Link>
 
-  <Link href="/best-mantra-for-sleep" className="bg-white p-4 rounded-xl border hover:shadow transition">
-    Best Mantra for Sleep
-  </Link>
-
-  
-</div>
-</section>
+          <Link
+            href="/best-mantra-for-sleep"
+            className="bg-white p-4 rounded-xl border hover:shadow transition"
+          >
+            Best Mantra for Sleep
+          </Link>
+        </div>
+      </section>
 
       <section className="mb-16">
         <div className="flex items-center gap-4 mb-8">
@@ -328,10 +373,10 @@ function HomeContent() {
           <div className="h-px flex-1 bg-gradient-to-l from-[#c9922a]/30 to-transparent" />
         </div>
 
-        {filteredOthers.length ? (
+        {filteredAll.length ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {filteredOthers.map((s, i) => (
-              <StotramCard key={s.slug} s={s} index={i} />
+            {filteredAll.map((s, i) => (
+              <StotramCard key={`${s.slug}-all`} s={s} index={i} />
             ))}
           </div>
         ) : (

@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useMemo, useState } from 'react';
 import { Search } from 'lucide-react';
+import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import { LangProvider, useLang } from '@/components/LanguageSwitcher';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
@@ -77,6 +78,7 @@ function StotramCard({ s, index }) {
       href={`/${s.slug}`}
       className="group relative bg-white border border-[#c9922a]/30 rounded-2xl p-6 hover:border-[#c9922a] hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden min-h-[360px] flex flex-col"
       style={{ animationDelay: `${index * 0.08}s` }}
+      scroll={true}
     >
       <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-[#c9922a]/0 to-transparent group-hover:via-[#c9922a] transition-all duration-300" />
 
@@ -120,9 +122,17 @@ function StotramCard({ s, index }) {
 }
 
 function AllStotramsContent() {
-  const [query, setQuery] = useState('');
-  const [currentPage, setCurrentPage] = useState(1);
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
   const ITEMS_PER_PAGE = 8;
+
+  const initialQuery = searchParams.get('q') || '';
+  const initialPage = Math.max(1, Number(searchParams.get('page') || '1') || 1);
+
+  const [query, setQuery] = useState(initialQuery);
+  const [currentPage, setCurrentPage] = useState(initialPage);
 
   const krishnaSlug = 'krishna-vasudevaya-mantra';
   const krishnaItem = STOTRAMS_INDEX.find((s) => s.slug === krishnaSlug);
@@ -176,12 +186,60 @@ function AllStotramsContent() {
   }, [query, allPrayers]);
 
   const totalPages = Math.max(1, Math.ceil(filteredAll.length / ITEMS_PER_PAGE));
-  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const safeCurrentPage = Math.min(currentPage, totalPages);
+  const startIndex = (safeCurrentPage - 1) * ITEMS_PER_PAGE;
   const paginatedAll = filteredAll.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
   useEffect(() => {
+    const urlQuery = searchParams.get('q') || '';
+    const urlPage = Math.max(1, Number(searchParams.get('page') || '1') || 1);
+
+    if (urlQuery !== query) {
+      setQuery(urlQuery);
+    }
+
+    if (urlPage !== currentPage) {
+      setCurrentPage(urlPage);
+    }
+  }, [searchParams]);
+
+  useEffect(() => {
+    if (currentPage > totalPages) {
+      setCurrentPage(totalPages);
+    }
+  }, [currentPage, totalPages]);
+
+  useEffect(() => {
+    const params = new URLSearchParams();
+
+    if (query.trim()) {
+      params.set('q', query.trim());
+    }
+
+    if (safeCurrentPage > 1) {
+      params.set('page', String(safeCurrentPage));
+    }
+
+    const newUrl = params.toString() ? `${pathname}?${params.toString()}` : pathname;
+    const currentUrl = searchParams.toString() ? `${pathname}?${searchParams.toString()}` : pathname;
+
+    if (newUrl !== currentUrl) {
+      router.replace(newUrl, { scroll: false });
+    }
+  }, [query, safeCurrentPage, pathname, router, searchParams]);
+
+  const handleSearchChange = (value) => {
+    setQuery(value);
     setCurrentPage(1);
-  }, [query]);
+  };
+
+  const handlePrevious = () => {
+    setCurrentPage((prev) => Math.max(1, prev - 1));
+  };
+
+  const handleNext = () => {
+    setCurrentPage((prev) => Math.min(totalPages, prev + 1));
+  };
 
   return (
     <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-24">
@@ -202,7 +260,7 @@ function AllStotramsContent() {
           Explore all stotrams, mantras and devotional prayers in one place.
         </p>
 
-        <SearchBox value={query} onChange={setQuery} />
+        <SearchBox value={query} onChange={handleSearchChange} />
       </div>
 
       {!!filteredAll.length ? (
@@ -216,23 +274,23 @@ function AllStotramsContent() {
           {totalPages > 1 && (
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 text-center">
               <button
-                onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
-                disabled={currentPage === 1}
+                onClick={handlePrevious}
+                disabled={safeCurrentPage === 1}
                 className="min-w-[132px] rounded-full border border-[#c9922a]/25 bg-white px-5 py-2.5 font-cinzel-reg text-xs tracking-[2px] uppercase text-[#8b1a00] disabled:opacity-35 disabled:cursor-not-allowed hover:border-[#c9922a]/50 transition-all"
               >
                 ← Previous
               </button>
 
               <p className="font-cinzel-reg text-[11px] tracking-[2px] uppercase text-[#8b1a00]/75">
-                Page {currentPage} of {totalPages}
+                Page {safeCurrentPage} of {totalPages}
                 <span className="block mt-1 text-[#c9922a]/80 normal-case tracking-normal font-garamond text-base">
                   ({filteredAll.length} total stotrams)
                 </span>
               </p>
 
               <button
-                onClick={() => setCurrentPage((prev) => Math.min(totalPages, prev + 1))}
-                disabled={currentPage === totalPages}
+                onClick={handleNext}
+                disabled={safeCurrentPage === totalPages}
                 className="min-w-[132px] rounded-full border border-[#c9922a]/25 bg-white px-5 py-2.5 font-cinzel-reg text-xs tracking-[2px] uppercase text-[#8b1a00] disabled:opacity-35 disabled:cursor-not-allowed hover:border-[#c9922a]/50 transition-all"
               >
                 Next →

@@ -4,7 +4,7 @@ export const hanumanChalisa = {
     {
       id: 1,
       type: 'doha',
-      label: { en: 'Opening Doha', hi: 'दोहा', od: 'ଦୋହା', te: 'ప్రారంభ దోహా' },
+      label: { en: 'Opening Dohaaaaaaaa', hi: 'दोहा', od: 'ଦୋହା', te: 'ప్రారంభ దోహా' },
       original:
         'श्री गुरु चरण सरोज रज, निज मनु मुकुरु सुधारि। वरनउँ रघुवर विमल जसु, जो दायकु फल चारि॥',
       transliteration:

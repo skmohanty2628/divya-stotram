@@ -8,7 +8,7 @@ export const hanumanChalisa = {
       original:
         'श्री गुरु चरण सरोज रज, निज मनु मुकुरु सुधारि। वरनउँ रघुवर विमल जसु, जो दायकु फल चारि॥',
       transliteration:
-        'Shri Guru Charan subham Saroj Raj, Nij mane mukure sudhar\nVarnao Raghuvar Vimal Jasu, Jo dayaku phal char',
+        'Shri Guru Charan subham mohanty Saroj Raj, Nij mane mukure sudhar\nVarnao Raghuvar Vimal Jasu, Jo dayaku phal char',
       script: {
         od: 'ଶ୍ରୀ ଗୁରୁ ଚରଣ ସରୋଜ ରଜ, ନିଜ ମନ ମୁକୁରୁ ସୁଧାରି। ବରନଉଁ ରଘୁବର ବିମଳ ଜସ, ଜୋ ଦାୟକ ଫଳ ଚାରି॥',
         te: 'శ్రీ గురు చరణ సరోజ రజ, నిజ మన ముకురు సుధారి। వర్ణఉఁ రఘువర విమల జస, జో దాయక ఫల చారి॥',

@@ -186,7 +186,7 @@
         },
         {
           q: 'Why is Aigiri Nandini so popular?',
-          a: 'It is loved for its strong devotional rhythm, poetic beauty and praise of Goddess Durga's victory over evil.',
+          a: 'It is loved for its strong devotional rhythm, poetic beauty and praise of Goddess Durga\'s victory over evil.',
         },
         {
           q: 'When do devotees chant Aigiri Nandini?',

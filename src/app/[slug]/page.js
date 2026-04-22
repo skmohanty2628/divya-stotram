@@ -21,6 +21,10 @@ import StotramClientPage from './StotramClientPage';
 
 const SITE_URL = 'https://divyastotram.com';
 
+// ✅ FORCE DYNAMIC RENDERING - Fix Krishna 404 issue
+export const dynamic = 'force-dynamic';
+export const dynamicParams = true;
+
 /**
  * Main stotram verse data
  */
@@ -397,6 +401,8 @@ function DevotionalContentPage({ page }) {
 
 export default async function StotramPage({ params }) {
   const { slug } = await params;
+
+  console.log('🔍 Rendering page for slug:', slug);
 
   if (isMainStotram(slug)) {
     const meta = getMeta(slug);

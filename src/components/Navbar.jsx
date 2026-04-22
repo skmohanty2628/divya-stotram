@@ -142,7 +142,7 @@ export default function Navbar() {
             ))}
 
             <Link
-              href="/#all-stotrams"
+              href="/all-stotrams"
               className="font-cinzel-reg text-xs tracking-[2px] uppercase text-[#3d1a00]/70 hover:text-[#8b1a00] transition-colors"
             >
               All Stotrams
@@ -311,7 +311,7 @@ export default function Navbar() {
 
               <div className="space-y-1">
                 <Link
-                  href="/#all-stotrams"
+                  href="/all-stotrams"
                   onClick={closeMobileMenu}
                   className="block py-3 px-3 rounded-xl font-cinzel-reg text-sm text-[#3d1a00]/70 hover:bg-white/70 transition-colors"
                 >

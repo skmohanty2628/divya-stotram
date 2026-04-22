@@ -82,35 +82,11 @@ function SearchBox({ value, onChange }) {
 function getIconStyles(iconText = '') {
   const len = Array.from(iconText).length;
 
-  if (len <= 2) {
-    return {
-      fontSize: '30px',
-      lineHeight: '1',
-      letterSpacing: '0',
-    };
-  }
+  if (len <= 2) return { fontSize: '30px', lineHeight: '1', letterSpacing: '0' };
+  if (len <= 5) return { fontSize: '20px', lineHeight: '1.05', letterSpacing: '0.5px' };
+  if (len <= 8) return { fontSize: '16px', lineHeight: '1.05', letterSpacing: '0.3px' };
 
-  if (len <= 5) {
-    return {
-      fontSize: '20px',
-      lineHeight: '1.05',
-      letterSpacing: '0.5px',
-    };
-  }
-
-  if (len <= 8) {
-    return {
-      fontSize: '16px',
-      lineHeight: '1.05',
-      letterSpacing: '0.3px',
-    };
-  }
-
-  return {
-    fontSize: '13px',
-    lineHeight: '1.05',
-    letterSpacing: '0',
-  };
+  return { fontSize: '13px', lineHeight: '1.05', letterSpacing: '0' };
 }
 
 function StotramIcon({ s, className = 'h-[66px] w-[66px] mb-4' }) {
@@ -197,21 +173,6 @@ function StotramCard({ s, index }) {
 
 function HomeContent() {
   const [query, setQuery] = useState('');
-  const [currentPage, setCurrentPage] = useState(1);
-  const [showAllStotramsPage, setShowAllStotramsPage] = useState(false);
-
-  const ITEMS_PER_PAGE = 8;
-
-  useEffect(() => {
-    const syncHashState = () => {
-      setShowAllStotramsPage(window.location.hash === '#all-stotrams');
-    };
-
-    syncHashState();
-    window.addEventListener('hashchange', syncHashState);
-
-    return () => window.removeEventListener('hashchange', syncHashState);
-  }, []);
 
   const krishnaSlug = 'krishna-vasudevaya-mantra';
   const krishnaItem = STOTRAMS_INDEX.find((s) => s.slug === krishnaSlug);
@@ -228,25 +189,6 @@ function HomeContent() {
         return 0;
       })
       .slice(0, 9);
-  }, [krishnaItem]);
-
-  const allPrayers = useMemo(() => {
-    const seen = new Set();
-    const items = [];
-
-    if (krishnaItem) {
-      items.push(krishnaItem);
-      seen.add(krishnaItem.slug);
-    }
-
-    for (const s of STOTRAMS_INDEX) {
-      if (!seen.has(s.slug)) {
-        items.push(s);
-        seen.add(s.slug);
-      }
-    }
-
-    return items;
   }, [krishnaItem]);
 
   const matchesQuery = (s, q) => {
@@ -277,21 +219,6 @@ function HomeContent() {
     if (!q) return featured;
     return featured.filter((s) => matchesQuery(s, q));
   }, [query, featured]);
-
-  const filteredAll = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    if (!q) return allPrayers;
-    return allPrayers.filter((s) => matchesQuery(s, q));
-  }, [query, allPrayers]);
-
-  const totalResults = showAllStotramsPage ? filteredAll.length : filteredFeatured.length;
-  const totalPages = Math.max(1, Math.ceil(filteredAll.length / ITEMS_PER_PAGE));
-  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const paginatedAll = filteredAll.slice(startIndex, startIndex + ITEMS_PER_PAGE);
-
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [query, showAllStotramsPage]);
 
   return (
     <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
@@ -334,38 +261,36 @@ function HomeContent() {
 
         {query.trim() && (
           <p className="font-cinzel-reg text-[11px] tracking-[3px] uppercase text-[#c9922a]/80 mb-6">
-            {totalResults} result{totalResults === 1 ? '' : 's'} found
+            {filteredFeatured.length} result{filteredFeatured.length === 1 ? '' : 's'} found
           </p>
         )}
       </div>
 
-      {!showAllStotramsPage && (
-        <section className="mb-14">
-          <div className="bg-white border border-[#c9922a]/20 rounded-2xl p-6 sm:p-8 shadow-sm">
-            <h2 className="font-cinzel text-2xl text-[#8b1a00] font-bold mb-4">
-              What you can read on Divya Stotram
-            </h2>
+      <section className="mb-14">
+        <div className="bg-white border border-[#c9922a]/20 rounded-2xl p-6 sm:p-8 shadow-sm">
+          <h2 className="font-cinzel text-2xl text-[#8b1a00] font-bold mb-4">
+            What you can read on Divya Stotram
+          </h2>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-left">
-              {[
-                'Hanuman Chalisa in English, Hindi, Odia and Telugu',
-                'Shiva Tandav Stotram lyrics with meaning',
-                'Vishnu Sahasranamam with structured reading format',
-                'Durga Stotram, Aigiri Nandini and more devotional prayers',
-              ].map((item) => (
-                <div
-                  key={item}
-                  className="rounded-xl border border-[#c9922a]/15 p-4 bg-[#fffaf1]"
-                >
-                  <p className="font-garamond text-base text-[#3d1a00]/80">{item}</p>
-                </div>
-              ))}
-            </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-left">
+            {[
+              'Hanuman Chalisa in English, Hindi, Odia and Telugu',
+              'Shiva Tandav Stotram lyrics with meaning',
+              'Vishnu Sahasranamam with structured reading format',
+              'Durga Stotram, Aigiri Nandini and more devotional prayers',
+            ].map((item) => (
+              <div
+                key={item}
+                className="rounded-xl border border-[#c9922a]/15 p-4 bg-[#fffaf1]"
+              >
+                <p className="font-garamond text-base text-[#3d1a00]/80">{item}</p>
+              </div>
+            ))}
           </div>
-        </section>
-      )}
+        </div>
+      </section>
 
-      {!showAllStotramsPage && !!filteredFeatured.length && (
+      {!!filteredFeatured.length && (
         <section className="mb-16">
           <div className="flex items-center gap-4 mb-8">
             <div className="h-px flex-1 bg-gradient-to-r from-[#c9922a]/30 to-transparent" />
@@ -383,7 +308,7 @@ function HomeContent() {
         </section>
       )}
 
-      {!showAllStotramsPage && !query.trim() && (
+      {!query.trim() && (
         <section className="mb-16">
           <div className="flex items-center gap-4 mb-8">
             <div className="h-px flex-1 bg-gradient-to-r from-[#c9922a]/30 to-transparent" />
@@ -411,61 +336,6 @@ function HomeContent() {
               </Link>
             ))}
           </div>
-        </section>
-      )}
-
-      {showAllStotramsPage && (
-        <section id="all-stotrams" className="mb-16 scroll-mt-24">
-          <div className="flex items-center gap-4 mb-8">
-            <div className="h-px flex-1 bg-gradient-to-r from-[#c9922a]/30 to-transparent" />
-            <span className="font-cinzel-reg text-[11px] tracking-[5px] uppercase text-[#e8760a]">
-              All Stotrams
-            </span>
-            <div className="h-px flex-1 bg-gradient-to-l from-[#c9922a]/30 to-transparent" />
-          </div>
-
-          {!!filteredAll.length ? (
-            <>
-              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                {paginatedAll.map((s, index) => (
-                  <StotramCard key={s.slug} s={s} index={index} />
-                ))}
-              </div>
-
-              {totalPages > 1 && (
-                <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 text-center">
-                  <button
-                    onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
-                    disabled={currentPage === 1}
-                    className="min-w-[132px] rounded-full border border-[#c9922a]/25 bg-white px-5 py-2.5 font-cinzel-reg text-xs tracking-[2px] uppercase text-[#8b1a00] disabled:opacity-35 disabled:cursor-not-allowed hover:border-[#c9922a]/50 transition-all"
-                  >
-                    ← Previous
-                  </button>
-
-                  <p className="font-cinzel-reg text-[11px] tracking-[2px] uppercase text-[#8b1a00]/75">
-                    Page {currentPage} of {totalPages}
-                    <span className="block mt-1 text-[#c9922a]/80 normal-case tracking-normal font-garamond text-base">
-                      ({filteredAll.length} total stotrams)
-                    </span>
-                  </p>
-
-                  <button
-                    onClick={() => setCurrentPage((prev) => Math.min(totalPages, prev + 1))}
-                    disabled={currentPage === totalPages}
-                    className="min-w-[132px] rounded-full border border-[#c9922a]/25 bg-white px-5 py-2.5 font-cinzel-reg text-xs tracking-[2px] uppercase text-[#8b1a00] disabled:opacity-35 disabled:cursor-not-allowed hover:border-[#c9922a]/50 transition-all"
-                  >
-                    Next →
-                  </button>
-                </div>
-              )}
-            </>
-          ) : (
-            <div className="rounded-2xl border border-[#c9922a]/20 bg-white p-10 text-center">
-              <p className="font-garamond text-lg text-[#3d1a00]/70">
-                No stotrams found for your search.
-              </p>
-            </div>
-          )}
         </section>
       )}
     </div>

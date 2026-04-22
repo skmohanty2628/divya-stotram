@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useEffect, useMemo, useState } from 'react';
-import { Search, BookOpen, Sparkles, Shield, Heart, Brain, Sun, Moon } from 'lucide-react';
+import { Search } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import { LangProvider, useLang } from '@/components/LanguageSwitcher';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
@@ -232,24 +232,6 @@ function HomeContent() {
     return featured.filter((s) => matchesQuery(s, q));
   }, [query, featured]);
 
-  const browseByDeity = [
-    { label: 'Hanuman', href: '/hanuman-chalisa', icon: Shield },
-    { label: 'Shiva', href: '/shiva-tandav', icon: Sparkles },
-    { label: 'Durga', href: '/durga-stotram', icon: Heart },
-    { label: 'Vishnu', href: '/vishnu-sahasranamam', icon: BookOpen },
-    { label: 'Lakshmi', href: '/mahalakshmi-ashtakam', icon: Sun },
-    { label: 'Krishna', href: '/krishna-vasudevaya-mantra', icon: Moon },
-  ];
-
-  const quickLinks = [
-    { label: 'Hanuman Chalisa', href: '/hanuman-chalisa' },
-    { label: 'Shiva Tandav Stotram', href: '/shiva-tandav' },
-    { label: 'Durga Stotram', href: '/durga-stotram' },
-    { label: 'Vishnu Sahasranamam', href: '/vishnu-sahasranamam' },
-    { label: 'All Stotrams', href: '/all-stotrams' },
-    { label: 'Krishna Mantra', href: '/krishna-vasudevaya-mantra' },
-  ];
-
   const faqItems = [
     {
       q: 'What is a stotram?',
@@ -334,7 +316,7 @@ function HomeContent() {
                 Whether you are looking for daily prayer, devotional hymns for peace,
                 protection, courage, study, success or spiritual focus, this site helps
                 you find sacred Hindu prayers in a simple and beautiful format. Browse
-                featured prayers, explore by deity, or open the full library of stotrams
+                featured prayers or open the full library of stotrams
                 to continue your daily reading and chanting.
               </p>
             </div>
@@ -394,39 +376,6 @@ function HomeContent() {
 
       {!query.trim() && (
         <section className="mb-12 sm:mb-16">
-          <SectionHeader title="Browse by Deity" />
-
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-5">
-            {browseByDeity.map((item) => {
-              const Icon = item.icon;
-              return (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="group bg-white border border-[#c9922a]/20 rounded-2xl p-4 sm:p-5 hover:border-[#c9922a]/40 hover:shadow-sm transition-all"
-                >
-                  <div className="flex items-center gap-3">
-                    <div className="h-10 w-10 rounded-xl bg-[#fff7e8] border border-[#c9922a]/20 flex items-center justify-center text-[#c9922a]">
-                      <Icon size={18} />
-                    </div>
-                    <div>
-                      <p className="font-cinzel text-[12px] sm:text-sm text-[#8b1a00] font-bold">
-                        {item.label}
-                      </p>
-                      <p className="font-garamond text-[11px] sm:text-sm text-[#3d1a00]/65">
-                        Explore prayers
-                      </p>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
-        </section>
-      )}
-
-      {!query.trim() && (
-        <section className="mb-12 sm:mb-16">
           <SectionHeader title="Mantras for Life Situations" />
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4">
@@ -446,26 +395,6 @@ function HomeContent() {
                 {item.label}
               </Link>
             ))}
-          </div>
-        </section>
-      )}
-
-      {!query.trim() && (
-        <section className="mb-12 sm:mb-16">
-          <SectionHeader title="Popular Hindu Prayers and Stotrams" />
-
-          <div className="bg-white border border-[#c9922a]/20 rounded-2xl p-4 sm:p-6 lg:p-8 shadow-sm">
-            <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-4">
-              {quickLinks.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="rounded-xl border border-[#c9922a]/15 bg-[#fffaf1] px-3 sm:px-4 py-3 font-garamond text-[12px] sm:text-base text-[#3d1a00]/85 hover:border-[#c9922a]/35 transition-all"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
           </div>
         </section>
       )}
@@ -542,53 +471,7 @@ export default function HomePageClient() {
         </div>
 
         <Navbar />
-
         <HomeContent />
-
-        <footer className="relative z-10 mt-8 sm:mt-16 border-t border-[#c9922a]/20 bg-gradient-to-b from-[#6f1d00] to-[#5a1600] text-[#fff5df]">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-10">
-            <div>
-              <h3 className="font-cinzel text-xl sm:text-2xl tracking-[2px] sm:tracking-[3px] mb-3 sm:mb-4">
-                DIVYA STOTRAM
-              </h3>
-              <p className="font-garamond text-sm sm:text-lg leading-relaxed text-[#fff5df]/85 max-w-sm">
-                Sacred Hindu prayers, stotrams and mantras in English,
-                Hindi, Odia and Telugu with meaning.
-              </p>
-            </div>
-
-            <div>
-              <h4 className="font-cinzel-reg text-[11px] sm:text-[13px] tracking-[2px] sm:tracking-[3px] uppercase text-[#ffd28a] mb-3 sm:mb-4">
-                Quick Links
-              </h4>
-              <ul className="space-y-1.5 sm:space-y-2 font-garamond text-sm sm:text-lg text-[#fff5df]/90">
-                <li><Link href="/" className="hover:text-[#ffd28a] transition-colors">Home</Link></li>
-                <li><Link href="/all-stotrams" className="hover:text-[#ffd28a] transition-colors">All Stotrams</Link></li>
-                <li><Link href="/about" className="hover:text-[#ffd28a] transition-colors">About</Link></li>
-                <li><Link href="/contact" className="hover:text-[#ffd28a] transition-colors">Contact</Link></li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-cinzel-reg text-[11px] sm:text-[13px] tracking-[2px] sm:tracking-[3px] uppercase text-[#ffd28a] mb-3 sm:mb-4">
-                Popular Stotrams
-              </h4>
-              <ul className="space-y-1.5 sm:space-y-2 font-garamond text-sm sm:text-lg text-[#fff5df]/90">
-                <li><Link href="/hanuman-chalisa" className="hover:text-[#ffd28a] transition-colors">Hanuman Chalisa</Link></li>
-                <li><Link href="/shiva-tandav" className="hover:text-[#ffd28a] transition-colors">Shiva Tandav</Link></li>
-                <li><Link href="/durga-stotram" className="hover:text-[#ffd28a] transition-colors">Durga Stotram</Link></li>
-                <li><Link href="/vishnu-sahasranamam" className="hover:text-[#ffd28a] transition-colors">Vishnu Sahasranamam</Link></li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-[#ffd28a]/15">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5 flex flex-col md:flex-row items-center justify-between gap-2 sm:gap-3 text-xs sm:text-sm text-[#fff5df]/70 font-garamond">
-              <p>© 2026 Divya Stotram. All rights reserved.</p>
-              <p>Built with devotion for sacred reading and learning.</p>
-            </div>
-          </div>
-        </footer>
       </div>
     </LangProvider>
   );

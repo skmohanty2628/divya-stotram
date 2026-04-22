@@ -4,8 +4,7 @@ import Link from 'next/link';
 import { useEffect, useMemo, useState } from 'react';
 import { Search } from 'lucide-react';
 import Navbar from '@/components/Navbar';
-import { LangProvider } from '@/components/LanguageSwitcher';
-import { useLang } from '@/components/LanguageSwitcher';
+import { LangProvider, useLang } from '@/components/LanguageSwitcher';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 
 function StarCanvas() {
@@ -133,92 +132,86 @@ function StotramCard({ s, index }) {
 function HomeContent() {
   const [query, setQuery] = useState('');
 
-  const sortWithKrishnaFirst = (items) => {
+  const krishnaCard = useMemo(
+    () => STOTRAMS_INDEX.find((s) => s.slug === 'krishna-vasudevaya-mantra'),
+    []
+  );
+
+  const sortKrishnaFirst = (items) => {
     return [...items].sort((a, b) => {
-      if (a.slug === 'krishna-vasudevaya-mantra') return -1;
-      if (b.slug === 'krishna-vasudevaya-mantra') return 1;
+      if (a.slug === 'krishna-vasudevaya-mantra' && b.slug !== 'krishna-vasudevaya-mantra') {
+        return -1;
+      }
+      if (b.slug === 'krishna-vasudevaya-mantra' && a.slug !== 'krishna-vasudevaya-mantra') {
+        return 1;
+      }
       return 0;
     });
   };
 
   const featured = useMemo(() => {
     const baseFeatured = STOTRAMS_INDEX.filter((s) => s.featured);
+    const hasKrishna = baseFeatured.some((s) => s.slug === 'krishna-vasudevaya-mantra');
 
-    const krishnaCard = STOTRAMS_INDEX.find(
-      (s) => s.slug === 'krishna-vasudevaya-mantra'
-    );
+    const finalFeatured =
+      !hasKrishna && krishnaCard ? [krishnaCard, ...baseFeatured] : baseFeatured;
 
-    const alreadyIncluded = baseFeatured.some(
-      (s) => s.slug === 'krishna-vasudevaya-mantra'
-    );
+    return sortKrishnaFirst(finalFeatured);
+  }, [krishnaCard]);
 
-    const safeFeatured = alreadyIncluded
-      ? baseFeatured
-      : krishnaCard
-        ? [krishnaCard, ...baseFeatured]
-        : baseFeatured;
+  const allPrayers = useMemo(() => {
+    const seen = new Set();
+    const merged = [];
 
-    return sortWithKrishnaFirst(safeFeatured);
-  }, []);
+    if (krishnaCard) {
+      merged.push(krishnaCard);
+      seen.add(krishnaCard.slug);
+    }
 
-  const filteredAll = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    const base = sortWithKrishnaFirst(STOTRAMS_INDEX);
+    for (const item of STOTRAMS_INDEX) {
+      if (!seen.has(item.slug)) {
+        merged.push(item);
+        seen.add(item.slug);
+      }
+    }
 
-    if (!q) return base;
+    return sortKrishnaFirst(merged);
+  }, [krishnaCard]);
 
-    return base.filter((s) => {
-      const fields = [
-        s.slug,
-        s.deity,
-        s.language,
-        s.title?.en,
-        s.title?.hi,
-        s.title?.od,
-        s.title?.or,
-        s.title?.te,
-        s.description?.en,
-        s.description?.hi,
-        s.description?.od,
-        s.description?.or,
-        s.description?.te,
-      ]
-        .filter(Boolean)
-        .join(' ')
-        .toLowerCase();
+  const matchesQuery = (s, q) => {
+    const fields = [
+      s.slug,
+      s.deity,
+      s.language,
+      s.title?.en,
+      s.title?.hi,
+      s.title?.od,
+      s.title?.or,
+      s.title?.te,
+      s.description?.en,
+      s.description?.hi,
+      s.description?.od,
+      s.description?.or,
+      s.description?.te,
+    ]
+      .filter(Boolean)
+      .join(' ')
+      .toLowerCase();
 
-      return fields.includes(q);
-    });
-  }, [query]);
+    return fields.includes(q);
+  };
 
   const filteredFeatured = useMemo(() => {
     const q = query.trim().toLowerCase();
-
     if (!q) return featured;
-
-    return featured.filter((s) => {
-      const fields = [
-        s.slug,
-        s.deity,
-        s.language,
-        s.title?.en,
-        s.title?.hi,
-        s.title?.od,
-        s.title?.or,
-        s.title?.te,
-        s.description?.en,
-        s.description?.hi,
-        s.description?.od,
-        s.description?.or,
-        s.description?.te,
-      ]
-        .filter(Boolean)
-        .join(' ')
-        .toLowerCase();
-
-      return fields.includes(q);
-    });
+    return featured.filter((s) => matchesQuery(s, q));
   }, [query, featured]);
+
+  const filteredAll = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return allPrayers;
+    return allPrayers.filter((s) => matchesQuery(s, q));
+  }, [query, allPrayers]);
 
   const totalResults = filteredAll.length;
 
@@ -304,7 +297,7 @@ function HomeContent() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredFeatured.map((s, i) => (
-              <StotramCard key={s.slug} s={s} index={i} />
+              <StotramCard key={`featured-${s.slug}`} s={s} index={i} />
             ))}
           </div>
         </section>
@@ -320,45 +313,27 @@ function HomeContent() {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-          <Link
-            href="/best-mantra-for-anxiety"
-            className="bg-white p-4 rounded-xl border hover:shadow transition"
-          >
+          <Link href="/best-mantra-for-anxiety" className="bg-white p-4 rounded-xl border hover:shadow transition">
             Best Mantra for Anxiety
           </Link>
 
-          <Link
-            href="/best-mantra-for-confidence"
-            className="bg-white p-4 rounded-xl border hover:shadow transition"
-          >
+          <Link href="/best-mantra-for-confidence" className="bg-white p-4 rounded-xl border hover:shadow transition">
             Best Mantra for Confidence
           </Link>
 
-          <Link
-            href="/best-mantra-for-study-focus"
-            className="bg-white p-4 rounded-xl border hover:shadow transition"
-          >
+          <Link href="/best-mantra-for-study-focus" className="bg-white p-4 rounded-xl border hover:shadow transition">
             Best Mantra for Study
           </Link>
 
-          <Link
-            href="/best-mantra-for-money"
-            className="bg-white p-4 rounded-xl border hover:shadow transition"
-          >
+          <Link href="/best-mantra-for-money" className="bg-white p-4 rounded-xl border hover:shadow transition">
             Best Mantra for Money
           </Link>
 
-          <Link
-            href="/best-prayer-for-inner-peace"
-            className="bg-white p-4 rounded-xl border hover:shadow transition"
-          >
+          <Link href="/best-prayer-for-inner-peace" className="bg-white p-4 rounded-xl border hover:shadow transition">
             Best Prayer for Inner Peace
           </Link>
 
-          <Link
-            href="/best-mantra-for-sleep"
-            className="bg-white p-4 rounded-xl border hover:shadow transition"
-          >
+          <Link href="/best-mantra-for-sleep" className="bg-white p-4 rounded-xl border hover:shadow transition">
             Best Mantra for Sleep
           </Link>
         </div>
@@ -376,7 +351,7 @@ function HomeContent() {
         {filteredAll.length ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {filteredAll.map((s, i) => (
-              <StotramCard key={`${s.slug}-all`} s={s} index={i} />
+              <StotramCard key={`all-${s.slug}`} s={s} index={i} />
             ))}
           </div>
         ) : (

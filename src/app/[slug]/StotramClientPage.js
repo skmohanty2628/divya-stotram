@@ -204,6 +204,37 @@
     },
   };
 
+    'krishna-vasudevaya-mantra': {
+    intro: 'Krishna Vasudevaya Mantra is the most powerful single-verse mantra dedicated to Lord Krishna. This sacred mantra — Om Krishnaya Vasudevaya Haraye Paramatmane — invokes Krishna as Vasudeva\'s son, Hari the Supreme Soul, and Govinda, making it extremely potent for devotees seeking Krishna\'s grace and divine protection.',
+    benefits: [
+      'Removes all sorrows and mental afflictions',
+      'Brings divine protection and blessings of Lord Krishna',
+      'Purifies the mind and heart',
+      'Destroys obstacles in spiritual and material life',
+      'Grants peace, prosperity, and happiness',
+      'Strengthens devotion towards Krishna',
+    ],
+    bestTime: 'This mantra can be chanted anytime, but is especially powerful during Brahma Muhurta (4-6 AM). It is highly recommended on Krishna Janmashtami, Ekadashi days, and Wednesdays. Chant 108 times with a mala for maximum benefits.',
+    faq: [
+      {
+        q: 'How many times should this mantra be chanted?',
+        a: 'The mantra can be chanted 108 times daily using a mala for maximum benefit. Even 11, 21, or 51 times is highly beneficial.',
+      },
+      {
+        q: 'Can this mantra be chanted without initiation?',
+        a: 'Yes, this is a benevolent mantra that can be chanted by anyone with sincere devotion. No formal initiation is required.',
+      },
+      {
+        q: 'What are the benefits of chanting this mantra?',
+        a: 'Regular chanting removes sorrows, brings Krishna\'s protection, purifies the mind, destroys obstacles, and helps achieve spiritual liberation.',
+      },
+      {
+        q: 'Can women chant this mantra during menstruation?',
+        a: 'Yes, this mantra can be chanted by anyone at any time. Krishna\'s grace is unconditional and not bound by such restrictions.',
+      },
+    ],
+  },
+
   const DEFAULT_CONTENT = (title, deity) => ({
     intro: `${title} is a sacred devotional prayer dedicated to ${deity}. This page helps devotees read ${title} in a clean format with multilingual support, devotional context and easier verse-by-verse access.`,
     benefits: [

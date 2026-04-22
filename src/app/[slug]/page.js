@@ -21,7 +21,7 @@ import StotramClientPage from './StotramClientPage';
 
 const SITE_URL = 'https://divyastotram.com';
 
-// ✅ FORCE DYNAMIC RENDERING - Fix Krishna 404 issue
+// ✅ FORCE FULL DYNAMIC RENDERING - Fix Krishna 404 issue
 export const dynamic = 'force-dynamic';
 export const dynamicParams = true;
 
@@ -168,40 +168,6 @@ function buildDevotionalMetadata(page, slug) {
       images: ['/logo.svg'],
     },
   };
-}
-
-// ✅ FIXED: Generates ALL pages (14 stotrams + 94 devotional = 108 total)
-export function generateStaticParams() {
-  // Get all stotram slugs
-  const stotramParams = STOTRAMS_INDEX.map((item) => ({ slug: item.slug }));
-  
-  // Get all devotional page slugs
-  const devotionalParams = devotionalPages.map((page) => ({ slug: page.slug }));
-
-  // Merge and deduplicate
-  const merged = [...stotramParams, ...devotionalParams];
-  const seen = new Set();
-  const unique = merged.filter((item) => {
-    if (seen.has(item.slug)) return false;
-    seen.add(item.slug);
-    return true;
-  });
-
-  // ✅ DEBUG: Log page counts during build
-  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-  console.log('📊 GENERATING STATIC PAGES:');
-  console.log(`   • Stotrams: ${stotramParams.length} pages`);
-  console.log(`   • Devotional: ${devotionalParams.length} pages`);
-  console.log(`   • Total unique: ${unique.length} pages`);
-  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-
-  // ✅ VALIDATION: Warn if devotional pages seem low
-  if (devotionalParams.length < 90) {
-    console.warn('⚠️  WARNING: Expected ~94 devotional pages, got', devotionalParams.length);
-    console.warn('⚠️  Check that devotionalPages array is fully populated');
-  }
-
-  return unique;
 }
 
 export async function generateMetadata({ params }) {

@@ -7,6 +7,24 @@ import { Search, X, Menu } from 'lucide-react';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 import LanguageSwitcher from './LanguageSwitcher';
 
+function StotramIcon({ s }) {
+  if (s.deityIcon) {
+    return (
+      <img
+        src={s.deityIcon}
+        alt={s.deity}
+        className="h-10 w-10 object-contain drop-shadow-sm"
+      />
+    );
+  }
+
+  return (
+    <div className="h-10 w-10 rounded-xl flex items-center justify-center text-xl bg-gradient-to-br from-[#fff7e8] to-[#fff1d1] border border-[#c9922a]/20 shadow-sm">
+      {s.deityEmoji}
+    </div>
+  );
+}
+
 export default function Navbar() {
   const pathname = usePathname();
 
@@ -178,7 +196,7 @@ export default function Navbar() {
                         onClick={closeSearch}
                         className="flex items-center gap-3 px-4 py-3 hover:bg-[#fdf6e3] transition-colors border-b border-[#c9922a]/10 last:border-0"
                       >
-                        <span className="text-xl">{s.deityEmoji}</span>
+                        <StotramIcon s={s} />
                         <div>
                           <p className="font-cinzel-reg text-sm text-[#8b1a00] font-bold">
                             {s.title.en}
@@ -291,36 +309,14 @@ export default function Navbar() {
                 </div>
               </Link>
 
-              <div className="mb-4">
-                <p className="font-cinzel-reg text-[10px] tracking-[4px] uppercase text-[#e8760a]/60 mb-3">
-                  All Stotrams
-                </p>
-              </div>
-
               <div className="space-y-1">
-                {STOTRAMS_INDEX.map((s, index) => (
-                  <Link
-                    key={s.slug}
-                    href={`/${s.slug}`}
-                    onClick={closeMobileMenu}
-                    className="group flex items-center gap-4 py-3.5 px-3 rounded-xl border border-transparent hover:border-[#c9922a]/15 hover:bg-white/70 transition-all"
-                    style={{
-                      transitionDelay: mobileOpen ? `${index * 18}ms` : '0ms',
-                      opacity: mobileOpen ? 1 : 0,
-                      transform: mobileOpen ? 'translateX(0px)' : 'translateX(18px)',
-                    }}
-                  >
-                    <span className="text-2xl">{s.deityEmoji}</span>
-                    <div>
-                      <p className="font-cinzel-reg text-sm text-[#8b1a00] font-bold">
-                        {s.title.en}
-                      </p>
-                      <p className="font-garamond text-xs text-[#c9922a]/60">
-                        {s.deity}
-                      </p>
-                    </div>
-                  </Link>
-                ))}
+                <Link
+                  href="/#all-stotrams"
+                  onClick={closeMobileMenu}
+                  className="block py-3 px-3 rounded-xl font-cinzel-reg text-sm text-[#3d1a00]/70 hover:bg-white/70 transition-colors"
+                >
+                  All Stotrams
+                </Link>
               </div>
 
               <div className="pt-5 mt-5 border-t border-[#c9922a]/15 space-y-1">

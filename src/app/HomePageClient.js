@@ -79,13 +79,79 @@ function SearchBox({ value, onChange }) {
   );
 }
 
+function getIconStyles(iconText = '') {
+  const len = Array.from(iconText).length;
+
+  if (len <= 2) {
+    return {
+      fontSize: '30px',
+      lineHeight: '1',
+      letterSpacing: '0',
+    };
+  }
+
+  if (len <= 5) {
+    return {
+      fontSize: '20px',
+      lineHeight: '1.05',
+      letterSpacing: '0.5px',
+    };
+  }
+
+  if (len <= 8) {
+    return {
+      fontSize: '16px',
+      lineHeight: '1.05',
+      letterSpacing: '0.3px',
+    };
+  }
+
+  return {
+    fontSize: '13px',
+    lineHeight: '1.05',
+    letterSpacing: '0',
+  };
+}
+
+function StotramIcon({ s, className = 'h-[66px] w-[66px] mb-4' }) {
+  if (s.deityIcon) {
+    return (
+      <img
+        src={s.deityIcon}
+        alt={s.deity}
+        className={`${className} object-contain drop-shadow-sm`}
+      />
+    );
+  }
+
+  const iconStyles = getIconStyles(s.deityEmoji || '');
+
+  return (
+    <div
+      className={`${className} rounded-2xl flex items-center justify-center bg-gradient-to-br from-[#fff7e8] to-[#fff1d1] border border-[#c9922a]/20 shadow-sm overflow-hidden`}
+    >
+      <span
+        className="flex items-center justify-center w-full h-full text-center px-1 break-words select-none"
+        style={{
+          ...iconStyles,
+          whiteSpace: 'normal',
+          overflowWrap: 'anywhere',
+          wordBreak: 'break-word',
+        }}
+      >
+        {s.deityEmoji}
+      </span>
+    </div>
+  );
+}
+
 function StotramCard({ s, index }) {
   const { lang } = useLang();
 
   return (
     <Link
       href={`/${s.slug}`}
-      className="group relative bg-white border border-[#c9922a]/30 rounded-2xl p-6 hover:border-[#c9922a] hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden"
+      className="group relative bg-white border border-[#c9922a]/30 rounded-2xl p-6 hover:border-[#c9922a] hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden min-h-[360px] flex flex-col"
       style={{ animationDelay: `${index * 0.08}s` }}
     >
       <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-[#c9922a]/0 to-transparent group-hover:via-[#c9922a] transition-all duration-300" />
@@ -96,25 +162,25 @@ function StotramCard({ s, index }) {
         </span>
       )}
 
-      <span className="text-4xl block mb-4">{s.deityEmoji}</span>
+      <StotramIcon s={s} />
 
-      <h2 className="font-cinzel text-base font-bold text-[#8b1a00] mb-1 leading-tight">
+      <h2 className="font-cinzel text-base font-bold text-[#8b1a00] mb-1 leading-tight min-h-[52px]">
         {s.title?.[lang] || s.title?.en}
       </h2>
 
-      <p className="font-cinzel-reg text-xs text-[#e8760a] tracking-widest mb-3 uppercase">
+      <p className="font-cinzel-reg text-xs text-[#e8760a] tracking-widest mb-3 uppercase min-h-[20px]">
         {s.deity}
       </p>
 
-      <p className="font-garamond text-sm text-[#3d1a00]/70 leading-relaxed mb-4 line-clamp-2">
+      <p className="font-garamond text-sm text-[#3d1a00]/70 leading-relaxed mb-4 line-clamp-3 min-h-[72px]">
         {s.description?.[lang] || s.description?.en}
       </p>
 
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between mt-auto">
         <span className="font-cinzel-reg text-[10px] tracking-widest text-[#c9922a]/70 uppercase">
           {s.verseCount} {s.verseCount === 1 ? 'Verse' : 'Verses'}
         </span>
-        <span className="font-cinzel-reg text-[10px] tracking-widest text-[#c9922a]/70 uppercase">
+        <span className="font-cinzel-reg text-[10px] tracking-widest text-[#c9922a]/70 uppercase text-right">
           {s.language}
         </span>
       </div>
@@ -132,7 +198,20 @@ function StotramCard({ s, index }) {
 function HomeContent() {
   const [query, setQuery] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
+  const [showAllStotramsPage, setShowAllStotramsPage] = useState(false);
+
   const ITEMS_PER_PAGE = 8;
+
+  useEffect(() => {
+    const syncHashState = () => {
+      setShowAllStotramsPage(window.location.hash === '#all-stotrams');
+    };
+
+    syncHashState();
+    window.addEventListener('hashchange', syncHashState);
+
+    return () => window.removeEventListener('hashchange', syncHashState);
+  }, []);
 
   const krishnaSlug = 'krishna-vasudevaya-mantra';
   const krishnaItem = STOTRAMS_INDEX.find((s) => s.slug === krishnaSlug);
@@ -140,14 +219,15 @@ function HomeContent() {
   const featured = useMemo(() => {
     const items = STOTRAMS_INDEX.filter((s) => s.featured);
     const hasKrishna = items.some((s) => s.slug === krishnaSlug);
-
     const merged = hasKrishna || !krishnaItem ? items : [krishnaItem, ...items];
 
-    return merged.sort((a, b) => {
-      if (a.slug === krishnaSlug) return -1;
-      if (b.slug === krishnaSlug) return 1;
-      return 0;
-    });
+    return merged
+      .sort((a, b) => {
+        if (a.slug === krishnaSlug) return -1;
+        if (b.slug === krishnaSlug) return 1;
+        return 0;
+      })
+      .slice(0, 9);
   }, [krishnaItem]);
 
   const allPrayers = useMemo(() => {
@@ -204,18 +284,14 @@ function HomeContent() {
     return allPrayers.filter((s) => matchesQuery(s, q));
   }, [query, allPrayers]);
 
-  const totalResults = filteredAll.length;
-
-  // Pagination logic for All Prayers section
-  const totalPages = Math.ceil(filteredAll.length / ITEMS_PER_PAGE);
+  const totalResults = showAllStotramsPage ? filteredAll.length : filteredFeatured.length;
+  const totalPages = Math.max(1, Math.ceil(filteredAll.length / ITEMS_PER_PAGE));
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const endIndex = startIndex + ITEMS_PER_PAGE;
-  const paginatedAll = filteredAll.slice(startIndex, endIndex);
+  const paginatedAll = filteredAll.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
-  // Reset to page 1 when search query changes
   useEffect(() => {
     setCurrentPage(1);
-  }, [query]);
+  }, [query, showAllStotramsPage]);
 
   return (
     <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
@@ -263,138 +339,135 @@ function HomeContent() {
         )}
       </div>
 
-      <section className="mb-14">
-        <div className="bg-white border border-[#c9922a]/20 rounded-2xl p-6 sm:p-8 shadow-sm">
-          <h2 className="font-cinzel text-2xl text-[#8b1a00] font-bold mb-4">
-            What you can read on Divya Stotram
-          </h2>
+      {!showAllStotramsPage && (
+        <section className="mb-14">
+          <div className="bg-white border border-[#c9922a]/20 rounded-2xl p-6 sm:p-8 shadow-sm">
+            <h2 className="font-cinzel text-2xl text-[#8b1a00] font-bold mb-4">
+              What you can read on Divya Stotram
+            </h2>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-left">
-            {[
-              'Hanuman Chalisa in English, Hindi, Odia and Telugu',
-              'Shiva Tandav Stotram lyrics with meaning',
-              'Vishnu Sahasranamam with structured reading format',
-              'Durga Stotram, Aigiri Nandini and more devotional prayers',
-            ].map((item) => (
-              <div
-                key={item}
-                className="rounded-xl border border-[#c9922a]/15 p-4 bg-[#fffaf1]"
-              >
-                <p className="font-garamond text-base text-[#3d1a00]/80">{item}</p>
-              </div>
-            ))}
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-left">
+              {[
+                'Hanuman Chalisa in English, Hindi, Odia and Telugu',
+                'Shiva Tandav Stotram lyrics with meaning',
+                'Vishnu Sahasranamam with structured reading format',
+                'Durga Stotram, Aigiri Nandini and more devotional prayers',
+              ].map((item) => (
+                <div
+                  key={item}
+                  className="rounded-xl border border-[#c9922a]/15 p-4 bg-[#fffaf1]"
+                >
+                  <p className="font-garamond text-base text-[#3d1a00]/80">{item}</p>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
-      {!!filteredFeatured.length && (
+      {!showAllStotramsPage && !!filteredFeatured.length && (
         <section className="mb-16">
           <div className="flex items-center gap-4 mb-8">
             <div className="h-px flex-1 bg-gradient-to-r from-[#c9922a]/30 to-transparent" />
-            <p className="font-cinzel-reg text-[11px] tracking-[5px] uppercase text-[#e8760a] font-bold">
+            <span className="font-cinzel-reg text-[11px] tracking-[5px] uppercase text-[#e8760a]">
               Featured Prayers
-            </p>
+            </span>
             <div className="h-px flex-1 bg-gradient-to-l from-[#c9922a]/30 to-transparent" />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredFeatured.map((s, i) => (
-              <StotramCard key={`featured-${s.slug}`} s={s} index={i} />
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filteredFeatured.map((s, index) => (
+              <StotramCard key={s.slug} s={s} index={index} />
             ))}
           </div>
         </section>
       )}
 
-      <section className="mb-16">
-        <div className="flex items-center gap-4 mb-8">
-          <div className="h-px flex-1 bg-gradient-to-r from-[#c9922a]/30 to-transparent" />
-          <p className="font-cinzel-reg text-[11px] tracking-[5px] uppercase text-[#e8760a] font-bold">
-            Mantras for Life Situations
-          </p>
-          <div className="h-px flex-1 bg-gradient-to-l from-[#c9922a]/30 to-transparent" />
-        </div>
-
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-          <Link href="/best-mantra-for-anxiety" className="bg-white p-4 rounded-xl border hover:shadow transition">
-            Best Mantra for Anxiety
-          </Link>
-          <Link href="/best-mantra-for-confidence" className="bg-white p-4 rounded-xl border hover:shadow transition">
-            Best Mantra for Confidence
-          </Link>
-          <Link href="/best-mantra-for-study-focus" className="bg-white p-4 rounded-xl border hover:shadow transition">
-            Best Mantra for Study
-          </Link>
-          <Link href="/best-mantra-for-money" className="bg-white p-4 rounded-xl border hover:shadow transition">
-            Best Mantra for Money
-          </Link>
-          <Link href="/best-prayer-for-inner-peace" className="bg-white p-4 rounded-xl border hover:shadow transition">
-            Best Prayer for Inner Peace
-          </Link>
-          <Link href="/best-mantra-for-sleep" className="bg-white p-4 rounded-xl border hover:shadow transition">
-            Best Mantra for Sleep
-          </Link>
-        </div>
-      </section>
-
-      <section className="mb-16" id="all-stotrams">
-        <div className="flex items-center gap-4 mb-8">
-          <div className="h-px flex-1 bg-gradient-to-r from-[#c9922a]/30 to-transparent" />
-          <p className="font-cinzel-reg text-[11px] tracking-[5px] uppercase text-[#e8760a] font-bold">
-            All Prayers
-          </p>
-          <div className="h-px flex-1 bg-gradient-to-l from-[#c9922a]/30 to-transparent" />
-        </div>
-
-        {filteredAll.length ? (
-          <>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-              {paginatedAll.map((s, i) => (
-                <StotramCard key={`all-${s.slug}`} s={s} index={i} />
-              ))}
-            </div>
-
-            {/* Pagination Controls */}
-            {totalPages > 1 && (
-              <div className="mt-10 flex items-center justify-center gap-6">
-                <button
-                  onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
-                  disabled={currentPage === 1}
-                  className="font-cinzel-reg text-sm tracking-widest uppercase px-6 py-3 rounded-full border border-[#c9922a]/30 bg-white hover:bg-[#fffaf1] hover:border-[#c9922a] transition-all disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-white disabled:hover:border-[#c9922a]/30"
-                >
-                  ← Previous
-                </button>
-
-                <div className="flex items-center gap-3">
-                  <span className="font-cinzel text-sm text-[#8b1a00]">
-                    Page {currentPage} of {totalPages}
-                  </span>
-                  <span className="font-garamond text-xs text-[#c9922a]/70">
-                    ({filteredAll.length} total stotrams)
-                  </span>
-                </div>
-
-                <button
-                  onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
-                  disabled={currentPage === totalPages}
-                  className="font-cinzel-reg text-sm tracking-widest uppercase px-6 py-3 rounded-full border border-[#c9922a]/30 bg-white hover:bg-[#fffaf1] hover:border-[#c9922a] transition-all disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-white disabled:hover:border-[#c9922a]/30"
-                >
-                  Next →
-                </button>
-              </div>
-            )}
-          </>
-        ) : (
-          <div className="bg-white border border-[#c9922a]/20 rounded-2xl p-8 text-center shadow-sm">
-            <p className="font-cinzel text-lg text-[#8b1a00] font-bold mb-2">
-              No prayers found
-            </p>
-            <p className="font-garamond text-base text-[#3d1a00]/70">
-              Try searching with another prayer name like Hanuman, Shiva, Durga, Vishnu or
-              Chalisa.
-            </p>
+      {!showAllStotramsPage && !query.trim() && (
+        <section className="mb-16">
+          <div className="flex items-center gap-4 mb-8">
+            <div className="h-px flex-1 bg-gradient-to-r from-[#c9922a]/30 to-transparent" />
+            <span className="font-cinzel-reg text-[11px] tracking-[5px] uppercase text-[#e8760a]">
+              Mantras for Life Situations
+            </span>
+            <div className="h-px flex-1 bg-gradient-to-l from-[#c9922a]/30 to-transparent" />
           </div>
-        )}
-      </section>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { label: 'Best Mantra for Anxiety', href: '/best-mantra-for-anxiety' },
+              { label: 'Best Mantra for Confidence', href: '/best-mantra-for-confidence' },
+              { label: 'Best Mantra for Study', href: '/best-mantra-for-study-focus' },
+              { label: 'Best Mantra for Money', href: '/best-mantra-for-money' },
+              { label: 'Best Prayer for Inner Peace', href: '/best-prayer-for-inner-peace' },
+              { label: 'Best Mantra for Sleep', href: '/best-mantra-for-sleep' },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="rounded-xl border border-[#c9922a]/20 bg-white px-5 py-4 font-garamond text-base text-[#3d1a00]/85 hover:border-[#c9922a]/40 hover:shadow-sm transition-all"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {showAllStotramsPage && (
+        <section id="all-stotrams" className="mb-16 scroll-mt-24">
+          <div className="flex items-center gap-4 mb-8">
+            <div className="h-px flex-1 bg-gradient-to-r from-[#c9922a]/30 to-transparent" />
+            <span className="font-cinzel-reg text-[11px] tracking-[5px] uppercase text-[#e8760a]">
+              All Stotrams
+            </span>
+            <div className="h-px flex-1 bg-gradient-to-l from-[#c9922a]/30 to-transparent" />
+          </div>
+
+          {!!filteredAll.length ? (
+            <>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                {paginatedAll.map((s, index) => (
+                  <StotramCard key={s.slug} s={s} index={index} />
+                ))}
+              </div>
+
+              {totalPages > 1 && (
+                <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 text-center">
+                  <button
+                    onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
+                    disabled={currentPage === 1}
+                    className="min-w-[132px] rounded-full border border-[#c9922a]/25 bg-white px-5 py-2.5 font-cinzel-reg text-xs tracking-[2px] uppercase text-[#8b1a00] disabled:opacity-35 disabled:cursor-not-allowed hover:border-[#c9922a]/50 transition-all"
+                  >
+                    ← Previous
+                  </button>
+
+                  <p className="font-cinzel-reg text-[11px] tracking-[2px] uppercase text-[#8b1a00]/75">
+                    Page {currentPage} of {totalPages}
+                    <span className="block mt-1 text-[#c9922a]/80 normal-case tracking-normal font-garamond text-base">
+                      ({filteredAll.length} total stotrams)
+                    </span>
+                  </p>
+
+                  <button
+                    onClick={() => setCurrentPage((prev) => Math.min(totalPages, prev + 1))}
+                    disabled={currentPage === totalPages}
+                    className="min-w-[132px] rounded-full border border-[#c9922a]/25 bg-white px-5 py-2.5 font-cinzel-reg text-xs tracking-[2px] uppercase text-[#8b1a00] disabled:opacity-35 disabled:cursor-not-allowed hover:border-[#c9922a]/50 transition-all"
+                  >
+                    Next →
+                  </button>
+                </div>
+              )}
+            </>
+          ) : (
+            <div className="rounded-2xl border border-[#c9922a]/20 bg-white p-10 text-center">
+              <p className="font-garamond text-lg text-[#3d1a00]/70">
+                No stotrams found for your search.
+              </p>
+            </div>
+          )}
+        </section>
+      )}
     </div>
   );
 }

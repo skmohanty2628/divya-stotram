@@ -15,6 +15,7 @@ import { adityaHridayam } from '@/data/aditya-hridayam';
 import { navagrahaStotram } from '@/data/navagraha-stotram';
 import { aigiriNandini } from '@/data/aigiri-nandini';
 import { shivChalisa } from '@/data/shiv-chalisa';
+import { krishnaVasudevayaMantra } from '@/data/krishna-vasudevaya-mantra';
 
 import StotramClientPage from './StotramClientPage';
 
@@ -37,6 +38,7 @@ const VERSE_DATA = {
   'navagraha-stotram': navagrahaStotram,
   'aigiri-nandini': aigiriNandini,
   'shiv-chalisa': shivChalisa,
+  'krishna-vasudevaya-mantra': krishnaVasudevayaMantra,
 };
 
 const SEO_COPY = {
@@ -105,6 +107,11 @@ const SEO_COPY = {
     description:
       'Read Shiv Chalisa in English, Hindi, Odia and Telugu with meaning, lyrics, benefits and FAQs.',
   },
+  'krishna-vasudevaya-mantra': {
+    title: 'Krishna Vasudevaya Mantra | Om Krishnaya Vasudevaya Haraye Paramatmane',
+    description:
+      'Powerful Krishna Vasudevaya Mantra in English, Hindi, Odia & Telugu - Om Krishnaya Vasudevaya Haraye Paramatmane. Destroyer of sorrows, brings peace and prosperity.',
+  },
 };
 
 function getMeta(slug) {
@@ -159,7 +166,7 @@ function buildDevotionalMetadata(page, slug) {
   };
 }
 
-// ✅ FIXED: Generates ALL pages (13 stotrams + 94 devotional = 107 total)
+// ✅ FIXED: Generates ALL pages (14 stotrams + 94 devotional = 108 total)
 export function generateStaticParams() {
   // Get all stotram slugs
   const stotramParams = STOTRAMS_INDEX.map((item) => ({ slug: item.slug }));
@@ -258,37 +265,10 @@ export async function generateMetadata({ params }) {
 }
 
 function DevotionalContentPage({ page }) {
-  const detectMantra = () => {
-    const text = `${page.slug} ${page.title}`.toLowerCase();
-
-    if (text.includes('anxiety')) {
-      return { name: 'Calming Chant (Om Namah Shivaya)', link: '/chanting-room?type=calm' };
-    }
-
-    if (text.includes('confidence')) {
-      return { name: 'Hanuman Chalisa', link: '/hanuman-chalisa' };
-    }
-
-    if (text.includes('study') || text.includes('exam')) {
-      return { name: 'Saraswati Vandana', link: '/saraswati-vandana' };
-    }
-
-    if (text.includes('money') || text.includes('wealth')) {
-      return { name: 'Mahalakshmi Ashtakam', link: '/mahalakshmi-ashtakam' };
-    }
-
-    if (text.includes('peace')) {
-      return { name: 'Gayatri Mantra', link: '/gayatri-mantra' };
-    }
-
-    if (text.includes('sleep')) {
-      return { name: 'Sleep Chant (Omm)', link: '/chanting-room?type=sleep' };
-    }
-
-    return { name: 'Explore Stotrams', link: '/' };
+  const mantra = {
+    name: page.mantra?.name || 'Hanuman Chalisa',
+    link: page.mantra?.link || '/hanuman-chalisa',
   };
-
-  const mantra = detectMantra();
 
   return (
     <main className="relative z-10 max-w-5xl mx-auto px-4 py-20">

@@ -196,6 +196,26 @@ export const STOTRAMS_INDEX = [
     language: 'Hindi',
     featured: false,
   },
+
+  // ── KRISHNA VASUDEVAYA MANTRA (NEW - SEO OPTIMIZED) ────────────────────────
+  {
+    slug: 'krishna-vasudevaya-mantra',
+    title: { en: 'Krishna Vasudevaya Mantra', hi: 'कृष्ण वासुदेवाय मंत्र', od: 'କୃଷ୍ଣ ବାସୁଦେବାୟ ମନ୍ତ୍ର', te: 'కృష్ణ వాసుదేవాయ మంత్రం' },
+    deity: 'Krishna',
+    deityEmoji: '🦚',
+    description: {
+      en: 'The most powerful single-verse Krishna mantra — Om Krishnaya Vasudevaya Haraye Paramatmane — destroyer of all sorrows, grants peace, prosperity, divine protection and moksha',
+      hi: 'सबसे शक्तिशाली एकल श्लोक कृष्ण मंत्र — ॐ कृष्णाय वासुदेवाय हरये परमात्मने — सभी दुखों का नाश करता है, शांति, समृद्धि, दिव्य सुरक्षा और मोक्ष देता है',
+      od: 'ସବୁଠୁ ଶକ୍ତିଶାଳୀ ଏକକ ଶ୍ଲୋକ କୃଷ୍ଣ ମନ୍ତ୍ର — ଓଁ କୃଷ୍ଣାୟ ବାସୁଦେବାୟ ହରୟେ ପରମାତ୍ମନେ — ସମସ୍ତ ଦୁଃଖ ନାଶ କରେ, ଶାନ୍ତି, ସମୃଦ୍ଧି, ଦିବ୍ୟ ସୁରକ୍ଷା ଓ ମୋକ୍ଷ ଦିଏ',
+      te: 'అత్యంత శక్తివంతమైన ఏక శ్లోక కృష్ణ మంత్రం — ఓం కృష్ణాయ వాసుదేవాయ హరయే పరమాత్మనే — అన్ని దుఃఖాలను నాశనం చేస్తుంది, శాంతి, శ్రేయస్సు, దివ్య రక్షణ మరియు మోక్షం ప్రసాదిస్తుంది',
+    },
+    color: 'from-blue-950 to-purple-950',
+    accent: '#4a90d9',
+    youtubeId: 'KJQ8KFVmMPU',
+    verseCount: 1,
+    language: 'Sanskrit',
+    featured: true,
+  },
 ];
 
 export function getStotramBySlug(slug) {

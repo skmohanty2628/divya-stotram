@@ -62,14 +62,18 @@ export default function AboutPage() {
           </div>
 
           {/* Team */}
-          <div className="bg-gradient-to-br from-[#1a0505]/90 to-[#0d0202]/95 border border-[#c9922a]/25 rounded-2xl p-8 mb-10">
+          <div className="bg-gradient-to-br from-[#1a0505]/90 to-[#0d0202]/95 border border-[#c9922a]/25 rounded-2xl p-8 mb-8">
             <p className="font-cinzel-reg text-[10px] tracking-[4px] uppercase text-[#e8760a] mb-4">The Team</p>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 mb-4">
               <div className="w-14 h-14 rounded-full bg-[#c9922a]/20 border border-[#c9922a]/40 flex items-center justify-center text-2xl">🙏</div>
               <div>
                 <p className="font-cinzel text-base font-bold text-[#f0c040]">Team Divya Stotram</p>
                 <p className="font-garamond text-sm text-[#e8d5b5]/60">India · Built with devotion</p>
               </div>
+            </div>
+            <div className="pt-4 border-t border-[#c9922a]/15">
+              <p className="font-cinzel-reg text-[9px] tracking-[3px] uppercase text-[#e8760a]/70 mb-2">Contact Us</p>
+              <p className="font-garamond text-sm text-[#f0c040]">contactdivyastotram@gmail.com</p>
             </div>
           </div>
 

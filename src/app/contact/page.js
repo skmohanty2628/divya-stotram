@@ -12,7 +12,7 @@ export default function ContactPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Opens user's email client with pre-filled message
-    const mailto = `mailto:contact@divyastotram.com?subject=${encodeURIComponent(form.subject || 'Message from Divya Stotram')}&body=${encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`)}`;
+    const mailto = `mailto:contactdivyastotram@gmail.com?subject=${encodeURIComponent(form.subject || 'Message from Divya Stotram')}&body=${encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`)}`;
     window.open(mailto);
     setSent(true);
   };
@@ -38,7 +38,7 @@ export default function ContactPage() {
           {/* Contact info cards */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
             {[
-              { icon: Mail,          label: 'Email',    value: 'contact@divyastotram.com' },
+              { icon: Mail,          label: 'Email',    value: 'contactdivyastotram@gmail.com' },
               { icon: MapPin,        label: 'Location', value: 'India' },
               { icon: MessageCircle, label: 'Response', value: 'Within 48 hours' },
             ].map(({ icon: Icon, label, value }, i) => (

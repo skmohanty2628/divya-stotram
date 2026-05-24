@@ -3,18 +3,39 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import { LangProvider } from '@/components/LanguageSwitcher';
-import { Mail, MapPin, MessageCircle } from 'lucide-react';
+import { Mail, MapPin, MessageCircle, Loader2 } from 'lucide-react';
 
 export default function ContactPage() {
   const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Opens user's email client with pre-filled message
-    const mailto = `mailto:contactdivyastotram@gmail.com?subject=${encodeURIComponent(form.subject || 'Message from Divya Stotram')}&body=${encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`)}`;
-    window.open(mailto);
-    setSent(true);
+    setLoading(true);
+    setError('');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to send message');
+      }
+
+      setSent(true);
+      setForm({ name: '', email: '', subject: '', message: '' });
+    } catch (err) {
+      setError(err.message || 'Something went wrong. Please try again.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -54,6 +75,14 @@ export default function ContactPage() {
           {!sent ? (
             <div className="bg-gradient-to-br from-[#1a0505]/90 to-[#0d0202]/95 border border-[#c9922a]/25 rounded-2xl p-8">
               <p className="font-cinzel-reg text-[10px] tracking-[4px] uppercase text-[#e8760a] mb-6">Send a Message</p>
+              
+              {/* Error Message */}
+              {error && (
+                <div className="mb-6 bg-red-900/20 border border-red-500/30 rounded-lg p-4">
+                  <p className="text-red-400 font-garamond text-sm">⚠️ {error}</p>
+                </div>
+              )}
+              
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div>
@@ -99,9 +128,17 @@ export default function ContactPage() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-[#c9922a] hover:bg-[#f0c040] text-[#0d0202] font-cinzel-reg text-xs tracking-[3px] uppercase font-bold py-3.5 rounded-lg transition-colors"
+                  disabled={loading}
+                  className="w-full bg-[#c9922a] hover:bg-[#f0c040] text-[#0d0202] font-cinzel-reg text-xs tracking-[3px] uppercase font-bold py-3.5 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                 >
-                  Send Message 🙏
+                  {loading ? (
+                    <>
+                      <Loader2 className="animate-spin" size={16} />
+                      Sending...
+                    </>
+                  ) : (
+                    <>Send Message 🙏</>
+                  )}
                 </button>
               </form>
             </div>
@@ -109,7 +146,7 @@ export default function ContactPage() {
             <div className="bg-gradient-to-br from-[#1a0505]/90 to-[#0d0202]/95 border border-[#c9922a]/25 rounded-2xl p-12 text-center">
               <span className="text-5xl block mb-4">🙏</span>
               <p className="font-cinzel text-xl text-[#f0c040] mb-2">Jai Shri Ram!</p>
-              <p className="font-garamond text-lg text-[#e8d5b5]/70">Your message has been opened in your email client. We'll respond within 48 hours.</p>
+              <p className="font-garamond text-lg text-[#e8d5b5]/70">Your message has been sent successfully. We'll respond within 48 hours.</p>
               <button onClick={() => setSent(false)} className="mt-6 font-cinzel-reg text-xs tracking-widest uppercase text-[#c9922a] hover:text-[#f0c040] transition-colors">
                 Send another message
               </button>

@@ -1,165 +1,94 @@
-'use client';
-import { useState } from 'react';
-import Link from 'next/link';
-import Navbar from '@/components/Navbar';
-import { LangProvider } from '@/components/LanguageSwitcher';
-import { Mail, MapPin, MessageCircle, Loader2 } from 'lucide-react';
+import { Resend } from 'resend';
+import { NextResponse } from 'next/server';
 
-export default function ContactPage() {
-  const [sent, setSent] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
-  const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
+// Initialize Resend with API key
+const resend = new Resend(process.env.RESEND_API_KEY);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-    setError('');
+export async function POST(request) {
+  try {
+    const body = await request.json();
+    const { name, email, subject, message } = body;
 
-    try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
-      });
-
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || 'Failed to send message');
-      }
-
-      setSent(true);
-      setForm({ name: '', email: '', subject: '', message: '' });
-    } catch (err) {
-      setError(err.message || 'Something went wrong. Please try again.');
-    } finally {
-      setLoading(false);
+    // Validate required fields
+    if (!name || !email || !message) {
+      return NextResponse.json(
+        { error: 'Missing required fields' },
+        { status: 400 }
+      );
     }
-  };
 
-  return (
-    <LangProvider>
-      <div className="min-h-screen bg-[#0d0202]">
-        <Navbar />
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-16">
+    // Check if Resend is configured
+    if (!process.env.RESEND_API_KEY) {
+      console.error('RESEND_API_KEY is not set');
+      return NextResponse.json(
+        { error: 'Email service not configured' },
+        { status: 503 }
+      );
+    }
 
-          {/* Header */}
-          <div className="text-center mb-12">
-            <span className="text-5xl block mb-5">✉️</span>
-            <h1 className="font-cinzel text-3xl sm:text-4xl font-bold text-[#f0c040] mb-3">Contact Us</h1>
-            <p className="font-garamond italic text-[#e8d5b5]/60 text-lg">We'd love to hear from you</p>
-            <div className="flex items-center justify-center gap-3 mt-4 opacity-40">
-              <div className="h-px w-20 bg-[#c9922a]" />
-              <span className="text-[#c9922a]">✦</span>
-              <div className="h-px w-20 bg-[#c9922a]" />
+    // Send email using Resend
+    const data = await resend.emails.send({
+      from: 'Divya Stotram Contact <onboarding@resend.dev>',
+      to: 'contactdivyastotram@gmail.com',
+      replyTo: email,
+      subject: subject || 'New message from Divya Stotram',
+      html: `
+        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f9f9f9;">
+          <div style="background-color: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+            
+            <!-- Header -->
+            <div style="text-align: center; margin-bottom: 30px; border-bottom: 2px solid #c9922a; padding-bottom: 20px;">
+              <h1 style="color: #c9922a; margin: 0; font-size: 24px;">🕉️ New Message from Divya Stotram</h1>
             </div>
-          </div>
-
-          {/* Contact info cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
-            {[
-              { icon: Mail,          label: 'Email',    value: 'contactdivyastotram@gmail.com' },
-              { icon: MapPin,        label: 'Location', value: 'India' },
-              { icon: MessageCircle, label: 'Response', value: 'Within 48 hours' },
-            ].map(({ icon: Icon, label, value }, i) => (
-              <div key={i} className="bg-gradient-to-br from-[#1a0505]/90 to-[#0d0202]/95 border border-[#c9922a]/25 rounded-xl p-5 text-center">
-                <Icon size={22} className="text-[#c9922a] mx-auto mb-2" />
-                <p className="font-cinzel-reg text-[9px] tracking-[3px] uppercase text-[#e8760a]/70 mb-1">{label}</p>
-                <p className="font-garamond text-sm text-[#f5e8d0]">{value}</p>
-              </div>
-            ))}
-          </div>
-
-          {/* Contact form */}
-          {!sent ? (
-            <div className="bg-gradient-to-br from-[#1a0505]/90 to-[#0d0202]/95 border border-[#c9922a]/25 rounded-2xl p-8">
-              <p className="font-cinzel-reg text-[10px] tracking-[4px] uppercase text-[#e8760a] mb-6">Send a Message</p>
-              
-              {/* Error Message */}
-              {error && (
-                <div className="mb-6 bg-red-900/20 border border-red-500/30 rounded-lg p-4">
-                  <p className="text-red-400 font-garamond text-sm">⚠️ {error}</p>
-                </div>
-              )}
-              
-              <form onSubmit={handleSubmit} className="space-y-5">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                  <div>
-                    <label className="block font-cinzel-reg text-[9px] tracking-[2px] uppercase text-[#c9922a]/70 mb-2">Your Name</label>
-                    <input
-                      type="text" required
-                      value={form.name}
-                      onChange={e => setForm({...form, name: e.target.value})}
-                      placeholder="Ramesh Kumar"
-                      className="w-full bg-[#0d0202] border border-[#c9922a]/25 rounded-lg px-4 py-3 text-[#fdf3e3] font-garamond outline-none focus:border-[#c9922a]/60 placeholder-[#e8d5b5]/20 transition-colors"
-                    />
-                  </div>
-                  <div>
-                    <label className="block font-cinzel-reg text-[9px] tracking-[2px] uppercase text-[#c9922a]/70 mb-2">Your Email</label>
-                    <input
-                      type="email" required
-                      value={form.email}
-                      onChange={e => setForm({...form, email: e.target.value})}
-                      placeholder="you@email.com"
-                      className="w-full bg-[#0d0202] border border-[#c9922a]/25 rounded-lg px-4 py-3 text-[#fdf3e3] font-garamond outline-none focus:border-[#c9922a]/60 placeholder-[#e8d5b5]/20 transition-colors"
-                    />
-                  </div>
-                </div>
-                <div>
-                  <label className="block font-cinzel-reg text-[9px] tracking-[2px] uppercase text-[#c9922a]/70 mb-2">Subject</label>
-                  <input
-                    type="text"
-                    value={form.subject}
-                    onChange={e => setForm({...form, subject: e.target.value})}
-                    placeholder="Suggest a stotram / Report an issue / General query"
-                    className="w-full bg-[#0d0202] border border-[#c9922a]/25 rounded-lg px-4 py-3 text-[#fdf3e3] font-garamond outline-none focus:border-[#c9922a]/60 placeholder-[#e8d5b5]/20 transition-colors"
-                  />
-                </div>
-                <div>
-                  <label className="block font-cinzel-reg text-[9px] tracking-[2px] uppercase text-[#c9922a]/70 mb-2">Message</label>
-                  <textarea
-                    required rows={5}
-                    value={form.message}
-                    onChange={e => setForm({...form, message: e.target.value})}
-                    placeholder="Write your message here..."
-                    className="w-full bg-[#0d0202] border border-[#c9922a]/25 rounded-lg px-4 py-3 text-[#fdf3e3] font-garamond outline-none focus:border-[#c9922a]/60 placeholder-[#e8d5b5]/20 transition-colors resize-none"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  disabled={loading}
-                  className="w-full bg-[#c9922a] hover:bg-[#f0c040] text-[#0d0202] font-cinzel-reg text-xs tracking-[3px] uppercase font-bold py-3.5 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-                >
-                  {loading ? (
-                    <>
-                      <Loader2 className="animate-spin" size={16} />
-                      Sending...
-                    </>
-                  ) : (
-                    <>Send Message 🙏</>
-                  )}
-                </button>
-              </form>
+            
+            <!-- Sender Info -->
+            <div style="background-color: #fef8f0; padding: 20px; border-radius: 8px; margin-bottom: 25px;">
+              <h2 style="color: #333; font-size: 18px; margin-top: 0;">Sender Details</h2>
+              <p style="margin: 8px 0; color: #555;"><strong>Name:</strong> ${name}</p>
+              <p style="margin: 8px 0; color: #555;"><strong>Email:</strong> <a href="mailto:${email}" style="color: #c9922a; text-decoration: none;">${email}</a></p>
+              ${subject ? `<p style="margin: 8px 0; color: #555;"><strong>Subject:</strong> ${subject}</p>` : ''}
             </div>
-          ) : (
-            <div className="bg-gradient-to-br from-[#1a0505]/90 to-[#0d0202]/95 border border-[#c9922a]/25 rounded-2xl p-12 text-center">
-              <span className="text-5xl block mb-4">🙏</span>
-              <p className="font-cinzel text-xl text-[#f0c040] mb-2">Jai Shri Ram!</p>
-              <p className="font-garamond text-lg text-[#e8d5b5]/70">Your message has been sent successfully. We'll respond within 48 hours.</p>
-              <button onClick={() => setSent(false)} className="mt-6 font-cinzel-reg text-xs tracking-widest uppercase text-[#c9922a] hover:text-[#f0c040] transition-colors">
-                Send another message
-              </button>
+            
+            <!-- Message -->
+            <div style="background-color: #fff; padding: 20px; border-left: 4px solid #c9922a; margin-bottom: 20px;">
+              <h3 style="color: #333; font-size: 16px; margin-top: 0;">Message</h3>
+              <p style="color: #555; line-height: 1.6; white-space: pre-wrap;">${message}</p>
             </div>
-          )}
-
-          <div className="text-center mt-8">
-            <Link href="/" className="font-cinzel-reg text-xs tracking-widest uppercase text-[#c9922a]/50 hover:text-[#c9922a] transition-colors">
-              ← Back to Stotrams
-            </Link>
+            
+            <!-- Quick Reply Button -->
+            <div style="text-align: center; margin-top: 30px;">
+              <a href="mailto:${email}?subject=Re: ${encodeURIComponent(subject || 'Your message to Divya Stotram')}" 
+                 style="display: inline-block; background-color: #c9922a; color: white; padding: 12px 30px; text-decoration: none; border-radius: 6px; font-weight: bold;">
+                Reply to ${name}
+              </a>
+            </div>
+            
+            <!-- Footer -->
+            <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e0e0e0; text-align: center; color: #999; font-size: 12px;">
+              <p>This message was sent from the Divya Stotram contact form</p>
+              <p>🕉️ <a href="https://divyastotram.com" style="color: #c9922a; text-decoration: none;">divyastotram.com</a></p>
+            </div>
+            
           </div>
         </div>
-      </div>
-    </LangProvider>
-  );
+      `,
+    });
+
+    console.log('✅ Email sent successfully:', data.id);
+
+    return NextResponse.json(
+      { success: true, messageId: data.id },
+      { status: 200 }
+    );
+
+  } catch (error) {
+    console.error('❌ Error sending email:', error);
+    return NextResponse.json(
+      { 
+        error: 'Failed to send email', 
+        details: error.message 
+      },
+      { status: 500 }
+    );
+  }
 }

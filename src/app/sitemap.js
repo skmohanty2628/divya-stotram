@@ -4,7 +4,7 @@ export default function sitemap() {
   const baseUrl = 'https://divyastotram.com';
 
   // ✅ Fixed stable date (update only when content changes)
-  const LAST_MODIFIED = '2026-04-22';
+  const LAST_MODIFIED = '2026-05-31';
 
   // 🌐 Language codes for multi-language support
   const languages = ['en', 'hi', 'od', 'te'];
@@ -25,6 +25,7 @@ export default function sitemap() {
     'aigiri-nandini',
     'shiv-chalisa',
     'krishna-vasudevaya-mantra',
+    'bajrang-baan',
   ];
 
   // Generate stotram URLs with all language variants

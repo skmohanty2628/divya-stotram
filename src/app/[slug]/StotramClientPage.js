@@ -9,6 +9,8 @@
   import AskPandit from '@/components/AskPandit';
   import StotramInfo from '@/components/StotramInfo';
   import { LangProvider, useLang } from '@/components/LanguageSwitcher';
+  import StreakTracker from '@/components/StreakTracker';
+  import { SubscribeInline } from '@/components/SubscribeWidget';
   // import { trackAndWatch } from '@/lib/firebase';
   import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 
@@ -470,6 +472,7 @@
           </div>
 
           <PageVisitorBadge slug={meta.slug} />
+          <StreakTracker />
         </div>
 
         <ContentSection title={`${meta.title?.en} Meaning and Overview`}>
@@ -512,6 +515,8 @@
         </ContentSection>
 
         <StotramInfo slug={meta.slug} />
+
+        <SubscribeInline />
 
         <RelatedStotrams currentSlug={meta.slug} deity={meta.deity} />
 

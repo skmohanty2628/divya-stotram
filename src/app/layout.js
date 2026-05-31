@@ -1,5 +1,6 @@
 import './globals.css';
 import Link from 'next/link';
+import { SubscribePopup } from '@/components/SubscribeWidget';
 // import TrackVisit from '@/components/TrackVisit';
 
 const SITE_URL = 'https://divyastotram.com';
@@ -206,7 +207,7 @@ export default function RootLayout({ children }) {
           <main className="flex-1">{children}</main>
           <SiteFooter />
         </div>
-
+        <SubscribePopup />
         {/* <TrackVisit /> */}
       </body>
     </html>

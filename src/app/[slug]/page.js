@@ -1,4 +1,3 @@
-
 import { notFound } from 'next/navigation';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 import { devotionalPages, getPageBySlug } from '@/data/devotionalPages';
@@ -17,6 +16,7 @@ import { navagrahaStotram } from '@/data/navagraha-stotram';
 import { aigiriNandini } from '@/data/aigiri-nandini';
 import { shivChalisa } from '@/data/shiv-chalisa';
 import { krishnaVasudevayaMantra } from '@/data/krishna-vasudevaya-mantra';
+import { bajrangBaan } from '@/data/bajrang-baan';
 
 import StotramClientPage from './StotramClientPage';
 
@@ -44,6 +44,7 @@ const VERSE_DATA = {
   'aigiri-nandini': aigiriNandini,
   'shiv-chalisa': shivChalisa,
   'krishna-vasudevaya-mantra': krishnaVasudevayaMantra,
+  'bajrang-baan': bajrangBaan,
 };
 
 const SEO_COPY = {

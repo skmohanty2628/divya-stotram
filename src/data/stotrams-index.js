@@ -207,6 +207,25 @@ export const STOTRAMS_INDEX = [
     featured: false,
   },
   {
+    slug: 'bajrang-baan',
+    title: { en: 'Bajrang Baan', hi: 'बजरंग बाण', od: 'ବଜ୍ରଙ୍ଗ ବାଣ', te: 'బజ్రంగ బాణ' },
+    deity: 'Hanuman',
+    deityEmoji: '🏹',
+    deityIcon: '',
+    description: {
+      en: 'The powerful protective arrow-prayer to Lord Hanuman — Bajrang Baan is a mighty invocation that destroys enemies, removes all fear, evil, and obstacles, and grants fearlessness, strength and divine protection',
+      hi: 'भगवान हनुमान को समर्पित शक्तिशाली सुरक्षात्मक बाण-प्रार्थना — बजरंग बाण शत्रुओं का नाश करता है, भय, बुराई और बाधाओं को दूर करता है',
+      od: 'ହନୁମାନଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ ଶକ୍ତିଶାଳୀ ସୁରକ୍ଷ ବାଣ ପ୍ରାର୍ଥନା — ଶତ୍ରୁ ନାଶ, ଭୟ ଓ ବିଘ୍ନ ଦୂ ର ହୁଏ',
+      te: 'హనుమంతుని శక్తివంతమైన రక్షణ బాణ ప్రార్థన — బజ్రంగ బాణం శత్రువులను నాశనం చేసి, భయం, చెడు, అడ్డంకులను తొలగిస్తుంది',
+    },
+    color: 'from-orange-950 to-red-950',
+    accent: '#c9922a',
+    youtubeId: 'KBkTcHm_6MY',
+    verseCount: 20,
+    language: 'Awadhi Hindi',
+    featured: true,
+  },
+  {
     slug: 'krishna-vasudevaya-mantra',
     title: {
       en: 'Om Krishnaya Vasudevaya Mantra',

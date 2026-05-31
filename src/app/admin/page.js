@@ -25,6 +25,11 @@ import {
   MonitorSmartphone,
   Clock3,
   CheckCircle2,
+  Mail,
+  UserCheck,
+  UserPlus,
+  CalendarDays,
+  RefreshCcw,
 } from 'lucide-react';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 
@@ -208,6 +213,13 @@ export default function AdminPage() {
   const [sessions7d, setSessions7d] = useState(0);
   const [pageViews7d, setPageViews7d] = useState(0);
   const [avgSessionDurationSec, setAvgSessionDurationSec] = useState(0);
+  // 1d
+  const [users1d, setUsers1d] = useState(0);
+  const [sessions1d, setSessions1d] = useState(0);
+  const [pageViews1d, setPageViews1d] = useState(0);
+  // new vs returning
+  const [newUsers7d, setNewUsers7d] = useState(0);
+  const [returningUsers7d, setReturningUsers7d] = useState(0);
   const [topPages, setTopPages] = useState([]);
   const [trafficSources, setTrafficSources] = useState([]);
   const [countries, setCountries] = useState([]);
@@ -218,6 +230,15 @@ export default function AdminPage() {
   );
   const [stotramSearch, setStotramSearch] = useState('');
   const [hideInternalPages, setHideInternalPages] = useState(true);
+
+  // Subscriber stats
+  const [subTotal, setSubTotal] = useState(null);
+  const [subToday, setSubToday] = useState(null);
+  const [subLast7d, setSubLast7d] = useState(null);
+  const [subReturning, setSubReturning] = useState(null);
+  const [subDailyStats, setSubDailyStats] = useState([]);
+  const [subRecent, setSubRecent] = useState([]);
+  const [subLoading, setSubLoading] = useState(false);
 
   const fetchInFlightRef = useRef(false);
 
@@ -285,6 +306,11 @@ export default function AdminPage() {
       setSessions7d(data.sessions7d || 0);
       setPageViews7d(data.pageViews7d || 0);
       setAvgSessionDurationSec(data.avgSessionDurationSec || 0);
+      setUsers1d(data.users1d || 0);
+      setSessions1d(data.sessions1d || 0);
+      setPageViews1d(data.pageViews1d || 0);
+      setNewUsers7d(data.newUsers7d || 0);
+      setReturningUsers7d(data.returningUsers7d || 0);
       setTopPages(Array.isArray(data.topPages) ? data.topPages : []);
       setTrafficSources(
         Array.isArray(data.trafficSources) ? data.trafficSources : []
@@ -305,10 +331,31 @@ export default function AdminPage() {
     }
   };
 
+  const fetchSubscribers = async () => {
+    setSubLoading(true);
+    try {
+      const res = await fetch('/api/admin/subscribers', { cache: 'no-store' });
+      const data = await res.json();
+      if (data.ok) {
+        setSubTotal(data.totalCount);
+        setSubToday(data.todayCount);
+        setSubLast7d(data.last7dCount);
+        setSubReturning(data.returningCount);
+        setSubDailyStats(data.dailyStats || []);
+        setSubRecent(data.recentSubscribers || []);
+      }
+    } catch (e) {
+      console.error('Subscriber fetch error:', e);
+    } finally {
+      setSubLoading(false);
+    }
+  };
+
   useEffect(() => {
     if (!authed) return;
 
     fetchAnalytics();
+    fetchSubscribers();
 
     const interval = setInterval(() => {
       fetchAnalytics({ silent: true });
@@ -365,6 +412,8 @@ export default function AdminPage() {
     'navagraha-stotram',
     'aigiri-nandini',
     'shiv-chalisa',
+    'krishna-vasudevaya-mantra',
+    'bajrang-baan',
   ];
 
   const pagesWithData = STOTRAMS_INDEX.filter((s) =>
@@ -687,27 +736,69 @@ export default function AdminPage() {
                 accent="#4ade80"
                 glow={liveUsers > 0}
               />
-              <StatCard
-                icon={Users}
-                title="Users (7d)"
-                value={formatLargeNumber(users7d)}
-                subtitle="Active users"
-                accent="#f0c040"
-              />
-              <StatCard
-                icon={TrendingUp}
-                title="Sessions (7d)"
-                value={formatLargeNumber(sessions7d)}
-                subtitle="Traffic sessions"
-                accent="#fb7185"
-              />
-              <StatCard
-                icon={Eye}
-                title="Page Views (7d)"
-                value={formatLargeNumber(pageViews7d)}
-                subtitle="Content views"
-                accent="#60a5fa"
-              />
+              {/* Users — dual 1d/7d */}
+              <div className="rounded-3xl border border-[#c9922a]/20 bg-[#1a0505]/95 p-5 shadow-[0_10px_30px_rgba(0,0,0,0.25)] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#c9922a]/35">
+                <div className="mb-3 flex items-center justify-between">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-2xl border border-white/5 bg-white/[0.03]" style={{ color: '#f0c040' }}>
+                    <Users size={18} />
+                  </div>
+                  <span className="font-cinzel-reg text-[9px] uppercase tracking-[2px] text-[#e8d5b5]/40">Users</span>
+                </div>
+                <div className="flex items-end gap-3 mb-1">
+                  <div>
+                    <p className="font-cinzel-reg text-[9px] uppercase tracking-[1.5px] text-[#c9922a]/50">Today</p>
+                    <p className="font-cinzel text-xl font-bold text-[#f0c040]">{formatLargeNumber(users1d)}</p>
+                  </div>
+                  <div className="mb-0.5 h-6 w-px bg-[#c9922a]/20" />
+                  <div>
+                    <p className="font-cinzel-reg text-[9px] uppercase tracking-[1.5px] text-[#c9922a]/50">7 Days</p>
+                    <p className="font-cinzel text-xl font-bold text-[#f0c040]/70">{formatLargeNumber(users7d)}</p>
+                  </div>
+                </div>
+                <p className="font-garamond text-sm text-[#e8d5b5]/60">Active users</p>
+              </div>
+              {/* Sessions — dual 1d/7d */}
+              <div className="rounded-3xl border border-[#c9922a]/20 bg-[#1a0505]/95 p-5 shadow-[0_10px_30px_rgba(0,0,0,0.25)] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#c9922a]/35">
+                <div className="mb-3 flex items-center justify-between">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-2xl border border-white/5 bg-white/[0.03]" style={{ color: '#fb7185' }}>
+                    <TrendingUp size={18} />
+                  </div>
+                  <span className="font-cinzel-reg text-[9px] uppercase tracking-[2px] text-[#e8d5b5]/40">Sessions</span>
+                </div>
+                <div className="flex items-end gap-3 mb-1">
+                  <div>
+                    <p className="font-cinzel-reg text-[9px] uppercase tracking-[1.5px] text-[#c9922a]/50">Today</p>
+                    <p className="font-cinzel text-xl font-bold text-[#fb7185]">{formatLargeNumber(sessions1d)}</p>
+                  </div>
+                  <div className="mb-0.5 h-6 w-px bg-[#c9922a]/20" />
+                  <div>
+                    <p className="font-cinzel-reg text-[9px] uppercase tracking-[1.5px] text-[#c9922a]/50">7 Days</p>
+                    <p className="font-cinzel text-xl font-bold text-[#fb7185]/70">{formatLargeNumber(sessions7d)}</p>
+                  </div>
+                </div>
+                <p className="font-garamond text-sm text-[#e8d5b5]/60">Traffic sessions</p>
+              </div>
+              {/* Page Views — dual 1d/7d */}
+              <div className="rounded-3xl border border-[#c9922a]/20 bg-[#1a0505]/95 p-5 shadow-[0_10px_30px_rgba(0,0,0,0.25)] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#c9922a]/35">
+                <div className="mb-3 flex items-center justify-between">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-2xl border border-white/5 bg-white/[0.03]" style={{ color: '#60a5fa' }}>
+                    <Eye size={18} />
+                  </div>
+                  <span className="font-cinzel-reg text-[9px] uppercase tracking-[2px] text-[#e8d5b5]/40">Page Views</span>
+                </div>
+                <div className="flex items-end gap-3 mb-1">
+                  <div>
+                    <p className="font-cinzel-reg text-[9px] uppercase tracking-[1.5px] text-[#c9922a]/50">Today</p>
+                    <p className="font-cinzel text-xl font-bold text-[#60a5fa]">{formatLargeNumber(pageViews1d)}</p>
+                  </div>
+                  <div className="mb-0.5 h-6 w-px bg-[#c9922a]/20" />
+                  <div>
+                    <p className="font-cinzel-reg text-[9px] uppercase tracking-[1.5px] text-[#c9922a]/50">7 Days</p>
+                    <p className="font-cinzel text-xl font-bold text-[#60a5fa]/70">{formatLargeNumber(pageViews7d)}</p>
+                  </div>
+                </div>
+                <p className="font-garamond text-sm text-[#e8d5b5]/60">Content views</p>
+              </div>
               <StatCard
                 icon={TimerReset}
                 title="Avg Session"
@@ -722,6 +813,54 @@ export default function AdminPage() {
                 subtitle="Content count"
                 accent="#f472b6"
               />
+            </div>
+
+            {/* New vs Returning Users */}
+            <div className="mt-4 grid gap-3 md:grid-cols-2">
+              <div className="rounded-3xl border border-[#c9922a]/20 bg-[#1a0505]/95 p-5 shadow-[0_10px_30px_rgba(0,0,0,0.25)]">
+                <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center gap-2">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-xl border border-white/5 bg-white/[0.03]">
+                      <Flame size={16} className="text-emerald-400" />
+                    </div>
+                    <span className="font-cinzel text-sm font-bold text-emerald-400">New Users</span>
+                  </div>
+                  <span className="font-cinzel-reg text-[9px] uppercase tracking-[1.8px] text-[#e8d5b5]/40">7 Days</span>
+                </div>
+                <p className="font-cinzel text-3xl font-bold text-emerald-400">{formatLargeNumber(newUsers7d)}</p>
+                <p className="mt-1 font-garamond text-sm text-[#e8d5b5]/60">First-time visitors discovering your site</p>
+                <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-[#c9922a]/10">
+                  <div
+                    className="h-full rounded-full bg-gradient-to-r from-emerald-700 to-emerald-400"
+                    style={{ width: `${newUsers7d + returningUsers7d > 0 ? Math.round((newUsers7d / (newUsers7d + returningUsers7d)) * 100) : 50}%` }}
+                  />
+                </div>
+                <p className="mt-1 font-cinzel-reg text-[9px] text-[#c9922a]/40">
+                  {newUsers7d + returningUsers7d > 0 ? Math.round((newUsers7d / (newUsers7d + returningUsers7d)) * 100) : 0}% of total
+                </p>
+              </div>
+              <div className="rounded-3xl border border-[#c9922a]/20 bg-[#1a0505]/95 p-5 shadow-[0_10px_30px_rgba(0,0,0,0.25)]">
+                <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center gap-2">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-xl border border-white/5 bg-white/[0.03]">
+                      <Crown size={16} className="text-[#f0c040]" />
+                    </div>
+                    <span className="font-cinzel text-sm font-bold text-[#f0c040]">Returning Users</span>
+                  </div>
+                  <span className="font-cinzel-reg text-[9px] uppercase tracking-[1.8px] text-[#e8d5b5]/40">7 Days</span>
+                </div>
+                <p className="font-cinzel text-3xl font-bold text-[#f0c040]">{formatLargeNumber(returningUsers7d)}</p>
+                <p className="mt-1 font-garamond text-sm text-[#e8d5b5]/60">Loyal devotees coming back for daily prayers</p>
+                <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-[#c9922a]/10">
+                  <div
+                    className="h-full rounded-full bg-gradient-to-r from-[#c9922a] to-[#f0c040]"
+                    style={{ width: `${newUsers7d + returningUsers7d > 0 ? Math.round((returningUsers7d / (newUsers7d + returningUsers7d)) * 100) : 50}%` }}
+                  />
+                </div>
+                <p className="mt-1 font-cinzel-reg text-[9px] text-[#c9922a]/40">
+                  {newUsers7d + returningUsers7d > 0 ? Math.round((returningUsers7d / (newUsers7d + returningUsers7d)) * 100) : 0}% of total
+                </p>
+              </div>
             </div>
 
             <div className="mt-8 grid gap-6 xl:grid-cols-3">
@@ -926,6 +1065,134 @@ export default function AdminPage() {
                 );
               })}
             </div>
+
+            {/* ── SUBSCRIBER SECTION ────────────────────────────── */}
+            <SectionTitle
+              icon={Mail}
+              right={
+                <button
+                  onClick={fetchSubscribers}
+                  disabled={subLoading}
+                  className="flex items-center gap-2 rounded-full border border-[#c9922a]/20 bg-[#1a0505] px-3 py-1.5 font-cinzel-reg text-[9px] tracking-widest text-[#c9922a]/80 transition-colors hover:text-[#c9922a] disabled:opacity-50"
+                  type="button"
+                >
+                  <RefreshCcw size={11} className={subLoading ? 'animate-spin' : ''} />
+                  Refresh
+                </button>
+              }
+            >
+              Email Subscribers
+            </SectionTitle>
+
+            {/* Subscriber stat cards */}
+            <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+              <div className="rounded-3xl border border-[#c9922a]/20 bg-[#1a0505]/95 p-5">
+                <div className="mb-2 flex items-center gap-2">
+                  <Mail size={16} className="text-[#f0c040]" />
+                  <span className="font-cinzel text-sm text-[#f0c040]">Total</span>
+                </div>
+                <p className="font-cinzel text-3xl font-bold text-[#f0c040]">
+                  {subTotal === null ? '—' : subTotal}
+                </p>
+                <p className="mt-1 font-garamond text-sm text-[#e8d5b5]/60">All-time subscribers</p>
+              </div>
+
+              <div className="rounded-3xl border border-[#c9922a]/20 bg-[#1a0505]/95 p-5">
+                <div className="mb-2 flex items-center gap-2">
+                  <UserPlus size={16} className="text-emerald-400" />
+                  <span className="font-cinzel text-sm text-emerald-400">Today</span>
+                </div>
+                <p className="font-cinzel text-3xl font-bold text-emerald-400">
+                  {subToday === null ? '—' : subToday}
+                </p>
+                <p className="mt-1 font-garamond text-sm text-[#e8d5b5]/60">New today</p>
+              </div>
+
+              <div className="rounded-3xl border border-[#c9922a]/20 bg-[#1a0505]/95 p-5">
+                <div className="mb-2 flex items-center gap-2">
+                  <CalendarDays size={16} className="text-[#60a5fa]" />
+                  <span className="font-cinzel text-sm text-[#60a5fa]">Last 7 Days</span>
+                </div>
+                <p className="font-cinzel text-3xl font-bold text-[#60a5fa]">
+                  {subLast7d === null ? '—' : subLast7d}
+                </p>
+                <p className="mt-1 font-garamond text-sm text-[#e8d5b5]/60">New this week</p>
+              </div>
+
+              <div className="rounded-3xl border border-[#c9922a]/20 bg-[#1a0505]/95 p-5">
+                <div className="mb-2 flex items-center gap-2">
+                  <UserCheck size={16} className="text-[#c084fc]" />
+                  <span className="font-cinzel text-sm text-[#c084fc]">Returning</span>
+                </div>
+                <p className="font-cinzel text-3xl font-bold text-[#c084fc]">
+                  {subReturning === null ? '—' : subReturning}
+                </p>
+                <p className="mt-1 font-garamond text-sm text-[#e8d5b5]/60">Visited more than once</p>
+              </div>
+            </div>
+
+            {/* Daily signups bar chart — last 7 days */}
+            {subDailyStats.length > 0 && (
+              <div className="mt-3 rounded-3xl border border-[#c9922a]/15 bg-[#1a0505]/95 p-5">
+                <p className="mb-4 font-cinzel text-sm font-bold text-[#f0c040]">New Subscribers — Last 7 Days</p>
+                <div className="flex items-end gap-2 h-24">
+                  {subDailyStats.map((day) => {
+                    const maxVal = Math.max(...subDailyStats.map((d) => d.count), 1);
+                    const heightPct = Math.max(4, Math.round((day.count / maxVal) * 100));
+                    return (
+                      <div key={day.date} className="flex flex-1 flex-col items-center gap-1">
+                        <span className="font-cinzel text-[10px] text-[#f0c040]">
+                          {day.count > 0 ? day.count : ''}
+                        </span>
+                        <div className="w-full rounded-t-lg bg-gradient-to-t from-[#c9922a] to-[#f0c040]"
+                          style={{ height: `${heightPct}%` }}
+                        />
+                        <span className="font-cinzel-reg text-[8px] text-[#e8d5b5]/40 text-center leading-tight">
+                          {day.label.split(' ').slice(0, 2).join('\n')}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Recent subscribers list */}
+            {subRecent.length > 0 && (
+              <div className="mt-3 rounded-3xl border border-[#c9922a]/15 bg-[#1a0505]/95 p-5">
+                <p className="mb-4 font-cinzel text-sm font-bold text-[#f0c040]">Recent Subscribers</p>
+                <div className="space-y-2">
+                  {subRecent.map((s, i) => (
+                    <div key={i} className="flex items-center justify-between gap-3 rounded-2xl border border-[#c9922a]/10 bg-[#120202]/60 px-4 py-2.5">
+                      <div className="flex items-center gap-3 min-w-0">
+                        <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#c9922a]/15">
+                          <Mail size={12} className="text-[#c9922a]" />
+                        </div>
+                        <span className="font-garamond text-sm text-[#e8d5b5]/85 truncate">{s.email}</span>
+                      </div>
+                      <div className="flex shrink-0 items-center gap-3">
+                        {s.visitCount > 1 && (
+                          <span className="rounded-full border border-[#c084fc]/30 bg-[#c084fc]/10 px-2 py-0.5 font-cinzel-reg text-[9px] text-[#c084fc]">
+                            {s.visitCount}× visits
+                          </span>
+                        )}
+                        <span className="font-cinzel-reg text-[9px] text-[#c9922a]/40">
+                          {new Date(s.subscribedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {subTotal === null && !subLoading && (
+              <div className="rounded-3xl border border-[#c9922a]/15 bg-[#1a0505]/95 p-5">
+                <p className="font-garamond text-sm italic text-[#e8d5b5]/45">
+                  No subscriber data yet — make sure NEXT_PUBLIC_FIREBASE_DATABASE_URL is set in Vercel.
+                </p>
+              </div>
+            )}
 
             <SectionTitle icon={ShieldCheck}>SEO & AdSense Readiness</SectionTitle>
             <div className="grid gap-3">

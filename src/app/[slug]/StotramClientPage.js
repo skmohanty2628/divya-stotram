@@ -271,6 +271,39 @@
         },
       ],
     },
+    'indra-jimi-jambh-par': {
+      intro: 'Indra Jimi Jambh Par is the most celebrated Kavitt (heroic poem) by the great Hindi poet Kavi Bhushan, composed in the 17th century in praise of Chhatrapati Shivaji Maharaj. Written in Brajbhasha in the Ghanakshari metre, this immortal composition compares Shivaji\'s might and victories to the greatest heroes of Hindu mythology — Indra, Rama, Shiva, Krishna and Parashurama. It is widely recited across India as a tribute to the founder of the Maratha Empire.',
+      benefits: [
+        'Inspires courage, patriotism and warrior spirit',
+        'Reminds us of Shivaji\'s divine-like qualities and righteous rule',
+        'Celebrated in schools and cultural programs across India',
+        'Connects the Maratha legacy with Vedic and Puranic traditions',
+        'Reciting it fills the heart with pride, strength and devotion',
+      ],
+      bestTime: 'This Kavitt is recited on Shiv Jayanti (Shivaji Maharaj\'s birth anniversary), Independence Day, Republic Day and at cultural gatherings. Students learning Hindi literature recite it as a classic of Riti-kaal poetry. It can be recited any time to invoke courage and inspiration.',
+      faq: [
+        {
+          q: 'Who wrote Indra Jimi Jambh Par?',
+          a: 'It was composed by Kavi Bhushan (c. 1613–1715), a celebrated Hindi poet who served in the court of Chhatrapati Shivaji Maharaj and also the Bundeli king Chhatrasal.',
+        },
+        {
+          q: 'What is the meaning of Indra Jimi Jambh Par?',
+          a: 'The poem compares Shivaji to great heroes — as Indra triumphed over the demon Jambha, as Rama over Ravana, as Krishna over Kansa — so Shivaji (the Tiger/Sher) triumphed over the Mughal invaders.',
+        },
+        {
+          q: 'What language is this Kavitt written in?',
+          a: 'It is written in Brajbhasha, a classical form of Hindi widely used in medieval devotional and heroic poetry of the 17th-18th centuries.',
+        },
+        {
+          q: 'What is the poetic metre of this Kavitt?',
+          a: 'It is composed in the Ghanakshari or Kavitta metre — 31 syllables per line with a pause (yati) after the 16th syllable. This was the most popular metre for heroic poetry in the Riti-kaal period.',
+        },
+        {
+          q: 'Why is this poem so famous in India?',
+          a: 'It is one of the finest examples of Veer Ras (heroic sentiment) in Hindi literature. Its powerful imagery, comparing Shivaji to divine figures, makes it deeply inspiring and unforgettable.',
+        },
+      ],
+    },
   };
 
   const DEFAULT_CONTENT = (title, deity) => ({

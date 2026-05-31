@@ -414,6 +414,7 @@ export default function AdminPage() {
     'shiv-chalisa',
     'krishna-vasudevaya-mantra',
     'bajrang-baan',
+    'shivaji-kavitt',
   ];
 
   const pagesWithData = STOTRAMS_INDEX.filter((s) =>

@@ -17,6 +17,8 @@ import { aigiriNandini } from '@/data/aigiri-nandini';
 import { shivChalisa } from '@/data/shiv-chalisa';
 import { krishnaVasudevayaMantra } from '@/data/krishna-vasudevaya-mantra';
 import { bajrangBaan } from '@/data/bajrang-baan';
+import { indraJimiJambhPar } from '@/data/indra-jimi-jambh-par';
+import { shivajiKavitt } from '@/data/shivaji-kavitt';
 
 import StotramClientPage from './StotramClientPage';
 
@@ -45,6 +47,7 @@ const VERSE_DATA = {
   'shiv-chalisa': shivChalisa,
   'krishna-vasudevaya-mantra': krishnaVasudevayaMantra,
   'bajrang-baan': bajrangBaan,
+  'indra-jimi-jambh-par': indraJimiJambhPar,
 };
 
 const SEO_COPY = {
@@ -122,6 +125,11 @@ const SEO_COPY = {
     title: 'Bajrang Baan in English, Hindi, Odia & Telugu with Meaning',
     description:
       'Read Bajrang Baan in English, Hindi, Odia and Telugu with meaning. The powerful protective prayer to Lord Hanuman — destroys enemies, removes fear and evil, grants fearlessness and divine protection.',
+  },
+  'indra-jimi-jambh-par': {
+    title: 'Indra Jimi Jambh Par — Chhatrapati Shivaji Maharaj Kavitt by Kavi Bhushan',
+    description:
+      'Read the immortal Kavitt "Indra Jimi Jambh Par" by Kavi Bhushan praising Chhatrapati Shivaji Maharaj — in Hindi, English, Odia and Telugu with full meaning. Sher Shivaraj hai!',
   },
 };
 

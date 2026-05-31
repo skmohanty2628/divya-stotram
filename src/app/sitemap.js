@@ -26,6 +26,8 @@ export default function sitemap() {
     'shiv-chalisa',
     'krishna-vasudevaya-mantra',
     'bajrang-baan',
+    'indra-jimi-jambh-par',
+    'shivaji-kavitt',
   ];
 
   // Generate stotram URLs with all language variants

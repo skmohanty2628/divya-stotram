@@ -188,7 +188,7 @@
         },
         {
           q: 'Why is Aigiri Nandini so popular?',
-          a: 'It is loved for its strong devotional rhythm, poetic beauty and praise of Goddess Durga\'s victory over evil.',
+          a: "It is loved for its strong devotional rhythm, poetic beauty and praise of Goddess Durga's victory over evil.",
         },
         {
           q: 'When do devotees chant Aigiri Nandini?',
@@ -206,7 +206,7 @@
     },
 
     'krishna-vasudevaya-mantra': {
-      intro: 'Krishna Vasudevaya Mantra is the most powerful single-verse mantra dedicated to Lord Krishna. This sacred mantra — Om Krishnaya Vasudevaya Haraye Paramatmane — invokes Krishna as Vasudeva\'s son, Hari the Supreme Soul, and Govinda, making it extremely potent for devotees seeking Krishna\'s grace and divine protection.',
+      intro: "Krishna Vasudevaya Mantra is the most powerful single-verse mantra dedicated to Lord Krishna. This sacred mantra — Om Krishnaya Vasudevaya Haraye Paramatmane — invokes Krishna as Vasudeva's son, Hari the Supreme Soul, and Govinda, making it extremely potent for devotees seeking Krishna's grace and divine protection.",
       benefits: [
         'Removes all sorrows and mental afflictions',
         'Brings divine protection and blessings of Lord Krishna',
@@ -231,7 +231,42 @@
         },
         {
           q: 'Can women chant this mantra during menstruation?',
-          a: 'Yes, this mantra can be chanted by anyone at any time. Krishna\'s grace is unconditional and not bound by such restrictions.',
+          a: "Yes, this mantra can be chanted by anyone at any time. Krishna's grace is unconditional and not bound by such restrictions.",
+        },
+      ],
+    },
+
+    'bajrang-baan': {
+      intro: 'Bajrang Baan is one of the most powerful and protective prayers dedicated to Lord Hanuman. Composed in Awadhi Hindi, it is an intense invocation that calls upon the full might of Bajrangbali to destroy enemies, remove evil influences, ward off fear, and grant fearlessness to sincere devotees. The word "Baan" means arrow — this prayer is said to strike fear into negative forces like an unstoppable divine arrow.',
+      benefits: [
+        'Destroys enemies and removes evil influences from life',
+        'Grants fearlessness, courage and divine protection',
+        'Removes black magic, evil eye and negative energies',
+        'Provides mental strength during difficult times',
+        'Blesses devotees with health, success and peace of mind',
+        'Hanuman himself protects the life of those who recite it',
+      ],
+      bestTime: 'Bajrang Baan is especially powerful when recited on Tuesdays and Saturdays, which are dedicated to Lord Hanuman. Many devotees chant it during Brahma Muhurta (4–6 AM) or in the evening. It should be recited with complete faith and sincerity — ideally 11 or 108 times for maximum effect.',
+      faq: [
+        {
+          q: 'What is Bajrang Baan?',
+          a: 'Bajrang Baan is a powerful Awadhi Hindi prayer to Lord Hanuman. The word "Baan" means arrow — it is a fierce protective invocation that destroys enemies and removes fear and evil from the devotee\'s life.',
+        },
+        {
+          q: 'Can anyone recite Bajrang Baan?',
+          a: 'Yes, any sincere devotee of Lord Hanuman can recite Bajrang Baan. It should be recited with full faith, devotion and a pure heart for best results.',
+        },
+        {
+          q: 'How many times should Bajrang Baan be chanted?',
+          a: 'Bajrang Baan can be recited 1, 11, or 108 times. Many devotees recite it once daily on Tuesdays and Saturdays as a protective practice.',
+        },
+        {
+          q: 'Is Bajrang Baan different from Hanuman Chalisa?',
+          a: "Yes. Hanuman Chalisa is a 40-verse devotional hymn praising Hanuman's qualities. Bajrang Baan is a more intense protective prayer specifically invoking Hanuman's power to destroy enemies and remove fear.",
+        },
+        {
+          q: 'What is the best time to recite Bajrang Baan?',
+          a: 'Tuesday and Saturday mornings are considered most auspicious. Brahma Muhurta (4–6 AM) is especially powerful. Evening recitation during Hanuman pooja is also highly recommended.',
         },
       ],
     },

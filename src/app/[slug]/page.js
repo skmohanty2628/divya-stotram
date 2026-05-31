@@ -118,6 +118,11 @@ const SEO_COPY = {
     description:
       'Powerful Krishna Vasudevaya Mantra in English, Hindi, Odia & Telugu - Om Krishnaya Vasudevaya Haraye Paramatmane. Destroyer of sorrows, brings peace and prosperity.',
   },
+  'bajrang-baan': {
+    title: 'Bajrang Baan in English, Hindi, Odia & Telugu with Meaning',
+    description:
+      'Read Bajrang Baan in English, Hindi, Odia and Telugu with meaning. The powerful protective prayer to Lord Hanuman — destroys enemies, removes fear and evil, grants fearlessness and divine protection.',
+  },
 };
 
 function getMeta(slug) {
@@ -304,7 +309,6 @@ function DevotionalContentPage({ page }) {
             </section>
           )}
 
-          {/* ✅ IMPROVED: Show related pages dynamically */}
           <section className="mt-10">
             <h2 className="font-cinzel text-2xl font-bold text-[#8b1a00]">
               🔗 Related Mantras & Guidance
@@ -312,50 +316,32 @@ function DevotionalContentPage({ page }) {
 
             <ul className="mt-4 space-y-2">
               <li>
-                <a
-                  href="/best-mantra-for-anxiety"
-                  className="text-orange-600 hover:text-orange-700"
-                >
+                <a href="/best-mantra-for-anxiety" className="text-orange-600 hover:text-orange-700">
                   Best Mantra for Anxiety
                 </a>
               </li>
               <li>
-                <a
-                  href="/best-mantra-for-confidence"
-                  className="text-orange-600 hover:text-orange-700"
-                >
+                <a href="/best-mantra-for-confidence" className="text-orange-600 hover:text-orange-700">
                   Best Mantra for Confidence
                 </a>
               </li>
               <li>
-                <a
-                  href="/best-mantra-for-study-focus"
-                  className="text-orange-600 hover:text-orange-700"
-                >
+                <a href="/best-mantra-for-study-focus" className="text-orange-600 hover:text-orange-700">
                   Best Mantra for Study Focus
                 </a>
               </li>
               <li>
-                <a
-                  href="/best-prayer-for-inner-peace"
-                  className="text-orange-600 hover:text-orange-700"
-                >
+                <a href="/best-prayer-for-inner-peace" className="text-orange-600 hover:text-orange-700">
                   Best Prayer for Inner Peace
                 </a>
               </li>
               <li>
-                <a
-                  href="/best-mantra-for-money"
-                  className="text-orange-600 hover:text-orange-700"
-                >
+                <a href="/best-mantra-for-money" className="text-orange-600 hover:text-orange-700">
                   Best Mantra for Money
                 </a>
               </li>
               <li>
-                <a
-                  href="/how-to-chant-hanuman-chalisa"
-                  className="text-orange-600 hover:text-orange-700"
-                >
+                <a href="/how-to-chant-hanuman-chalisa" className="text-orange-600 hover:text-orange-700">
                   How to Chant Hanuman Chalisa
                 </a>
               </li>

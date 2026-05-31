@@ -11,6 +11,7 @@
   import { LangProvider, useLang } from '@/components/LanguageSwitcher';
   import StreakTracker from '@/components/StreakTracker';
   import { SubscribeInline } from '@/components/SubscribeWidget';
+  import DailyPrayerSuggestions from '@/components/DailyPrayerSuggestions';
   // import { trackAndWatch } from '@/lib/firebase';
   import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 
@@ -551,9 +552,9 @@
 
         <StotramInfo slug={meta.slug} />
 
-        <SubscribeInline />
+        <DailyPrayerSuggestions currentSlug={meta.slug} lang={lang} />
 
-        <RelatedStotrams currentSlug={meta.slug} deity={meta.deity} />
+        <SubscribeInline />
 
         <div className="mt-12 text-center border-t border-[#c9922a]/15 pt-10">
           <p className="font-cinzel text-lg text-[#8b1a00] mb-2">🙏 Share the Blessings</p>

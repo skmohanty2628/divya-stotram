@@ -18,19 +18,15 @@ import { shivChalisa } from '@/data/shiv-chalisa';
 import { krishnaVasudevayaMantra } from '@/data/krishna-vasudevaya-mantra';
 import { bajrangBaan } from '@/data/bajrang-baan';
 import { indraJimiJambhPar } from '@/data/indra-jimi-jambh-par';
-import { shivajiKavitt } from '@/data/shivaji-kavitt';
 
 import StotramClientPage from './StotramClientPage';
 
 const SITE_URL = 'https://divyastotram.com';
 
-// ✅ FORCE FULL DYNAMIC RENDERING - Fix Krishna 404 issue
+// ✅ FORCE FULL DYNAMIC RENDERING
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
-/**
- * Main stotram verse data
- */
 const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
   'durga-stotram': durgaStotram,
@@ -54,82 +50,82 @@ const SEO_COPY = {
   'hanuman-chalisa': {
     title: 'Hanuman Chalisa in English, Hindi, Odia & Telugu with Meaning',
     description:
-      'Read Hanuman Chalisa in English, Hindi, Odia and Telugu with meaning, lyrics, benefits, best time to chant and FAQs.',
+      'Read Hanuman Chalisa in English, Hindi, Odia and Telugu with meaning, lyrics, benefits, best time to chant and FAQs. Hanuman Chalisa full path with meaning — Jai Hanuman Gyan Gun Sagar.',
   },
   'shiva-tandav': {
-    title: 'Shiva Tandav Stotram Lyrics in English, Hindi, Odia & Telugu',
+    title: 'Shiva Tandav Stotram Lyrics in English, Hindi, Odia & Telugu with Meaning',
     description:
-      'Read Shiva Tandav Stotram lyrics in English, Hindi, Odia and Telugu with meaning, devotional overview, benefits and FAQs.',
+      'Read Shiva Tandav Stotram lyrics in English, Hindi, Odia and Telugu with meaning. Jatatavigalajjala — powerful Shiva prayer by Ravana with devotional overview, benefits and FAQs.',
   },
   'vishnu-sahasranamam': {
     title: 'Vishnu Sahasranamam in English, Hindi, Odia & Telugu with Meaning',
     description:
-      'Read Vishnu Sahasranamam in English, Hindi, Odia and Telugu with meaning, structured reading support, benefits and FAQs.',
+      'Read Vishnu Sahasranamam — 1000 names of Lord Vishnu in English, Hindi, Odia and Telugu with meaning. From Mahabharata — structured reading support, benefits and FAQs.',
   },
   'durga-stotram': {
     title: 'Durga Stotram in English, Hindi, Odia & Telugu with Meaning',
     description:
-      'Read Durga Stotram in English, Hindi, Odia and Telugu with devotional meaning, benefits, chanting guidance and FAQs.',
+      'Read Durga Stotram in English, Hindi, Odia and Telugu with devotional meaning. Ya Devi Sarvabhuteshu — Maa Durga prayer with benefits, chanting guidance and FAQs.',
   },
   'aigiri-nandini': {
-    title: 'Aigiri Nandini Lyrics in English, Hindi, Odia & Telugu',
+    title: 'Aigiri Nandini Mahishasura Mardini Lyrics in English, Hindi, Odia & Telugu',
     description:
-      'Read Aigiri Nandini lyrics in English, Hindi, Odia and Telugu with devotional overview, benefits and FAQs.',
+      'Read Aigiri Nandini (Mahishasura Mardini Stotram) lyrics in English, Hindi, Odia and Telugu with meaning. Famous Navratri prayer by Adi Shankaracharya — devotional overview and FAQs.',
   },
   'gayatri-mantra': {
     title: 'Gayatri Mantra in English, Hindi, Odia & Telugu with Meaning',
     description:
-      'Read Gayatri Mantra in English, Hindi, Odia and Telugu with meaning, prayer guidance, benefits and FAQs.',
+      'Read Gayatri Mantra — Om Bhur Bhuva Swaha — in English, Hindi, Odia and Telugu with meaning. Most sacred Vedic mantra with prayer guidance, benefits and FAQs.',
   },
   'ganesh-aarti': {
-    title: 'Ganesh Aarti in English, Hindi, Odia & Telugu with Meaning',
+    title: 'Ganesh Aarti — Jai Ganesh Deva Lyrics in English, Hindi, Odia & Telugu',
     description:
-      'Read Ganesh Aarti in English, Hindi, Odia and Telugu with devotional meaning, benefits and FAQs.',
+      'Read Ganesh Aarti — Jai Ganesh Jai Ganesh Deva — in English, Hindi, Odia and Telugu with devotional meaning. Lord Ganesha prayer with benefits and FAQs.',
   },
   'saraswati-vandana': {
     title: 'Saraswati Vandana in English, Hindi, Odia & Telugu with Meaning',
     description:
-      'Read Saraswati Vandana in English, Hindi, Odia and Telugu with meaning, devotional context, benefits and FAQs.',
+      'Read Saraswati Vandana — Ya Kundendu Tushar Hara Dhavala — in English, Hindi, Odia and Telugu with meaning. Goddess Saraswati prayer for knowledge and wisdom.',
   },
   'mahalakshmi-ashtakam': {
-    title: 'Mahalakshmi Ashtakam in English, Hindi, Odia & Telugu',
+    title: 'Mahalakshmi Ashtakam in English, Hindi, Odia & Telugu with Meaning',
     description:
-      'Read Mahalakshmi Ashtakam in English, Hindi, Odia and Telugu with meaning, prayer benefits and FAQs.',
+      'Read Mahalakshmi Ashtakam — Namastute Mahamaye — in English, Hindi, Odia and Telugu with meaning. Eight-verse prayer to Goddess Lakshmi for wealth and prosperity.',
   },
   'ram-raksha-stotram': {
-    title: 'Ram Raksha Stotram in English, Hindi, Odia & Telugu',
+    title: 'Ram Raksha Stotram in English, Hindi, Odia & Telugu with Meaning',
     description:
-      'Read Ram Raksha Stotram in English, Hindi, Odia and Telugu with devotional overview, benefits and FAQs.',
+      'Read Ram Raksha Stotram in English, Hindi, Odia and Telugu with devotional overview. Powerful Ram protection prayer with benefits and FAQs.',
   },
   'aditya-hridayam': {
-    title: 'Aditya Hridayam in English, Hindi, Odia & Telugu',
+    title: 'Aditya Hridayam in English, Hindi, Odia & Telugu with Meaning',
     description:
-      'Read Aditya Hridayam in English, Hindi, Odia and Telugu with meaning, devotional context, benefits and FAQs.',
+      'Read Aditya Hridayam — sacred solar hymn from Valmiki Ramayana — in English, Hindi, Odia and Telugu with meaning. Surya prayer taught by sage Agastya to Lord Ram.',
   },
   'navagraha-stotram': {
-    title: 'Navagraha Stotram in English, Hindi, Odia & Telugu',
+    title: 'Navagraha Stotram in English, Hindi, Odia & Telugu with Meaning',
     description:
-      'Read Navagraha Stotram in English, Hindi, Odia and Telugu with devotional meaning, benefits and FAQs.',
+      'Read Navagraha Stotram — prayers to all nine planets — in English, Hindi, Odia and Telugu with devotional meaning. Removes malefic planetary effects with benefits and FAQs.',
   },
   'shiv-chalisa': {
     title: 'Shiv Chalisa in English, Hindi, Odia & Telugu with Meaning',
     description:
-      'Read Shiv Chalisa in English, Hindi, Odia and Telugu with meaning, lyrics, benefits and FAQs.',
+      'Read Shiv Chalisa — 40 verses praising Lord Shiva — in English, Hindi, Odia and Telugu with meaning. Jai Girijapati Deen Dayala — lyrics, benefits and FAQs.',
   },
   'krishna-vasudevaya-mantra': {
-    title: 'Krishna Vasudevaya Mantra | Om Krishnaya Vasudevaya Haraye Paramatmane',
+    title: 'Om Krishnaya Vasudevaya Mantra — Krishna Mantra with Meaning',
     description:
-      'Powerful Krishna Vasudevaya Mantra in English, Hindi, Odia & Telugu - Om Krishnaya Vasudevaya Haraye Paramatmane. Destroyer of sorrows, brings peace and prosperity.',
+      'Read Om Krishnaya Vasudevaya Haraye Paramatmane mantra in English, Hindi, Odia & Telugu. Powerful Krishna mantra that destroys sorrow, brings peace and divine protection.',
   },
   'bajrang-baan': {
     title: 'Bajrang Baan in English, Hindi, Odia & Telugu with Meaning',
     description:
-      'Read Bajrang Baan in English, Hindi, Odia and Telugu with meaning. The powerful protective prayer to Lord Hanuman — destroys enemies, removes fear and evil, grants fearlessness and divine protection.',
+      'Read Bajrang Baan — Nishchay Prem Prateeti Te — in English, Hindi, Odia and Telugu with meaning. Powerful Hanuman protective prayer that destroys enemies and removes fear.',
   },
   'indra-jimi-jambh-par': {
-    title: 'Indra Jimi Jambh Par — Chhatrapati Shivaji Maharaj Kavitt by Kavi Bhushan',
+    title: 'Indra Jimi Jambh Par — Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:
-      'Read the immortal Kavitt "Indra Jimi Jambh Par" by Kavi Bhushan praising Chhatrapati Shivaji Maharaj — in Hindi, English, Odia and Telugu with full meaning. Sher Shivaraj hai!',
+      'Read Indra Jimi Jambh Par (इंद्र जिमि जंभ पर) — the immortal Kavitt by Kavi Bhushan praising Chhatrapati Shivaji Maharaj. Full poem lyrics in Hindi with English meaning. Sher Shivaraj hai! Shivaji Maharaj poem in Hindi with meaning.',
   },
 };
 

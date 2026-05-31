@@ -448,7 +448,7 @@ export async function GET(request) {
       batch.map(async (subscriber) => {
         try {
           await resend.emails.send({
-            from: 'Divya Stotram 🕉️ <contactdivyastotram@gmail.com>',
+            from: 'Divya Stotram 🕉️ <noreply@divyastotram.com>',
             to: subscriber.email,
             subject: `🕉️ Today's Sacred Prayer — ${stotram.name} | ${getDayName()}`,
             html: buildEmailHtml(stotram, message, subscriber.email),

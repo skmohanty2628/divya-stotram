@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import { LangProvider } from '@/components/LanguageSwitcher';
+import { SubscribeInline } from '@/components/SubscribeWidget';
 
 export default function AboutPage() {
   return (
@@ -86,6 +87,9 @@ export default function AboutPage() {
             </Link>
           </div>
         </div>
+
+        {/* Subscribe */}
+        <SubscribeInline />
 
         {/* Footer */}
         <div className="border-t border-[#c9922a]/15 py-6 text-center">

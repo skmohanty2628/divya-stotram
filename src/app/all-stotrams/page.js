@@ -7,6 +7,7 @@ import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import { LangProvider, useLang } from '@/components/LanguageSwitcher';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
+import { SubscribeInline } from '@/components/SubscribeWidget';
 
 function SearchBox({ value, onChange }) {
   return (
@@ -322,6 +323,8 @@ function AllStotramsContent() {
           </p>
         </div>
       )}
+
+      <SubscribeInline />
     </div>
   );
 }

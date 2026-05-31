@@ -220,7 +220,7 @@ export const STOTRAMS_INDEX = [
     },
     color: 'from-orange-950 to-red-950',
     accent: '#c9922a',
-    youtubeId: 'KBkTcHm_6MY',
+    youtubeId: 'wuYgr4gcNLw',
     verseCount: 20,
     language: 'Awadhi Hindi',
     featured: true,

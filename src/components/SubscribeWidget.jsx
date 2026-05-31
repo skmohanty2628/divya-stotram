@@ -1,9 +1,13 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { X, Mail, Flame, Bell } from 'lucide-react';
+import { X, Bell, Flame } from 'lucide-react';
 
-// ─── Popup: shows once per session after 15s ──────────────────────────────────
+// ─── Popup: shows on every fresh page load after 15s ─────────────────────────
+// Logic: show on every new page load UNLESS user already subscribed
+// sessionStorage resets on each new tab/visit — perfect for "every visit" behaviour
+// We do NOT use sessionStorage suppression so it shows every time they arrive
+
 export function SubscribePopup() {
   const [show, setShow] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -12,15 +16,15 @@ export function SubscribePopup() {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    // Don't show if already subscribed
     if (typeof window === 'undefined') return;
-    if (localStorage.getItem('divya_subscribed')) return;
-    if (sessionStorage.getItem('divya_popup_shown')) return;
 
+    // Never show again if already subscribed
+    if (localStorage.getItem('divya_subscribed')) return;
+
+    // Show after 15s on every fresh page load
     const timer = setTimeout(() => {
       setShow(true);
-      sessionStorage.setItem('divya_popup_shown', 'true');
-    }, 15000); // 15 seconds delay
+    }, 15000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -76,7 +80,6 @@ export function SubscribePopup() {
 
         {!submitted ? (
           <>
-            {/* Header */}
             <div className="mb-5 flex items-start gap-4">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-[#c9922a]/20 bg-[#c9922a]/10">
                 <Flame size={22} className="text-[#f0c040]" />
@@ -91,7 +94,6 @@ export function SubscribePopup() {
               </div>
             </div>
 
-            {/* Benefits */}
             <div className="mb-5 space-y-2">
               {[
                 'Daily stotram reminder to maintain your streak',
@@ -105,7 +107,6 @@ export function SubscribePopup() {
               ))}
             </div>
 
-            {/* Input */}
             <div className="flex gap-2">
               <input
                 type="email"

@@ -6,6 +6,7 @@ import { Search } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import { LangProvider, useLang } from '@/components/LanguageSwitcher';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
+import { SubscribeInline } from '@/components/SubscribeWidget';
 
 function StarCanvas() {
   useEffect(() => {
@@ -418,6 +419,12 @@ function HomeContent() {
               </div>
             ))}
           </div>
+        </section>
+      )}
+
+      {!query.trim() && (
+        <section className="mb-6 px-4 sm:px-0">
+          <SubscribeInline />
         </section>
       )}
 

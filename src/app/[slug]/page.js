@@ -68,14 +68,14 @@ const SEO_COPY = {
       'Read Durga Stotram in English, Hindi, Odia and Telugu with devotional meaning. Ya Devi Sarvabhuteshu — Maa Durga prayer with benefits, chanting guidance and FAQs.',
   },
   'aigiri-nandini': {
-    title: 'Aigiri Nandini Mahishasura Mardini Lyrics in English, Hindi, Odia & Telugu',
+    title: 'Aigiri Nandini Lyrics in English, Hindi, Odia & Telugu | Mahishasura Mardini Stotram',
     description:
-      'Read Aigiri Nandini (Mahishasura Mardini Stotram) lyrics in English, Hindi, Odia and Telugu with meaning. Famous Navratri prayer by Adi Shankaracharya — devotional overview and FAQs.',
+      'Read Aigiri Nandini (Mahishasura Mardini Stotram) full lyrics in English, Hindi, Odia and Telugu with meaning. Powerful Navratri prayer by Adi Shankaracharya — Ayi Giri Nandini Nandita Medini — verse by verse.',
   },
   'gayatri-mantra': {
-    title: 'Gayatri Mantra in English, Hindi, Odia & Telugu with Meaning',
+    title: 'Gayatri Mantra in English, Hindi, Odia & Telugu — Om Bhur Bhuva Swaha with Meaning',
     description:
-      'Read Gayatri Mantra — Om Bhur Bhuva Swaha — in English, Hindi, Odia and Telugu with meaning. Most sacred Vedic mantra with prayer guidance, benefits and FAQs.',
+      'Read Gayatri Mantra (Om Bhur Bhuva Swaha) in English, Hindi, Odia and Telugu with full meaning. Most powerful Vedic mantra — benefits of chanting 108 times, best time to chant and complete guide.',
   },
   'ganesh-aarti': {
     title: 'Ganesh Aarti — Jai Ganesh Deva Lyrics in English, Hindi, Odia & Telugu',
@@ -88,9 +88,9 @@ const SEO_COPY = {
       'Read Saraswati Vandana — Ya Kundendu Tushar Hara Dhavala — in English, Hindi, Odia and Telugu with meaning. Goddess Saraswati prayer for knowledge and wisdom.',
   },
   'mahalakshmi-ashtakam': {
-    title: 'Mahalakshmi Ashtakam in English, Hindi, Odia & Telugu with Meaning',
+    title: 'Mahalakshmi Ashtakam in English, Hindi, Odia & Telugu — Namaste Astu Mahamaye',
     description:
-      'Read Mahalakshmi Ashtakam — Namastute Mahamaye — in English, Hindi, Odia and Telugu with meaning. Eight-verse prayer to Goddess Lakshmi for wealth and prosperity.',
+      'Read Mahalakshmi Ashtakam (Namaste Astu Mahamaye) in English, Hindi, Odia and Telugu with meaning. Powerful 8-verse Lakshmi prayer for wealth, prosperity and good fortune — recited on Fridays and during Lakshmi Puja.',
   },
   'ram-raksha-stotram': {
     title: 'Ram Raksha Stotram in English, Hindi, Odia & Telugu with Meaning',

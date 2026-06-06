@@ -1846,16 +1846,16 @@ export const devotionalPages = [
   },
   {
     slug: 'best-mantra-for-sleep',
-    title: 'Mantra for Better Sleep',
-    description: 'A simple devotional guide to calming mantras that may support restful sleep.',
-    h1: 'Mantra for Better Sleep',
-    intro: 'For people whose minds feel busy at night, a gentle mantra can become part of a calming sleep routine.',
+    title: 'Best Mantra for Sleep — Hindu Mantras for Deep Sleep & Calm Mind',
+    description: 'Discover the most effective Hindu mantras for sleep — chant these sacred prayers at night to calm the mind, reduce anxiety and get deep restful sleep. Includes Vishnu mantra, Shiva mantra and Gayatri for sleep.',
+    h1: 'Best Mantra for Sleep — Sacred Prayers for Deep Rest',
+    intro: 'Hindu mantras have been used for thousands of years to calm the restless mind before sleep. These sacred chants slow down your thoughts, reduce anxiety and create the perfect inner stillness for deep, restful sleep.',
     sections: [
-      { heading: 'Why mantra before sleep helps', content: 'It can reduce mental noise and give the mind a softer rhythm to settle into.' },
-      { heading: 'Good choices', content: 'Gentle Shiva or Vishnu mantras are often used before bedtime.' },
-      { heading: 'How to practice', content: 'Sit or lie down comfortably and repeat the mantra slowly without forcing anything.' },
-      { heading: 'Keep it soft', content: 'The goal is calmness, not intensity.' },
-      { heading: 'Use it consistently', content: 'A repeated night ritual often helps more than occasional use.' }
+      { heading: 'Why Hindu mantras help you sleep better', content: 'Chanting a mantra before bed activates the parasympathetic nervous system — the body\'s natural rest mode. The rhythmic repetition quiets mental chatter, lowers cortisol and prepares the mind for deep sleep. This is why millions of Hindus chant before sleeping.' },
+      { heading: 'Best mantra for sleep — Om Namah Shivaya', content: 'Om Namah Shivaya is one of the most powerful sleep mantras. Chanting it 108 times before bed calms the nervous system, removes fear and invites the peaceful energy of Lord Shiva into your sleep. Many devotees report deeper and more restful sleep within days.' },
+      { heading: 'Vishnu mantra for sleep', content: 'Om Namo Bhagavate Vasudevaya is ideal for bedtime. Lord Vishnu is the preserver and his energy brings stability, peace and protection during sleep. Chant it softly 21 times while lying down.' },
+      { heading: 'Gayatri Mantra before sleep', content: 'Chanting the Gayatri Mantra 3 or 11 times before sleep purifies the mind of the day\'s stress and anxiety. It is especially powerful during the evening Sandhya time.' },
+      { heading: 'How to practice sleep mantras', content: 'Sit or lie comfortably. Close your eyes. Breathe slowly. Repeat your chosen mantra softly or mentally 11, 21 or 108 times. Let the sound vibration guide your mind into stillness. Do this every night for best results.' }
     ],
     faqs: [
       { q: 'Can I listen while lying down?', a: 'Yes.' },
@@ -2140,4 +2140,3 @@ export function getPageBySlug(slug) {
 export function getAllPageSlugs() {
   return devotionalPages.map((page) => page.slug);
 }
-

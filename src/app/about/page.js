@@ -12,7 +12,16 @@ export default function AboutPage() {
     '@type': 'AboutPage',
     name: `About ${SITE_NAME}`,
     url: `${SITE_URL}/about`,
-    mainEntity: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL, email: CONTACT_EMAIL },
+    mainEntity: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: SITE_URL,
+      email: CONTACT_EMAIL,
+      founder: [
+        { '@type': 'Person', name: 'Subham Mohanty', jobTitle: 'Founder and Editor', sameAs: ['https://github.com/skmohanty2628'] },
+        { '@type': 'Person', name: 'Aishwarya', jobTitle: 'Co-founder' },
+      ],
+    },
   };
   return (
     <SiteShell>
@@ -33,6 +42,21 @@ export default function AboutPage() {
               Odia and Telugu, and {GUIDES.length} practical guides on how, when and why people chant. Each stotram page
               includes the verses, transliteration, a plain-language meaning, an original article on the prayer's
               background, a glossary of key terms and, where available, audio.
+            </p>
+            <h2>Who is behind this site</h2>
+            <p>
+              <strong>Subham Mohanty</strong> is the founder and editor. He builds and maintains the site, prepares and
+              checks the texts, transliterations and guides, and answers reader messages. He is a data and analytics
+              professional by training, and brings the same habit of checking sources and numbers to devotional content.
+              He can be reached at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+            </p>
+            <p>
+              <strong>Aishwarya</strong> is the co-founder. Together we started the site because of the prayers our
+              families recite, and we run it as a small independent project.
+            </p>
+            <p>
+              We are not priests or Sanskrit scholars, and we say so plainly. Where a text, date or custom varies by
+              region or tradition, we say that too, and we welcome corrections from readers who know better.
             </p>
             <h2>What we promise</h2>
             <p>

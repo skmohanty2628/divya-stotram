@@ -11,6 +11,9 @@ export default function sitemap() {
     entry(`${SITE_URL}/all-stotrams`, 'weekly', 0.9),
     entry(`${SITE_URL}/guides`, 'weekly', 0.8),
     entry(`${SITE_URL}/chanting-room`, 'monthly', 0.5),
+    entry(`${SITE_URL}/odia-stotras`, 'weekly', 0.8),
+    entry(`${SITE_URL}/hindi-stotras`, 'weekly', 0.7),
+    entry(`${SITE_URL}/telugu-stotras`, 'weekly', 0.7),
   ];
 
   const stotrams = STOTRAMS_INDEX.flatMap((s) =>

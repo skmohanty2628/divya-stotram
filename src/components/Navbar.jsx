@@ -125,17 +125,17 @@ export default function Navbar() {
             </span>
           </Link>
 
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-3 lg:gap-4 xl:gap-6">
             {[
               { href: '/hanuman-chalisa', label: 'Hanuman' },
               { href: '/durga-stotram', label: 'Durga' },
               { href: '/shiva-tandav', label: 'Shiva' },
-              { href: '/gayatri-mantra', label: 'Surya / Brahma' },
+              { href: '/gayatri-mantra', label: 'Gayatri' },
             ].map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="font-cinzel-reg text-xs tracking-[2px] uppercase text-[#3d1a00]/70 hover:text-[#8b1a00] transition-colors"
+                className="font-cinzel-reg text-xs tracking-[1.5px] xl:tracking-[2px] uppercase whitespace-nowrap text-[#3d1a00]/70 hover:text-[#8b1a00] transition-colors"
               >
                 {item.label}
               </Link>
@@ -143,21 +143,21 @@ export default function Navbar() {
 
             <Link
               href="/all-stotrams"
-              className="font-cinzel-reg text-xs tracking-[2px] uppercase text-[#3d1a00]/70 hover:text-[#8b1a00] transition-colors"
+              className="font-cinzel-reg text-xs tracking-[1.5px] xl:tracking-[2px] uppercase whitespace-nowrap text-[#3d1a00]/70 hover:text-[#8b1a00] transition-colors"
             >
               All Stotrams
             </Link>
 
             <Link
               href="/guides"
-              className="font-cinzel-reg text-xs tracking-[2px] uppercase text-[#3d1a00]/70 hover:text-[#8b1a00] transition-colors"
+              className="font-cinzel-reg text-xs tracking-[1.5px] xl:tracking-[2px] uppercase whitespace-nowrap text-[#3d1a00]/70 hover:text-[#8b1a00] transition-colors"
             >
               Guides
             </Link>
 
             <Link
               href="/chanting-room"
-              className="font-cinzel-reg text-xs tracking-[2px] uppercase flex items-center gap-1.5 bg-[#c9922a]/10 hover:bg-[#c9922a]/20 border border-[#c9922a]/30 text-[#8b1a00] px-3 py-1.5 rounded-full transition-all"
+              className="font-cinzel-reg text-xs tracking-[2px] uppercase whitespace-nowrap flex items-center gap-1.5 bg-[#c9922a]/10 hover:bg-[#c9922a]/20 border border-[#c9922a]/30 text-[#8b1a00] px-3 py-1.5 rounded-full transition-all"
             >
               🎙️ Chanting Room
             </Link>

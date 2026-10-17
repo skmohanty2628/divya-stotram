@@ -109,6 +109,9 @@ function SiteFooter() {
               <Link href="/durga-mantra-during-navratri" className={FOOTER_LINK}>Navratri mantras</Link>
               <Link href="/spiritual-routine-for-beginners" className={FOOTER_LINK}>Daily routine for beginners</Link>
               <Link href="/guides" className={FOOTER_LINK}>All guides →</Link>
+              <Link href="/odia-stotras" className={FOOTER_LINK}>ଓଡ଼ିଆ ସ୍ତୋତ୍ର</Link>
+              <Link href="/hindi-stotras" className={FOOTER_LINK}>हिंदी स्तोत्र</Link>
+              <Link href="/telugu-stotras" className={FOOTER_LINK}>తెలుగు స్తోత్రాలు</Link>
             </div>
           </div>
 

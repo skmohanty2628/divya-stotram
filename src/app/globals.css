@@ -91,3 +91,12 @@ summary::-webkit-details-marker { display: none; }
     scroll-behavior: auto !important;
   }
 }
+
+/* Print / Save as PDF: hide chrome, keep the prayer. */
+@media print {
+  nav, header, footer, .no-print, .fixed, iframe, button, [role="toolbar"] { display: none !important; }
+  body, .min-h-screen { background: #fff !important; }
+  #verses { zoom: 1 !important; box-shadow: none !important; border: none !important; padding: 0 !important; }
+  a { color: inherit !important; text-decoration: none !important; }
+  * { animation: none !important; }
+}

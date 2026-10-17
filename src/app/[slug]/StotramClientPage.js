@@ -12,6 +12,8 @@ import { SubscribeInline } from '@/components/SubscribeWidget';
 import DailyPrayerSuggestions from '@/components/DailyPrayerSuggestions';
 import { LANGS, stotramPath } from '@/lib/site';
 
+import ReadingToolbar from '@/components/ReadingToolbar';
+
 function Breadcrumbs({ title }) {
   return (
     <nav aria-label="Breadcrumb" className="pt-6 mb-4">
@@ -137,6 +139,8 @@ function StotramContent({ meta, verseData, top, children, htmlLang }) {
       </div>
 
       <LanguageTabs slug={meta.slug} />
+
+      <ReadingToolbar title={meta.title?.en || 'this stotram'} />
 
       {top}
 

@@ -154,6 +154,8 @@ function GuidesSection() {
   );
 }
 
+const HUBS = { od: '/odia-stotras', hi: '/hindi-stotras', te: '/telugu-stotras', en: '/all-stotrams' };
+
 function Languages() {
   return (
     <section className="mx-auto max-w-4xl px-4 py-14 text-center sm:px-6">
@@ -163,9 +165,13 @@ function Languages() {
       </p>
       <div className="mt-6 flex flex-wrap justify-center gap-3">
         {LANGS.map((l) => (
-          <span key={l.code} className="rounded-full border border-[#c9922a]/40 bg-white px-5 py-2 font-garamond text-lg text-[#3d1a00]">
+          <Link
+            key={l.code}
+            href={HUBS[l.code] || '/all-stotrams'}
+            className="rounded-full border border-[#c9922a]/40 bg-white px-5 py-2 font-garamond text-lg text-[#3d1a00] transition-colors hover:border-[#c9922a] hover:bg-[#fff3d6]"
+          >
             {l.native}
-          </span>
+          </Link>
         ))}
       </div>
     </section>

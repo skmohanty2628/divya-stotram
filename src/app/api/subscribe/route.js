@@ -1,4 +1,5 @@
 import { Resend } from 'resend';
+import { clientIp, rateLimit } from '@/lib/rateLimit';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
@@ -41,10 +42,13 @@ async function firebaseSet(path, data) {
 
 export async function POST(request) {
   try {
+    if (!rateLimit(`subscribe:${clientIp(request)}`, { limit: 6, windowMs: 10 * 60_000 })) {
+      return Response.json({ ok: false, error: 'Too many attempts. Please try again later.' }, { status: 429 });
+    }
     const body = await request.json();
-    const email = (body?.email || '').trim().toLowerCase();
+    const email = String(body?.email || '').trim().toLowerCase().slice(0, 200);
 
-    if (!email || !email.includes('@') || !email.includes('.')) {
+    if (!/^[^\s@\/#?]+@[^\s@\/#?]+\.[^\s@\/#?]+$/.test(email)) {
       return Response.json(
         { ok: false, error: 'Please provide a valid email address.' },
         { status: 400 }

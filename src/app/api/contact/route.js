@@ -1,13 +1,28 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
+import { clientIp, rateLimit } from '@/lib/rateLimit';
+
+const esc = (v) =>
+  String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 // Initialize Resend with API key
-const resend = new Resend(process.env.RESEND_API_KEY);
+export const dynamic = 'force-dynamic';
 
 export async function POST(request) {
   try {
+    if (!rateLimit(`contact:${clientIp(request)}`, { limit: 4, windowMs: 10 * 60_000 })) {
+      return NextResponse.json({ error: 'Too many messages. Please try again later.' }, { status: 429 });
+    }
     const body = await request.json();
-    const { name, email, subject, message } = body;
+    const name = String(body.name || '').trim().slice(0, 100);
+    const email = String(body.email || '').trim().slice(0, 200);
+    const subjectRaw = String(body.subject || '').replace(/[\r\n]+/g, ' ').trim().slice(0, 150);
+    const message = String(body.message || '').trim().slice(0, 5000);
+    const subject = subjectRaw;
+    if (email && !EMAIL_RE.test(email)) {
+      return NextResponse.json({ error: 'Please enter a valid email address.' }, { status: 400 });
+    }
 
     // Validate required fields
     if (!name || !email || !message) {
@@ -27,6 +42,7 @@ export async function POST(request) {
     }
 
     // Send email using Resend
+    const resend = new Resend(process.env.RESEND_API_KEY);
     const data = await resend.emails.send({
       from: 'Divya Stotram Contact <onboarding@resend.dev>',
       to: 'contactdivyastotram@gmail.com',
@@ -44,22 +60,22 @@ export async function POST(request) {
             <!-- Sender Info -->
             <div style="background-color: #fef8f0; padding: 20px; border-radius: 8px; margin-bottom: 25px;">
               <h2 style="color: #333; font-size: 18px; margin-top: 0;">Sender Details</h2>
-              <p style="margin: 8px 0; color: #555;"><strong>Name:</strong> ${name}</p>
-              <p style="margin: 8px 0; color: #555;"><strong>Email:</strong> <a href="mailto:${email}" style="color: #c9922a; text-decoration: none;">${email}</a></p>
-              ${subject ? `<p style="margin: 8px 0; color: #555;"><strong>Subject:</strong> ${subject}</p>` : ''}
+              <p style="margin: 8px 0; color: #555;"><strong>Name:</strong> ${esc(name)}</p>
+              <p style="margin: 8px 0; color: #555;"><strong>Email:</strong> <a href="mailto:${esc(email)}" style="color: #c9922a; text-decoration: none;">${esc(email)}</a></p>
+              ${subject ? `<p style="margin: 8px 0; color: #555;"><strong>Subject:</strong> ${esc(subject)}</p>` : ''}
             </div>
             
             <!-- Message -->
             <div style="background-color: #fff; padding: 20px; border-left: 4px solid #c9922a; margin-bottom: 20px;">
               <h3 style="color: #333; font-size: 16px; margin-top: 0;">Message</h3>
-              <p style="color: #555; line-height: 1.6; white-space: pre-wrap;">${message}</p>
+              <p style="color: #555; line-height: 1.6; white-space: pre-wrap;">${esc(message)}</p>
             </div>
             
             <!-- Quick Reply Button -->
             <div style="text-align: center; margin-top: 30px;">
-              <a href="mailto:${email}?subject=Re: ${encodeURIComponent(subject || 'Your message to Divya Stotram')}" 
+              <a href="mailto:${esc(email)}?subject=Re: ${encodeURIComponent(subject || 'Your message to Divya Stotram')}" 
                  style="display: inline-block; background-color: #c9922a; color: white; padding: 12px 30px; text-decoration: none; border-radius: 6px; font-weight: bold;">
-                Reply to ${name}
+                Reply to ${esc(name)}
               </a>
             </div>
             

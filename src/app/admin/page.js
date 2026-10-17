@@ -243,21 +243,30 @@ export default function AdminPage() {
   const fetchInFlightRef = useRef(false);
 
   useEffect(() => {
-    if (sessionStorage.getItem('divya_admin') === 'true') {
-      setAuthed(true);
-    }
+    fetch('/api/admin/login', { cache: 'no-store' })
+      .then((r) => r.json())
+      .then((d) => d.ok && setAuthed(true))
+      .catch(() => {});
   }, []);
 
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
-    const correctPassword = process.env.NEXT_PUBLIC_ADMIN_PASS || 'om108';
-
-    if (password === correctPassword) {
-      setAuthed(true);
-      sessionStorage.setItem('divya_admin', 'true');
-      setError('');
-    } else {
-      setError('Incorrect password. Try again.');
+    try {
+      const res = await fetch('/api/admin/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password }),
+      });
+      if (res.ok) {
+        setAuthed(true);
+        setError('');
+        setPassword('');
+      } else {
+        const d = await res.json().catch(() => ({}));
+        setError(d.error || 'Incorrect password. Try again.');
+      }
+    } catch {
+      setError('Could not reach the server. Try again.');
     }
   };
 
@@ -1258,7 +1267,7 @@ export default function AdminPage() {
 
               <button
                 onClick={() => {
-                  sessionStorage.removeItem('divya_admin');
+                  fetch('/api/admin/login', { method: 'DELETE' }).catch(() => {});
                   setAuthed(false);
                 }}
                 className="font-cinzel-reg text-[9px] tracking-widest text-red-900/60 transition-colors hover:text-red-500/80"

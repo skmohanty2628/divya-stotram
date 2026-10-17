@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { Flame, BookOpen, ChevronRight } from 'lucide-react';
+import { stotramPath } from '@/lib/site';
 
 // Related stotrams by deity/theme
 const RELATED_MAP = {
@@ -104,7 +105,7 @@ export default function DailyPrayerSuggestions({ currentSlug, lang = 'en' }) {
   const current = STOTRAM_INFO[currentSlug];
   if (!current) return null;
 
-  const langParam = lang !== 'en' ? `?lang=${lang}` : '';
+  const pathFor = (slug) => stotramPath(slug, lang);
 
   return (
     <div className="mt-10 space-y-4">
@@ -151,7 +152,7 @@ export default function DailyPrayerSuggestions({ currentSlug, lang = 'en' }) {
             {related.map((item) => (
               <Link
                 key={item.slug}
-                href={`/${item.slug}${langParam}`}
+                href={pathFor(item.slug)}
                 className="flex items-center gap-4 rounded-xl border border-[#c9922a]/15 bg-white p-4 transition-all hover:border-[#c9922a]/40 hover:shadow-sm group"
               >
                 <span className="text-2xl shrink-0">{item.emoji}</span>

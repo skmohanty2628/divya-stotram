@@ -3,10 +3,12 @@
 import { useEffect, useState } from 'react';
 import { X, Bell, Flame } from 'lucide-react';
 
-// ─── Popup: shows on every fresh page load after 15s ─────────────────────────
-// Logic: show on every new page load UNLESS user already subscribed
-// sessionStorage resets on each new tab/visit — perfect for "every visit" behaviour
-// We do NOT use sessionStorage suppression so it shows every time they arrive
+// ─── Popup: a small, dismissible corner card ────────────────────────────────
+// Shows only after the visitor has been reading for 45 seconds AND scrolled at least 35% of the page.
+// Once dismissed it stays away for 14 days; once subscribed it never returns.
+// It never covers the page with a full-screen overlay (that hurts both user experience and AdSense review).
+
+const DISMISS_DAYS = 14;
 
 export function SubscribePopup() {
   const [show, setShow] = useState(false);
@@ -15,18 +17,48 @@ export function SubscribePopup() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
+  const dismiss = () => {
+    setShow(false);
+    try {
+      localStorage.setItem('divya_sub_dismissed', String(Date.now()));
+    } catch {}
+  };
+
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
-    // Never show again if already subscribed
-    if (localStorage.getItem('divya_subscribed')) return;
+    try {
+      if (localStorage.getItem('divya_subscribed')) return;
+      const dismissed = Number(localStorage.getItem('divya_sub_dismissed') || 0);
+      if (dismissed && Date.now() - dismissed < DISMISS_DAYS * 86400000) return;
+    } catch {}
 
-    // Show after 15s on every fresh page load
+    let timeReady = false;
+    let scrollReady = false;
+    const maybeShow = () => {
+      if (timeReady && scrollReady) setShow(true);
+    };
+
     const timer = setTimeout(() => {
-      setShow(true);
-    }, 15000);
+      timeReady = true;
+      maybeShow();
+    }, 45000);
 
-    return () => clearTimeout(timer);
+    const onScroll = () => {
+      const doc = document.documentElement;
+      const scrollable = doc.scrollHeight - window.innerHeight;
+      if (scrollable > 0 && window.scrollY / scrollable >= 0.35) {
+        scrollReady = true;
+        window.removeEventListener('scroll', onScroll);
+        maybeShow();
+      }
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('scroll', onScroll);
+    };
   }, []);
 
   const handleSubmit = async () => {
@@ -60,19 +92,17 @@ export function SubscribePopup() {
   if (!show) return null;
 
   return (
-    <div className="fixed inset-0 z-[999] flex items-end justify-center sm:items-center px-4 pb-6 sm:pb-0">
-      {/* Backdrop */}
-      <div
-        className="absolute inset-0 bg-black/60 backdrop-blur-sm"
-        onClick={() => setShow(false)}
-      />
-
+    <div
+      role="dialog"
+      aria-label="Daily devotional reminders"
+      className="fixed bottom-4 right-4 left-4 z-[60] sm:left-auto sm:w-[380px]"
+    >
       {/* Card */}
-      <div className="relative z-10 w-full max-w-md rounded-[28px] border border-[#c9922a]/30 bg-gradient-to-br from-[#1a0505] via-[#1f0a0a] to-[#120202] p-6 shadow-[0_20px_60px_rgba(0,0,0,0.6),0_0_0_1px_rgba(201,146,42,0.15)]">
+      <div className="relative w-full rounded-[24px] border border-[#c9922a]/30 bg-gradient-to-br from-[#1a0505] via-[#1f0a0a] to-[#120202] p-5 shadow-[0_20px_60px_rgba(0,0,0,0.45),0_0_0_1px_rgba(201,146,42,0.15)]">
         {/* Close */}
         <button
-          onClick={() => setShow(false)}
-          className="absolute right-4 top-4 rounded-full p-1.5 text-[#c9922a]/50 transition-colors hover:text-[#c9922a]"
+          onClick={dismiss}
+          className="absolute right-3 top-3 rounded-full p-1.5 text-[#c9922a]/60 transition-colors hover:text-[#c9922a]"
           aria-label="Close"
         >
           <X size={18} />
@@ -141,7 +171,7 @@ export function SubscribePopup() {
               You&apos;re subscribed! Your daily devotional reminders will help keep your streak alive. 🔥
             </p>
             <button
-              onClick={() => setShow(false)}
+              onClick={dismiss}
               className="mt-4 rounded-full border border-[#c9922a]/30 px-5 py-2 font-cinzel-reg text-[10px] tracking-widest text-[#c9922a]"
             >
               Continue Reading

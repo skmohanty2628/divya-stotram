@@ -1,103 +1,66 @@
-'use client';
 import Link from 'next/link';
-import Navbar from '@/components/Navbar';
-import { LangProvider } from '@/components/LanguageSwitcher';
-import { SubscribeInline } from '@/components/SubscribeWidget';
+import SiteShell from '@/components/SiteShell';
+import JsonLd from '@/components/JsonLd';
+import { Prose } from '@/components/StotramSections';
+import { STOTRAMS_INDEX } from '@/data/stotrams-index';
+import { GUIDES } from '@/data/guides';
+import { SITE_URL, SITE_NAME, CONTACT_EMAIL } from '@/lib/site';
 
 export default function AboutPage() {
+  const ld = {
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    name: `About ${SITE_NAME}`,
+    url: `${SITE_URL}/about`,
+    mainEntity: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL, email: CONTACT_EMAIL },
+  };
   return (
-    <LangProvider>
-      <div className="min-h-screen bg-[#0d0202]">
-        <Navbar />
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-16">
-
-          {/* Header */}
-          <div className="text-center mb-14">
-            <span className="text-5xl block mb-5">🕉️</span>
-            <h1 className="font-cinzel text-3xl sm:text-4xl font-bold text-[#f0c040] mb-3">About Divya Stotram</h1>
-            <div className="flex items-center justify-center gap-3 opacity-40">
-              <div className="h-px w-20 bg-[#c9922a]" />
-              <span className="text-[#c9922a]">✦</span>
-              <div className="h-px w-20 bg-[#c9922a]" />
-            </div>
-          </div>
-
-          {/* Mission card */}
-          <div className="bg-gradient-to-br from-[#1a0505]/90 to-[#0d0202]/95 border border-[#c9922a]/25 rounded-2xl p-8 mb-8">
-            <p className="font-cinzel-reg text-[10px] tracking-[4px] uppercase text-[#e8760a] mb-4">Our Mission</p>
-            <p className="font-garamond text-xl text-[#f5e8d0] leading-relaxed italic">
-              "Divya Stotram was created with devotion to preserve and share the sacred Hindu prayers, stotrams and mantras — making them accessible to devotees worldwide in their own language."
+    <SiteShell>
+      <JsonLd data={ld} />
+      <div className="mx-auto max-w-3xl px-4 pb-24 pt-14 sm:px-6">
+        <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#e8760a]">Our story</p>
+        <h1 className="mt-3 font-cinzel text-4xl font-bold text-[#8b1a00]">About Divya Stotram</h1>
+        <div className="mt-8">
+          <Prose>
+            <p>
+              Divya Stotram is an independent devotional website created by Subham Mohanty and Aishwarya, from India.
+              We started it because the prayers we grew up reciting were hard to find in one clean place, with the
+              original text, an accurate transliteration and a meaning that an ordinary reader could follow, in the
+              languages our families actually speak.
             </p>
-          </div>
-
-          {/* Story */}
-          <div className="bg-gradient-to-br from-[#1a0505]/90 to-[#0d0202]/95 border border-[#c9922a]/25 rounded-2xl p-8 mb-8">
-            <p className="font-cinzel-reg text-[10px] tracking-[4px] uppercase text-[#e8760a] mb-4">Our Story</p>
-            <p className="font-garamond text-lg text-[#f5e8d0] leading-relaxed mb-4">
-              Hindu prayers and stotrams are some of the most powerful spiritual texts ever written. Yet for many devotees — especially those living outside India or those who grew up speaking regional languages like Odia and Telugu — accessing these prayers in their native language has always been difficult.
+            <p>
+              Today the site carries {STOTRAMS_INDEX.length} stotrams and mantras, each available in English, Hindi,
+              Odia and Telugu, and {GUIDES.length} practical guides on how, when and why people chant. Each stotram page
+              includes the verses, transliteration, a plain-language meaning, an original article on the prayer's
+              background, a glossary of key terms and, where available, audio.
             </p>
-            <p className="font-garamond text-lg text-[#f5e8d0] leading-relaxed">
-              Divya Stotram was built to solve exactly this problem. Every stotram on this site is available in English, Hindi, Odia and Telugu — so that every devotee can connect with the divine in the language closest to their heart.
+            <h2>What we promise</h2>
+            <p>
+              We write for understanding, not for traffic. We name our sources, we say when the tradition is unsure
+              about authorship or dating, and we do not promise results. Prayer is a personal practice; we will never
+              tell you a mantra will cure an illness or guarantee money, a job or a marriage. Our{' '}
+              <Link href="/editorial-policy">Editorial Policy</Link> explains how we work, and our{' '}
+              <Link href="/disclaimer">Disclaimer</Link> explains the limits of what this site is.
             </p>
-          </div>
-
-          {/* What we offer */}
-          <div className="bg-gradient-to-br from-[#1a0505]/90 to-[#0d0202]/95 border border-[#c9922a]/25 rounded-2xl p-8 mb-8">
-            <p className="font-cinzel-reg text-[10px] tracking-[4px] uppercase text-[#e8760a] mb-5">What We Offer</p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {[
-                { icon: '📿', title: 'Sacred Stotrams', desc: 'Hanuman Chalisa, Durga Stotram, Shiva Tandav and more' },
-                { icon: '🌐', title: 'Multiple Languages', desc: 'English, Hindi, Odia and Telugu' },
-                { icon: '🤖', title: 'Ask the Pandit', desc: 'AI-powered answers about any stotram' },
-                { icon: '🎵', title: 'Devotional Music', desc: 'Listen to bhajans while you read' },
-              ].map((item, i) => (
-                <div key={i} className="flex items-start gap-3 p-4 bg-[#c9922a]/5 rounded-xl border border-[#c9922a]/15">
-                  <span className="text-2xl">{item.icon}</span>
-                  <div>
-                    <p className="font-cinzel-reg text-xs tracking-wider text-[#f0c040] mb-1">{item.title}</p>
-                    <p className="font-garamond text-sm text-[#e8d5b5]/70">{item.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Team */}
-          <div className="bg-gradient-to-br from-[#1a0505]/90 to-[#0d0202]/95 border border-[#c9922a]/25 rounded-2xl p-8 mb-8">
-            <p className="font-cinzel-reg text-[10px] tracking-[4px] uppercase text-[#e8760a] mb-4">The Team</p>
-            <div className="flex items-center gap-4 mb-4">
-              <div className="w-14 h-14 rounded-full bg-[#c9922a]/20 border border-[#c9922a]/40 flex items-center justify-center text-2xl">🙏</div>
-              <div>
-                <p className="font-cinzel text-base font-bold text-[#f0c040]">Team Divya Stotram</p>
-                <p className="font-garamond text-sm text-[#e8d5b5]/60">India · Built with devotion</p>
-              </div>
-            </div>
-            <div className="pt-4 border-t border-[#c9922a]/15">
-              <p className="font-cinzel-reg text-[9px] tracking-[3px] uppercase text-[#e8760a]/70 mb-2">Contact Us</p>
-              <p className="font-garamond text-sm text-[#f0c040]">contactdivyastotram@gmail.com</p>
-            </div>
-          </div>
-
-          {/* CTA */}
-          <div className="text-center">
-            <p className="font-cinzel text-lg text-[#f0c040] mb-2">🕉️ Jai Shri Ram 🕉️</p>
-            <p className="font-garamond text-sm text-[#e8d5b5]/50 italic mb-6">May these prayers bring peace and blessings to all who read them.</p>
-            <Link href="/" className="font-cinzel-reg text-xs tracking-widest uppercase bg-[#c9922a] hover:bg-[#f0c040] text-[#0d0202] font-bold px-8 py-3 rounded-full transition-all">
-              Read Stotrams
-            </Link>
-          </div>
-        </div>
-
-        {/* Subscribe */}
-        <SubscribeInline />
-
-        {/* Footer */}
-        <div className="border-t border-[#c9922a]/15 py-6 text-center">
-          <p className="font-cinzel-reg text-[10px] tracking-[3px] uppercase text-[#e8d5b5]/30">
-            Divya Stotram · Made with devotion in India
-          </p>
+            <h2>Languages</h2>
+            <p>
+              Hindu devotional texts are shared across many languages. We offer every stotram in English, Hindi, Odia
+              and Telugu so that readers can follow along in the script they find most natural. Each language has its own
+              page, so you can bookmark and share exactly the version you read.
+            </p>
+            <h2>Support and corrections</h2>
+            <p>
+              The site is funded by modest advertising. If you notice a mistake in a text or translation, or want us to
+              add a prayer, write to us at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> or use the{' '}
+              <Link href="/contact">contact page</Link>. We read every message.
+            </p>
+            <p>
+              Begin with the <Link href="/all-stotrams">full list of stotrams</Link> or the{' '}
+              <Link href="/guides">prayer guides</Link>.
+            </p>
+          </Prose>
         </div>
       </div>
-    </LangProvider>
+    </SiteShell>
   );
 }

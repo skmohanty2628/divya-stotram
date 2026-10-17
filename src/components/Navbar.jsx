@@ -149,6 +149,13 @@ export default function Navbar() {
             </Link>
 
             <Link
+              href="/guides"
+              className="font-cinzel-reg text-xs tracking-[2px] uppercase text-[#3d1a00]/70 hover:text-[#8b1a00] transition-colors"
+            >
+              Guides
+            </Link>
+
+            <Link
               href="/chanting-room"
               className="font-cinzel-reg text-xs tracking-[2px] uppercase flex items-center gap-1.5 bg-[#c9922a]/10 hover:bg-[#c9922a]/20 border border-[#c9922a]/30 text-[#8b1a00] px-3 py-1.5 rounded-full transition-all"
             >
@@ -316,6 +323,13 @@ export default function Navbar() {
                   className="block py-3 px-3 rounded-xl font-cinzel-reg text-sm text-[#3d1a00]/70 hover:bg-white/70 transition-colors"
                 >
                   All Stotrams
+                </Link>
+                <Link
+                  href="/guides"
+                  onClick={closeMobileMenu}
+                  className="block py-3 px-3 rounded-xl font-cinzel-reg text-sm text-[#3d1a00]/70 hover:bg-white/70 transition-colors"
+                >
+                  Guides
                 </Link>
               </div>
 

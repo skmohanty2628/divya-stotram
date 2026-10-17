@@ -1,6 +1,14 @@
+import { clientIp, rateLimit } from '@/lib/rateLimit';
+
 export async function POST(req) {
   try {
-    const { verse, lang } = await req.json();
+    if (!rateLimit(`explain:${clientIp(req)}`, { limit: 15, windowMs: 60_000 })) {
+      return Response.json({ result: 'Too many requests. Please wait a minute.' }, { status: 429 });
+    }
+    const body = await req.json();
+    const verse = String(body.verse || '').slice(0, 1500);
+    const lang = body.lang;
+    if (!verse.trim()) return Response.json({ result: 'No verse provided.' }, { status: 400 });
 
     const languageMap = {
       en: 'English',

@@ -415,9 +415,9 @@ async function getAllSubscribers() {
 export async function GET(request) {
   // Security: verify cron secret
   const authHeader = request.headers.get('authorization');
-  const cronSecret = process.env.CRON_SECRET || 'divya-cron-2026';
+  const cronSecret = process.env.CRON_SECRET;
 
-  if (authHeader !== `Bearer ${cronSecret}`) {
+  if (!cronSecret || authHeader !== `Bearer ${cronSecret}`) {
     return Response.json({ ok: false, error: 'Unauthorized' }, { status: 401 });
   }
 

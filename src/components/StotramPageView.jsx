@@ -69,7 +69,7 @@ export default function StotramPageView({ slug, langCode = 'en' }) {
         meta={meta}
         verseData={verseData}
         htmlLang={lang.htmlLang}
-        top={<StotramTop meta={meta} content={content} />}
+        top={<StotramTop meta={meta} content={content} langCode={langCode} />}
       >
         <StotramBody meta={meta} content={content} guides={guides} />
       </StotramClientPage>

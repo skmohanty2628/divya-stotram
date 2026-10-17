@@ -55,13 +55,26 @@ export function ByLine() {
 }
 
 // Content shown above the verses: overview, quick facts and a jump menu.
-export function StotramTop({ meta, content }) {
+export function StotramTop({ meta, content, langCode = 'en' }) {
+  const nativeTitle = langCode !== 'en' ? meta.title?.[langCode] : null;
+  const nativeDesc = langCode !== 'en' ? meta.description?.[langCode] : null;
   const quick = content.article?.quick || [];
   return (
     <>
       <div className="mb-3">
         <ByLine />
       </div>
+
+      {nativeTitle && nativeDesc && (
+        <Card title={nativeTitle}>
+          <Prose>
+            <p className="text-xl">{nativeDesc}</p>
+            <p lang="en" className="text-base italic text-[#3d1a00]/60">
+              The verses below are shown in this language. The detailed article that follows is in English.
+            </p>
+          </Prose>
+        </Card>
+      )}
 
       <Card title={`About ${meta.title.en}`}>
         <Prose>

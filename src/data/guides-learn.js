@@ -333,4 +333,206 @@ export const GUIDES_LEARN = [
       'Whitney, W.D., Sanskrit Grammar, on the sounds of the alphabet',
     ],
   },
+
+
+  {
+    slug: 'ganesh-chaturthi-guide',
+    category: 'Festivals',
+    title: 'Ganesh Chaturthi: Meaning, Rituals, Eco-Friendly Celebration and What to Chant',
+    description:
+      'What Ganesh Chaturthi celebrates, how the ten-day festival is observed at home and in public, how to choose an eco-friendly idol, and the mantras and prayers devotees recite.',
+    h1: 'Ganesh Chaturthi: Meaning, Rituals and What to Chant',
+    intro:
+      'Ganesh Chaturthi celebrates the birth of Ganesha, the remover of obstacles, who is invoked at the start of almost every Hindu undertaking. This guide explains the festival, a simple home observance, and how to celebrate in a way that is kind to rivers and lakes.',
+    sections: [
+      {
+        h: 'When it falls',
+        p: [
+          `The festival begins on the fourth day (chaturthi) of the bright fortnight of the month of Bhadrapada, usually in August or September. Because the Hindu calendar follows the moon, the Gregorian date changes every year. The main festival lasts ten days in many places, ending on Anant Chaturdashi, though many households keep Ganesha for a day and a half, three, five or seven days.`,
+        ],
+      },
+      {
+        h: 'A short history of the public festival',
+        p: [
+          `Ganesha worship at home is very old, but the large public festival with community pandals is usually traced to the late nineteenth century in Maharashtra. The freedom movement leader Bal Gangadhar Tilak promoted public celebration in Pune in 1893 as a way of bringing people of different communities together. Today the festival is celebrated far beyond Maharashtra.`,
+        ],
+      },
+      {
+        h: 'A simple home observance',
+        p: [
+          `Families bring home a clay idol of Ganesha, install it on a clean platform, and perform the pranapratishtha, the invitation of the deity into the image. Daily worship includes lamps, flowers, durva grass (three or five blades tied together) and modak, the sweet dumpling said to be Ganesha's favourite. At the end the idol is immersed in water in a ceremony called visarjan, with the prayer that Ganesha return next year.`,
+        ],
+      },
+      {
+        h: 'Choosing an eco-friendly idol',
+        p: [
+          `Idols made of plaster of Paris and chemical paints dissolve poorly and can pollute lakes and rivers. Many cities and the pollution control authorities in India encourage idols made from natural clay (shadu mati), plant-based colours, and immersion in a bucket or artificial tank at home, with the water then used for plants. Some families keep a small permanent idol and immerse a symbolic one.`,
+        ],
+      },
+      {
+        h: 'What to chant',
+        p: [
+          `The simplest and most popular mantra is Om Gam Ganapataye Namah. Many also recite the Ganesh Aarti at the end of worship, and the Ganapati Atharvashirsha, an Upanishadic hymn traditionally recited during the festival. Read the meaning of whatever you choose, and chant at a calm pace.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Why is Ganesha worshipped first?',
+        a: 'Tradition holds that Ganesha removes obstacles, so he is invoked at the beginning of rituals, journeys, studies and new ventures.',
+      },
+      {
+        q: 'How long should the idol stay at home?',
+        a: 'Families keep it for 1.5, 3, 5, 7 or 10 days according to their own family custom; there is no single rule.',
+      },
+      {
+        q: 'Why is immersion done?',
+        a: 'Visarjan expresses that the deity is invited for the festival and then sent off with thanks; the clay returns to the water.',
+      },
+    ],
+    related: {
+      stotrams: ['ganesh-aarti'],
+      guides: ['spiritual-routine-for-beginners', 'mantra-chanting-rules-faq'],
+    },
+    sources: [
+      'Ganapati Atharvashirsha (Upanishad text)',
+      'Cashman, R., The Myth of the Lokamanya: Tilak and Mass Politics in Maharashtra (public Ganesh festival history)',
+    ],
+  },
+
+  {
+    slug: 'diwali-lakshmi-puja-guide',
+    category: 'Festivals',
+    title: 'Diwali Lakshmi Puja: Meaning, Five Days of the Festival and What to Chant',
+    description:
+      'A clear guide to Diwali: the five days from Dhanteras to Bhai Dooj, the meaning of Lakshmi Puja on the new moon night, regional differences, and the prayers and stotrams commonly recited.',
+    h1: 'Diwali and Lakshmi Puja: Meaning and What to Chant',
+    intro:
+      'Diwali, the festival of lights, is celebrated across India and by Hindu communities worldwide. Its central evening ritual in many homes is Lakshmi Puja. This guide explains the five days, the regional stories behind the festival and a simple way to worship.',
+    sections: [
+      {
+        h: 'When it falls',
+        p: [
+          `The main day of Diwali is the new moon (amavasya) night of the Hindu month of Kartika (Ashvin in the purnimanta calendar), usually in October or November. The exact date changes every year, and when the new moon spans two civil days the panchang of your region decides, since Lakshmi Puja is performed in the evening (pradosh) period.`,
+        ],
+      },
+      {
+        h: 'The five days',
+        p: [
+          `Day 1 is Dhanteras (Dhantrayodashi), associated with wealth and with Dhanvantari, the physician of the gods. Day 2 is Naraka Chaturdashi, remembering the defeat of the demon Naraka. Day 3 is the main Diwali night with Lakshmi Puja. Day 4 is Govardhan Puja or Annakut in many regions, and the new year in Gujarat. Day 5 is Bhai Dooj, honouring the bond between brothers and sisters.`,
+        ],
+      },
+      {
+        h: 'Different stories for different regions',
+        p: [
+          `In much of north India, Diwali celebrates the return of Rama to Ayodhya after fourteen years of exile, welcomed with rows of lamps. In many other regions the focus is on Lakshmi. In Bengal, Odisha and Assam the same night is mainly Kali Puja. Jains observe it as the day of Mahavira's liberation, and Sikhs celebrate Bandi Chhor Divas. The diversity is part of the festival.`,
+        ],
+      },
+      {
+        h: 'A simple Lakshmi Puja at home',
+        p: [
+          `Clean the house, light lamps (diyas) at the entrance and around the home, and set up an image or idol of Lakshmi, often together with Ganesha. Offer flowers, sweets and fruit, light incense, and recite prayers. Many families also keep the account books or tools of their work near the altar as a sign of respect for livelihood. Wealth in this tradition is understood as welfare and well-being, not only money.`,
+        ],
+      },
+      {
+        h: 'What to chant',
+        p: [
+          `Begin with a prayer to Ganesha, then recite the Mahalakshmi Ashtakam, the eight-verse hymn to Lakshmi, or the Shri Suktam. The simple mantra Om Shreem Mahalakshmiyei Namah can be repeated 108 times. A calm, sincere recitation with understanding of the meaning is better than a hurried long one.`,
+        ],
+      },
+      {
+        h: 'Celebrating thoughtfully',
+        p: [
+          `Many people now choose lamps over loud firecrackers because of air-quality and noise concerns, especially for children, the elderly, animals and people with breathing problems. Sharing sweets and gifts and helping those in need are as much a part of Diwali as the puja.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Why is Lakshmi worshipped on Diwali?',
+        a: 'In many traditions Lakshmi, the goddess of prosperity, is believed to visit clean, well-lit homes on the new moon night, so families light lamps and welcome her.',
+      },
+      {
+        q: 'Is Diwali the same day everywhere?',
+        a: 'The main day is the same new moon night for most regions, but the second, fourth and fifth days and some customs vary by region.',
+      },
+      {
+        q: 'Can I do Lakshmi Puja without a priest?',
+        a: 'Yes. Many families perform a simple puja themselves with lamps, flowers, an aarti and a recitation.',
+      },
+    ],
+    related: {
+      stotrams: ['mahalakshmi-ashtakam', 'ganesh-aarti'],
+      guides: ['lakshmi-mantra-friday-ritual', 'best-mantra-for-money'],
+    },
+    sources: [
+      'Kane, P.V., History of Dharmasastra, Vol. V (Dipavali)',
+      'Mahalakshmi Ashtakam (attributed to Indra, from the Padma Purana tradition)',
+    ],
+  },
+
+  {
+    slug: 'how-to-use-japa-mala',
+    category: 'Daily practice',
+    title: 'How to Use a Japa Mala: 108 Beads, Counting and Choosing Beads',
+    description:
+      'A practical guide to the japa mala: why it has 108 beads, how to hold and count, what to do at the meru bead, and which bead materials are traditionally paired with which deity.',
+    h1: 'How to Use a Japa Mala',
+    intro:
+      'A mala is a string of beads used to count repetitions of a mantra. It keeps the count without needing to think about it, so your attention can stay on the sound and meaning. Here is how it is traditionally used.',
+    sections: [
+      {
+        h: 'Why 108?',
+        p: [
+          `Most malas have 108 beads plus one larger bead, called the meru or sumeru, where the string joins. Traditions offer many explanations for 108, from astronomical ratios to the number of sacred sites or names. No single reason is universally agreed. In practice, 108 is a convenient round that people have used for centuries, and some use 54 or 27 beads for a shorter practice.`,
+        ],
+      },
+      {
+        h: 'How to hold and count',
+        p: [
+          `Sit comfortably and hold the mala in your right hand, resting it on the middle finger and drawing each bead toward you with the thumb. Tradition advises not using the index finger. Begin with the bead next to the meru, chant the mantra once per bead, and move around the mala until you reach the meru again. That is one round of 108.`,
+        ],
+      },
+      {
+        h: 'At the meru bead',
+        p: [
+          `Do not cross over the meru. When you reach it, pause, then turn the mala around and go back in the other direction. Some people bow to the meru bead as a gesture of respect to the teacher or the deity. If you want to count several rounds, keep a simple tally with a notebook or a small counter.`,
+        ],
+      },
+      {
+        h: 'Which beads for which practice',
+        p: [
+          `Traditionally rudraksha seeds are used for Shiva mantras, tulsi wood for Vishnu and Krishna, and lotus seeds or crystal (sphatik) for Lakshmi and Saraswati. Sandalwood is a general-purpose, calming choice. These are customs, not requirements. Any clean mala that you feel comfortable with will serve, and it is usual to keep one mala for one practice rather than share it.`,
+        ],
+      },
+      {
+        h: 'Caring for the mala',
+        p: [
+          `Keep it clean and in a cloth pouch or a pure place when not in use. Do not let it touch the floor, and avoid wearing it during activities you consider impure, according to your own tradition. Treat the mala as a tool for remembrance, not an ornament or a lucky charm.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Do I need a mala to chant?',
+        a: 'No. A mala is only a counting aid. You can count on your fingers or not count at all.',
+      },
+      {
+        q: 'How many rounds should I do?',
+        a: 'Start with one round of 108, about ten to fifteen minutes depending on the mantra, and increase only if you wish.',
+      },
+      {
+        q: 'Can two people share a mala?',
+        a: 'Tradition suggests each person keep their own, but this is a custom of respect, not a rule of scripture.',
+      },
+    ],
+    related: {
+      stotrams: ['gayatri-mantra'],
+      guides: ['mantra-chanting-rules-faq', 'how-to-chant-gayatri-mantra'],
+    },
+    sources: [
+      'Standard references on Hindu worship practice, e.g. Kane, History of Dharmasastra',
+      'Common japa practice as taught in Vaishnava, Shaiva and Shakta traditions (counting at the meru bead)',
+    ],
+  },
 ];

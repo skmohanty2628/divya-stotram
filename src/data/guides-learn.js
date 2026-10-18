@@ -535,4 +535,265 @@ export const GUIDES_LEARN = [
       'Common japa practice as taught in Vaishnava, Shaiva and Shakta traditions (counting at the meru bead)',
     ],
   },
+
+
+  {
+    slug: 'krishna-janmashtami-guide',
+    category: 'Festivals',
+    title: 'Krishna Janmashtami: Meaning, Midnight Worship, Fasting and What to Chant',
+    description:
+      'What Janmashtami celebrates, why worship is at midnight, how devotees fast, regional customs such as Dahi Handi, and the mantras and texts recited for Krishna.',
+    h1: 'Krishna Janmashtami: Meaning, Worship and What to Chant',
+    intro:
+      'Janmashtami celebrates the birth of Krishna, the eighth avatar of Vishnu in the tradition, and the teacher of the Bhagavad Gita. This guide explains the festival, how families observe it, and how to take part simply.',
+    sections: [
+      {
+        h: 'When it falls',
+        p: [
+          `Janmashtami is observed on the eighth day (ashtami) of the dark fortnight in the month of Shravana or Bhadrapada, depending on the calendar, which usually places it in August or September. The date changes every year because the Hindu calendar is lunisolar. Because tradition places Krishna's birth at midnight, the exact timing of the ashtami at night is used to choose the day.`,
+        ],
+      },
+      {
+        h: 'The story in brief',
+        p: [
+          `In the Bhagavata Purana, Krishna was born to Devaki and Vasudeva in the prison of Kamsa, the tyrannical king of Mathura, and was carried across the Yamuna to Gokul, where he grew up among cowherds. The festival remembers this birth and the childhood stories of the butter-loving child, the flute-player and, later, the charioteer who spoke the Gita to Arjuna.`,
+        ],
+      },
+      {
+        h: 'How devotees observe the day',
+        p: [
+          `Many people fast until midnight, then break the fast after the birth ceremony with fruit, milk sweets and prasad. Homes and temples decorate a cradle with a small image of baby Krishna, sing bhajans, and rock the cradle at midnight. Children are sometimes dressed as Krishna and Radha. Fasting is optional, and anyone unwell, pregnant, elderly or on medication should eat appropriately.`,
+        ],
+      },
+      {
+        h: 'Regional customs',
+        p: [
+          `In Maharashtra and Gujarat the day after is celebrated with Dahi Handi, in which human pyramids try to break a pot of curd hung high above, recalling Krishna's childhood love of butter. In Mathura and Vrindavan there are elaborate temple celebrations. In Odisha and Bengal, devotees often keep a night vigil with kirtan, and in South India households draw small footprints leading into the home.`,
+        ],
+      },
+      {
+        h: 'What to chant',
+        p: [
+          `The most common mantra is Om Namo Bhagavate Vasudevaya, the twelve-syllable mantra of Vishnu and Krishna. Others recite the Hare Krishna maha-mantra, passages of the Bhagavad Gita, or the Vishnu Sahasranamam. Read the meaning of whatever you chant so that it is more than sound.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Why is Krishna worshipped at midnight?',
+        a: 'Tradition says Krishna was born at midnight, so the birth ceremony is held then.',
+      },
+      {
+        q: 'Do I have to fast on Janmashtami?',
+        a: 'No. Fasting is a common custom, but it is personal and optional.',
+      },
+      {
+        q: 'What is the difference between Janmashtami and Gokulashtami?',
+        a: 'They are two names for the same festival; Gokulashtami is common in the south and Maharashtra.',
+      },
+    ],
+    related: {
+      stotrams: ['krishna-vasudevaya-mantra', 'vishnu-sahasranamam'],
+      guides: ['how-to-chant-vishnu-mantra', 'vishnu-sahasranamam-benefits'],
+    },
+    sources: [
+      'Bhagavata Purana, Tenth Canto (the birth and childhood of Krishna)',
+      'Kane, P.V., History of Dharmasastra, Vol. V (Krishna Janmashtami)',
+    ],
+  },
+
+  {
+    slug: 'rama-navami-guide',
+    category: 'Festivals',
+    title: 'Rama Navami: Meaning, Worship and What to Chant',
+    description:
+      'What Rama Navami celebrates, when it falls, how devotees fast and worship at noon, and the prayers commonly recited, including the Ram Raksha Stotram and Vishnu Sahasranamam.',
+    h1: 'Rama Navami: Meaning, Worship and What to Chant',
+    intro:
+      'Rama Navami celebrates the birth of Rama, the hero of the Ramayana, whom tradition regards as an avatar of Vishnu and the ideal of righteous conduct. This guide explains the festival and a simple way to observe it.',
+    sections: [
+      {
+        h: 'When it falls',
+        p: [
+          `Rama Navami is observed on the ninth day (navami) of the bright fortnight of the month of Chaitra, usually in March or April, ending the spring Navaratri in many regions. The date shifts each year according to the lunar calendar. Because the tradition places Rama's birth around midday, the main puja is performed near noon.`,
+        ],
+      },
+      {
+        h: 'About Rama',
+        p: [
+          `The Ramayana of Valmiki tells how Rama, the eldest son of King Dasharatha of Ayodhya, accepted fourteen years of exile to keep his father's word, was separated from his wife Sita when she was abducted by Ravana, and eventually returned to rule justly. For many, Rama stands for dharma, honesty, restraint and care for one's people.`,
+        ],
+      },
+      {
+        h: 'How devotees observe the day',
+        p: [
+          `Many people fast until the noon puja, decorate an image of Rama with Sita, Lakshmana and Hanuman, and read from the Ramayana or the Ramcharitmanas of Tulsidas. Temples hold bhajans and processions, and in some places a symbolic wedding of Rama and Sita is performed. A cooling drink of jaggery and water or panakam is offered as prasad in some regions.`,
+        ],
+      },
+      {
+        h: 'What to chant',
+        p: [
+          `Popular choices are the Ram Raksha Stotram, traditionally attributed to the sage Budha Kaushika, the simple name Shri Rama Jaya Rama Jaya Jaya Rama, and the Vishnu Sahasranamam, whose closing verses honour Rama. Many also recite the Hanuman Chalisa, because Hanuman is Rama's most devoted servant in the tradition.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Is Rama Navami a fast day?',
+        a: 'Many devotees fast until noon, but it is a personal choice.',
+      },
+      {
+        q: 'Why is the main puja at midday?',
+        a: 'In the tradition Rama was born at midday, so the birth ceremony is performed then.',
+      },
+      {
+        q: 'Who wrote the Ram Raksha Stotram?',
+        a: 'Tradition attributes it to the sage Budha Kaushika, who is said to have received it in a dream.',
+      },
+    ],
+    related: {
+      stotrams: ['ram-raksha-stotram', 'hanuman-chalisa'],
+      guides: ['hanuman-jayanti-guide', 'how-to-chant-hanuman-chalisa'],
+    },
+    sources: [
+      'Valmiki Ramayana (Bala Kanda, the birth of Rama)',
+      'Kane, P.V., History of Dharmasastra, Vol. V (Rama Navami)',
+    ],
+  },
+
+  {
+    slug: 'vasant-panchami-saraswati-puja-guide',
+    category: 'Festivals',
+    title: 'Vasant Panchami and Saraswati Puja: Meaning, Rituals and What to Chant',
+    description:
+      'What Vasant Panchami celebrates, why Saraswati is worshipped with books and instruments, the Odia custom of Khadi Chhuan, and the prayers students and artists recite.',
+    h1: 'Vasant Panchami and Saraswati Puja',
+    intro:
+      'Vasant Panchami marks the arrival of spring and is the day devotees worship Saraswati, the goddess of learning, music and the arts. It is especially important to students, teachers and artists. This guide explains the day and a simple observance.',
+    sections: [
+      {
+        h: 'When it falls',
+        p: [
+          `Vasant Panchami falls on the fifth day (panchami) of the bright fortnight of the month of Magha, usually in late January or February. The date changes yearly with the lunar calendar. Spring itself is welcomed with yellow, the colour of mustard flowers, so yellow clothes and yellow sweets are common.`,
+        ],
+      },
+      {
+        h: 'Who is Saraswati?',
+        p: [
+          `Saraswati is the goddess of knowledge, speech, music and wisdom, shown seated on a white lotus with a veena, a book and a rosary. She is already praised in the Rig Veda as a river and as speech. Worshipping her is a way of asking for clarity of mind and of thanking teachers and the traditions of learning.`,
+        ],
+      },
+      {
+        h: 'How the day is observed',
+        p: [
+          `Students place their books, pens and instruments before an image of Saraswati and do not study on that day, as an offering of the tools of learning. Schools and colleges hold community pujas. Many families wear yellow and offer flowers, sweets and fruit. In many places the day is also considered an auspicious beginning for children's education.`,
+        ],
+      },
+      {
+        h: 'The Odia custom of Khadi Chhuan',
+        p: [
+          `In Odisha, Saraswati Puja is a major festival, and young children are often introduced to writing on this day in a ceremony called Khadi Chhuan (or Khadi Dhara), in which a chalk or khadi is placed in the child's hand and the first letters are written. In other parts of India the similar ritual is called Vidyarambham or Aksharabhyasam.`,
+        ],
+      },
+      {
+        h: 'What to chant',
+        p: [
+          `The Saraswati Vandana beginning Ya Kundendu Tushara Hara Dhavala is the most widely known prayer. The simple mantra Om Aim Saraswatyai Namah can be repeated 108 times. Students often recite them before study, with attention on the meaning.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Why do students keep books at the puja?',
+        a: 'Placing books and instruments before the goddess is an offering of the tools of learning, and a pause of respect for them.',
+      },
+      {
+        q: 'Why is yellow worn?',
+        a: 'Yellow evokes the mustard fields of spring, and has become the colour of the day.',
+      },
+      {
+        q: 'What is Khadi Chhuan?',
+        a: 'It is an Odia ritual in which a child writes the first letters on Vasant Panchami or Saraswati Puja.',
+      },
+    ],
+    related: {
+      stotrams: ['saraswati-vandana'],
+      guides: ['best-mantra-for-study-focus', 'spiritual-routine-for-beginners'],
+    },
+    sources: [
+      'Rig Veda (hymns to Sarasvati, e.g. 6.61)',
+      'Kane, P.V., History of Dharmasastra, Vol. V (Vasanta Panchami)',
+    ],
+  },
+
+  {
+    slug: 'kartika-month-odisha-guide',
+    category: 'Festivals',
+    title: 'Kartika Month in Odisha: Habisha, Tulsi Worship, Panchuka and Boita Bandana',
+    description:
+      'A guide to the sacred month of Kartika in Odisha: Habisha vegetarian meals, evening tulsi and lamp worship, the Panchuka days, Kartika Purnima, Boita Bandana and Bali Yatra.',
+    h1: 'Kartika Month in Odisha',
+    intro:
+      'Kartika, the month falling around October and November, is one of the most devotional months in Odisha. Households follow special customs, and the month ends with Kartika Purnima, a festival of boats, lamps and memory. This guide explains the main observances.',
+    sections: [
+      {
+        h: 'Why Kartika is special',
+        p: [
+          `In Vaishnava tradition, Kartika is dedicated to Vishnu (Damodara), and across Odisha many families treat the month as a time of simplicity and regular worship. Because the Hindu calendar is lunisolar, the month starts and ends on different dates each year, so check an Odia panjika or your temple's calendar.`,
+        ],
+      },
+      {
+        h: 'Habisha: simple meals',
+        p: [
+          `Many devotees, especially older women and widows, observe Habisha: a single simple vegetarian meal cooked without onion, garlic, salt in some households, and typically with boiled rice, ghee and vegetables, for the whole month. This is a personal vow. Those with medical conditions or special dietary needs should not follow strict fasting.`,
+        ],
+      },
+      {
+        h: 'Tulsi and the evening lamp',
+        p: [
+          `The tulsi plant is worshipped each morning and evening. Households light a lamp at the tulsi chaura, the raised platform where the plant is grown, and offer water and prayers. In many places lamps are also raised on a pole, the akasha deepa, to guide ancestors and light the dark season.`,
+        ],
+      },
+      {
+        h: 'Panchuka, the last five days',
+        p: [
+          `The last five days of the month, from Ekadashi to Purnima, are called Panchuka. In the Jagannath temple at Puri, special rituals are performed during these days, including the Hari-Hara form of the deity on certain days. Many devotees observe a stricter vow in this period, and pilgrims come to Puri in large numbers.`,
+        ],
+      },
+      {
+        h: 'Kartika Purnima, Boita Bandana and Bali Yatra',
+        p: [
+          `On the full moon day, people rise before dawn, bathe, and float tiny boats made of banana stem, paper or thermocol with a lamp, betel and flowers in rivers, ponds and the sea. This is Boita Bandana (worship of boats). It remembers the ancient Odia sailors, the sadhabas, who sailed to Bali, Java, Sumatra and other places in Southeast Asia from the Odisha coast. In Cuttack a large fair called Bali Yatra is held on the banks of the Mahanadi.`,
+        ],
+      },
+      {
+        h: 'What to chant',
+        p: [
+          `Common prayers are the Vishnu Sahasranamam, Om Namo Bhagavate Vasudevaya, and the Jagannath Ashtakam. Reciting a short prayer at the tulsi in the evening is a gentle daily practice to follow through the month.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Habisha?',
+        a: 'Habisha is a simple, sattvic vegetarian meal observed as a vow during Kartika in Odisha.',
+      },
+      {
+        q: 'Why are small boats floated on Kartika Purnima?',
+        a: 'Boita Bandana commemorates the maritime voyages of ancient Odia traders, called sadhabas, to Southeast Asia.',
+      },
+      {
+        q: 'Do I have to fast through Kartika?',
+        a: 'No. Observances are personal vows, and people with health needs should eat suitably.',
+      },
+    ],
+    related: {
+      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra'],
+      guides: ['how-to-chant-vishnu-mantra', 'vishnu-sahasranamam-benefits'],
+    },
+    sources: [
+      'Padma Purana (Kartika-mahatmya) as summarised in standard works on the Hindu calendar',
+      'Odisha Tourism and Odisha State Museum materials on Boita Bandana and Bali Yatra',
+    ],
+  },
 ];

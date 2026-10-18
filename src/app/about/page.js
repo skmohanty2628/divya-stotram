@@ -17,10 +17,7 @@ export default function AboutPage() {
       name: SITE_NAME,
       url: SITE_URL,
       email: CONTACT_EMAIL,
-      founder: [
-        { '@type': 'Person', name: 'Subham Mohanty', jobTitle: 'Founder and Editor', sameAs: ['https://github.com/skmohanty2628'] },
-        { '@type': 'Person', name: 'Aishwarya', jobTitle: 'Co-founder' },
-      ],
+      founder: { '@type': 'Person', name: 'Subham Mohanty', jobTitle: 'Founder and Editor', sameAs: ['https://github.com/skmohanty2628'] },
     },
   };
   return (
@@ -32,8 +29,8 @@ export default function AboutPage() {
         <div className="mt-8">
           <Prose>
             <p>
-              Divya Stotram is an independent devotional website created by Subham Mohanty and Aishwarya, from India.
-              We started it because the prayers we grew up reciting were hard to find in one clean place, with the
+              Divya Stotram is an independent devotional website created by Subham Mohanty, from India.
+              He started it because the prayers we grew up reciting were hard to find in one clean place, with the
               original text, an accurate transliteration and a meaning that an ordinary reader could follow, in the
               languages our families actually speak.
             </p>
@@ -51,11 +48,7 @@ export default function AboutPage() {
               He can be reached at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
             </p>
             <p>
-              <strong>Aishwarya</strong> is the co-founder. Together we started the site because of the prayers our
-              families recite, and we run it as a small independent project.
-            </p>
-            <p>
-              We are not priests or Sanskrit scholars, and we say so plainly. Where a text, date or custom varies by
+              The site is not run by priests or Sanskrit scholars, and we say so plainly. Where a text, date or custom varies by
               region or tradition, we say that too, and we welcome corrections from readers who know better.
             </p>
             <h2>What we promise</h2>

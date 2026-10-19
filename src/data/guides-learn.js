@@ -796,4 +796,254 @@ export const GUIDES_LEARN = [
       'Odisha Tourism and Odisha State Museum materials on Boita Bandana and Bali Yatra',
     ],
   },
+
+
+  {
+    slug: 'aigiri-nandini-meaning-and-story',
+    category: 'Meaning and history',
+    title: 'Aigiri Nandini (Mahishasura Mardini Stotram): Meaning, Story and Background',
+    description:
+      'The story behind Aigiri Nandini, also called Mahishasura Mardini Stotram: the battle of Durga and Mahishasura, the structure and refrain of the hymn, authorship, and how it is used at Navaratri.',
+    h1: 'Aigiri Nandini: Meaning, Story and Background',
+    intro:
+      'Aigiri Nandini, formally the Mahishasura Mardini Stotram, is one of the most loved hymns to Goddess Durga. Its opening words and powerful rhythm are known to many who may not know the story behind it. This guide explains what the hymn says, where the story comes from, and how it is used.',
+    sections: [
+      {
+        h: 'What the name means',
+        p: [
+          `Mahishasura Mardini means the slayer of Mahishasura, the buffalo demon. The hymn opens with Aigiri Nandini, usually read as an address to the daughter of the mountain, a reference to Parvati, daughter of the Himalaya (Giri). The hymn praises the Goddess as the delight of the earth, the joy of the universe and the one who is worshipped by gods and sages.`,
+        ],
+      },
+      {
+        h: 'The story of Mahishasura',
+        p: [
+          `The best-known telling is in the Devi Mahatmya, part of the Markandeya Purana. The demon Mahishasura, who had received a boon that no man or god could kill him, conquered the heavens and drove out the gods. They combined their energies, and from this radiance emerged the Goddess Durga, armed by each god with a weapon. After a long battle she defeated and killed Mahishasura. This victory of divine feminine power over arrogance is the story told during Navaratri.`,
+        ],
+      },
+      {
+        h: 'Structure and refrain',
+        p: [
+          `The hymn has about twenty-one verses, each followed by the same rousing refrain: jaya jaya he mahishasura mardini ramya kapardini shaila sute, a salutation to the victorious, beautiful, matted-haired daughter of the mountain. The verses use long, flowing compound words in the Sanskrit style, which gives the stotram its drum-like momentum and makes it easy to chant in a group.`,
+        ],
+      },
+      {
+        h: 'Who composed it?',
+        p: [
+          `The authorship is not settled. Many people attribute the hymn to Adi Shankaracharya, and some scholars and traditions ascribe it to a later poet such as Ramakrishna Kavi. We do not claim to know. What is certain is that it is widely sung across India today, with different melodies in the south, east and north.`,
+        ],
+      },
+      {
+        h: 'How it is used',
+        p: [
+          `The stotram is sung during Navaratri and Durga Puja, at temples, and by many families as a daily morning prayer. It is also sung in classical music and dance performances. In Odisha the hymn is popular, which is reflected in how many readers search for the Odia script version of the lyrics. On this site every stotram, including Aigiri Nandini, is available in English, Hindi, Odia and Telugu.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Is Aigiri Nandini the same as Mahishasura Mardini Stotram?',
+        a: 'Yes. Aigiri Nandini is the opening phrase, and Mahishasura Mardini Stotram is the formal name of the hymn.',
+      },
+      {
+        q: 'When is it chanted?',
+        a: 'Especially at Navaratri and Durga Puja, but many people recite it on any day, often in the morning.',
+      },
+      {
+        q: 'Who wrote it?',
+        a: 'Authorship is uncertain. It is often attributed to Adi Shankaracharya, but some attribute it to Ramakrishna Kavi.',
+      },
+    ],
+    related: {
+      stotrams: ['aigiri-nandini', 'durga-stotram'],
+      guides: ['navaratri-nine-forms-of-durga', 'durga-mantra-during-navratri'],
+    },
+    sources: [
+      'Devi Mahatmya (Durga Saptashati), Markandeya Purana, chapters 2-4 (Mahishasura episode)',
+      'Standard references on Sanskrit stotra literature on the disputed authorship of the Mahishasura Mardini Stotram',
+    ],
+  },
+
+  {
+    slug: 'shiva-tandava-stotram-meaning-and-story',
+    category: 'Meaning and history',
+    title: 'Shiva Tandava Stotram: Meaning, the Story of Ravana and How It Is Recited',
+    description:
+      'The traditional story of the Shiva Tandava Stotram, attributed to Ravana, what the hymn describes, its metre and sound, and notes for reciting it with correct pronunciation.',
+    h1: 'Shiva Tandava Stotram: Meaning and the Story of Ravana',
+    intro:
+      'The Shiva Tandava Stotram is known for its fast, thunderous rhythm and long compound words. Tradition ascribes it to Ravana, the king of Lanka and a great devotee of Shiva. This guide explains the story, what the hymn describes, and how to approach reciting it.',
+    sections: [
+      {
+        h: 'The traditional story',
+        p: [
+          `In the well-known account, Ravana tried to lift Mount Kailash, the abode of Shiva, out of pride in his strength. Shiva pressed down with his toe and trapped Ravana beneath the mountain. In pain and repentance, Ravana composed this hymn in praise of Shiva and his cosmic dance, the Tandava, and Shiva was pleased and released him. This is a traditional story rather than a historical record, and the attribution of the hymn to Ravana is traditional.`,
+        ],
+      },
+      {
+        h: 'What the hymn describes',
+        p: [
+          `The stotram describes Shiva in his dancing form: matted locks from which the river Ganga flows, the serpent around his neck, the damaru drum whose beat is said to start the rhythm of creation, the third eye, and the crescent moon on his head. It praises him as the destroyer of obstacles and the lord of the universe. The imagery is vivid, and the poem is celebrated as an example of ornate Sanskrit verse.`,
+        ],
+      },
+      {
+        h: 'Metre and sound',
+        p: [
+          `The hymn has about fifteen verses in a metre called Panchachamara, with a lively, galloping rhythm. Many verses are made of very long compound words, so a single line can seem hard to break apart. This is part of its character, and it is why the hymn is also used to practise breath control and clear articulation.`,
+        ],
+      },
+      {
+        h: 'Reciting it',
+        p: [
+          `Start slowly, line by line, using the transliteration and listening to a good recording. Keep the vowel lengths accurate, because the metre depends on them. Our guide to reading transliteration explains the marks. Many people recite it on Mondays, the day associated with Shiva, and on festivals such as Maha Shivaratri.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Did Ravana really write the Shiva Tandava Stotram?',
+        a: 'Tradition says so, but the story is traditional and cannot be verified historically.',
+      },
+      {
+        q: 'How long does it take to recite?',
+        a: 'About five to seven minutes at a steady pace.',
+      },
+      {
+        q: 'Why does it sound so fast?',
+        a: 'The metre and the long compound words give a quick, rolling rhythm that imitates the dance.',
+      },
+    ],
+    related: {
+      stotrams: ['shiva-tandav', 'shiv-chalisa'],
+      guides: ['shiva-tandav-benefits', 'maha-shivaratri-guide'],
+    },
+    sources: [
+      'Shiva Tandava Stotram (traditionally attributed to Ravana), Sanskrit text',
+      'Traditional accounts of Ravana and Kailash as retold in Puranic and folk literature',
+    ],
+  },
+
+  {
+    slug: 'hanuman-chalisa-history-tulsidas',
+    category: 'Meaning and history',
+    title: 'Hanuman Chalisa: Who Wrote It, Its Structure and Language',
+    description:
+      'The history of the Hanuman Chalisa: its traditional author Tulsidas, the Awadhi language, the forty verses and opening and closing couplets, and how it came to be one of the most recited prayers.',
+    h1: 'Hanuman Chalisa: Author, Structure and Language',
+    intro:
+      'The Hanuman Chalisa is one of the most widely recited devotional poems in the world. Millions of people know it by heart. This guide covers who wrote it, how it is built and why its language made it so popular.',
+    sections: [
+      {
+        h: 'Who wrote it?',
+        p: [
+          `The Chalisa is traditionally attributed to Tulsidas, the sixteenth-century poet-saint who also wrote the Ramcharitmanas, the retelling of the Ramayana in Awadhi. The final verse names Tulsidas as the composer. Tulsidas is generally placed in the sixteenth and early seventeenth centuries, though the exact dates of his life are debated.`,
+        ],
+      },
+      {
+        h: 'Language and form',
+        p: [
+          `The poem is in Awadhi, a dialect of Hindi spoken in the Ayodhya region, not in Sanskrit. That made it accessible to ordinary people. It is made of forty verses called chaupais, hence chalisa from chalis, forty, along with two opening couplets (dohas) and a closing doha. The simple rhymes make it easy to memorise.`,
+        ],
+      },
+      {
+        h: 'What it contains',
+        p: [
+          `It opens with a prayer to the guru and an invocation of Hanuman. The verses then praise his strength and devotion, and recall episodes from the Ramayana: the leap across the ocean, the meeting with Sita in Lanka, the burning of Lanka, and the fetching of the Sanjeevani herb for Lakshmana. The closing verses ask for his protection and for a place in the heart where Rama, Lakshmana and Sita dwell.`,
+        ],
+      },
+      {
+        h: 'Why it is so widely recited',
+        p: [
+          `Its short length, memorable rhythm and plain language make it easy to recite daily, in temples, at home and in times of worry. It is often recited on Tuesdays and Saturdays and on Hanuman Jayanti. See our Hanuman Jayanti guide and the full text with meaning in four languages.`,
+        ],
+      },
+      {
+        h: 'A note on claims',
+        p: [
+          `You may see strong claims online about what reciting the Chalisa a set number of times will bring. These are matters of personal belief, not facts that can be tested. The poem is best read for its devotion, its story and its sense of courage and humility.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'In what language is the Hanuman Chalisa?',
+        a: 'It is in Awadhi, an old dialect of Hindi.',
+      },
+      {
+        q: 'How many verses does it have?',
+        a: 'Forty chaupai verses, plus two opening dohas and one closing doha.',
+      },
+      {
+        q: 'Who wrote it?',
+        a: 'Tradition attributes it to the poet-saint Tulsidas.',
+      },
+    ],
+    related: {
+      stotrams: ['hanuman-chalisa', 'bajrang-baan'],
+      guides: ['hanuman-chalisa-benefits', 'how-to-chant-hanuman-chalisa'],
+    },
+    sources: [
+      'Tulsidas, Hanuman Chalisa (final verse naming the author)',
+      'Lutgendorf, P., Hanuman\'s Tale: The Messages of a Divine Monkey, Oxford University Press, 2007',
+    ],
+  },
+
+  {
+    slug: 'om-meaning-and-how-to-chant',
+    category: 'Meaning and history',
+    title: 'Om (Aum): Meaning, Origin and How to Chant It',
+    description:
+      'What Om means in the Upanishads, its three sounds A, U, M and the silence after, the Yoga Sutras reference, and a simple way to chant Om with breath and attention.',
+    h1: 'Om: Meaning, Origin and How to Chant',
+    intro:
+      'Om, also written Aum, is the most sacred syllable in Hindu tradition and appears at the start of most mantras. It is also found in Buddhism and Jainism. This guide explains how the Upanishads describe it and offers a simple way to chant it.',
+    sections: [
+      {
+        h: 'Where Om appears',
+        p: [
+          `Om is mentioned in many Upanishads, including the Chandogya, Katha and Mandukya. The Katha Upanishad calls it the word that all the Vedas proclaim. Patanjali's Yoga Sutras (1.27) say that the expression of Ishvara is Om, the pranava, and that it should be repeated with reflection on its meaning.`,
+        ],
+      },
+      {
+        h: 'Four parts: A, U, M and silence',
+        p: [
+          `The Mandukya Upanishad analyses Om as made up of three sounds, A, U and M, and the silence that follows. It associates these with the waking, dreaming and deep sleep states, and the silence with the fourth state, turiya, a state of pure awareness. This is one traditional interpretation, and other schools read it differently.`,
+        ],
+      },
+      {
+        h: 'How to chant it',
+        p: [
+          `Sit with a straight back. Take a slow breath in, then on the out-breath chant a long A as in father, move to a rounded U as in boot, and close the lips on a humming M. Let the M carry on for a while, then rest quietly in the silence for a few breaths. Repeat three to eleven times. The tone should be comfortable, not strained.`,
+        ],
+      },
+      {
+        h: 'What science says',
+        p: [
+          `A small pilot study published in 2011 reported reduced activity in some limbic areas of the brain during Om chanting compared with a control sound. The sample was small, so this is an early lead. See our guide on the science behind chanting for a careful look at what is and is not established.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Is Om only a Hindu symbol?',
+        a: 'It originates in the Vedic tradition, and it is also used in Buddhism and Jainism, each with its own meaning.',
+      },
+      {
+        q: 'How many times should I chant Om?',
+        a: 'Three to eleven times is common for a short practice, or 108 times with a mala.',
+      },
+      {
+        q: 'Why is there a silence after Om?',
+        a: 'In the Mandukya reading the silence represents the fourth, transcendent state beyond waking, dreaming and sleep.',
+      },
+    ],
+    related: {
+      stotrams: ['gayatri-mantra'],
+      guides: ['science-behind-chanting', 'how-to-use-japa-mala'],
+    },
+    sources: [
+      'Mandukya Upanishad (verses 1-12) and Katha Upanishad 1.2.15-16',
+      'Patanjali, Yoga Sutras 1.27-28',
+      'Kalyani B.G. et al., Neurohemodynamic correlates of OM chanting: a pilot fMRI study, International Journal of Yoga 2011;4(1):3-6',
+    ],
+  },
 ];

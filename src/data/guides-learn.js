@@ -1046,4 +1046,283 @@ export const GUIDES_LEARN = [
       'Kalyani B.G. et al., Neurohemodynamic correlates of OM chanting: a pilot fMRI study, International Journal of Yoga 2011;4(1):3-6',
     ],
   },
+
+
+  {
+    slug: 'gayatri-mantra-word-by-word-meaning',
+    category: 'Meaning and history',
+    title: 'Gayatri Mantra Word by Word: Meaning, Translation and Origin',
+    description:
+      'A word-by-word translation of the Gayatri Mantra: Om, Bhur Bhuvah Svah, Tat Savitur Varenyam, Bhargo Devasya Dhimahi, Dhiyo Yo Nah Prachodayat, with its source in the Rig Veda and its metre.',
+    h1: 'Gayatri Mantra Word by Word',
+    intro:
+      'The Gayatri Mantra is among the oldest and most recited verses in Hindu tradition. Many people chant it without a word-by-word understanding. This guide explains each part, its source and its structure.',
+    sections: [
+      {
+        h: 'The mantra and its source',
+        p: [
+          `The Gayatri Mantra is a single verse of the Rig Veda (3.62.10), attributed to the sage Vishvamitra and addressed to Savitr, the sun as the inspirer. It is composed in a metre called Gayatri, which has three lines of eight syllables each, twenty-four syllables in all. The opening Om Bhur Bhuvah Svah is a traditional prefix added in ritual use.`,
+        ],
+      },
+      {
+        h: 'The prefix: Om Bhur Bhuvah Svah',
+        p: [
+          `Om is the sacred syllable. Bhur, Bhuvah and Svah are the vyahritis, names of the three worlds: earth, the atmosphere or space between, and the heavens. Together they invoke the whole of existence before the verse begins.`,
+        ],
+      },
+      {
+        h: 'Line one: Tat Savitur Varenyam',
+        p: [
+          `Tat means that. Savitur is of Savitr, the inspiring sun or the divine source of light. Varenyam means worthy of being chosen, excellent, adorable. The line can be read as: that adorable light of the divine Savitr.`,
+        ],
+      },
+      {
+        h: 'Line two: Bhargo Devasya Dhimahi',
+        p: [
+          `Bhargo means radiance, splendour. Devasya means of the divine. Dhimahi means we meditate upon. So: we meditate on the radiance of the divine.`,
+        ],
+      },
+      {
+        h: 'Line three: Dhiyo Yo Nah Prachodayat',
+        p: [
+          `Dhiyo means intellects, understanding. Yo means who. Nah means our. Prachodayat means may it inspire or may it impel. So: may it inspire our understanding.`,
+        ],
+      },
+      {
+        h: 'A full translation',
+        p: [
+          `A common rendering is: We meditate on the adorable radiance of the divine source of light; may it inspire our understanding. Translators differ on small choices, such as whether Savitr is the sun or a more abstract divine inspirer, and the mantra is read differently across traditions. The core is a prayer for clarity of mind, not a request for wealth or favours.`,
+        ],
+      },
+      {
+        h: 'Reciting it',
+        p: [
+          `Many recite it three times at sunrise, noon and sunset, or 108 times with a mala. A calm pace, attention to the meaning and correct vowel length are more important than speed. Our guide on how to chant the Gayatri Mantra explains posture and timing.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Where does the Gayatri Mantra come from?',
+        a: 'From the Rig Veda, book 3, hymn 62, verse 10, attributed to Vishvamitra.',
+      },
+      {
+        q: 'Why is it called Gayatri?',
+        a: 'It is named after the metre in which it is composed, Gayatri, which has twenty-four syllables in three lines.',
+      },
+      {
+        q: 'What does Savitr mean?',
+        a: 'Savitr is the Vedic deity of the sun as the stimulator or inspirer; later tradition identifies him with Surya.',
+      },
+    ],
+    related: {
+      stotrams: ['gayatri-mantra', 'aditya-hridayam'],
+      guides: ['how-to-chant-gayatri-mantra', 'power-of-gayatri-mantra'],
+    },
+    sources: [
+      'Rig Veda 3.62.10 (Savitr hymn)',
+      'Jamison, S. and Brereton, J., The Rigveda: The Earliest Religious Poetry of India, Oxford University Press, 2014',
+    ],
+  },
+
+  {
+    slug: 'maha-mrityunjaya-mantra-meaning',
+    category: 'Meaning and history',
+    title: 'Maha Mrityunjaya Mantra: Meaning, Source and How It Is Used',
+    description:
+      'The Maha Mrityunjaya Mantra explained: its source in the Rig Veda, a word-by-word translation of Tryambakam Yajamahe, the cucumber image, and the responsible way it is used in prayer.',
+    h1: 'Maha Mrityunjaya Mantra: Meaning and Source',
+    intro:
+      'The Maha Mrityunjaya Mantra, also called the Tryambaka Mantra, is a verse addressed to Shiva and is widely recited for health, protection and peace. This guide explains the words, the source, and how to treat the mantra sensibly.',
+    sections: [
+      {
+        h: 'Source and names',
+        p: [
+          `The mantra appears in the Rig Veda (7.59.12) and is repeated in the Yajur Veda. Tryambaka means the three-eyed one, and is a name of Rudra, later identified with Shiva. Mrityunjaya means conqueror of death. The mantra is therefore known both as the Tryambaka Mantra and as the Maha Mrityunjaya Mantra.`,
+        ],
+      },
+      {
+        h: 'Word by word',
+        p: [
+          `Om Tryambakam yajamahe: we worship the three-eyed one. Sugandhim pushti-vardhanam: who is fragrant and nourishes growth. Urvarukam iva bandhanan: like a ripe cucumber from its stem. Mrityor mukshiya ma amritat: may we be freed from death, not from immortality.`,
+        ],
+      },
+      {
+        h: 'The cucumber image',
+        p: [
+          `The image is of a ripe cucumber that separates from its vine without effort. The prayer asks that death come as naturally and painlessly as this, and that the worshipper be freed from the fear of death toward a state of immortality or wholeness. Many readers also take freedom from death in a wider sense: freedom from fear, from suffering and from bondage.`,
+        ],
+      },
+      {
+        h: 'How it is used',
+        p: [
+          `Families recite it for the health of a loved one, at moments of anxiety, and during Shiva worship, often 108 times. Many people find the steady repetition comforting. It is important to be clear that a mantra is not a medical treatment. Anyone who is ill should follow their doctor's advice, and the mantra can be a source of calm alongside it, not a replacement.`,
+        ],
+      },
+      {
+        h: 'Recitation tips',
+        p: [
+          `Pronounce the compound words slowly. Keep the vowels clear and take a breath at the pauses. Using a mala helps with counting. Monday and the festival of Maha Shivaratri are traditional times. See our guide to chanting Shiva mantras for more.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Does the Maha Mrityunjaya Mantra cure illness?',
+        a: 'It is a prayer and a source of comfort. It is not a medical treatment and should not replace medical care.',
+      },
+      {
+        q: 'Where is it from?',
+        a: 'Rig Veda 7.59.12, repeated in the Yajur Veda.',
+      },
+      {
+        q: 'How many times should it be chanted?',
+        a: 'Many people recite it 108 times, or a shorter number such as 11 or 21, according to time and habit.',
+      },
+    ],
+    related: {
+      stotrams: ['shiva-tandav', 'shiv-chalisa'],
+      guides: ['how-to-chant-shiva-mantra', 'maha-shivaratri-guide'],
+    },
+    sources: [
+      'Rig Veda 7.59.12',
+      'Jamison, S. and Brereton, J., The Rigveda: The Earliest Religious Poetry of India, Oxford University Press, 2014',
+    ],
+  },
+
+  {
+    slug: 'durga-puja-odisha-guide',
+    category: 'Festivals',
+    title: 'Durga Puja in Odisha: Five Days, Cuttack Traditions and What to Chant',
+    description:
+      'A guide to Durga Puja as celebrated in Odisha: the days from Shashthi to Dashami, the famous Cuttack celebration with silver filigree decoration, customs, visarjan and the prayers recited.',
+    h1: 'Durga Puja in Odisha',
+    intro:
+      'Durga Puja is the biggest festival of autumn in Odisha, especially in Cuttack, where the celebration is known across India. This guide explains the days of the festival, the traditions people follow and what to chant.',
+    sections: [
+      {
+        h: 'When it falls',
+        p: [
+          `Durga Puja is held in the bright fortnight of the month of Ashvin, usually in September or October, as part of Navaratri. The main days run from Shashthi, the sixth day, to Dashami, the tenth, and the dates change each year. Mahalaya, the new moon a fortnight before, begins the festive season.`,
+        ],
+      },
+      {
+        h: 'The days of the puja',
+        p: [
+          `On Shashthi the Goddess is welcomed and her face is unveiled. Saptami is marked by the bathing of a banana plant (nabapatrika) and the formal invocation. Ashtami is the main day for worship, offerings of flowers and, in many communities, the sandhi puja at the junction of Ashtami and Navami. Navami continues the worship and Dashami, Vijayadashami, ends the festival with the immersion (visarjan) of the idol.`,
+        ],
+      },
+      {
+        h: 'Cuttack and silver filigree',
+        p: [
+          `Cuttack is known for large community pujas with elaborate pandals and processions. A special feature is the use of tarakasi, the silver filigree craft for which the city is famous, to decorate the idols and the pandals. Crowds of visitors move through the city at night to see the displays, and the immersion procession on the Mahanadi draws large numbers.`,
+        ],
+      },
+      {
+        h: 'Home worship and customs',
+        p: [
+          `Many families in Odisha observe the festival at home with a small kalash, offerings of flowers and fruit, and recitation of the Chandi Path (Durga Saptashati). Special foods are prepared, new clothes are worn and relatives visit each other. Some families fast on certain days, which is a personal choice.`,
+        ],
+      },
+      {
+        h: 'What to chant',
+        p: [
+          `Popular prayers are the Durga Stotram, the Aigiri Nandini (Mahishasura Mardini Stotram), and the mantra Om Dum Durgayai Namah. Many read the Devi Mahatmya during the nine days. Choose what you can recite with understanding, and read the meaning first.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'How long does Durga Puja last?',
+        a: 'The main public celebration is five days, from Shashthi to Dashami, within the nine nights of Navaratri.',
+      },
+      {
+        q: 'What is tarakasi?',
+        a: 'Tarakasi is the silver filigree craft of Cuttack, used to make jewellery and decorations, including for Durga Puja.',
+      },
+      {
+        q: 'Is Durga Puja the same as Navaratri?',
+        a: 'They overlap. Navaratri is the nine nights of worship; Durga Puja in eastern India emphasises the last five days.',
+      },
+    ],
+    related: {
+      stotrams: ['aigiri-nandini', 'durga-stotram'],
+      guides: ['navaratri-nine-forms-of-durga', 'aigiri-nandini-meaning-and-story'],
+    },
+    sources: [
+      'Devi Mahatmya (Durga Saptashati), Markandeya Purana',
+      'Government of Odisha tourism material on Cuttack Durga Puja and Cuttack tarakasi (silver filigree)',
+    ],
+  },
+
+  {
+    slug: 'ekadashi-vrat-guide',
+    category: 'Daily practice',
+    title: 'Ekadashi Vrat: Meaning, How to Fast and What to Chant',
+    description:
+      'A clear guide to Ekadashi, the eleventh lunar day: why Vaishnavas observe it, how the fast is kept, the parana next morning, Nirjala Ekadashi, health cautions and the prayers recited.',
+    h1: 'Ekadashi Vrat: Meaning and How to Observe',
+    intro:
+      'Ekadashi is the eleventh day of each lunar fortnight, observed by many Hindus, especially Vaishnavas, with fasting and prayer. This guide explains the observance in a practical, health-aware way.',
+    sections: [
+      {
+        h: 'What is Ekadashi?',
+        p: [
+          `Ekadashi means eleven. It falls twice every lunar month, once in the bright fortnight and once in the dark fortnight, so there are about twenty-four a year, each with its own name. The day is dedicated to Vishnu, and tradition associates it with restraint, simplicity and devotion.`,
+        ],
+      },
+      {
+        h: 'How the fast is kept',
+        p: [
+          `Practice varies widely. Some people abstain from all food, some from grains and beans, and some eat only fruit, milk and root vegetables. The day is spent in prayer, reading from sacred texts, and sometimes a night vigil. A common custom is to avoid rice and other grains on this day.`,
+        ],
+      },
+      {
+        h: 'Breaking the fast: parana',
+        p: [
+          `The fast is traditionally broken the next morning, on Dwadashi, after sunrise and within the time given in the panchang. This is called parana. Pick the time from a reliable local panchang, since it varies by place.`,
+        ],
+      },
+      {
+        h: 'Nirjala Ekadashi and special days',
+        p: [
+          `Nirjala Ekadashi, in the month of Jyeshtha, is traditionally kept without even water. It is physically demanding and is not suitable for everyone. Other well-known days include Vaikuntha Ekadashi, Prabodhini or Devutthana Ekadashi and Shayani Ekadashi.`,
+        ],
+      },
+      {
+        h: 'Health first',
+        p: [
+          `Fasting is a personal vow and not a requirement. People who are pregnant, elderly, diabetic, taking regular medication or with any medical condition should not fast strictly without medical advice. A modest fruit-and-milk fast, or simply extra time for prayer, fulfils the spirit of the day.`,
+        ],
+      },
+      {
+        h: 'What to chant',
+        p: [
+          `Common choices are the Vishnu Sahasranamam, the mantra Om Namo Bhagavate Vasudevaya, and readings from the Bhagavad Gita. Our Vishnu guides explain pronunciation and counting.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'How many Ekadashis are there in a year?',
+        a: 'Twenty-four in an ordinary year, and twenty-six when an extra month is added.',
+      },
+      {
+        q: 'Why are grains avoided on Ekadashi?',
+        a: 'It is a custom of the tradition, with various explanations. It is a personal practice rather than a universal rule.',
+      },
+      {
+        q: 'Can I drink water or take medicine while fasting?',
+        a: 'Most people do. Medicines should be taken as prescribed, and anyone with a health condition should consult their doctor.',
+      },
+    ],
+    related: {
+      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra'],
+      guides: ['how-to-chant-vishnu-mantra', 'vishnu-sahasranamam-benefits'],
+    },
+    sources: [
+      'Kane, P.V., History of Dharmasastra, Vol. V (Ekadashi vrata)',
+      'Padma Purana and Bhavishya Purana passages on Ekadashi as summarised in standard works on Hindu vrata',
+    ],
+  },
 ];

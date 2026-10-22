@@ -215,33 +215,52 @@ export const GUIDES_LEARN = [
     category: 'Festivals',
     title: 'Hanuman Jayanti: Date, Meaning, Worship and What to Chant',
     description:
-      'What Hanuman Jayanti celebrates, why regions observe it on different dates, how devotees worship on the day, and the prayers commonly recited, including the Hanuman Chalisa.',
+      'What Hanuman Jayanti celebrates, why regions observe it on different dates, from Chaitra Purnima to Margazhi and Odisha\'s Pana Sankranti, how devotees worship on the day, and the prayers commonly recited, including the Hanuman Chalisa.',
     h1: 'Hanuman Jayanti: Meaning, Worship and What to Chant',
     intro:
-      'Hanuman Jayanti celebrates the birth of Hanuman, the devoted servant of Rama, known for strength, humility and loyalty. This guide explains the festival and offers a simple way to observe it.',
+      'Hanuman Jayanti celebrates the birth of Hanuman, the devoted servant of Rama, known for strength, humility and loyalty. It is one of the few Hindu festivals observed on several different dates in different parts of India. This guide explains why, what the traditions say about his birth, and a simple way to observe the day.',
     sections: [
       {
-        h: 'Why the date differs',
+        h: 'Why the date differs by region',
         p: [
-          `In much of north and central India Hanuman Jayanti is observed on the full moon day (Purnima) of the month of Chaitra, usually in March or April. Other regions follow different traditions: in Tamil Nadu and Kerala it is observed in the month of Margazhi (Dhanu), and in Odisha it is commonly marked around the Odia new year in April. Always check a local panchang or ask your temple.`,
+          `In much of north India Hanuman Jayanti is observed on the full moon day (Purnima) of the month of Chaitra, usually in March or April. Other regions follow different traditions. In Andhra Pradesh and Telangana the day is the tenth day (dashami) of Vaishakha, and a 41-day vow of devotion often runs from Chaitra Purnima up to that day. In Karnataka it is observed on the thirteenth day of the bright fortnight, in Margashirsha or sometimes Vaishakha. In Tamil Nadu and Kerala, Hanumath Jayanthi is observed on the new moon day of Margazhi (Dhanu), which falls in December or January. In Odisha the festival is commonly observed on Pana Sankranti, the Odia new year in mid-April.`,
+          `These are not mistakes in the calendar. Hindu tradition preserves more than one account of the birth day, and regional almanacs add their own calculations. Always check a local panchang or ask your temple for the date in your area.`,
         ],
       },
       {
         h: 'Who is Hanuman?',
         p: [
-          `In the Ramayana, Hanuman is the son of the wind god Vayu, a devoted ally of Rama who leaps across the ocean to find Sita in Lanka. He is a symbol of devotion, courage, discipline and service without ego. Tuesday and Saturday are the days traditionally associated with his worship.`,
+          `In the Ramayana, Hanuman is a vanara, a member of the monkey people of Kishkindha, and is described as a son of the wind god Vayu. In the traditional accounts his mother is Anjana and his father in the earthly lineage is Kesari. He is the devoted ally of Rama who leaps across the ocean to find Sita in Lanka, as told in the Sundara Kanda of the Valmiki Ramayana. He symbolises devotion, courage, discipline and service without ego.`,
+        ],
+      },
+      {
+        h: 'Traditions about his birth',
+        p: [
+          `Different texts tell the story differently. Puranic accounts describe how Anjana prayed to Shiva for a child and how the wind god played a part in the birth. One folk account links the birth to the sacred payasam of King Dasharatha's sacrifice, a portion of which a bird dropped and the wind delivered to Anjana. Another well-known Puranic story tells how the child leapt towards the sun, mistaking it for a fruit, and was struck down, after which the gods granted him boons. These are stories of the tradition, told with variations, and no single version is regarded as the only correct one.`,
         ],
       },
       {
         h: 'How devotees observe the day',
         p: [
-          `Many people rise early, bathe, visit a Hanuman temple, offer sindoor mixed with oil, flowers and sweets, and recite the Hanuman Chalisa. Some fast until the evening. Temples often organise recitation of the Sundara Kanda, the Ramayana chapter about Hanuman's journey to Lanka.`,
+          `Many people rise early, bathe, visit a Hanuman temple, offer sindoor mixed with oil, flowers and sweets, and recite the Hanuman Chalisa. The offering of vermilion comes from a folk story in which Hanuman smeared his body with the sindoor that Sita wore. Some fast until the evening. Temples often organise recitation of the Sundara Kanda, the Ramayana chapter about Hanuman's journey to Lanka, and in Odisha the reading of the Sundara Kanda is a common part of the day. Distributing prasad and giving to charity are also common.`,
         ],
       },
       {
         h: 'What to chant',
         p: [
-          `The Hanuman Chalisa is the most popular text and takes about ten minutes. The Bajrang Baan is recited by some for courage. The simple mantra Om Hanumate Namah can be repeated 108 times. See how to chant the Hanuman Chalisa for guidance on pace and pronunciation.`,
+          `The Hanuman Chalisa is the most popular text and takes about ten minutes. The Bajrang Baan is recited by some for courage. The simple mantra Om Hanumate Namah can be repeated 108 times with a mala. Read the meaning of whatever you chant. Our guide on how to chant the Hanuman Chalisa explains pace and pronunciation, and our guide on the history of the Chalisa explains who wrote it and in what language.`,
+        ],
+      },
+      {
+        h: 'A simple home observance',
+        p: [
+          `You do not need elaborate ritual. Light a lamp before an image of Rama, Sita, Lakshmana and Hanuman, offer a flower, recite the Chalisa slowly, and spend a few minutes in quiet. Tuesday and Saturday are traditionally associated with Hanuman, but the practice is valid on any day. If you cannot visit a temple, the same observance at home is complete.`,
+        ],
+      },
+      {
+        h: 'Customs worth knowing',
+        p: [
+          `Customs vary by temple and household. Some temples have their own rules about who may touch the image of Hanuman, and many welcome all devotees. At home, follow your family's practice and the guidance of your own temple. A few online sources make strong claims about what the Chalisa will bring when recited a certain number of times. These are matters of personal belief, not things anyone can promise.`,
         ],
       },
     ],
@@ -251,6 +270,10 @@ export const GUIDES_LEARN = [
         a: 'Yes, it is the traditional celebration of his birth, though regional traditions give different dates.',
       },
       {
+        q: 'Why is Hanuman Jayanti on different dates in different states?',
+        a: 'Tradition preserves more than one account of his birth day, and regional calendars differ. North India uses Chaitra Purnima, Andhra and Telangana Vaishakha dashami, Tamil Nadu and Kerala the Margazhi new moon, and Odisha Pana Sankranti.',
+      },
+      {
         q: 'Which day of the week is best to worship Hanuman?',
         a: 'Tuesday and Saturday are traditionally associated with him, but any day is acceptable.',
       },
@@ -258,13 +281,19 @@ export const GUIDES_LEARN = [
         q: 'How long does the Hanuman Chalisa take?',
         a: 'About ten minutes at a calm pace.',
       },
+      {
+        q: 'Why is sindoor offered to Hanuman?',
+        a: 'A folk story says Hanuman covered himself in the vermilion Sita wore for Rama\'s long life. Devotees offer it in that spirit.',
+      },
     ],
     related: {
       stotrams: ['hanuman-chalisa', 'bajrang-baan'],
-      guides: ['hanuman-chalisa-benefits', 'how-to-chant-hanuman-chalisa'],
+      guides: ['hanuman-chalisa-history-tulsidas', 'hanuman-chalisa-benefits', 'how-to-chant-hanuman-chalisa'],
     },
     sources: [
-      'Valmiki Ramayana (Sundara Kanda) for the account of Hanuman',
+      'Valmiki Ramayana, Sundara Kanda (Hanuman\'s journey to Lanka)',
+      'Hanuman Jayanti, encyclopaedic summary of regional observance dates and birth traditions',
+      'Sri Vyasa Pooja, article on why Hanuman Jayanti is observed on different dates (Chaitra Purnima, Vaishakha Krishna Dashami, Margazhi Amavasya, Mesha Sankranti)',
       'Tulsidas, Hanuman Chalisa',
     ],
   },
@@ -1323,6 +1352,170 @@ export const GUIDES_LEARN = [
     sources: [
       'Kane, P.V., History of Dharmasastra, Vol. V (Ekadashi vrata)',
       'Padma Purana and Bhavishya Purana passages on Ekadashi as summarised in standard works on Hindu vrata',
+    ],
+  },
+
+  {
+    slug: 'jagannath-ratha-yatra-puri-guide',
+    category: 'Festivals',
+    title: 'Jagannath Ratha Yatra in Puri: Meaning, the Three Chariots and the Rituals',
+    description:
+      'A guide to the Ratha Yatra of Lord Jagannath in Puri: when it is held, the three chariots Nandighosa, Taladhwaja and Darpadalana, Snana Purnima, Chhera Pahanra, the Gundicha Temple and Bahuda Yatra.',
+    h1: 'Jagannath Ratha Yatra in Puri: Meaning and Rituals',
+    intro:
+      'The Ratha Yatra of Puri is one of the best-known festivals in India and the most important in Odisha. Each year Lord Jagannath, his brother Balabhadra and his sister Subhadra leave the Srimandira on three great chariots and travel to the Gundicha Temple. This guide explains how the festival is timed, what happens on each stage, and the traditions that surround it.',
+    sections: [
+      {
+        h: 'When the festival is held',
+        p: [
+          `The Ratha Yatra is held on the second day (dwitiya) of the bright fortnight of the month of Ashadha, which usually falls in June or July. Because the Hindu calendar is lunisolar, the date changes every year, and the temple authorities and the Odia panjika announce it. The festival is part of a longer cycle of rituals that begins weeks earlier.`,
+        ],
+      },
+      {
+        h: 'Snana Purnima and the period of rest',
+        p: [
+          `On the full moon day of the month of Jyeshtha, called Snana Purnima, the deities are bathed in 108 pots of water drawn from a well within the temple precincts. After this public bathing, tradition says the deities fall ill and withdraw from public view for roughly two weeks, a period called Anavasara. During this time devotees cannot have the usual darshan, and the deities receive simple offerings. They reappear shortly before the Ratha Yatra.`,
+        ],
+      },
+      {
+        h: 'The three chariots',
+        p: [
+          `Three new chariots are built every year from specific kinds of wood by hereditary craftsmen. Lord Jagannath travels on Nandighosa, which has sixteen wheels. Balabhadra travels on Taladhwaja, with fourteen wheels, and Subhadra on Darpadalana, with twelve wheels. They stand roughly forty-three to forty-five feet tall, and each has its own colours and canopy. Accounts differ slightly on exact heights and on alternative names, so we give the figures as approximate.`,
+        ],
+      },
+      {
+        h: 'Chhera Pahanra: the king sweeps the chariot',
+        p: [
+          `Before the chariots move, the Gajapati king of Puri performs Chhera Pahanra, sweeping the floor of each chariot with a golden-handled broom and sprinkling sandalwood water, before offering prayers. The ritual is understood as a statement that before the Lord, even the king is a servant, and it is one of the most cited customs of the festival.`,
+        ],
+      },
+      {
+        h: 'The journey to the Gundicha Temple',
+        p: [
+          `Thousands of devotees pull the chariots by ropes along the Grand Road, Bada Danda, to the Gundicha Temple, about two miles from the Srimandira. The Gundicha Temple is regarded as the Lord's garden house and as his aunt's home, and the deities stay there for around a week. Pulling a chariot rope is regarded as an act of devotion open to people of any background, which is one of the reasons the festival is so widely loved.`,
+        ],
+      },
+      {
+        h: 'Bahuda Yatra and after',
+        p: [
+          `The return journey is called Bahuda Yatra. On the way back the chariots halt briefly at the Mausi Maa temple, where tradition says the deities are offered poda pitha, a baked cake. After the return the deities are dressed in gold ornaments in the ceremony known as Suna Besha, worshipped on their chariots in view of the crowds. The cycle concludes with the deities re-entering the sanctum.`,
+        ],
+      },
+      {
+        h: 'Taking part respectfully',
+        p: [
+          `The festival draws very large crowds, and visitors should follow the guidance of the temple administration and local authorities. Entry to the Srimandira itself is governed by temple rules. Many devotees who cannot travel observe the day at home by reading about Jagannath, singing bhajans or reciting the Jagannath Ashtakam, and Odia families around the world often hold small processions with a model chariot.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'On which day is the Ratha Yatra held?',
+        a: 'On the second day of the bright fortnight of Ashadha, usually in June or July. The exact date changes each year.',
+      },
+      {
+        q: 'What are the names of the three chariots?',
+        a: 'Nandighosa for Jagannath, Taladhwaja for Balabhadra and Darpadalana for Subhadra.',
+      },
+      {
+        q: 'What is Chhera Pahanra?',
+        a: 'It is the ritual in which the Gajapati king sweeps the chariots before they move, as a sign of humility before the Lord.',
+      },
+      {
+        q: 'Where do the deities go during the festival?',
+        a: 'They travel to the Gundicha Temple, about two miles from the main temple, stay for about a week, and return in the Bahuda Yatra.',
+      },
+    ],
+    related: {
+      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra'],
+      guides: ['kartika-month-odisha-guide', 'krishna-janmashtami-guide'],
+    },
+    sources: [
+      'Incredible India (Ministry of Tourism, Government of India), Rath Yatra festival page',
+      'Ratha Yatra (Puri), encyclopaedic summary of Snana Purnima, chariot wheel counts, Bahuda Yatra and Suna Besha',
+      'Shri Jagannath Temple Administration, Puri, official temple materials on the festival calendar',
+    ],
+  },
+
+  {
+    slug: 'manabasa-gurubara-odisha-guide',
+    category: 'Festivals',
+    title: 'Manabasa Gurubara: Lakshmi Puja on Thursdays in Odisha, Rituals and the Story',
+    description:
+      'A guide to Manabasa Gurubara, the Thursday worship of Goddess Lakshmi in the month of Margashira in Odisha: the rituals, the mana of paddy, chita rangoli, the Lakshmi Purana of Balaram Das and the story of Shriya Chandaluni.',
+    h1: 'Manabasa Gurubara: Lakshmi Puja on Thursdays in Odisha',
+    intro:
+      'In the Odia month of Margashira, which falls around November and December, women across Odisha worship Goddess Lakshmi on every Thursday in a festival called Manabasa Gurubara. The worship is closely tied to the harvest, to a much-loved poem about Lakshmi, and to a story about humility and equality. This guide explains the festival, its rituals and its meaning.',
+    sections: [
+      {
+        h: 'What is Manabasa Gurubara?',
+        p: [
+          `Gurubara means Thursday, and mana is a measuring basket of bamboo or cane that was traditionally used to measure paddy and grain. Manabasa Gurubara is therefore the Thursday worship of Lakshmi, the goddess of prosperity, represented through the mana filled with newly harvested paddy. It is observed on the Thursdays of Margashira, a month that coincides with the harvest season, and it is also called Dhana Manakia Gurubara in some accounts.`,
+        ],
+      },
+      {
+        h: 'Why Thursdays in Margashira',
+        p: [
+          `Tradition holds that Lakshmi visits houses on these Thursdays, going from village to village and town to town. Households therefore prepare to receive her. There is a widely repeated belief, recorded in descriptions of the festival, that the goddess does not enter an untidy or dirty house, which is why the cleaning and decoration of the home is such a central part of the preparation.`,
+        ],
+      },
+      {
+        h: 'Preparation and chita',
+        p: [
+          `On the eve of each Thursday women clean the house and decorate the floors and walls with chita, intricate designs painted with a paste or solution of rice. Footprints of the goddess are drawn from the door towards the place of worship to welcome her inside. On the morning of the Thursday women bathe, wear fresh clothes and keep a fast until the midday puja, according to family custom.`,
+        ],
+      },
+      {
+        h: 'The worship and the mana',
+        p: [
+          `In many homes two manas, one large and one small, are filled with paddy and decorated with vermilion, betel nuts, flowers and sometimes bangles and cowries. They are placed on a stand and worshipped with the traditional five offerings. Foods such as pitha, kheeri and seasonal fruit are offered. The grain from the mana is later cooked and eaten as prasad, and the paddy is kept in the house as a symbol of abundance.`,
+        ],
+      },
+      {
+        h: 'The last Thursday and the Lakshmi Purana',
+        p: [
+          `The final Thursday of the month is the most elaborate, with extra decoration at the entrance, banana saplings and pots placed at the doorway, and in many families an all-night vigil. An elder woman usually recites the Lakshmi Purana, the Odia poem attributed to the poet Balaram Das, or the traditional Manabasa katha, to the gathered family. The poem is recited aloud so that all present may hear it.`,
+        ],
+      },
+      {
+        h: 'The story of Shriya Chandaluni',
+        p: [
+          `The story told in the Lakshmi Purana is about Shriya, a woman of the Chandala community who worshipped Lakshmi with great devotion. Lakshmi accepted her worship and went to her house. According to the story, Lord Jagannath and Balabhadra objected to the goddess having entered the house of a woman considered of low caste, and Jagannath asked Lakshmi to leave the temple. Misfortune then followed in the Srimandira, until the brothers realised their error. The story is read as a teaching that devotion matters more than social rank, and many readers and scholars have described it as a statement against untouchability.`,
+        ],
+      },
+      {
+        h: 'Observing it today',
+        p: [
+          `Families who observe the festival do so in varied ways, from a full ritual with the mana and the Purana reading to a simpler lamp and prayer. The festival is mainly women-led, though people of every gender take part in the celebration. If you live away from Odisha, you can still join by cleaning the home, decorating with rice-paste designs and reading a translation of the Lakshmi Purana. For prayers, many people add the Mahalakshmi Ashtakam.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'When is Manabasa Gurubara observed?',
+        a: 'On the Thursdays of the Odia month of Margashira, roughly November to December. The exact dates depend on the Odia calendar.',
+      },
+      {
+        q: 'What does Manabasa mean?',
+        a: 'Mana is the measuring basket used for paddy, and the festival worships Lakshmi through a mana filled with grain.',
+      },
+      {
+        q: 'Who wrote the Lakshmi Purana that is read?',
+        a: 'The Odia poem is attributed to the poet Balaram Das.',
+      },
+      {
+        q: 'What is chita?',
+        a: 'Chita is the decorative pattern painted with rice paste on the floor and walls during the festival.',
+      },
+    ],
+    related: {
+      stotrams: ['mahalakshmi-ashtakam'],
+      guides: ['lakshmi-mantra-friday-ritual', 'diwali-lakshmi-puja-guide'],
+    },
+    sources: [
+      'Orissa Review, Government of Odisha, article on Manabasa Gurubara (Lakshmi worship in Margashira and the Shriya Chandaluni story)',
+      'eSamskriti, Manabasa Gurubara and Prathama Astami (rituals of the mana, chita and the last Thursday)',
+      'Balaram Das, Lakshmi Purana (Odia, sixteenth century)',
     ],
   },
 ];

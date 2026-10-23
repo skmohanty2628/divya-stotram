@@ -26,8 +26,8 @@ function cleanOdiaText(text) {
   // ❗ REMOVE space AFTER virama
   cleaned = cleaned.replace(/([\u0B4D])\s+/g, '$1');
 
-  // ❗ REMOVE space between combining marks and base chars
-  cleaned = cleaned.replace(/([\u0B3C\u0B3E-\u0B44\u0B47-\u0B48\u0B4B-\u0B4C])\s+/g, '$1');
+  // Remove stray space BEFORE a combining mark. (Never strip the space AFTER one:
+  // that is a normal word boundary and joins every word that ends in a vowel sign.)
   cleaned = cleaned.replace(/\s+([\u0B3C\u0B3E-\u0B44\u0B47-\u0B48\u0B4B-\u0B4C])/g, '$1');
 
   return cleaned.trim();

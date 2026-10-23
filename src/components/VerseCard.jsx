@@ -12,7 +12,9 @@ export default function VerseCard({ verse }) {
   const [aiResponse, setAiResponse] = useState('');
   const [loadingAI, setLoadingAI] = useState(false);
 
-  const { verseText, meaningText } = getVerseDisplayText(verse, lang);
+  const { verseText: rawVerseText, meaningText } = getVerseDisplayText(verse, lang);
+  // Show each half-verse on its own line when the data stores it as one line
+  const verseText = rawVerseText.includes('\n') ? rawVerseText : rawVerseText.replace(/\u0964[ \t]+(?=\S)/g, '\u0964\n');
 
   const handleShare = async () => {
     const shareText = `${verseText}\n\n${meaningText || ''}\n\nDivya Stotram`;
@@ -80,7 +82,7 @@ export default function VerseCard({ verse }) {
       <div className="mt-6 text-center">
         <button
           onClick={() => setMeaningOpen(!meaningOpen)}
-          className="px-5 py-2 border border-[#c9922a]/40 rounded-full text-sm tracking-widest font-cinzel-reg text-[#8b1a00] hover:bg-[#fdf6e3]"
+          className="px-5 py-2 border border-[#c9922a]/40 rounded-full text-sm tracking-wide verse-meaning font-medium text-[#8b1a00] hover:bg-[#fdf6e3]"
         >
           {meaningOpen ? <ChevronUp size={14} /> : <ChevronDown size={14} />} {explainLabel}
         </button>

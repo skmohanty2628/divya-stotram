@@ -18,7 +18,7 @@ function cleanOdiaText(text) {
   if (!cleaned) return '';
 
   // remove unwanted spaces between characters
-  cleaned = cleaned.replace(/\s+/g, ' ');
+  cleaned = cleaned.replace(/[ \t]+/g, ' ');
 
   // ❗ REMOVE space BEFORE virama (୍)
   cleaned = cleaned.replace(/\s+([\u0B4D])/g, '$1');

@@ -72,7 +72,7 @@ export default function VerseCard({ verse }) {
     <div className="rounded-3xl border border-[#c9922a]/30 bg-[#fffdf8] p-6 shadow-md">
 
       {/* Verse */}
-      <div className="text-center text-xl md:text-2xl font-garamond italic leading-loose">
+      <div className="verse-text text-center text-xl md:text-2xl">
         {verseText}
       </div>
 
@@ -93,7 +93,7 @@ export default function VerseCard({ verse }) {
             Meaning
           </div>
 
-          <div className="text-lg font-garamond leading-relaxed text-[#3d1a00]">
+          <div className="verse-meaning text-base md:text-lg">
             {meaningText}
           </div>
 
@@ -114,7 +114,7 @@ export default function VerseCard({ verse }) {
                 AI Explanation
               </div>
 
-              <div className="text-base font-garamond text-[#3d1a00] leading-relaxed">
+              <div className="verse-meaning text-base">
                 {loadingAI ? 'Thinking...' : aiResponse}
               </div>
             </div>

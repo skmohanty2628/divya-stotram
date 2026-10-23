@@ -183,7 +183,7 @@ export default function RootLayout({ children }) {
 
         {/* All site fonts in a single request (was a render-blocking CSS @import chain) */}
         <link
-          href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Noto+Sans+Oriya:wght@400;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans+Oriya:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
 

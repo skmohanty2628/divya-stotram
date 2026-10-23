@@ -158,7 +158,7 @@ function StotramContent({ meta, verseData, top, children, htmlLang }) {
             ))}
           </div>
         ) : (
-          <p className="font-garamond text-lg italic text-[#8b1a00]/70">
+          <p className="font-garamond text-lg text-[#8b1a00]/80">
             The verses for this page are being prepared. Please check back soon.
           </p>
         )}
@@ -172,7 +172,7 @@ function StotramContent({ meta, verseData, top, children, htmlLang }) {
 
       <div className="mt-12 text-center border-t border-[#c9922a]/15 pt-10">
         <p className="font-cinzel text-lg text-[#8b1a00] mb-2">🙏 Share the blessings</p>
-        <p className="font-garamond text-sm text-[#3d1a00]/60 mb-4 italic">
+        <p className="font-garamond text-sm text-[#3d1a00]/70 mb-4">
           Share this stotram with your family and friends
         </p>
         <ShareButtons meta={meta} />

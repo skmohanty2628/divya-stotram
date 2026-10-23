@@ -295,7 +295,7 @@ function buildEmailHtml(stotram, message, email) {
         <tr>
           <td style="background:linear-gradient(135deg,rgba(201,146,42,0.08),rgba(240,192,64,0.04));border:1px solid rgba(201,146,42,0.25);border-radius:16px;padding:24px;text-align:center;">
             <p style="margin:0 0 6px;font-size:10px;color:#c9922a;letter-spacing:3px;text-transform:uppercase;">Today's Verse</p>
-            <p style="margin:0 0 16px;font-family:Georgia,serif;font-size:17px;line-height:1.9;color:#f0c040;font-style:italic;">${stotram.verse}</p>
+            <p style="margin:0 0 16px;font-family:Georgia,serif;font-size:17px;line-height:1.9;color:#f0c040;">${stotram.verse}</p>
             <div style="width:60px;height:1px;background:linear-gradient(90deg,transparent,#c9922a,transparent);margin:0 auto 16px;"></div>
             <p style="margin:0;font-family:Georgia,serif;font-size:14px;line-height:1.7;color:#e8d5b5;opacity:0.85;">${stotram.meaning}</p>
           </td>

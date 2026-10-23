@@ -69,7 +69,7 @@ export function StotramTop({ meta, content, langCode = 'en' }) {
         <Card title={nativeTitle}>
           <Prose>
             <p className="text-xl">{nativeDesc}</p>
-            <p lang="en" className="text-base italic text-[#3d1a00]/60">
+            <p lang="en" className="text-base text-[#3d1a00]/70">
               The verses below are shown in this language. The detailed article that follows is in English.
             </p>
           </Prose>
@@ -161,7 +161,7 @@ export function StotramBody({ meta, content, guides }) {
               </li>
             ))}
           </ul>
-          <p className="mt-5 rounded-xl bg-[#fffaf1] p-4 font-garamond text-base italic leading-relaxed text-[#3d1a00]/70">
+          <p className="mt-5 rounded-xl bg-[#fffaf1] p-4 font-garamond text-base leading-relaxed text-[#3d1a00]/80">
             These are beliefs and experiences from the devotional tradition. They are offered for
             information and are not medical, legal or financial advice or a promise of any result.
           </p>

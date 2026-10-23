@@ -1,5 +1,5 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// ADITYA HRIDAYAM — Complete 31 Verses
+// ADITYA HRIDAYAM - Complete 31 Verses
 // English · Hindi · Odia · Telugu
 // Source: Valmiki Ramayana, Yuddha Kanda, Chapter 107
 // Taught by Sage Agastya to Lord Ram before his final battle with Ravana
@@ -21,7 +21,7 @@ export const adityaHridayam = {
         te: 'తతో యుద్ధ పరిశ్రాంతం సమరే చింతయా స్థితం।\nరావణం చ అగ్రతో దృష్ట్వా యుద్ధాయ సముప స్థితం॥',
       },
       meaning: {
-        en: `After the long exhausting battle, Ram stood weary and worried in contemplation, seeing Ravana standing before him ready to fight again. At that moment, the great sage Agastya — who had come with the gods to witness the battle — approached Ram and spoke these words.`,
+        en: `After the long exhausting battle, Ram stood weary and worried in contemplation, seeing Ravana standing before him ready to fight again. At that moment, the great sage Agastya, who had come with the gods to witness the battle, approached Ram and spoke these words.`,
         hi: 'लंबे युद्ध से थके और चिंतित राम युद्धभूमि में खड़े थे, सामने रावण पुनः युद्ध के लिए तैयार था। उसी क्षण देवताओं के साथ युद्ध देखने आए महर्षि अगस्त्य राम के पास आए और बोले।',
         od: 'ଦୀର୍ଘ ଯୁଦ୍ଧ ପରେ ରାମ କ୍ଲାନ୍ତ ଓ ଚିନ୍ତିତ ଅବସ୍ଥାରେ ଦଣ୍ଡାୟମାନ ଥିଲେ। ସେ ସମୟରେ ସାମ୍ନାରେ ପୁଣିଥରେ ଯୁଦ୍ଧ ପାଇଁ ପ୍ରସ୍ତୁତ ରାବଣଙ୍କୁ ଦେଖି, ସେ ମନେ ଚିନ୍ତା କରୁଥିଲେ। ତାହାବେଳେ ଦେବତାମାନଙ୍କ ସହ ଯୁଦ୍ଧ ଦେଖିବାକୁ ଆସିଥିବା ମହର୍ଷି ଅଗସ୍ତ୍ୟ ରାମଙ୍କୁ ଆସି କହିଲେ।',
         te: 'సుదీర్ఘ యుద్ధం తర్వాత రాముడు అలసిపోయి ఆందోళనగా నిల్చున్నాడు. ముందు రావణుడు మళ్ళీ యుద్ధానికి సిద్ధంగా ఉన్నాడు. ఆ సమయంలో మహర్షి అగస్త్యుడు రాముని వద్దకు వచ్చి ఈ మాటలు చెప్పాడు.',
@@ -59,7 +59,7 @@ export const adityaHridayam = {
         te: 'రామ రామ మహాబాహో శ్రుణు గుహ్యం సనాతనం।\nయేన సర్వాన్ అరీన్ వత్స సమరే విజయిష్యసి॥',
       },
       meaning: {
-        en: `O Ram, O Ram, O mighty-armed one — listen to this eternal secret. O dear child, by this knowledge you shall conquer all your enemies in battle. Sage Agastya calls Ram affectionately as "Vatsa" (dear child).`,
+        en: `O Ram, O Ram, O mighty-armed one, listen to this eternal secret. O dear child, by this knowledge you shall conquer all your enemies in battle. Sage Agastya calls Ram affectionately as "Vatsa" (dear child).`,
         hi: 'हे राम, हे महाबाहो! इस सनातन रहस्य को सुनो। हे वत्स (प्रिय पुत्र), इससे तुम युद्ध में अपने सभी शत्रुओं पर विजय प्राप्त करोगे।',
         od: 'ହେ ରାମ, ହେ ମହାବାହୁ! ଏହି ସନାତନ ଗୁପ୍ତ ଉପଦେଶଟି ଶୁଣ। ହେ ବତ୍ସ, ଏହାର ଜ୍ଞାନ ଦ୍ୱାରା ତୁମେ ଯୁଦ୍ଧରେ ସମସ୍ତ ଶତ୍ରୁଙ୍କୁ ଜୟ କରିପାରିବ। ଏଠାରେ ଅଗସ୍ତ୍ୟ ରାମଙ୍କୁ ସ୍ନେହଭାବରେ “ବତ୍ସ” ବୋଲି କହୁଛନ୍ତି।',
         te: 'ఓ రామ, ఓ మహాబాహో! ఈ సనాతన రహస్యాన్ని వినుము. ఓ వత్సా, దీని ద్వారా నీవు యుద్ధంలో నీ శత్రువులందరినీ జయిస్తావు.',
@@ -78,10 +78,10 @@ export const adityaHridayam = {
         te: 'ఆదిత్య హృదయం పుణ్యం సర్వ శత్రు వినాశనం।\nజయావహం జపేన్నిత్యం అక్షయం పరమం శివం॥',
       },
       meaning: {
-        en: `The Aditya Hridayam is sacred and destroys all enemies. Chanting it daily brings victory — it is imperishable (Akshayam) and grants supreme auspiciousness (Paramam Shivam). O Ram, this is the heart-secret of the Sun God.`,
-        hi: 'आदित्यहृदयम् पवित्र है और सभी शत्रुओं का नाश करता है। नित्य जप से विजय मिलती है — यह अक्षय और परम शिव है। हे राम, यह सूर्यदेव का हृदय-रहस्य है।',
+        en: `The Aditya Hridayam is sacred and destroys all enemies. Chanting it daily brings victory, it is imperishable (Akshayam) and grants supreme auspiciousness (Paramam Shivam). O Ram, this is the heart-secret of the Sun God.`,
+        hi: 'आदित्यहृदयम् पवित्र है और सभी शत्रुओं का नाश करता है। नित्य जप से विजय मिलती है, यह अक्षय और परम शिव है। हे राम, यह सूर्यदेव का हृदय-रहस्य है।',
         od: 'ଏହି ଆଦିତ୍ୟହୃଦୟମ୍ ପବିତ୍ର ଏବଂ ସମସ୍ତ ଶତ୍ରୁଙ୍କୁ ନାଶ କରେ। ଏହାକୁ ନିତ୍ୟ ଜପ କଲେ ବିଜୟ ମିଳେ। ଏହା ଅକ୍ଷୟ ଏବଂ ପରମ ଶୁଭଦାୟକ। ହେ ରାମ, ଏହା ସୂର୍ଯ୍ୟଦେବଙ୍କ ହୃଦୟର ଗୁପ୍ତ ତତ୍ତ୍ୱ।',
-        te: 'ఆదిత్య హృదయం పవిత్రమైనది, అన్ని శత్రువులను నాశనం చేస్తుంది. నిత్యం జపిస్తే విజయం లభిస్తుంది — అక్షయమైనది, పరమ శుభకరమైనది.',
+        te: 'ఆదిత్య హృదయం పవిత్రమైనది, అన్ని శత్రువులను నాశనం చేస్తుంది. నిత్యం జపిస్తే విజయం లభిస్తుంది, అక్షయమైనది, పరమ శుభకరమైనది.',
       },
     },
     {
@@ -118,7 +118,7 @@ export const adityaHridayam = {
       meaning: {
         en: `Worship Vivasvanta (the Sun) who is full of rays, who is rising, who is saluted by both gods and demons alike. He is Bhaskara (the maker of light) and Bhuvaneshvara (lord of the worlds). Worship this supreme lord of all creation.`,
         hi: 'किरणों से युक्त, उदय होते हुए, देवताओं और असुरों द्वारा नमस्कृत विवस्वान (सूर्य) की पूजा करो। वे भास्कर (प्रकाश बनाने वाले) और भुवनेश्वर (विश्व के ईश) हैं।',
-        od: 'କିରଣରେ ପୂର୍ଣ୍ଣ, ଉଦୟମାନ ଏବଂ ଦେବତା ଓ ଅସୁରମାନଙ୍କ ଦ୍ୱାରା ପ୍ରଣାମିତ ବିବସ୍ୱାନ୍ ସୂର୍ଯ୍ୟଙ୍କୁ ପୂଜା କର। ସେ ଭାସ୍କର — ଅର୍ଥାତ୍ ଆଲୋକର ସୃଷ୍ଟିକର୍ତ୍ତା, ଏବଂ ଭୁବନେଶ୍ୱର — ସମସ୍ତ ଲୋକଙ୍କ ନାଥ।',
+        od: 'କିରଣରେ ପୂର୍ଣ୍ଣ, ଉଦୟମାନ ଏବଂ ଦେବତା ଓ ଅସୁରମାନଙ୍କ ଦ୍ୱାରା ପ୍ରଣାମିତ ବିବସ୍ୱାନ୍ ସୂର୍ଯ୍ୟଙ୍କୁ ପୂଜା କର। ସେ ଭାସ୍କର, ଅର୍ଥାତ୍ ଆଲୋକର ସୃଷ୍ଟିକର୍ତ୍ତା, ଏବଂ ଭୁବନେଶ୍ୱର, ସମସ୍ତ ଲୋକଙ୍କ ନାଥ।',
         te: 'కిరణాలతో నిండిన, ఉదయిస్తున్న, దేవాసురులచే నమస్కరించబడే వివస్వంతుడిని పూజించు. ఆయన భాస్కరుడు, భువనేశ్వరుడు.',
       },
     },
@@ -251,7 +251,7 @@ export const adityaHridayam = {
       meaning: {
         en: `He is Vyomanatha (lord of the sky), the piercer of darkness, the one who has mastered Rig, Yajur, and Sama Vedas. He is the cause of heavy rains (Ghanavrishti), the friend of water (Apam Mitra), and he travels the path of the Vindhya mountains (Vindhyavithiplavan-gama).`,
         hi: 'वे व्योमनाथ (आकाश के स्वामी), अंधकार के भेदक, ऋक्-यजुर-साम के पारगामी हैं। वे घनवर्षा कराते हैं, जल के मित्र और विंध्य पथ से गमन करने वाले हैं।',
-        od: 'ସେ ବ୍ୟୋମନାଥ — ଆକାଶର ସ୍ୱାମୀ, ଅନ୍ଧକାରଭେଦୀ ଏବଂ ଋକ୍, ଯଜୁର୍, ସାମ ବେଦର ପାରଙ୍ଗତ। ସେ ଘନବର୍ଷାର କାରଣ, ଜଳର ମିତ୍ର ଏବଂ ବିନ୍ଧ୍ୟପର୍ବତ ପଥରେ ଗମନକାରୀ।',
+        od: 'ସେ ବ୍ୟୋମନାଥ, ଆକାଶର ସ୍ୱାମୀ, ଅନ୍ଧକାରଭେଦୀ ଏବଂ ଋକ୍, ଯଜୁର୍, ସାମ ବେଦର ପାରଙ୍ଗତ। ସେ ଘନବର୍ଷାର କାରଣ, ଜଳର ମିତ୍ର ଏବଂ ବିନ୍ଧ୍ୟପର୍ବତ ପଥରେ ଗମନକାରୀ।',
         te: 'వ్యోమనాథుడు, చీకటి భేదకుడు, ఋక్ యజుర్ సామ వేదాల నిపుణుడు. భారీ వర్షాలకు కారణం, జలమిత్రుడు, వింధ్య పర్వత మార్గ ప్రయాణి.',
       },
     },
@@ -287,10 +287,10 @@ export const adityaHridayam = {
         te: 'నక్షత్ర గ్రహ తారాణాం అధిపో విశ్వ భావనః।\nతేజసా మపి తేజస్వీ ద్వాదశాత్మన్ నమో\'స్తు తే॥',
       },
       meaning: {
-        en: `He is the lord of all stars, planets, and constellations, the sustainer of the whole universe. He is the most radiant among all radiant beings. O Dvadashatman (the one with twelve forms — the twelve Adityas), salutations to you!`,
-        hi: 'वे नक्षत्रों, ग्रहों और तारों के अधिपति, विश्व के भावनकर्ता हैं। तेजस्वियों में सर्वाधिक तेजस्वी — हे द्वादशात्मन (बारह आदित्यों वाले), आपको नमस्कार!',
+        en: `He is the lord of all stars, planets, and constellations, the sustainer of the whole universe. He is the most radiant among all radiant beings. O Dvadashatman (the one with twelve forms, the twelve Adityas), salutations to you!`,
+        hi: 'वे नक्षत्रों, ग्रहों और तारों के अधिपति, विश्व के भावनकर्ता हैं। तेजस्वियों में सर्वाधिक तेजस्वी, हे द्वादशात्मन (बारह आदित्यों वाले), आपको नमस्कार!',
         od: 'ସେ ନକ୍ଷତ୍ର, ଗ୍ରହ ଓ ତାରାମାନଙ୍କର ଅଧିପତି ଏବଂ ସମସ୍ତ ବିଶ୍ୱର ପାଳକ। ସମସ୍ତ ତେଜସ୍ୱୀମାନଙ୍କ ମଧ୍ୟରେ ସବୁଠୁ ଅଧିକ ଦୀପ୍ତିମାନ। ହେ ଦ୍ୱାଦଶାତ୍ମନ୍, ଆପଣଙ୍କୁ ମୋର ନମସ୍କାର।',
-        te: 'నక్షత్రాలు, గ్రహాలు, తారలకు అధిపతి, విశ్వ పోషకుడు. తేజస్వులలో తేజస్వి — ఓ ద్వాదశాత్మన్, నమస్కారం!',
+        te: 'నక్షత్రాలు, గ్రహాలు, తారలకు అధిపతి, విశ్వ పోషకుడు. తేజస్వులలో తేజస్వి, ఓ ద్వాదశాత్మన్, నమస్కారం!',
       },
     },
     {
@@ -306,8 +306,8 @@ export const adityaHridayam = {
         te: 'నమః పూర్వాయ గిరయే పశ్చిమాయ నమః।\nజ్యోతిర్గణానాం పతయే దినే దినపతయే నమః॥',
       },
       meaning: {
-        en: `Salutations to the eastern mountain (where the Sun rises) and to the western mountain (where the Sun sets). Salutations to the lord of all luminaries, salutations every day to the lord of the day (Dinapati — the Sun).`,
-        hi: 'पूर्वी पर्वत (जहां सूर्य उदय होता है) और पश्चिमी पर्वत को नमस्कार। सभी ज्योतिर्गणों के स्वामी को और दिन के स्वामी (दिनपति — सूर्य) को प्रतिदिन नमस्कार।',
+        en: `Salutations to the eastern mountain (where the Sun rises) and to the western mountain (where the Sun sets). Salutations to the lord of all luminaries, salutations every day to the lord of the day (Dinapati, the Sun).`,
+        hi: 'पूर्वी पर्वत (जहां सूर्य उदय होता है) और पश्चिमी पर्वत को नमस्कार। सभी ज्योतिर्गणों के स्वामी को और दिन के स्वामी (दिनपति, सूर्य) को प्रतिदिन नमस्कार।',
         od: 'ପୂର୍ବ ପର୍ବତକୁ ନମସ୍କାର, ଯେଉଁଠାରୁ ସୂର୍ଯ୍ୟ ଉଦୟ ହୁଏ; ଏବଂ ପଶ୍ଚିମ ପର୍ବତକୁ ମଧ୍ୟ ନମସ୍କାର, ଯେଉଁଠାରେ ସୂର୍ଯ୍ୟ ଅସ୍ତ ଯାନ୍ତି। ସମସ୍ତ ଜ୍ୟୋତିର୍ଗଣଙ୍କ ନାଥ ଏବଂ ଦିନପତି ସୂର୍ଯ୍ୟଙ୍କୁ ନିତ୍ୟ ନମସ୍କାର।',
         te: 'తూర్పు పర్వతానికి (సూర్యోదయ స్థానం) నమస్కారం, పడమర పర్వతానికి నమస్కారం. జ్యోతి సమూహాల పతికి, దిన పతికి నిత్యం నమస్కారం.',
       },
@@ -344,9 +344,9 @@ export const adityaHridayam = {
         te: 'నమ ఉగ్రాయ వీరాయ సారంగాయ నమో నమః।\nనమః పద్మ ప్రబోధాయ మార్తండాయ నమో నమః॥',
       },
       meaning: {
-        en: `Salutations to the fierce one (Ugra), the heroic (Vira), Saranga (the one with variegated rays). Salutations to the one who awakens the lotus (Padma-Prabodhaya — the sunrise opens lotus flowers), and salutations again to Martanda.`,
-        hi: 'उग्र, वीर और सारंग को नमस्कार। कमल को प्रफुल्लित करने वाले (पद्म-प्रबोध — सूर्योदय से कमल खिलते हैं) और मार्तंड को नमस्कार।',
-        od: 'ଉଗ୍ର, ବୀର ଏବଂ ବିବିଧ କିରଣଯୁକ୍ତ ସାରଙ୍ଗ ସ୍ୱରୂପ ସୂର୍ଯ୍ୟଙ୍କୁ ନମସ୍କାର। ପଦ୍ମକୁ ଜାଗ୍ରତ କରୁଥିବା — ଅର୍ଥାତ୍ ଯାହାଙ୍କ ଉଦୟରେ କମଳ ଖୋଲିଯାଏ — ସେହି ମାର୍ତ୍ତାଣ୍ଡଙ୍କୁ ପୁନଃ ନମସ୍କାର।',
+        en: `Salutations to the fierce one (Ugra), the heroic (Vira), Saranga (the one with variegated rays). Salutations to the one who awakens the lotus (Padma-Prabodhaya, the sunrise opens lotus flowers), and salutations again to Martanda.`,
+        hi: 'उग्र, वीर और सारंग को नमस्कार। कमल को प्रफुल्लित करने वाले (पद्म-प्रबोध, सूर्योदय से कमल खिलते हैं) और मार्तंड को नमस्कार।',
+        od: 'ଉଗ୍ର, ବୀର ଏବଂ ବିବିଧ କିରଣଯୁକ୍ତ ସାରଙ୍ଗ ସ୍ୱରୂପ ସୂର୍ଯ୍ୟଙ୍କୁ ନମସ୍କାର। ପଦ୍ମକୁ ଜାଗ୍ରତ କରୁଥିବା, ଅର୍ଥାତ୍ ଯାହାଙ୍କ ଉଦୟରେ କମଳ ଖୋଲିଯାଏ, ସେହି ମାର୍ତ୍ତାଣ୍ଡଙ୍କୁ ପୁନଃ ନମସ୍କାର।',
         te: 'ఉగ్రుడికి, వీరుడికి, సారంగుడికి నమస్కారం. కమలాన్ని వికసింపజేసే పద్మ ప్రబోధకుడికి, మార్తాండుడికి నమస్కారం.',
       },
     },
@@ -404,7 +404,7 @@ export const adityaHridayam = {
         en: `Salutations to the one who shines like molten gold, who is fire itself, who is the architect of the universe (Vishvakarma). Salutations to the one who completely destroys darkness, the resplendent one, and the witness of all the worlds (Loka-Sakshi).`,
         hi: 'पिघले सोने के समान चमकने वाले, अग्निस्वरूप, विश्वकर्मा को नमस्कार। अंधकार को पूर्णतः नष्ट करने वाले, दीप्तिमान और लोक-साक्षी को नमस्कार।',
         od: 'ଗଳିତ ସୁନା ସମାନ ଦୀପ୍ତିମାନ, ଅଗ୍ନିସ୍ୱରୂପ ଏବଂ ବିଶ୍ୱକର୍ମା ସୂର୍ଯ୍ୟଙ୍କୁ ନମସ୍କାର। ସମ୍ପୂର୍ଣ୍ଣ ଅନ୍ଧକାରକୁ ନାଶ କରୁଥିବା, ଦୀପ୍ତିମାନ ଏବଂ ସମସ୍ତ ଲୋକର ସାକ୍ଷୀଙ୍କୁ ନମସ୍କାର।',
-        te: 'కరిగించిన బంగారం వలె మెరిసే, అగ్ని స్వరూపుడు, విశ్వకర్మ — నమస్కారం. చీకటిని పూర్తిగా నాశనం చేసే, దీప్తిమంతుడు, లోక సాక్షి — నమస్కారం.',
+        te: 'కరిగించిన బంగారం వలె మెరిసే, అగ్ని స్వరూపుడు, విశ్వకర్మ, నమస్కారం. చీకటిని పూర్తిగా నాశనం చేసే, దీప్తిమంతుడు, లోక సాక్షి, నమస్కారం.',
       },
     },
     {
@@ -458,10 +458,10 @@ export const adityaHridayam = {
         te: 'వేదాశ్చ క్రతవశ్చైవ క్రతూనాం ఫలమేవ చ।\nయాని కృత్యాని లోకేషు సర్వ ఏష రవిః ప్రభుః॥',
       },
       meaning: {
-        en: `The Vedas, all sacred rites (Kratus), and the fruits of those rites — and all the actions performed in the worlds — in all of this, Ravi (the Sun), the lord, is present as the supreme. Everything ultimately is a manifestation of the Sun God.`,
-        hi: 'वेद, यज्ञ, यज्ञों के फल और लोकों में जो भी कृत्य होते हैं — इन सब में यह सूर्य प्रभु ही व्याप्त हैं। समस्त अस्तित्व सूर्यदेव की अभिव्यक्ति है।',
-        od: 'ବେଦ, ଯଜ୍ଞ, ଯଜ୍ଞର ଫଳ ଏବଂ ସମସ୍ତ ଲୋକରେ ଯାହା କାର୍ଯ୍ୟ ଘଟେ — ସେସବୁରେ ରବି ପ୍ରଭୁଙ୍କ ଉପସ୍ଥିତି ରହିଛି। ଅବଶେଷରେ ସମସ୍ତ କିଛି ସୂର୍ଯ୍ୟଦେବଙ୍କର ଅଭିବ୍ୟକ୍ତି।',
-        te: 'వేదాలు, యజ్ఞాలు, వాటి ఫలాలు — ప్రపంచంలో జరిగే అన్నింటిలో ఈ రవి ప్రభువు వ్యాపించి ఉన్నాడు. సమస్త అస్తిత్వం సూర్యుని అభివ్యక్తి.',
+        en: `The Vedas, all sacred rites (Kratus), and the fruits of those rites, and all the actions performed in the worlds, in all of this, Ravi (the Sun), the lord, is present as the supreme. Everything ultimately is a manifestation of the Sun God.`,
+        hi: 'वेद, यज्ञ, यज्ञों के फल और लोकों में जो भी कृत्य होते हैं, इन सब में यह सूर्य प्रभु ही व्याप्त हैं। समस्त अस्तित्व सूर्यदेव की अभिव्यक्ति है।',
+        od: 'ବେଦ, ଯଜ୍ଞ, ଯଜ୍ଞର ଫଳ ଏବଂ ସମସ୍ତ ଲୋକରେ ଯାହା କାର୍ଯ୍ୟ ଘଟେ, ସେସବୁରେ ରବି ପ୍ରଭୁଙ୍କ ଉପସ୍ଥିତି ରହିଛି। ଅବଶେଷରେ ସମସ୍ତ କିଛି ସୂର୍ଯ୍ୟଦେବଙ୍କର ଅଭିବ୍ୟକ୍ତି।',
+        te: 'వేదాలు, యజ్ఞాలు, వాటి ఫలాలు, ప్రపంచంలో జరిగే అన్నింటిలో ఈ రవి ప్రభువు వ్యాపించి ఉన్నాడు. సమస్త అస్తిత్వం సూర్యుని అభివ్యక్తి.',
       },
     },
     {
@@ -477,8 +477,8 @@ export const adityaHridayam = {
         te: 'ఏనమ్ ఆపత్సు కృచ్ఛ్రేషు కాంతారేషు భయేషు చ।\nకీర్తయన్ పురుషః కశ్చిన్న అవసీదతి రాఘవ॥',
       },
       meaning: {
-        en: `O Raghava (Ram), whoever chants this Aditya Hridayam in times of calamity, distress, in forests, and in situations of fear — that person will never be overwhelmed. This is Agastya's assurance to Ram.`,
-        hi: 'हे राघव! जो व्यक्ति आपदाओं में, कठिनाइयों में, वन में और भय की स्थितियों में इस आदित्यहृदयम का कीर्तन करता है — वह कभी नष्ट नहीं होता।',
+        en: `O Raghava (Ram), whoever chants this Aditya Hridayam in times of calamity, distress, in forests, and in situations of fear, that person will never be overwhelmed. This is Agastya's assurance to Ram.`,
+        hi: 'हे राघव! जो व्यक्ति आपदाओं में, कठिनाइयों में, वन में और भय की स्थितियों में इस आदित्यहृदयम का कीर्तन करता है, वह कभी नष्ट नहीं होता।',
         od: 'ହେ ରାଘବ! ଯେ କେହି ଆପଦ, କଷ୍ଟ, ଜଙ୍ଗଲ ଅଥବା ଭୟର ସମୟରେ ଏହି ଆଦିତ୍ୟହୃଦୟମ୍‌ର କୀର୍ତ୍ତନ କରେ, ସେ କେବେ ନିରାଶ ହୁଏ ନାହିଁ ଓ ପରାଜିତ ହୁଏ ନାହିଁ। ଏହା ଅଗସ୍ତ୍ୟଙ୍କ ନିଶ୍ଚିତ ଆଶ୍ୱାସନ।',
         te: 'ఓ రాఘవా! ఆపదలలో, కష్టాలలో, అడవులలో, భయ సమయాలలో ఈ ఆదిత్య హృదయాన్ని కీర్తించే వాడు ఎన్నటికీ నాశనం కాడు.',
       },
@@ -515,7 +515,7 @@ export const adityaHridayam = {
         te: 'అస్మిన్ క్షణే మహాబాహో రావణం త్వం వధిష్యసి।\nఏవముక్త్వా తదా అగస్త్యో జగామ చ యథాగతం॥',
       },
       meaning: {
-        en: `O mighty-armed one, at this very moment you shall slay Ravana! Having said these words, sage Agastya departed the way he had come. His words were the divine promise — the blessing that gave Ram the energy and certainty of victory.`,
+        en: `O mighty-armed one, at this very moment you shall slay Ravana! Having said these words, sage Agastya departed the way he had come. His words were the divine promise, the blessing that gave Ram the energy and certainty of victory.`,
         hi: 'हे महाबाहो! इसी क्षण तुम रावण का वध करोगे! ऐसा कहकर अगस्त्य उसी मार्ग से चले गए। उनके शब्द राम को विजय की दिव्य आश्वस्ति थे।',
         od: 'ହେ ମହାବାହୁ! ଏହି କ୍ଷଣରେ ତୁମେ ରାବଣଙ୍କୁ ବଧ କରିବ। ଏହା କହି ସରି ଅଗସ୍ତ୍ୟ ଯେ ପଥରୁ ଆସିଥିଲେ ସେହି ପଥରେ ଫେରିଗଲେ। ତାଙ୍କର ଏହି ବାକ୍ୟ ରାମଙ୍କୁ ବିଜୟର ଦିବ୍ୟ ଆଶ୍ୱାସନ ଦେଲା।',
         te: 'ఓ మహాబాహో! ఈ క్షణమే నీవు రావణుడిని వధిస్తావు! ఈ మాటలు చెప్పి అగస్త్యుడు వచ్చిన దారినే వెళ్ళిపోయాడు.',
@@ -534,7 +534,7 @@ export const adityaHridayam = {
         te: 'ఏతచ్ఛ్రుత్వా మహాతేజా నష్ట శోకో అభవత్తదా।\nధారయామాస సుప్రీతో రాఘవః ప్రయతాత్మవాన్॥',
       },
       meaning: {
-        en: `Hearing these words, the mighty (Mahateja) Ram — his grief completely destroyed — held these teachings in his heart with great delight, his soul now pure and composed (Prayatatma). Ram was now fully energized and ready for the final battle.`,
+        en: `Hearing these words, the mighty (Mahateja) Ram, his grief completely destroyed, held these teachings in his heart with great delight, his soul now pure and composed (Prayatatma). Ram was now fully energized and ready for the final battle.`,
         hi: 'यह सुनकर महातेजस्वी राम का शोक नष्ट हो गया। वे अत्यंत प्रसन्न और पवित्र मन से इस ज्ञान को हृदय में धारण कर रावण के सामने युद्ध के लिए खड़े हो गए।',
         od: 'ଏହି ବାକ୍ୟ ଶୁଣି ମହାତେଜସ୍ୱୀ ରାମଙ୍କର ଶୋକ ନଷ୍ଟ ହୋଇଗଲା। ସେ ବହୁତ ଆନନ୍ଦିତ ହୋଇ ଏହି ଜ୍ଞାନକୁ ହୃଦୟରେ ଧାରଣ କଲେ, ତାଙ୍କ ମନ ପବିତ୍ର ଓ ଏକାଗ୍ର ହେଲା।',
         te: 'ఇవి విని మహాతేజస్వి రాముడి శోకం పూర్తిగా నశించింది. ఆయన ఆనందంగా, పవిత్ర మనసుతో ఈ జ్ఞానాన్ని హృదయంలో ధరించి రావణుడిని ఎదుర్కోవడానికి సిద్ధపడ్డాడు.',
@@ -553,7 +553,7 @@ export const adityaHridayam = {
         te: 'ఆదిత్యం ప్రేక్ష్య జప్త్వా చ పరం హర్షమ్ అవాప్తవాన్।\nత్రిరాచమ్య శుచిర్భూత్వా ధనురాదాయ వీర్యవాన్॥',
       },
       meaning: {
-        en: `Looking at the Sun and chanting the prayer, Ram attained supreme joy. He sipped water three times (Achaman — a purification ritual), became pure, and the valiant Ram took up his bow. He was now fully energized and purified for the final battle.`,
+        en: `Looking at the Sun and chanting the prayer, Ram attained supreme joy. He sipped water three times (Achaman, a purification ritual), became pure, and the valiant Ram took up his bow. He was now fully energized and purified for the final battle.`,
         hi: 'सूर्य को देखकर और आदित्यहृदयम का पाठ कर राम को परम हर्ष हुआ। तीन बार आचमन कर शुद्ध होकर वीरश्रेष्ठ राम ने धनुष उठाया।',
         od: 'ସୂର୍ଯ୍ୟଙ୍କୁ ଦେଖି ଏହି ସ୍ତୋତ୍ର ଜପ କରି ରାମ ପରମ ଆନନ୍ଦ ପାଇଲେ। ତିନିଥର ଆଚମନ କରି ସେ ଶୁଚି ହେଲେ, ଏବଂ ବୀର ରାମ ନିଜ ଧନୁଷ ଉଠାଇଲେ।',
         te: 'సూర్యుడిని చూసి, ఆదిత్య హృదయం జపించి రాముడికి పరమ ఆనందం కలిగింది. మూడు సార్లు ఆచమనం చేసి శుచిగా మారి వీరుడైన రాముడు ధనుస్సు అందుకున్నాడు.',
@@ -572,7 +572,7 @@ export const adityaHridayam = {
         te: 'రావణం ప్రేక్ష్య హృష్టాత్మా యుద్ధాయ సముపాగమత్।\nసర్వ యత్నేన మహతా వధే తస్య ధృతోత్సవః॥',
       },
       meaning: {
-        en: `With a joyful soul, Ram advanced toward Ravana for battle with great determination. With all his might and utmost effort he was resolved to slay Ravana. The transformation in Ram — from exhausted and sorrowful to joyful and determined — was complete.`,
+        en: `With a joyful soul, Ram advanced toward Ravana for battle with great determination. With all his might and utmost effort he was resolved to slay Ravana. The transformation in Ram, from exhausted and sorrowful to joyful and determined, was complete.`,
         hi: 'प्रसन्न आत्मा से राम रावण की ओर युद्ध के लिए बढ़े। समस्त शक्ति और महान प्रयास से रावण के वध का संकल्प लिया। राम का परिवर्तन पूर्ण था।',
         od: 'ଆନନ୍ଦିତ ଆତ୍ମା ସହ ରାମ ଦୃଢ ସଙ୍କଳ୍ପରେ ରାବଣଙ୍କ ସହ ଯୁଦ୍ଧ ପାଇଁ ଆଗକୁ ବଢ଼ିଲେ। ସମସ୍ତ ଶକ୍ତି ଓ ସର୍ବୋଚ୍ଚ ପ୍ରୟାସରେ ସେ ରାବଣବଧରେ ପ୍ରତିବଦ୍ଧ ହେଲେ।',
         te: 'ఆనంద మనసుతో రాముడు రావణుడి వైపు యుద్ధానికి దృఢసంకల్పంతో ముందుకు సాగాడు. తన సమస్త శక్తితో రావణ వధకు సిద్ధపడ్డాడు.',
@@ -591,9 +591,9 @@ export const adityaHridayam = {
         te: 'అథ రవిరవదన్ నిరీక్ష్య రామం।\nముదిత మనాః పరమం ప్రహృష్యమాణః।\nనిశిచర పతి సంక్షయం విదిత్వా।\nసురగణ మధ్యగతో వచస్ త్వరేతి॥',
       },
       meaning: {
-        en: `Then the Sun God, looking upon Ram, became extremely delighted in heart. Knowing that the destruction of the lord of the night-wanderers (Ravana) was near, and standing amidst the assembly of gods, Surya seemed to urge: "Hurry forth!" This final verse closes the hymn with divine approval — the universe itself blesses Ram's victory.`,
-        hi: 'तब सूर्यदेव ने राम को देखकर मन में अत्यंत प्रसन्नता अनुभव की। राक्षसराज रावण के विनाश को निकट जानकर, देवगणों के मध्य स्थित सूर्य मानो कहने लगे — शीघ्र आगे बढ़ो! यह अंतिम श्लोक राम की विजय पर स्वयं ब्रह्मांड की मुहर है।',
-        od: 'ତାପରେ ସୂର୍ଯ୍ୟଦେବ ରାମଙ୍କୁ ଦେଖି ହୃଦୟରେ ଅତ୍ୟନ୍ତ ପ୍ରସନ୍ନ ହେଲେ। ରାକ୍ଷସରାଜ ରାବଣଙ୍କ ନାଶ ନିକଟ ଆସିଗଲା ବୋଲି ଜାଣି, ଦେବଗଣମାନଙ୍କ ମଧ୍ୟରେ ରହି ସେ ମନେ ହେଉଥିଲେ ଯେପରି କହୁଛନ୍ତି — “ଶୀଘ୍ର ଆଗକୁ ବଢ଼।” ଏହି ଶେଷ ଶ୍ଳୋକ ରାମଙ୍କ ବିଜୟ ପ୍ରତି ଦିବ୍ୟ ସମ୍ମତିକୁ ପ୍ରକାଶ କରେ।',
+        en: `Then the Sun God, looking upon Ram, became extremely delighted in heart. Knowing that the destruction of the lord of the night-wanderers (Ravana) was near, and standing amidst the assembly of gods, Surya seemed to urge: "Hurry forth!" This final verse closes the hymn with divine approval, the universe itself blesses Ram's victory.`,
+        hi: 'तब सूर्यदेव ने राम को देखकर मन में अत्यंत प्रसन्नता अनुभव की। राक्षसराज रावण के विनाश को निकट जानकर, देवगणों के मध्य स्थित सूर्य मानो कहने लगे, शीघ्र आगे बढ़ो! यह अंतिम श्लोक राम की विजय पर स्वयं ब्रह्मांड की मुहर है।',
+        od: 'ତାପରେ ସୂର୍ଯ୍ୟଦେବ ରାମଙ୍କୁ ଦେଖି ହୃଦୟରେ ଅତ୍ୟନ୍ତ ପ୍ରସନ୍ନ ହେଲେ। ରାକ୍ଷସରାଜ ରାବଣଙ୍କ ନାଶ ନିକଟ ଆସିଗଲା ବୋଲି ଜାଣି, ଦେବଗଣମାନଙ୍କ ମଧ୍ୟରେ ରହି ସେ ମନେ ହେଉଥିଲେ ଯେପରି କହୁଛନ୍ତି, “ଶୀଘ୍ର ଆଗକୁ ବଢ଼।” ଏହି ଶେଷ ଶ୍ଳୋକ ରାମଙ୍କ ବିଜୟ ପ୍ରତି ଦିବ୍ୟ ସମ୍ମତିକୁ ପ୍ରକାଶ କରେ।',
         te: 'అప్పుడు సూర్యదేవుడు రాముడిని చూచి హృదయంలో అత్యంత సంతోషించాడు. రాక్షసరాజు రావణుని సంహారం సమీపించిందని తెలుసుకొని, దేవగణాల మధ్య నిలబడి సూర్యుడు "త్వరగా ముందుకు సాగు!" అని ప్రేరేపించినట్లుంది.',
       },
     },

@@ -14,7 +14,7 @@ export const bajrangBaan = {
         te: 'నిశ్చయ ప్రేమ ప్రతీతి తే, వినయ కరైం సన్మాన। తేహి కే కారజ సకల శుభ, సిద్ధ కరైం హనుమాన్॥',
       },
       meaning: {
-        en: 'One who approaches Lord Hanuman with unwavering love, faith, and humble reverence — all their auspicious works and endeavors are fulfilled and made successful by Hanuman.',
+        en: 'One who approaches Lord Hanuman with unwavering love, faith, and humble reverence, all their auspicious works and endeavors are fulfilled and made successful by Hanuman.',
         hi: 'जो निश्चय, प्रेम और प्रतीति के साथ विनम्रता से हनुमान की स्तुति करते हैं, उनके सभी शुभ कार्य हनुमान सिद्ध करते हैं।',
         od: 'ଯିଏ ନିଶ୍ଚୟ, ପ୍ରେମ ଓ ବିଶ୍ୱାସ ସହ ବିନୟ ପୂର୍ବକ ହନୁମାନଙ୍କ ସ୍ତୁତି କରନ୍ତି, ସେମାନଙ୍କ ସମସ୍ତ ଶୁଭ କାର୍ଯ୍ୟ ହନୁମାନ ସିଦ୍ଧ କରନ୍ତି।',
         te: 'నిశ్చయంగా ప్రేమతో, విశ్వాసంతో వినమ్రంగా హనుమంతుని స్తుతించే వారి అన్ని శుభకార్యాలను హనుమంతుడు సిద్ధింపచేస్తాడు.',
@@ -93,7 +93,7 @@ export const bajrangBaan = {
         en: 'When Lankini stood ahead to block your path, you kicked her with such force that she flew to the heavens and attained the celestial world.',
         hi: 'आगे जाकर लंकिनी ने रोका, आपने लात मारी और वह स्वर्गलोक चली गई।',
         od: 'ଲଙ୍କିନୀ ଆଗ ଅଟକାଇ ଦେଲା, ଆପଣ ଲାଥ ମାରିଲେ ଓ ସେ ସ୍ୱର୍ଗ ଚାଲିଗଲା।',
-        te: 'లంకిని అడ్డుకున్నప్పుడు నువ్వు తన్ని కొట్టావు — ఆమె స్వర్గానికి చేరుకుంది.',
+        te: 'లంకిని అడ్డుకున్నప్పుడు నువ్వు తన్ని కొట్టావు, ఆమె స్వర్గానికి చేరుకుంది.',
       },
     },
     {
@@ -185,7 +185,7 @@ export const bajrangBaan = {
         te: 'అబ విలంబ కేహి కారన స్వామీ। కృపా కరహు ఉర అంతర్యామీ॥',
       },
       meaning: {
-        en: 'O Master, why the delay now? You who dwell within every heart as the inner witness — bestow your grace upon us.',
+        en: 'O Master, why the delay now? You who dwell within every heart as the inner witness, bestow your grace upon us.',
         hi: 'अब देरी किस लिए स्वामी? हे अंतर्यामी, कृपा करें।',
         od: 'ଏବେ ବିଳମ୍ବ କାହିଁକି ସ୍ୱାମୀ? ହେ ଅଂତର୍ଯ୍ୟାମୀ, କୃପା କରନ୍ତୁ।',
         te: 'స్వామీ ఇప్పుడు ఎందుకు ఆలస్యం? హే అంతర్యామీ, కృపచేయి.',
@@ -318,7 +318,7 @@ export const bajrangBaan = {
         te: 'యహ బజ్రంగ బాణ జేహి మారే। తాహి కహో ఫిర కౌన ఉబారే॥',
       },
       meaning: {
-        en: 'Whoever is struck by this Bajrang Baan — tell me, who can then save them? The arrow of Hanuman\'s power is unstoppable.',
+        en: 'Whoever is struck by this Bajrang Baan, tell me, who can then save them? The arrow of Hanuman\'s power is unstoppable.',
         hi: 'इस बजरंग बाण से जो मारा जाए, फिर कौन बचा सकता है उसे?',
         od: 'ଏହି ବଜ୍ରଙ୍ଗ ବାଣ ଦ୍ୱାରା ଯୋ ହଣ ଯାଏ, ତାଙ୍କ ଉଦ୍ଧାର ଆଉ ଜେ ବି କରଇ?',
         te: 'ఈ బజ్రంగ బాణం తాకినవారిని, చెప్పండి ఇక ఎవరు రక్షించగలరు?',
@@ -337,7 +337,7 @@ export const bajrangBaan = {
         te: 'పాఠ కరే బజ్రంగ బాణ కీ। హనుమత రక్షా కరే ప్రాణ కీ॥',
       },
       meaning: {
-        en: 'Whoever recites this Bajrang Baan — Hanuman himself protects their very life force, soul, and existence.',
+        en: 'Whoever recites this Bajrang Baan, Hanuman himself protects their very life force, soul, and existence.',
         hi: 'जो बजरंग बाण का पाठ करे, हनुमान उसके प्राणों की रक्षा करते हैं।',
         od: 'ଯିଏ ବଜ୍ରଙ୍ଗ ବାଣ ପଢ଼େ, ହନୁମାନ ତା ପ୍ରାଣ ରକ୍ଷା କରନ୍ତ।',
         te: 'బజ్రంగ బాణం పఠించినవారి ప్రాణాలను హనుమంతుడు రక్షిస్తాడు.',
@@ -356,7 +356,7 @@ export const bajrangBaan = {
         te: 'యహ బజ్రంగ బాణ జో జాపే। తాసు సకల దుఖ దూర హై భాగే॥',
       },
       meaning: {
-        en: 'Whoever chants and meditates on this Bajrang Baan — all their sorrows, troubles, and pains flee and disappear completely.',
+        en: 'Whoever chants and meditates on this Bajrang Baan, all their sorrows, troubles, and pains flee and disappear completely.',
         hi: 'जो इस बजरंग बाण का जाप करे, उसके सभी दुख दूर भाग जाते हैं।',
         od: 'ଯିଏ ଏହି ବଜ୍ରଙ୍ଗ ବାଣ ଜପ କରେ, ତାର ସମସ୍ତ ଦୁଃଖ ଦୂ ର ଭାଗ ଯାଏ।',
         te: 'ఈ బజ్రంగ బాణం జపించినవారి సమస్త దుఃఖాలు పారిపోతాయి.',
@@ -375,7 +375,7 @@ export const bajrangBaan = {
         te: 'బజ్రంగ బాణ పాఠ కరి, నిష దిన ధరి మన మాహిం। తా సమ భక్త హనుమాన కో, జగ మేం అధిక న ఆహిం॥',
       },
       meaning: {
-        en: 'One who recites the Bajrang Baan day and night, keeping it always in their heart — there is no greater devotee of Hanuman in this entire world.',
+        en: 'One who recites the Bajrang Baan day and night, keeping it always in their heart, there is no greater devotee of Hanuman in this entire world.',
         hi: 'जो रात-दिन बजरंग बाण का पाठ मन में करे, उससे बड़ा हनुमान भक्त जगत में नहीं।',
         od: 'ଯିଏ ରାତ ଦିନ ବଜ୍ରଙ୍ଗ ବାଣ ପଢ଼େ, ତା ଠାରୁ ବଡ଼ ହନୁମାନ ଭକ୍ତ ଜଗ ରେ ନ ଅଛ।',
         te: 'రాత్రీ పగలూ బజ్రంగ బాణం పఠించేవారికంటే గొప్ప హనుమద్భక్తుడు ఈ జగత్తులో లేడు.',

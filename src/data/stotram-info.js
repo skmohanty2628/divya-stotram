@@ -1,6 +1,6 @@
 export const STOTRAM_INFO = {
 
-  // ── EXISTING 8 (unchanged — kept exactly as original) ──────────────────────
+  // ── EXISTING 8 (unchanged - kept exactly as original) ──────────────────────
 
   'hanuman-chalisa': {
     what: `Hanuman Chalisa is one of the most loved and widely recited Hindu devotional hymns dedicated to Lord Hanuman. Composed by the saint-poet Goswami Tulsidas, it contains 40 verses praising Hanuman ji's strength, wisdom, devotion, and divine power. Devotees chant it to seek protection, inner strength, peace of mind, and relief from fear and negativity.`,
@@ -24,8 +24,8 @@ export const STOTRAM_INFO = {
   },
 
   'durga-stotram': {
-    what: `Durga Stotram is a collection of powerful hymns dedicated to Goddess Durga, the divine mother and destroyer of evil. The most revered verses — "Ya Devi Sarva Bhuteshu" — come from the ancient Devi Mahatmya and are chanted during Navratri and daily worship. Goddess Durga is worshipped as the supreme power who protects the universe from evil forces.`,
-    meaning: `The Durga Stotram recognizes the Goddess as present in all living beings in various forms — as Shakti (power), Buddhi (intelligence), Matru (motherly love), and Lakshmi (prosperity). Each verse ends with "Namastasyai Namastasyai Namastasyai Namo Namah" meaning "we bow to Her again and again" — expressing complete surrender and devotion.`,
+    what: `Durga Stotram is a collection of powerful hymns dedicated to Goddess Durga, the divine mother and destroyer of evil. The most revered verses, "Ya Devi Sarva Bhuteshu", come from the ancient Devi Mahatmya and are chanted during Navratri and daily worship. Goddess Durga is worshipped as the supreme power who protects the universe from evil forces.`,
+    meaning: `The Durga Stotram recognizes the Goddess as present in all living beings in various forms, as Shakti (power), Buddhi (intelligence), Matru (motherly love), and Lakshmi (prosperity). Each verse ends with "Namastasyai Namastasyai Namastasyai Namo Namah" meaning "we bow to Her again and again", expressing complete surrender and devotion.`,
     benefits: [
       'Invokes divine protection from evil, negativity, and danger',
       'Brings strength, courage, and confidence to face life challenges',
@@ -34,7 +34,7 @@ export const STOTRAM_INFO = {
       'Removes obstacles and bestows success in endeavors',
       'Especially powerful during Navratri and Durga Puja',
     ],
-    bestTime: `Durga Stotram can be recited daily during morning prayers. It is most powerful during Navratri — the nine nights dedicated to Goddess Durga. Fridays are also considered auspicious for Devi worship. Chanting during Durga Puja, Dussehra, and other Shakti festivals is especially blessed.`,
+    bestTime: `Durga Stotram can be recited daily during morning prayers. It is most powerful during Navratri, the nine nights dedicated to Goddess Durga. Fridays are also considered auspicious for Devi worship. Chanting during Durga Puja, Dussehra, and other Shakti festivals is especially blessed.`,
     faqs: [
       { q: 'What is "Ya Devi Sarva Bhuteshu"?', a: 'It is the most famous verse of Durga Stotram meaning "The Goddess who resides in all beings." It comes from the Devi Mahatmya scripture.' },
       { q: 'When should Durga Stotram be chanted?', a: 'It can be chanted daily, especially during Navratri. Mornings and evenings are ideal. Fridays are considered auspicious for Devi worship.' },
@@ -45,8 +45,8 @@ export const STOTRAM_INFO = {
   },
 
   'shiva-tandav': {
-    what: `Shiva Tandav Stotram is a magnificent hymn composed by the demon king Ravana in praise of Lord Shiva. It describes the cosmic dance (Tandava) of Lord Shiva with breathtaking imagery — the flow of the Ganges from His matted hair, serpents as ornaments, and the thunderous sound of His Damaru drum. It is considered one of the most powerful Shiva stotras ever written.`,
-    meaning: `The Shiva Tandav Stotram vividly describes Lord Shiva's cosmic form — His matted hair holding the sacred Ganga, His neck adorned with serpents, His forehead blazing with fire, and His feet touching the heads of Brahma and Indra. Each verse ends with a prayer for auspiciousness (Shivam), showing that even Ravana — a great scholar — was humbled before Lord Shiva.`,
+    what: `Shiva Tandav Stotram is a magnificent hymn composed by the demon king Ravana in praise of Lord Shiva. It describes the cosmic dance (Tandava) of Lord Shiva with breathtaking imagery, the flow of the Ganges from His matted hair, serpents as ornaments, and the thunderous sound of His Damaru drum. It is considered one of the most powerful Shiva stotras ever written.`,
+    meaning: `The Shiva Tandav Stotram vividly describes Lord Shiva's cosmic form, His matted hair holding the sacred Ganga, His neck adorned with serpents, His forehead blazing with fire, and His feet touching the heads of Brahma and Indra. Each verse ends with a prayer for auspiciousness (Shivam), showing that even Ravana, a great scholar, was humbled before Lord Shiva.`,
     benefits: [
       'Traditionally recited to overcome fear and obstacles',
       'Brings courage, confidence, and spiritual strength',
@@ -58,7 +58,7 @@ export const STOTRAM_INFO = {
     bestTime: `Shiva Tandav Stotram is best chanted on Mondays, which are sacred to Lord Shiva. Mahashivaratri is the most auspicious occasion. Early morning during Brahma Muhurta is considered ideal. It is also chanted during Shravan month and before any important task requiring courage and strength.`,
     faqs: [
       { q: 'Who composed Shiva Tandav Stotram?', a: 'It was composed by Ravana, the great scholar and king of Lanka, as a hymn of devotion to Lord Shiva.' },
-      { q: 'What does Tandava mean?', a: 'Tandava is the cosmic dance of Lord Shiva — a powerful, energetic dance that represents the cycle of creation, preservation, and destruction.' },
+      { q: 'What does Tandava mean?', a: 'Tandava is the cosmic dance of Lord Shiva, a powerful, energetic dance that represents the cycle of creation, preservation, and destruction.' },
       { q: 'When is the best day to chant Shiva Tandav?', a: 'Monday is considered most auspicious for Lord Shiva. Mahashivaratri and the Shravan month are especially powerful times.' },
       { q: 'Is Shiva Tandav difficult to chant?', a: 'The Sanskrit is complex, but you can start with transliteration in English and gradually learn the pronunciation with regular practice.' },
       { q: 'Can I read Shiva Tandav Stotram in Telugu or Odia?', a: 'Yes! Divya Stotram provides Shiva Tandav in English, Hindi, Odia, and Telugu with full meanings.' },
@@ -66,7 +66,7 @@ export const STOTRAM_INFO = {
   },
 
   'gayatri-mantra': {
-    what: `The Gayatri Mantra is the most sacred and powerful mantra in Hinduism, originating from the Rigveda. It is a prayer addressed to Savitri — the divine solar deity — asking for enlightenment and guidance of the intellect. For thousands of years, it has been chanted by Hindus worldwide as part of daily prayer, meditation, and spiritual practice.`,
+    what: `The Gayatri Mantra is the most sacred and powerful mantra in Hinduism, originating from the Rigveda. It is a prayer addressed to Savitri, the divine solar deity, asking for enlightenment and guidance of the intellect. For thousands of years, it has been chanted by Hindus worldwide as part of daily prayer, meditation, and spiritual practice.`,
     meaning: `The Gayatri Mantra means: "We meditate upon the glory of the divine Being who has created this universe. May that Supreme One enlighten our intellect and guide us on the right path." Om Bhur Bhuva Swah represents the three worlds. Tat Savitur Varenyam praises the divine light. Dhiyo Yo Nah Prachodayat asks for guidance of our intellect.`,
     benefits: [
       'Enhances intelligence, clarity of thought, and concentration',
@@ -74,9 +74,9 @@ export const STOTRAM_INFO = {
       'Brings inner peace, wisdom, and spiritual awakening',
       'Strengthens memory and sharpens the intellect',
       'Many devotees find the steady rhythm calming and balancing',
-      'Considered the mother of all mantras — universally beneficial',
+      'Considered the mother of all mantras, universally beneficial',
     ],
-    bestTime: `Gayatri Mantra is traditionally chanted three times a day — at sunrise (Pratah Sandhya), noon (Madhyahna Sandhya), and sunset (Sayam Sandhya). Sunrise is the most powerful time. It should be chanted facing east in the morning and west in the evening, ideally 108 times with a mala.`,
+    bestTime: `Gayatri Mantra is traditionally chanted three times a day, at sunrise (Pratah Sandhya), noon (Madhyahna Sandhya), and sunset (Sayam Sandhya). Sunrise is the most powerful time. It should be chanted facing east in the morning and west in the evening, ideally 108 times with a mala.`,
     faqs: [
       { q: 'What is the Gayatri Mantra?', a: 'It is a sacred Vedic mantra from the Rigveda dedicated to Savitri (the Sun deity), asking for divine guidance and enlightenment of the intellect.' },
       { q: 'Can women chant the Gayatri Mantra?', a: 'Yes. The Gayatri Mantra is for all people regardless of gender, caste, or background. It is a universal mantra.' },
@@ -87,7 +87,7 @@ export const STOTRAM_INFO = {
   },
 
   'vishnu-sahasranamam': {
-    what: `Vishnu Sahasranamam is a sacred hymn containing 1000 names of Lord Vishnu, from the epic Mahabharata. It was narrated by Bhishma Pitamah to Yudhishthira when he was lying on the bed of arrows. Each name describes a divine quality of Lord Vishnu — the preserver and protector of the universe. It is considered one of the most powerful Vaishnava prayers.`,
+    what: `Vishnu Sahasranamam is a sacred hymn containing 1000 names of Lord Vishnu, from the epic Mahabharata. It was narrated by Bhishma Pitamah to Yudhishthira when he was lying on the bed of arrows. Each name describes a divine quality of Lord Vishnu, the preserver and protector of the universe. It is considered one of the most powerful Vaishnava prayers.`,
     meaning: `Each of the 1000 names in the Vishnu Sahasranamam reveals a divine attribute of Lord Vishnu. Names like "Vishwam" (the universe itself), "Vishnu" (all-pervading), "Achyuta" (infallible), and "Ananta" (infinite) describe His cosmic nature. Together, these names paint a complete picture of the Supreme Being who sustains all creation.`,
     benefits: [
       'Brings liberation from the cycle of birth and death (Moksha)',
@@ -108,8 +108,8 @@ export const STOTRAM_INFO = {
   },
 
   'mahalakshmi-ashtakam': {
-    what: `Mahalakshmi Ashtakam is an eight-verse hymn dedicated to Goddess Mahalakshmi, the divine mother of wealth, fortune, and prosperity. It was composed by Indra, the king of the gods. The Ashtakam praises the Goddess in her various forms — riding Garuda, holding the conch and disc, and bestowing all blessings upon her devotees.`,
-    meaning: `The Mahalakshmi Ashtakam describes the Goddess as the possessor of all divine qualities — she is the bestower of intelligence, courage, wealth, and liberation. The verse "Namaste Astu Mahamaye" is a complete surrender to the Goddess, acknowledging her as the great cosmic illusion that sustains all creation. Each verse ends with "Mahalakshmi Namo Stute" — salutations to Mahalakshmi.`,
+    what: `Mahalakshmi Ashtakam is an eight-verse hymn dedicated to Goddess Mahalakshmi, the divine mother of wealth, fortune, and prosperity. It was composed by Indra, the king of the gods. The Ashtakam praises the Goddess in her various forms, riding Garuda, holding the conch and disc, and bestowing all blessings upon her devotees.`,
+    meaning: `The Mahalakshmi Ashtakam describes the Goddess as the possessor of all divine qualities, she is the bestower of intelligence, courage, wealth, and liberation. The verse "Namaste Astu Mahamaye" is a complete surrender to the Goddess, acknowledging her as the great cosmic illusion that sustains all creation. Each verse ends with "Mahalakshmi Namo Stute", salutations to Mahalakshmi.`,
     benefits: [
       'Recited in the tradition as a prayer for prosperity',
       'Removes poverty, debt, and financial difficulties',
@@ -129,8 +129,8 @@ export const STOTRAM_INFO = {
   },
 
   'saraswati-vandana': {
-    what: `Saraswati Vandana is a prayer dedicated to Goddess Saraswati, the divine mother of knowledge, wisdom, arts, and learning. The most popular verse — "Ya Kundendu Tusara Hara Dhavala" — describes the Goddess as pure white like the jasmine flower, holding a veena, and seated on a white lotus. Students and artists especially worship her before examinations, performances, and creative work.`,
-    meaning: `The Saraswati Vandana describes the Goddess as embodying purity and wisdom — white as snow, clothed in white, holding the veena (instrument of knowledge and arts). She is worshipped by Brahma, Vishnu, and Shiva themselves. The prayer asks her to remove all dullness and ignorance from the devotee's mind and fill it with knowledge and clarity.`,
+    what: `Saraswati Vandana is a prayer dedicated to Goddess Saraswati, the divine mother of knowledge, wisdom, arts, and learning. The most popular verse, "Ya Kundendu Tusara Hara Dhavala", describes the Goddess as pure white like the jasmine flower, holding a veena, and seated on a white lotus. Students and artists especially worship her before examinations, performances, and creative work.`,
+    meaning: `The Saraswati Vandana describes the Goddess as embodying purity and wisdom, white as snow, clothed in white, holding the veena (instrument of knowledge and arts). She is worshipped by Brahma, Vishnu, and Shiva themselves. The prayer asks her to remove all dullness and ignorance from the devotee's mind and fill it with knowledge and clarity.`,
     benefits: [
       'Enhances intelligence, memory, and academic performance',
       'Removes mental block, confusion, and lack of clarity',
@@ -144,14 +144,14 @@ export const STOTRAM_INFO = {
       { q: 'Who is Goddess Saraswati?', a: 'Saraswati is the Hindu goddess of knowledge, wisdom, music, arts, and learning. She is the consort of Lord Brahma and the mother of all Vedas.' },
       { q: 'When should students chant Saraswati Vandana?', a: 'Every morning before studies is ideal. Basant Panchami is the most auspicious day. Chanting before exams is considered especially beneficial.' },
       { q: 'Can artists and musicians chant Saraswati Vandana?', a: 'Yes! Saraswati is the patron goddess of all arts. Musicians, dancers, writers, and artists traditionally worship her before performances.' },
-      { q: 'What is the significance of the veena in Saraswati imagery?', a: 'The veena represents mastery of arts and music. Saraswati playing the veena symbolizes that true knowledge flows like music — harmonious and beautiful.' },
+      { q: 'What is the significance of the veena in Saraswati imagery?', a: 'The veena represents mastery of arts and music. Saraswati playing the veena symbolizes that true knowledge flows like music, harmonious and beautiful.' },
       { q: 'Is Saraswati Vandana available in regional languages?', a: 'Yes. Divya Stotram provides it in English, Hindi, Odia, and Telugu with complete meanings.' },
     ],
   },
 
   'ganesh-aarti': {
     what: `Ganesh Aarti is a devotional hymn sung in praise of Lord Ganesha, the elephant-headed son of Shiva and Parvati. The popular "Jai Ganesh Jai Ganesh Deva" aarti is sung during Ganesh worship across India. Lord Ganesha is worshipped as the remover of obstacles (Vighnaharta) and the lord of new beginnings, making this aarti essential before any important work or prayer.`,
-    meaning: `The Ganesh Aarti praises the Lord's divine form — his single tusk, four arms, sindur-adorned forehead, and mouse vehicle. Each verse highlights his benevolent qualities and the joy of his devotees. The aarti describes how saints and devotees serve him, how offerings of modak (sweet) are made, and how his blessings remove all difficulties from the devotee's life.`,
+    meaning: `The Ganesh Aarti praises the Lord's divine form, his single tusk, four arms, sindur-adorned forehead, and mouse vehicle. Each verse highlights his benevolent qualities and the joy of his devotees. The aarti describes how saints and devotees serve him, how offerings of modak (sweet) are made, and how his blessings remove all difficulties from the devotee's life.`,
     benefits: [
       'Removes obstacles and difficulties from any new endeavor',
       'Invokes divine blessings before starting important work',
@@ -160,7 +160,7 @@ export const STOTRAM_INFO = {
       'Strengthens devotion and creates a positive spiritual atmosphere',
       'Especially powerful when chanted before worship, travel, or new projects',
     ],
-    bestTime: `Ganesh Aarti is traditionally sung during morning and evening puja (worship). Wednesday is the most auspicious day for Ganesha worship. Ganesh Chaturthi is the most celebrated festival. It is also chanted before any new beginning — starting a new job, business, home, or any important project.`,
+    bestTime: `Ganesh Aarti is traditionally sung during morning and evening puja (worship). Wednesday is the most auspicious day for Ganesha worship. Ganesh Chaturthi is the most celebrated festival. It is also chanted before any new beginning, starting a new job, business, home, or any important project.`,
     faqs: [
       { q: 'Why is Lord Ganesha worshipped first?', a: 'In Hinduism, Lord Ganesha is always worshipped first before any prayer or new beginning, as he is the remover of obstacles and the lord of beginnings.' },
       { q: 'What is the significance of Ganesh Chaturthi?', a: 'Ganesh Chaturthi is the birthday of Lord Ganesha, celebrated over 10 days. It is the most important festival for Ganesha devotees.' },
@@ -173,7 +173,7 @@ export const STOTRAM_INFO = {
   // ── 5 NEW STOTRAMS ──────────────────────────────────────────────────────────
 
   'ram-raksha-stotram': {
-    what: `Ram Raksha Stotram is a divine protective hymn composed by sage Budha Kaushika. According to the sacred tradition, Lord Shiva himself revealed this powerful stotram to the sage in a dream. It invokes Lord Ram's protection on every part of the devotee's body — from head to toe — making it a complete shield of divine grace. It is considered equal in merit to reading the entire Ramayana.`,
+    what: `Ram Raksha Stotram is a divine protective hymn composed by sage Budha Kaushika. According to the sacred tradition, Lord Shiva himself revealed this powerful stotram to the sage in a dream. It invokes Lord Ram's protection on every part of the devotee's body, from head to toe, making it a complete shield of divine grace. It is considered equal in merit to reading the entire Ramayana.`,
     meaning: `Ram Raksha means "Ram's protection." Each verse of the stotram assigns different names of Lord Ram to protect different limbs of the body. Ram protects the head, Vishwamitra's Ram protects the forehead, Sita's Ram guards the heart, and so on. Reciting this stotram is like wearing a divine kavach (armor) of Lord Ram that no evil can pierce.`,
     benefits: [
       'Recited by families as a prayer for strength during illness, alongside proper medical care',
@@ -195,8 +195,8 @@ export const STOTRAM_INFO = {
   },
 
   'aditya-hridayam': {
-    what: `Aditya Hridayam is a sacred hymn from the Valmiki Ramayana (Yuddha Kanda, Chapter 107), taught by the great sage Agastya to Lord Ram just before his final battle with Ravana. "Aditya" means the Sun, and "Hridayam" means the heart — making it literally "the heart-secret of the Sun God." It is one of the most powerful and scientifically revered stotrams in Hinduism.`,
-    meaning: `When Ram stood exhausted and worried before the mighty Ravana, sage Agastya descended from the heavens and revealed this secret Sun hymn. The stotram praises Surya (the Sun) as the source of all life, the destroyer of darkness, the soul of the universe, and the embodiment of all gods — Brahma, Vishnu, Shiva, and the twelve Adityas. Chanting it three times gave Ram the divine energy to finally defeat Ravana.`,
+    what: `Aditya Hridayam is a sacred hymn from the Valmiki Ramayana (Yuddha Kanda, Chapter 107), taught by the great sage Agastya to Lord Ram just before his final battle with Ravana. "Aditya" means the Sun, and "Hridayam" means the heart, making it literally "the heart-secret of the Sun God." It is one of the most powerful and scientifically revered stotrams in Hinduism.`,
+    meaning: `When Ram stood exhausted and worried before the mighty Ravana, sage Agastya descended from the heavens and revealed this secret Sun hymn. The stotram praises Surya (the Sun) as the source of all life, the destroyer of darkness, the soul of the universe, and the embodiment of all gods, Brahma, Vishnu, Shiva, and the twelve Adityas. Chanting it three times gave Ram the divine energy to finally defeat Ravana.`,
     benefits: [
       'Grants victory in battles, competitions, and legal matters',
       'Traditionally recited for protection and renewed courage',
@@ -206,7 +206,7 @@ export const STOTRAM_INFO = {
       'Ensures success in career, business, and all endeavors',
       'Chanting 3 times as Agastya instructed ensures quick victory',
     ],
-    bestTime: `Aditya Hridayam must be recited at sunrise facing east. Sunday is the most auspicious day dedicated to Surya. The stotram is most effective when chanted exactly 3 times — as sage Agastya instructed Lord Ram. During Ratha Saptami (Sun worship festival) and solar eclipses, its recitation has special significance.`,
+    bestTime: `Aditya Hridayam must be recited at sunrise facing east. Sunday is the most auspicious day dedicated to Surya. The stotram is most effective when chanted exactly 3 times, as sage Agastya instructed Lord Ram. During Ratha Saptami (Sun worship festival) and solar eclipses, its recitation has special significance.`,
     faqs: [
       { q: 'What is Aditya Hridayam?', a: 'It is a powerful Sun hymn from the Valmiki Ramayana that sage Agastya taught Lord Ram before his battle with Ravana to grant victory, energy, and divine grace.' },
       { q: 'Who composed Aditya Hridayam?', a: 'Aditya Hridayam is part of the Valmiki Ramayana, attributed to sage Valmiki. It was narrated by sage Agastya to Lord Ram during the battle with Ravana.' },
@@ -217,7 +217,7 @@ export const STOTRAM_INFO = {
   },
 
   'navagraha-stotram': {
-    what: `Navagraha Stotram contains individual Sanskrit prayers to all nine planets (Navagraha) of Vedic astrology — Surya (Sun), Chandra (Moon), Mangala (Mars), Budha (Mercury), Brihaspati (Jupiter), Shukra (Venus), Shani (Saturn), Rahu, and Ketu. In Vedic astrology, the positions of these nine planets in one's birth chart (Kundali) influence every aspect of human life — health, wealth, relationships, career, and spiritual growth.`,
+    what: `Navagraha Stotram contains individual Sanskrit prayers to all nine planets (Navagraha) of Vedic astrology, Surya (Sun), Chandra (Moon), Mangala (Mars), Budha (Mercury), Brihaspati (Jupiter), Shukra (Venus), Shani (Saturn), Rahu, and Ketu. In Vedic astrology, the positions of these nine planets in one's birth chart (Kundali) influence every aspect of human life, health, wealth, relationships, career, and spiritual growth.`,
     meaning: `Each of the nine planetary verses addresses a specific planet with its key attributes. The Sun governs vitality and authority, Moon governs mind and emotions, Mars governs courage and property, Mercury governs intellect and business, Jupiter governs wisdom and children, Venus governs love and beauty, Saturn governs karma and discipline, Rahu governs ambition and illusions, and Ketu governs spirituality and liberation. Propitiating all nine through this stotram creates complete planetary harmony.`,
     benefits: [
       'Removes malefic effects of all nine planets simultaneously',
@@ -229,7 +229,7 @@ export const STOTRAM_INFO = {
       'In Jyotisha tradition, recited to seek balance among the nine planetary influences',
       'Especially powerful for correcting Kundali (birth chart) doshas',
     ],
-    bestTime: `Each planet has its own auspicious day — Surya (Sunday), Chandra (Monday), Mangala (Tuesday), Budha (Wednesday), Brihaspati (Thursday), Shukra (Friday), Shani (Saturday). Rahu and Ketu share Saturday. Reciting the complete Navagraha Stotram on Saturdays or during planetary transits (Graha Gochar) brings maximum benefit.`,
+    bestTime: `Each planet has its own auspicious day, Surya (Sunday), Chandra (Monday), Mangala (Tuesday), Budha (Wednesday), Brihaspati (Thursday), Shukra (Friday), Shani (Saturday). Rahu and Ketu share Saturday. Reciting the complete Navagraha Stotram on Saturdays or during planetary transits (Graha Gochar) brings maximum benefit.`,
     faqs: [
       { q: 'What is Navagraha Stotram?', a: 'It is a set of Sanskrit verses dedicated to the nine planets of Vedic astrology. Reciting it appeases all planets and removes their malefic influences from one\'s birth chart.' },
       { q: 'Which day is best for Navagraha Stotram?', a: 'Saturday is considered most auspicious for the complete Navagraha Stotram. Individual planet mantras are most effective on their respective days.' },
@@ -241,7 +241,7 @@ export const STOTRAM_INFO = {
 
   'aigiri-nandini': {
     what: `Aigiri Nandini, formally known as Mahishasura Mardini Stotram, is a celebrated devotional hymn attributed to Adi Shankaracharya (8th century CE). It describes the battle of Goddess Durga against the buffalo demon Mahishasura in 21 electrifying verses set to the unique Chandrakala rhythmic meter. The refrain "Jai Jai He Mahishasura Mardini" has become one of the most iconic devotional refrains in Hinduism, beloved for its musical power and divine energy.`,
-    meaning: `The hymn opens with "Aigiri Nandini" — O Daughter of the Mountain! — addressing Parvati/Durga as the daughter of Himavat (the Himalayan mountain). It then vividly describes the Goddess charging into battle on her lion, wielding weapons given by all the gods, cutting down demon armies, and finally slaying Mahishasura. The poem is both a battle narrative and a devotional surrender, ending with prayers for protection and grace.`,
+    meaning: `The hymn opens with "Aigiri Nandini", O Daughter of the Mountain!, addressing Parvati/Durga as the daughter of Himavat (the Himalayan mountain). It then vividly describes the Goddess charging into battle on her lion, wielding weapons given by all the gods, cutting down demon armies, and finally slaying Mahishasura. The poem is both a battle narrative and a devotional surrender, ending with prayers for protection and grace.`,
     benefits: [
       'Traditionally recited for protection and for overcoming adversity',
       'Grants the Goddess\'s complete divine protection',
@@ -251,19 +251,19 @@ export const STOTRAM_INFO = {
       'Especially powerful during Navratri for blessings and protection',
       'Reciting during Durga Puja brings exceptional grace',
     ],
-    bestTime: `Aigiri Nandini is most powerfully recited during Navratri — especially on the eighth day (Ashtami) and ninth day (Navami). Fridays and full moon nights are auspicious. The stotram is traditionally recited during morning worship (Pratah Puja) after bathing, facing east.`,
+    bestTime: `Aigiri Nandini is most powerfully recited during Navratri, especially on the eighth day (Ashtami) and ninth day (Navami). Fridays and full moon nights are auspicious. The stotram is traditionally recited during morning worship (Pratah Puja) after bathing, facing east.`,
     faqs: [
       { q: 'Who composed Aigiri Nandini?', a: 'Aigiri Nandini (Mahishasura Mardini Stotram) is attributed to Adi Shankaracharya, the 8th century CE philosopher and theologian who composed it in praise of Goddess Durga.' },
-      { q: 'What does Aigiri Nandini mean?', a: '"Aigiri" refers to a mountain (Himavat), "Nandini" means daughter. So Aigiri Nandini means "O Daughter of the Mountain" — an address to Parvati/Durga as daughter of the Himalayas.' },
+      { q: 'What does Aigiri Nandini mean?', a: '"Aigiri" refers to a mountain (Himavat), "Nandini" means daughter. So Aigiri Nandini means "O Daughter of the Mountain", an address to Parvati/Durga as daughter of the Himalayas.' },
       { q: 'How many verses are in Aigiri Nandini?', a: 'The complete Mahishasura Mardini Stotram has 21 verses, each ending with the powerful refrain "Jai Jai He Mahishasura Mardini, Ramyaka Pardini Shaila Sute."' },
       { q: 'When should Aigiri Nandini be recited?', a: 'It is most powerfully recited during Navratri, especially on Ashtami and Navami. Friday mornings and during Durga Puja celebrations are also highly auspicious.' },
-      { q: 'What is the significance of Mahishasura Mardini?', a: 'Mahishasura Mardini means "the slayer of Mahishasura" — Goddess Durga who defeated the powerful buffalo demon, symbolizing the eternal victory of good over evil and divine feminine power.' },
+      { q: 'What is the significance of Mahishasura Mardini?', a: 'Mahishasura Mardini means "the slayer of Mahishasura", Goddess Durga who defeated the powerful buffalo demon, symbolizing the eternal victory of good over evil and divine feminine power.' },
     ],
   },
 
   'shiv-chalisa': {
-    what: `Shiv Chalisa is a 40-verse (chalisa = forty) devotional hymn dedicated to Lord Shiva — the supreme deity of Shaivism, known as Mahadeva (Great God), Bholenath (the innocent, easily pleased one), Neelkantha (blue-throated), Mahakala (lord of time), and Nataraja (lord of cosmic dance). The Shiv Chalisa praises his divine attributes, his sacred family (Parvati, Ganesha, Kartikeya), and his role as the destroyer and transformer in the Holy Trinity (Brahma-Vishnu-Shiva).`,
-    meaning: `Shiv Chalisa describes Lord Shiva's divine form in beautiful devotional poetry — the crescent moon in his matted hair (Jata), the sacred Ganga flowing from his locks, snakes as ornaments (Nagabharana), the trident (Trishul), the damaru (drum), sacred ash (Vibhuti) smeared on his body, the third eye (Trinetra), and his tiger skin seat. It narrates his compassion, his blessings to devotees, and assures that regular recitation grants all desires and ultimately moksha.`,
+    what: `Shiv Chalisa is a 40-verse (chalisa = forty) devotional hymn dedicated to Lord Shiva, the supreme deity of Shaivism, known as Mahadeva (Great God), Bholenath (the innocent, easily pleased one), Neelkantha (blue-throated), Mahakala (lord of time), and Nataraja (lord of cosmic dance). The Shiv Chalisa praises his divine attributes, his sacred family (Parvati, Ganesha, Kartikeya), and his role as the destroyer and transformer in the Holy Trinity (Brahma-Vishnu-Shiva).`,
+    meaning: `Shiv Chalisa describes Lord Shiva's divine form in beautiful devotional poetry, the crescent moon in his matted hair (Jata), the sacred Ganga flowing from his locks, snakes as ornaments (Nagabharana), the trident (Trishul), the damaru (drum), sacred ash (Vibhuti) smeared on his body, the third eye (Trinetra), and his tiger skin seat. It narrates his compassion, his blessings to devotees, and assures that regular recitation grants all desires and ultimately moksha.`,
     benefits: [
       'Traditionally recited as a prayer for wellbeing, alongside proper medical care',
       'Grants lasting peace of mind and removes mental stress',
@@ -273,13 +273,13 @@ export const STOTRAM_INFO = {
       'Chanting on Maha Shivratri grants moksha (spiritual liberation)',
       'Devotees pray through it for blessings, wisdom and success',
     ],
-    bestTime: `Monday is Lord Shiva's sacred day. Reciting Shiv Chalisa on Monday mornings after bathing, with Bilva (Bel) leaves and white flowers offered to the Shivling, is most auspicious. The entire month of Shravan (July-August) is dedicated to Shiva — daily Shiv Chalisa during this month brings immense blessings. Maha Shivratri is the supreme occasion — staying awake all night chanting Shiv Chalisa grants liberation.`,
+    bestTime: `Monday is Lord Shiva's sacred day. Reciting Shiv Chalisa on Monday mornings after bathing, with Bilva (Bel) leaves and white flowers offered to the Shivling, is most auspicious. The entire month of Shravan (July-August) is dedicated to Shiva, daily Shiv Chalisa during this month brings immense blessings. Maha Shivratri is the supreme occasion, staying awake all night chanting Shiv Chalisa grants liberation.`,
     faqs: [
       { q: 'What is Shiv Chalisa?', a: 'Shiv Chalisa is a 40-verse devotional hymn praising Lord Shiva\'s divine form, attributes, and deeds, written in simple Hindi verse for easy recitation by all devotees.' },
       { q: 'How many times should Shiv Chalisa be read?', a: 'Once daily brings regular blessings. On Mondays and Maha Shivratri, reciting 5 or 11 times is especially powerful. During the Shravan month, daily recitation is highly recommended.' },
       { q: 'What is the best day to read Shiv Chalisa?', a: 'Monday (Somvar) is Lord Shiva\'s dedicated day. The Shravan month (July-August) and Maha Shivratri are the most auspicious times for maximum blessings.' },
       { q: 'Can women read Shiv Chalisa?', a: 'Yes. Shiv Chalisa is open to all devotees regardless of gender. Lord Shiva as Ardhanarishvara (half man, half woman) represents the equality of all beings before the divine.' },
-      { q: 'What is the difference between Shiv Chalisa and Om Namah Shivaya?', a: 'Om Namah Shivaya is the Panchakshara — a 5-syllable seed mantra for daily constant chanting. Shiv Chalisa is a longer 40-verse hymn describing Shiva\'s glory in detail, recited during formal worship sessions.' },
+      { q: 'What is the difference between Shiv Chalisa and Om Namah Shivaya?', a: 'Om Namah Shivaya is the Panchakshara, a 5-syllable seed mantra for daily constant chanting. Shiv Chalisa is a longer 40-verse hymn describing Shiva\'s glory in detail, recited during formal worship sessions.' },
     ],
   },
 };

@@ -14,7 +14,7 @@ export const hanumanChalisa = {
         te: 'శ్రీ గురు చరణ సరోజ రజ, నిజ మను ముకురు సుధారి। వర్ణఉఁ రఘువర విమల జస, జో దాయక ఫల చారి॥',
       },
       meaning: {
-        en: "After cleansing the mirror of my mind with the pollen dust of holy Guru's Lotus feet, I profess the pure, untainted glory of Shri Raghuvar which bestows the fourfold fruits of life — Dharma, Artha, Kama and Moksha.",
+        en: "After cleansing the mirror of my mind with the pollen dust of holy Guru's Lotus feet, I profess the pure, untainted glory of Shri Raghuvar which bestows the fourfold fruits of life, Dharma, Artha, Kama and Moksha.",
         hi: 'श्री गुरु के चरण कमलों की धूल से अपने मन के दर्पण को साफ करके, मैं श्री रघुवर का निर्मल यश वर्णन करता हूँ जो चारों फलों को देने वाला है।',
         od: 'ଶ୍ରୀ ଗୁରୁଙ୍କ ଚରଣ କମଳର ଧୂଳିରେ ମୋର ମନର ଦର୍ପଣକୁ ପବିତ୍ର କରି, ମୁଁ ଶ୍ରୀ ରଘୁବରଙ୍କ ନିର୍ମଳ ଯଶ ବର୍ଣ୍ଣନା କରୁଛି, ଯାହା ଧର୍ମ, ଅର୍ଥ, କାମ ଓ ମୋକ୍ଷ ଏହି ଚାରି ଫଳ ଦେଇଥାଏ।',
         te: 'గురువు పాద పద్మముల ధూళితో మనస్సు అనే అద్దాన్ని శుభ్రపరచి, చతుర్విధ ఫలాలను ప్రసాదించే శ్రీ రఘువీరుని నిర్మల యశస్సును వర్ణిస్తున్నాను.',
@@ -238,9 +238,9 @@ export const hanumanChalisa = {
       },
       meaning: {
         en: 'Raghupati greatly praised you and said, “You are as dear to me as my beloved brother Bharata.”',
-        hi: 'रघुपति ने आपकी बहुत प्रशंसा की और कहा — तुम मुझे भरत के समान प्रिय हो।',
-        od: 'ରଘୁପତି ଆପଣଙ୍କୁ ବହୁତ ପ୍ରଶଂସା କରି କହିଲେ — ତୁମେ ମୋ ପାଇଁ ଭରତଭଳି ପ୍ରିୟ ଭାଇ।',
-        te: 'రఘుపతి మిమ్మల్ని ఎంతో స్తుతించి — నువ్వు నాకు భరతుడి వంటి ప్రియుడవు అని అన్నాడు.',
+        hi: 'रघुपति ने आपकी बहुत प्रशंसा की और कहा, तुम मुझे भरत के समान प्रिय हो।',
+        od: 'ରଘୁପତି ଆପଣଙ୍କୁ ବହୁତ ପ୍ରଶଂସା କରି କହିଲେ, ତୁମେ ମୋ ପାଇଁ ଭରତଭଳି ପ୍ରିୟ ଭାଇ।',
+        te: 'రఘుపతి మిమ్మల్ని ఎంతో స్తుతించి, నువ్వు నాకు భరతుడి వంటి ప్రియుడవు అని అన్నాడు.',
       },
     },
     {
@@ -323,9 +323,9 @@ export const hanumanChalisa = {
       },
       meaning: {
         en: 'Vibhishana accepted your counsel, and as the whole world knows, he became the king of Lanka.',
-        hi: 'विभीषण ने आपका मंत्र माना और वे लंकेश्वर बने — यह बात सब जगत जानता है।',
+        hi: 'विभीषण ने आपका मंत्र माना और वे लंकेश्वर बने, यह बात सब जगत जानता है।',
         od: 'ବିଭୀଷଣ ଆପଣଙ୍କ ପରାମର୍ଶକୁ ଗ୍ରହଣ କଲେ, ଏବଂ ସମସ୍ତ ଜଗତ ଜାଣେ ଯେ ସେ ଲଙ୍କେଶ୍ୱର ହେଲେ।',
-        te: 'విభీషణుడు మీ సలహాను అంగీకరించి, లంకేశ్వరుడయ్యాడు — దీనిని జగత్తంతా తెలుసు.',
+        te: 'విభీషణుడు మీ సలహాను అంగీకరించి, లంకేశ్వరుడయ్యాడు, దీనిని జగత్తంతా తెలుసు.',
       },
     },
     {
@@ -356,10 +356,10 @@ export const hanumanChalisa = {
         te: 'ప్రభు ముద్రికా మేలి ముఖ్ మాహీం। జలధి లాంఘి గయే అచరజ్ నాహీం॥',
       },
       meaning: {
-        en: 'Placing the Lord’s ring in your mouth, you crossed the ocean — and in that there is no surprise, for your power is immeasurable.',
-        hi: 'प्रभु की मुद्रिका मुख में रखकर आपने समुद्र लांघ लिया — इसमें आश्चर्य नहीं, क्योंकि आपकी शक्ति अपरंपार है।',
+        en: 'Placing the Lord’s ring in your mouth, you crossed the ocean, and in that there is no surprise, for your power is immeasurable.',
+        hi: 'प्रभु की मुद्रिका मुख में रखकर आपने समुद्र लांघ लिया, इसमें आश्चर्य नहीं, क्योंकि आपकी शक्ति अपरंपार है।',
         od: 'ପ୍ରଭୁଙ୍କ ମୁଦ୍ରିକାକୁ ମୁଖରେ ରଖି ଆପଣ ସମୁଦ୍ର ଲଂଘିଗଲେ; ଏଥିରେ କୌଣସି ଆଶ୍ଚର୍ଯ୍ୟ ନାହିଁ, କାରଣ ଆପଣଙ୍କ ଶକ୍ତି ଅସୀମ।',
-        te: 'ప్రభువు ముద్రికను నోట్లో ఉంచుకుని సముద్రం దాటారు — ఇందులో ఆశ్చర్యం లేదు, ఎందుకంటే మీ శక్తి అపారమైనది.',
+        te: 'ప్రభువు ముద్రికను నోట్లో ఉంచుకుని సముద్రం దాటారు, ఇందులో ఆశ్చర్యం లేదు, ఎందుకంటే మీ శక్తి అపారమైనది.',
       },
     },
     {
@@ -560,7 +560,7 @@ export const hanumanChalisa = {
         te: 'అష్ట సిద్ధి నవ నిధి కే దాతా। అస్ బర్ దీన్హ్ జానకీ మాతా॥',
       },
       meaning: {
-        en: 'You are the giver of the eight siddhis and the nine treasures — such a boon was granted to you by Mother Janaki.',
+        en: 'You are the giver of the eight siddhis and the nine treasures, such a boon was granted to you by Mother Janaki.',
         hi: 'आप अष्टसिद्धि और नवनिधि के दाता हैं। यह वरदान आपको माता जानकी ने दिया।',
         od: 'ଆପଣ ଅଷ୍ଟସିଦ୍ଧି ଓ ନବନିଧିର ଦାତା। ଏହି ବରଦାନ ଆପଣଙ୍କୁ ମାତା ଜାନକୀ ଦେଇଥିଲେ।',
         te: 'మీరు అష్టసిద్ధులు, నవనిధుల దాత. ఈ వరాన్ని మీకు జనకీమాత ప్రసాదించింది.',
@@ -696,10 +696,10 @@ export const hanumanChalisa = {
         te: 'జో యహ్ పఢై హనుమాన్ చాలీసా। హోయ్ సిద్ధి సాఖీ గౌరీసా॥',
       },
       meaning: {
-        en: 'Whoever reads this Hanuman Chalisa attains spiritual accomplishment — Lord Shiva himself is the witness to this truth.',
-        hi: 'जो यह हनुमान चालीसा पढ़ता है, उसे सिद्धि प्राप्त होती है — इसके साक्षी स्वयं गौरीशंकर हैं।',
-        od: 'ଯେ ଏହି ହନୁମାନ ଚାଳୀସା ପାଠ କରେ, ସେ ସିଦ୍ଧି ଲାଭ କରେ — ଏହାର ସାକ୍ଷୀ ସ୍ୱୟଂ ଗୌରୀଶଙ୍କର।',
-        te: 'ఈ హనుమాన్ చాలీసాను పఠించే వాడు సిద్ధిని పొందుతాడు — దీనికి సాక్షి స్వయంగా గౌరీశుడు.',
+        en: 'Whoever reads this Hanuman Chalisa attains spiritual accomplishment, Lord Shiva himself is the witness to this truth.',
+        hi: 'जो यह हनुमान चालीसा पढ़ता है, उसे सिद्धि प्राप्त होती है, इसके साक्षी स्वयं गौरीशंकर हैं।',
+        od: 'ଯେ ଏହି ହନୁମାନ ଚାଳୀସା ପାଠ କରେ, ସେ ସିଦ୍ଧି ଲାଭ କରେ, ଏହାର ସାକ୍ଷୀ ସ୍ୱୟଂ ଗୌରୀଶଙ୍କର।',
+        te: 'ఈ హనుమాన్ చాలీసాను పఠించే వాడు సిద్ధిని పొందుతాడు, దీనికి సాక్షి స్వయంగా గౌరీశుడు.',
       },
     },
     {
@@ -732,7 +732,7 @@ export const hanumanChalisa = {
         te: 'పవన తనయ సంకట హరణ, మంగళ మూర్తి రూప। రామ్ లఖన్ సీతా సహిత్, హృదయ్ బసహు సుర భూప॥',
       },
       meaning: {
-        en: 'O son of the Wind, remover of distress, embodiment of auspiciousness — dwell in my heart together with Shri Ram, Lakshman, and Sita.',
+        en: 'O son of the Wind, remover of distress, embodiment of auspiciousness, dwell in my heart together with Shri Ram, Lakshman, and Sita.',
         hi: 'हे पवनपुत्र, संकटों को हरने वाले, मंगलमूर्ति! श्रीराम, लक्ष्मण और सीता सहित मेरे हृदय में निवास करें।',
         od: 'ହେ ପବନପୁତ୍ର, ସଂକଟ ହରଣକାରୀ, ମଙ୍ଗଳମୂର୍ତ୍ତି! ଶ୍ରୀରାମ, ଲକ୍ଷ୍ମଣ ଓ ସୀତାଙ୍କ ସହିତ ମୋର ହୃଦୟରେ ବସନ୍ତୁ।',
         te: 'ఓ పవనపుత్రా, సంకట హరుడా, మంగళమూర్తీ! శ్రీరామ, లక్ష్మణ, సీతలతో కలిసి నా హృదయంలో నివసించు.',

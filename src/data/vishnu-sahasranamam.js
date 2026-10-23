@@ -1,4 +1,4 @@
-// VISHNU SAHASRANAMAM — Complete Key Shlokas
+// VISHNU SAHASRANAMAM - Complete Key Shlokas
 // English · Hindi · Odia · Telugu
 // Source: Mahabharata, Anushasana Parva, Chapter 135
 // Bhishma Pitamaha's gift to Yudhishthira
@@ -225,10 +225,10 @@ export const vishnuSahasranamam = {
         te: 'వనమాలీ గదీ శార్ంగీ శంఖీ చక్రీ చ నందకీ।\nశ్రీమాన్ నారాయణో విష్ణుర్వాసుదేవోఽభిరక్షతు॥',
       },
       meaning: {
-        en: 'May Lord Vishnu who wears a garland of forest flowers (Vanamalee), who wields the mace (Gadee), the Sharnga bow (Shaarngee), the conch (Shankhee), the discus (Chakree), and the sword Nandaka — the glorious Narayana, Vishnu, and Vaasudeva — protect us always. 🙏',
-        hi: 'जो वनमाला, गदा, शार्ङ्ग, शंख, चक्र और नंदक तलवार धारण करते हैं — वे श्रीमान नारायण, विष्णु और वासुदेव हम सबकी रक्षा करें। 🙏',
-        od: 'ଯେ ଭଗବାନ ବନମାଳା, ଗଦା, ଶାରଙ୍ଗ ଧନୁଷ, ଶଙ୍ଖ, ଚକ୍ର ଏବଂ ନନ୍ଦକ ତଳୱାର ଧାରଣ କରନ୍ତି — ସେହି ଶ୍ରୀମାନ୍ ନାରାୟଣ, ବିଷ୍ଣୁ ଓ ବାସୁଦେବ ସଦା ଆମକୁ ରକ୍ଷା କରନ୍ତୁ। 🙏',
-        te: 'వనమాల, గద, శార్ంగ ధనుస్సు, శంఖం, చక్రం, నందకఖడ్గం ధరించే — శ్రీమాన్ నారాయణ, విష్ణువు, వాసుదేవుడు మనల్ని రక్షించుగాక. 🙏',
+        en: 'May Lord Vishnu who wears a garland of forest flowers (Vanamalee), who wields the mace (Gadee), the Sharnga bow (Shaarngee), the conch (Shankhee), the discus (Chakree), and the sword Nandaka, the glorious Narayana, Vishnu, and Vaasudeva, protect us always. 🙏',
+        hi: 'जो वनमाला, गदा, शार्ङ्ग, शंख, चक्र और नंदक तलवार धारण करते हैं, वे श्रीमान नारायण, विष्णु और वासुदेव हम सबकी रक्षा करें। 🙏',
+        od: 'ଯେ ଭଗବାନ ବନମାଳା, ଗଦା, ଶାରଙ୍ଗ ଧନୁଷ, ଶଙ୍ଖ, ଚକ୍ର ଏବଂ ନନ୍ଦକ ତଳୱାର ଧାରଣ କରନ୍ତି, ସେହି ଶ୍ରୀମାନ୍ ନାରାୟଣ, ବିଷ୍ଣୁ ଓ ବାସୁଦେବ ସଦା ଆମକୁ ରକ୍ଷା କରନ୍ତୁ। 🙏',
+        te: 'వనమాల, గద, శార్ంగ ధనుస్సు, శంఖం, చక్రం, నందకఖడ్గం ధరించే, శ్రీమాన్ నారాయణ, విష్ణువు, వాసుదేవుడు మనల్ని రక్షించుగాక. 🙏',
       }
     },
   ]

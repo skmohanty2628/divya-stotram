@@ -1,6 +1,6 @@
-// RAM RAKSHA STOTRAM — Complete 38 Verses, All Languages Fixed
+// RAM RAKSHA STOTRAM - Complete 38 Verses, All Languages Fixed
 // English · Hindi · Odia · Telugu
-// Composed by Sage Budha Kaushika — revealed by Lord Shiva in a dream
+// Composed by Sage Budha Kaushika - revealed by Lord Shiva in a dream
 
 export const ramRakshaStotram = {
   slug: 'ram-raksha-stotram',
@@ -56,10 +56,10 @@ export const ramRakshaStotram = {
         te: 'ధ్యాయేద్ ఆజానుబాహుం ధృత శర ధనుషం బద్ధ పద్మ ఆసనం।\nపీత వాస వసానం నవ కమళ దళ స్పర్ధి నేత్రం ప్రసన్నం।\nవామ అంక ఆరూఢ సీతం సహ పరిజన పతి పాణి రామ భద్రం॥',
       },
       meaning: {
-        en: 'Meditate on Lord Ram whose arms reach to his knees, holding bow and arrows, seated in Padmasana. He wears yellow garments, his eyes rival fresh lotus petals, his face glows with grace. Goddess Sita sits on his left side — I bow to this divine form of Ram.',
-        hi: 'घुटनों तक लंबी भुजाओं, धनुष-बाण धारण किए, पद्मासन में बैठे भगवान राम का ध्यान करें। पीले वस्त्र, नव कमल-नेत्र, बायीं गोद में सीता — उन्हें नमस्कार।',
+        en: 'Meditate on Lord Ram whose arms reach to his knees, holding bow and arrows, seated in Padmasana. He wears yellow garments, his eyes rival fresh lotus petals, his face glows with grace. Goddess Sita sits on his left side, I bow to this divine form of Ram.',
+        hi: 'घुटनों तक लंबी भुजाओं, धनुष-बाण धारण किए, पद्मासन में बैठे भगवान राम का ध्यान करें। पीले वस्त्र, नव कमल-नेत्र, बायीं गोद में सीता, उन्हें नमस्कार।',
         od: 'ଘୁଣ୍ଟି ପର୍ଯ୍ୟନ୍ତ ଲମ୍ବା ଭୁଜାଯୁକ୍ତ, ଧନୁଷ ବାଣ ଧାରଣ କରିଥିବା, ପଦ୍ମାସନରେ ବସିଥିବା ଭଗବାନ ରାମଙ୍କୁ ଧ୍ୟାନ କରିବା ଉଚିତ। ସେ ପୀତାମ୍ବର ପିନ୍ଧିଛନ୍ତି, ତାଙ୍କ ନୟନ ନବକମଳ ଦଳ ସମାନ ସୁନ୍ଦର, ଏବଂ ବାମ ଭାଗରେ ସୀତାଜୀ ବିରାଜମାନ। ଏହି ଦିବ୍ୟ ରୂପକୁ ମୁଁ ପ୍ରଣାମ କରେ।',
-        te: 'మోకాళ్ళ వరకు చేతులు, ధనుర్బాణాలు ధరించి పద్మాసనంలో కూర్చున్న రాముడు. పీతాంబరం, తామర రేకుల కళ్ళు, ఎడమ వడిలో సీత — ఆ రామ భద్రునికి నమస్కారం.',
+        te: 'మోకాళ్ళ వరకు చేతులు, ధనుర్బాణాలు ధరించి పద్మాసనంలో కూర్చున్న రాముడు. పీతాంబరం, తామర రేకుల కళ్ళు, ఎడమ వడిలో సీత, ఆ రామ భద్రునికి నమస్కారం.',
       },
     },
     {
@@ -75,9 +75,9 @@ export const ramRakshaStotram = {
         te: 'రామో రాజమణిః సదా విజయతే రామం రమేశం భజే।\nరామేణ అభిహతా నిశాచర చమూ రామాయ తస్మై నమః।\nరామాన్నాస్తి పరాయణం పరతరం రామస్య దాసోఽస్మ్యహం।\nరామే చిత్త లయః సదా భవతు మే భో రామ మాముద్ధర॥',
       },
       meaning: {
-        en: 'Ram, the jewel among kings, is ever victorious. I worship Ram, the lord of Ramaa. The army of demons was destroyed by Ram — I bow to that Ram. There is no greater refuge than Ram — I am his servant. May my mind always be absorbed in Ram. O Ram, lift me up!',
+        en: 'Ram, the jewel among kings, is ever victorious. I worship Ram, the lord of Ramaa. The army of demons was destroyed by Ram, I bow to that Ram. There is no greater refuge than Ram, I am his servant. May my mind always be absorbed in Ram. O Ram, lift me up!',
         hi: 'राम राजमणि सदा विजयी हैं, मैं रमेश राम को भजता हूँ। राम ने राक्षसों को नष्ट किया, उन्हें नमस्कार। राम से बढ़कर कोई आश्रय नहीं, मैं उनका दास हूँ। हे राम, मेरा उद्धार करो।',
-        od: 'ରାମ ରାଜମଣି ସଦା ବିଜୟୀ। ମୁଁ ରମେଶ ରାମଙ୍କୁ ଭଜନ କରେ। ରାମଙ୍କ ଦ୍ୱାରା ରାକ୍ଷସ ସେନା ବିନାଶ ହୋଇଥିଲା — ସେହି ରାମଙ୍କୁ ମୋର ନମସ୍କାର। ରାମଠାରୁ ବଡ଼ ଆଶ୍ରୟ କେହି ନାହିଁ, ମୁଁ ତାଙ୍କ ଦାସ। ମୋର ମନ ସଦା ରାମରେ ଲୀନ ହେଉ। ହେ ରାମ, ମୋର ଉଦ୍ଧାର କରନ୍ତୁ।',
+        od: 'ରାମ ରାଜମଣି ସଦା ବିଜୟୀ। ମୁଁ ରମେଶ ରାମଙ୍କୁ ଭଜନ କରେ। ରାମଙ୍କ ଦ୍ୱାରା ରାକ୍ଷସ ସେନା ବିନାଶ ହୋଇଥିଲା, ସେହି ରାମଙ୍କୁ ମୋର ନମସ୍କାର। ରାମଠାରୁ ବଡ଼ ଆଶ୍ରୟ କେହି ନାହିଁ, ମୁଁ ତାଙ୍କ ଦାସ। ମୋର ମନ ସଦା ରାମରେ ଲୀନ ହେଉ। ହେ ରାମ, ମୋର ଉଦ୍ଧାର କରନ୍ତୁ।',
         te: 'రాజమణి రాముడు సదా విజయ శీలి. రామునిచే రాక్షస సేన నష్టం, ఆ రామునికి నమస్కారం. రాముని కంటే ఉత్తమ ఆశ్రయం లేదు. హే రామ, నన్ను ఉద్ధరించు.',
       },
     },
@@ -151,7 +151,7 @@ export const ramRakshaStotram = {
         te: 'స్తవం యః రామస్య సంశ్రుణోతి సుఖీ భవేత్।\nనారాయణో సౌ రామో హి యో జపేత్ సతతం నరః॥',
       },
       meaning: {
-        en: 'Whoever hears this praise of Ram will attain happiness. Truly, Ram is Narayana — whoever constantly chants his name attains liberation.',
+        en: 'Whoever hears this praise of Ram will attain happiness. Truly, Ram is Narayana, whoever constantly chants his name attains liberation.',
         hi: 'जो राम के इस स्तव को सुनता है वह सुखी होता है। जो मनुष्य सतत राम का जप करता है, राम ही नारायण हैं।',
         od: 'ଯେ ମନୁଷ୍ୟ ରାମଙ୍କ ଏହି ସ୍ତବକୁ ଶୁଣେ ସେ ସୁଖୀ ହୁଏ। ରାମ ନିଜେ ନାରାୟଣ ସ୍ୱରୂପ; ଯେ ତାଙ୍କ ନାମ ସଦା ଜପ କରେ ସେ ମୁକ୍ତି ପାଏ।',
         te: 'రామ స్తవం వినేవాడు సుఖి అవుతాడు. రాముడే నారాయణుడు, నిరంతరం జపించే వాడు ముక్తి పొందుతాడు.',
@@ -398,7 +398,7 @@ export const ramRakshaStotram = {
         te: 'రామ స్కంధం హనుమంతం వైనతేయం వృకోదరం।\nశయనే యః స్మరేన్నిత్యం దుఃస్వప్నాస్తస్య నశ్యతి॥',
       },
       meaning: {
-        en: 'Whoever daily remembers at bedtime — Ram\'s shoulders (strength), Hanuman, Garuda (Vainateya), and Bhima (Vrikodara) — their bad dreams are destroyed.',
+        en: 'Whoever daily remembers at bedtime, Ram\'s shoulders (strength), Hanuman, Garuda (Vainateya), and Bhima (Vrikodara), their bad dreams are destroyed.',
         hi: 'जो व्यक्ति सोते समय नित्य राम के बल, हनुमान, गरुड और भीम का स्मरण करता है, उसके दुस्वप्न नष्ट होते हैं।',
         od: 'ଯେ ଲୋକ ଶୋଇବା ପୂର୍ବରୁ ନିତ୍ୟ ରାମ, ହନୁମାନ, ବୈନତେୟ (ଗରୁଡ) ଏବଂ ବୃକୋଦରଙ୍କୁ ସ୍ମରଣ କରେ, ତାଙ୍କର ଦୁଷ୍ସ୍ୱପ୍ନ ନାଶ ହୁଏ।',
         te: 'నిద్రలో నిత్యం రాముడు, హనుమాన్, గరుడ, భీముని స్మరించేవాని చెడు కలలు నశిస్తాయి.',
@@ -417,9 +417,9 @@ export const ramRakshaStotram = {
         te: 'మనోజవం మారుత తుల్య వేగం జితేంద్రియం బుద్ధి మతాం వరిష్ఠం।\nవాతాత్మజం వానర యూథ ముఖ్యం శ్రీ రామ దూతం శరణం ప్రపద్యే॥',
       },
       meaning: {
-        en: 'I take refuge in Sri Rama\'s messenger — swift as the mind and wind, who has conquered his senses, the greatest among the wise, son of Vayu (Wind), chief of the Vanara army — Hanuman.',
+        en: 'I take refuge in Sri Rama\'s messenger, swift as the mind and wind, who has conquered his senses, the greatest among the wise, son of Vayu (Wind), chief of the Vanara army, Hanuman.',
         hi: 'मन की गति से तीव्र, मारुत वेग, जितेंद्रिय, बुद्धिमानों में श्रेष्ठ, वायुपुत्र, वानर सेना के मुखिया, श्रीराम दूत (हनुमान) की शरण लेता हूँ।',
-        od: 'ମୁଁ ଶ୍ରୀରାମଙ୍କ ଦୂତ ହନୁମାନଙ୍କ ଶରଣ ନେଉଛି — ଯିଏ ମନ ଓ ପବନ ସମାନ ବେଗବାନ, ଯିଏ ଇନ୍ଦ୍ରିୟଜୟୀ, ବୁଦ୍ଧିମାନମାନଙ୍କ ମଧ୍ୟରେ ଶ୍ରେଷ୍ଠ, ବାୟୁପୁତ୍ର ଏବଂ ବାନରସେନାର ପ୍ରଧାନ।',
+        od: 'ମୁଁ ଶ୍ରୀରାମଙ୍କ ଦୂତ ହନୁମାନଙ୍କ ଶରଣ ନେଉଛି, ଯିଏ ମନ ଓ ପବନ ସମାନ ବେଗବାନ, ଯିଏ ଇନ୍ଦ୍ରିୟଜୟୀ, ବୁଦ୍ଧିମାନମାନଙ୍କ ମଧ୍ୟରେ ଶ୍ରେଷ୍ଠ, ବାୟୁପୁତ୍ର ଏବଂ ବାନରସେନାର ପ୍ରଧାନ।',
         te: 'మనో వేగి, వాయుతుల్యుడు, జితేంద్రియుడు, బుద్ధిమంతుడు, వాయుపుత్రుడు, వానర సేనాపతి, శ్రీ రామ దూత హనుమాన్ను శరణు కోరుతున్నాను.',
       },
     },
@@ -436,9 +436,9 @@ export const ramRakshaStotram = {
         te: 'ఆపదాం హర్తారం దాతారం సర్వ సంపదాం।\nలోకాభిరామం శ్రీ రామం భూయో భూయో నమామ్యహం॥',
       },
       meaning: {
-        en: 'I bow again and again to Sri Ram — the remover of calamities, the giver of all prosperity, the one who is pleasing to all the worlds.',
+        en: 'I bow again and again to Sri Ram, the remover of calamities, the giver of all prosperity, the one who is pleasing to all the worlds.',
         hi: 'विपदाओं को हरने वाले, सभी संपदाएं देने वाले, लोकाभिराम श्रीराम को बारंबार प्रणाम।',
-        od: 'ମୁଁ ପୁନଃ ପୁନଃ ଶ୍ରୀରାମଙ୍କୁ ପ୍ରଣାମ କରେ — ସେ ଆପଦାହର, ସମସ୍ତ ସମ୍ପଦର ଦାତା, ଏବଂ ସମସ୍ତ ଲୋକଙ୍କୁ ଆନନ୍ଦଦାୟକ।',
+        od: 'ମୁଁ ପୁନଃ ପୁନଃ ଶ୍ରୀରାମଙ୍କୁ ପ୍ରଣାମ କରେ, ସେ ଆପଦାହର, ସମସ୍ତ ସମ୍ପଦର ଦାତା, ଏବଂ ସମସ୍ତ ଲୋକଙ୍କୁ ଆନନ୍ଦଦାୟକ।',
         te: 'ఆపదలను తొలగించే, అన్ని సంపదలను ఇచ్చే, లోకాభిరాముడైన శ్రీ రామునికి మళ్ళీ మళ్ళీ నమస్కారం.',
       },
     },
@@ -512,10 +512,10 @@ export const ramRakshaStotram = {
         te: 'తరుణౌ రూప సంపన్నౌ సుకుమారౌ మహాబళౌ।\nపుండరీక విశాలాక్షౌ చీర కృష్టౌ వనే చరౌ॥',
       },
       meaning: {
-        en: 'The two young princes — endowed with divine beauty, tender, greatly powerful, with eyes as wide as lotuses, dressed in tree bark, wandering in the forest (Ram and Lakshmana).',
-        hi: 'दो तरुण राजकुमार — सुंदर, कोमल, महाबली, विशाल कमलाक्ष, वल्कल धारण किए, वन में विचरण करते (राम-लक्ष्मण)।',
-        od: 'ଏହି ଦୁଇ ଯୁବରାଜ — ସୁନ୍ଦର, ସୁକୁମାର, ମହାବଳଶାଳୀ, ପଦ୍ମ ସମାନ ବିଶାଳ ନୟନଯୁକ୍ତ, ବଲ୍କଳ ବସ୍ତ୍ର ପିନ୍ଧିଥିବା, ବନେ ବିଚରଣ କରୁଥିବା ରାମ ଓ ଲକ୍ଷ୍ମଣ।',
-        te: 'ఇద్దరు యువ రాజకుమారులు — సుందరులు, సుకుమారులు, మహాబళురు, పద్మాక్షులు, వల్కలధారులు, వనంలో సంచరించే రామ లక్ష్మణులు.',
+        en: 'The two young princes, endowed with divine beauty, tender, greatly powerful, with eyes as wide as lotuses, dressed in tree bark, wandering in the forest (Ram and Lakshmana).',
+        hi: 'दो तरुण राजकुमार, सुंदर, कोमल, महाबली, विशाल कमलाक्ष, वल्कल धारण किए, वन में विचरण करते (राम-लक्ष्मण)।',
+        od: 'ଏହି ଦୁଇ ଯୁବରାଜ, ସୁନ୍ଦର, ସୁକୁମାର, ମହାବଳଶାଳୀ, ପଦ୍ମ ସମାନ ବିଶାଳ ନୟନଯୁକ୍ତ, ବଲ୍କଳ ବସ୍ତ୍ର ପିନ୍ଧିଥିବା, ବନେ ବିଚରଣ କରୁଥିବା ରାମ ଓ ଲକ୍ଷ୍ମଣ।',
+        te: 'ఇద్దరు యువ రాజకుమారులు, సుందరులు, సుకుమారులు, మహాబళురు, పద్మాక్షులు, వల్కలధారులు, వనంలో సంచరించే రామ లక్ష్మణులు.',
       },
     },
     {
@@ -570,9 +570,9 @@ export const ramRakshaStotram = {
       },
       meaning: {
         en: 'What is difficult to obtain, what is sorrow, what is fear, and what grief comes to those who daily sing the praise of Ram? Nothing!',
-        hi: 'जो नित्य राम कीर्तन करते हैं, उन्हें क्या दुर्लभ है? क्या दुःख? क्या भय? क्या शोक? — कुछ भी नहीं।',
-        od: 'ଯେମାନେ ନିତ୍ୟ ରାମକୀର୍ତ୍ତନ କରନ୍ତି, ସେମାନଙ୍କ ପାଇଁ କ’ଣ ଦୁର୍ଲଭ? କ’ଣ ଦୁଃଖ? କ’ଣ ଭୟ? କ’ଣ ଶୋକ? — କିଛି ନୁହେଁ।',
-        te: 'నిత్యం రామ కీర్తన చేసేవారికి — దుర్లభం ఏమి? దుఃఖం ఏమి? భయం ఏమి? శోకం ఏమి? — ఏమీ లేదు!',
+        hi: 'जो नित्य राम कीर्तन करते हैं, उन्हें क्या दुर्लभ है? क्या दुःख? क्या भय? क्या शोक?, कुछ भी नहीं।',
+        od: 'ଯେମାନେ ନିତ୍ୟ ରାମକୀର୍ତ୍ତନ କରନ୍ତି, ସେମାନଙ୍କ ପାଇଁ କ’ଣ ଦୁର୍ଲଭ? କ’ଣ ଦୁଃଖ? କ’ଣ ଭୟ? କ’ଣ ଶୋକ?, କିଛି ନୁହେଁ।',
+        te: 'నిత్యం రామ కీర్తన చేసేవారికి, దుర్లభం ఏమి? దుఃఖం ఏమి? భయం ఏమి? శోకం ఏమి?, ఏమీ లేదు!',
       },
     },
     {
@@ -588,7 +588,7 @@ export const ramRakshaStotram = {
         te: 'ఆపన్నో దుఃఖితో రోగీ యో నరః శ్రిత్య మానవః।\nస్మరత్యమనసా రామం సర్వ దుఃఖాత్ ప్రముచ్యతే॥',
       },
       meaning: {
-        en: 'Whatever person is in distress, sorrowful or diseased — if he remembers Ram with a one-pointed mind, he is freed from all sufferings.',
+        en: 'Whatever person is in distress, sorrowful or diseased, if he remembers Ram with a one-pointed mind, he is freed from all sufferings.',
         hi: 'जो मनुष्य विपदा, दुःख या रोग में फंसा हो, यदि वह एकाग्र मन से राम का स्मरण करे, तो वह सभी दुःखों से मुक्त हो जाता है।',
         od: 'ଯେ ମନୁଷ୍ୟ ବିପଦ୍ଗ୍ରସ୍ତ, ଦୁଃଖିତ କିମ୍ବା ରୋଗୀ ହେଉ, ସେ ଯଦି ଏକାଗ୍ର ଚିତ୍ତରେ ରାମଙ୍କୁ ସ୍ମରଣ କରେ, ତେବେ ସେ ସମସ୍ତ ଦୁଃଖରୁ ମୁକ୍ତ ହୁଏ।',
         te: 'ఏ మానవుడు ఆపదలో, దుఃఖంలో, రోగంలో ఉండి ఏకాగ్రతతో రాముని స్మరిస్తాడో, అతను అన్ని దుఃఖాల నుండి విముక్తి పొందుతాడు.',
@@ -607,7 +607,7 @@ export const ramRakshaStotram = {
         te: 'నమో బ్రాహ్మణ్య దేవాయ గో బ్రాహ్మణ హితాయ చ।\nజగద్ ధితాయ కృష్ణాయ గోవిందాయ నమో నమః॥',
       },
       meaning: {
-        en: 'Salutations to the god of the Brahmins, the benefactor of cows and Brahmins, to Krishna the benefactor of all worlds, and to Govinda — again and again.',
+        en: 'Salutations to the god of the Brahmins, the benefactor of cows and Brahmins, to Krishna the benefactor of all worlds, and to Govinda, again and again.',
         hi: 'ब्राह्मण्यदेव, गो-ब्राह्मण हितकारी, जगत हितकारी कृष्ण और गोविंद को बारंबार नमस्कार।',
         od: 'ବ୍ରାହ୍ମଣ୍ୟଦେବ, ଗୋ ଓ ବ୍ରାହ୍ମଣହିତକାରୀ, ଜଗତହିତକାରୀ କୃଷ୍ଣ ଏବଂ ଗୋବିନ୍ଦଙ୍କୁ ପୁନଃ ପୁନଃ ନମସ୍କାର।',
         te: 'బ్రాహ్మణ్య దేవుడికి, గో-బ్రాహ్మణ హితకారికి, జగత్ హితకారి కృష్ణుడికి, గోవిందుడికి మళ్ళీ మళ్ళీ నమస్కారం.',

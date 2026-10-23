@@ -746,7 +746,7 @@ export default function AdminPage() {
                 accent="#4ade80"
                 glow={liveUsers > 0}
               />
-              {/* Users — dual 1d/7d */}
+              {/* Users - dual 1d/7d */}
               <div className="rounded-3xl border border-[#c9922a]/20 bg-[#1a0505]/95 p-5 shadow-[0_10px_30px_rgba(0,0,0,0.25)] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#c9922a]/35">
                 <div className="mb-3 flex items-center justify-between">
                   <div className="flex h-9 w-9 items-center justify-center rounded-2xl border border-white/5 bg-white/[0.03]" style={{ color: '#f0c040' }}>
@@ -767,7 +767,7 @@ export default function AdminPage() {
                 </div>
                 <p className="font-garamond text-sm text-[#e8d5b5]/60">Active users</p>
               </div>
-              {/* Sessions — dual 1d/7d */}
+              {/* Sessions - dual 1d/7d */}
               <div className="rounded-3xl border border-[#c9922a]/20 bg-[#1a0505]/95 p-5 shadow-[0_10px_30px_rgba(0,0,0,0.25)] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#c9922a]/35">
                 <div className="mb-3 flex items-center justify-between">
                   <div className="flex h-9 w-9 items-center justify-center rounded-2xl border border-white/5 bg-white/[0.03]" style={{ color: '#fb7185' }}>
@@ -788,7 +788,7 @@ export default function AdminPage() {
                 </div>
                 <p className="font-garamond text-sm text-[#e8d5b5]/60">Traffic sessions</p>
               </div>
-              {/* Page Views — dual 1d/7d */}
+              {/* Page Views - dual 1d/7d */}
               <div className="rounded-3xl border border-[#c9922a]/20 bg-[#1a0505]/95 p-5 shadow-[0_10px_30px_rgba(0,0,0,0.25)] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#c9922a]/35">
                 <div className="mb-3 flex items-center justify-between">
                   <div className="flex h-9 w-9 items-center justify-center rounded-2xl border border-white/5 bg-white/[0.03]" style={{ color: '#60a5fa' }}>
@@ -1102,7 +1102,7 @@ export default function AdminPage() {
                   <span className="font-cinzel text-sm text-[#f0c040]">Total</span>
                 </div>
                 <p className="font-cinzel text-3xl font-bold text-[#f0c040]">
-                  {subTotal === null ? '—' : subTotal}
+                  {subTotal === null ? '-' : subTotal}
                 </p>
                 <p className="mt-1 font-garamond text-sm text-[#e8d5b5]/60">All-time subscribers</p>
               </div>
@@ -1113,7 +1113,7 @@ export default function AdminPage() {
                   <span className="font-cinzel text-sm text-emerald-400">Today</span>
                 </div>
                 <p className="font-cinzel text-3xl font-bold text-emerald-400">
-                  {subToday === null ? '—' : subToday}
+                  {subToday === null ? '-' : subToday}
                 </p>
                 <p className="mt-1 font-garamond text-sm text-[#e8d5b5]/60">New today</p>
               </div>
@@ -1124,7 +1124,7 @@ export default function AdminPage() {
                   <span className="font-cinzel text-sm text-[#60a5fa]">Last 7 Days</span>
                 </div>
                 <p className="font-cinzel text-3xl font-bold text-[#60a5fa]">
-                  {subLast7d === null ? '—' : subLast7d}
+                  {subLast7d === null ? '-' : subLast7d}
                 </p>
                 <p className="mt-1 font-garamond text-sm text-[#e8d5b5]/60">New this week</p>
               </div>
@@ -1135,16 +1135,16 @@ export default function AdminPage() {
                   <span className="font-cinzel text-sm text-[#c084fc]">Returning</span>
                 </div>
                 <p className="font-cinzel text-3xl font-bold text-[#c084fc]">
-                  {subReturning === null ? '—' : subReturning}
+                  {subReturning === null ? '-' : subReturning}
                 </p>
                 <p className="mt-1 font-garamond text-sm text-[#e8d5b5]/60">Visited more than once</p>
               </div>
             </div>
 
-            {/* Daily signups bar chart — last 7 days */}
+            {/* Daily signups bar chart - last 7 days */}
             {subDailyStats.length > 0 && (
               <div className="mt-3 rounded-3xl border border-[#c9922a]/15 bg-[#1a0505]/95 p-5">
-                <p className="mb-4 font-cinzel text-sm font-bold text-[#f0c040]">New Subscribers — Last 7 Days</p>
+                <p className="mb-4 font-cinzel text-sm font-bold text-[#f0c040]">New Subscribers, Last 7 Days</p>
                 <div className="flex items-end gap-2 h-24">
                   {subDailyStats.map((day) => {
                     const maxVal = Math.max(...subDailyStats.map((d) => d.count), 1);
@@ -1199,7 +1199,7 @@ export default function AdminPage() {
             {subTotal === null && !subLoading && (
               <div className="rounded-3xl border border-[#c9922a]/15 bg-[#1a0505]/95 p-5">
                 <p className="font-garamond text-sm italic text-[#e8d5b5]/45">
-                  No subscriber data yet — make sure NEXT_PUBLIC_FIREBASE_DATABASE_URL is set in Vercel.
+                  No subscriber data yet, make sure NEXT_PUBLIC_FIREBASE_DATABASE_URL is set in Vercel.
                 </p>
               </div>
             )}

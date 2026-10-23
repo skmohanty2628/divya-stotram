@@ -28,7 +28,7 @@ const DAILY_STOTRAMS = [
     color: '#f0c040',
     bgColor: '#fffde7',
     verse: 'ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात्॥',
-    meaning: 'We meditate on the glorious light of the divine Sun — may it illuminate our intellect.',
+    meaning: 'We meditate on the glorious light of the divine Sun, may it illuminate our intellect.',
     benefit: 'Reciting the Gayatri Mantra today brings clarity of mind, wisdom and divine blessings for new beginnings.',
   },
   {
@@ -40,7 +40,7 @@ const DAILY_STOTRAMS = [
     color: '#e53935',
     bgColor: '#fce4ec',
     verse: 'या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता। नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥',
-    meaning: 'Salutations to the Goddess who dwells in all beings as power — I bow to her again and again.',
+    meaning: 'Salutations to the Goddess who dwells in all beings as power, I bow to her again and again.',
     benefit: 'Reciting Durga Stotram today invokes the divine mother\'s protection, strength and fearlessness.',
   },
   {
@@ -52,7 +52,7 @@ const DAILY_STOTRAMS = [
     color: '#7b1fa2',
     bgColor: '#f3e5f5',
     verse: 'विश्वं विष्णुर्वषट्कारो भूतभव्यभवत्प्रभुः। भूतकृद्भूतभृद्भावो भूतात्मा भूतभावनः॥',
-    meaning: 'Vishnu is the universe itself — the lord of past, present and future, the sustainer of all beings.',
+    meaning: 'Vishnu is the universe itself, the lord of past, present and future, the sustainer of all beings.',
     benefit: 'Reading Vishnu Sahasranamam today brings peace, prosperity and liberation from the cycle of suffering.',
   },
   {
@@ -76,7 +76,7 @@ const DAILY_STOTRAMS = [
     color: '#e65100',
     bgColor: '#fff8e1',
     verse: 'नमस्तेऽस्तु महामाये श्रीपीठे सुरपूजिते। शंखचक्रगदाहस्ते महालक्ष्मि नमोऽस्तु ते॥',
-    meaning: 'Salutations to the great goddess, worshipped by the gods, holding conch, discus and mace — I bow to Mahalakshmi.',
+    meaning: 'Salutations to the great goddess, worshipped by the gods, holding conch, discus and mace, I bow to Mahalakshmi.',
     benefit: 'Reciting Mahalakshmi Ashtakam today opens doors to abundance, prosperity and good fortune.',
   },
   {
@@ -88,7 +88,7 @@ const DAILY_STOTRAMS = [
     color: '#0288d1',
     bgColor: '#e1f5fe',
     verse: 'या कुन्देन्दुतुषारहारधवला या शुभ्रवस्त्रावृता। या वीणावरदण्डमण्डितकरा या श्वेतपद्मासना॥',
-    meaning: 'She who is white as jasmine, who wears pure white garments, who holds the veena — goddess Saraswati.',
+    meaning: 'She who is white as jasmine, who wears pure white garments, who holds the veena, goddess Saraswati.',
     benefit: 'Chanting Saraswati Vandana today sharpens intellect, improves memory and brings clarity in studies and creative work.',
   },
   {
@@ -112,7 +112,7 @@ const DAILY_STOTRAMS = [
     color: '#2e7d32',
     bgColor: '#e8f5e9',
     verse: 'चरितं रघुनाथस्य शतकोटिप्रविस्तरम्। एकैकमक्षरं पुंसां महापातकनाशनम्॥',
-    meaning: 'The story of Raghunatha spans a hundred crore verses — each single letter destroys the greatest of sins.',
+    meaning: 'The story of Raghunatha spans a hundred crore verses, each single letter destroys the greatest of sins.',
     benefit: 'Reciting Ram Raksha Stotram today provides divine protection and removes fear from all directions.',
   },
   {
@@ -148,7 +148,7 @@ const DAILY_STOTRAMS = [
     color: '#ad1457',
     bgColor: '#fce4ec',
     verse: 'अयि गिरिनन्दिनि नन्दितमेदिनि विश्वविनोदिनि नन्दनुते। गिरिवरविन्ध्यशिरोऽधिनिवासिनि विष्णुविलासिनि जिष्णुनुते॥',
-    meaning: 'O daughter of the mountain, delight of the earth, joy of the universe — who dwells on Mount Vindhya, praised by Vishnu.',
+    meaning: 'O daughter of the mountain, delight of the earth, joy of the universe, who dwells on Mount Vindhya, praised by Vishnu.',
     benefit: 'Singing Aigiri Nandini today awakens the divine feminine energy within and brings triumph over all darkness.',
   },
   {
@@ -172,7 +172,7 @@ const DAILY_STOTRAMS = [
     color: '#bf360c',
     bgColor: '#fbe9e7',
     verse: 'निश्चय प्रेम प्रतीति ते, विनय करैं सनमान। तेहि के कारज सकल शुभ, सिद्ध करैं हनुमान॥',
-    meaning: 'One who approaches Hanuman with unwavering love and humility — all their auspicious works are fulfilled.',
+    meaning: 'One who approaches Hanuman with unwavering love and humility, all their auspicious works are fulfilled.',
     benefit: 'Reciting Bajrang Baan today destroys all negativity, evil influences and grants fearless divine protection.',
   },
   {
@@ -194,8 +194,8 @@ const DAILY_MESSAGES = [
   { msg: 'Every prayer you offer is a step closer to the divine. Your devotion lights up the universe.', author: '🕉️ Divya Stotram' },
   { msg: 'The lotus blooms in muddy water. Your spiritual practice transforms every challenge into grace.', author: '🌸 Ancient Wisdom' },
   { msg: 'A single moment of sincere prayer is worth more than hours of distracted ritual. Show up with your heart today.', author: '🙏 Daily Reminder' },
-  { msg: 'The gods do not measure the length of your prayer — they measure the depth of your devotion.', author: '🪔 Sacred Teaching' },
-  { msg: 'Your streak is not just a number — it is a chain of grace connecting you to the divine every single day.', author: '🔥 Keep Going' },
+  { msg: 'The gods do not measure the length of your prayer, they measure the depth of your devotion.', author: '🪔 Sacred Teaching' },
+  { msg: 'Your streak is not just a number, it is a chain of grace connecting you to the divine every single day.', author: '🔥 Keep Going' },
   { msg: 'In the silence after prayer, the divine speaks. Listen today.', author: '🧘 Spiritual Insight' },
   { msg: 'Every time you return to your practice, you are choosing the sacred over the ordinary. That is true strength.', author: '⚡ Daily Inspiration' },
 ];
@@ -231,7 +231,7 @@ function buildEmailHtml(stotram, message, email) {
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>🕉️ Daily Divya Stotram — ${stotram.name}</title>
+<title>🕉️ Daily Divya Stotram | ${stotram.name}</title>
 </head>
 <body style="margin:0;padding:0;background:#0d0000;font-family:Georgia,serif;">
 
@@ -361,7 +361,7 @@ function buildEmailHtml(stotram, message, email) {
   <tr>
     <td style="background:#0a0000;padding:16px 30px 24px;text-align:center;border-top:1px solid rgba(201,146,42,0.1);">
       <p style="margin:0;font-size:22px;">🔥</p>
-      <p style="margin:6px 0 0;font-family:Georgia,serif;font-size:14px;color:#e8d5b5;opacity:0.75;">Keep your prayer streak alive — visit Divya Stotram every day!</p>
+      <p style="margin:6px 0 0;font-family:Georgia,serif;font-size:14px;color:#e8d5b5;opacity:0.75;">Keep your prayer streak alive, visit Divya Stotram every day!</p>
       <a href="${SITE_URL}" style="display:inline-block;margin-top:10px;color:#c9922a;font-size:12px;text-decoration:underline;">divyastotram.com</a>
     </td>
   </tr>
@@ -450,7 +450,7 @@ export async function GET(request) {
           await resend.emails.send({
             from: 'Divya Stotram 🕉️ <noreply@divyastotram.com>',
             to: subscriber.email,
-            subject: `🕉️ Today's Sacred Prayer — ${stotram.name} | ${getDayName()}`,
+            subject: `🕉️ Today's Sacred Prayer | ${stotram.name} | ${getDayName()}`,
             html: buildEmailHtml(stotram, message, subscriber.email),
           });
           sent++;

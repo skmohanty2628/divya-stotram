@@ -30,16 +30,16 @@ export default function StreakTracker() {
     let updatedToday = false;
 
     if (lastVisit === today) {
-      // Already visited today — just show existing streak
+      // Already visited today - just show existing streak
       newStreak = currentStreak;
     } else if (lastVisit === yesterday) {
-      // Visited yesterday — increment streak
+      // Visited yesterday - increment streak
       newStreak = currentStreak + 1;
       updatedToday = true;
       localStorage.setItem('divya_streak', String(newStreak));
       localStorage.setItem('divya_last_visit', today);
     } else {
-      // Missed a day (or first visit) — reset streak to 1
+      // Missed a day (or first visit) - reset streak to 1
       newStreak = 1;
       updatedToday = lastVisit !== today;
       localStorage.setItem('divya_streak', '1');

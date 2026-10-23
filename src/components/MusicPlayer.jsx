@@ -21,7 +21,7 @@ export default function MusicPlayer({ youtubeId, title }) {
         </button>
       )}
 
-      {/* Player panel — responsive */}
+      {/* Player panel - responsive */}
       {open && (
         <div className={`fixed right-2 left-2 sm:left-auto z-40 bg-[#0d0202] border border-[#c9922a]/40 rounded-2xl shadow-2xl shadow-black/70 overflow-hidden transition-all ${
           minimized ? 'bottom-2 sm:w-64' : 'bottom-2 sm:w-80'

@@ -149,7 +149,7 @@ function StotramContent({ meta, verseData, top, children, htmlLang }) {
         className="mt-8 scroll-mt-24 rounded-2xl border border-[#c9922a]/20 bg-white p-4 shadow-sm sm:p-8"
       >
         <h2 className="mb-5 font-cinzel text-xl font-bold text-[#8b1a00] sm:text-2xl">
-          {meta.title?.en} — Verses with meaning
+          {meta.title?.en}: Verses with meaning
         </h2>
         {verses.length ? (
           <div className="flex flex-col gap-5">
@@ -190,7 +190,7 @@ export default function StotramClientPage({ meta, verseData, top, children, html
           {children}
         </StotramContent>
         <MusicPlayer youtubeId={meta.youtubeId} title={meta.title?.en} />
-        <AskPandit stotramContext={`${meta.title?.en} — ${meta.description?.en}`} />
+        <AskPandit stotramContext={`${meta.title?.en}: ${meta.description?.en}`} />
       </div>
     </LangProvider>
   );

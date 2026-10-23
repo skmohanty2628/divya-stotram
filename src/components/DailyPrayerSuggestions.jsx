@@ -110,7 +110,7 @@ export default function DailyPrayerSuggestions({ currentSlug, lang = 'en' }) {
   return (
     <div className="mt-10 space-y-4">
 
-      {/* You are reading — highlight */}
+      {/* You are reading - highlight */}
       <div className="rounded-2xl border border-[#c9922a]/30 bg-gradient-to-r from-[#1a0505] to-[#120202] p-4 flex items-center gap-4">
         <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-[#c9922a]/20 bg-[#c9922a]/10 text-2xl">
           {current.emoji}

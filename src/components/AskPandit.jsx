@@ -28,8 +28,8 @@ export default function AskPandit({ stotramContext }) {
   const selectLanguage = (lang) => {
     setChatLang(lang);
     const greetings = {
-      en: 'Jai Shri Ram 🙏 I am your Pandit. Ask me anything about this stotram — its meaning, benefits, or how to chant it.',
-      hi: 'जय श्री राम 🙏 मैं आपका पंडित हूँ। इस स्तोत्र के बारे में कुछ भी पूछें — अर्थ, लाभ या जप विधि।',
+      en: 'Jai Shri Ram 🙏 I am your Pandit. Ask me anything about this stotram, its meaning, benefits, or how to chant it.',
+      hi: 'जय श्री राम 🙏 मैं आपका पंडित हूँ। इस स्तोत्र के बारे में कुछ भी पूछें, अर्थ, लाभ या जप विधि।',
       od: 'ଜୟ ଶ୍ରୀ ରାମ 🙏 ମୁଁ ଆପଣଙ୍କ ପଣ୍ଡିତ। ଏ ସ୍ତୋତ୍ର ବିଷୟରେ ଯାହା ଜାଣିବାକୁ ଚାହାନ୍ତି ପଚାରନ୍ତୁ।',
       te: 'జయ శ్రీ రామ్ 🙏 నేను మీ పండితుడిని. ఈ స్తోత్రం గురించి ఏదైనా అడగండి.',
       ta: 'ஜய் ஸ்ரீ ராம் 🙏 நான் உங்கள் பண்டிதர். இந்த ஸ்தோத்திரம் பற்றி எதுவும் கேளுங்கள்.',

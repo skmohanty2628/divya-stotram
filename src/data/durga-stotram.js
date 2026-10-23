@@ -1,4 +1,4 @@
-// DURGA STOTRAM — CLEAN FULL VERSION
+// DURGA STOTRAM - CLEAN FULL VERSION
 export const durgaStotram = {
   slug: 'durga-stotram',
   verses: [
@@ -13,7 +13,7 @@ export const durgaStotram = {
         te: 'సర్వమంగళ మాంగళ్యే శివే సర్వార్థ సాధికే। శరణ్యే త్ర్యంబకే గౌరీ నారాయణీ నమోస్తుతే॥',
       },
       meaning: {
-        en: 'O Goddess, who is the most auspicious among all auspicious beings, who fulfills all purposes, who is the refuge, three-eyed Gauri — I bow to you, Narayani.',
+        en: 'O Goddess, who is the most auspicious among all auspicious beings, who fulfills all purposes, who is the refuge, three-eyed Gauri, I bow to you, Narayani.',
         hi: 'हे देवी! आप सब मंगलों में श्रेष्ठ, सभी कार्यों को सिद्ध करने वाली, शरण देने वाली त्र्यंबक गौरी हैं। आपको नमस्कार।',
         od: 'ହେ ଦେବୀ! ଆପଣ ସମସ୍ତ ମଙ୍ଗଳରେ ଶ୍ରେଷ୍ଠ, ସମସ୍ତ କାର୍ଯ୍ୟ ସିଦ୍ଧ କରୁଥିବା ଏବଂ ଶରଣ ଦେଇଥିବା ଗୌରୀ। ଆପଣଙ୍କୁ ପ୍ରଣାମ।',
         te: 'ఓ దేవి! నీవు సర్వ మంగళమయి, అన్ని కార్యాలను సాధించే, శరణు ఇచ్చే గౌరీ. నీకు నమస్కారం.',
@@ -85,7 +85,7 @@ export const durgaStotram = {
         te: 'దేహి సౌభాగ్యమారోగ్యం దేహి మే పరమం సుఖం। రూపం దేహి జయం దేహి యశో దేహి ద్విషో జహి॥',
       },
       meaning: {
-        en: 'Grant me good fortune, health, happiness, beauty, victory, and fame — and remove my enemies.',
+        en: 'Grant me good fortune, health, happiness, beauty, victory, and fame, and remove my enemies.',
         hi: 'मुझे सौभाग्य, स्वास्थ्य, सुख, रूप, विजय और यश दें तथा शत्रुओं का नाश करें।',
         od: 'ମୋତେ ସୌଭାଗ୍ୟ, ସ୍ୱାସ୍ଥ୍ୟ, ସୁଖ, ସୁନ୍ଦରତା, ବିଜୟ ଓ ଯଶ ଦିଅନ୍ତୁ ଏବଂ ଶତ୍ରୁଙ୍କୁ ଦୂର କରନ୍ତୁ।',
         te: 'నాకు సౌభాగ్యం, ఆరోగ్యం, సుఖం, విజయం మరియు కీర్తి ప్రసాదించు, శత్రువులను తొలగించు.',
@@ -103,8 +103,8 @@ export const durgaStotram = {
         te: 'యా దేవీ సర్వ భూతేషు శక్తి రూపేణ సంస్థితా। నమస్తస్యై నమస్తస్యై నమస్తస్యై నమో నమః॥',
       },
       meaning: {
-        en: 'The Goddess who is present in all beings as Power (Shakti) — salutations to her, salutations to her, salutations to her, again and again.',
-        hi: 'जो देवी सभी प्राणियों में शक्ति रूप से स्थित हैं — उन्हें नमस्कार, उन्हें नमस्कार, उन्हें नमस्कार, बारंबार नमस्कार।',
+        en: 'The Goddess who is present in all beings as Power (Shakti), salutations to her, salutations to her, salutations to her, again and again.',
+        hi: 'जो देवी सभी प्राणियों में शक्ति रूप से स्थित हैं, उन्हें नमस्कार, उन्हें नमस्कार, उन्हें नमस्कार, बारंबार नमस्कार।',
         od: 'ଯେ ଦେବୀ ସମସ୍ତ ଭୂତମାନଙ୍କ ଭିତରେ ଶକ୍ତିରୂପେ ବିରାଜମାନ, ସେହି ଦେବୀଙ୍କୁ ପୁନଃ ପୁନଃ ପ୍ରଣାମ।',
         te: 'అన్ని జీవులలో శక్తి రూపంలో ఉన్న దేవికి నమస్కారం, నమస్కారం, నమస్కారం, మళ్ళీ మళ్ళీ నమస్కారం.',
       }
@@ -121,8 +121,8 @@ export const durgaStotram = {
         te: 'యా దేవీ సర్వ భూతేషు మాతృ రూపేణ సంస్థితా। నమస్తస్యై నమస్తస్యై నమస్తస్యై నమో నమః॥',
       },
       meaning: {
-        en: 'The Goddess who is present in all beings as the Mother — salutations to her, salutations to her, salutations to her, again and again.',
-        hi: 'जो देवी सभी प्राणियों में माता रूप से स्थित हैं — उन्हें नमस्कार, नमस्कार, नमस्कार, बारंबार।',
+        en: 'The Goddess who is present in all beings as the Mother, salutations to her, salutations to her, salutations to her, again and again.',
+        hi: 'जो देवी सभी प्राणियों में माता रूप से स्थित हैं, उन्हें नमस्कार, नमस्कार, नमस्कार, बारंबार।',
         od: 'ଯେ ଦେବୀ ସମସ୍ତ ଜୀବମାନଙ୍କ ଭିତରେ ମାତୃରୂପେ ବିରାଜମାନ, ସେହି ଦେବୀଙ୍କୁ ପୁନଃ ପୁନଃ ପ୍ରଣାମ।',
         te: 'అన్ని జీవులలో తల్లి రూపంలో ఉన్న దేవికి నమస్కారం, నమస్కారం, నమస్కారం, మళ్ళీ మళ్ళీ.',
       }
@@ -139,8 +139,8 @@ export const durgaStotram = {
         te: 'యా దేవీ సర్వ భూతేషు శాంతి రూపేణ సంస్థితా। నమస్తస్యై నమస్తస్యై నమస్తస్యై నమో నమః॥',
       },
       meaning: {
-        en: 'The Goddess who is present in all beings as Peace (Shanti) — salutations to her, salutations to her, salutations to her, again and again. 🙏',
-        hi: 'जो देवी सभी प्राणियों में शांति रूप से स्थित हैं — उन्हें नमस्कार, नमस्कार, नमस्कार, बारंबार। 🙏',
+        en: 'The Goddess who is present in all beings as Peace (Shanti), salutations to her, salutations to her, salutations to her, again and again. 🙏',
+        hi: 'जो देवी सभी प्राणियों में शांति रूप से स्थित हैं, उन्हें नमस्कार, नमस्कार, नमस्कार, बारंबार। 🙏',
         od: 'ଯେ ଦେବୀ ସମସ୍ତ ଭୂତମାନଙ୍କ ଭିତରେ ଶାନ୍ତିରୂପେ ବିରାଜମାନ, ସେହି ଦେବୀଙ୍କୁ ପୁନଃ ପୁନଃ ପ୍ରଣାମ। 🙏',
         te: 'అన్ని జీవులలో శాంతి రూపంలో ఉన్న దేవికి నమస్కారం, నమస్కారం, నమస్కారం, మళ్ళీ మళ్ళీ. 🙏',
       }

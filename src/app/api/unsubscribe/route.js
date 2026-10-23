@@ -37,7 +37,7 @@ export async function GET(request) {
   return new Response(`
     <!DOCTYPE html>
     <html>
-    <head><title>Unsubscribed — Divya Stotram</title>
+    <head><title>Unsubscribed | Divya Stotram</title>
     <style>body{background:#0d0000;color:#e8d5b5;font-family:Georgia,serif;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;text-align:center;}
     .card{background:#1a0505;border:1px solid rgba(201,146,42,0.3);border-radius:24px;padding:48px 40px;max-width:400px;}
     h1{color:#f0c040;font-size:24px;}p{color:#e8d5b5;opacity:0.7;line-height:1.7;}

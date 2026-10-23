@@ -1,4 +1,4 @@
-// NAVAGRAHA STOTRAM — CLEAN FULL VERSION
+// NAVAGRAHA STOTRAM - CLEAN FULL VERSION
 export const navagrahaStotram = {
   slug: 'navagraha-stotram',
   verses: [

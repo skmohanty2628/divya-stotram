@@ -10,7 +10,7 @@ function collapseSpaces(text) {
 }
 
 /* =========================
-   🔥 MAIN FIX — ODIA CLEAN
+   🔥 MAIN FIX, ODIA CLEAN
 ========================= */
 function cleanOdiaText(text) {
   let cleaned = normalizeText(text);

@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
 
 // ── Firebase REST helpers ─────────────────────────────────────────────────────
-// Uses Firebase Realtime Database REST API — no SDK needed
+// Uses Firebase Realtime Database REST API - no SDK needed
 // Requires NEXT_PUBLIC_FIREBASE_DATABASE_URL in Vercel env vars
 
 function getFirebaseUrl(path) {
@@ -62,7 +62,7 @@ export async function POST(request) {
     const existing = await firebaseGet(`subscribers/${emailKey}`);
 
     if (existing) {
-      // Already subscribed — record another visit attempt but don't re-send email
+      // Already subscribed - record another visit attempt but don't re-send email
       await firebaseSet(`subscribers/${emailKey}/lastSeen`, new Date().toISOString());
       await firebaseSet(`subscribers/${emailKey}/visitCount`,
         (existing.visitCount || 1) + 1
@@ -99,11 +99,11 @@ export async function POST(request) {
       await resend.emails.send({
         from: 'Divya Stotram <contactdivyastotram@gmail.com>',
         to: email,
-        subject: '🙏 Welcome to Divya Stotram — Your Daily Devotional Has Begun!',
+        subject: '🙏 Welcome to Divya Stotram | Your Daily Devotional Has Begun!',
         html: `
           <div style="font-family: Georgia, serif; max-width: 560px; margin: auto; background: #0d0000; color: #e8d5b5; padding: 32px; border-radius: 16px;">
             <h1 style="font-size: 24px; color: #f0c040; text-align: center; margin-bottom: 8px;">🕉️ Jai Shri Ram!</h1>
-            <p style="text-align: center; color: #c9922a; font-size: 12px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 24px;">Divya Stotram — Sacred Prayers Daily</p>
+            <p style="text-align: center; color: #c9922a; font-size: 12px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 24px;">Divya Stotram | Sacred Prayers Daily</p>
             <p style="font-size: 16px; line-height: 1.7;">Namaste 🙏</p>
             <p style="font-size: 16px; line-height: 1.7;">
               Thank you for subscribing to <strong style="color: #f0c040;">Divya Stotram</strong>!
@@ -114,7 +114,7 @@ export async function POST(request) {
               <ul style="color: #e8d5b5; font-size: 14px; line-height: 1.8; margin: 0; padding-left: 20px;">
                 <li>Daily stotram & mantra reminders</li>
                 <li>Auspicious festival and muhurat alerts</li>
-                <li>New content — prayers, mantras & stotrams</li>
+                <li>New content, prayers, mantras & stotrams</li>
               </ul>
             </div>
             <div style="text-align: center; margin: 28px 0;">
@@ -133,7 +133,7 @@ export async function POST(request) {
       await resend.emails.send({
         from: 'Divya Stotram <contactdivyastotram@gmail.com>',
         to: 'contactdivyastotram@gmail.com',
-        subject: `🔔 New Subscriber — ${email}`,
+        subject: `🔔 New Subscriber | ${email}`,
         html: `<p>New subscriber: <strong>${email}</strong></p><p>Time: ${new Date().toISOString()}</p>`,
       });
     }

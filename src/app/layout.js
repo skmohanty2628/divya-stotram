@@ -34,7 +34,7 @@ export const metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Divya Stotram — Hindu prayers and stotrams in four languages',
+        alt: 'Divya Stotram | Hindu prayers and stotrams in four languages',
       },
     ],
   },

@@ -77,6 +77,11 @@ const SEO_COPY = {
     description:
       'Read Bajrang Baan — Nishchay Prem Prateeti Te — in English, Hindi, Odia and Telugu with meaning. Powerful Hanuman protective prayer that destroys enemies and removes fear.',
   },
+  'maha-mrityunjaya-mantra': {
+    title: 'Maha Mrityunjaya Mantra in English, Hindi, Odia & Telugu with Meaning',
+    description:
+      'Read the Maha Mrityunjaya Mantra (Om Tryambakam Yajamahe, Rigveda 7.59.12) in English, Hindi, Odia and Telugu with word meaning, how and when to chant it, and a YouTube chant to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par — Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

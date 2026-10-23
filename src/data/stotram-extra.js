@@ -53,4 +53,23 @@ export const STOTRAM_EXTRA = {
       { q: 'Is it a religious prayer?', a: 'No. It is a heroic poem, though it draws on Hindu mythology for its comparisons.' },
     ],
   },
+  'maha-mrityunjaya-mantra': {
+    what: `The Maha Mrityunjaya Mantra, also called the Tryambaka Mantra, is a one-verse Vedic prayer to Shiva. It appears in the Rigveda (7.59.12) and, with small variations in how it is cited, in the Yajurveda (Taittiriya Samhita 1.8.6 and Vajasaneyi Samhita 3.60). Mandala 7 of the Rigveda is traditionally associated with the sage Vasishtha and his family. Later tradition, including the Shiva Purana, links the mantra with the young sage Markandeya.`,
+    meaning: `Tryambaka means the three-eyed one, a name of Rudra and Shiva. Yajamahe means we worship. Sugandhim pushtivardhanam describes him as fragrant and as the one who increases nourishment and well-being. The second line gives the image of the urvaruka, the cucumber: when it is ripe it falls from the vine by itself. The prayer asks to be released from the bond of death in the same way, and not from immortality (mamritat, ma amritat).`,
+    benefits: [
+      'A short mantra that is easy to learn and suited to daily japa',
+      'Traditionally chanted as a prayer for the health and safety of family, especially during illness or anxiety, alongside proper medical care',
+      'Commonly chanted on Mondays, on Maha Shivaratri and in Shiva temples',
+      'Gives a calm, steady rhythm for meditation and slow breathing',
+      'Open to everyone as a devotional chant',
+    ],
+    bestTime: `Early morning is traditional, and Monday is the day of Shiva. The usual count is one mala of 108 repetitions, although 11 or 21 repetitions are common for a short daily practice. It is also chanted during Maha Shivaratri and in the month of Shravan. Chanting it is a prayer, not a replacement for medical treatment.`,
+    faqs: [
+      { q: 'Where does the Maha Mrityunjaya Mantra come from?', a: 'It is Rigveda 7.59.12. The same verse also appears in the Yajurveda, in the Taittiriya Samhita and the Vajasaneyi Samhita.' },
+      { q: 'What does Tryambaka mean?', a: 'The three-eyed one, a name of Shiva or Rudra.' },
+      { q: 'How many times should it be chanted?', a: 'One mala of 108 is traditional. Eleven or twenty-one repetitions are also common for a short daily practice.' },
+      { q: 'Why is a cucumber mentioned?', a: 'The ripe cucumber falls from its vine without effort. The image asks for a natural release from the bond of death while keeping immortality.' },
+      { q: 'Can the mantra cure illness?', a: 'It is a prayer for peace, strength and protection. It is not a medical treatment, so please follow your doctor\'s advice alongside it.' },
+    ],
+  },
 };

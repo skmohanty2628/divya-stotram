@@ -8,10 +8,10 @@ export const hanumanChalisa = {
       original:
         'श्री गुरु चरण सरोज रज, निज मनु मुकुरु सुधारि। वरनउँ रघुवर विमल जसु, जो दायकु फल चारि॥',
       transliteration:
-        'Shri Guru Charan Saroj Raj, Nij mane mukure sudhar\nVarnao Raghuvar Vimal Jasu, Jo dayaku phal char',
+        'Shri Guru Charan Saroj Raj, Nij manu mukuru sudhari\nVarnau Raghuvar Vimal Jasu, Jo dayaku phal chari',
       script: {
-        od: 'ଶ୍ରୀ ଗୁରୁ ଚରଣ ସରୋଜ ରଜ, ନିଜ ମନ ମୁକୁରୁ ସୁଧାରି। ବରନଉଁ ରଘୁବର ବିମଳ ଜସ, ଜୋ ଦାୟକ ଫଳ ଚାରି॥',
-        te: 'శ్రీ గురు చరణ సరోజ రజ, నిజ మన ముకురు సుధారి। వర్ణఉఁ రఘువర విమల జస, జో దాయక ఫల చారి॥',
+        od: 'ଶ୍ରୀ ଗୁରୁ ଚରଣ ସରୋଜ ରଜ, ନିଜ ମନୁ ମୁକୁରୁ ସୁଧାରି। ବରନଉଁ ରଘୁବର ବିମଳ ଜସ, ଜୋ ଦାୟକ ଫଳ ଚାରି॥',
+        te: 'శ్రీ గురు చరణ సరోజ రజ, నిజ మను ముకురు సుధారి। వర్ణఉఁ రఘువర విమల జస, జో దాయక ఫల చారి॥',
       },
       meaning: {
         en: "After cleansing the mirror of my mind with the pollen dust of holy Guru's Lotus feet, I profess the pure, untainted glory of Shri Raghuvar which bestows the fourfold fruits of life — Dharma, Artha, Kama and Moksha.",
@@ -27,10 +27,10 @@ export const hanumanChalisa = {
       original:
         'बुद्धिहीन तनु जानिके, सुमिरौं पवन-कुमार। बल बुद्धि विद्या देहु मोहिं, हरहु कलेश विकार॥',
       transliteration:
-        'Buddhi heen tanu janike, Sumiro Pavan Kumar\nBal Buddhi Vidya Dehu Mohe, Harahu Kalesh Vikar',
+        'Buddhi heen tanu janike, Sumiro Pavan Kumar\nBal Buddhi Vidya Dehu Mohi, Harahu Kalesh Vikar',
       script: {
         od: 'ବୁଦ୍ଧିହୀନ ତନୁ ଜାଣିକେ, ସୁମିରଉଁ ପବନ କୁମାର। ବଳ ବୁଦ୍ଧି ବିଦ୍ୟା ଦେହୁ ମୋହିଁ, ହରହୁ କଲେଶ ବିକାର॥',
-        te: 'బుద్ధిహీన తను జానికే, సుమిరౌం పవన కుమార్। బల బుద్ధి విద్యా దేహు మొహిం, హరహు కలేశ వికార్॥',
+        te: 'బుద్ధిహీన తను జానికే, సుమిరౌం పవన కుమార్। బల బుద్ధి విద్యా దేహు మోహిం, హరహు కలేశ వికార్॥',
       },
       meaning: {
         en: 'Knowing myself to be ignorant, I remember you, O Hanuman, son of Pavan. Bless me with strength, wisdom and knowledge, and remove my sorrows and flaws.',

@@ -313,6 +313,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: true,
   },
+  {
+    slug: 'maha-mrityunjaya-mantra',
+    title: {
+      en: 'Maha Mrityunjaya Mantra',
+      hi: 'महामृत्युंजय मंत्र',
+      od: 'ମହାମୃତ୍ୟୁଞ୍ଜୟ ମନ୍ତ୍ର',
+      te: 'మహా మృత్యుంజయ మంత్రం',
+    },
+    deity: 'Shiva',
+    deityEmoji: '🔱',
+    deityIcon: '',
+    description: {
+      en: 'The Maha Mrityunjaya (Tryambaka) Mantra from Rigveda 7.59.12 — Om Tryambakam Yajamahe — a Vedic prayer to Shiva for protection, health and freedom from fear',
+      hi: 'ऋग्वेद 7.59.12 का महामृत्युंजय (त्र्यम्बक) मंत्र — ॐ त्र्यम्बकं यजामहे — शिव की उपासना का वैदिक मंत्र',
+      od: 'ଋଗ୍ବେଦ ୭.୫୯.୧୨ ର ମହାମୃତ୍ୟୁଞ୍ଜୟ (ତ୍ର୍ୟମ୍ବକ) ମନ୍ତ୍ର — ଓଁ ତ୍ର୍ୟମ୍ବକଂ ଯଜାମହେ — ଶିବଙ୍କ ବୈଦିକ ମନ୍ତ୍ର',
+      te: 'ఋగ్వేదం 7.59.12 లోని మహా మృత్యుంజయ (త్ర్యంబక) మంత్రం — ఓం త్ర్యంబకం యజామహే — శివుని వైదిక మంత్రం',
+    },
+    color: 'from-slate-900 to-indigo-950',
+    accent: '#8fa8d8',
+    youtubeId: 'OV9LXGOXjgs',
+    verseCount: 1,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

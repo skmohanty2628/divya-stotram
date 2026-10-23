@@ -14,6 +14,7 @@ import { shivChalisa } from '@/data/shiv-chalisa';
 import { krishnaVasudevayaMantra } from '@/data/krishna-vasudevaya-mantra';
 import { bajrangBaan } from '@/data/bajrang-baan';
 import { indraJimiJambhPar } from '@/data/indra-jimi-jambh-par';
+import { mahaMrityunjayaMantra } from '@/data/maha-mrityunjaya-mantra';
 
 export const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
@@ -32,4 +33,5 @@ export const VERSE_DATA = {
   'krishna-vasudevaya-mantra': krishnaVasudevayaMantra,
   'bajrang-baan': bajrangBaan,
   'indra-jimi-jambh-par': indraJimiJambhPar,
+  'maha-mrityunjaya-mantra': mahaMrityunjayaMantra,
 };

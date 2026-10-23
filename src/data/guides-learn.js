@@ -1238,7 +1238,7 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['shiva-tandav', 'shiv-chalisa'],
+      stotrams: ['maha-mrityunjaya-mantra', 'shiva-tandav', 'shiv-chalisa'],
       guides: ['how-to-chant-shiva-mantra', 'maha-shivaratri-guide'],
     },
     sources: [

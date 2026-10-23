@@ -636,57 +636,85 @@ export const GUIDES_LEARN = [
     category: 'Festivals',
     title: 'Rama Navami: Meaning, Worship and What to Chant',
     description:
-      'What Rama Navami celebrates, when it falls, how devotees fast and worship at noon, and the prayers commonly recited, including the Ram Raksha Stotram and Vishnu Sahasranamam.',
+      'What Rama Navami celebrates, how its date is fixed, what the Valmiki Ramayana and the Ramcharitmanas say about the birth of Rama, how the day is observed in Ayodhya, Bhadrachalam and elsewhere, and the prayers commonly recited.',
     h1: 'Rama Navami: Meaning, Worship and What to Chant',
     intro:
-      'Rama Navami celebrates the birth of Rama, the hero of the Ramayana, whom tradition regards as an avatar of Vishnu and the ideal of righteous conduct. This guide explains the festival and a simple way to observe it.',
+      'Rama Navami celebrates the birth of Rama, the hero of the Ramayana, whom tradition regards as an avatar of Vishnu and the ideal of righteous conduct. This guide explains how the festival is timed, what the texts say about the birth, how it is observed in different places, and a simple way to take part.',
     sections: [
       {
-        h: 'When it falls',
+        h: 'How the date is fixed',
         p: [
-          `Rama Navami is observed on the ninth day (navami) of the bright fortnight of the month of Chaitra, usually in March or April, ending the spring Navaratri in many regions. The date shifts each year according to the lunar calendar. Because the tradition places Rama's birth around midday, the main puja is performed near noon.`,
+          `Rama Navami falls on the ninth day (navami) of the bright fortnight (Shukla Paksha) of the month of Chaitra, the first month of the Hindu calendar, usually in March or April. It is the last day of the spring Navaratri, known as Chaitra Navaratri, in many regions. Because the calendar follows the moon, the date changes every year, and when the navami tithi spans two civil days, local panchangs may name different days.`,
+        ],
+      },
+      {
+        h: 'What the texts say about the birth',
+        p: [
+          `The Valmiki Ramayana, the earliest version of the story, places the birth of Rama in the month of Chaitra, on the navami of the bright fortnight, under the star Punarvasu, and the account is in the Bala Kanda. Many popular retellings and the tradition of worship say that Rama was born at midday, which is why the main puja is performed around noon in many places. Valmiki himself describes the time as the day advancing, so the midday detail is a matter of tradition and of later retellings rather than a precise quotation. The Ramcharitmanas of Tulsidas is popularly said to have been begun on Rama Navami.`,
         ],
       },
       {
         h: 'About Rama',
         p: [
-          `The Ramayana of Valmiki tells how Rama, the eldest son of King Dasharatha of Ayodhya, accepted fourteen years of exile to keep his father's word, was separated from his wife Sita when she was abducted by Ravana, and eventually returned to rule justly. For many, Rama stands for dharma, honesty, restraint and care for one's people.`,
+          `Rama was the eldest son of King Dasharatha of Ayodhya. The Ramayana tells how he accepted fourteen years of exile to keep his father's word, was separated from his wife Sita when she was abducted by Ravana, defeated Ravana with the help of Hanuman and the vanara army, and returned to rule justly. For many, he stands for dharma, honesty, restraint and care for one's people.`,
         ],
       },
       {
         h: 'How devotees observe the day',
         p: [
-          `Many people fast until the noon puja, decorate an image of Rama with Sita, Lakshmana and Hanuman, and read from the Ramayana or the Ramcharitmanas of Tulsidas. Temples hold bhajans and processions, and in some places a symbolic wedding of Rama and Sita is performed. A cooling drink of jaggery and water or panakam is offered as prasad in some regions.`,
+          `Many people fast through the day, some until midday or sunset, and the fast is a personal choice. Homes and temples decorate images of Rama with Sita, Lakshmana and Hanuman. Families chant prayers together, begin the day with a prayer to the sun, and perform a midday puja and aarti, followed by prasad. Many read the whole Ramayana in the days before the festival, a continuous recital called akhand path. Ramlila, the folk dramatisation based on the Ramcharitmanas, is performed in many places on this day and on Vijayadashami.`,
+        ],
+      },
+      {
+        h: 'Celebrations in different places',
+        p: [
+          `In Ayodhya the day is celebrated at the Ram temple, where many devotees bathe in the Sarayu river before the darshan. At Bhadrachalam in Telangana a ceremonial wedding of Rama and Sita is held, and wedding processions are part of the day in several southern temples. Chariot processions of Rama, Sita, Lakshmana and Hanuman are held in many cities. In Karnataka, neighbourhoods distribute the jaggery drink panaka freely, and Bengaluru has a long-running month-long music festival connected with Rama Navami. In Odisha, Jagannath temples and Vaishnava communities also observe the day.`,
         ],
       },
       {
         h: 'What to chant',
         p: [
-          `Popular choices are the Ram Raksha Stotram, traditionally attributed to the sage Budha Kaushika, the simple name Shri Rama Jaya Rama Jaya Jaya Rama, and the Vishnu Sahasranamam, whose closing verses honour Rama. Many also recite the Hanuman Chalisa, because Hanuman is Rama's most devoted servant in the tradition.`,
+          `Popular choices are the Ram Raksha Stotram, traditionally attributed to the sage Budha Kaushika, the simple name Shri Rama Jaya Rama Jaya Jaya Rama, and the Vishnu Sahasranamam, whose closing verses honour Rama. Many also recite the Hanuman Chalisa, because Hanuman is Rama's most devoted servant in the tradition. Read the meaning before you chant so that the words are more than sound.`,
+        ],
+      },
+      {
+        h: 'A simple home observance',
+        p: [
+          `Place an image of Rama's family on a clean spot, light a lamp, offer a flower and a little fruit or jaggery drink, and read a passage of the Ramayana or recite the Ram Raksha Stotram. Even ten quiet minutes at noon is a complete observance. Fasting is not necessary, and anyone who is unwell, pregnant, elderly or on medication should eat suitably.`,
         ],
       },
     ],
     faqs: [
       {
         q: 'Is Rama Navami a fast day?',
-        a: 'Many devotees fast until noon, but it is a personal choice.',
+        a: 'Many devotees fast, some until noon and some until sunset, but it is a personal choice.',
       },
       {
         q: 'Why is the main puja at midday?',
-        a: 'In the tradition Rama was born at midday, so the birth ceremony is performed then.',
+        a: 'Tradition and popular retellings say Rama was born at midday, so the birth ceremony is held then. Valmiki gives the month, tithi and star, and describes the day advancing.',
       },
       {
         q: 'Who wrote the Ram Raksha Stotram?',
         a: 'Tradition attributes it to the sage Budha Kaushika, who is said to have received it in a dream.',
       },
+      {
+        q: 'Is Rama Navami part of Navaratri?',
+        a: 'Yes, it is the ninth day of Chaitra Navaratri in many regions.',
+      },
+      {
+        q: 'What is panaka?',
+        a: 'A cooling drink of jaggery and water, often with spices, distributed on Rama Navami in parts of South India.',
+      },
     ],
     related: {
       stotrams: ['ram-raksha-stotram', 'hanuman-chalisa'],
-      guides: ['hanuman-jayanti-guide', 'how-to-chant-hanuman-chalisa'],
+      guides: ['hanuman-jayanti-guide', 'how-to-chant-hanuman-chalisa', 'hanuman-chalisa-history-tulsidas'],
     },
     sources: [
-      'Valmiki Ramayana (Bala Kanda, the birth of Rama)',
-      'Kane, P.V., History of Dharmasastra, Vol. V (Rama Navami)',
+      'Valmiki Ramayana, Bala Kanda (the birth of Rama on Chaitra shukla navami under Punarvasu)',
+      'Rama Navami, encyclopaedic summary (date rule, Ayodhya, Bhadrachalam, Karnataka panaka, Ramlila)',
+      'ISKCON Desire Tree, article on Sri Rama Navami (midday birth tradition and observance)',
+      'Tulsidas, Ramcharitmanas',
     ],
   },
 
@@ -1516,6 +1544,163 @@ export const GUIDES_LEARN = [
       'Orissa Review, Government of Odisha, article on Manabasa Gurubara (Lakshmi worship in Margashira and the Shriya Chandaluni story)',
       'eSamskriti, Manabasa Gurubara and Prathama Astami (rituals of the mana, chita and the last Thursday)',
       'Balaram Das, Lakshmi Purana (Odia, sixteenth century)',
+    ],
+  },
+
+  {
+    slug: 'kumar-purnima-odisha-guide',
+    category: 'Festivals',
+    title: 'Kumar Purnima in Odisha: Meaning, Chanda Puja, Kartikeya and Traditions',
+    description:
+      'A guide to Kumar Purnima, the Ashwin full moon festival of Odisha: the worship of Kartikeya and the moon, the Anjuli Bandha at sunrise, Chanda puja in the evening, traditional offerings, swings and the game of pasa kheli.',
+    h1: 'Kumar Purnima in Odisha: Meaning and Traditions',
+    intro:
+      'Kumar Purnima is a festival of the full moon of the month of Ashwin, celebrated across Odisha especially by young girls. It honours Kumar, a name of Kartikeya, and the moon at its clearest after the monsoon. This guide explains the festival, the rituals of the day and evening, and how the date is decided.',
+    sections: [
+      {
+        h: 'When it is observed',
+        p: [
+          `Kumar Purnima falls on the full moon day (Purnima) of the month of Ashwin, usually in October. The same full moon is known elsewhere in India as Sharad Purnima or Kojagari Purnima. Because the Purnima tithi often begins in one afternoon and ends the next morning, panchangs can disagree by a day. Some calendars list the day on which the full moon is present at night, while some Odia panjikas list the day on which the tithi is running at sunrise. The practical rule is to follow your family's Odia panjika or the official Odisha holiday list.`,
+        ],
+      },
+      {
+        h: 'Who is Kumar?',
+        p: [
+          `Kumar means the young prince, and in this festival it is a name of Kartikeya, also called Skanda, Subrahmanya and Murugan, the son of Shiva and Parvati. Tradition, citing the Skanda Purana, holds that on this day Kartikeya defeated the demon Tarakasura and was made the commander of the army of the gods. The festival therefore remembers courage and righteousness as well as youth and beauty.`,
+        ],
+      },
+      {
+        h: 'Morning: the offering to the sun',
+        p: [
+          `Young girls rise early, bathe before sunrise and offer flowers, fruit and water to the rising sun, with hands cupped together in a gesture called Anjuli Bandha. Many keep a day-long fast, though practice differs between families and some take only light food. The fast is a personal choice, and anyone with a health condition should eat sensibly.`,
+        ],
+      },
+      {
+        h: 'Evening: Chanda puja',
+        p: [
+          `After moonrise, girls wearing new clothes gather in a courtyard, on a rooftop or balcony and worship the moon, called Chanda or Janha in Odia. The offering is placed in a kula, the bamboo winnowing basket, on banana leaves, and a lamp is lit. The usual items are chuda (flattened rice), banana, coconut, jaggery, curd, cucumber, sugarcane and other seasonal fruit, though the exact items vary by family. After the prayer the offering is shared and eaten, which also breaks the fast.`,
+        ],
+      },
+      {
+        h: 'Songs, swings and games',
+        p: [
+          `The evening is full of folk songs sung in groups and passed down orally, praising Kartikeya and wishing for a bright future. The wording varies from village to village. Swings are tied and decorated, and girls take turns on them while singing. Pasa kheli, a traditional board game played with dice or cowrie shells, is played in the evening and often through the night. In cities, families gather on rooftops and balconies to watch the moon together.`,
+        ],
+      },
+      {
+        h: 'What the festival means',
+        p: [
+          `For girls, the festival is traditionally an occasion to pray for virtue, health, a good future and, as the custom is commonly told, a husband as fine as Kartikeya. Today many families treat it more broadly as a celebration of daughters, of the moon and the harvest season, and of a gathering of friends and relatives. Whether or not one keeps the fast, the evening of songs and shared food is the heart of it.`,
+        ],
+      },
+      {
+        h: 'Observing it away from Odisha',
+        p: [
+          `You can keep a simple version anywhere. Offer chuda, banana and coconut under the moon on a plate, light a lamp, say a short prayer to Kartikeya and the moon, and share the offering with family. Odia associations in many cities also organise community Kumar Purnima gatherings with songs and games.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Kumar Purnima?',
+        a: 'It is the Ashwin full moon festival of Odisha, when Kartikeya (Kumar) and the moon are worshipped, especially by girls.',
+      },
+      {
+        q: 'Is Kumar Purnima the same as Sharad Purnima?',
+        a: 'It falls on the same full moon day. Different regions give it different names and customs.',
+      },
+      {
+        q: 'What is offered to the moon?',
+        a: 'Commonly chuda, banana, coconut, jaggery, curd, cucumber and fruit, though items vary by family.',
+      },
+      {
+        q: 'Do all girls fast?',
+        a: 'No. Many keep a day-long fast, but some eat lightly. It is a personal custom.',
+      },
+    ],
+    related: {
+      stotrams: ['aditya-hridayam'],
+      guides: ['kartika-month-odisha-guide', 'manabasa-gurubara-odisha-guide'],
+    },
+    sources: [
+      'Achyuta Samanta, essay on Kumar Purnima (morning Anjuli Bandha, evening Chanda offering, Skanda Purana account of Tarakasura)',
+      'Hindutone, Kumar Purnima in Odisha (Ashwin Purnima, tithi differences between panchangs and Odia panjikas, Chanda puja, pasa kheli, swings)',
+      'Skanda Purana (Kartikeya and Tarakasura), as cited in the sources above',
+    ],
+  },
+
+  {
+    slug: 'kaunria-kathi-bada-badua-daka-odisha-guide',
+    category: 'Festivals',
+    title: 'Kaunria Kathi and Bada Badua Daka: Odisha\'s Diwali Tradition of Calling the Ancestors',
+    description:
+      'What Kaunria Kathi and Bada Badua Daka are: the Odia Diwali custom of lighting jute sticks to call the ancestors, the chant, where and when it is done, its uncertain origins, and how it fits with the Kartika month.',
+    h1: 'Kaunria Kathi and Bada Badua Daka in Odisha',
+    intro:
+      'In Odisha, Diwali carries an older custom alongside the lamps and Lakshmi Puja. Families light bundles of jute stalks and call out to their ancestors to come down from the dark and return along a lit path. The custom is known as Kaunria Kathi or Bada Badua Daka. This guide explains what happens, what the words mean and what is and is not known about its origins.',
+    sections: [
+      {
+        h: 'What the custom is',
+        p: [
+          `Kaunria Kathi means sticks of jute (kaunria kathi are the dried stalks of the jute plant). Bada Badua Daka means the call to the elders, the ancestors. On the day of Diwali, families gather bunches of jute sticks, light them and hold the burning sticks up to the sky while calling out to their departed forefathers. The flames are understood as a path of light for the ancestors to find their way to their descendants.`,
+        ],
+      },
+      {
+        h: 'The chant',
+        p: [
+          `The call is usually led by the eldest man in the family, and the others repeat it. A commonly quoted form of the call, in Odia, begins Bada badua ho, andhara re aasa, alua re jaa. It is translated as: Oh honoured ancestors, come in the darkness and go back along the path of light. Wording differs between families and districts, so treat this as one familiar version and not a single fixed text.`,
+        ],
+      },
+      {
+        h: 'When and where',
+        p: [
+          `Sources describe the timing slightly differently. One account places it on Naraka Chaturdashi, the fourth day of the Diwali festival, while another describes it on Diwali itself, from morning to late evening. Practice varies by family and locality, so follow your family and your local Odia panjika. In the town of Puri the call is a public event on the Grand Road in front of the Jagannath Temple, with many people holding lit jute sticks together. Elsewhere it is mostly done privately at home, in the courtyard or at the doorstep.`,
+        ],
+      },
+      {
+        h: 'Link to ancestor worship',
+        p: [
+          `The custom belongs to the wider Hindu tradition of remembering the departed, especially at this time of the year when the nights are lengthening. Families often combine it with offerings and prayers for their ancestors and a meal in their memory. It sits alongside the lamp-lighting of Diwali, with the lamps for Lakshmi and the jute torches for the ancestors, so that the house is lit for both the living and the departed.`,
+        ],
+      },
+      {
+        h: 'Where does it come from?',
+        p: [
+          `The honest answer is that nobody is certain. Some people link the custom to the Bhakti movement associated with Chaitanya Mahaprabhu, around five hundred years ago. Others connect it to the ancient Odia seafaring traders, the sadhabas, and to Boita Bandana, with the lit sticks recalling the signal fires that guided boats home. These are traditions of explanation, not proven history, and the two are not mutually exclusive.`,
+        ],
+      },
+      {
+        h: 'Practising it safely',
+        p: [
+          `Burning sticks are a real fire risk. Keep a bucket of water nearby, light the sticks outdoors or in an open courtyard, keep children and loose clothing well away from the flames, and never leave burning bundles unattended. Dried jute stalks burn quickly. A diya or a candle can stand in for the sticks if you are in an apartment or a place where open flames are not safe.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What does Bada Badua Daka mean?',
+        a: 'It means the call to the elders, the ancestors, whom families invite to the light of Diwali.',
+      },
+      {
+        q: 'What are Kaunria Kathi?',
+        a: 'They are the dried stalks of the jute plant, burnt in bundles during the ritual.',
+      },
+      {
+        q: 'On which day is it done?',
+        a: 'Sources give Naraka Chaturdashi or Diwali day itself. Follow your family and your local panjika.',
+      },
+      {
+        q: 'Where is it a public event?',
+        a: 'In Puri, on the Grand Road in front of the Jagannath Temple.',
+      },
+    ],
+    related: {
+      stotrams: ['mahalakshmi-ashtakam'],
+      guides: ['diwali-lakshmi-puja-guide', 'kartika-month-odisha-guide'],
+    },
+    sources: [
+      'Outlook Traveller, article on the story of Bada Badua Daka in Odisha',
+      'Daily Pioneer, article on the holy month of Kartika and Odia traditions (Kaunria Kathi, Boita Bandana, Bali Jatra)',
     ],
   },
 ];

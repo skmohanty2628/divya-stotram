@@ -10,7 +10,7 @@ export const hanumanChalisa = {
       transliteration:
         'Shri Guru Charan Saroj Raj, Nij manu mukuru sudhari\nVarnau Raghuvar Vimal Jasu, Jo dayaku phal chari',
       script: {
-        od: 'ଶ୍ରୀ ଗୁରୁ ଚରଣ ସରୋଜ ରଜ, ନିଜ ମନୁ ମୁକୁରୁ ସୁଧାରି। ବରନଉଁ ରଘୁବର ବିମଳ ଜସ, ଜୋ ଦାୟକ ଫଳ ଚାରି॥',
+        od: 'ଶ୍ରୀ ଗୁରୁ ଚରଣ ସରୋଜ ରଜ, ନିଜ ମନୁ ମୁକୁରୁ ସୁଧାରି। ବରନଉଁ ରଘୁବର ବିମଳ ଜସୁ, ଜୋ ଦାୟକୁ ଫଳ ଚାରି॥',
         te: 'శ్రీ గురు చరణ సరోజ రజ, నిజ మను ముకురు సుధారి। వర్ణఉఁ రఘువర విమల జస, జో దాయక ఫల చారి॥',
       },
       meaning: {
@@ -29,7 +29,7 @@ export const hanumanChalisa = {
       transliteration:
         'Buddhi heen tanu janike, Sumiro Pavan Kumar\nBal Buddhi Vidya Dehu Mohi, Harahu Kalesh Vikar',
       script: {
-        od: 'ବୁଦ୍ଧିହୀନ ତନୁ ଜାଣିକେ, ସୁମିରଉଁ ପବନ କୁମାର। ବଳ ବୁଦ୍ଧି ବିଦ୍ୟା ଦେହୁ ମୋହିଁ, ହରହୁ କଲେଶ ବିକାର॥',
+        od: 'ବୁଦ୍ଧିହୀନ ତନୁ ଜାଣିକେ, ସୁମିରୌଁ ପବନ କୁମାର। ବଳ ବୁଦ୍ଧି ବିଦ୍ୟା ଦେହୁ ମୋହିଁ, ହରହୁ କଲେଶ ବିକାର॥',
         te: 'బుద్ధిహీన తను జానికే, సుమిరౌం పవన కుమార్। బల బుద్ధి విద్యా దేహు మోహిం, హరహు కలేశ వికార్॥',
       },
       meaning: {
@@ -284,7 +284,7 @@ export const hanumanChalisa = {
       original: 'यम कुबेर दिगपाल जहाँ ते। कवि कोविद कहि सके कहाँ ते॥',
       transliteration: 'Yam Kuber Digpal jahan te, Kavi kovid kahi sake kahan te',
       script: {
-        od: 'ଯମ କୁବେର ଦିଗପାଳ ଯହାଁ ତେ। କବି କୋବିଦ କହି ସକେ କହାଁ ତେ॥',
+        od: 'ଯମ କୁବେର ଦିଗପାଳ ଜହାଁ ତେ। କବି କୋବିଦ କହି ସକେ କହାଁ ତେ॥',
         te: 'యమ్ కుబేర్ దిగ్‌పాల్ జహాం తే। కవి కోవిద్ కహి సకే కహాం తే॥',
       },
       meaning: {
@@ -607,7 +607,7 @@ export const hanumanChalisa = {
       original: 'अंतकाल रघुबर पुर जाई। जहाँ जन्म हरि-भक्त कहाई॥',
       transliteration: 'Ant kal Raghuvar pur jai, Jahan janm Hari bhakt kahai',
       script: {
-        od: 'ଅନ୍ତକାଳ ରଘୁବର ପୁର ଜାଇ। ଯହାଁ ଜନ୍ମ ହରି-ଭକ୍ତ କହାଇ॥',
+        od: 'ଅନ୍ତକାଳ ରଘୁବର ପୁର ଜାଇ। ଜହାଁ ଜନ୍ମ ହରି-ଭକ୍ତ କହାଇ॥',
         te: 'అంత్‌కాల్ రఘువర్ పుర్ జాయి। జహాం జన్మ హరి-భక్త్ కహాయి॥',
       },
       meaning: {

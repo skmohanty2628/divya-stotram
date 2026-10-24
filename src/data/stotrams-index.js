@@ -337,6 +337,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'karpura-gauram',
+    title: {
+      en: 'Karpura Gauram Karunavataram',
+      hi: 'कर्पूरगौरं करुणावतारं',
+      od: 'କର୍ପୂରଗୌରଂ କରୁଣାବତାରଂ',
+      te: 'కర్పూరగౌరం కరుణావతారం',
+    },
+    deity: 'Shiva',
+    deityEmoji: '🔱',
+    deityIcon: '',
+    description: {
+      en: 'Karpura Gauram Karunavataram, the Shiva dhyana shloka recited at the end of Shiva puja and aarti, with meaning in English, Hindi, Odia and Telugu',
+      hi: 'कर्पूरगौरं करुणावतारं, शिव पूजा और आरती के अंत में बोला जाने वाला शिव ध्यान श्लोक, अर्थ सहित',
+      od: 'କର୍ପୂରଗୌରଂ କରୁଣାବତାରଂ, ଶିବ ପୂଜା ଓ ଆରତୀ ଶେଷରେ ପାଠ ହେଉଥିବା ଶିବ ଧ୍ୟାନ ଶ୍ଳୋକ, ଅର୍ଥ ସହିତ',
+      te: 'కర్పూరగౌరం కరుణావతారం, శివ పూజ మరియు హారతి చివరలో చదివే శివ ధ్యాన శ్లోకం, అర్థంతో',
+    },
+    color: 'from-slate-800 to-sky-950',
+    accent: '#9ec5e8',
+    youtubeId: 'tZcgg5ATndk',
+    verseCount: 1,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

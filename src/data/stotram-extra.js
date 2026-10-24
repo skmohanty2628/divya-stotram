@@ -72,4 +72,23 @@ export const STOTRAM_EXTRA = {
       { q: 'Can the mantra cure illness?', a: 'It is a prayer for peace, strength and protection. It is not a medical treatment, so please follow your doctor\'s advice alongside it.' },
     ],
   },
+  'karpura-gauram': {
+    what: `Karpura Gauram Karunavataram is a four-line Sanskrit verse in praise of Shiva and Parvati. It is usually recited at the close of a Shiva puja, when camphor is lit for the aarti, and many families and temples say it as a short prayer on its own. It is a dhyana shloka, which means a verse used to bring the form of the deity to mind. Some web pages say it comes from the Yajurveda, but none of them gives a chapter and verse, so the exact source is uncertain. A popular belief says Vishnu recited it at the wedding of Shiva and Parvati. That story is devotional tradition and not something found in a named text.`,
+    meaning: `Karpura gauram means white like camphor, which describes Shiva's fair, ash-covered form. Karunavataram means the embodiment of compassion. Samsarasaram is the essence of the world, and bhujagendraharam says he wears the king of serpents as a garland. In the second line, sada vasantam hridayaravinde means one who always lives in the lotus of the heart, and bhavam bhavanisahitam namami means I bow to Bhava (Shiva) together with Bhavani (Parvati).`,
+    benefits: [
+      'Short enough to learn in a few minutes and say after any Shiva puja',
+      'Traditionally recited when camphor is lit for the aarti, which is why it is often called the camphor aarti verse',
+      'Often said on Mondays, during Shravan and on Maha Shivaratri',
+      'Brings the image of Shiva and Parvati together, so it also suits family prayer',
+      'Open to everyone as a devotional verse',
+    ],
+    bestTime: `It is most often said at the end of Shiva puja or evening aarti. Monday is the day of Shiva, and the verse is also said on Maha Shivaratri and through the month of Shravan. One or three repetitions is common. Sit calmly, light a lamp or camphor if you wish, and say it slowly with attention to the meaning.`,
+    faqs: [
+      { q: 'What does Karpura Gauram Karunavataram mean?', a: 'It praises Shiva as white like camphor, an embodiment of compassion, the essence of the world and one who wears the serpent king as a garland. The second line bows to Shiva who lives in the heart together with Bhavani.' },
+      { q: 'When is Karpura Gauram recited?', a: 'Usually at the end of Shiva puja or aarti, when camphor is lit. It can also be said alone as a short prayer.' },
+      { q: 'Is Karpura Gauram from the Yajurveda?', a: 'Many web pages say so, but none gives a chapter and verse that can be checked, so the source is treated here as uncertain. It is best described as a traditional Shiva dhyana shloka.' },
+      { q: 'Is it only for Shiva or for Parvati too?', a: 'The last line names Bhavani (Parvati) along with Shiva, so it honours the divine couple together.' },
+      { q: 'Who can chant it?', a: 'Anyone. It is a short devotional verse with no special rule beyond saying it with respect.' },
+    ],
+  },
 };

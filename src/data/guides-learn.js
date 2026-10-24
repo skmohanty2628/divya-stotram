@@ -1049,33 +1049,45 @@ export const GUIDES_LEARN = [
     category: 'Meaning and history',
     title: 'Om (Aum): Meaning, Origin and How to Chant It',
     description:
-      'What Om means in the Upanishads, its three sounds A, U, M and the silence after, the Yoga Sutras reference, and a simple way to chant Om with breath and attention.',
+      'What Om means in the Upanishads, the Gita and the Yoga Sutras, how the Mandukya Upanishad reads A, U, M and the silence, and a simple way to chant Om with breath and attention.',
     h1: 'Om: Meaning, Origin and How to Chant',
     intro:
-      'Om, also written Aum, is the most sacred syllable in Hindu tradition and appears at the start of most mantras. It is also found in Buddhism and Jainism. This guide explains how the Upanishads describe it and offers a simple way to chant it.',
+      'Om, also written Aum, is the most sacred syllable in Hindu tradition and appears at the start of most mantras and many prayers. It is also found in Buddhism and Jainism. This guide explains how the Upanishads, the Bhagavad Gita and the Yoga Sutras describe it, how the Mandukya Upanishad reads its parts, and a simple way to chant it.',
     sections: [
       {
-        h: 'Where Om appears',
+        h: 'Where Om appears in the texts',
         p: [
-          `Om is mentioned in many Upanishads, including the Chandogya, Katha and Mandukya. The Katha Upanishad calls it the word that all the Vedas proclaim. Patanjali's Yoga Sutras (1.27) say that the expression of Ishvara is Om, the pranava, and that it should be repeated with reflection on its meaning.`,
+          `Om is mentioned in many Upanishads. The Chandogya Upanishad (1.1.1) begins by telling the student to meditate on the syllable Om as the udgitha, the high chant of the Sama Veda. The Taittiriya Upanishad (1.8) says that Om is Brahman and that Om is all this. The Katha Upanishad (1.2.15-16) calls it the word that all the Vedas declare, and says that knowing this syllable fulfils the wish of the one who knows it.`,
+          `The Bhagavad Gita mentions it twice in ways that are often quoted. In 8.13, Krishna says that one who leaves the body remembering him while uttering the single syllable Om reaches the highest goal. In 17.24, he says that acts of sacrifice, gift and austerity begin with Om. Patanjali's Yoga Sutras (1.27-28) say that the word expressing Ishvara is Om, the pranava, and that it should be repeated with reflection on its meaning.`,
+          `The word pranava, used in several of these texts, is a name of Om. Tradition also gives it a practical role: most Vedic recitations begin and end with it, and many mantras, such as Om Namah Shivaya and the Gayatri mantra, open with it.`,
         ],
       },
       {
         h: 'Four parts: A, U, M and silence',
         p: [
-          `The Mandukya Upanishad analyses Om as made up of three sounds, A, U and M, and the silence that follows. It associates these with the waking, dreaming and deep sleep states, and the silence with the fourth state, turiya, a state of pure awareness. This is one traditional interpretation, and other schools read it differently.`,
+          `The Mandukya Upanishad is the shortest of the principal Upanishads and is wholly about Om. Its first verse says that Om is all this, past, present and future, and whatever lies beyond time. Verse 2 says that the Self is Brahman and that the Self has four quarters.`,
+          `The text describes the Self in four states. The first is waking, the second is dream, the third is deep sleep, and the fourth is called turiya. Verses 3 to 6 take the first three, and verse 7 describes turiya mainly by saying what it is not: it is not turned inward, not turned outward, not unconscious, and cannot be grasped or defined. Verses 8 to 12 then link the states to the sounds of Om. A is linked to waking, U to dream, M to deep sleep, and the silence that follows Om to turiya, the state beyond sound.`,
+          `Gaudapada wrote a commentary in verse on the Mandukya Upanishad, and Shankara later wrote on both. They read the passage in the light of the Advaita Vedanta school. Other schools read it differently, so this is one traditional interpretation among several.`,
+        ],
+      },
+      {
+        h: 'Om in practice',
+        p: [
+          `Om is chanted on its own as a meditation, and also at the start of a mantra or a puja. In yoga classes it is often chanted three times at the beginning and end. In temples it is the first sound of many prayers. For some people it is a quiet way to settle before work or study.`,
+          `The Yoga Sutras link repetition of Om with turning the mind toward Ishvara (1.28), and the Mandukya reading links it with turning the attention from the waking world toward the stillness behind it. Both are ways of saying that Om is meant to be repeated with attention and not as a sound alone.`,
         ],
       },
       {
         h: 'How to chant it',
         p: [
-          `Sit with a straight back. Take a slow breath in, then on the out-breath chant a long A as in father, move to a rounded U as in boot, and close the lips on a humming M. Let the M carry on for a while, then rest quietly in the silence for a few breaths. Repeat three to eleven times. The tone should be comfortable, not strained.`,
+          `Sit with a straight back. Take a slow breath in, then on the out-breath chant a long A as in father, move to a rounded U as in boot, and close the lips on a humming M. Let the M carry on for a while, then rest quietly in the silence for a few breaths. Repeat three to eleven times, or 108 times with a mala. The tone should be comfortable, not strained.`,
+          `If you are new to chanting, begin with a short practice of three rounds at the same time each day. Do not force the breath. If you feel dizzy, breathe normally and stop. Om can be chanted aloud, in a whisper or silently.`,
         ],
       },
       {
         h: 'What science says',
         p: [
-          `A small pilot study published in 2011 reported reduced activity in some limbic areas of the brain during Om chanting compared with a control sound. The sample was small, so this is an early lead. See our guide on the science behind chanting for a careful look at what is and is not established.`,
+          `A small pilot study published in 2011 reported reduced activity in some limbic areas of the brain during Om chanting compared with a control sound. The sample was small, so this is an early lead and not a settled result. See our guide on the science behind chanting for a careful look at what is and is not established.`,
         ],
       },
     ],
@@ -1090,15 +1102,29 @@ export const GUIDES_LEARN = [
       },
       {
         q: 'Why is there a silence after Om?',
-        a: 'In the Mandukya reading the silence represents the fourth, transcendent state beyond waking, dreaming and sleep.',
+        a: 'In the Mandukya reading the silence represents the fourth state, turiya, beyond waking, dreaming and deep sleep.',
+      },
+      {
+        q: 'What is the difference between Om and Aum?',
+        a: 'They are two spellings of the same syllable. Aum shows the three sounds A, U and M that the Mandukya Upanishad discusses.',
+      },
+      {
+        q: 'What is the pranava?',
+        a: 'Pranava is a name of Om used in the Upanishads and in the Yoga Sutras (1.27).',
+      },
+      {
+        q: 'Can anyone chant Om?',
+        a: 'Yes. It is a simple devotional and meditative chant with no special requirement beyond saying it with respect and attention.',
       },
     ],
     related: {
-      stotrams: ['gayatri-mantra'],
-      guides: ['science-behind-chanting', 'how-to-use-japa-mala'],
+      stotrams: ['gayatri-mantra', 'maha-mrityunjaya-mantra'],
+      guides: ['science-behind-chanting', 'how-to-use-japa-mala', 'spiritual-routine-for-beginners'],
     },
     sources: [
-      'Mandukya Upanishad (verses 1-12) and Katha Upanishad 1.2.15-16',
+      'Mandukya Upanishad (verses 1-12) with Gaudapada\'s Karika',
+      'Chandogya Upanishad 1.1.1, Taittiriya Upanishad 1.8 and Katha Upanishad 1.2.15-16',
+      'Bhagavad Gita 8.13 and 17.24',
       'Patanjali, Yoga Sutras 1.27-28',
       'Kalyani B.G. et al., Neurohemodynamic correlates of OM chanting: a pilot fMRI study, International Journal of Yoga 2011;4(1):3-6',
     ],
@@ -1701,6 +1727,185 @@ export const GUIDES_LEARN = [
     sources: [
       'Outlook Traveller, article on the story of Bada Badua Daka in Odisha',
       'Daily Pioneer, article on the holy month of Kartika and Odia traditions (Kaunria Kathi, Boita Bandana, Bali Jatra)',
+    ],
+  },
+  {
+    slug: 'boita-bandana-bali-jatra-kartika-purnima-guide',
+    category: 'Odisha festivals',
+    title: 'Boita Bandana and Bali Jatra: Kartika Purnima Boat Festival of Odisha',
+    description:
+      'What Boita Bandana is, why Odias float little boats at dawn on Kartika Purnima, the Kalinga trade history behind it, the Bali Jatra fair at Cuttack, and how to take part with care for the water.',
+    h1: 'Boita Bandana and Bali Jatra: The Kartika Purnima Boat Festival',
+    intro:
+      'Before sunrise on the full moon that closes the month of Kartika, people across Odisha carry tiny boats to rivers, ponds and the sea and set them afloat with a lamp inside. The custom is called Boita Bandana, the worship of the boat, and the week of celebration around it is known as Bali Jatra, the voyage to Bali. This guide explains what happens, what history lies behind it, and how to keep the day simple and kind to the water.',
+    sections: [
+      {
+        h: 'What Boita Bandana is',
+        p: [
+          `Boita is the Odia word for a sea-going boat, and bandana means worship or salutation. On Kartika Purnima, families make or buy a small model boat, place a lit earthen lamp in it together with betel leaf and areca nut, and float it on whatever water is nearby. Women often blow conch shells as the boats go out, and children sing a short rhyme that is usually written as "A Ka Ma Boi, Pana Gua Thoi". It mentions the boat and the betel leaf and nut that are put in it. The words are old Odia, and scholars read some of them differently, so any single explanation of the rhyme should be treated with care.`,
+          `The boats were traditionally made from banana stem or bark, with a mast of sticks and a sail of paper. Today you will also see boats of paper, cork and thermocol. The rite is done early in the morning, usually before sunrise, so families go to the water while it is still dark.`,
+        ],
+      },
+      {
+        h: 'The history behind the boats',
+        p: [
+          `Kalinga, the ancient name for the coastal region that includes much of present-day Odisha, had sea trade with islands of Southeast Asia over many centuries. Writers and historians mention contact with Java, Sumatra and Bali. Indian rouletted pottery found at Sembiran in Bali is one of the pieces of evidence cited for early contact, and inscriptions at ports in East Java and Bali refer to merchants from Kalinga. Merchants of Odisha were known as sadhabas, and their ships are remembered in the word boita.`,
+          `A common explanation for the timing is the monsoon. The northeast monsoon blows from about November to February, which suited ships leaving the Odisha coast for the east. The boats of Kartika Purnima are said to recall the families who stayed behind and prayed for the safe return of the sadhabas. This is the usual way the festival is explained, but it is tradition and not a single dated record. The earliest literary reference people usually point to is Sarala Das's fifteenth-century Odia Mahabharata, so the custom itself may be older than anything written about it.`,
+          `Local belief also says that about two thousand Kalinga families once settled in Bali around the third century BCE. This is a local story and not an established fact. Historians have suggested other explanations, such as the aftermath of the Kalinga war or an invitation to Brahmins in Java, and the question remains open.`,
+        ],
+      },
+      {
+        h: 'Bali Jatra at Cuttack',
+        p: [
+          `Bali Jatra is the fair that starts on Kartika Purnima and runs for about a week. The largest gathering is at Gadagadia Ghat on the Mahanadi at Cuttack, where stalls sell clothes, toys, food and household goods and crowds come from all over the state. Cultural programmes are also held at Paradeep. By 2019 the Cuttack fair had grown to about 1,500 stalls, which led to concerns from the National Green Tribunal about waste and the river.`,
+          `In 1992 the Indian Navy sent the yacht INS Samudra from Paradeep to Bali to retrace the old trade route. The voyage took 82 days, and it is often mentioned as a reminder of how much sailing skill the old route needed.`,
+        ],
+      },
+      {
+        h: 'How the day fits into Kartika',
+        p: [
+          `Kartika is a month of vows in Odisha. Many people eat only simple vegetarian food (habisha), light a lamp before the tulasi plant each evening and visit temples, especially of Jagannath and Vishnu. The last five days, called Panchuka, run up to Kartika Purnima, and Boita Bandana is done at the end of that period. In Puri and other temples the day is also observed with special worship. You can read about the month in our guide to Kartika in Odisha and about the autumn full moon that comes a few weeks earlier in our Kumar Purnima guide.`,
+        ],
+      },
+      {
+        h: 'How to do it at home, and how to keep it clean',
+        p: [
+          `Wake early and wash. Make or buy a small boat, ideally from banana stem, a dry leaf or plain paper. Put a small clay lamp in it, with a betel leaf and an areca nut, and light the lamp. Stand at the edge of the water, say a short prayer for the safety of travellers and for your family, and let the boat go gently. If you cannot reach a river or pond, a large basin or a tub at home does the same job, and the boat can be lifted out afterwards.`,
+          `Avoid thermocol and plastic, because they stay in the water for years and break into small pieces. Ask your family to collect the boats afterwards if the water is a pond or a tank. Keep a safe distance from the edge with children, and at the sea check the tide before you go.`,
+          `The date follows the lunar calendar: it is the full moon of Kartika in the Odia calendar. Look in the panjika or at the announcement from your local temple, and do not rely on a fixed date in the Gregorian calendar, because the full moon moves from year to year.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What does Boita Bandana mean?',
+        a: 'Boita is a boat and bandana is worship. It is the custom of floating small boats with a lamp, betel leaf and areca nut on Kartika Purnima.',
+      },
+      {
+        q: 'Why is it held on Kartika Purnima?',
+        a: 'The usual explanation links it to the old sea trade with Southeast Asia. Ships left on the northeast monsoon from about November, and families prayed for their safe return. It is a tradition and not a single dated record.',
+      },
+      {
+        q: 'What is Bali Jatra?',
+        a: 'It is the week-long fair that begins on Kartika Purnima. The largest one is at Gadagadia Ghat on the Mahanadi in Cuttack.',
+      },
+      {
+        q: 'Did people from Odisha settle in Bali?',
+        a: 'There is evidence of trade and contact between Kalinga and Southeast Asia. The story that two thousand families migrated to Bali is a local belief that historians treat with caution.',
+      },
+      {
+        q: 'Which material is best for the boat?',
+        a: 'Banana stem, dry leaf or plain paper. Avoid thermocol and plastic, which pollute the water.',
+      },
+      {
+        q: 'Can I do Boita Bandana without a river?',
+        a: 'Yes. A basin of water at home is fine. The meaning lies in the prayer and the lamp, not in the size of the water.',
+      },
+    ],
+    related: {
+      stotrams: ['vishnu-sahasranamam', 'mahalakshmi-ashtakam'],
+      guides: ['kartika-month-odisha-guide', 'kumar-purnima-odisha-guide', 'jagannath-ratha-yatra-puri-guide'],
+    },
+    sources: [
+      'Orissa POST, People float miniature boats on Kartik Purnima to celebrate Odisha\'s maritime history',
+      'Live History India, Bali Yatra: Odisha\'s Voyage to a Glorious Past',
+      'Mohanty, Boita Bandana Utshava and Bali Yatra in Odisha, eSamskriti',
+      'Sarala Das, Odia Mahabharata (fifteenth century), as cited in the sources above',
+    ],
+  },
+
+  {
+    slug: 'prathamastami-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Prathamastami in Odisha: Meaning, Rituals and Enduri Pitha',
+    description:
+      'Prathamastami honours the eldest child of the family in Odisha. Learn when it falls, the role of the maternal uncle, Sasthi Devi, Enduri Pitha, and how families celebrate it at home and in the temples.',
+    h1: 'Prathamastami: The Odia Festival for the Eldest Child',
+    intro:
+      'In the Odia month of Margasira, a few days after the Kartika festivals end, families keep a day for their eldest child. It is called Prathamastami, from prathama, first, and ashtami, the eighth day of the fortnight. New clothes arrive from the maternal uncle, the mother lights a lamp for the child, and the kitchen fills with the smell of Enduri Pitha steamed in turmeric leaves. This guide explains the day, its rituals and how its date is fixed.',
+    sections: [
+      {
+        h: 'When Prathamastami falls',
+        p: [
+          `Prathamastami is kept on the Ashtami tithi, the eighth lunar day, of the dark fortnight (Krishna paksha) of Margasira. In the Odia reckoning the dark fortnight of Margasira begins the day after Kartika Purnima, so the festival comes about a week after the full moon of Kartika. It usually falls in November or December.`,
+          `The exact day is set by the tithi and not by a fixed calendar date. Ashtami can begin on one day and run into the next, so look in an Odia panjika or follow the announcement of your local temple. In Puri and Bhubaneswar the temple calendars are widely followed.`,
+        ],
+      },
+      {
+        h: 'Who is honoured',
+        p: [
+          `The festival is for the first child of the family. Odia sources describe the child as the podhuan or eldest, and the Wikipedia article on the festival says it is observed after the child has completed one year. Newspaper accounts speak of the eldest child, without narrowing it to a son or a daughter, and the younger brothers and sisters also pay respect to the eldest on this day. Families differ in how they keep the day, so follow the practice of your own household.`,
+          `The idea behind the day is simple. The first child is seen as the one who will later share the care of the family, and the festival gives thanks for the child and asks for a long and healthy life.`,
+        ],
+      },
+      {
+        h: 'The role of the maternal uncle',
+        p: [
+          `The maternal uncle, called mama, has a special place. In this festival he is sometimes called the ashtami bandhu, the friend of Ashtami. He sends or brings new clothes and sweets for the child, and in many homes the family visits his house for a meal. Wikipedia lists items such as coconut, jaggery, newly harvested rice, black gram and turmeric leaves as things the uncle supplies for the rites.`,
+          `The same idea appears in the temple. At Bhubaneswar the deity Lingaraj travels in a palanquin to Kapalimatha, which is described as the house of his maternal uncle, and in Puri new clothes are offered to Jagannath, Balabhadra and Subhadra.`,
+        ],
+      },
+      {
+        h: 'Prathamastami in the temples',
+        p: [
+          `The day is also marked in the great temples. A newspaper account of the Puri observance says that new clothes and special offerings are made to Jagannath, Balabhadra, Subhadra and Mahalaxmi, and that the deities are given a special bandapana, the ritual dressing and adornment. At Bhubaneswar, Lingaraj is taken in procession to Kapalimatha, which the temple tradition treats as the house of his maternal uncle. These temple customs mirror the family custom: the god is honoured on this day in the same way that the eldest child is.`,
+        ],
+      },
+      {
+        h: 'The rituals at home',
+        p: [
+          `The child is bathed and dressed in the new clothes. The mother and the older women of the family perform the aarti with a lamp, and the child is marked with sandal paste and vermilion and blessed with doob grass and unbroken rice grains. Prayers are offered to Sasthi Devi, the goddess who looks after children, and to Ganesha and the family deity. In some homes a water pot (kalash) is also set up for Varuna.`,
+          `After the prayer, the child touches the feet of elders and receives their blessing. Younger siblings then do the same for the eldest.`,
+        ],
+      },
+      {
+        h: 'Enduri Pitha and the festival food',
+        p: [
+          `The food of the day is Enduri Pitha, also known as Haladi Patra Pitha. A batter of rice and black gram is spread on a turmeric leaf, filled with a mix of jaggery and grated coconut, folded and steamed. The leaf gives it a soft scent. Some accounts also list kheer, a mixed vegetable curry, mua (sweet balls) and dalma among the foods of the day. One account notes that the leaves are in season at this time of year.`,
+          `Pitha has a place in many Odia observances through the year. If you want to see how food and family roles run through the calendar, our guides to Manabasa Gurubara and Kaunria Kathi describe other days built around a shared meal and a household ritual.`,
+        ],
+      },
+      {
+        h: 'Keeping the day today',
+        p: [
+          `Many families now live far from the maternal uncle's home, and the festival has adapted. Gifts are sent by post or arranged online, and the ritual is shared by video call. What matters is the blessing and the meal. If you do not have turmeric leaves, banana leaf is sometimes used for steaming, although the scent will differ. If you are away from Odisha, a small lamp, a prayer and a sweet dish for the eldest child keep the tradition alive.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What does Prathamastami mean?',
+        a: 'It joins prathama, first, with ashtami, the eighth day. It is the Ashtami set apart for the first child of the family.',
+      },
+      {
+        q: 'When is Prathamastami celebrated?',
+        a: 'On the Ashtami of the dark fortnight of Margasira, a little over a week after Kartika Purnima. Check an Odia panjika for the exact day.',
+      },
+      {
+        q: 'Who gives the new clothes?',
+        a: 'Traditionally the maternal uncle gives new clothes and sweets to the eldest child.',
+      },
+      {
+        q: 'Who is Sasthi Devi?',
+        a: 'Sasthi, or Shashthi, is the goddess regarded as the protector of children. She is worshipped on this day along with Ganesha and the family deity.',
+      },
+      {
+        q: 'What is Enduri Pitha?',
+        a: 'A steamed rice-cake filled with jaggery and coconut and wrapped in turmeric leaf. It is the main food of the day.',
+      },
+      {
+        q: 'Is it only for a boy or a girl?',
+        a: 'Sources speak of the eldest child, and practice varies by family.',
+      },
+    ],
+    related: {
+      stotrams: ['ganesh-aarti', 'mahalakshmi-ashtakam'],
+      guides: ['kaunria-kathi-bada-badua-daka-odisha-guide', 'manabasa-gurubara-odisha-guide', 'kartika-month-odisha-guide'],
+    },
+    sources: [
+      'Wikipedia, Prathamastami',
+      'Orissa POST, Prathamastami: The Odia festival that celebrates firstborns',
+      'OdishaBytes, Prathamastami, an Odia festival that celebrates firstborns',
     ],
   },
 ];

@@ -82,6 +82,11 @@ const SEO_COPY = {
     description:
       'Read the Maha Mrityunjaya Mantra (Om Tryambakam Yajamahe, Rigveda 7.59.12) in English, Hindi, Odia and Telugu with word meaning, how and when to chant it, and a YouTube chant to follow along.',
   },
+  'karpura-gauram': {
+    title: 'Karpura Gauram Karunavataram in English, Hindi, Odia & Telugu with Meaning',
+    description:
+      'Read Karpura Gauram Karunavataram, the Shiva dhyana shloka sung at aarti, in English, Hindi, Odia and Telugu with word meaning, when to recite it, and a YouTube video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

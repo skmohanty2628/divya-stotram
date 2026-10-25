@@ -285,7 +285,7 @@ export const hanumanChalisa = {
       transliteration: 'Yam Kuber Digpal jahan te, Kavi kovid kahi sake kahan te',
       script: {
         od: 'ଯମ କୁବେର ଦିଗପାଳ ଜହାଁ ତେ। କବି କୋବିଦ କହି ସକେ କହାଁ ତେ॥',
-        te: 'యమ్ కుబేర్ దిగ్‌పాల్ జహాం తే। కవి కోవిద్ కహి సకే కహాం తే॥',
+        te: 'యమ్ కుబేర్ దిగపాల్ జహాం తే। కవి కోవిద్ కహి సకే కహాం తే॥',
       },
       meaning: {
         en: 'Yama, Kubera, and the guardians of the directions cannot fully describe your greatness; then how can even the most learned poets do so?',
@@ -387,7 +387,7 @@ export const hanumanChalisa = {
       transliteration: 'Ram dware tum rakhvare, Hot na agya binu paisare',
       script: {
         od: 'ରାମ ଦୁଆରେ ତୁମ ରଖୱାରେ। ହୋତ ନ ଆଜ୍ଞା ବିନୁ ପୈସାରେ॥',
-        te: 'రామ్ దువారే తుమ్ రఖ్వారే। హోత్ న ఆజ్ఞా బిను పైసారే॥',
+        te: 'రామ్ దువారే తుమ్ రఖవారే। హోత్ న ఆజ్ఞా బిను పైసారే॥',
       },
       meaning: {
         en: 'You are the guardian of Rama’s door. No one can enter without your permission.',
@@ -540,7 +540,7 @@ export const hanumanChalisa = {
       transliteration: 'Sadhu sant ke tum rakhvare, Asur nikandan Ram dulare',
       script: {
         od: 'ସାଧୁ ସନ୍ତ କେ ତୁମ ରଖୱାରେ। ଅସୁର ନିକନ୍ଦନ ରାମ ଦୁଲାରେ॥',
-        te: 'సాధు సంత్ కే తుమ్ రఖ్వారే। అసుర్ నికందన్ రామ్ దులారే॥',
+        te: 'సాధు సంత్ కే తుమ్ రఖవారే। అసుర్ నికందన్ రామ్ దులారే॥',
       },
       meaning: {
         en: 'You are the protector of saints and holy men, destroyer of demons, and beloved of Lord Ram.',
@@ -625,7 +625,7 @@ export const hanumanChalisa = {
       transliteration: 'Aur devta chitt na dharai, Hanumat sei sarv sukh karai',
       script: {
         od: 'ଔର ଦେବତା ଚିତ୍ତ ନ ଧରଇ। ହନୁମତ ସେଇ ସର୍ବ ସୁଖ କରଇ॥',
-        te: 'ఔర్ దేవతా చిత్త్ న ధరై। హనుమత్ సేయి సర్వ సుఖ్ కరై॥',
+        te: 'ఔర్ దేవతా చిత్త్ న ధరయి। హనుమత్ సేయి సర్వ సుఖ్ కరయి॥',
       },
       meaning: {
         en: 'One need not fix the mind on other deities; serving Hanuman alone brings all happiness.',

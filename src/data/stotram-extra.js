@@ -91,4 +91,23 @@ export const STOTRAM_EXTRA = {
       { q: 'Who can chant it?', a: 'Anyone. It is a short devotional verse with no special rule beyond saying it with respect.' },
     ],
   },
+  'sarve-bhavantu-sukhinah': {
+    what: `Sarve Bhavantu Sukhinah is a short Sanskrit prayer for the well-being of every living being. It has four lines of wish and a closing Om Shantih repeated three times. It is recited at the end of yoga classes, in temples and in many homes as a peace prayer. Its author is unknown. Similar verses are cited from the Garuda Purana and from a commentary on the Shukla Yajurveda, so the exact source is uncertain, and the popular form that people chant today may be later than those texts.`,
+    meaning: `Sarve means all and bhavantu means may they be. Sukhinah means happy, and niramayah means free from illness. Bhadrani pashyantu asks that all may see what is good and auspicious. Ma kashchid duhkhabhag bhavet means that no one should become a sharer in sorrow. The closing Om Shantih Shantih Shantih is a call for peace, repeated three times and traditionally understood to cover peace in the self, around us and from outside forces.`,
+    benefits: [
+      'Short and easy to learn, so it suits beginners and children',
+      'A prayer for others, which makes it a good close to any puja or meditation',
+      'Often chanted at the end of yoga and meditation sessions',
+      'Can be said by anyone, in any season and at any time of day',
+      'Its meaning is simple enough to explain to a family in one minute',
+    ],
+    bestTime: `It can be said at any time. Many people chant it at the end of morning prayer, before sleep, or after a group meditation. One to three repetitions is common, and 108 with a mala is also used. Say it slowly and think of the people you wish to include.`,
+    faqs: [
+      { q: 'What does Sarve Bhavantu Sukhinah mean?', a: 'May all beings be happy, may all be free from illness, may all see what is good, and may no one suffer sorrow. It ends with Om Shantih three times.' },
+      { q: 'Which scripture is it from?', a: 'The author is unknown. Similar verses are cited from the Garuda Purana and from a commentary on the Shukla Yajurveda, so the exact source is uncertain.' },
+      { q: 'Why is Shantih said three times?', a: 'Tradition reads the three as peace in oneself, peace in the surroundings and peace from outside forces.' },
+      { q: 'Can I chant it without knowing Sanskrit?', a: 'Yes. Read it in your own script along with the meaning. The transliteration on this page helps with pronunciation.' },
+      { q: 'How many times should I chant it?', a: 'One to three times is common, or 108 with a mala. There is no fixed rule.' },
+    ],
+  },
 };

@@ -16,6 +16,7 @@ import { bajrangBaan } from '@/data/bajrang-baan';
 import { indraJimiJambhPar } from '@/data/indra-jimi-jambh-par';
 import { mahaMrityunjayaMantra } from '@/data/maha-mrityunjaya-mantra';
 import { karpuraGauram } from '@/data/karpura-gauram';
+import { sarveBhavantuSukhinah } from '@/data/sarve-bhavantu-sukhinah';
 
 export const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
@@ -36,4 +37,5 @@ export const VERSE_DATA = {
   'indra-jimi-jambh-par': indraJimiJambhPar,
   'maha-mrityunjaya-mantra': mahaMrityunjayaMantra,
   'karpura-gauram': karpuraGauram,
+  'sarve-bhavantu-sukhinah': sarveBhavantuSukhinah,
 };

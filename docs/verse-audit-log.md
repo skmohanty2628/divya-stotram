@@ -31,3 +31,16 @@ One line per audit. Rotation: every stotram in every language (Hindi/Devanagari,
 - Attribution: some pages say Yajurveda, none gives a chapter and verse, so the site says the source is uncertain. The wedding-of-Shiva-and-Parvati story is devotional tradition.
 - Odia and Telugu scripts back-converted to Devanagari: Odia matches exactly except that ब stands for व (usual Odia convention); Telugu matches apart from anusvara and final -m conventions.
 - YouTube: id tZcgg5ATndk, "Karpur Gauram Karunavtaram Full Song | with Sanskrit lyrics" (channel sacredverses, about 295k views, embeddable, oEmbed 200). Alternative checked: 8TnWDFbRkdk (Shemaroo Bhakti, 1 hour loop).
+
+## 2026-10-25: audit: hanuman-chalisa, Telugu
+- Method: Telugu text (43 verses) back-converted to Devanagari by Unicode offset and compared with the audited Hindi text, with folding of anusvara, ba/va, sibilants, long/short vowels, ణ/న and word-final virama. Then compared word by word with two Telugu editions: chalisahanuman.co.in/telugu (full text, some visible typos) and hindunidhi.com/hanuman-chalisa-telugu (M.S. Rama Rao edition with meanings; Sanskritised spellings).
+- Fixed (both Telugu editions and the Hindi agree): v17 "దిగ్‌పాల్" to "దిగపాల్"; v23 and v32 "రఖ్వారే" to "రఖవారే"; v37 "ధరై" to "ధరయి" and "కరై" to "కరయి" (धरई, करई).
+- Left as accepted variants: వర్ణఉఁ (Sanskritised varna, editions differ), జస and దాయక without final -u (neither Telugu edition has it), రక్షక్ for रच्छक, సంజీవన్ (one edition has సజీవన), దువారే/దుఆరే (editions differ), సమ్హారో/సంహారో, కటై/హటై (the site follows Gita Press), యోజన/జోజన, యుగ/జుగ, మూర్తి/మూరతి.
+- Observation, not an error: final consonants are written with a halant in most verses (రామ్) but not in some (రామ, v4 to v6), so the convention is mixed across verses. Decide later whether to normalise.
+- Needs human check: none open. English transliteration of Hanuman Chalisa is still to be audited.
+
+## 2026-10-25: new mantra added: sarve-bhavantu-sukhinah
+- Text: Devanagari compared across shlokam.org and vedicfeed.com. Both give the same two lines and closing Om Shantih Shantih Shantih. greenmesg.org showed a bot check and was not used. vedicfeed.com also prints variants of the same verse from other texts (for example ending "मा कश्चित्कष्टमाप्नुयात्"), so the popular form was used.
+- Attribution: the author is unknown. vedicfeed.com cites similar verses in the Garuda Purana and in Uvata's commentary on the Vajasaneyi Samhita; this is from one site only, so the page says the exact source is uncertain.
+- Odia and Telugu scripts back-converted to Devanagari: match apart from ba/va and anusvara conventions.
+- YouTube: id g_1jeVTjv88, "Sarve Bhavantu Sukhinah || Shanti mantra", channel Adiyogam, 86 seconds, about 488k views, embeddable, oEmbed 200. Alternative checked: _hHegM37AUc (topic channel, 194 seconds).

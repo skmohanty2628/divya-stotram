@@ -87,6 +87,11 @@ const SEO_COPY = {
     description:
       'Read Karpura Gauram Karunavataram, the Shiva dhyana shloka sung at aarti, in English, Hindi, Odia and Telugu with word meaning, when to recite it, and a YouTube video to follow along.',
   },
+  'sarve-bhavantu-sukhinah': {
+    title: 'Sarve Bhavantu Sukhinah in English, Hindi, Odia & Telugu with Meaning',
+    description:
+      'Read Sarve Bhavantu Sukhinah, the shanti mantra for the happiness and health of all, in English, Hindi, Odia and Telugu with meaning, when to chant it, and a YouTube chant to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

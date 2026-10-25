@@ -1908,4 +1908,181 @@ export const GUIDES_LEARN = [
       'OdishaBytes, Prathamastami, an Odia festival that celebrates firstborns',
     ],
   },
+  {
+    slug: 'raja-parba-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Raja Parba in Odisha: Meaning, Days, Swings and Poda Pitha',
+    description:
+      'Raja Parba is the Odia festival of womanhood and Mother Earth held in mid June. Learn the days of the festival, the swings, Poda Pitha, the rest given to women and how the date is fixed.',
+    h1: 'Raja Parba: The Odia Festival of Womanhood and Mother Earth',
+    intro:
+      'In mid June, as the first rains reach Odisha, the state keeps a festival that is unlike most others. Raja Parba honours Bhudevi, the Earth, and celebrates girls and women. Fields are left unploughed, girls rest and swing, and the kitchen fills with Poda Pitha. This guide explains the days of the festival, what it means, and how the date is fixed.',
+    sections: [
+      {
+        h: 'What Raja Parba means',
+        p: [
+          `The name Raja comes from the word rajas, which in this setting means the monthly flow of a woman. Tradition says that Bhudevi, the Earth, goes through a similar cycle at the start of the rainy season and rests for the duration of the festival before the farmer sows again. The festival therefore joins two ideas: the readiness of the soil for planting, and respect for women's bodies and their need to rest. Writers describe this as the earth's menstruation. This is a traditional belief and a poetic way of speaking about the season, and not a scientific statement.`,
+          `Raja Parba is said to have begun among farming communities in the coastal districts and later spread across the state. Its origin is not recorded in a single text, so you will find differing accounts of how old it is.`,
+        ],
+      },
+      {
+        h: 'The days of the festival',
+        p: [
+          `Accounts count the days in slightly different ways, and some call it a three-day festival while others add a fourth day. The common outline is as follows. Sajabaja is the day of preparation, when homes are cleaned, especially the kitchen, and girls bathe after applying turmeric paste. Pahili Raja is the first day. Raja Sankranti, also called Mithuna Sankranti, is the second day and marks the first day of the month of Asadha. Bhu Daha, also known as Basi Raja or Sesa Raja, is the third day, when the earth is left in full rest and no ploughing or sowing is done. In many accounts a fourth day, Vasumati Snana or Basumati Gadhua, follows, when the Earth is given a ceremonial bath and women wash the grinding stone with turmeric, flowers and vermilion.`,
+        ],
+      },
+      {
+        h: 'Customs: rest, swings and songs',
+        p: [
+          `Girls and young women are given rest from household work. They do not cook, cut, grind or tear things in the traditional account, and many avoid walking barefoot on the ground. Some use footwear made from banana stalk or areca nut sheath. They wear new clothes, apply alta to the feet and gather in groups.`,
+          `The swing, called Raja Doli, is the symbol of the festival. Swings are hung from trees or from house beams, and girls take turns while others push and sing. A girl chosen as the Dolirani may sit on the swing while the others sing for her. The songs are sung in chorus and are usually playful, about friendship, the first rain and marriage. In recent years recorded film songs have replaced a good part of the old chorus singing, and boys' games such as Bagudi and Kabaddi have given way in some places to cricket and volleyball.`,
+          `Betel leaf (paan) is also part of the festival, and shops in cities sell specially flavoured paan during these days.`,
+        ],
+      },
+      {
+        h: 'The food of Raja',
+        p: [
+          `Pitha is at the centre of the meal. Poda Pitha, a cake of rice and black gram with jaggery and coconut that is baked slowly until it is dark on the outside, is the best known. It is linked with the Jagannath tradition. Other pithas named in festival accounts are Manda, Kakara, Arisha and Chakuli. A drink called Raja Paana is also named in some accounts.`,
+        ],
+      },
+      {
+        h: 'How the date is fixed',
+        p: [
+          `Raja Sankranti is tied to Mithuna Sankranti, the day the Sun enters the sign Gemini (Mithuna). That moment is calculated from the Sun's position, so the date falls in mid June but can shift by a day from year to year. Look in an Odia panjika, or follow the state calendar, rather than relying on a fixed Gregorian date. The days before and after are counted from that Sankranti.`,
+        ],
+      },
+      {
+        h: 'Raja Parba today',
+        p: [
+          `Raja is now celebrated in towns and cities as well as villages. Swings are hung in city homes and parks, and shops sell festival paan. Some people also point to the festival as an example of a tradition that treats menstruation openly. If you wish to celebrate at home, a swing, a plate of pitha and some time for the women and girls of the house to rest keep the spirit of the day.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Raja Parba?',
+        a: 'It is an Odia festival held in mid June that honours Mother Earth and celebrates womanhood. Girls rest, swing and eat pitha for three or four days.',
+      },
+      {
+        q: 'Why is it called Raja?',
+        a: 'The word comes from rajas, the monthly flow. According to tradition, the Earth is understood to rest in the same way before the sowing season.',
+      },
+      {
+        q: 'Which day is Raja Sankranti?',
+        a: 'It is the second day and falls on Mithuna Sankranti, the day the Sun enters Gemini.',
+      },
+      {
+        q: 'What is eaten at Raja?',
+        a: 'Poda Pitha above all, along with other pithas such as Manda, Kakara, Arisha and Chakuli, and Raja Paana.',
+      },
+      {
+        q: 'Why is no ploughing done?',
+        a: 'The Earth is believed to be at rest, so farm work such as ploughing and sowing is avoided until after the days of Raja.',
+      },
+      {
+        q: 'Is Raja only for girls?',
+        a: 'Girls and women are the centre of the festival, but families, boys and men also take part in games, food and the swings.',
+      },
+    ],
+    related: {
+      stotrams: ['mahalakshmi-ashtakam', 'durga-stotram'],
+      guides: ['manabasa-gurubara-odisha-guide', 'prathamastami-odisha-guide', 'jagannath-ratha-yatra-puri-guide'],
+    },
+    sources: [
+      'Deeti Ray, Raja Parba: Songs of the Earth, Live History India',
+      'OdishaBytes, Raja Parba begins with pitha, swings and paans as Odisha celebrates womanhood',
+      'Dipak Samantrai, Raja: a celebration of fertility, Odisha Plus',
+    ],
+  },
+
+  {
+    slug: 'nuakhai-western-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Nuakhai in Western Odisha: New Rice Festival, Rituals and Nuakhai Juhar',
+    description:
+      'Nuakhai is the harvest festival of western Odisha. Learn how the new rice is offered, what Nuakhai Juhar means, how the date is fixed, and how families keep the day at home and abroad.',
+    h1: 'Nuakhai: The New Rice Festival of Western Odisha',
+    intro:
+      'Nuakhai is the most important festival of western Odisha. Nua means new and khai means food, and the day marks the first meal of the new rice of the season. The rice is first offered to the deity, then eaten by the whole family, and the younger members bow to their elders with the greeting Nuakhai Juhar. This guide explains the rituals, the history and how the date is fixed.',
+    sections: [
+      {
+        h: 'What Nuakhai is',
+        p: [
+          `Nuakhai is an agricultural festival observed mainly in western Odisha, in districts such as Sambalpur, Balangir and Kalahandi. It welcomes the first crop of early rice. Coastal Odisha has a similar observance called Nabanna, and in Chhattisgarh the festival is known as Navakhai. In western Odisha it is also a family reunion, and many people living in other cities travel home for it.`,
+        ],
+      },
+      {
+        h: 'When it is celebrated',
+        p: [
+          `Nuakhai falls on the fifth day (Panchami) of the bright fortnight of the month of Bhadrava, which is the day after Ganesh Chaturthi, usually in late August or September. Since 1991 the Odisha government has announced the date and made it a holiday. Before that, village elders and priests fixed the exact day and hour locally by consulting the almanac, and the moment of the offering, called the lagna, was chosen with care. Because the day depends on the lunar calendar, you should check an Odia panjika or the announcement of the local temple rather than count on a fixed date.`,
+        ],
+      },
+      {
+        h: 'How the preparation unfolds',
+        p: [
+          `The festival has a long run-up. About fifteen days before, the village announces a meeting to decide the day. The date and the exact time of the offering are then fixed, invitations are sent to relatives, homes and surroundings are cleaned, and supplies are bought. People look for the first ripe sheaves of the new crop, the final decision is taken, and the offering is made. After the offering the new rice is eaten as prasad, there is singing and dancing, and the last step is showing respect to elders and exchanging gifts. Not every village follows every step in this order today, and in towns the consultation of the almanac for the hour of offering has largely faded.`,
+        ],
+      },
+      {
+        h: 'The rituals',
+        p: [
+          `Preparations begin about two weeks in advance. A village meeting sets the day and the time of the offering, homes are cleaned, new clothes are bought, and the first sheaves of the early crop are looked for in the fields. On the day, the first offering is made at the village or temple deity. In Sambalpur the goddess Samaleswari is the centre of the observance. Families then make an offering at home to the household deity and to Lakshmi, using new rice or dishes cooked from it.`,
+          `After the offering, the eldest member of the family gives the new rice to the others, and everyone eats together. Aersaa Pitha, a rice cake, is traditionally prepared. The younger members then touch the feet of the elders, which is called Nuakhai Juhar, and the elders bless them. Friends and neighbours greet each other with the same words and visit homes in the evening.`,
+        ],
+      },
+      {
+        h: 'Nuakhai Juhar and Bhetghat',
+        p: [
+          `Juhar is a word of greeting and respect in western Odisha and Chhattisgarh, and Nuakhai Juhar is the greeting of the festival. It carries a wish for happiness and for setting aside quarrels. People who live away from the region hold gatherings called Nuakhai Bhetghat, where families from the same area meet, share food and sing Sambalpuri songs. Folk dances such as Dalkhai and Rasarkeli are performed in the evening.`,
+        ],
+      },
+      {
+        h: 'What is known about its history',
+        p: [
+          `The origin of Nuakhai is not recorded in a single early text. Some local researchers connect it with the ancient Vedic idea of the five farming activities and with the offering of first fruits. Oral tradition also credits Ramai Deva, a Chauhan ruler of Patna state in the fourteenth century, with making it a festival of settled farming, but this claim is based on oral accounts and not on documents. Similar first-harvest rites are found among many tribal communities in central and eastern India. It is best to treat the history as tradition and interpretation.`,
+        ],
+      },
+      {
+        h: 'Keeping Nuakhai at home',
+        p: [
+          `If you are away from western Odisha, keep the structure of the day. Clean the home, cook a small dish with rice, and offer it first to the household deity or to a lamp before anyone eats. Eat together, and then let the younger people bow to the elders. If your family lives apart, a call at the time of the offering lets everyone share the moment. In this sense Nuakhai is less about a place and more about gratitude for food and for the people who grow it.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What does Nuakhai mean?',
+        a: 'Nua is new and khai is food. It is the festival of eating the new rice of the season for the first time.',
+      },
+      {
+        q: 'When is Nuakhai celebrated?',
+        a: 'On the Panchami of the bright fortnight of Bhadrava, the day after Ganesh Chaturthi. The Odisha government announces the date each year.',
+      },
+      {
+        q: 'What is Nuakhai Juhar?',
+        a: 'It is the greeting and the custom of younger people bowing to elders for blessings after the new rice has been eaten.',
+      },
+      {
+        q: 'Which deity is worshipped?',
+        a: 'The first offering is made to the local deity, such as Samaleswari in Sambalpur, and then to the household deity and Lakshmi.',
+      },
+      {
+        q: 'What is Nuakhai Bhetghat?',
+        a: 'It is a gathering of people from western Odisha living in other cities or countries, held to keep the festival together.',
+      },
+      {
+        q: 'Is Nuakhai the same as Nabanna?',
+        a: 'They are similar new-rice festivals. Nabanna is the coastal Odisha name for the new rice offering.',
+      },
+    ],
+    related: {
+      stotrams: ['mahalakshmi-ashtakam', 'ganesh-aarti'],
+      guides: ['ganesh-chaturthi-guide', 'lakshmi-mantra-friday-ritual', 'manabasa-gurubara-odisha-guide'],
+    },
+    sources: [
+      'Wikipedia, Nuakhai',
+      'Kalinga School of Management blog, Nuakhai: The day families come home',
+      'Orissa Review (Government of Odisha), September 2012, on Nuakhai',
+    ],
+  },
 ];

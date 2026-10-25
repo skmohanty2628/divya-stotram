@@ -361,6 +361,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'sarve-bhavantu-sukhinah',
+    title: {
+      en: 'Sarve Bhavantu Sukhinah',
+      hi: 'सर्वे भवन्तु सुखिनः',
+      od: 'ସର୍ବେ ଭବନ୍ତୁ ସୁଖିନଃ',
+      te: 'సర్వే భవంతు సుఖినః',
+    },
+    deity: 'All Beings',
+    deityEmoji: '🕉️',
+    deityIcon: '',
+    description: {
+      en: 'Sarve Bhavantu Sukhinah, the well-known Sanskrit shanti prayer for the happiness, health and peace of all beings, with meaning in English, Hindi, Odia and Telugu',
+      hi: 'सर्वे भवन्तु सुखिनः, सभी प्राणियों के सुख, स्वास्थ्य और शान्ति के लिए प्रसिद्ध शान्ति प्रार्थना, अर्थ सहित',
+      od: 'ସର୍ବେ ଭବନ୍ତୁ ସୁଖିନଃ, ସମସ୍ତ ପ୍ରାଣୀଙ୍କ ସୁଖ, ସ୍ୱାସ୍ଥ୍ୟ ଓ ଶାନ୍ତି ପାଇଁ ପ୍ରସିଦ୍ଧ ଶାନ୍ତି ପ୍ରାର୍ଥନା, ଅର୍ଥ ସହିତ',
+      te: 'సర్వే భవంతు సుఖినః, అందరి సుఖం, ఆరోగ్యం, శాంతి కోసం ప్రసిద్ధ శాంతి ప్రార్థన, అర్థంతో',
+    },
+    color: 'from-teal-900 to-slate-900',
+    accent: '#7fd1c1',
+    youtubeId: 'g_1jeVTjv88',
+    verseCount: 1,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

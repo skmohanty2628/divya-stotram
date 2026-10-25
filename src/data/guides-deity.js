@@ -585,39 +585,52 @@ export const GUIDES_DEITY = [
     category: 'Vishnu',
     title: 'How to Chant Vishnu Mantras: Om Namo Narayanaya, Vasudevaya and the Dhyana Verse',
     description:
-      'A practical guide to chanting Vishnu mantras: Om Namo Narayanaya, Om Namo Bhagavate Vasudevaya, the dhyana verse Shuklambaradharam, count, day and a simple routine.',
+      'A practical guide to chanting Vishnu mantras: Om Namo Narayanaya, Om Namo Bhagavate Vasudevaya, the Narayana Gayatri, the dhyana verse Shuklambaradharam, count, day and a simple routine.',
     h1: 'How to Chant Vishnu Mantras: Narayana, Vasudeva and More',
     intro:
-      'Vishnu mantras are meant to be calming. This guide covers the two best-known mantras, a short dhyana verse recited before any good work, and a simple Thursday routine.',
+      'Vishnu mantras are meant to be calming and steady. This guide covers the two best-known mantras, the Narayana Gayatri, a short dhyana verse recited before good work, and a simple Thursday routine. It also explains what the words mean and how Odisha keeps the month of Kartika for Vishnu.',
     sections: [
       {
         h: 'Om Namo Narayanaya',
         p: [
-          `This eight-syllable mantra, the Ashtakshara, is central to the Vaishnava tradition, particularly in the lineage of Ramanujacharya. Namo Narayanaya means I bow to Narayana, the refuge of beings. It is described in the Narayana Upanishad as the mantra that grants liberation. Because it is short and has no complicated pronunciation, it is the most common first mantra for a Vaishnava devotee.`,
+          `This eight-syllable mantra, the Ashtakshara, is central to the Vaishnava tradition and is especially important in the Sri Vaishnava lineage of Ramanujacharya. Namo Narayanaya means I bow to Narayana. It is described in the Narayana Upanishad as the mantra that leads to liberation. Because it is short and has no complicated pronunciation, it is the most common first mantra for a Vaishnava devotee.`,
+          `The name Narayana is explained in more than one way in the tradition. One reading takes nara as the collective of beings or as the waters, and ayana as resting place or refuge, so that Narayana is the refuge of all beings. Another reads it as the one who rests on the waters. The meaning of the mantra is the same in either reading: surrender to the one who supports all.`,
         ],
       },
       {
         h: 'Om Namo Bhagavate Vasudevaya',
         p: [
-          `The twelve-syllable Dvadashakshara mantra is celebrated in the Bhagavata Purana, which tells of Dhruva, a child who recited it in the forest and received a vision of Vishnu. It means I bow to Lord Vasudeva, the all-pervading divine. It is the mantra most often chanted at the beginning of Bhagavata recitations.`,
+          `The twelve-syllable Dvadashakshara mantra is celebrated in the Bhagavata Purana, which tells of Dhruva, a young prince who went to the forest to pray and was taught this mantra by the sage Narada, and received a vision of Vishnu (Skandha 4, chapters 8 and 9). It means I bow to Lord Vasudeva. Vasudeva is read both as the son of Vasudeva, a name of Krishna, and as the one who dwells in all things. It is the mantra most often chanted at the beginning of Bhagavata recitations. Our page on the Krishna Vasudevaya mantra gives the full text with meaning.`,
+        ],
+      },
+      {
+        h: 'The Narayana Gayatri',
+        p: [
+          `Vishnu also has a Gayatri-style verse that begins Narayanaya vidmahe, Vasudevaya dhimahi, Tanno Vishnuh prachodayat. It is found in the Mahanarayana Upanishad, which forms part of the Taittiriya Aranyaka. It means we know Narayana, we meditate on Vasudeva, may Vishnu inspire us. It uses the same three-part form as the Gayatri mantra and is chanted in the same way, with a calm voice and slow breath.`,
         ],
       },
       {
         h: 'The dhyana verse',
         p: [
-          `Shuklambaradharam Vishnum Shashivarnam Chaturbhujam, Prasanna Vadanam Dhyayet Sarva Vighnopashantaye. It describes Vishnu as clothed in white, moon-coloured, four-armed, with a gracious face, and says that one meditates on him for the removal of all obstacles. Many people recite this verse before beginning any task, including study, travel and puja.`,
+          `Shuklambaradharam Vishnum Shashivarnam Chaturbhujam, Prasanna Vadanam Dhyayet Sarva Vighnopashantaye. It describes Vishnu as clothed in white, moon-coloured, four-armed, with a gracious face, and says that one meditates on him for the removal of all obstacles. It is recited at the start of many pujas and before the Vishnu Sahasranama, and many people say it before beginning any task, such as study, travel or work. The verse is also used in some homes as an invocation of Ganesha, so you may hear it in either setting.`,
         ],
       },
       {
         h: 'A simple Thursday routine',
         p: [
-          `Wake early, bathe, and sit before a lamp. Recite the dhyana verse once, then chant Om Namo Narayanaya or Om Namo Bhagavate Vasudevaya 108 times with a tulsi mala if you have one, which is traditional for Vishnu mantras. Close by reading or listening to a few names from the Vishnu Sahasranamam. The whole routine takes about thirty minutes.`,
+          `Wake early, bathe, and sit before a lamp. Recite the dhyana verse once, then chant Om Namo Narayanaya or Om Namo Bhagavate Vasudevaya 108 times with a tulsi mala if you have one, which is traditional for Vishnu mantras. Close by reading or listening to a few names from the Vishnu Sahasranamam. The whole routine takes about thirty minutes. Thursday is the day many families keep for Vishnu, and Ekadashi days, which come twice a month, are also kept for his worship.`,
         ],
       },
       {
-        h: 'Everyday use',
+        h: 'Vishnu in Kartika and in everyday life',
         p: [
-          `Vishnu mantras are gentle, so they work well in the evening or before sleep. Many people repeat Narayana, Narayana quietly while walking or waiting. In that sense they are a portable practice, requiring no setup.`,
+          `In Odisha the month of Kartika is kept as a month of devotion to Vishnu and to Jagannath, whom many families worship as a form of Vishnu or Krishna. People light a lamp before the tulasi plant each evening, eat simple food and chant the name of Hari. Our guide to Kartika in Odisha describes the month. Vishnu mantras are also gentle, so they work well in the evening or before sleep. Many people repeat Narayana, Narayana quietly while walking or waiting, which makes it a portable practice that needs no setup.`,
+        ],
+      },
+      {
+        h: 'Practical points',
+        p: [
+          `Say the mantra at a pace you can keep, with clear syllables. Keep a regular time and count, and begin small: 11 or 21 repetitions are enough for a start. A mala is a counting aid and not a requirement, and mental repetition is accepted when you cannot chant aloud. Chanting is a devotional practice and is not a substitute for medical or professional help.`,
         ],
       },
     ],
@@ -625,6 +638,10 @@ export const GUIDES_DEITY = [
       {
         q: 'Which Vishnu mantra is best for beginners?',
         a: 'Om Namo Narayanaya is the simplest. Om Namo Bhagavate Vasudevaya is also widely used.',
+      },
+      {
+        q: 'What does Narayana mean?',
+        a: 'Traditional readings take it as the refuge of all beings, or as the one who rests on the waters.',
       },
       {
         q: 'What is a tulsi mala?',
@@ -635,17 +652,22 @@ export const GUIDES_DEITY = [
         a: 'Thursday, and Ekadashi days.',
       },
       {
+        q: 'Where does the Narayana Gayatri come from?',
+        a: 'It is found in the Mahanarayana Upanishad, part of the Taittiriya Aranyaka.',
+      },
+      {
         q: 'Can I chant it silently?',
         a: 'Yes, mental repetition is acceptable and often used.',
       },
     ],
     related: {
       stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra'],
-      guides: ['vishnu-sahasranamam-benefits', 'best-prayer-for-inner-peace'],
+      guides: ['vishnu-sahasranamam-benefits', 'best-prayer-for-inner-peace', 'kartika-month-odisha-guide', 'ekadashi-vrat-guide'],
     },
     sources: [
       'Narayana Upanishad',
-      'Bhagavata Purana, Skandha 4, for the story of Dhruva',
+      'Bhagavata Purana, Skandha 4, chapters 8 and 9, for the story of Dhruva',
+      'Mahanarayana Upanishad (Taittiriya Aranyaka, section 10) for the Narayana Gayatri',
     ],
   },
 

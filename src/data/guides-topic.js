@@ -133,7 +133,7 @@ export const GUIDES_TOPIC = [
       },
     ],
     related: {
-      stotrams: ['vishnu-sahasranamam', 'gayatri-mantra'],
+      stotrams: ['vishnu-sahasranamam', 'gayatri-mantra', 'sarve-bhavantu-sukhinah'],
       guides: ['best-mantra-for-anxiety', 'night-prayer-routine', 'spiritual-routine-for-beginners'],
     },
     sources: [

@@ -622,7 +622,7 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['krishna-vasudevaya-mantra', 'vishnu-sahasranamam'],
+      stotrams: ['krishna-vasudevaya-mantra', 'hare-krishna-maha-mantra', 'vishnu-sahasranamam'],
       guides: ['how-to-chant-vishnu-mantra', 'vishnu-sahasranamam-benefits'],
     },
     sources: [
@@ -1341,47 +1341,62 @@ export const GUIDES_LEARN = [
   {
     slug: 'ekadashi-vrat-guide',
     category: 'Daily practice',
-    title: 'Ekadashi Vrat: Meaning, How to Fast and What to Chant',
+    title: 'Ekadashi Vrat: Meaning, How to Fast, Parana Rules and What to Chant',
     description:
-      'A clear guide to Ekadashi, the eleventh lunar day: why Vaishnavas observe it, how the fast is kept, the parana next morning, Nirjala Ekadashi, health cautions and the prayers recited.',
+      'A clear guide to Ekadashi, the eleventh lunar day: why Vaishnavas observe it, the story of Mura and Ekadashi, how the fast is kept, grains avoided, parana and Hari Vasara, Nirjala Ekadashi, health cautions and the prayers recited.',
     h1: 'Ekadashi Vrat: Meaning and How to Observe',
     intro:
-      'Ekadashi is the eleventh day of each lunar fortnight, observed by many Hindus, especially Vaishnavas, with fasting and prayer. This guide explains the observance in a practical, health-aware way.',
+      'Ekadashi is the eleventh day of each lunar fortnight, observed by many Hindus, especially Vaishnavas, with fasting and prayer. This guide explains the meaning of the day, the traditional story behind it, how the fast is kept and broken, and which prayers are used, in a practical and health-aware way.',
     sections: [
       {
         h: 'What is Ekadashi?',
         p: [
-          `Ekadashi means eleven. It falls twice every lunar month, once in the bright fortnight and once in the dark fortnight, so there are about twenty-four a year, each with its own name. The day is dedicated to Vishnu, and tradition associates it with restraint, simplicity and devotion.`,
+          `Ekadashi means eleven. It falls twice every lunar month, once in the bright fortnight (shukla paksha) and once in the dark fortnight (krishna paksha), so there are about twenty-four in an ordinary year, each with its own name. The day is dedicated to Vishnu, and tradition associates it with restraint, simplicity and devotion.`,
+          `Because Ekadashi is a tithi, or lunar day, it does not begin and end at midnight. A tithi can start in the middle of one civil day and end during the next, and it can be a few hours longer or shorter than twenty-four hours. This is why the date of Ekadashi differs from the calendar date you might expect, and why two nearby cities can sometimes keep it on different days. A local panchang is the reliable guide, and temples usually announce the day.`,
+        ],
+      },
+      {
+        h: 'The story of Mura and Ekadashi',
+        p: [
+          `A well-known account, retold on many devotional sites and linked in some retellings to the Padma Purana, says that the demon Mura fought Vishnu for a long time without result. When Vishnu rested in a cave, Mura came to attack him, and a powerful woman came forth from Vishnu's own body and defeated the demon. Vishnu named her Ekadashi and granted that whoever fasts on her day would be freed from sin. This story is the traditional explanation for the vrat and is told on Utpanna Ekadashi, which falls in the dark fortnight of Margashirsha in the purnimanta calendar. Different texts name different sources for it, and the exact source is not settled, so it is best read as tradition.`,
         ],
       },
       {
         h: 'How the fast is kept',
         p: [
-          `Practice varies widely. Some people abstain from all food, some from grains and beans, and some eat only fruit, milk and root vegetables. The day is spent in prayer, reading from sacred texts, and sometimes a night vigil. A common custom is to avoid rice and other grains on this day.`,
+          `Practice varies widely. Some people abstain from all food, some from grains and beans, and some eat only fruit, milk and root vegetables. The day is spent in prayer, reading from sacred texts, and sometimes a night vigil. A common custom is to avoid rice and other grains on this day. One explanation given in devotional literature is that the demon Mura is said to live in grains, and this is attributed to the Brahma Vaivarta Purana in one account. It is a custom of the tradition with several explanations, and not a universal rule.`,
+          `For a lighter fast, people usually take foods such as sabudana, samai rice, makhana, fruit, milk and potatoes, avoiding ordinary rice, wheat and pulses. Salt rules also differ: some families use rock salt and some avoid salt entirely.`,
         ],
       },
       {
         h: 'Breaking the fast: parana',
         p: [
-          `The fast is traditionally broken the next morning, on Dwadashi, after sunrise and within the time given in the panchang. This is called parana. Pick the time from a reliable local panchang, since it varies by place.`,
+          `The fast is traditionally broken the next morning, on Dwadashi, after sunrise and before the Dwadashi tithi ends. This is called parana. Texts such as the Dharmasindhu are cited for the rule that the fast should not be broken during Hari Vasara, the first quarter of the Dwadashi tithi. So if Hari Vasara is still running at sunrise, the parana is taken after it ends. Pick the time from a reliable local panchang, since it varies by place.`,
+          `Before eating, many people offer the food to Vishnu first and give some to a person in need. The first meal is usually simple.`,
         ],
       },
       {
-        h: 'Nirjala Ekadashi and special days',
+        h: 'Smarta and Vaishnava observance',
         p: [
-          `Nirjala Ekadashi, in the month of Jyeshtha, is traditionally kept without even water. It is physically demanding and is not suitable for everyone. Other well-known days include Vaikuntha Ekadashi, Prabodhini or Devutthana Ekadashi and Shayani Ekadashi.`,
+          `Traditions do not always keep the same day. Some communities follow rules about the tithi at sunrise and about the preceding Dashami, and the Vaishnava and Smarta traditions can therefore name different days in a given month. If your family or temple follows a particular tradition, follow it. This is a matter of lineage and not of right and wrong.`,
+        ],
+      },
+      {
+        h: 'Special Ekadashis',
+        p: [
+          `Nirjala Ekadashi, in the month of Jyeshtha, is traditionally kept without even water. It is physically demanding and is not suitable for everyone. Shayani Ekadashi, in the month of Ashadha, is the day on which Vishnu is said to begin his four-month rest, which opens the Chaturmasya period. Prabodhini or Devutthana Ekadashi, in the month of Kartika, is the day he is said to wake, and in Odisha it falls within the Kartika month vows described in our Kartika guide. Vaikuntha Ekadashi, in the month of Margashirsha or Pausha depending on the calendar, is especially honoured in Vaishnava temples.`,
         ],
       },
       {
         h: 'Health first',
         p: [
-          `Fasting is a personal vow and not a requirement. People who are pregnant, elderly, diabetic, taking regular medication or with any medical condition should not fast strictly without medical advice. A modest fruit-and-milk fast, or simply extra time for prayer, fulfils the spirit of the day.`,
+          `Fasting is a personal vow and not a requirement. People who are pregnant, elderly, diabetic, taking regular medication or with any medical condition should not fast strictly without medical advice. Children should not be asked to fast. A modest fruit-and-milk fast, or simply extra time for prayer, fulfils the spirit of the day. Drink water unless your tradition and your doctor agree otherwise, and break the fast gently.`,
         ],
       },
       {
         h: 'What to chant',
         p: [
-          `Common choices are the Vishnu Sahasranamam, the mantra Om Namo Bhagavate Vasudevaya, and readings from the Bhagavad Gita. Our Vishnu guides explain pronunciation and counting.`,
+          `Common choices are the Vishnu Sahasranamam, the mantra Om Namo Bhagavate Vasudevaya, the Hare Krishna maha mantra, and readings from the Bhagavad Gita. Our Vishnu guides explain pronunciation and counting, and the Hare Krishna page has the text with meaning in four languages.`,
         ],
       },
     ],
@@ -1392,20 +1407,34 @@ export const GUIDES_LEARN = [
       },
       {
         q: 'Why are grains avoided on Ekadashi?',
-        a: 'It is a custom of the tradition, with various explanations. It is a personal practice rather than a universal rule.',
+        a: 'It is a custom of the tradition, with various explanations, including a story that the demon Mura lives in grains. It is a personal practice rather than a universal rule.',
       },
       {
         q: 'Can I drink water or take medicine while fasting?',
         a: 'Most people do. Medicines should be taken as prescribed, and anyone with a health condition should consult their doctor.',
       },
+      {
+        q: 'What is Hari Vasara?',
+        a: 'It is the first quarter of the Dwadashi tithi. The fast is not broken during this period, so the parana is taken after it ends, before Dwadashi finishes.',
+      },
+      {
+        q: 'Why does Ekadashi fall on different days in different places?',
+        a: 'Ekadashi is a lunar day that does not follow midnight, and traditions differ about which sunrise counts. Check a local panchang or temple announcement.',
+      },
+      {
+        q: 'Who should not fast on Ekadashi?',
+        a: 'Children, pregnant women, the elderly and anyone with a medical condition or on regular medication should not fast strictly without medical advice. A light diet and extra prayer are enough.',
+      },
     ],
     related: {
-      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra'],
-      guides: ['how-to-chant-vishnu-mantra', 'vishnu-sahasranamam-benefits'],
+      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'hare-krishna-maha-mantra'],
+      guides: ['how-to-chant-vishnu-mantra', 'vishnu-sahasranamam-benefits', 'kartika-month-odisha-guide'],
     },
     sources: [
       'Kane, P.V., History of Dharmasastra, Vol. V (Ekadashi vrata)',
       'Padma Purana and Bhavishya Purana passages on Ekadashi as summarised in standard works on Hindu vrata',
+      'Dharmasindhu, on the parana rule and Hari Vasara, as summarised by Drik Panchang and Shubh Panchang',
+      'Shubh Panchang, Utpanna Ekadashi vrat katha and What is Ekadashi',
     ],
   },
 
@@ -2083,6 +2112,178 @@ export const GUIDES_LEARN = [
       'Wikipedia, Nuakhai',
       'Kalinga School of Management blog, Nuakhai: The day families come home',
       'Orissa Review (Government of Odisha), September 2012, on Nuakhai',
+    ],
+  },
+
+  {
+    slug: 'makar-sankranti-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Makar Sankranti in Odisha: Makara Chaula, Sun Worship and Temple Customs',
+    description:
+      'How Odisha keeps Makar Sankranti: the sweet Makara Chaula offered to Lord Jagannath, sunrise at Konark and Chandrabhaga, holy dips, Shiva temple visits, and how the date is fixed by the Sun.',
+    h1: 'Makar Sankranti in Odisha: Makara Chaula and the Sun',
+    intro:
+      'Makar Sankranti is a mid-January festival that marks the day the Sun enters the zodiac sign of Makara, or Capricorn. In Odisha it is a harvest and Sun festival, and its best-known custom is Makara Chaula, a sweet offering of new rice that is made in the Jagannath temple at Puri and in many homes. This guide explains how the date is fixed, what happens in the temples and at home, and what the day means.',
+    sections: [
+      {
+        h: 'What Makar Sankranti means',
+        p: [
+          `A sankranti is the moment when the Sun passes from one zodiac sign into the next. There are twelve in a year, and the one that marks the Sun entering Makara is the most widely observed. Because it follows the Sun and not the Moon, Makar Sankranti falls on almost the same date every year, in the middle of January, and it does not move around the calendar the way lunar festivals do. Some years it falls on the 14th and some on the 15th, depending on the exact moment of the Sun's entry, so families check the panchang for the day and the best hours for worship.`,
+          `The day is also linked to Uttarayana, the half of the year when the Sun is seen to travel northward. Traditionally Uttarayana is counted from Makar Sankranti, and many texts treat it as an auspicious time. The astronomical winter solstice itself falls around 21 December, so the festival is better understood as a traditional marker than as the exact turning point of the Sun. In the Mahabharata the warrior Bhishma is said to have waited on his bed of arrows for Uttarayana before leaving the world, which is one reason the period carries such weight in popular memory.`,
+        ],
+      },
+      {
+        h: 'Makara Chaula, the offering of new rice',
+        p: [
+          `The food most closely tied to the day in Odisha is Makara Chaula, sometimes called Makara rice. It is made from newly harvested rice and is sweet, not savoury. The ingredients named in reports from the Jagannath temple and from Odia households are rice, jaggery, banana, coconut, milk, ghee, sesame, fresh butter, and fruits and dry fruits. Families make their own version with what they have, and the exact mix differs from home to home.`,
+          `At the Jagannath temple in Puri the day is marked with a special bhoga of Makara Chaula. Accounts of the ritual say that the offering is carried around the temple by the sevaks in a ceremony called Makara Bedha, and that the three deities are served on silver plates. One popular account links the offering to a Skanda Purana story in which Goddess Lakshmi returns from her parents' home with Makara Chaula, which is then offered to Lord Jagannath. This story is repeated in newspaper features, but the passage itself is not cited, so treat it as tradition and not as a verified verse.`,
+          `After the offering the food becomes prasad, which is shared with family, neighbours and the poor. Giving food and sweets to others is part of the day, and so is sharing sesame and jaggery sweets, a custom that is common across India in this season.`,
+        ],
+      },
+      {
+        h: 'Sun worship at Konark and Chandrabhaga',
+        p: [
+          `Since the festival honours Surya, many people go to the Sun Temple at Konark and to the nearby Chandrabhaga beach before dawn to see the sunrise and bathe in the sea. News reports from recent years describe crowds gathering there on the morning of the festival. A simple form of worship at home is to offer water to the rising Sun and to recite a Surya mantra or the Aditya Hridayam, the hymn to the Sun that is taught in the Ramayana tradition.`,
+          `A holy bath in a river, a pond or the sea on the morning of Sankranti is a common custom. People who cannot reach a river bathe at home and keep the intention of the dip.`,
+        ],
+      },
+      {
+        h: 'Temples and the wider festival',
+        p: [
+          `On the day many Odia families visit temples. Press reports list large gatherings at the Lingaraj temple in Bhubaneswar and at other Shiva temples such as Hatakeshwar near Khurda and Dhabaleswar near Cuttack. At Puri the Jagannath deities are decorated for the occasion, and worshippers queue for darshan.`,
+          `The festival also has a lively social side. Kites are flown in Cuttack and Rourkela, and some households in the south of the state draw rangoli at the entrance. Community feasts often include Makara Chaula. Because the festival belongs to the harvest season, it is also a day of gratitude for the crop, in the same spirit as Nuakhai in the west of the state.`,
+        ],
+      },
+      {
+        h: 'How to keep the day at home',
+        p: [
+          `A simple observance is to bathe early, offer water to the Sun, say a prayer, and prepare a small plate of Makara Chaula for the family deity. Use new rice if you can get it, and add whatever sweet ingredients your family uses. Offer it with a few minutes of quiet prayer, and share it afterwards.`,
+          `You can also give grain, sesame, jaggery or clothes to someone in need. Charity on this day is an old and widely observed custom. It is a personal choice and there is no fixed amount.`,
+        ],
+      },
+      {
+        h: 'Differences by region',
+        p: [
+          `Sankranti is known by other names across India, such as Pongal in Tamil Nadu, Uttarayan in Gujarat and Lohri in Punjab on the eve of the day. Customs inside Odisha also vary between coastal districts, the western districts and tribal areas. If your family keeps a different practice from the one described here, that is a normal local variation and not a mistake.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Makara Chaula?',
+        a: 'It is a sweet offering made from new rice, jaggery, banana, coconut, milk, ghee, sesame and other ingredients. It is offered to Lord Jagannath at Puri and to the family deity in many Odia homes on Makar Sankranti.',
+      },
+      {
+        q: 'How is the date of Makar Sankranti decided?',
+        a: 'It is fixed by the Sun entering the zodiac sign Makara, not by the Moon. It therefore falls on about the same date every year in mid-January, either the 14th or the 15th depending on the exact moment of entry. Check a local panchang for the day.',
+      },
+      {
+        q: 'Is Makar Sankranti the winter solstice?',
+        a: 'No. The astronomical winter solstice is around 21 December. Uttarayana is traditionally counted from Makar Sankranti, so the festival marks the start of the northward period in the traditional calendar.',
+      },
+      {
+        q: 'Where do people watch the Sankranti sunrise in Odisha?',
+        a: 'Many people go to the Sun Temple at Konark and to Chandrabhaga beach nearby, where large crowds gather before dawn.',
+      },
+      {
+        q: 'What mantra can I chant on Makar Sankranti?',
+        a: 'Common choices are a Surya mantra and the Aditya Hridayam. Others chant Vishnu or Krishna mantras. There is no single required mantra.',
+      },
+    ],
+    related: {
+      stotrams: ['aditya-hridayam', 'navagraha-stotram'],
+      guides: ['kartika-month-odisha-guide', 'nuakhai-western-odisha-guide', 'jagannath-ratha-yatra-puri-guide', 'manabasa-gurubara-odisha-guide'],
+    },
+    sources: [
+      'Orissa Post, Odisha celebrates Makar Sankranti with holy dips, visit to temples',
+      'Outlook India, What is cooking in the world largest kitchen on Makar Sankranti day (Jagannath temple kitchen)',
+      'Hindu Press International, republished Outlook India report on Makara Chaula at Puri',
+      'All India Radio news report, Makar Sankranti celebrated with traditional rituals across Odisha',
+    ],
+  },
+
+  {
+    slug: 'dola-purnima-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Dola Purnima in Odisha: Dola Yatra, Dola Govinda and the Spring Festival of Colours',
+    description:
+      'A guide to Dola Purnima in Odisha: the swing festival of Krishna as Dola Govinda, the village Dola Yatra processions, abir colours at Puri, Dola Melana, and how the Phalguna full moon date is fixed.',
+    h1: 'Dola Purnima in Odisha: The Swing Festival of Dola Govinda',
+    intro:
+      'Dola Purnima, also called Dola Yatra or Dol Jatra, is the spring festival of the Phalguna full moon. In Odisha it is the local form of Holi, and it centres on the swing, or dola, on which images of Krishna are placed and carried in procession. At Puri, Lord Jagannath is worshipped on this day as Dola Govinda. This guide explains what the name means, how the festival runs in villages and in Puri, and how its date is decided.',
+    sections: [
+      {
+        h: 'What Dola Purnima means',
+        p: [
+          `Dola means a swing, and a purnima is a full moon. The festival falls on the full moon of the lunar month of Phalguna, which usually lies in March, and it welcomes spring. Wikipedia and other references describe the swinging of the deity as the heart of the observance, and the tradition of a swing festival for Krishna is old enough to be mentioned in the Garga Samhita, which places a Dolotsava in the month of Chaitra.`,
+          `Because the festival follows the Moon, its date changes each year in the Gregorian calendar. It is fixed by the full moon tithi of Phalguna in the panchang, and where the tithi begins and ends can differ by a day between places, so local calendars are the reliable guide. In Odisha the colour play is sometimes kept a day later than the Holi of other states, but this varies, so check the local calendar and do not rely on a fixed rule.`,
+        ],
+      },
+      {
+        h: 'Dola Yatra in the villages',
+        p: [
+          `In Odisha the festival is more than a day. In many places it lasts four to six days, starting around the tenth day of Phalguna and ending on the full moon night. Each day, images of Krishna, often known here as Govinda, along with Radha or Sridevi, are carried through the village or town in decorated palanquins. The palanquins, called vimanas, are dressed with flowers, cloth and paper, and the images wear gold jewellery and silk before they are placed on the swing.`,
+          `Along the route people throw abir, the coloured powder, and flowers. Drums and conch shells accompany the procession, and every household makes an offering of food, or bhog, to the deity when the palanquin reaches its door. In several communities the milkmen, the gopalas or gwalas, have the honour of carrying the palanquin, since Govinda is closely tied to that community.`,
+          `On the last night the palanquins from the nearby villages gather at a common ground, called the melana padia, where the swings are set up together in what is known as Dola Melana. Those present believe that seeing the swing festival cleans away sin. Afterwards the images are bathed and taken back to their temples.`,
+        ],
+      },
+      {
+        h: 'Dola Govinda at Puri',
+        p: [
+          `At the Jagannath temple in Puri, Lord Jagannath is worshipped as Dola Govinda during the festival, a form of Krishna. Reports from recent years say that the representative image is taken in procession to the Dola Mandap, a platform on which the festival rituals take place, and that the deities and their servitors play with abir. News coverage also notes that Lord Balabhadra and Goddess Subhadra are decorated in Suna Besha, the gold attire, on the occasion. The details of the order of the rituals are fixed by the temple administration and its servitors, so for exact timings check the official temple announcements.`,
+          `Large crowds gather at Puri for the festival, and recent reports have described heavy pressure of people near the Dola Vedi. If you plan to attend, travel early, follow police and temple instructions, and keep children and elderly relatives close.`,
+        ],
+      },
+      {
+        h: 'The Chaitanya connection',
+        p: [
+          `For Gaudiya Vaishnavas the Phalguna full moon has a second meaning: it is the birth day of Chaitanya Mahaprabhu, the 15th century saint who spread the chanting of the Hare Krishna mantra. Chaitanya spent his last years in Puri, so the festival has a particular depth for devotees there. The Hare Krishna maha mantra is therefore a natural chant for the day.`,
+        ],
+      },
+      {
+        h: 'Holi, Holika and the story told',
+        p: [
+          `Holi is named after Holika, the demoness in the story of the child devotee Prahlada, and the tale of the victory of devotion over arrogance is retold in many regions at this time. In Odisha the emphasis is on Krishna and the swing, but the colours, the sweets and the community gatherings are shared with Holi across India. Festive foods vary, and families make their own sweets and drinks.`,
+        ],
+      },
+      {
+        h: 'How to keep the day at home',
+        p: [
+          `A simple way is to place a picture or small image of Krishna or Jagannath on a decorated swing or a clean cloth, offer flowers and a sweet, and sing a few lines of a Krishna bhajan. Smear a little dry abir on the deity first and then on family members. Use natural colours where possible, since synthetic colours can irritate the skin and eyes. The Hare Krishna mantra, the Krishna Vasudevaya mantra and the Vishnu Sahasranamam are common choices for the day.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Dola Purnima?',
+        a: 'It is the spring festival of the Phalguna full moon, in which images of Krishna are placed on a swing and carried in procession. In Odisha it is the local form of Holi.',
+      },
+      {
+        q: 'Why is Lord Jagannath called Dola Govinda?',
+        a: 'During this festival Lord Jagannath is worshipped at Puri in the form of Dola Govinda, a form of Krishna on the swing.',
+      },
+      {
+        q: 'How long does Dola Yatra last?',
+        a: 'In many villages it lasts four to six days, from around the tenth day of Phalguna to the full moon night, ending with the Dola Melana.',
+      },
+      {
+        q: 'How is the date of Dola Purnima decided?',
+        a: 'It is fixed by the full moon tithi of Phalguna, so it moves each year. Use a local panchang or temple announcement, because the tithi can start and end at different times in different places.',
+      },
+      {
+        q: 'What is the Chaitanya connection?',
+        a: 'Gaudiya Vaishnavas observe the Phalguna full moon as the birth day of Chaitanya Mahaprabhu, who lived his later years in Puri.',
+      },
+    ],
+    related: {
+      stotrams: ['hare-krishna-maha-mantra', 'krishna-vasudevaya-mantra', 'vishnu-sahasranamam'],
+      guides: ['krishna-janmashtami-guide', 'jagannath-ratha-yatra-puri-guide', 'kartika-month-odisha-guide', 'kumar-purnima-odisha-guide'],
+    },
+    sources: [
+      'Wikipedia, Dol Purnima',
+      'Google Arts and Culture, Dola Purnima: Spring Celebrations in Odisha',
+      'OdishaBytes, Dola Purnima: Odisha welcomes spring with a splash of colours',
+      'The Week (PTI), Dola Purnima celebrated with festive fervour in Odisha',
     ],
   },
 ];

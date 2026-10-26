@@ -110,4 +110,23 @@ export const STOTRAM_EXTRA = {
       { q: 'How many times should I chant it?', a: 'One to three times is common, or 108 with a mala. There is no fixed rule.' },
     ],
   },
+  'hare-krishna-maha-mantra': {
+    what: `The Hare Krishna maha mantra is a chant of sixteen words: Hare, Krishna and Rama repeated in a fixed pattern. It is found in the Kali-Santarana Upanishad, a Vaishnava text attached to the Krishna Yajurveda, where it is taught as a way to cross the difficulties of the Kali age. In that text the Hare Rama line is listed first; most printed and sung versions today, including in Gaudiya Vaishnava practice, begin with the Hare Krishna line, and both orders are in use. The mantra became widely known through the devotional movement of Chaitanya in the 16th century.`,
+    meaning: `Krishna and Rama are two names of the divine in the Vaishnava tradition, the beloved forms of Vishnu. Hare is a form of address. Gaudiya Vaishnava teachers read it as a call to the divine energy, and others read it as a call to Hari, a name of Vishnu that means the one who takes away. Because it is a call and not a sentence, there is no single fixed translation. The chant is meant to be sung or repeated aloud with attention on the names.`,
+    benefits: [
+      'Very short and rhythmic, so it is easy to learn and to sing in a group',
+      'Can be chanted aloud as kirtan or quietly on a mala of 108 beads',
+      'Open to anyone, with no initiation needed to start chanting',
+      'A common practice on Ekadashi, Janmashtami and Rama Navami',
+      'Helps a wandering mind settle on one sound',
+    ],
+    bestTime: `It can be chanted at any time. Many devotees keep a fixed hour in the morning, and some groups sing it in the evening. Japa on a 108 bead mala is common, and ISKCON devotees traditionally chant 16 rounds a day, but a beginner can start with one round or even a few minutes.`,
+    faqs: [
+      { q: 'What does the Hare Krishna mantra mean?', a: 'It calls on the divine by the names Hare, Krishna and Rama. Hare is a form of address, read as a call to the divine energy or to Hari. There is no single fixed translation because the mantra is a call and not a sentence.' },
+      { q: 'Which scripture is it from?', a: 'It appears in the Kali-Santarana Upanishad, which belongs to the Krishna Yajurveda tradition. The date of the text is uncertain, and it is usually placed before about 1500 CE.' },
+      { q: 'Why does the Hare Rama line come first in some texts?', a: 'The Upanishad lists the Hare Rama line first. The order in which most people sing it today, with Hare Krishna first, comes from the Gaudiya Vaishnava tradition. Both orders are in use.' },
+      { q: 'How many times should I chant it?', a: 'There is no fixed rule. One round of 108 on a mala takes about 10 to 15 minutes. ISKCON devotees chant 16 rounds a day, and beginners can start with fewer.' },
+      { q: 'Do I need initiation to chant it?', a: 'No. Most traditions treat the mantra as open to everyone, in any season and at any time of day.' },
+    ],
+  },
 };

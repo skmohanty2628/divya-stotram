@@ -385,6 +385,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'hare-krishna-maha-mantra',
+    title: {
+      en: 'Hare Krishna Maha Mantra',
+      hi: 'हरे कृष्ण महामन्त्र',
+      od: 'ହରେ କୃଷ୍ଣ ମହାମନ୍ତ୍ର',
+      te: 'హరే కృష్ణ మహామంత్రం',
+    },
+    deity: 'Krishna',
+    deityEmoji: '🪈',
+    deityIcon: '',
+    description: {
+      en: 'Hare Krishna Hare Rama, the sixteen-word maha mantra of Krishna and Rama, with meaning in English, Hindi, Odia and Telugu and a chanting video',
+      hi: 'हरे कृष्ण हरे राम, कृष्ण और राम का सोलह शब्दों का महामन्त्र, अर्थ सहित',
+      od: 'ହରେ କୃଷ୍ଣ ହରେ ରାମ, କୃଷ୍ଣ ଓ ରାମଙ୍କ ଷୋହଳ ଶବ୍ଦର ମହାମନ୍ତ୍ର, ଅର୍ଥ ସହିତ',
+      te: 'హరే కృష్ణ హరే రామ, కృష్ణ, రాముల పదహారు పదాల మహామంత్రం, అర్థంతో',
+    },
+    color: 'from-blue-900 to-slate-900',
+    accent: '#7fb2ff',
+    youtubeId: 'N74o3G_cTAA',
+    verseCount: 1,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

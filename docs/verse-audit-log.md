@@ -44,3 +44,15 @@ One line per audit. Rotation: every stotram in every language (Hindi/Devanagari,
 - Attribution: the author is unknown. vedicfeed.com cites similar verses in the Garuda Purana and in Uvata's commentary on the Vajasaneyi Samhita; this is from one site only, so the page says the exact source is uncertain.
 - Odia and Telugu scripts back-converted to Devanagari: match apart from ba/va and anusvara conventions.
 - YouTube: id g_1jeVTjv88, "Sarve Bhavantu Sukhinah || Shanti mantra", channel Adiyogam, 86 seconds, about 488k views, embeddable, oEmbed 200. Alternative checked: _hHegM37AUc (topic channel, 194 seconds).
+
+## 2026-10-26: audit: hanuman-chalisa, English transliteration
+- Method: the 43 transliterated verses were compared with the audited Hindi text offline using consonant skeletons (folding aspirates, ba/va, sibilants, vowels and doubled letters), then with an IAST edition on shlokam.org and with the English page on hindunidhi.com, which gives only the Chaupai lines and in a looser spelling.
+- Fixed (the Hindi सहस्र and the IAST edition agree): v20 "Jug sahastra jojan par Bhanu" to "Jug sahasra jojan par Bhanu".
+- Left as romanisation conventions: rakshak for रच्छक, Hanumaan/Hanuman spellings, jarava/jalava in one web source (the Hindi has जलावा).
+- Needs human check: none open. Hanuman Chalisa is now audited in Hindi, Odia, Telugu and English. Next in rotation: durga-stotram, Hindi.
+
+## 2026-10-26: new mantra added: hare-krishna-maha-mantra
+- Text: Devanagari compared across hindutone.com and shubhpanchang.com; both give the same two lines in the same order (Hare Krishna line first).
+- Attribution: the Kali-Santarana Upanishad (Krishna Yajurveda), per Wikipedia and vyasaonline.com. The Upanishad lists the Hare Rama line first; the Hare Krishna line first order is the Gaudiya Vaishnava and common printed order. The date of the Upanishad is uncertain (usually placed before about 1500 CE), and the page says so.
+- Odia and Telugu scripts back-converted to Devanagari: exact match.
+- YouTube: id N74o3G_cTAA, "Srila Prabhupada Chanting Japa, 108 times with soothing music", channel Hare Krishna Movement Mumbai, 637 seconds, about 5.2 million views, embeddable, oEmbed 200. Alternative checked: Ykg-alEM3ls (Braja Beats, 24 minutes).

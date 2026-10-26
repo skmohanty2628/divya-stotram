@@ -92,6 +92,11 @@ const SEO_COPY = {
     description:
       'Read Sarve Bhavantu Sukhinah, the shanti mantra for the happiness and health of all, in English, Hindi, Odia and Telugu with meaning, when to chant it, and a YouTube chant to follow along.',
   },
+  'hare-krishna-maha-mantra': {
+    title: 'Hare Krishna Maha Mantra in English, Hindi, Odia & Telugu with Meaning',
+    description:
+      'Read the Hare Krishna Hare Rama maha mantra in English, Hindi, Odia and Telugu with meaning, its source in the Kali-Santarana Upanishad, how to chant it, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

@@ -333,7 +333,7 @@ export const hanumanChalisa = {
       type: 'chaupai',
       num: 18,
       original: 'जुग सहस्र जोजन पर भानू। लील्यो ताहि मधुर फल जानू॥',
-      transliteration: 'Jug sahastra jojan par Bhanu, Lilyo tahi madhur phal janu',
+      transliteration: 'Jug sahasra jojan par Bhanu, Lilyo tahi madhur phal janu',
       script: {
         od: 'ଜୁଗ ସହସ୍ର ଯୋଜନ ପର ଭାନୂ। ଲୀଲ୍ୟୋ ତାହି ମଧୁର ଫଳ ଜାନୂ॥',
         te: 'జుగ్ సహస్ర జోజన్ పర్ భానూ। లీల్యో తాహి మధుర ఫల్ జానూ॥',

@@ -18,6 +18,7 @@ import { mahaMrityunjayaMantra } from '@/data/maha-mrityunjaya-mantra';
 import { karpuraGauram } from '@/data/karpura-gauram';
 import { sarveBhavantuSukhinah } from '@/data/sarve-bhavantu-sukhinah';
 import { hareKrishnaMahaMantra } from '@/data/hare-krishna-maha-mantra';
+import { shivaPanchakshara } from '@/data/shiva-panchakshara-stotram';
 
 export const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
@@ -40,4 +41,5 @@ export const VERSE_DATA = {
   'karpura-gauram': karpuraGauram,
   'sarve-bhavantu-sukhinah': sarveBhavantuSukhinah,
   'hare-krishna-maha-mantra': hareKrishnaMahaMantra,
+  'shiva-panchakshara-stotram': shivaPanchakshara,
 };

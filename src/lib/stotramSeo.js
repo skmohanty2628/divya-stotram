@@ -97,6 +97,11 @@ const SEO_COPY = {
     description:
       'Read the Hare Krishna Hare Rama maha mantra in English, Hindi, Odia and Telugu with meaning, its source in the Kali-Santarana Upanishad, how to chant it, and a video to follow along.',
   },
+  'shiva-panchakshara-stotram': {
+    title: 'Shiva Panchakshara Stotram in English, Hindi, Odia & Telugu with Meaning',
+    description:
+      'Read Shiva Panchakshara Stotram (Nagendraharaya Trilochanaya) in English, Hindi, Odia and Telugu with meaning, the five syllables Na Ma Shi Va Ya, when to recite it, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

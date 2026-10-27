@@ -56,3 +56,18 @@ One line per audit. Rotation: every stotram in every language (Hindi/Devanagari,
 - Attribution: the Kali-Santarana Upanishad (Krishna Yajurveda), per Wikipedia and vyasaonline.com. The Upanishad lists the Hare Rama line first; the Hare Krishna line first order is the Gaudiya Vaishnava and common printed order. The date of the Upanishad is uncertain (usually placed before about 1500 CE), and the page says so.
 - Odia and Telugu scripts back-converted to Devanagari: exact match.
 - YouTube: id N74o3G_cTAA, "Srila Prabhupada Chanting Japa, 108 times with soothing music", channel Hare Krishna Movement Mumbai, 637 seconds, about 5.2 million views, embeddable, oEmbed 200. Alternative checked: Ykg-alEM3ls (Braja Beats, 24 minutes).
+
+## 2026-10-27: audit: durga-stotram, Hindi
+- Method: the 8 verses were compared with two editions of the Devi Mahatmya and the Argala Stotra. Verses 1 to 4 (Narayani Stuti, Devi Mahatmya 11.10, 11.12, 11.24 and 11.29): drikpanchang.com chapter 11 and the aurobharati.in Devi Mahatmyam edition (IAST) agree with the site, word for word. The hindupad.com edition was also read but has typos of its own (trayambake, kama), so it was not used as a reference. Verse 5 (Argala Stotra verse 12): drikpanchang.com and bhaktibharat.com agree with the site. Verses 6 to 8 (Ya Devi Sarvabhuteshu, Devi Mahatmya chapter 5): drikpanchang.com and hindupad.com agree with the site.
+- Original text: no corrections needed.
+- Fixed, supported by the editions: English transliteration v3 "Bhaye Bhyas" to "Bhayebhyas". Hindi meaning v2 and v4 rewritten in own words to cover the whole verse (the old v2 meaning left out that she removes everyone's pain, the old v4 meaning left out the second half), and a stray emoji removed from v8.
+- Left as variant: the aurobharati.in Argala text reads "dehi devi param sukham" where the site (and drikpanchang.com and bhaktibharat.com) read "dehi me paramam sukham". Also drikpanchang.com spells "gauri" with a short vowel where the site has a long one, and "mangalye" with a short first vowel in the compound. All are accepted variants.
+- Note: the site presents these verses as one hymn. They come from three places (Devi Mahatmya 11, the Argala Stotra and Devi Mahatmya 5), so the page text should not claim a single source. Not changed today.
+- Needs human check: none open. Next in rotation: durga-stotram in Odia.
+
+## 2026-10-27: new stotram added: shiva-panchakshara-stotram
+- Text: Devanagari compared across drikpanchang.com and sanskritdocuments.org. They agree on all six verses except typographic damage in the drikpanchang copy (verse 3 and spacing), which was ignored.
+- Variants noted: v1 "vilochanaya" for "trilochanaya" (sanskritdocuments.org notes it), v2 "makaramahitaya" (noted there) and "mandaramukhya" (some prints; both checked sources read "mandarapushpa"), v5 "yajnasvarupaya" in some prints (both checked sources read "yakshasvarupaya"). The two-source reading is used.
+- Attribution: both sources carry a colophon naming Shankaracharya; the page says the attribution is traditional. The mantra namah shivaya appearing in the Sri Rudram is stated from general knowledge, not checked against a chapter and verse here.
+- Odia and Telugu scripts: converted from the Devanagari by Unicode offset, then converted back and compared. All 6 verses match.
+- YouTube: id NHBJn0KxWbU, "Shiva Stotra | Shiva Panchakshara Stotra with Lyrics (Full Track)", channel Anandmurti Gurumaa, 287 seconds, about 11.7 million views, embeddable, oEmbed 200. Alternative checked: xFvfdjw2eno (Nova Spiritual India, 288 seconds).

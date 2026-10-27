@@ -409,6 +409,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'shiva-panchakshara-stotram',
+    title: {
+      en: 'Shiva Panchakshara Stotram',
+      hi: 'शिव पंचाक्षर स्तोत्रम्',
+      od: 'ଶିବ ପଞ୍ଚାକ୍ଷର ସ୍ତୋତ୍ରମ୍',
+      te: 'శివ పంచాక్షర స్తోత్రం',
+    },
+    deity: 'Shiva',
+    deityEmoji: '🔱',
+    deityIcon: '',
+    description: {
+      en: 'Shiva Panchakshara Stotram (Nagendraharaya Trilochanaya), the five-verse hymn on Na Ma Shi Va Ya attributed to Adi Shankaracharya, with meaning in English, Hindi, Odia and Telugu and a chanting video',
+      hi: 'शिव पंचाक्षर स्तोत्रम् (नागेन्द्रहाराय त्रिलोचनाय), न म शि व य अक्षरों पर आदि शंकराचार्य के नाम से प्रसिद्ध पाँच श्लोकों का स्तोत्र, अर्थ सहित',
+      od: 'ଶିବ ପଞ୍ଚାକ୍ଷର ସ୍ତୋତ୍ରମ୍ (ନାଗେନ୍ଦ୍ରହାରାୟ ତ୍ରିଲୋଚନାୟ), ନ ମ ଶି ବ ୟ ଅକ୍ଷରରେ ଆଦି ଶଙ୍କରାଚାର୍ଯ୍ୟଙ୍କ ନାମରେ ପ୍ରସିଦ୍ଧ ପାଞ୍ଚ ଶ୍ଳୋକର ସ୍ତୋତ୍ର, ଅର୍ଥ ସହିତ',
+      te: 'శివ పంచాక్షర స్తోత్రం (నాగేంద్రహారాయ త్రిలోచనాయ), న మ శి వ య అక్షరాలపై ఆది శంకరాచార్యులకు ఆపాదించే ఐదు శ్లోకాల స్తోత్రం, అర్థంతో',
+    },
+    color: 'from-slate-900 to-indigo-950',
+    accent: '#a9b8ff',
+    youtubeId: 'NHBJn0KxWbU',
+    verseCount: 6,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

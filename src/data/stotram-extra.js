@@ -129,4 +129,23 @@ export const STOTRAM_EXTRA = {
       { q: 'Do I need initiation to chant it?', a: 'No. Most traditions treat the mantra as open to everyone, in any season and at any time of day.' },
     ],
   },
+  'shiva-panchakshara-stotram': {
+    what: `The Shiva Panchakshara Stotram is a short hymn of five verses and a closing verse in praise of Shiva. Each of the five verses ends by saluting Shiva as one of the five syllables of the mantra Na Mah Shi Va Ya, so the hymn works as a slow, verse by verse way into the mantra Om Namah Shivaya. Tradition ascribes it to Adi Shankaracharya, and the colophon in printed editions says so, but the attribution is traditional and cannot be proved. The mantra itself, namah shivaya, appears in the Sri Rudram of the Krishna Yajurveda.`,
+    meaning: `The five verses describe Shiva with many names and images: the one who wears a king of snakes as a garland, has three eyes and smears sacred ash on the body, who is worshipped with Ganga water and sandal paste, who destroyed the sacrifice of Daksha, whose throat is blue, and whose head is honoured by sages and gods. Each verse then ends with the line that salutes Shiva as one syllable: Na, Ma, Shi, Va and Ya in turn. The sixth verse is a closing line that states the traditional reward of reciting the hymn in the presence of Shiva. Treat that line as the text's own statement, not as a promise of any worldly outcome.`,
+    benefits: [
+      'Short enough to learn in a few sittings, with a clear repeating line at the end of each verse',
+      'Helps new learners understand the five syllables of Om Namah Shivaya',
+      'Commonly recited on Mondays, on Pradosha and on Maha Shivaratri',
+      'Easy to chant in a group because each verse has the same ending',
+      'Reads well in Devanagari, Odia and Telugu, so families can read it in their own script',
+    ],
+    bestTime: `It can be recited at any time. Many people read it on Monday mornings, at dusk on Pradosha, or during the night of Maha Shivaratri. Reciting it once slowly, with the meaning in mind, is more useful than many fast repetitions.`,
+    faqs: [
+      { q: 'What does Panchakshara mean?', a: 'Panchakshara means five syllables. The five syllables are Na, Ma, Shi, Va and Ya, from the mantra Namah Shivaya.' },
+      { q: 'Who wrote the Shiva Panchakshara Stotram?', a: 'Tradition ascribes it to Adi Shankaracharya, and printed editions carry his name in the closing line. The attribution is traditional and has not been proved.' },
+      { q: 'What is the difference between the stotram and the mantra?', a: 'The mantra Om Namah Shivaya is a short formula for repetition. The stotram is a hymn of verses that explains and praises each of the five syllables.' },
+      { q: 'Why do some editions differ in a few words?', a: 'Printed texts vary slightly. For example, some read Vilochanaya for Trilochanaya in the first verse, and some read Yajnasvarupaya for Yakshasvarupaya in the fifth. This site follows the reading found in both sanskritdocuments.org and drikpanchang.com.' },
+      { q: 'When is it usually recited?', a: 'On Mondays, on Pradosha, and on Maha Shivaratri are common, but it can be recited at any time.' },
+    ],
+  },
 };

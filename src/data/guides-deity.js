@@ -291,7 +291,7 @@ export const GUIDES_DEITY = [
       },
     ],
     related: {
-      stotrams: ['shiva-tandav', 'shiv-chalisa', 'karpura-gauram'],
+      stotrams: ['shiva-tandav', 'shiv-chalisa', 'karpura-gauram', 'shiva-panchakshara-stotram'],
       guides: ['shiva-tandav-benefits', 'mantra-chanting-rules-faq', 'best-mantra-for-health'],
     },
     sources: [

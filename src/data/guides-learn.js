@@ -135,7 +135,7 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['shiva-tandav', 'shiv-chalisa'],
+      stotrams: ['shiva-tandav', 'shiv-chalisa', 'shiva-panchakshara-stotram'],
       guides: ['how-to-chant-shiva-mantra', 'shiva-tandav-benefits'],
     },
     sources: [
@@ -1276,65 +1276,92 @@ export const GUIDES_LEARN = [
   {
     slug: 'durga-puja-odisha-guide',
     category: 'Festivals',
-    title: 'Durga Puja in Odisha: Five Days, Cuttack Traditions and What to Chant',
+    title: 'Durga Puja in Odisha: Sixteen Days, Cuttack Traditions and What to Chant',
     description:
-      'A guide to Durga Puja as celebrated in Odisha: the days from Shashthi to Dashami, the famous Cuttack celebration with silver filigree decoration, customs, visarjan and the prayers recited.',
+      'A guide to Durga Puja as celebrated in Odisha: the sixteen-day Sola Puja, the days from Shashthi to Dashami, the Chandi Medha of Cuttack in silver filigree, Dasahara customs, immersion and the prayers recited.',
     h1: 'Durga Puja in Odisha',
     intro:
-      'Durga Puja is the biggest festival of autumn in Odisha, especially in Cuttack, where the celebration is known across India. This guide explains the days of the festival, the traditions people follow and what to chant.',
+      'Durga Puja is the biggest festival of autumn in Odisha, and Cuttack is known across India for its silver decorated pandals. The festival in Odisha is also older and longer than the five public days suggest, since temples such as Puri\'s Bimala temple keep a sixteen-day series of rituals. This guide explains the days of the festival, the Cuttack tradition, Dasahara customs and what to chant.',
     sections: [
       {
-        h: 'When it falls',
+        h: 'When it falls and how the date is fixed',
         p: [
-          `Durga Puja is held in the bright fortnight of the month of Ashvin, usually in September or October, as part of Navaratri. The main days run from Shashthi, the sixth day, to Dashami, the tenth, and the dates change each year. Mahalaya, the new moon a fortnight before, begins the festive season.`,
+          `Durga Puja is held in the bright fortnight of the month of Ashvin, usually in September or October, as part of Navaratri. The festival season opens with Mahalaya, the new moon at the end of the dark fortnight. The main public days run from Shashthi, the sixth lunar day, to Dashami, the tenth. Because these are lunar days, the dates change each year, and in a year with an extra lunar month the whole festival can move by about a month. The tithi in a local panchang decides the day, and it can differ by a day between places.`,
         ],
       },
       {
-        h: 'The days of the puja',
+        h: 'The sixteen-day Sola Puja',
         p: [
-          `On Shashthi the Goddess is welcomed and her face is unveiled. Saptami is marked by the bathing of a banana plant (nabapatrika) and the formal invocation. Ashtami is the main day for worship, offerings of flowers and, in many communities, the sandhi puja at the junction of Ashtami and Navami. Navami continues the worship and Dashami, Vijayadashami, ends the festival with the immersion (visarjan) of the idol.`,
+          `Odisha has an older form of the observance known as the Sola or Shodasha Dinatmaka Puja, the sixteen-day worship. A published account describes it as starting on Mulashtami, seven days before Mahalaya, and running through Durga Ashtami to Vijaya Dashami. Each day the goddess is dressed in a different form, and havans and recitation of the Chandi, or Durga Saptashati, are held daily. The Bimala temple in Puri, which is closely tied to the Jagannath temple, is reported to follow the same series of sixteen forms. The same source calls the ritual about a thousand years old and says that the public, or sarvajanik, puja grew from the sixteenth century. These age claims come from one account and should be read as tradition and not as a settled date.`,
         ],
       },
       {
-        h: 'Cuttack and silver filigree',
+        h: 'The days of the public puja',
         p: [
-          `Cuttack is known for large community pujas with elaborate pandals and processions. A special feature is the use of tarakasi, the silver filigree craft for which the city is famous, to decorate the idols and the pandals. Crowds of visitors move through the city at night to see the displays, and the immersion procession on the Mahanadi draws large numbers.`,
+          `On Shashthi the Goddess is welcomed and her face is unveiled. Saptami is marked by the bathing of a banana plant (nabapatrika) and the formal invocation. Ashtami is the main day for worship, offerings of flowers and, in many communities, the sandhi puja at the junction of Ashtami and Navami. Navami continues the worship, and Dashami, Vijayadashami, ends the festival with the immersion of the idol. The Odia name for Vijayadashami is often Dasahara.`,
         ],
       },
       {
-        h: 'Home worship and customs',
+        h: 'Cuttack and the Chandi Medha',
         p: [
-          `Many families in Odisha observe the festival at home with a small kalash, offerings of flowers and fruit, and recitation of the Chandi Path (Durga Saptashati). Special foods are prepared, new clothes are worn and relatives visit each other. Some families fast on certain days, which is a personal choice.`,
+          `Cuttack is known for large community pujas. The signature feature is the Chandi Medha, a tall backdrop built of silver filigree behind the idol. One account says the first was introduced at the Choudhury Bazar puja in 1956, and that there were about 32 of them in 2023, each some 20 to 25 feet high and holding a large weight of silver. Gold plated versions are called Suna Medha. The metalwork is tarakasi, the silver filigree craft of Cuttack, which Wikipedia calls more than 500 years old. Artisans draw silver into fine wire and solder it into patterns, and the same work appears in jewellery for Odissi dancers. Some of the Cuttack pandals also dress their idols in silver crowns and ornaments.`,
+          `The number of pandals has grown from a few dozen in the 1940s to about two hundred, according to one report. Crowds move through the city at night to see the displays, and the immersion procession on the last day draws large numbers.`,
+        ],
+      },
+      {
+        h: 'Dasahara customs',
+        p: [
+          `On Dasahara in Odisha the burning of an effigy of Ravana, known as Ravana Podi, is part of the day in many towns. Reports also describe an old custom, the Dasahara bheti, of giving gifts to artisans and service workers. In Jeypore, a night procession called Patuara is held on Vijayadashami. These customs vary between towns and families.`,
+        ],
+      },
+      {
+        h: 'Home worship',
+        p: [
+          `Many families in Odisha observe the festival at home with a small kalash, offerings of flowers and fruit, and recitation of the Chandi Path. Special foods are prepared, new clothes are worn and relatives visit each other. Some families fast on certain days, which is a personal choice.`,
         ],
       },
       {
         h: 'What to chant',
         p: [
-          `Popular prayers are the Durga Stotram, the Aigiri Nandini (Mahishasura Mardini Stotram), and the mantra Om Dum Durgayai Namah. Many read the Devi Mahatmya during the nine days. Choose what you can recite with understanding, and read the meaning first.`,
+          `Popular prayers are the Durga Stotram, the Aigiri Nandini (Mahishasura Mardini Stotram), and the mantra Om Dum Durgayai Namah. Many read the Devi Mahatmya during the nine days. Read the meaning first and choose what you can recite with understanding. Our Durga Stotram page lists the verses from the Devi Mahatmya with their chapter and verse source.`,
         ],
       },
     ],
     faqs: [
       {
         q: 'How long does Durga Puja last?',
-        a: 'The main public celebration is five days, from Shashthi to Dashami, within the nine nights of Navaratri.',
+        a: 'The main public celebration is five days, from Shashthi to Dashami, within the nine nights of Navaratri. Some Odisha temples keep a sixteen-day series of rituals.',
       },
       {
         q: 'What is tarakasi?',
-        a: 'Tarakasi is the silver filigree craft of Cuttack, used to make jewellery and decorations, including for Durga Puja.',
+        a: 'Tarakasi is the silver filigree craft of Cuttack. Fine silver wire is shaped and soldered into patterns, and it is used for jewellery and for decorating Durga Puja pandals.',
+      },
+      {
+        q: 'What is a Chandi Medha?',
+        a: 'A Chandi Medha is a tall backdrop of silver filigree built behind the Durga idol in Cuttack. Gold plated versions are called Suna Medha.',
       },
       {
         q: 'Is Durga Puja the same as Navaratri?',
-        a: 'They overlap. Navaratri is the nine nights of worship; Durga Puja in eastern India emphasises the last five days.',
+        a: 'They overlap. Navaratri is the nine nights of worship, and Durga Puja in eastern India emphasises the last five days.',
+      },
+      {
+        q: 'What is Dasahara in Odisha?',
+        a: 'Dasahara is the Odia name for Vijayadashami, the tenth day, when the festival ends. In many towns it includes the burning of a Ravana effigy.',
+      },
+      {
+        q: 'Why do the dates of Durga Puja change every year?',
+        a: 'The festival follows lunar days of the month of Ashvin, so its Gregorian date moves each year. Check a local panchang.',
       },
     ],
     related: {
       stotrams: ['aigiri-nandini', 'durga-stotram'],
-      guides: ['navaratri-nine-forms-of-durga', 'aigiri-nandini-meaning-and-story'],
+      guides: ['navaratri-nine-forms-of-durga', 'aigiri-nandini-meaning-and-story', 'durga-stotram-benefits', 'how-to-chant-durga-mantra'],
     },
     sources: [
       'Devi Mahatmya (Durga Saptashati), Markandeya Purana',
-      'Government of Odisha tourism material on Cuttack Durga Puja and Cuttack tarakasi (silver filigree)',
+      'Pragyata, The millennium old 16-day Durga Puja in Odisha',
+      'Odisha Plus, Durga Puja Cuttack and the Chandi Medha legacy',
+      'Wikipedia, Tarakasi',
     ],
   },
 
@@ -2284,6 +2311,173 @@ export const GUIDES_LEARN = [
       'Google Arts and Culture, Dola Purnima: Spring Celebrations in Odisha',
       'OdishaBytes, Dola Purnima: Odisha welcomes spring with a splash of colours',
       'The Week (PTI), Dola Purnima celebrated with festive fervour in Odisha',
+    ],
+  },
+
+  {
+    slug: 'sital-sasthi-sambalpur-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Sital Sasthi in Sambalpur: The Wedding of Shiva and Parvati and How It Is Kept',
+    description:
+      'A guide to Sital Sasthi, the festival of western Odisha that re-enacts the wedding of Shiva and Parvati: the story, the procession, the rituals, how it began in Sambalpur and how the date is fixed.',
+    h1: 'Sital Sasthi in Sambalpur: The Wedding of Shiva and Parvati',
+    intro:
+      'Sital Sasthi, also written Sitalsasthi, is a festival of western Odisha that celebrates the wedding of Lord Shiva and Goddess Parvati. It is centred on Sambalpur, where a long procession carries the divine couple through the streets with music, dance and folk art. This guide explains the story behind it, how the days run, how it began and how its date is decided.',
+    sections: [
+      {
+        h: 'What Sital Sasthi is',
+        p: [
+          `Sital Sasthi is observed in the bright fortnight of the lunar month of Jyeshtha, which falls around the end of summer in May or June. The name is usually explained as the sixth day (sasthi) of that fortnight. Some accounts name the fifth day, Panchami, as the day of the marriage itself, and others count the sixth, so the exact tithi named in a local calendar can differ slightly. Because the date follows the Moon, it moves each year, and the local committee or a panchang gives the day.`,
+          `The festival is a wedding in the full sense. Shiva and Parvati are treated as a bride and groom, families take on the roles of her parents, and the marriage customs follow those of an ordinary Odia household. Many people also say that rain and cooler weather follow the divine wedding. Locals in Sambalpur sometimes call it a winter festival even though it falls in June, because of that belief.`,
+        ],
+      },
+      {
+        h: 'The story behind the wedding',
+        p: [
+          `The tale told in Odisha follows a well-known Puranic story. The demon Tarakasura troubled the three worlds, and a boon from Brahma meant that only a son of Shiva could defeat him. Shiva, however, was deep in meditation after the death of Sati. The gods asked the Goddess to be born again, and she took birth as Parvati, the daughter of the mountain king Himalaya. The god of love, Kamadeva, shot an arrow at Shiva to wake his interest, and Shiva burned him with his third eye. Parvati then won Shiva through her own devotion and austerity. In a final test Shiva came to her disguised as a Brahmin and spoke against himself, and when she defended him, he showed his true form and the two were married.`,
+          `This is a retelling from tradition and folk practice, not a single textual passage, and details differ between tellers.`,
+        ],
+      },
+      {
+        h: 'How the festival runs in Sambalpur',
+        p: [
+          `Reports describe the festival as lasting about six days, and the great procession on the wedding night is the centre of it. Shiva leaves his temple in a decorated palanquin with other deities and a group of attendants, and he goes to the house of the bride. There, a local family plays the part of Parvati's parents and gives her hand in marriage. Since Shiva is regarded as self-born and has no parents of his own, the groom's side is represented by the temple. After the wedding rites the couple is taken back to the temple the next day in a ritual known as Mandir Pravesh.`,
+          `Ritual names reported for the festival include Thal Utha, Patarpendi, Guagunda and Ganthla Khula. Published sources give the names but not a full account of each step, and the details can vary between neighbourhoods, so ask local organisers for the exact order.`,
+          `Alongside the rites there is a large public carnival. Floats, folk dance groups and musicians move through the streets with the procession. A news report from recent years says that artists from several states take part, and organisers invite groups whose art forms are at risk of dying out.`,
+        ],
+      },
+      {
+        h: 'How it began and how it spread',
+        p: [
+          `Accounts of the festival's origin differ in the age they give. Wikipedia places it about 400 years ago, while a recent news report calls it about 300 years old. Both agree that it began in Sambalpur, in the localities of Nandapada and Jharuapada, among Brahmin families who had come from the Puri area, and that a local king, Ajit Singh, supported it and built temples for the eight forms of Shiva known as the Asta Sambhu. A third procession from the Mudipada locality was added in 1972, and a joint committee now organises the carnival. The festival has also spread to nearby towns such as Bargarh, Padampur, Barpali and Jharsuguda.`,
+        ],
+      },
+      {
+        h: 'How to take part or keep the day at home',
+        p: [
+          `If you cannot travel to Sambalpur, you can keep the day quietly at home. Offer water, bael leaves and flowers to a Shiva lingam or picture, and say a short prayer for a happy and peaceful household. You can recite the Shiva Panchakshara Stotram, the Karpura Gauram verse or the Shiv Chalisa, and read the story to children. If you visit in person, plan ahead, since the main nights draw very large crowds, and follow the instructions of the local committee.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Sital Sasthi?',
+        a: 'It is a festival of western Odisha, centred on Sambalpur, that re-enacts the wedding of Lord Shiva and Goddess Parvati with a procession, rituals and folk performances.',
+      },
+      {
+        q: 'When is Sital Sasthi held?',
+        a: 'In the bright fortnight of Jyeshtha, around May or June, on the sixth lunar day. The date moves each year, so check the local committee or a panchang.',
+      },
+      {
+        q: 'Why is it called a winter festival?',
+        a: 'Locals in Sambalpur say that rain and cool weather follow the wedding of the gods, so the festival is called a winter festival even though it falls in the hot season.',
+      },
+      {
+        q: 'Who plays the parents of Parvati?',
+        a: 'A local family takes the role of the bride\'s parents and gives her hand in marriage, since Shiva is regarded as having no family of his own.',
+      },
+      {
+        q: 'How old is the festival?',
+        a: 'Sources differ. Some say about 400 years and some about 300 years. All agree that it began in Sambalpur.',
+      },
+    ],
+    related: {
+      stotrams: ['shiva-panchakshara-stotram', 'karpura-gauram', 'shiv-chalisa'],
+      guides: ['maha-shivaratri-guide', 'how-to-chant-shiva-mantra', 'nuakhai-western-odisha-guide', 'jagannath-ratha-yatra-puri-guide'],
+    },
+    sources: [
+      'Wikipedia, Sitalsasthi',
+      'Incredible India (Ministry of Tourism), Sital Sasthi',
+      'ETV Bharat, Odisha Sital Sasthi Yatra keeps dying art forms alive',
+      'Odia Samaj news report on the Sital Sasthi Yatra at Sambalpur',
+    ],
+  },
+
+  {
+    slug: 'chandan-yatra-puri-guide',
+    category: 'Odisha festivals',
+    title: 'Chandan Yatra at Puri: The 42-Day Sandalwood Festival of Lord Jagannath',
+    description:
+      'A guide to Chandan Yatra at Puri: the 42 days from Akshaya Tritiya, Bahara Chandana and Bhitara Chandana, the boat rides on Narendra Pokhari, the deities who take part and the link to Ratha Yatra.',
+    h1: 'Chandan Yatra at Puri: The Sandalwood Festival of Lord Jagannath',
+    intro:
+      'Chandan Yatra, also called Gandhalepana Yatra, is the longest festival at the Jagannath temple in Puri. It begins on Akshaya Tritiya and lasts 42 days, in two phases of 21 days each. Its purpose is to cool the deities in the heat of summer with sandalwood paste, and it begins on the same day that work starts on the chariots of the Ratha Yatra. This guide explains the two phases, the boat festival on the Narendra tank, who takes part and how the date is fixed.',
+    sections: [
+      {
+        h: 'What Chandan Yatra is',
+        p: [
+          `Chandana means sandalwood, and the festival is also called Gandhalepana, the smearing of fragrant paste. The idea is simple. Sandalwood is cooling, and the deities are anointed with it during the hottest weeks of the year. Devotees, including children, may take part by grinding sandalwood for the temple. The festival is held in the month of Vaishakha and begins on Akshaya Tritiya, the third day of the bright fortnight, so its date follows the Moon and moves from year to year. A panchang or the temple's announcement gives the day.`,
+          `The temple's own publications and news reports call it the longest festival in the state, since the whole observance runs for six weeks.`,
+        ],
+      },
+      {
+        h: 'The first phase: Bahara Chandana',
+        p: [
+          `The first 21 days are called Bahara Chandana, the outside Chandana, because the deities leave the temple. Representative images, not the great wooden deities, are carried in decorated palanquins from the Singhadwara, the Lion Gate, to the Narendra Pokhari, a large tank in Puri. Reports list the images that go out as Madanamohana, Bhudevi and Sridevi, and the young forms of Balabhadra and Krishna, who are often named Rama and Krushna, along with five Shiva lingas called the Pancha Pandavas. The names given for the five lingas are Lokanatha, Jameswara, Markandeya, Kapalamochana and Nilakantha.`,
+          `Along the route, the mathas, or monasteries, worship the deities and offer food, which is called Panti Bhoga. At the tank the images are bathed in sandalwood paste and scented water, and then they go out on the water in two decorated boats named Nanda and Bhadra. There are two trips a day, one by day called Dina Chapa and one at night called Rati Chapa, and temple dancers perform on the boats. The servitors known as the Kotha Karana accompany the deities with swords, as the reports describe. The first phase closes with the Bhaunri Yatra on its final day, marked by music and fireworks.`,
+        ],
+      },
+      {
+        h: 'The second phase: Bhitara Chandana',
+        p: [
+          `The remaining 21 days are Bhitara Chandana, the inside Chandana, held within the temple. The images are anointed inside and boat rides are limited to four occasions: the new moon night, the full moon night, and the sixth and eleventh days of the bright fortnight. Sources report that in the first week the large and small images of Radha Madhava are both covered with sandalwood paste, and in the second and third weeks only the small ones.`,
+        ],
+      },
+      {
+        h: 'The link with Ratha Yatra',
+        p: [
+          `Akshaya Tritiya is also the day on which construction of the three chariots for Ratha Yatra begins. So two long preparations start together: the cooling of the deities and the building of the chariots. Chandan Yatra and the later Snana Purnima, when the deities are bathed, are two steps in the same summer cycle that leads to the Ratha Yatra. Our guide to the Ratha Yatra explains the festival that follows.`,
+        ],
+      },
+      {
+        h: 'How the date is fixed and the names to know',
+        p: [
+          `Akshaya Tritiya is the third lunar day of the bright fortnight of Vaishakha, which usually falls in April or May. Since it is a tithi, the Gregorian date changes every year, and a panchang or the temple's announcement is the reliable guide. A few Odia terms help when reading reports: Bahara means outside and Bhitara means inside, Pokhari means pond, and Yatra means a festival journey or procession. The boat outings are named by time of day, Dina Chapa for the day trip and Rati Chapa for the night trip. The Odia name Gandhalepana refers to the smearing of fragrant paste, which is the heart of the festival.`,
+        ],
+      },
+      {
+        h: 'Visiting and observing',
+        p: [
+          `Evening boat festivals draw large crowds to the Narendra tank. If you plan to visit, check the dates with the temple administration and keep in mind that the tank area can be crowded, and that people have noted its condition after storms. At home, you can honour the festival by offering a little sandalwood paste or water to a picture of Lord Jagannath or Krishna, and by sharing a cool drink with your family or neighbours, which is a common devotional act in summer.`,
+        ],
+      },
+      {
+        h: 'What to chant',
+        p: [
+          `People commonly recite the Om Namo Bhagavate Vasudevaya mantra, the Krishna Vasudevaya mantra, or the Hare Krishna maha mantra at this time. Read the meaning first, and choose what you can say with attention.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'How long is Chandan Yatra?',
+        a: 'It lasts 42 days, in two phases of 21 days each, Bahara Chandana outside the temple and Bhitara Chandana inside.',
+      },
+      {
+        q: 'When does it start?',
+        a: 'On Akshaya Tritiya, the third day of the bright fortnight of Vaishakha. The date moves each year, so check a panchang or the temple.',
+      },
+      {
+        q: 'Who goes on the boats at Narendra Pokhari?',
+        a: 'Representative images of Madanamohana, Bhudevi, Sridevi and the young Balabhadra and Krishna, accompanied by five Shiva lingas called the Pancha Pandavas. The great deities do not leave the temple.',
+      },
+      {
+        q: 'Why is sandalwood used?',
+        a: 'Sandalwood is considered cooling, and the festival is held in peak summer to cool the deities. It is a devotional custom and not a medical claim.',
+      },
+      {
+        q: 'How is Chandan Yatra connected to Ratha Yatra?',
+        a: 'Chariot construction for the Ratha Yatra begins on the same day, Akshaya Tritiya.',
+      },
+    ],
+    related: {
+      stotrams: ['krishna-vasudevaya-mantra', 'hare-krishna-maha-mantra', 'vishnu-sahasranamam'],
+      guides: ['jagannath-ratha-yatra-puri-guide', 'krishna-janmashtami-guide', 'kartika-month-odisha-guide', 'dola-purnima-odisha-guide'],
+    },
+    sources: [
+      'Wikipedia, Chandan Yatra',
+      'Orissa Post, report on Chandan Yatra as the longest festival of the state',
+      'OdishaBytes, report on the first phase of Chandan Yatra ending with Bhaunri',
     ],
   },
 ];

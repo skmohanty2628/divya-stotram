@@ -32,7 +32,7 @@ export const durgaStotram = {
       },
       meaning: {
         en: 'O Goddess Narayani, you remove the suffering of those who seek refuge in you. I bow to you.',
-        hi: 'हे नारायणी देवी! आप शरण में आए दुखियों का उद्धार करती हैं। आपको नमस्कार।',
+        hi: 'हे नारायणी देवी! आप शरण में आए दीन और दुखी जनों की रक्षा में लगी रहती हैं और सबकी पीड़ा हरती हैं। आपको नमस्कार।',
         od: 'ହେ ନାରାୟଣୀ ଦେବୀ! ଆପଣ ଶରଣାଗତ ଦୁଃଖୀମାନଙ୍କୁ ରକ୍ଷା କରନ୍ତି। ଆପଣଙ୍କୁ ପ୍ରଣାମ।',
         te: 'శరణు వచ్చిన వారిని రక్షించే నారాయణీ దేవి, నీకు నమస్కారం.',
       }
@@ -43,7 +43,7 @@ export const durgaStotram = {
       type: 'shloka',
       num: 3,
       original: 'सर्वस्वरूपे सर्वेशे सर्वशक्तिसमन्विते। भयेभ्यस्त्राहि नो देवि दुर्गे देवि नमोऽस्तुते॥',
-      transliteration: 'Sarva Swarope Sarveshe Sarva Shakti Samanvite\nBhaye Bhyas Trahi No Devi Durge Devi Namostute',
+      transliteration: 'Sarva Swarope Sarveshe Sarva Shakti Samanvite\nBhayebhyas Trahi No Devi Durge Devi Namostute',
       script: {
         od: 'ସର୍ବସ୍ୱରୂପେ ସର୍ବେଶେ ସର୍ବଶକ୍ତି ସମନ୍ୱିତେ। ଭୟେଭ୍ୟସ୍ତ୍ରାହି ନୋ ଦେବୀ ଦୁର୍ଗେ ଦେବୀ ନମୋସ୍ତୁତେ॥',
         te: 'సర్వస్వరూపే సర్వేశే సర్వశక్తి సమన్వితే। భయేభ్యస్త్రాహి నో దేవి దుర్గే దేవి నమోస్తుతే॥',
@@ -68,7 +68,7 @@ export const durgaStotram = {
       },
       meaning: {
         en: 'When pleased, you remove all diseases; when displeased, you destroy desires. Those who take refuge in you are never destroyed.',
-        hi: 'प्रसन्न होने पर आप रोगों का नाश करती हैं, अप्रसन्न होने पर इच्छाओं को रोकती हैं। आपके शरण में आए कभी नष्ट नहीं होते।',
+        hi: 'प्रसन्न होने पर आप रोगों का नाश करती हैं, अप्रसन्न होने पर इच्छाओं को रोकती हैं। आपकी शरण में आए लोगों पर विपत्ति नहीं आती, और वे स्वयं दूसरों को आश्रय देने वाले बन जाते हैं।',
         od: 'ଆପଣ ପ୍ରସନ୍ନ ହେଲେ ସମସ୍ତ ରୋଗକୁ ଦୂର କରନ୍ତି, ଅପ୍ରସନ୍ନ ହେଲେ ଇଚ୍ଛାକୁ ରୋକନ୍ତି। ଆପଣଙ୍କ ଶରଣରେ ଆସିଥିବା କେବେ ବିନାଶ ହୁଅନ୍ତି ନାହିଁ।',
         te: 'నీవు సంతోషించినప్పుడు రోగాలను తొలగిస్తావు, కోపించినప్పుడు కోరికలను నిలిపివేస్తావు. నీ శరణులో ఉన్నవారు ఎప్పుడూ నశించరు.',
       }
@@ -140,7 +140,7 @@ export const durgaStotram = {
       },
       meaning: {
         en: 'The Goddess who is present in all beings as Peace (Shanti), salutations to her, salutations to her, salutations to her, again and again. 🙏',
-        hi: 'जो देवी सभी प्राणियों में शांति रूप से स्थित हैं, उन्हें नमस्कार, नमस्कार, नमस्कार, बारंबार। 🙏',
+        hi: 'जो देवी सभी प्राणियों में शांति रूप से स्थित हैं, उन्हें नमस्कार, नमस्कार, नमस्कार, बारंबार।',
         od: 'ଯେ ଦେବୀ ସମସ୍ତ ଭୂତମାନଙ୍କ ଭିତରେ ଶାନ୍ତିରୂପେ ବିରାଜମାନ, ସେହି ଦେବୀଙ୍କୁ ପୁନଃ ପୁନଃ ପ୍ରଣାମ। 🙏',
         te: 'అన్ని జీవులలో శాంతి రూపంలో ఉన్న దేవికి నమస్కారం, నమస్కారం, నమస్కారం, మళ్ళీ మళ్ళీ. 🙏',
       }

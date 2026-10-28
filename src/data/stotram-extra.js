@@ -148,4 +148,23 @@ export const STOTRAM_EXTRA = {
       { q: 'When is it usually recited?', a: 'On Mondays, on Pradosha, and on Maha Shivaratri are common, but it can be recited at any time.' },
     ],
   },
+  'sahana-vavatu-mantra': {
+    what: `Om Sahana Vavatu is a short Sanskrit prayer said by a teacher and a student together before they begin to study. It asks for protection, nourishment, shared effort, bright learning and freedom from quarrel, and ends with Om Shantih three times. The same invocation appears at the end of the Taittiriya Upanishad's Brahmavalli section and with the Katha Upanishad, and many schools and gurukulas open their classes with it. It is a prayer for a pair of people, so it is usually chanted aloud by a teacher and students in unison.`,
+    meaning: `Saha means together and nau means us two. Avatu asks that the divine protect, and bhunaktu asks that it nourish. Viryam karavavahai means that we two shall work with vigour. Tejasvi nau adhitam astu asks that what we have studied be bright and effective. Ma vidvishavahai means that we should not hate or quarrel with each other. The closing Om Shantih Shantih Shantih is read by tradition as peace in oneself, peace around us and peace from forces beyond our control.`,
+    benefits: [
+      'Short enough to learn in one sitting, so it suits children and beginners',
+      'A natural opening for a class, a study session or a reading of scripture',
+      'Teaches the habit of learning together and respecting the teacher',
+      'Can be chanted by a parent and child, or by any two people sharing a task',
+      'Pairs well with Sarve Bhavantu Sukhinah, which many groups chant at the end',
+    ],
+    bestTime: `Chant it at the start of a lesson or study hour, ideally after a short pause to settle. Once is enough for class use. At home, a student can say it before homework, and a teacher and student can say it together. There is no fixed number of repetitions.`,
+    faqs: [
+      { q: 'What does Om Sahana Vavatu mean?', a: 'May the divine protect us both, teacher and student. May it nourish us both. May we work together with energy, may our study be bright and effective, and may we never quarrel. Om, peace, peace, peace.' },
+      { q: 'Which Upanishad is it from?', a: 'The same invocation opens and closes sections of the Taittiriya Upanishad and is also attached to the Katha Upanishad. Sources name both, so the page does not claim a single origin.' },
+      { q: 'When should students chant it?', a: 'Before a lesson or study session. It is traditionally said by the teacher and student together at the start of study.' },
+      { q: 'Why is Shantih said three times?', a: 'Tradition reads the three as peace in oneself, peace in the surroundings and peace from outside forces.' },
+      { q: 'Can adults who are not students chant it?', a: 'Yes. It suits any shared work or learning, such as a study circle, a team project or a family reading.' },
+    ],
+  },
 };

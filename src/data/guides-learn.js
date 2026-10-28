@@ -982,64 +982,95 @@ export const GUIDES_LEARN = [
   {
     slug: 'hanuman-chalisa-history-tulsidas',
     category: 'Meaning and history',
-    title: 'Hanuman Chalisa: Who Wrote It, Its Structure and Language',
+    title: 'Hanuman Chalisa: Who Wrote It, Its Structure, Language and the Akbar Legend',
     description:
-      'The history of the Hanuman Chalisa: its traditional author Tulsidas, the Awadhi language, the forty verses and opening and closing couplets, and how it came to be one of the most recited prayers.',
-    h1: 'Hanuman Chalisa: Author, Structure and Language',
+      'The history of the Hanuman Chalisa: its traditional author Tulsidas and the disputed dates of his life, the Awadhi language, the 43 verses, how the poem is arranged, the Akbar legend, and how it became one of the most recited prayers.',
+    h1: 'Hanuman Chalisa: Author, Structure, Language and Legend',
     intro:
-      'The Hanuman Chalisa is one of the most widely recited devotional poems in the world. Millions of people know it by heart. This guide covers who wrote it, how it is built and why its language made it so popular.',
+      'The Hanuman Chalisa is one of the most widely recited devotional poems in the world, and millions of people know it by heart. This guide covers who wrote it, what is and is not known about its history, how its verses are arranged, the legend told about its composition and why its language made it so popular.',
     sections: [
       {
         h: 'Who wrote it?',
         p: [
-          `The Chalisa is traditionally attributed to Tulsidas, the sixteenth-century poet-saint who also wrote the Ramcharitmanas, the retelling of the Ramayana in Awadhi. The final verse names Tulsidas as the composer. Tulsidas is generally placed in the sixteenth and early seventeenth centuries, though the exact dates of his life are debated.`,
+          `The Chalisa is traditionally attributed to Tulsidas, the sixteenth-century poet-saint who also wrote the Ramcharitmanas, the retelling of the Ramayana in Awadhi. The final verse names Tulsidas as the composer. He spent most of his later life in Varanasi, where he died.`,
+          `The dates of his life are not settled. Tradition gives a birth year of 1503, while many modern scholars prefer a date nearer 1532. Most accounts agree that he died in 1623. He began the Ramcharitmanas in 1574, and he is credited with at least ten other works, among them the Vinaya Patrika, the Kavitavali, the Dohavali and the Gitavali.`,
+        ],
+      },
+      {
+        h: 'What is known about the attribution',
+        p: [
+          `The attribution to Tulsidas is the traditional view and is accepted by devotees and by most commentators. It is worth knowing, though, that the Chalisa was long left out of the printed collections of his works. One consequence noted by writers on the text is that no commentary on it existed before the 1980s. Indubhushan Ramayani wrote a first brief commentary, and the Hindi commentary Mahaviri by Rambhadracharya, published in 1983, is highly regarded by later scholars.`,
+          `This does not mean the attribution is wrong. It means that the Chalisa's fame came mainly through oral recitation, temple practice and cheap printed booklets, and less through scholarly editions. Anyone who wants to be careful should say that it is attributed to Tulsidas by tradition.`,
         ],
       },
       {
         h: 'Language and form',
         p: [
-          `The poem is in Awadhi, a dialect of Hindi spoken in the Ayodhya region, not in Sanskrit. That made it accessible to ordinary people. It is made of forty verses called chaupais, hence chalisa from chalis, forty, along with two opening couplets (dohas) and a closing doha. The simple rhymes make it easy to memorise.`,
+          `The poem is in Awadhi, a dialect of Hindi spoken in the region around Ayodhya, and not in Sanskrit. That made it accessible to ordinary people. The word chalisa comes from the Hindi chalis, meaning forty, and refers to the forty verses called chaupais, which are quatrains. In all, the poem has 43 verses: two opening dohas (couplets), the forty chaupais and one closing doha. The simple rhymes make it easy to memorise.`,
         ],
       },
       {
-        h: 'What it contains',
+        h: 'How the poem is arranged',
         p: [
-          `It opens with a prayer to the guru and an invocation of Hanuman. The verses then praise his strength and devotion, and recall episodes from the Ramayana: the leap across the ocean, the meeting with Sita in Lanka, the burning of Lanka, and the fetching of the Sanjeevani herb for Lakshmana. The closing verses ask for his protection and for a place in the heart where Rama, Lakshmana and Sita dwell.`,
+          `It opens with a prayer to the guru and an invocation of Hanuman, asking for a clear mind so that the poet can describe the glory of Rama. The first group of chaupais then praises Hanuman's form, knowledge, virtues and strength. The next group recalls episodes of his service to Rama: the leap across the ocean, the meeting with Sita in Lanka, the burning of Lanka and the fetching of the Sanjeevani herb that revived Lakshmana.`,
+          `Later verses speak of Hanuman as a guardian at Rama's door and a protector of those who take refuge. The final chaupais turn to the poet's own prayer, asking for Hanuman's grace and for him to dwell in the heart. The closing doha asks that Hanuman live in the heart together with Rama, Lakshmana and Sita. Commentators divide the verses into slightly different groups, so the exact verse ranges vary between books.`,
+        ],
+      },
+      {
+        h: 'The Akbar legend',
+        p: [
+          `A popular story says that Tulsidas wrote the Chalisa while held in prison for forty days at Fatehpur Sikri by the Mughal emperor Akbar, with each verse marking a day of captivity. In the story, a swarm of monkeys then overran the city, and Akbar released the poet after he prayed to Hanuman and the monkeys left. This is a traditional account and not established history, and sources that retell it present it that way.`,
+          `A related belief is that the Sankat Mochan Hanuman Temple in Varanasi, said to have been founded by Tulsidas, marks the spot where he saw Hanuman. Like the Akbar story, this is a tradition held by devotees.`,
         ],
       },
       {
         h: 'Why it is so widely recited',
         p: [
-          `Its short length, memorable rhythm and plain language make it easy to recite daily, in temples, at home and in times of worry. It is often recited on Tuesdays and Saturdays and on Hanuman Jayanti. See our Hanuman Jayanti guide and the full text with meaning in four languages.`,
+          `Its short length, memorable rhythm and plain language make it easy to recite daily, in temples, at home and in times of worry. It is often recited on Tuesdays and Saturdays and on Hanuman Jayanti. Popular recordings have also spread it widely, among them Hari Om Sharan's version from 1974 and a 1992 recording by Hariharan. See our Hanuman Jayanti guide and the full text with meaning in four languages.`,
         ],
       },
       {
         h: 'A note on claims',
         p: [
-          `You may see strong claims online about what reciting the Chalisa a set number of times will bring. These are matters of personal belief, not facts that can be tested. The poem is best read for its devotion, its story and its sense of courage and humility.`,
+          `You may see strong claims online about what reciting the Chalisa a set number of times will bring. These are matters of personal belief and not facts that can be tested. The poem is best read for its devotion, its story and its sense of courage and humility.`,
         ],
       },
     ],
     faqs: [
       {
         q: 'In what language is the Hanuman Chalisa?',
-        a: 'It is in Awadhi, an old dialect of Hindi.',
+        a: 'It is in Awadhi, an old dialect of Hindi spoken around Ayodhya.',
       },
       {
         q: 'How many verses does it have?',
-        a: 'Forty chaupai verses, plus two opening dohas and one closing doha.',
+        a: 'Forty chaupai verses, plus two opening dohas and one closing doha, which makes 43 in all.',
       },
       {
         q: 'Who wrote it?',
-        a: 'Tradition attributes it to the poet-saint Tulsidas.',
+        a: 'Tradition attributes it to the poet-saint Tulsidas, and the final verse names him.',
+      },
+      {
+        q: 'When did Tulsidas live?',
+        a: 'His birth year is disputed, with tradition saying 1503 and many modern scholars preferring about 1532. Most accounts agree on 1623 for his death.',
+      },
+      {
+        q: 'Is the Akbar prison story true?',
+        a: 'It is a traditional story. Retellings present it as legend, and it should not be taken as documented history.',
+      },
+      {
+        q: 'What does the word chalisa mean?',
+        a: 'It comes from the Hindi word for forty, referring to the forty chaupai verses.',
       },
     ],
     related: {
       stotrams: ['hanuman-chalisa', 'bajrang-baan'],
-      guides: ['hanuman-chalisa-benefits', 'how-to-chant-hanuman-chalisa'],
+      guides: ['hanuman-chalisa-benefits', 'how-to-chant-hanuman-chalisa', 'hanuman-jayanti-guide'],
     },
     sources: [
       'Tulsidas, Hanuman Chalisa (final verse naming the author)',
+      'Wikipedia, Hanuman Chalisa',
+      'Encyclopedia.com, entry on Tulsidas',
+      'Radha Krishna Temple, study guide to the Hanuman Chalisa',
       'Lutgendorf, P., Hanuman\'s Tale: The Messages of a Divine Monkey, Oxford University Press, 2007',
     ],
   },
@@ -2478,6 +2509,188 @@ export const GUIDES_LEARN = [
       'Wikipedia, Chandan Yatra',
       'Orissa Post, report on Chandan Yatra as the longest festival of the state',
       'OdishaBytes, report on the first phase of Chandan Yatra ending with Bhaunri',
+    ],
+  },
+  {
+    slug: 'savitri-brata-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Savitri Brata in Odisha: Story, Silapua Puja and Traditions of Savitri Amavasya',
+    description:
+      'A guide to Savitri Brata (Sabitri Brata), the Jyeshtha new moon fast observed by married women in Odisha: the story of Savitri and Satyavan, the worship of the silapua, the fruits and flowers offered, and how the day ends.',
+    h1: 'Savitri Brata in Odisha: Meaning and Traditions',
+    intro:
+      'Savitri Brata, written Sabitri Brata in Odia, is a day of fasting and prayer kept by married women on the new moon of the month of Jyeshtha. It is built around the story of Savitri, who followed Yama, the god of death, and won back her husband Satyavan. This guide explains the story, the rituals followed in Odisha, how the day is fixed and how customs differ from region to region.',
+    sections: [
+      {
+        h: 'When it is observed',
+        p: [
+          `Savitri Brata falls on the Amavasya, the new moon day, of the month of Jyeshtha, which usually brings it to May or June. It is also called Savitri Amavasya. In Odisha, Bihar, Uttar Pradesh and Nepal the vrata is kept on this new moon. In parts of western and southern India, including Maharashtra, Goa, Gujarat and Karnataka, a related observance called Vat Purnima is kept on the full moon of the same month instead.`,
+          `The Gregorian date changes every year, so this guide does not quote one. Follow your family's Odia panjika or the official Odisha holiday list, since two calendars can differ by a day when the Amavasya tithi starts in one afternoon and ends the next.`,
+        ],
+      },
+      {
+        h: 'The story of Savitri and Satyavan',
+        p: [
+          `Savitri was the daughter of King Ashvapati. When it was time for her marriage she chose Satyavan, a prince who lived in the forest with his blind father Dyumatsena after the family lost their kingdom. A sage told her that Satyavan was fated to die within a year. She married him anyway and lived with him in the forest.`,
+          `On the appointed day Satyavan collapsed while cutting wood. Yama came to take his soul, and Savitri followed him as he left. Yama spoke to her kindly and granted her boons, but not the life of her husband. She answered with wisdom and steadiness until Yama, pleased, gave Satyavan back to her. In the traditional telling the couple regained the kingdom and Dyumatsena regained his sight.`,
+          `The story is found in the Mahabharata, where it is told to Yudhishthira as an example of a wife's devotion. The vrata rules as followed today are drawn from the Puranas, especially the Skanda Purana, and later texts built on it.`,
+        ],
+      },
+      {
+        h: 'How the day is kept in Odisha',
+        p: [
+          `Married women rise early and bathe, then dress in new or brightly coloured clothes with bangles and vermilion on the forehead. Some avoid wearing black or white on this day. The fast is kept through the day, and reports describe it in different ways: some women eat only fruit, while others keep a stricter fast until evening.`,
+          `The distinctive Odia feature is the worship of the silapua, the grinding stone used in the kitchen. Women wash it, decorate it with turmeric and vermilion, drape it with a new cloth and treat it as a form of Savitri. Nine kinds of flowers and nine kinds of fruit are commonly offered. Some women sit under a banyan tree or tuck a banyan leaf into their hair, recalling the tradition that Savitri gained strength in its shade.`,
+          `Hearing the katha, the story of Savitri and Satyavan, is considered the heart of the vrata. A family elder or a local priest tells it, and the brata is said to be complete only after it has been heard. Women then seek the blessings of their husbands and elders and eat the bhog, the offered food.`,
+        ],
+      },
+      {
+        h: 'The sacred thread and other details that vary',
+        p: [
+          `One Odisha report describes a sacred thread tied to the wrist during the day as a sign of marital protection. Other accounts of the day do not mention it, so it is best treated as a custom of some households and temples and not as a universal rule.`,
+          `Foods, the number of offerings and the strictness of the fast all depend on the family and the village. Published sources give the main outline but not a single fixed method, so a woman keeping the brata for the first time is best advised by an elder in her own family or the priest of her local temple.`,
+        ],
+      },
+      {
+        h: 'What the vrata means',
+        p: [
+          `Traditionally the brata is kept for the long life and well-being of the husband. Many Odia families also read it as a story about courage, patience and clear thinking, because Savitri wins by speaking calmly to Yama and not by force. The silapua, an everyday kitchen object, is a reminder that the sacred is present in ordinary household life.`,
+          `The brata is a matter of faith and tradition. Nothing in it should be read as a promise of a result, and no one needs to fast beyond their health. Those who are pregnant, ill or elderly are free to keep a lighter fast, and prayer and hearing the story are enough.`,
+        ],
+      },
+      {
+        h: 'A simple way to keep the day at home',
+        p: [
+          `Start with a bath and clean clothes, set up a clean place for the silapua or a picture of Savitri and Satyavan, and offer flowers, fruit and a lamp. Hear or read the katha, either from an elder or from a short printed version. Mantras you already chant, such as the Gayatri Mantra or a mantra to your family deity, can be added. End by receiving the blessings of elders and sharing the prasad with the family.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Savitri Brata?',
+        a: 'It is a fast kept by married women on the new moon of Jyeshtha, based on the story of Savitri, who brought her husband Satyavan back from Yama.',
+      },
+      {
+        q: 'Why is the silapua worshipped?',
+        a: 'In Odisha women wash and decorate the grinding stone and treat it as a form of Savitri. Sources describe this as a regional custom.',
+      },
+      {
+        q: 'Is the date the same every year?',
+        a: 'No. It follows the Jyeshtha Amavasya tithi, so the date changes. Check your Odia panjika or the official holiday list.',
+      },
+      {
+        q: 'Is it the same as Vat Purnima?',
+        a: 'They share the story and the purpose. Vat Purnima is kept on the full moon of Jyeshtha in western and southern India, while Odisha keeps the new moon.',
+      },
+      {
+        q: 'Do women have to fast completely?',
+        a: 'Practice differs. Some eat only fruit and some keep a stricter fast, and people who are unwell can keep a lighter fast. Hearing the katha is the central part.',
+      },
+      {
+        q: 'Which mantras can be chanted?',
+        a: 'There is no fixed mantra in the sources. Many families chant the Gayatri Mantra or a mantra to their family deity while offering flowers.',
+      },
+    ],
+    related: {
+      stotrams: ['gayatri-mantra', 'durga-stotram', 'maha-mrityunjaya-mantra'],
+      guides: ['manabasa-gurubara-odisha-guide', 'raja-parba-odisha-guide', 'best-mantra-for-marriage', 'mantra-chanting-rules-faq'],
+    },
+    sources: [
+      'Wikipedia, Savitri Vrata',
+      'OdishaTV, report on the history, significance and puja rituals of Savitri Brata',
+      'Sambad English, report on Savitri Vrat in Odisha',
+    ],
+  },
+  {
+    slug: 'maha-bishuba-pana-sankranti-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Maha Bishuba Pana Sankranti: Odia New Year, Pana, Jhamu Yatra and Traditions',
+    description:
+      'A guide to Maha Bishuba Sankranti, also called Pana Sankranti, the Odia New Year: how the date is fixed by the sun entering Mesha, the pana drink, the pot over the Tulsi plant, Hanuman worship, Jhamu Yatra and Danda Nata.',
+    h1: 'Maha Bishuba Pana Sankranti: The Odia New Year',
+    intro:
+      'Maha Bishuba Sankranti, also called Pana Sankranti, is the traditional new year of the Odia people. It marks the day the sun enters the sign Mesha (Aries) and the start of a new almanac. The festival is named after pana, a cooling sweet drink offered to the deities. This guide explains how the day is fixed, what is eaten and offered, and the temple and village traditions linked with it.',
+    sections: [
+      {
+        h: 'How the date is fixed',
+        p: [
+          `Maha Bishuba Sankranti falls on the first day of the solar month of Mesha, when the sun moves into Aries. This usually brings it to 13 or 14 April. Because it follows the sun and not the moon, the date moves very little from year to year, unlike lunar festivals such as Dola Purnima.`,
+          `The Odia solar new year is celebrated under other names across South and Southeast Asia, including Vaisakhi, Bohag Bihu, Pohela Boishakh, Puthandu and Vishu. Some communities that follow lunar calendars keep their new year weeks earlier, as Ugadi and Gudi Padwa.`,
+        ],
+      },
+      {
+        h: 'Pana, the drink that names the day',
+        p: [
+          `Pana is a cool, sweet drink made in the heat of April. Its base is the pulp of the bael or wood apple, mixed with grated coconut, milk, yogurt or chhena (fresh cottage cheese), sugar or jaggery and fruit. One regional account adds ginger and black pepper for flavour. The recipe differs between homes, so there is no single fixed form.`,
+          `Pana is offered to the deities first and then shared. At the Jagannath Temple in Puri, pana and chhatua, a flour-based sweet, are offered to the deities. Chhatua is also eaten in many homes across the state on this day.`,
+        ],
+      },
+      {
+        h: 'The pot over the Tulsi plant',
+        p: [
+          `A well-known household custom is to hang a small earthen pot with a tiny hole in its base above the Tulsi plant in the courtyard. The pot is filled with water or pana, and it drips slowly onto the plant through the summer. It is refilled each day. One account calls this ritual Basundhara Theki, while another describes the same pot without that name, so the term is best treated as a local usage. The dripping water is read as a prayer for rain, and a small leafy canopy sometimes shields the plant from the heat.`,
+        ],
+      },
+      {
+        h: 'Bath, prayer and the new Panji',
+        p: [
+          `Many people bathe early in a river, pond or the sea and offer water to the sun, sometimes reciting the Gayatri Mantra. Others visit temples, give alms, hold a havan or keep a fast. The new Panji, the Odia almanac for the year, comes into effect on this day. It was first offered to the deities earlier during Dola Purnima, and families use it to plan the year's rituals and auspicious dates.`,
+        ],
+      },
+      {
+        h: 'Hanuman, Shakti and the temples',
+        p: [
+          `Many Odia Hindus hold that Hanuman was born on this day, so temples of Hanuman are visited along with those of Shiva and Surya. Shakti temples also draw crowds, among them Taratarini, Cuttack Chandi, Biraja, Samaleswari and Sarala. Because Hanuman is honoured on this day, the Hanuman Chalisa is often recited, although other regions place Hanuman Jayanti on a different date, as explained in our Hanuman Jayanti guide.`,
+        ],
+      },
+      {
+        h: 'Jhamu Yatra and Danda Nata',
+        p: [
+          `Jhamu Yatra is a fire-walking rite. At the Sarala Temple in Jagatsinghpur, devotees and priests walk across burning coals as a penance and to fulfil vows, and some pierce their bodies as part of the vow. In southern Odisha the Jhamu Yatra is tied to Danda Nata, an old performance tradition whose performers, called Dandua, bathe in ponds and walk over hot charcoal. In many places the Danda season runs for a fortnight or a month and ends on Pana Sankranti.`,
+          `The festival has local names too. Northern Odisha calls it Chadak Parba and the south knows it as Meru Yatra. These are physically demanding vows taken by trained or experienced participants, and visitors should watch from a safe distance and not try them.`,
+        ],
+      },
+      {
+        h: 'Keeping the day at home',
+        p: [
+          `A simple observance is to clean the house, bathe early, offer water to the sun, make a small amount of pana and offer it with chhatua, banana and coconut to the family deity, and hang the pot over the Tulsi plant. Open the new calendar, note the year's major dates and share the pana with neighbours and elders.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Maha Bishuba Sankranti?',
+        a: 'It is the Odia New Year, kept when the sun enters Mesha, usually on 13 or 14 April. It is also called Pana Sankranti.',
+      },
+      {
+        q: 'Why is it called Pana Sankranti?',
+        a: 'Because pana, a sweet cooling drink made with bael and other ingredients, is offered to the deities and shared on this day.',
+      },
+      {
+        q: 'Why is a pot hung over the Tulsi plant?',
+        a: 'The pot drips water or pana on the plant through the summer. It is read as a prayer for rain and care for the plant in the heat.',
+      },
+      {
+        q: 'Is it also Hanuman Jayanti?',
+        a: 'Many Odia Hindus believe Hanuman was born on this day. Other regions observe Hanuman Jayanti on different dates, so check local practice.',
+      },
+      {
+        q: 'What is Jhamu Yatra?',
+        a: 'A fire-walking vow, best known at the Sarala Temple, where participants walk across hot coals. It is done by experienced participants and visitors should only watch.',
+      },
+      {
+        q: 'Does the date change each year?',
+        a: 'Only slightly. It follows the sun entering Mesha, so it falls on 13 or 14 April in most years.',
+      },
+    ],
+    related: {
+      stotrams: ['hanuman-chalisa', 'aditya-hridayam', 'gayatri-mantra'],
+      guides: ['hanuman-jayanti-guide', 'dola-purnima-odisha-guide', 'makar-sankranti-odisha-guide', 'chandan-yatra-puri-guide'],
+    },
+    sources: [
+      'Wikipedia, Maha Bishuba Sankranti',
+      'Odisha Connect, report on Maha Bishuba Sankranti as the Odia New Year',
+      'NewsD, report on Maha Bisuba Pana Sankranti',
     ],
   },
 ];

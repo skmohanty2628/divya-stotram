@@ -31,10 +31,10 @@ export const durgaStotram = {
         te: 'శరణాగత దీనార్త పరిత్రాణ పరాయణే। సర్వస్యార్తిహరే దేవి నారాయణీ నమోస్తుతే॥',
       },
       meaning: {
-        en: 'O Goddess Narayani, you remove the suffering of those who seek refuge in you. I bow to you.',
+        en: 'O Goddess Narayani, you are devoted to protecting the distressed who come to you for refuge, and you take away the pain of all. I bow to you.',
         hi: 'हे नारायणी देवी! आप शरण में आए दीन और दुखी जनों की रक्षा में लगी रहती हैं और सबकी पीड़ा हरती हैं। आपको नमस्कार।',
-        od: 'ହେ ନାରାୟଣୀ ଦେବୀ! ଆପଣ ଶରଣାଗତ ଦୁଃଖୀମାନଙ୍କୁ ରକ୍ଷା କରନ୍ତି। ଆପଣଙ୍କୁ ପ୍ରଣାମ।',
-        te: 'శరణు వచ్చిన వారిని రక్షించే నారాయణీ దేవి, నీకు నమస్కారం.',
+        od: 'ହେ ନାରାୟଣୀ ଦେବୀ! ଆପଣ ଶରଣକୁ ଆସିଥିବା ଦୀନ ଓ ଦୁଃଖୀ ଲୋକଙ୍କ ରକ୍ଷାରେ ନିୟୋଜିତ ଏବଂ ସମସ୍ତଙ୍କ ପୀଡ଼ା ହରଣ କରନ୍ତି। ଆପଣଙ୍କୁ ପ୍ରଣାମ।',
+        te: 'శరణు వచ్చిన దీనులను, బాధితులను రక్షించడంలో నిమగ్నమై అందరి బాధను హరించే నారాయణీ దేవి, నీకు నమస్కారం.',
       }
     },
 
@@ -67,10 +67,10 @@ export const durgaStotram = {
         te: 'రోగానశేషానపహంసి తుష్టా రుష్టా తు కామాన్ సకలానభీష్టాన్। త్వామాశ్రితానాం న విపన్నరాణాం త్వామాశ్రితా హ్యాశ్రయతాం ప్రయాంతి॥',
       },
       meaning: {
-        en: 'When pleased, you remove all diseases; when displeased, you destroy desires. Those who take refuge in you are never destroyed.',
+        en: 'When pleased, you remove all diseases; when displeased, you destroy desires. Those who take refuge in you meet no calamity, and they themselves become a refuge for others.',
         hi: 'प्रसन्न होने पर आप रोगों का नाश करती हैं, अप्रसन्न होने पर इच्छाओं को रोकती हैं। आपकी शरण में आए लोगों पर विपत्ति नहीं आती, और वे स्वयं दूसरों को आश्रय देने वाले बन जाते हैं।',
-        od: 'ଆପଣ ପ୍ରସନ୍ନ ହେଲେ ସମସ୍ତ ରୋଗକୁ ଦୂର କରନ୍ତି, ଅପ୍ରସନ୍ନ ହେଲେ ଇଚ୍ଛାକୁ ରୋକନ୍ତି। ଆପଣଙ୍କ ଶରଣରେ ଆସିଥିବା କେବେ ବିନାଶ ହୁଅନ୍ତି ନାହିଁ।',
-        te: 'నీవు సంతోషించినప్పుడు రోగాలను తొలగిస్తావు, కోపించినప్పుడు కోరికలను నిలిపివేస్తావు. నీ శరణులో ఉన్నవారు ఎప్పుడూ నశించరు.',
+        od: 'ଆପଣ ପ୍ରସନ୍ନ ହେଲେ ସମସ୍ତ ରୋଗକୁ ଦୂର କରନ୍ତି, ଅପ୍ରସନ୍ନ ହେଲେ ଇଚ୍ଛାକୁ ରୋକନ୍ତି। ଆପଣଙ୍କ ଶରଣରେ ଆସିଥିବା ଲୋକଙ୍କ ଉପରେ ବିପଦ ଆସେ ନାହିଁ, ଏବଂ ସେମାନେ ନିଜେ ଅନ୍ୟମାନଙ୍କୁ ଆଶ୍ରୟ ଦିଅନ୍ତି।',
+        te: 'నీవు సంతోషించినప్పుడు రోగాలను తొలగిస్తావు, కోపించినప్పుడు కోరికలను నిలిపివేస్తావు. నీ శరణు పొందినవారికి ఆపద రాదు, వారే ఇతరులకు ఆశ్రయం ఇచ్చేవారు అవుతారు.',
       }
     },
 
@@ -99,8 +99,8 @@ export const durgaStotram = {
       original: 'या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता। नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥',
       transliteration: 'Ya Devi Sarva Bhooteshu Shakti Rupena Samsthita\nNamas Tasyai Namas Tasyai Namas Tasyai Namo Namah',
       script: {
-        od: 'ୟା ଦେବୀ ସର୍ବ ଭୂତେଷୁ ଶକ୍ତି ରୂପେଣ ସଂସ୍ଥିତା। ନମସ୍ ତସ୍ୟୈ ନମସ୍ ତସ୍ୟୈ ନମସ୍ ତସ୍ୟୈ ନମୋ ନମଃ॥',
-        te: 'యా దేవీ సర్వ భూతేషు శక్తి రూపేణ సంస్థితా। నమస్తస్యై నమస్తస్యై నమస్తస్యై నమో నమః॥',
+        od: 'ୟା ଦେବୀ ସର୍ବଭୂତେଷୁ ଶକ୍ତିରୂପେଣ ସଂସ୍ଥିତା। ନମସ୍ତସ୍ୟୈ ନମସ୍ତସ୍ୟୈ ନମସ୍ତସ୍ୟୈ ନମୋ ନମଃ॥',
+        te: 'యా దేవీ సర్వభూతేషు శక్తిరూపేణ సంస్థితా। నమస్తస్యై నమస్తస్యై నమస్తస్యై నమో నమః॥',
       },
       meaning: {
         en: 'The Goddess who is present in all beings as Power (Shakti), salutations to her, salutations to her, salutations to her, again and again.',
@@ -117,8 +117,8 @@ export const durgaStotram = {
       original: 'या देवी सर्वभूतेषु मातृरूपेण संस्थिता। नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥',
       transliteration: 'Ya Devi Sarva Bhooteshu Matri Rupena Samsthita\nNamas Tasyai Namas Tasyai Namas Tasyai Namo Namah',
       script: {
-        od: 'ୟା ଦେବୀ ସର୍ବ ଭୂତେଷୁ ମାତୃ ରୂପେଣ ସଂସ୍ଥିତା। ନମସ୍ ତସ୍ୟୈ ନମସ୍ ତସ୍ୟୈ ନମସ୍ ତସ୍ୟୈ ନମୋ ନମଃ॥',
-        te: 'యా దేవీ సర్వ భూతేషు మాతృ రూపేణ సంస్థితా। నమస్తస్యై నమస్తస్యై నమస్తస్యై నమో నమః॥',
+        od: 'ୟା ଦେବୀ ସର୍ବଭୂତେଷୁ ମାତୃରୂପେଣ ସଂସ୍ଥିତା। ନମସ୍ତସ୍ୟୈ ନମସ୍ତସ୍ୟୈ ନମସ୍ତସ୍ୟୈ ନମୋ ନମଃ॥',
+        te: 'యా దేవీ సర్వభూతేషు మాతృరూపేణ సంస్థితా। నమస్తస్యై నమస్తస్యై నమస్తస్యై నమో నమః॥',
       },
       meaning: {
         en: 'The Goddess who is present in all beings as the Mother, salutations to her, salutations to her, salutations to her, again and again.',
@@ -135,14 +135,14 @@ export const durgaStotram = {
       original: 'या देवी सर्वभूतेषु शान्तिरूपेण संस्थिता। नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥',
       transliteration: 'Ya Devi Sarva Bhooteshu Shanti Rupena Samsthita\nNamas Tasyai Namas Tasyai Namas Tasyai Namo Namah',
       script: {
-        od: 'ୟା ଦେବୀ ସର୍ବ ଭୂତେଷୁ ଶାନ୍ତି ରୂପେଣ ସଂସ୍ଥିତା। ନମସ୍ ତସ୍ୟୈ ନମସ୍ ତସ୍ୟୈ ନମସ୍ ତସ୍ୟୈ ନମୋ ନମଃ॥',
-        te: 'యా దేవీ సర్వ భూతేషు శాంతి రూపేణ సంస్థితా। నమస్తస్యై నమస్తస్యై నమస్తస్యై నమో నమః॥',
+        od: 'ୟା ଦେବୀ ସର୍ବଭୂତେଷୁ ଶାନ୍ତିରୂପେଣ ସଂସ୍ଥିତା। ନମସ୍ତସ୍ୟୈ ନମସ୍ତସ୍ୟୈ ନମସ୍ତସ୍ୟୈ ନମୋ ନମଃ॥',
+        te: 'యా దేవీ సర్వభూతేషు శాంతిరూపేణ సంస్థితా। నమస్తస్యై నమస్తస్యై నమస్తస్యై నమో నమః॥',
       },
       meaning: {
-        en: 'The Goddess who is present in all beings as Peace (Shanti), salutations to her, salutations to her, salutations to her, again and again. 🙏',
+        en: 'The Goddess who is present in all beings as Peace (Shanti), salutations to her, salutations to her, salutations to her, again and again.',
         hi: 'जो देवी सभी प्राणियों में शांति रूप से स्थित हैं, उन्हें नमस्कार, नमस्कार, नमस्कार, बारंबार।',
-        od: 'ଯେ ଦେବୀ ସମସ୍ତ ଭୂତମାନଙ୍କ ଭିତରେ ଶାନ୍ତିରୂପେ ବିରାଜମାନ, ସେହି ଦେବୀଙ୍କୁ ପୁନଃ ପୁନଃ ପ୍ରଣାମ। 🙏',
-        te: 'అన్ని జీవులలో శాంతి రూపంలో ఉన్న దేవికి నమస్కారం, నమస్కారం, నమస్కారం, మళ్ళీ మళ్ళీ. 🙏',
+        od: 'ଯେ ଦେବୀ ସମସ୍ତ ଭୂତମାନଙ୍କ ଭିତରେ ଶାନ୍ତିରୂପେ ବିରାଜମାନ, ସେହି ଦେବୀଙ୍କୁ ପୁନଃ ପୁନଃ ପ୍ରଣାମ।',
+        te: 'అన్ని జీవులలో శాంతి రూపంలో ఉన్న దేవికి నమస్కారం, నమస్కారం, నమస్కారం, మళ్ళీ మళ్ళీ.',
       }
     },
   ]

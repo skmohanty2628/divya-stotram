@@ -433,6 +433,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'sahana-vavatu-mantra',
+    title: {
+      en: 'Om Sahana Vavatu Mantra',
+      hi: 'ॐ सह नाववतु मन्त्र',
+      od: 'ଓଁ ସହ ନାବବତୁ ମନ୍ତ୍ର',
+      te: 'ఓం సహ నావవతు మంత్రం',
+    },
+    deity: 'All Beings',
+    deityEmoji: '🕉️',
+    deityIcon: '',
+    description: {
+      en: 'Om Sahana Vavatu, the shanti mantra of teacher and student from the Taittiriya and Katha Upanishads, with meaning in English, Hindi, Odia and Telugu and a chanting video',
+      hi: 'ॐ सह नाववतु, तैत्तिरीय और कठ उपनिषद् का गुरु-शिष्य शान्ति मन्त्र, अर्थ सहित',
+      od: 'ଓଁ ସହ ନାବବତୁ, ତୈତ୍ତିରୀୟ ଓ କଠ ଉପନିଷଦର ଗୁରୁ-ଶିଷ୍ୟ ଶାନ୍ତି ମନ୍ତ୍ର, ଅର୍ଥ ସହିତ',
+      te: 'ఓం సహ నావవతు, తైత్తిరీయ మరియు కఠ ఉపనిషత్తులలోని గురు శిష్యుల శాంతి మంత్రం, అర్థంతో',
+    },
+    color: 'from-slate-900 to-indigo-950',
+    accent: '#a9b8ff',
+    youtubeId: 'K3N0A9nDn-I',
+    verseCount: 1,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

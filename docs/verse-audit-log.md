@@ -71,3 +71,10 @@ One line per audit. Rotation: every stotram in every language (Hindi/Devanagari,
 - Attribution: both sources carry a colophon naming Shankaracharya; the page says the attribution is traditional. The mantra namah shivaya appearing in the Sri Rudram is stated from general knowledge, not checked against a chapter and verse here.
 - Odia and Telugu scripts: converted from the Devanagari by Unicode offset, then converted back and compared. All 6 verses match.
 - YouTube: id NHBJn0KxWbU, "Shiva Stotra | Shiva Panchakshara Stotra with Lyrics (Full Track)", channel Anandmurti Gurumaa, 287 seconds, about 11.7 million views, embeddable, oEmbed 200. Alternative checked: xFvfdjw2eno (Nova Spiritual India, 288 seconds).
+
+## 2026-10-28: durga-stotram, Odia
+- Method: Odia text back-converted to Devanagari by Unicode offset (with folding) and compared with the Hindi original audited on 2026-10-27. All 8 verses match; the only difference is the nasal convention in verse 1. The vignanam.org Odia edition of Devi Mahatmya chapter 11 was read as a second reference; it is noisy but agrees on the words, and uses the same spelling conventions seen before (va written with the Odia va-like sign, full nasal versus anusvara).
+- Fixed: stray spaces after the halant in verses 6 to 8 (the hymn reads as joined words in the Hindi original), so "ସର୍ବ ଭୂତେଷୁ" became "ସର୍ବଭୂତେଷୁ", "ଶକ୍ତି/ମାତୃ/ଶାନ୍ତି ରୂପେଣ" became one word each and "ନମସ୍ ତସ୍ୟୈ" became "ନମସ୍ତସ୍ୟୈ". The same spacing was fixed in the Telugu text of those verses.
+- Fixed: Odia, Telugu and English meanings for verse 2 and verse 4 now follow the corrected Hindi meanings (verse 4: those who take refuge meet no calamity and become a refuge for others). Emoji removed from the verse 8 meanings in all languages.
+- Accepted variants: ଓଁ-style avagraha omitted in "ନମୋସ୍ତୁତେ" (matches the Hindi original on the site); nasal convention in verse 1.
+- Needs human check: none open. Next in rotation: durga-stotram in Telugu.

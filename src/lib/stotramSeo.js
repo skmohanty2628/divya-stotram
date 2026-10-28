@@ -102,6 +102,11 @@ const SEO_COPY = {
     description:
       'Read Shiva Panchakshara Stotram (Nagendraharaya Trilochanaya) in English, Hindi, Odia and Telugu with meaning, the five syllables Na Ma Shi Va Ya, when to recite it, and a video to follow along.',
   },
+  'sahana-vavatu-mantra': {
+    title: 'Om Sahana Vavatu Mantra in English, Hindi, Odia & Telugu with Meaning',
+    description:
+      'Read Om Sahana Vavatu, the teacher and student shanti mantra from the Upanishads, in English, Hindi, Odia and Telugu with meaning, when to chant it before study, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

@@ -457,6 +457,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'vakratunda-mahakaya-mantra',
+    title: {
+      en: 'Vakratunda Mahakaya Mantra',
+      hi: 'वक्रतुण्ड महाकाय मन्त्र',
+      od: 'ବକ୍ରତୁଣ୍ଡ ମହାକାୟ ମନ୍ତ୍ର',
+      te: 'వక్రతుండ మహాకాయ మంత్రం',
+    },
+    deity: 'Ganesha',
+    deityEmoji: 'ᬒᬁ',
+    deityIcon: '',
+    description: {
+      en: 'Vakratunda Mahakaya Suryakoti Samaprabha, the Ganesha shloka recited before any new task, with meaning in English, Hindi, Odia and Telugu and a chanting video',
+      hi: 'वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ, किसी भी कार्य से पहले बोला जाने वाला गणेश श्लोक, अर्थ सहित',
+      od: 'ବକ୍ରତୁଣ୍ଡ ମହାକାୟ ସୂର୍ୟକୋଟି ସମପ୍ରଭ, ଯେକୌଣସି କାମ ଆରମ୍ଭ ପୂର୍ବରୁ ପାଠ କରାଯାଉଥିବା ଗଣେଶ ଶ୍ଳୋକ, ଅର୍ଥ ସହିତ',
+      te: 'వక్రతుండ మహాకాయ సూర్యకోటి సమప్రభ, ఏ పనైనా ప్రారంభించే ముందు చదివే గణేశ శ్లోకం, అర్థంతో',
+    },
+    color: 'from-orange-950 to-amber-950',
+    accent: '#f39c12',
+    youtubeId: '2Jt1HQe67jU',
+    verseCount: 1,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

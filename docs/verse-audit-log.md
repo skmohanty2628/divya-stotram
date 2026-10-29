@@ -78,3 +78,17 @@ One line per audit. Rotation: every stotram in every language (Hindi/Devanagari,
 - Fixed: Odia, Telugu and English meanings for verse 2 and verse 4 now follow the corrected Hindi meanings (verse 4: those who take refuge meet no calamity and become a refuge for others). Emoji removed from the verse 8 meanings in all languages.
 - Accepted variants: ଓଁ-style avagraha omitted in "ନମୋସ୍ତୁତେ" (matches the Hindi original on the site); nasal convention in verse 1.
 - Needs human check: none open. Next in rotation: durga-stotram in Telugu.
+
+## 2026-10-29: durga-stotram, Telugu
+- Method: Telugu text back-converted to Devanagari by Unicode offset (with folding) and compared with the audited Hindi original. All 8 verses match, apart from two script conventions: the Telugu retroflex la used in "mangala" (verse 1) and a final anusvara in "sukham" (verse 5).
+- Second and third references: shubhpanchang.com (Telugu page for the Durga stuti mantra, covers verses 1 and 3) and vignanam.org (Telugu pages for Devi Mahatmya chapter 11, chapter 5 and the Argala Stotra). Verses 1 to 3 and 6 to 8 agree word for word with the site once spelling conventions are folded.
+- Accepted variants, not changed: "mangala" is spelled with the retroflex la on vignanam.org and with the plain la on shubhpanchang.com, so both spellings are in use. vignanam.org writes "tryambake" as "trayambake" and drops letters in verse 4 ("kaama", "tvamashrita shrayatam"), which are print errors against the Hindi original, so the site's "hyashrayatam" form stays. vignanam.org writes long u in "sarvabhuteshu" in chapter 5, which is a typo. Verse 5: the Argala text reads "dehi devi param sukham" where the site and drikpanchang.com read "dehi me paramam sukham" (already logged on 2026-10-27).
+- Fixed: Telugu meaning of verse 5 now includes rupam (beauty), which the English, Hindi and Odia meanings already had. English transliteration of verse 4 checked: "Tvaam" (long a) matches the Devanagari.
+- Needs human check: none open. Next in rotation: durga-stotram in English transliteration.
+
+## 2026-10-29: new mantra added: vakratunda-mahakaya-mantra
+- Text: Devanagari compared across shlokam.org and vedadhara.com. Both give the same two lines. No variants found in the checked sources.
+- Attribution: neither source names an author, so the page calls it a traditional shloka of unknown authorship.
+- Odia and Telugu scripts: converted from the Devanagari by Unicode offset. Odia uses the plain ba after r-halant, as elsewhere on the site, and Telugu uses the anusvara before a same-class consonant.
+- YouTube: id 2Jt1HQe67jU, "Vakratunda Mahakaya With Lyrics | Brahma Muhurta Chanting | Ganesh Mantra For Success", channel Rajshri Soul, 2:55, about 1.4 million views, embeddable, oEmbed 200. Alternative checked: kxxhO92X8ro (Nupur Bhakti Sansaar, Anup Jalota, oEmbed 200).
+- Cross-link: the new slug was added to related.stotrams of ganesh-chaturthi-guide.

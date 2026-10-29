@@ -20,6 +20,7 @@ import { sarveBhavantuSukhinah } from '@/data/sarve-bhavantu-sukhinah';
 import { hareKrishnaMahaMantra } from '@/data/hare-krishna-maha-mantra';
 import { shivaPanchakshara } from '@/data/shiva-panchakshara-stotram';
 import { sahanaVavatu } from '@/data/sahana-vavatu-mantra';
+import { vakratundaMahakaya } from '@/data/vakratunda-mahakaya-mantra';
 
 export const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
@@ -44,4 +45,5 @@ export const VERSE_DATA = {
   'hare-krishna-maha-mantra': hareKrishnaMahaMantra,
   'shiva-panchakshara-stotram': shivaPanchakshara,
   'sahana-vavatu-mantra': sahanaVavatu,
+  'vakratunda-mahakaya-mantra': vakratundaMahakaya,
 };

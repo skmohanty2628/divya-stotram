@@ -61,7 +61,7 @@ export const durgaStotram = {
       type: 'shloka',
       num: 4,
       original: 'रोगानशेषानपहंसि तुष्टा रुष्टा तु कामान् सकलानभीष्टान्। त्वामाश्रितानां न विपन्नराणां त्वामाश्रिता ह्याश्रयतां प्रयान्ति॥',
-      transliteration: 'Rogaan Asheshaan Apahansi Tushta\nRushta Tu Kaamaan Sakalaan Abhishtaan\nTvam Aashritanaam Na Vipannaranaam\nTvam Aashrita Hy Aashrayataam Prayanti',
+      transliteration: 'Rogaan Asheshaan Apahansi Tushta\nRushta Tu Kaamaan Sakalaan Abhishtaan\nTvaam Aashritanaam Na Vipannaranaam\nTvaam Aashrita Hy Aashrayataam Prayanti',
       script: {
         od: 'ରୋଗାନଶେଷାନପହଂସି ତୁଷ୍ଟା ରୁଷ୍ଟା ତୁ କାମାନ୍ ସକଳାନଭୀଷ୍ଟାନ୍। ତ୍ୱାମାଶ୍ରିତାନାଂ ନ ବିପନ୍ନରାଣାଂ ତ୍ୱାମାଶ୍ରିତା ହ୍ୟାଶ୍ରୟତାଂ ପ୍ରୟାନ୍ତି॥',
         te: 'రోగానశేషానపహంసి తుష్టా రుష్టా తు కామాన్ సకలానభీష్టాన్। త్వామాశ్రితానాం న విపన్నరాణాం త్వామాశ్రితా హ్యాశ్రయతాం ప్రయాంతి॥',
@@ -88,7 +88,7 @@ export const durgaStotram = {
         en: 'Grant me good fortune, health, happiness, beauty, victory, and fame, and remove my enemies.',
         hi: 'मुझे सौभाग्य, स्वास्थ्य, सुख, रूप, विजय और यश दें तथा शत्रुओं का नाश करें।',
         od: 'ମୋତେ ସୌଭାଗ୍ୟ, ସ୍ୱାସ୍ଥ୍ୟ, ସୁଖ, ସୁନ୍ଦରତା, ବିଜୟ ଓ ଯଶ ଦିଅନ୍ତୁ ଏବଂ ଶତ୍ରୁଙ୍କୁ ଦୂର କରନ୍ତୁ।',
-        te: 'నాకు సౌభాగ్యం, ఆరోగ్యం, సుఖం, విజయం మరియు కీర్తి ప్రసాదించు, శత్రువులను తొలగించు.',
+        te: 'నాకు సౌభాగ్యం, ఆరోగ్యం, సుఖం, రూపం, విజయం మరియు కీర్తి ప్రసాదించు, శత్రువులను తొలగించు.',
       }
     },
 

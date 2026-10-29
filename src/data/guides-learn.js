@@ -420,7 +420,7 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['ganesh-aarti'],
+      stotrams: ['ganesh-aarti', 'vakratunda-mahakaya-mantra'],
       guides: ['spiritual-routine-for-beginners', 'mantra-chanting-rules-faq'],
     },
     sources: [
@@ -923,59 +923,83 @@ export const GUIDES_LEARN = [
   {
     slug: 'shiva-tandava-stotram-meaning-and-story',
     category: 'Meaning and history',
-    title: 'Shiva Tandava Stotram: Meaning, the Story of Ravana and How It Is Recited',
+    title: 'Shiva Tandava Stotram: Meaning, the Story of Ravana, Metre and How It Is Recited',
     description:
-      'The traditional story of the Shiva Tandava Stotram, attributed to Ravana, what the hymn describes, its metre and sound, and notes for reciting it with correct pronunciation.',
-    h1: 'Shiva Tandava Stotram: Meaning and the Story of Ravana',
+      'The traditional story of the Shiva Tandava Stotram attributed to Ravana, what its verses describe, why editions have 15 or 17 verses, its 16-syllable metre, the doubts about authorship, and notes for reciting it with correct pronunciation.',
+    h1: 'Shiva Tandava Stotram: Meaning, Story and Structure',
     intro:
-      'The Shiva Tandava Stotram is known for its fast, thunderous rhythm and long compound words. Tradition ascribes it to Ravana, the king of Lanka and a great devotee of Shiva. This guide explains the story, what the hymn describes, and how to approach reciting it.',
+      'The Shiva Tandava Stotram is known for its fast, thunderous rhythm and long compound words. Tradition ascribes it to Ravana, the king of Lanka and a great devotee of Shiva. This guide explains the story, what the hymn describes, how its metre works, why different editions give different verse counts and how to approach reciting it.',
     sections: [
       {
         h: 'The traditional story',
         p: [
-          `In the well-known account, Ravana tried to lift Mount Kailash, the abode of Shiva, out of pride in his strength. Shiva pressed down with his toe and trapped Ravana beneath the mountain. In pain and repentance, Ravana composed this hymn in praise of Shiva and his cosmic dance, the Tandava, and Shiva was pleased and released him. This is a traditional story rather than a historical record, and the attribution of the hymn to Ravana is traditional.`,
+          `In the well-known account, Ravana defeated Kubera and took the city of Alaka near Mount Kailash. On his way home in the flying chariot Pushpaka, the chariot could not pass over one spot. Nandi, Shiva's attendant, told him that Shiva and Parvati were there and no one could cross. Ravana mocked Nandi, who cursed him that monkeys would bring about his end. Ravana then tried to uproot the mountain with his arms.`,
+          `Shiva pressed the mountain down with his toe and trapped Ravana beneath it. In pain, Ravana is said to have praised Shiva with hymns for a very long time, and the verses he sang are traditionally identified with this stotram. Shiva forgave him and gave him the sword Chandrahasa in some tellings. The name Ravana is explained in the story as the one who cried out. The episode of the mountain and Nandi's curse is told in the Uttara Kanda of the Ramayana, but the hymn is linked to it by tradition, and the story is a traditional account and not a historical record.`,
+        ],
+      },
+      {
+        h: 'Is the attribution to Ravana certain?',
+        p: [
+          `Standard references describe the attribution to Ravana as traditional. In a 2024 discussion among readers of Sanskrit on the Advaita-l mailing list, one participant could not find the hymn in the Uttara Kanda and argued that no verse in it clearly points to Ravana or the Ramayana. Another argued that internal evidence supports Ravana. The thread cited no scholarly study, so it shows only that the question is open to discussion. The careful way to put it is that the hymn is traditionally attributed to Ravana and that firm historical evidence for the authorship is not available.`,
         ],
       },
       {
         h: 'What the hymn describes',
         p: [
-          `The stotram describes Shiva in his dancing form: matted locks from which the river Ganga flows, the serpent around his neck, the damaru drum whose beat is said to start the rhythm of creation, the third eye, and the crescent moon on his head. It praises him as the destroyer of obstacles and the lord of the universe. The imagery is vivid, and the poem is celebrated as an example of ornate Sanskrit verse.`,
+          `The stotram describes Shiva in his dancing form: matted locks from which the river Ganga flows, the serpent around his neck, the damaru drum whose beat is said to start the rhythm of creation, the third eye, and the crescent moon on his head. Later verses recall the burning of Kama and Shiva's victory over demons and over death. The imagery is vivid and the poem is celebrated as an example of ornate Sanskrit verse.`,
+          `Near the end the voice turns personal. The poet speaks of longing for an even mind and a devotion that treats friend and foe alike, and the closing verse of the main text asks when he will be happy while serving Shiva. Tandava means a vigorous dance, and stotra means a hymn of praise, so the title can be read as a hymn to Shiva's dance.`,
         ],
       },
       {
-        h: 'Metre and sound',
+        h: 'How many verses, and which metre',
         p: [
-          `The hymn has about fifteen verses in a metre called Panchachamara, with a lively, galloping rhythm. Many verses are made of very long compound words, so a single line can seem hard to break apart. This is part of its character, and it is why the hymn is also used to practise breath control and clear articulation.`,
+          `Editions differ. The text on this site has 15 verses. Other editions give 17: the main hymn plus a closing verse or two that state the fruits of reciting it and mention Pradosha, the twilight period sacred to Shiva. Some editions add a verse that is in a different metre from the rest, which is one reason readers suspect that the ending was added later.`,
+          `The main verses have lines of sixteen syllables that alternate light and heavy. In Indian prosody this pattern is known as Panchachamara. Many lines are single long compounds built from sound-words that echo the beat of a drum, so the sound of the hymn matches its subject.`,
         ],
       },
       {
         h: 'Reciting it',
         p: [
-          `Start slowly, line by line, using the transliteration and listening to a good recording. Keep the vowel lengths accurate, because the metre depends on them. Our guide to reading transliteration explains the marks. Many people recite it on Mondays, the day associated with Shiva, and on festivals such as Maha Shivaratri.`,
+          `Start slowly, line by line, using the transliteration and listening to a good recording. Break the long compounds into pairs of syllables and keep the vowel lengths accurate, because the metre depends on them. Take care with doubled consonants and retroflex sounds, which give the drum effect. Our guide to reading transliteration explains the marks.`,
+          `Many people recite it on Mondays, the day associated with Shiva, at Pradosha and on festivals such as Maha Shivaratri. These are customs of devotion. Statements that reciting the hymn will bring a particular result are matters of faith and cannot be tested, so this guide does not make them.`,
         ],
       },
     ],
     faqs: [
       {
         q: 'Did Ravana really write the Shiva Tandava Stotram?',
-        a: 'Tradition says so, but the story is traditional and cannot be verified historically.',
+        a: 'Tradition says so. The story cannot be verified historically, and discussions among Sanskrit readers show that the question of authorship is open.',
       },
       {
-        q: 'How long does it take to recite?',
-        a: 'About five to seven minutes at a steady pace.',
+        q: 'How many verses does it have?',
+        a: 'The main hymn has 15 verses in the text on this site. Some editions have 17, with closing verses on the fruit of reciting it.',
+      },
+      {
+        q: 'Which metre is it in?',
+        a: 'Lines of sixteen syllables alternating light and heavy, known as Panchachamara. A closing verse in some editions is in a different metre.',
       },
       {
         q: 'Why does it sound so fast?',
-        a: 'The metre and the long compound words give a quick, rolling rhythm that imitates the dance.',
+        a: 'The metre and the long compound words, with drum-like sound effects, give a quick rolling rhythm that imitates the dance.',
+      },
+      {
+        q: 'Where does the Kailash story come from?',
+        a: 'The lifting of Mount Kailash and Nandi\'s curse are told in the Uttara Kanda of the Ramayana. The link between that story and this hymn is traditional.',
+      },
+      {
+        q: 'When is it usually recited?',
+        a: 'On Mondays, at Pradosha and on Maha Shivaratri, though there is no rule that it can be recited only then.',
       },
     ],
     related: {
-      stotrams: ['shiva-tandav', 'shiv-chalisa'],
-      guides: ['shiva-tandav-benefits', 'maha-shivaratri-guide'],
+      stotrams: ['shiva-tandav', 'shiv-chalisa', 'shiva-panchakshara-stotram', 'maha-mrityunjaya-mantra'],
+      guides: ['shiva-tandav-benefits', 'maha-shivaratri-guide', 'how-to-read-sanskrit-transliteration', 'how-to-chant-shiva-mantra'],
     },
     sources: [
       'Shiva Tandava Stotram (traditionally attributed to Ravana), Sanskrit text',
-      'Traditional accounts of Ravana and Kailash as retold in Puranic and folk literature',
+      'Wikipedia, Shiva Tandava Stotra',
+      'Hindutone, guide to the Shiv Tandava Stotram',
+      'Advaita-l mailing list, discussion of the source of the Shiva Tandava Stotram, November 2024',
     ],
   },
 
@@ -2691,6 +2715,179 @@ export const GUIDES_LEARN = [
       'Wikipedia, Maha Bishuba Sankranti',
       'Odisha Connect, report on Maha Bishuba Sankranti as the Odia New Year',
       'NewsD, report on Maha Bisuba Pana Sankranti',
+    ],
+  },
+  {
+    slug: 'akhi-muthi-anukula-akshaya-tritiya-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Akhi Muthi Anukula in Odisha: Akshaya Tritiya, First Paddy Sowing and Ratha Yatra Chariots',
+    description:
+      'A guide to Akhi Muthi Anukula, the Odisha farming ritual held on Akshaya Tritiya: the first handful of paddy seed, prayers to Mother Earth and Lakshmi, the start of chariot building in Puri and how the date is fixed.',
+    h1: 'Akhi Muthi Anukula: Akshaya Tritiya in Odisha',
+    intro:
+      'Across India, Akshaya Tritiya is known as a day for buying gold. In Odisha the day has another meaning. It is Akhi Muthi Anukula, the day farmers sow the first handful of paddy seed of the new season, and the day work begins on the chariots for the Ratha Yatra at Puri. This guide explains the ritual, its Jagannath connections and how the date is decided.',
+    sections: [
+      {
+        h: 'When it is observed',
+        p: [
+          `Akshaya Tritiya falls on the third lunar day (tritiya) of the bright half of the month of Vaishakha, which usually brings it to April or early May. The word akshaya means that which does not decrease, and the day is traditionally treated as one on which a good beginning keeps growing.`,
+          `Because the tithi can begin in one afternoon and end the next, calendars can differ by a day. This guide does not quote a date. Follow your family's Odia panjika or the official Odisha holiday list.`,
+        ],
+      },
+      {
+        h: 'What Akhi Muthi Anukula means',
+        p: [
+          `In the Odia name, akhi muthi refers to a handful of seed grain, and anukula is the name of the ritual. The name describes the act itself: the first handful of paddy seed is scattered on prepared soil to mark the start of the farming season, before the monsoon arrives.`,
+          `One report contrasts the two customs: instead of buying gold, farmers put seed into the earth, which is a different kind of investment.`,
+        ],
+      },
+      {
+        h: 'How the sowing is done',
+        p: [
+          `Before the day, farmers clean their tools and choose seed, often old varieties kept within the family. On the morning of the festival, family members go to the field in clean clothes. The head of the household or an elder farmer scatters a handful of seed onto a small, ploughed patch, commonly facing east. Prayers are offered to Mother Earth and to Lakshmi, the goddess of wealth and grain, for a good monsoon and a good harvest.`,
+          `A pot of water with mango leaves is often placed at the edge of the field as a sign of abundance. Folk songs may accompany the sowing, and the family may share a meal in the field. Some villages sow a shared plot together, and priests may lead prayers at the village temple first. Customs differ from village to village, so these details are a general outline, not a fixed rule.`,
+        ],
+      },
+      {
+        h: 'Chariot building begins at Puri',
+        p: [
+          `At Puri, Akshaya Tritiya is the day on which work on the three chariots for the Ratha Yatra formally begins. The chariots of Jagannath, Balabhadra and Subhadra are built each year, and the start of the work on this day gives the festival of the chariots a fixed beginning. You can read about the festival itself in our Ratha Yatra guide.`,
+          `The same day also begins the Chandan Yatra, the long summer festival in which the deities are taken to the Narendra Tank for boat rides. It is described in detail in our Chandan Yatra guide. At Bhubaneswar, the Chandan Yatra of Lord Lingaraj runs for about 22 days and includes a boat ritual at the Bindusagar pond. So a single tithi opens the farming year, the chariot work and the summer festivals of the temples.`,
+        ],
+      },
+      {
+        h: 'Other customs on the day',
+        p: [
+          `Devotees also pray to Lakshmi and Vishnu, and give food, clothing or money to people in need. Because the word akshaya implies lasting merit, charity is a common practice on this day all over India. In other regions the same day is linked with Parashurama's birth in Telugu-speaking states, with new ventures in Maharashtra, and with gold buying in many cities, so Odisha's farming ritual is one regional form of a wider festival.`,
+        ],
+      },
+      {
+        h: 'Keeping the day at home',
+        p: [
+          `If you do not own a field, you can keep the spirit of the day by planting a few seeds in a pot, offering a simple prayer to Lakshmi, and giving food or grain to someone who needs it. A short prayer to Mother Earth before planting, and a mantra to Lakshmi or Vishnu, fits the day. Nothing here is a promise of wealth; the ritual is an act of gratitude and a way to begin a season with care.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Akhi Muthi Anukula?',
+        a: 'It is the Odisha farming ritual held on Akshaya Tritiya, when farmers sow the first handful of paddy seed of the season.',
+      },
+      {
+        q: 'Why is it held on Akshaya Tritiya?',
+        a: 'Akshaya means lasting, so the day is considered a good beginning that keeps growing. Farmers use it to start the sowing season.',
+      },
+      {
+        q: 'What happens at Puri on this day?',
+        a: 'Work on the chariots for the Ratha Yatra formally begins, and the Chandan Yatra starts.',
+      },
+      {
+        q: 'Do people in Odisha buy gold on this day?',
+        a: 'Some do, as elsewhere in India. Odisha is notable because the farming ritual is the main custom of the day.',
+      },
+      {
+        q: 'Is the date the same every year?',
+        a: 'No. It follows the tritiya of the bright half of Vaishakha, so check your Odia panjika or the official holiday list.',
+      },
+      {
+        q: 'Which prayers are said at the sowing?',
+        a: 'Prayers are offered to Mother Earth and to Lakshmi. There is no single fixed mantra in the sources, and families use their own.',
+      },
+    ],
+    related: {
+      stotrams: ['mahalakshmi-ashtakam', 'vishnu-sahasranamam', 'krishna-vasudevaya-mantra'],
+      guides: ['chandan-yatra-puri-guide', 'jagannath-ratha-yatra-puri-guide', 'lakshmi-mantra-friday-ritual', 'nuakhai-western-odisha-guide'],
+    },
+    sources: [
+      'Outlook Traveller, report on Akhi Muthi Anukula in Odisha',
+      'OdishaBytes, report on Akshaya Tritiya, Jagannath devotion and the farming ritual',
+      'Outlook India, report on how Akshaya Tritiya is celebrated in Maharashtra, Odisha and the Telugu states',
+    ],
+  },
+  {
+    slug: 'khudurukuni-osha-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Khudurukuni Osha in Odisha: Taapoi, Mangala and the Sundays of Bhadrab',
+    description:
+      'A guide to Khudurukuni Osha, the festival of unmarried girls in coastal Odisha: the Sundays of Bhadrab, the sand image of the goddess, the offerings of puffed rice, the story of Taapoi and the sea voyages of the old traders.',
+    h1: 'Khudurukuni Osha: Odisha\'s Festival of Girls and Sea Traders',
+    intro:
+      'Khudurukuni Osha is a festival kept by unmarried girls, mainly in the coastal districts of Odisha, on Sundays in the month of Bhadrab. The girls pray to a goddess for the safety and well-being of their brothers. It is tied to the story of Taapoi, a merchant\'s daughter whose brothers sailed overseas, and to the old maritime trade of Odisha. This guide explains the rituals, the story and the way the festival is changing.',
+    sections: [
+      {
+        h: 'When it is observed',
+        p: [
+          `Khudurukuni Osha is kept in the Odia month of Bhadrab, which falls roughly in August and September. It comes after Gahma Purnima, the full moon of Shravana, and is held on Sundays of the month. It is also called Bhalukuni Osha in some places. Because the Odia months follow the lunar calendar, the English dates change every year, so this guide does not quote them. Your Odia panjika will list the Sundays.`,
+        ],
+      },
+      {
+        h: 'Who keeps it and why',
+        p: [
+          `The osha is kept by young unmarried girls. In most accounts they pray for the safety, prosperity and health of their brothers. Sources describe the goddess worshipped as Mangala, and one account describes her as Durga, and Mangala is generally understood as a form of the Devi. The festival is mainly kept in the coastal districts, in villages and also in towns.`,
+        ],
+      },
+      {
+        h: 'How the worship is done',
+        p: [
+          `Girls rise early, bathe in a river or pond and gather flowers. They make a small image or mound of the goddess from clay or sand on the bank, called bhaluka in some accounts, and decorate it with turmeric, vermilion and flowers. In villages, the image is often set up in the room where rice is husked, and the room is cleaned and painted with floral designs. The girls themselves worship the image, usually without a priest, and the worship continues into the evening.`,
+          `The offerings centre on khuda, broken rice or puffed rice, which gives the festival its name, together with fried paddy, sweetened puffed rice, coconut and fruit. Girls traditionally eat very simple food on the day. The ritual repeats on the Sundays of the month, and on the last day the images are carried to a river or pond for immersion.`,
+        ],
+      },
+      {
+        h: 'The story of Taapoi',
+        p: [
+          `The story told at the festival is that of Taapoi, the youngest and only sister of seven brothers from a wealthy merchant family. After the death of their parents, the brothers sail overseas to trade. Their wives mistreat Taapoi and give her very little food, apart from the youngest wife, who is kind to her. Taapoi meets girls worshipping the goddess and, advised by them, prays and fasts on Sundays, offering the little she has. Her brothers return safely, and the sisters-in-law are punished.`,
+          `The girls sing and recite this story as part of the worship. One account traces it to a text of the sixteenth or seventeenth century by Gopinath Das, but another page on the festival does not name an author, so the authorship is best described as traditionally linked to that period and not settled. Tellers also draw a lesson from it: courage like the goddess and patience like Taapoi.`,
+        ],
+      },
+      {
+        h: 'The sea voyages behind the festival',
+        p: [
+          `Ancient Kalinga, the old name for the region, had a long seafaring trade with ports on the Mahanadi and a coastline of several hundred kilometres. Traders sailed in large boats called boitas to distant islands such as Java and Sumatra, using the monsoon winds. The season of the festival is described as the time when ships returned home, which explains why women prayed for the safe return of brothers who were at sea.`,
+          `This is the same maritime memory that is kept alive in Boita Bandana on Kartika Purnima, described in our Boita Bandana guide. Khudurukuni Osha is its quieter, household companion.`,
+        ],
+      },
+      {
+        h: 'How the festival is changing',
+        p: [
+          `Modernisation and urbanisation have reduced the number of girls who keep the full ritual, and group celebrations have become smaller or more personal. An old custom of groups of girls singing playful songs that compared their goddess images has largely disappeared. Even so, belief in the goddess as a helper in hardship keeps the festival alive in many families.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Khudurukuni Osha?',
+        a: 'A festival of unmarried girls in coastal Odisha, kept on Sundays of the month of Bhadrab, praying to the goddess for the well-being of their brothers.',
+      },
+      {
+        q: 'Why is it called Khudurukuni?',
+        a: 'The name is linked to khuda, broken rice or puffed rice, the main offering, and to the grains of rice bran in the Taapoi story.',
+      },
+      {
+        q: 'Which goddess is worshipped?',
+        a: 'Sources name Mangala, and one names Durga. Mangala is generally understood as a form of the Devi, so the accounts need not conflict.',
+      },
+      {
+        q: 'Who is Taapoi?',
+        a: 'She is the heroine of the festival story, the sister of seven merchant brothers who sailed overseas to trade.',
+      },
+      {
+        q: 'Can boys take part?',
+        a: 'The osha is kept by girls. Brothers are the people prayed for, and families usually celebrate together at the end.',
+      },
+      {
+        q: 'When is it held each year?',
+        a: 'On Sundays in Bhadrab after Gahma Purnima. The English date changes yearly, so check your Odia panjika.',
+      },
+    ],
+    related: {
+      stotrams: ['durga-stotram', 'aigiri-nandini', 'mahalakshmi-ashtakam'],
+      guides: ['boita-bandana-bali-jatra-kartika-purnima-guide', 'durga-puja-odisha-guide', 'manabasa-gurubara-odisha-guide', 'raja-parba-odisha-guide'],
+    },
+    sources: [
+      'Odisha Lifestyle, article on Khudurkuni Osha',
+      'Live History India, article on Khudurukuni Osa and Odisha maritime history',
+      'eOdisha.org, article on the Khudurukuni Osha festival',
     ],
   },
 ];

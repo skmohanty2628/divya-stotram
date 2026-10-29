@@ -107,6 +107,11 @@ const SEO_COPY = {
     description:
       'Read Om Sahana Vavatu, the teacher and student shanti mantra from the Upanishads, in English, Hindi, Odia and Telugu with meaning, when to chant it before study, and a video to follow along.',
   },
+  'vakratunda-mahakaya-mantra': {
+    title: 'Vakratunda Mahakaya Mantra in English, Hindi, Odia & Telugu with Meaning',
+    description:
+      'Read Vakratunda Mahakaya Suryakoti Samaprabha, the Ganesha shloka for removing obstacles, in English, Hindi, Odia and Telugu with meaning, when to chant it before a new task, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

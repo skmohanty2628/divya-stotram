@@ -167,4 +167,23 @@ export const STOTRAM_EXTRA = {
       { q: 'Can adults who are not students chant it?', a: 'Yes. It suits any shared work or learning, such as a study circle, a team project or a family reading.' },
     ],
   },
+  'vakratunda-mahakaya-mantra': {
+    what: `Vakratunda Mahakaya is a two-line Sanskrit shloka to Lord Ganesha. It addresses him as the one with the curved trunk and the mighty body, whose radiance equals a crore of suns, and asks him to remove obstacles from every undertaking. It is one of the most commonly recited Ganesha verses and is said at the start of a puja, an exam, a journey, a new business or any new work. The sources checked do not name an author, so the page treats it as a traditional shloka of unknown authorship.`,
+    meaning: `Vakratunda means the one with a curved trunk, and mahakaya means the one with a large body. Suryakoti samaprabha means one whose splendour equals ten million suns. Nirvighnam kuru me deva asks the divine to make my work free of obstacles. Sarvakaryeshu sarvada means in all tasks and at all times. Ganesha is traditionally called Vighnaharta, the remover of obstacles, which is why this verse is said before beginning anything.`,
+    benefits: [
+      'Short and easy to memorise, so it suits children, students and beginners',
+      'Traditionally said before starting a task, puja, journey or exam',
+      'Pairs naturally with the Ganesh Aarti on Ganesh Chaturthi and on Wednesdays',
+      'Can be chanted aloud or quietly, once or on a mala of 108 beads',
+      'Open to anyone, with no initiation needed',
+    ],
+    bestTime: `Say it at the moment you begin something: before a puja, before study, before leaving for an important meeting. Many families chant it on Wednesdays, the day traditionally linked with Ganesha, and during Ganesh Chaturthi. Once is enough at the start of a task, and 11 or 108 repetitions are common for a longer sitting.`,
+    faqs: [
+      { q: 'What does Vakratunda Mahakaya mean?', a: 'O Lord Ganesha, with the curved trunk and the mighty body, whose radiance is like a crore of suns, please make all my undertakings free of obstacles, at all times.' },
+      { q: 'When should I chant Vakratunda Mahakaya?', a: 'At the start of any new task, puja, study session, journey or business. Wednesdays and Ganesh Chaturthi are popular days, but there is no fixed rule.' },
+      { q: 'Who wrote this shloka?', a: 'The sources checked do not name an author. It is treated as a traditional shloka.' },
+      { q: 'How many times should I chant it?', a: 'Once at the start of a task is enough. Some people chant 11 or 108 times with a mala.' },
+      { q: 'Does chanting it guarantee that my work will succeed?', a: 'No. It is a prayer and a way to begin with focus and humility. It does not guarantee any result.' },
+    ],
+  },
 };

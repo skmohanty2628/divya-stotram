@@ -661,7 +661,7 @@ export const GUIDES_DEITY = [
       },
     ],
     related: {
-      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra'],
+      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'shuklambaradharam-mantra'],
       guides: ['vishnu-sahasranamam-benefits', 'best-prayer-for-inner-peace', 'kartika-month-odisha-guide', 'ekadashi-vrat-guide'],
     },
     sources: [

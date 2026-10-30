@@ -21,6 +21,7 @@ import { hareKrishnaMahaMantra } from '@/data/hare-krishna-maha-mantra';
 import { shivaPanchakshara } from '@/data/shiva-panchakshara-stotram';
 import { sahanaVavatu } from '@/data/sahana-vavatu-mantra';
 import { vakratundaMahakaya } from '@/data/vakratunda-mahakaya-mantra';
+import { shuklambaradharam } from '@/data/shuklambaradharam-mantra';
 
 export const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
@@ -46,4 +47,5 @@ export const VERSE_DATA = {
   'shiva-panchakshara-stotram': shivaPanchakshara,
   'sahana-vavatu-mantra': sahanaVavatu,
   'vakratunda-mahakaya-mantra': vakratundaMahakaya,
+  'shuklambaradharam-mantra': shuklambaradharam,
 };

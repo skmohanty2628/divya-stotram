@@ -420,7 +420,7 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['ganesh-aarti', 'vakratunda-mahakaya-mantra'],
+      stotrams: ['ganesh-aarti', 'vakratunda-mahakaya-mantra', 'shuklambaradharam-mantra'],
       guides: ['spiritual-routine-for-beginners', 'mantra-chanting-rules-faq'],
     },
     sources: [
@@ -1268,39 +1268,52 @@ export const GUIDES_LEARN = [
     category: 'Meaning and history',
     title: 'Maha Mrityunjaya Mantra: Meaning, Source and How It Is Used',
     description:
-      'The Maha Mrityunjaya Mantra explained: its source in the Rig Veda, a word-by-word translation of Tryambakam Yajamahe, the cucumber image, and the responsible way it is used in prayer.',
+      'The Maha Mrityunjaya Mantra explained: its source in the Rig Veda and Yajur Veda, a word-by-word translation of Tryambakam Yajamahe, the cucumber image, how many times it is chanted and the responsible way it is used in prayer.',
     h1: 'Maha Mrityunjaya Mantra: Meaning and Source',
     intro:
-      'The Maha Mrityunjaya Mantra, also called the Tryambaka Mantra, is a verse addressed to Shiva and is widely recited for health, protection and peace. This guide explains the words, the source, and how to treat the mantra sensibly.',
+      'The Maha Mrityunjaya Mantra, also called the Tryambaka Mantra or the Rudra Mantra, is a verse addressed to Shiva. Families recite it in times of illness, fear and loss, and for peace. This guide explains where the verse comes from, what each word means, why the image of a cucumber is used, and how to treat the mantra sensibly.',
     sections: [
       {
         h: 'Source and names',
         p: [
-          `The mantra appears in the Rig Veda (7.59.12) and is repeated in the Yajur Veda. Tryambaka means the three-eyed one, and is a name of Rudra, later identified with Shiva. Mrityunjaya means conqueror of death. The mantra is therefore known both as the Tryambaka Mantra and as the Maha Mrityunjaya Mantra.`,
+          `The verse appears in the Rig Veda at 7.59.12. It is also found in the Yajur Veda, in the Taittiriya Samhita (1.8.6) and the Vajasaneyi Samhita (3.60). It is therefore among the oldest prayers still in daily use, and it was addressed first to Rudra, the storm god of the Vedic hymns. Rudra is identified with Shiva in later Shaiva tradition, which is why the verse is now chanted as a Shiva mantra.`,
+          `The names tell part of the story. Tryambaka is an epithet of Rudra, and the verse is called the Tryambaka Mantra after its first word. Mrityunjaya means conqueror of death, and the title Maha Mrityunjaya, the great conqueror of death, came into use later. The names Rudra Mantra and Tryambakam Mantra are also common.`,
         ],
       },
       {
         h: 'Word by word',
         p: [
-          `Om Tryambakam yajamahe: we worship the three-eyed one. Sugandhim pushti-vardhanam: who is fragrant and nourishes growth. Urvarukam iva bandhanan: like a ripe cucumber from its stem. Mrityor mukshiya ma amritat: may we be freed from death, not from immortality.`,
+          `Om Tryambakam yajamahe: we worship the three-eyed one. The word yajamahe is a form of the verb to worship or sacrifice, and it carries the sense of an offering made together, by a family or a gathering.`,
+          `Sugandhim pushti-vardhanam: who is fragrant and nourishes growth. Sugandhi means sweet-smelling, and pushti-vardhana is the one who increases nourishment and well-being. Together the phrase describes the deity as a source of life, not only a figure of fear.`,
+          `Urvarukam iva bandhanan: like a ripe cucumber from its stem. Urvaruka is a cucumber, and bandhana is a binding or the stalk that holds the fruit.`,
+          `Mrityor mukshiya ma amritat: may we be freed from death, not from immortality. Mrityoh means from death, and mukshiya is a prayer to be released. Ma amritat, not from the immortal, asks that the release leave the worshipper close to what does not die.`,
+        ],
+      },
+      {
+        h: 'What does Tryambaka mean?',
+        p: [
+          `The usual reading takes tryambaka as three-eyed, from tri, three, and ambaka, eye. Devotional commentary understands the two physical eyes as the sun and moon and the third eye as awareness that sees beyond duality. This is also why the third eye is a lasting image of Shiva.`,
+          `The early Vedic sense of the word is discussed by scholars and is not fully settled. The three-eyed meaning is the one used in devotion today, and this guide follows it while noting that the old sense is not settled.`,
         ],
       },
       {
         h: 'The cucumber image',
         p: [
-          `The image is of a ripe cucumber that separates from its vine without effort. The prayer asks that death come as naturally and painlessly as this, and that the worshipper be freed from the fear of death toward a state of immortality or wholeness. Many readers also take freedom from death in a wider sense: freedom from fear, from suffering and from bondage.`,
+          `The image is of a ripe cucumber that separates from its vine without effort. The fruit does not tear away; it simply comes free when it is ready. The prayer asks that release come in that natural way, and that the worshipper be freed from the fear of death toward a state of immortality or wholeness.`,
+          `Many readers also take freedom from death in a wider sense: freedom from fear, from suffering and from the bonds of worldly attachment. A spiritually mature person, the image suggests, lets go without being forced.`,
         ],
       },
       {
         h: 'How it is used',
         p: [
-          `Families recite it for the health of a loved one, at moments of anxiety, and during Shiva worship, often 108 times. Many people find the steady repetition comforting. It is important to be clear that a mantra is not a medical treatment. Anyone who is ill should follow their doctor's advice, and the mantra can be a source of calm alongside it, not a replacement.`,
+          `Families recite the mantra for the health of a loved one, at moments of anxiety, and during Shiva worship. The traditional count is 108 repetitions on a mala, though shorter counts such as 3, 11, 21 or 31 are also common. Many people find the steady repetition comforting. It is also chanted on Pradosh, the evening that comes twice a month and is dedicated to Shiva, on Mondays, and at Maha Shivaratri.`,
+          `It is important to be clear that a mantra is not a medical treatment. Anyone who is ill should follow their doctor's advice, and the mantra can be a source of calm alongside it, not a replacement. No outcome is promised by reciting it.`,
         ],
       },
       {
         h: 'Recitation tips',
         p: [
-          `Pronounce the compound words slowly. Keep the vowels clear and take a breath at the pauses. Using a mala helps with counting. Monday and the festival of Maha Shivaratri are traditional times. See our guide to chanting Shiva mantras for more.`,
+          `Pronounce the compound words slowly. Keep the vowels clear and take a breath at the pauses. Using a mala helps with counting, and our guide to using a japa mala explains how. Sit comfortably, face east or north if you wish, and do not rush. If you are unsure of a syllable, listen to a trusted recitation and repeat it, or read the verse in the Maha Mrityunjaya Mantra page on this site in Hindi, Odia or Telugu script. See our guide to chanting Shiva mantras for more.`,
         ],
       },
     ],
@@ -1311,20 +1324,38 @@ export const GUIDES_LEARN = [
       },
       {
         q: 'Where is it from?',
-        a: 'Rig Veda 7.59.12, repeated in the Yajur Veda.',
+        a: 'Rig Veda 7.59.12, repeated in the Yajur Veda at Taittiriya Samhita 1.8.6 and Vajasaneyi Samhita 3.60.',
+      },
+      {
+        q: 'What does Tryambakam mean?',
+        a: 'Usually the three-eyed one, an epithet of Rudra who is identified with Shiva. Its earliest sense is discussed by scholars.',
+      },
+      {
+        q: 'Why does the mantra mention a cucumber?',
+        a: 'A ripe cucumber comes free from its stem without effort. The image asks for a natural release from fear and bondage.',
       },
       {
         q: 'How many times should it be chanted?',
         a: 'Many people recite it 108 times, or a shorter number such as 11 or 21, according to time and habit.',
       },
+      {
+        q: 'When is it chanted?',
+        a: 'At any time of need, and commonly on Mondays, on Pradosh evenings and at Maha Shivaratri.',
+      },
+      {
+        q: 'Why is it called Maha Mrityunjaya?',
+        a: 'Mrityunjaya means conqueror of death, and Maha means great. The name reflects what the verse asks for.',
+      },
     ],
     related: {
       stotrams: ['maha-mrityunjaya-mantra', 'shiva-tandav', 'shiv-chalisa'],
-      guides: ['how-to-chant-shiva-mantra', 'maha-shivaratri-guide'],
+      guides: ['how-to-chant-shiva-mantra', 'maha-shivaratri-guide', 'how-to-use-japa-mala', 'best-mantra-for-health'],
     },
     sources: [
-      'Rig Veda 7.59.12',
+      'Rig Veda 7.59.12; Taittiriya Samhita 1.8.6; Vajasaneyi Samhita 3.60',
       'Jamison, S. and Brereton, J., The Rigveda: The Earliest Religious Poetry of India, Oxford University Press, 2014',
+      'Shlokam.org, Tryambakam Yajamahe with meaning',
+      'Bharatpedia, article on the Mahamrityunjaya Mantra',
     ],
   },
 
@@ -2888,6 +2919,210 @@ export const GUIDES_LEARN = [
       'Odisha Lifestyle, article on Khudurkuni Osha',
       'Live History India, article on Khudurukuni Osa and Odisha maritime history',
       'eOdisha.org, article on the Khudurukuni Osha festival',
+    ],
+  },
+  {
+    slug: 'gamha-purnima-rakhi-purnima-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Gamha Purnima in Odisha: Pata Rakhi, Guamala, Cattle Worship and Gamha Diyan',
+    description:
+      'A guide to Gamha Purnima, the Shravana full moon festival of Odisha: the pata rakhi and areca nut garlands at the Puri Srimandir, Balabhadra\'s birthday, worship of cattle, the Gamha Diyan game and how the date is fixed.',
+    h1: 'Gamha Purnima: Rakhi Purnima in Odisha',
+    intro:
+      'In much of India the full moon of Shravana is Raksha Bandhan. In Odisha it is also Gamha Purnima, a day that belongs to the farm, the temple and the family at once. Cattle are washed and worshipped, Lord Balabhadra is honoured on his birthday, and inside the Puri Srimandir large handmade rakhis are tied on the deities. This guide explains each strand and how the date is decided.',
+    sections: [
+      {
+        h: 'When it is observed',
+        p: [
+          `Gamha Purnima falls on the full moon (purnima) of the month of Shravana, which usually brings it to August. It is often called Rakhi Purnima in Odisha because it coincides with Raksha Bandhan, and the same day is linked to Janai Purnima, when Brahmin and Chhetri communities change their sacred threads.`,
+          `Purnima can begin on one day and end on the next, so calendars sometimes differ by a day, and it can fall on the same day as Raksha Bandhan or a day apart. This guide does not quote a date. Follow your family's Odia panjika or the official Odisha holiday list.`,
+        ],
+      },
+      {
+        h: 'Balabhadra\'s birthday',
+        p: [
+          `The day is observed as the birthday of Lord Balabhadra, also called Baladeva, the elder brother of Krishna. In the Puri tradition he is the elder of the three deities of the Srimandir, who are Balabhadra, Subhadra and Jagannath, and the festival keeps him at the centre.`,
+          `This is one reason Gamha Purnima is more than a local name for Rakhi. The family bond that Raksha Bandhan celebrates between brothers and sisters is echoed in the temple, where the sister of the two brothers is the one who ties the rakhi.`,
+        ],
+      },
+      {
+        h: 'Pata rakhi and Guamala at the Srimandir',
+        p: [
+          `According to one detailed account of the Puri ritual, Goddess Subhadra ties large sacred rakhis on her brothers Jagannath and Balabhadra inside the sanctum. The rakhis are called pata rakhi because they are made of silk. They are made by the hereditary Patara Bisoi servitors from Basunga silk supplied by the temple administration. The silk is dyed in red, yellow, blue and violet, dried in the sun, combed into fine shreds and arranged in five circular layers. Each rakhi is described as about two feet across, with thread bands that are many feet long.`,
+          `The same account says the deities receive 54 garlands made from whole areca nuts, known as Guamala. Jagannath's garlands are yellow and red, and Balabhadra's are purple and blue. The deities are first adorned with gold ornaments on the Ratnabedi, the jewelled platform in the sanctum, and the rakhis are tied after that.`,
+          `Later in the day, according to the same account, Lord Sudarshan is taken in a palanquin called a chaudola to Markand Pond. There the Suara servitors make a clay image of Balabhadra, invoke life into it with mantras, offer food and then immerse it. Sudarshan then visits three ashrams and returns to the temple late at night. The details of temple rituals can differ between sources and over the years, so treat this as one description and confirm with the temple\'s own notices if you plan to attend.`,
+        ],
+      },
+      {
+        h: 'Cattle, pithas and the farm',
+        p: [
+          `In village homes the day gives thanks to the animals. Families decorate and worship their cows and bullocks, which pull the plough and carry the harvest, and they prepare local pithas and sweets to share with relatives and neighbours.`,
+          `The Sunday prayers of Khudurukuni Osha, kept by girls in the month of Bhadrab after Gamha Purnima, are described in our Khudurukuni Osha guide.`,
+        ],
+      },
+      {
+        h: 'Gamha Diyan',
+        p: [
+          `Gamha Diyan is a traditional game held for Balabhadra's birthday. Participants run up a tall platform shaped like a tower, built of brick and mud, and leap to snatch fruit hung from a bamboo pole. Places such as Paralakhemundi and Nayagarh are known for it. It is a test of courage and speed and draws the crowd that gathers for the festival.`,
+        ],
+      },
+      {
+        h: 'Rakhi at home',
+        p: [
+          `The home ritual follows the pattern known across India. Early in the morning the family arranges a plate with rice, incense, sweets, vermilion and a lamp. After prayers and aarti, the sister applies rice and a tilak to her brother's forehead and ties the rakhi on his wrist, prays for his well-being and receives a gift and a promise of care in return.`,
+          `The practice is a custom of affection, and no result is promised by it beyond the love it expresses.`,
+        ],
+      },
+      {
+        h: 'Other things remembered on the day',
+        p: [
+          `The full moon of Shravana also marks the start of Jhulan Yatra in some traditions, when Radha and Krishna are honoured on decorated swings. In Odisha the day is also remembered as the birth day of the poet Gangadhar Meher, born in 1862 in Barpali in present-day Bargarh district.`,
+        ],
+      },
+      {
+        h: 'A simple way to keep the day',
+        p: [
+          `Wash and decorate the cattle if you keep them, or offer fodder at a cowshed. Make a pitha or a sweet at home. Light a lamp, tie the rakhi with a short prayer, and read a stotram such as the Aigiri Nandini or the Durga Stotram if you wish to add devotion. If you live far from Odisha, a call to your sister or brother and a short visit to a Jagannath temple keeps the spirit of the day.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Gamha Purnima?',
+        a: 'The full moon of Shravana in Odisha, observed as Rakhi Purnima, the birthday of Lord Balabhadra and a day to worship cattle.',
+      },
+      {
+        q: 'Is Gamha Purnima the same as Raksha Bandhan?',
+        a: 'They fall on the same full moon, and in Odisha the day is called both. Gamha Purnima adds the cattle worship and the Balabhadra birthday.',
+      },
+      {
+        q: 'What is a pata rakhi?',
+        a: 'A large silk rakhi made by Patara Bisoi servitors and tied on the deities at the Puri Srimandir by Goddess Subhadra, as one account of the ritual describes.',
+      },
+      {
+        q: 'What is Guamala?',
+        a: 'A garland of whole areca nuts. One account says 54 such garlands are offered to the deities on this day.',
+      },
+      {
+        q: 'What is Gamha Diyan?',
+        a: 'A traditional game in which participants climb a tower-shaped platform and jump to grab fruit hung from a bamboo pole. Paralakhemundi and Nayagarh are known for it.',
+      },
+      {
+        q: 'Why are cows and bullocks worshipped?',
+        a: 'They work the fields in the farming season, so families decorate them and thank them on this day.',
+      },
+      {
+        q: 'What is the date this year?',
+        a: 'It depends on the Shravana purnima in the panjika. Check your Odia calendar, because the full moon can span two days.',
+      },
+    ],
+    related: {
+      stotrams: ['aigiri-nandini', 'durga-stotram', 'mahalakshmi-ashtakam'],
+      guides: ['khudurukuni-osha-odisha-guide', 'jagannath-ratha-yatra-puri-guide', 'raja-parba-odisha-guide', 'nuakhai-western-odisha-guide'],
+    },
+    sources: [
+      'Odisha Bytes, article on Gamha Purnima and the pata rakhi and Guamala traditions at the Puri Jagannath Temple',
+      'eOdisha.org, article on Gamha Purnima and Gamha Diyan',
+    ],
+  },
+  {
+    slug: 'mahalaya-pitru-paksha-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Mahalaya and Pitru Paksha in Odisha: Pinda Daan, Tarpan and Where Families Gather',
+    description:
+      'A guide to Mahalaya Amavasya in Odisha: how Pitru Paksha ends, what shraddha, tarpan and pinda daan mean, the ponds and rivers where families gather at Puri, Bhubaneswar and Jajpur, and how the date is fixed.',
+    h1: 'Mahalaya in Odisha: Remembering Ancestors at the End of Pitru Paksha',
+    intro:
+      'Mahalaya is the new moon that closes Pitru Paksha, the fortnight when Hindu families remember their ancestors. In Odisha it is one of the busiest days at the water\'s edge: families come to ponds, rivers and the sea to offer water and rice balls for the departed. The next day the Devi Paksha begins, and the festival season of Durga turns to joy. This guide explains the rites, the places, and how to understand the day.',
+    sections: [
+      {
+        h: 'What Pitru Paksha and Mahalaya mean',
+        p: [
+          `Pitru Paksha is a sixteen day period in the Hindu calendar when families honour their ancestors, mainly through food and water offerings. The rites are called shraddha. Because they concern death, the fortnight is generally treated as a quiet and serious time, and auspicious events such as weddings and thread ceremonies are usually avoided.`,
+          `The fortnight ends on the new moon called Sarvapitri Amavasya, Mahalaya or Pitri Amavasya. It is the most important day of the period, set aside for all ancestors and for anyone whose own rite was missed.`,
+        ],
+      },
+      {
+        h: 'How the date is fixed',
+        p: [
+          `Pitru Paksha is the waning half of a lunar month. Calendars that count the month from the new moon place it in Bhadrapada, right after the Ganesh festival, while calendars that count from the full moon name the same fortnight Ashvina. The two systems differ only in where the month is said to begin. The period often falls near the autumn equinox.`,
+          `This guide does not quote a date for the year. Follow your family's Odia panjika or the official Odisha holiday list, which also tell you the tithi on which your own ancestor's rite is due.`,
+        ],
+      },
+      {
+        h: 'Shraddha, tarpan and pinda daan',
+        p: [
+          `Shraddha is the main rite. Traditionally it is performed at midday by a male descendant, often the eldest son, on the lunar day of the ancestor's death, at a riverbank, a lake or at home. Views on who may perform it are changing, and some writers note that views on this are changing.`,
+          `Tarpan is an offering of water, often mixed with black sesame, which in Odia is tila tarpan. Pinda daan is the offering of balls of cooked rice or flour mixed with ghee and sesame. Food is cooked at home and served on banana leaves, and families also feed a cow, a dog and Brahmin priests. Food is set out for crows, which are regarded as messengers of the ancestors.`,
+        ],
+      },
+      {
+        h: 'Mahalaya in Puri, Bhubaneswar and Jajpur',
+        p: [
+          `Reports of Mahalaya in Odisha describe large crowds at water bodies across the state. Three sites are named in news accounts: the Bindu Sagar tank near the Lingaraj Temple in Bhubaneswar, the Narendra Pond at the northern gate of the Jagannath Temple in Puri, and the Baitarani River near the Maa Biraja Temple in Jajpur.`,
+          `At Puri, a news account describes the main rite as pinda daan for three generations of ancestors, with tila tarpan for both the paternal and maternal sides, and a meal for Brahmins to close the day. Pilgrims come from across India, and some return every year. At Sambalpur, the Samaleswari Temple is reported to open early in the morning on this day, with the goddess seen in white attire.`,
+        ],
+      },
+      {
+        h: 'The story of Karna and the gift of food',
+        p: [
+          `The Mahabharata gives a well-known story about why food is offered to ancestors. Karna, famed for his generosity, found after death that food turned to gold in his hands. He had given away wealth but never food in the name of his ancestors. He was allowed to return to earth for fifteen days to make the offerings, and the fortnight is linked in popular memory with that return. Versions differ on which divine figure explains this to him.`,
+        ],
+      },
+      {
+        h: 'From ancestors to the Goddess',
+        p: [
+          `Mahalaya ends Pitru Paksha and begins Devi Paksha, with Navaratri starting the next day. In Bengal the day is also known for the pre-dawn chanting of the Devi Mahatmya. In Odisha the turn from remembrance to celebration leads into the Durga Puja season described in our Durga Puja Odisha guide.`,
+          `The shift in mood is deliberate. The fortnight of gravity closes with a day of giving, and the following days are for the Goddess, whom devotees praise with hymns such as the Aigiri Nandini and the Durga Stotram.`,
+        ],
+      },
+      {
+        h: 'A simple way to observe the day',
+        p: [
+          `If you cannot travel to a tank or river, you can offer water with sesame at home in the morning, remembering your ancestors by name, and cook a simple meal to share. Feed a cow, a bird or someone in need. Keep the day calm and unhurried. Questions about the correct form for your family are best put to the family priest, since practice varies between communities.`,
+          `These rites are acts of memory and gratitude. They are not a means of guaranteeing any outcome, and no one should feel pressure beyond what their circumstances allow.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Mahalaya Amavasya?',
+        a: 'The new moon that ends Pitru Paksha, the fortnight of ancestor remembrance. It is also called Sarvapitri Amavasya.',
+      },
+      {
+        q: 'What is the difference between tarpan and pinda daan?',
+        a: 'Tarpan is an offering of water, often with sesame. Pinda daan is an offering of balls of cooked rice or flour with ghee and sesame.',
+      },
+      {
+        q: 'Where do people gather in Odisha?',
+        a: 'News accounts name Bindu Sagar in Bhubaneswar, Narendra Pond at Puri and the Baitarani River at Jajpur, along with the sea, rivers and ponds elsewhere.',
+      },
+      {
+        q: 'Can a person who missed an ancestor\'s tithi offer on Mahalaya?',
+        a: 'Yes. Sarvapitri Amavasya is traditionally the day for all ancestors and for anyone whose rite was missed.',
+      },
+      {
+        q: 'Why are crows fed?',
+        a: 'Crows are regarded as messengers of the ancestors, so a crow eating the offered food is taken as a sign of acceptance.',
+      },
+      {
+        q: 'Does Navaratri begin right after Mahalaya?',
+        a: 'Yes. Devi Paksha begins after Mahalaya, with Navaratri starting the next day.',
+      },
+      {
+        q: 'What is the date this year?',
+        a: 'It depends on the new moon in your panjika. Check your Odia calendar, because the amavasya can span two days.',
+      },
+    ],
+    related: {
+      stotrams: ['durga-stotram', 'aigiri-nandini', 'maha-mrityunjaya-mantra'],
+      guides: ['durga-puja-odisha-guide', 'navaratri-nine-forms-of-durga', 'kumar-purnima-odisha-guide', 'mantra-chanting-rules-faq'],
+    },
+    sources: [
+      'ETV Bharat, report on Mahalaya observed at Jagannath Dham in Puri',
+      'ThePrint, report on pinda daan across Odisha on Mahalaya',
+      'Wikipedia, article on Pitru Paksha',
+      'Free Press Journal, article on Mahalaya or Sarvapitri Amavasya',
     ],
   },
 ];

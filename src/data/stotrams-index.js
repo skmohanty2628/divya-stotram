@@ -481,6 +481,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'shuklambaradharam-mantra',
+    title: {
+      en: 'Shuklambaradharam Mantra',
+      hi: 'शुक्लाम्बरधरं मन्त्र',
+      od: 'ଶୁକ୍ଲାମ୍ବରଧରଂ ମନ୍ତ୍ର',
+      te: 'శుక్లాంబరధరం మంత్రం',
+    },
+    deity: 'Ganesha',
+    deityEmoji: 'ᬒᬁ',
+    deityIcon: '',
+    description: {
+      en: 'Shuklambaradharam Vishnum Shashivarnam Chaturbhujam, the opening dhyana shloka said before a puja or new task, with meaning in English, Hindi, Odia and Telugu and a chanting video',
+      hi: 'शुक्लाम्बरधरं विष्णुं शशिवर्णं चतुर्भुजम्, पूजा या नए कार्य से पहले बोला जाने वाला ध्यान श्लोक, अर्थ सहित',
+      od: 'ଶୁକ୍ଲାମ୍ବରଧରଂ ବିଷ୍ଣୁଂ ଶଶିବର୍ଣଂ ଚତୁର୍ଭୁଜମ୍, ପୂଜା ବା ନୂଆ କାମ ପୂର୍ବରୁ ପାଠ କରାଯାଉଥିବା ଧ୍ୟାନ ଶ୍ଳୋକ, ଅର୍ଥ ସହିତ',
+      te: 'శుక్లాంబరధరం విష్ణుం శశివర్ణం చతుర్భుజం, పూజ లేదా కొత్త పని ముందు చదివే ధ్యాన శ్లోకం, అర్థంతో',
+    },
+    color: 'from-orange-950 to-amber-950',
+    accent: '#f39c12',
+    youtubeId: '0XPPmIpNOqs',
+    verseCount: 1,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

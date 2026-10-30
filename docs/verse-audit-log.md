@@ -92,3 +92,22 @@ One line per audit. Rotation: every stotram in every language (Hindi/Devanagari,
 - Odia and Telugu scripts: converted from the Devanagari by Unicode offset. Odia uses the plain ba after r-halant, as elsewhere on the site, and Telugu uses the anusvara before a same-class consonant.
 - YouTube: id 2Jt1HQe67jU, "Vakratunda Mahakaya With Lyrics | Brahma Muhurta Chanting | Ganesh Mantra For Success", channel Rajshri Soul, 2:55, about 1.4 million views, embeddable, oEmbed 200. Alternative checked: kxxhO92X8ro (Nupur Bhakti Sansaar, Anup Jalota, oEmbed 200).
 - Cross-link: the new slug was added to related.stotrams of ganesh-chaturthi-guide.
+
+## 2026-10-30: durga-stotram, English transliteration
+- Method: each transliteration line was reduced to a consonant skeleton (long and short vowels, b and v, sibilants and nasals folded) and compared with the Devanagari original audited on 2026-10-27. It was then compared with the English (IAST style) edition of Devi Mahatmya chapter 11 on vignanam.org, which gives the Narayani Stuti verses used in verses 1 to 4.
+- Fixed: verse 3 "Sarva Swarope" became "Sarva Svarupe" (Devanagari svarupe; vignanam.org reads svarupe). The "o" was a wrong vowel and "Sw" was inconsistent with "Sv" used elsewhere on the site.
+- Fixed for consistency within the stotram: verse 5 "Roopam" became "Rupam" (it was spelled "Rupena" in verses 6 to 8), and "Bhooteshu" became "Bhuteshu" in verses 6 to 8 to match the Devanagari bhuteshu and the other spellings in the file.
+- Checked and left unchanged: "Tvaam" in verse 4 (long a is correct); "Tryambake" (vignanam.org prints "trayambake", a print error against the Devanagari); the Argala line in verse 5 follows the "me paramam sukham" reading already logged on 2026-10-27; the long-vowel marking style (Dinaarta, Kaamaan, Aashritanaam against Sarvartha, Mangalye) varies but every spelling is a correct romanisation, so it was not changed.
+- Needs human check: none open. Durga Stotram is now audited in all four languages. Next in rotation: shiva-tandav in Hindi.
+
+## 2026-10-30: new mantra added: shuklambaradharam-mantra
+- Text: Devanagari compared across shlokam.org (shloka page) and the Divine Life Society edition of the Vishnu Sahasranama invocation (swami-krishnananda.org). Both give the same two lines. vedadhara.com had no page for this slug.
+- Reading: the plain wording names Vishnu (shuklambaradharam vishnum). The Divine Life edition presents it as the invocation to the Vishnu Sahasranama, while shlokam.org gives both a Vishnu and a Ganesha translation, because it is recited before Ganesha puja by custom. The page presents both readings and does not choose one.
+- Odia and Telugu scripts: converted from the Devanagari by Unicode offset. Odia uses the plain ba after r-halant and Telugu uses the anusvara before a same-class consonant, as elsewhere on the site.
+- YouTube: id 0XPPmIpNOqs, "Vishnu Stuti Mantra | Shuklambaradharam Vishnum | Lord Vishnu Mantra For Protection", channel Rajshri Soul, about 26 thousand views, oEmbed 200. Alternatives checked: khq91DFUaE4 and 8M8lukszWgM, both oEmbed 200.
+- Cross-link: the new slug was added to related.stotrams of ganesh-chaturthi-guide and how-to-chant-vishnu-mantra.
+
+## 2026-10-30: guides
+- New: gamha-purnima-rakhi-purnima-odisha-guide (sources: Odisha Bytes, eOdisha). Temple ritual details come from a single detailed account and the guide says so.
+- New: mahalaya-pitru-paksha-odisha-guide (sources: ETV Bharat, ThePrint, Wikipedia, Free Press Journal). No dates quoted.
+- Upgraded: maha-mrityunjaya-mantra-meaning (about 364 to 890 words). Added Taittiriya Samhita 1.8.6 and Vajasaneyi Samhita 3.60, word by word breakdown, tryambaka note, Pradosh use. Sources: Shlokam.org and Bharatpedia.

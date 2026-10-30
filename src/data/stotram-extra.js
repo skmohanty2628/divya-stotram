@@ -186,4 +186,23 @@ export const STOTRAM_EXTRA = {
       { q: 'Does chanting it guarantee that my work will succeed?', a: 'No. It is a prayer and a way to begin with focus and humility. It does not guarantee any result.' },
     ],
   },
+  'shuklambaradharam-mantra': {
+    what: `Shuklambaradharam Vishnum is a two-line Sanskrit dhyana shloka, a verse of meditation. It describes a deity dressed in white, the colour of the moon, with four arms and a cheerful face, and it asks that all obstacles be calmed. It is one of the best-known verses to open a puja, and many families say it before starting an exam, a journey or any new work. The wording names Vishnu. In many homes and temples it is said to Lord Ganesha, who is called the remover of obstacles, and it also appears as an invocation verse at the start of the Vishnu Sahasranama. The sources checked do not name an author.`,
+    meaning: `Shukla-ambara-dharam means the one who wears white garments. Vishnum can mean Vishnu by name, or the all-pervading one, and this is why the verse is applied to Ganesha as well. Shashi-varnam means moon-coloured, and chaturbhujam means four-armed. Prasanna-vadanam means with a cheerful, serene face. Dhyayet means one should meditate, and sarva-vighna-upashantaye means for the calming of all obstacles. Both readings are in use, and each family or tradition follows its own.`,
+    benefits: [
+      'Short and easy to learn, so it suits children, students and beginners',
+      'A traditional opening for a puja, aarti or reading of scripture',
+      'Said before an exam, a journey or the start of a new task',
+      'Can be chanted aloud or quietly, once or on a mala of 108 beads',
+      'Open to anyone, with no initiation needed',
+    ],
+    bestTime: `Say it at the start of a puja or just before you begin a task, ideally after a short pause to settle. Many families say it at the start of the morning prayer, and on Wednesdays or Ganesh Chaturthi it is paired with the Vakratunda Mahakaya shloka. Once is enough at the start, and 11 or 108 repetitions are common for a longer sitting.`,
+    faqs: [
+      { q: 'What does Shuklambaradharam Vishnum mean?', a: 'One should meditate on the one dressed in white, moon-coloured, four-armed and cheerful of face, so that all obstacles are calmed.' },
+      { q: 'Is it a prayer to Vishnu or to Ganesha?', a: 'The wording names Vishnu, which can also mean the all-pervading one. In common practice it is said to Ganesha at the start of a puja. Both readings are in use.' },
+      { q: 'When should I chant it?', a: 'At the start of a puja, study session, journey or new task. There is no fixed day.' },
+      { q: 'Who wrote this shloka?', a: 'The sources checked do not name an author. It appears as an invocation verse in editions of the Vishnu Sahasranama.' },
+      { q: 'Does it guarantee that obstacles will go away?', a: 'No. It is a prayer and a way to begin with focus. It does not guarantee any result.' },
+    ],
+  },
 };

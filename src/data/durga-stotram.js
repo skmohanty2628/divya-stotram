@@ -43,7 +43,7 @@ export const durgaStotram = {
       type: 'shloka',
       num: 3,
       original: 'सर्वस्वरूपे सर्वेशे सर्वशक्तिसमन्विते। भयेभ्यस्त्राहि नो देवि दुर्गे देवि नमोऽस्तुते॥',
-      transliteration: 'Sarva Swarope Sarveshe Sarva Shakti Samanvite\nBhayebhyas Trahi No Devi Durge Devi Namostute',
+      transliteration: 'Sarva Svarupe Sarveshe Sarva Shakti Samanvite\nBhayebhyas Trahi No Devi Durge Devi Namostute',
       script: {
         od: 'ସର୍ବସ୍ୱରୂପେ ସର୍ବେଶେ ସର୍ବଶକ୍ତି ସମନ୍ୱିତେ। ଭୟେଭ୍ୟସ୍ତ୍ରାହି ନୋ ଦେବୀ ଦୁର୍ଗେ ଦେବୀ ନମୋସ୍ତୁତେ॥',
         te: 'సర్వస్వరూపే సర్వేశే సర్వశక్తి సమన్వితే। భయేభ్యస్త్రాహి నో దేవి దుర్గే దేవి నమోస్తుతే॥',
@@ -79,7 +79,7 @@ export const durgaStotram = {
       type: 'shloka',
       num: 5,
       original: 'देहि सौभाग्यमारोग्यं देहि मे परमं सुखम्। रूपं देहि जयं देहि यशो देहि द्विषो जहि॥',
-      transliteration: 'Dehi Saubhagyam Aarogyam Dehi Me Paramam Sukham\nRoopam Dehi Jayam Dehi Yasho Dehi Dvisho Jahi',
+      transliteration: 'Dehi Saubhagyam Aarogyam Dehi Me Paramam Sukham\nRupam Dehi Jayam Dehi Yasho Dehi Dvisho Jahi',
       script: {
         od: 'ଦେହି ସୌଭାଗ୍ୟମାରୋଗ୍ୟଂ ଦେହି ମେ ପରମଂ ସୁଖମ୍। ରୂପଂ ଦେହି ଜୟଂ ଦେହି ଯଶୋ ଦେହି ଦ୍ୱିଷୋ ଜହି॥',
         te: 'దేహి సౌభాగ్యమారోగ్యం దేహి మే పరమం సుఖం। రూపం దేహి జయం దేహి యశో దేహి ద్విషో జహి॥',
@@ -97,7 +97,7 @@ export const durgaStotram = {
       type: 'shloka',
       num: 6,
       original: 'या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता। नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥',
-      transliteration: 'Ya Devi Sarva Bhooteshu Shakti Rupena Samsthita\nNamas Tasyai Namas Tasyai Namas Tasyai Namo Namah',
+      transliteration: 'Ya Devi Sarva Bhuteshu Shakti Rupena Samsthita\nNamas Tasyai Namas Tasyai Namas Tasyai Namo Namah',
       script: {
         od: 'ୟା ଦେବୀ ସର୍ବଭୂତେଷୁ ଶକ୍ତିରୂପେଣ ସଂସ୍ଥିତା। ନମସ୍ତସ୍ୟୈ ନମସ୍ତସ୍ୟୈ ନମସ୍ତସ୍ୟୈ ନମୋ ନମଃ॥',
         te: 'యా దేవీ సర్వభూతేషు శక్తిరూపేణ సంస్థితా। నమస్తస్యై నమస్తస్యై నమస్తస్యై నమో నమః॥',
@@ -115,7 +115,7 @@ export const durgaStotram = {
       type: 'shloka',
       num: 7,
       original: 'या देवी सर्वभूतेषु मातृरूपेण संस्थिता। नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥',
-      transliteration: 'Ya Devi Sarva Bhooteshu Matri Rupena Samsthita\nNamas Tasyai Namas Tasyai Namas Tasyai Namo Namah',
+      transliteration: 'Ya Devi Sarva Bhuteshu Matri Rupena Samsthita\nNamas Tasyai Namas Tasyai Namas Tasyai Namo Namah',
       script: {
         od: 'ୟା ଦେବୀ ସର୍ବଭୂତେଷୁ ମାତୃରୂପେଣ ସଂସ୍ଥିତା। ନମସ୍ତସ୍ୟୈ ନମସ୍ତସ୍ୟୈ ନମସ୍ତସ୍ୟୈ ନମୋ ନମଃ॥',
         te: 'యా దేవీ సర్వభూతేషు మాతృరూపేణ సంస్థితా। నమస్తస్యై నమస్తస్యై నమస్తస్యై నమో నమః॥',
@@ -133,7 +133,7 @@ export const durgaStotram = {
       type: 'shloka',
       num: 8,
       original: 'या देवी सर्वभूतेषु शान्तिरूपेण संस्थिता। नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥',
-      transliteration: 'Ya Devi Sarva Bhooteshu Shanti Rupena Samsthita\nNamas Tasyai Namas Tasyai Namas Tasyai Namo Namah',
+      transliteration: 'Ya Devi Sarva Bhuteshu Shanti Rupena Samsthita\nNamas Tasyai Namas Tasyai Namas Tasyai Namo Namah',
       script: {
         od: 'ୟା ଦେବୀ ସର୍ବଭୂତେଷୁ ଶାନ୍ତିରୂପେଣ ସଂସ୍ଥିତା। ନମସ୍ତସ୍ୟୈ ନମସ୍ତସ୍ୟୈ ନମସ୍ତସ୍ୟୈ ନମୋ ନମଃ॥',
         te: 'యా దేవీ సర్వభూతేషు శాంతిరూపేణ సంస్థితా। నమస్తస్యై నమస్తస్యై నమస్తస్యై నమో నమః॥',

@@ -112,6 +112,11 @@ const SEO_COPY = {
     description:
       'Read Vakratunda Mahakaya Suryakoti Samaprabha, the Ganesha shloka for removing obstacles, in English, Hindi, Odia and Telugu with meaning, when to chant it before a new task, and a video to follow along.',
   },
+  'shuklambaradharam-mantra': {
+    title: 'Shuklambaradharam Vishnum Mantra in English, Hindi, Odia & Telugu with Meaning',
+    description:
+      'Read Shuklambaradharam Vishnum Shashivarnam Chaturbhujam, the dhyana shloka for removing obstacles, in English, Hindi, Odia and Telugu with meaning, when to chant it before a puja, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

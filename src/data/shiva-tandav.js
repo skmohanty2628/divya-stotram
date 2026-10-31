@@ -1,291 +1,263 @@
+// SHIVA TANDAVA STOTRAM, attributed to Ravana. 15-verse edition, four lines per verse.
+// Rebuilt on 2026-10-31 from sanskritdocuments.org (Shivatandavastotra by Ravana, 17 verses) and ramcharit.in (15 verses); both give the same text for the verses used here.
+// sanskritdocuments.org also lists two extra verses (nilimpanatha..., prachanda vadavanala...) found only in some versions; they are not included.
 export const shivaTandav = {
   slug: 'shiva-tandav',
   verses: [
-
     {
-      id:1, type:'shloka', num:1,
-      original:`जटाटवीगलज्जलप्रवाहपावितस्थले
-गलेवलम्ब्यलम्बितां भुजंगतुंगमालिकाम्॥`,
-      transliteration:`Jatatavigalajjalapravahapavitasthale
-Galevalambyalambitam Bhujangatungamalikam`,
-      script:{
-        od:`ଜଟାଟବୀଗଳଜ୍ଜଳପ୍ରବାହପାବିତସ୍ଥଳେ
-ଗଳେବଳମ୍ବ୍ୟଲମ୍ବିତାଂ ଭୁଜଙ୍ଗତୁଙ୍ଗମାଳିକାମ୍॥`,
-        te:`జటాటవీగలజ్జలప్రవాహపావితస్థలే
-గలేవలంబ్యలంబితాం భుజంగతుంగమాలికామ్॥`
+      id: 1,
+      type: 'shloka',
+      num: 1,
+      original: "जटाटवीगलज्जलप्रवाहपावितस्थले\nगलेऽवलम्ब्य लम्बितां भुजङ्गतुङ्गमालिकाम्।\nडमड्डमड्डमड्डमन्निनादवड्डमर्वयं\nचकार चण्डताण्डवं तनोतु नः शिवः शिवम्॥",
+      transliteration: "Jatatavigalajjalapravahapavitasthale\nGalevalambya Lambitam Bhujangatungamalikam\nDamaddamaddamaddamanninadavaddamarvayam\nChakara Chandatandavam Tanotu Nah Shivah Shivam",
+      script: {
+        od: "ଜଟାଟବୀଗଲଜ୍ଜଲପ୍ରବାହପାବିତସ୍ଥଲେ\nଗଲେଽବଲମ୍ବ୍ୟ ଲମ୍ବିତାଂ ଭୁଜଙ୍ଗତୁଙ୍ଗମାଲିକାମ୍।\nଡମଡ୍ଡମଡ୍ଡମଡ୍ଡମନ୍ନିନାଦବଡ୍ଡମର୍ବୟଂ\nଚକାର ଚଣ୍ଡତାଣ୍ଡବଂ ତନୋତୁ ନଃ ଶିବଃ ଶିବମ୍॥",
+        te: "జటాటవీగలజ్జలప్రవాహపావితస్థలే\nగలేఽవలంబ్య లంబితాం భుజంగతుంగమాలికాం।\nడమడ్డమడ్డమడ్డమన్నినాదవడ్డమర్వయం\nచకార చండతాండవం తనోతు నః శివః శివమ్॥",
       },
-      meaning:{
-        en:`Shiva whose hair flows with Ganga and who wears serpents.`,
-        hi:`जिनकी जटाओं से गंगा बहती है और जो सर्प धारण करते हैं।`,
-        od:`ଶିବଙ୍କ ଜଟାରୁ ଗଙ୍ଗା ବହୁଛି ଏବଂ ସେ ସର୍ପମାଳା ଧାରଣ କରିଛନ୍ତି।`,
-        te:`జటాలలో గంగ ప్రవహిస్తూ నాగమాల ధరించిన శివుడు.`
-      }
-    },
-
-    {
-      id:2, type:'shloka', num:2,
-      original:`जटाकटाहसंभ्रमभ्रमन्निलिंपनिर्झरी
-विलोलवीचिवल्लरी विराजमानमूर्धनि॥`,
-      transliteration:`Jatakatahasambhramabhramannilimpanirjhari
-Vilolavichivallari Virajamanamurdhani`,
-      script:{
-        od:`ଜଟାକଟାହସଂଭ୍ରମଭ୍ରମନ୍ନିଲିମ୍ପନିର୍ଝରୀ
-ବିଲୋଳବୀଚିବଲ୍ଲରୀ ବିରାଜମାନମୂର୍ଧନି॥`,
-        te:`జటాకటాహసంభ్రమభ్రమన్నిలింపనిర్జరి
-విలోలవీచివల్లరి విరాజమానమూర్ధని॥`
+      meaning: {
+        en: "From the forest of his matted hair the waters of Ganga flow and sanctify the ground. A great garland of serpents hangs on his neck, and to the sound of his damaru drum, damad damad, Shiva performed his fierce dance. May that Shiva bring us well-being.",
+        hi: "जटाओं के वन से बहती गंगा के जल से जिनका स्थान पवित्र हुआ है, जिनके गले में सर्पों की विशाल माला लटक रही है, और जिन्होंने डमरू के डम-डम नाद के साथ प्रचण्ड ताण्डव किया, वे शिव हमारा कल्याण करें।",
+        od: "ଜଟାର ବନରୁ ବହୁଥିବା ଗଙ୍ଗାଜଳରେ ଯେଉଁଙ୍କ ସ୍ଥାନ ପବିତ୍ର ହୋଇଛି, ଯେଉଁଙ୍କ ଗଳାରେ ସର୍ପମାଳା ଝୁଲୁଛି, ଏବଂ ଯେ ଡମରୁର ଡମ-ଡମ ନାଦ ସହିତ ପ୍ରଚଣ୍ଡ ତାଣ୍ଡବ କରିଥିଲେ, ସେହି ଶିବ ଆମର କଲ୍ୟାଣ କରନ୍ତୁ।",
+        te: "జటల అరణ్యం నుండి ప్రవహించే గంగాజలంతో ఎవరి స్థానం పవిత్రమైందో, ఎవరి కంఠంలో సర్పమాల వేలాడుతున్నదో, ఎవరు డమరు డమడమ నాదంతో చండతాండవం చేశారో, ఆ శివుడు మనకు శుభం కలిగించుగాక.",
       },
-      meaning:{
-        en:`Ganga flows beautifully through Shiva’s hair.`,
-        hi:`शिव की जटाओं में गंगा लहराती है।`,
-        od:`ଶିବଙ୍କ ଜଟାରେ ଗଙ୍ଗା ଲହରିତ ହେଉଛି।`,
-        te:`శివుని జటాలలో గంగ ప్రవహిస్తుంది.`
-      }
     },
-
     {
-      id:3, type:'shloka', num:3,
-      original:`धराधरेन्द्रनन्दिनिविलासबन्धुबन्धुर
-स्फुरद्दिगन्तसंततिप्रमोदमानमानसे॥`,
-      transliteration:`Dharadharendranandinivilasabandhubandhura
-Sphuraddigantasantatipramodamanamanase`,
-      script:{
-        od:`ଧରାଧରେନ୍ଦ୍ରନନ୍ଦିନୀବିଲାସବନ୍ଧୁବନ୍ଧୁର
-ସ୍ଫୁରଦ୍ଦିଗନ୍ତସନ୍ତତିପ୍ରମୋଦମାନମାନସେ॥`,
-        te:`ధరాధరేంద్రనందినీవిలాసబంధుబంధుర
-స్ఫురద్దిగంతసంతతిప్రమోదమానమానసే॥`
+      id: 2,
+      type: 'shloka',
+      num: 2,
+      original: "जटाकटाहसम्भ्रमभ्रमन्निलिम्पनिर्झरी\nविलोलवीचिवल्लरीविराजमानमूर्द्धनि।\nधगद्धगद्धगज्ज्वलल्ललाटपट्टपावके\nकिशोरचन्द्रशेखरे रतिः प्रतिक्षणं मम॥",
+      transliteration: "Jatakatahasambhramabhramannilimpanirjhari\nVilolavichivallarivirajamanamurddhani\nDhagaddhagaddhagajjvalallalatapattapavake\nKishorachandrashekhare Ratih Pratikshanam Mama",
+      script: {
+        od: "ଜଟାକଟାହସମ୍ଭ୍ରମଭ୍ରମନ୍ନିଲିମ୍ପନିର୍ଝରୀ\nବିଲୋଲବୀଚିବଲ୍ଲରୀବିରାଜମାନମୂର୍ଦ୍ଧନି।\nଧଗଦ୍ଧଗଦ୍ଧଗଜ୍ଜ୍ବଲଲ୍ଲଲାଟପଟ୍ଟପାବକେ\nକିଶୋରଚନ୍ଦ୍ରଶେଖରେ ରତିଃ ପ୍ରତିକ୍ଷଣଂ ମମ॥",
+        te: "జటాకటాహసంభ్రమభ్రమన్నిలింపనిర్ఝరీ\nవిలోలవీచివల్లరీవిరాజమానమూర్ద్ధని।\nధగద్ధగద్ధగజ్జ్వలల్లలాటపట్టపావకే\nకిశోరచంద్రశేఖరే రతిః ప్రతిక్షణం మమ॥",
       },
-      meaning:{
-        en:`Shiva joyfully dances with Parvati.`,
-        hi:`शिव पार्वती के साथ आनंद से नृत्य करते हैं।`,
-        od:`ଶିବ ପାର୍ବତୀଙ୍କ ସହ ଆନନ୍ଦରେ ନୃତ୍ୟ କରନ୍ତି।`,
-        te:`పార్వతితో ఆనందంగా నృత్యం చేసే శివుడు.`
-      }
-    },
-
-    {
-      id:4, type:'shloka', num:4,
-      original:`जटाभुजंगपिङ्गलस्फुरत्फणामणिप्रभा
-कदम्बकुङ्कुमद्रवप्रलिप्तदिग्वधूमुखे॥`,
-      transliteration:`Jatabhujangapingalasphuratphanamaniprabha
-Kadambakunkumadravapraliptadigvadhumukhe`,
-      script:{
-        od:`ଜଟାଭୁଜଙ୍ଗପିଙ୍ଗଳସ୍ଫୁରତ୍ଫଣାମଣିପ୍ରଭା
-କଦମ୍ବକୁଙ୍କୁମଦ୍ରବପ୍ରଲିପ୍ତଦିଗ୍ବଧୂମୁଖେ॥`,
-        te:`జటాభుజంగపింగలస్ఫురత్ఫణామణిప్రభా
-కదంబకుంకుమద్రవప్రలిప్తదిగ్వధూముఖే॥`
+      meaning: {
+        en: "My delight is in Shiva at every moment, the young moon on his crest, whose head shines with the restless waves of Ganga whirling in the cauldron of his locks, and on whose forehead fire blazes with a crackling sound.",
+        hi: "जटाओं के कड़ाह में घूमती गंगा की चंचल लहरों से जिनका मस्तक सुशोभित है, जिनके ललाट पर अग्नि धधक रही है और जिनके मस्तक पर नवीन चन्द्रमा है, उन शिव में मेरा प्रतिक्षण प्रेम रहे।",
+        od: "ଜଟାର କଡ଼ାଇରେ ଘୂରୁଥିବା ଗଙ୍ଗାର ଚଞ୍ଚଳ ଲହରୀରେ ଯେଉଁଙ୍କ ମସ୍ତକ ଶୋଭାମାନ, ଯେଉଁଙ୍କ ଲଲାଟରେ ଅଗ୍ନି ଜଳୁଛି ଏବଂ ମସ୍ତକରେ ନବୀନ ଚନ୍ଦ୍ର ଅଛି, ସେହି ଶିବଙ୍କଠାରେ ମୋର ପ୍ରତିକ୍ଷଣ ପ୍ରୀତି ରହୁ।",
+        te: "జటాకటాహంలో తిరిగే గంగ చంచల తరంగాలతో ఎవరి శిరస్సు ప్రకాశిస్తున్నదో, ఎవరి నుదుటిపై అగ్ని మండుతున్నదో, ఎవరి శిరస్సుపై నవచంద్రుడు ఉన్నాడో, ఆ శివునిపై నాకు ప్రతిక్షణం ప్రీతి కలగాలి.",
       },
-      meaning:{
-        en:`Shiva shines with serpents and divine beauty.`,
-        hi:`शिव सर्पों और दिव्य सौंदर्य से शोभित हैं।`,
-        od:`ଶିବ ସର୍ପମାଳା ଓ ଦିବ୍ୟ ରୂପରେ ଶୋଭିତ।`,
-        te:`శివుడు నాగాలతో ప్రకాశిస్తున్నాడు.`
-      }
     },
-
     {
-      id:5, type:'shloka', num:5,
-      original:`सहस्रलोचनप्रभृत्यशेषलेखशेखर
-प्रसूनधूलिधोरिणी विधूसराङ्घ्रिपीठभूः॥`,
-      transliteration:`Sahasralochanaprabhritya Shesha Lekhashekhara
-PrasoonadhoolidhoraNi Vidhusaranghripeethabhoo`,
-      script:{
-        od:`ସହସ୍ରଲୋଚନପ୍ରଭୃତ୍ୟଶେଷଲେଖଶେଖର
-ପ୍ରସୂନଧୂଳିଧୋରଣୀ ବିଧୂସରାଙ୍ଘ୍ରିପୀଠଭୂଃ॥`,
-        te:`సహస్రలోచనప్రభృత్యశేషలేఖశేఖర
-ప్రసూనధూళిధోరణీ విధూసరాంఘ్రిపీఠభూః॥`
+      id: 3,
+      type: 'shloka',
+      num: 3,
+      original: "धराधरेन्द्रनन्दिनीविलासबन्धुबन्धुर\nस्फुरद्दिगन्तसन्ततिप्रमोदमानमानसे।\nकृपाकटाक्षधोरणीनिरुद्धदुर्धरापदि\nक्वचिद्दिगम्बरे मनो विनोदमेतु वस्तुनि॥",
+      transliteration: "Dharadharendranandinivilasabandhubandhura\nSphuraddigantasantatipramodamanamanase\nKripakatakshadhoraniniruddhadurdharapadi\nKvachiddigambare Mano Vinodametu Vastuni",
+      script: {
+        od: "ଧରାଧରେନ୍ଦ୍ରନନ୍ଦିନୀବିଲାସବନ୍ଧୁବନ୍ଧୁର\nସ୍ଫୁରଦ୍ଦିଗନ୍ତସନ୍ତତିପ୍ରମୋଦମାନମାନସେ।\nକୃପାକଟାକ୍ଷଧୋରଣୀନିରୁଦ୍ଧଦୁର୍ଧରାପଦି\nକ୍ବଚିଦ୍ଦିଗମ୍ବରେ ମନୋ ବିନୋଦମେତୁ ବସ୍ତୁନି॥",
+        te: "ధరాధరేంద్రనందినీవిలాసబంధుబంధుర\nస్ఫురద్దిగంతసంతతిప్రమోదమానమానసే।\nకృపాకటాక్షధోరణీనిరుద్ధదుర్ధరాపది\nక్వచిద్దిగంబరే మనో వినోదమేతు వస్తుని॥",
       },
-      meaning:{
-        en:`Gods offer flowers at Shiva’s feet.`,
-        hi:`देवता शिव के चरणों में पुष्प अर्पित करते हैं।`,
-        od:`ଦେବତାମାନେ ଶିବଙ୍କ ପାଦରେ ପୁଷ୍ପ ଅର୍ପଣ କରନ୍ତି।`,
-        te:`దేవతలు శివుని పాదాలకు పూలు అర్పిస్తారు.`
-      }
-    },
-
-    {
-      id:6, type:'shloka', num:6,
-      original:`ललाटचत्वरज्वलद्धनञ्जयस्फुलिङ्गभा
-निपीतपञ्चसायकं नमन्निलिम्पनायकम्॥`,
-      transliteration:`Lalatachatvarajvaladdhananjayasphulingabha
-Nipeetapanchasayakam Namannilimpanayakam`,
-      script:{
-        od:`ଲଳାଟଚତ୍ୱରଜ୍ୱଳଦ୍ଧନଞ୍ଜୟସ୍ଫୁଲିଙ୍ଗଭା
-ନିପୀତପଞ୍ଚସାୟକଂ ନମନ୍ନିଲିମ୍ପନାୟକମ୍॥`,
-        te:`లలాటచత్వరజ్వలద్ధనంజయస్ఫులింగభా
-నిపీతపంచసాయకం నమన్నిలింపనాయకమ్॥`
+      meaning: {
+        en: "May my mind find joy in the Digambara, the sky-clad Shiva, who delights in the company of Parvati, daughter of the mountain king, whose being gladdens the whole expanse of the quarters, and whose glance of compassion removes unbearable troubles.",
+        hi: "पर्वतराज की पुत्री पार्वती के विलास में आनन्दित, जिनसे सभी दिशाएँ प्रसन्न होती हैं, और जिनकी कृपादृष्टि असह्य विपत्ति को दूर करती है, उन दिगम्बर शिव में मेरा मन आनन्द पाए।",
+        od: "ପର୍ବତରାଜଙ୍କ କନ୍ୟା ପାର୍ବତୀଙ୍କ ସଂଗରେ ଆନନ୍ଦିତ, ଯେଉଁଙ୍କଠାରୁ ସମସ୍ତ ଦିଗ ପ୍ରସନ୍ନ ହୁଏ, ଏବଂ ଯେଉଁଙ୍କ କୃପାଦୃଷ୍ଟି ଅସହ୍ୟ ବିପଦକୁ ଦୂର କରେ, ସେହି ଦିଗମ୍ବର ଶିବଙ୍କଠାରେ ମୋ ମନ ଆନନ୍ଦ ଲାଭ କରୁ।",
+        te: "పర్వతరాజ పుత్రి పార్వతితో విలాసంగా ఆనందించేవాడు, ఎవరి వల్ల అన్ని దిక్కులూ ప్రసన్నమవుతాయో, ఎవరి కృపాకటాక్షం భరింపరాని ఆపదలను తొలగిస్తుందో, ఆ దిగంబర శివునిలో నా మనస్సు ఆనందం పొందాలి.",
       },
-      meaning:{
-        en:`Shiva’s forehead shines like fire.`,
-        hi:`शिव का ललाट अग्नि के समान चमकता है।`,
-        od:`ଶିବଙ୍କ ଲଳାଟ ଅଗ୍ନି ପରି ଜ୍ୱଳନ୍ତ।`,
-        te:`శివుని లలాటం అగ్నిలా మెరిసుతుంది.`
-      }
     },
-
     {
-      id:7, type:'shloka', num:7,
-      original:`करालभालपट्टिकाधगद्धगद्धगज्ज्वलद्धनञ्जयाहुतीकृतप्रचण्डपञ्चसायके॥`,
-      transliteration:`Karalabhalapattikadhagaddhagaddhagajjvaladdhananjayahutikrita`,
-      script:{
-        od:`କରାଳଭାଳପଟ୍ଟିକାଧଗଦ୍ଧଗଦ୍ଧଗଜ୍ଜ୍ୱଳଦ୍ଧନଞ୍ଜୟାହୁତୀକୃତପ୍ରଚଣ୍ଡପଞ୍ଚସାୟକେ॥`,
-        te:`కరాళభాలపట్టికాధగద్దగద్దగజ్జ్వలద్ధనంజయాహుతీకృతప్రచండపంచసాయకే॥`
+      id: 4,
+      type: 'shloka',
+      num: 4,
+      original: "जटाभुजङ्गपिङ्गलस्फुरत्फणामणिप्रभा\nकदम्बकुङ्कुमद्रवप्रलिप्तदिग्वधूमुखे।\nमदान्धसिन्धुरस्फुरत्त्वगुत्तरीयमेदुरे\nमनो विनोदमद्भुतं बिभर्तु भूतभर्तरि॥",
+      transliteration: "Jatabhujangapingalasphuratphanamaniprabha\nKadambakunkumadravapraliptadigvadhumukhe\nMadandhasindhurasphurattvaguttariyamedure\nMano Vinodamadbhutam Bibhartu Bhutabhartari",
+      script: {
+        od: "ଜଟାଭୁଜଙ୍ଗପିଙ୍ଗଲସ୍ଫୁରତ୍ଫଣାମଣିପ୍ରଭା\nକଦମ୍ବକୁଙ୍କୁମଦ୍ରବପ୍ରଲିପ୍ତଦିଗ୍ବଧୂମୁଖେ।\nମଦାନ୍ଧସିନ୍ଧୁରସ୍ଫୁରତ୍ତ୍ବଗୁତ୍ତରୀୟମେଦୁରେ\nମନୋ ବିନୋଦମଦ୍ଭୁତଂ ବିଭର୍ତୁ ଭୂତଭର୍ତରି॥",
+        te: "జటాభుజంగపింగలస్ఫురత్ఫణామణిప్రభా\nకదంబకుంకుమద్రవప్రలిప్తదిగ్వధూముఖే।\nమదాంధసింధురస్ఫురత్త్వగుత్తరీయమేదురే\nమనో వినోదమద్భుతం బిభర్తు భూతభర్తరి॥",
       },
-      meaning:{
-        en:`Shiva destroys evil with fierce power.`,
-        hi:`शिव अपनी प्रचंड शक्ति से बुराई का नाश करते हैं।`,
-        od:`ଶିବ ତାଙ୍କ ପ୍ରଚଣ୍ଡ ଶକ୍ତିରେ ଅସୁଭକୁ ନାଶ କରନ୍ତି।`,
-        te:`శివుడు తన శక్తితో దుష్టులను నశింపజేస్తాడు.`
-      }
-    },
-
-    {
-      id:8, type:'shloka', num:8,
-      original:`नवीनमेघमण्डली निरुद्धदुर्धरस्फुरत्कुहूनिशीथिनीतमःप्रबन्धबन्धुकन्धरः॥`,
-      transliteration:`Naveenameghamandali niruddhadurdharasphurat`,
-      script:{
-        od:`ନବୀନମେଘମଣ୍ଡଳୀନିରୁଦ୍ଧଦୁର୍ଧରସ୍ଫୁରତ୍କୁହୁନିଶୀଥିନୀତମଃପ୍ରବନ୍ଧବନ୍ଧୁକନ୍ଧରଃ॥`,
-        te:`నవీనమేఘమండలీనిరుద్ధదుర్ధరస్ఫురత్కుహునిశీథినీతమఃప్రబంధబంధుకంధరః॥`
+      meaning: {
+        en: "May my mind find wondrous joy in Shiva, lord of all beings, the faces of the directions bright with the glow of jewels on the hoods of tawny serpents in his locks and with saffron paste, and who is draped in the hide of a mad elephant as his upper cloth.",
+        hi: "जटाओं के पीले सर्पों के फणों की मणियों की प्रभा और कुमकुम के लेप से जिन्होंने दिशाओं के मुख को आलोकित किया है, और जो मतवाले हाथी की खाल का उत्तरीय ओढ़े हैं, उन भूतनाथ शिव में मेरा मन अद्भुत आनन्द पाए।",
+        od: "ଜଟାର ପିଙ୍ଗଳ ସର୍ପମାନଙ୍କ ଫଣାର ମଣିର ପ୍ରଭା ଓ କୁଙ୍କୁମ ଲେପରେ ଯେ ଦିଗଗୁଡ଼ିକର ମୁଖ ଉଜ୍ଜ୍ୱଳ କରିଛନ୍ତି, ଏବଂ ମତ୍ତ ହାତୀର ଚର୍ମକୁ ଉତ୍ତରୀୟ ଭାବରେ ପିନ୍ଧିଛନ୍ତି, ସେହି ଭୂତନାଥ ଶିବଙ୍କଠାରେ ମୋ ମନ ଅଦ୍ଭୁତ ଆନନ୍ଦ ଲାଭ କରୁ।",
+        te: "జటలలోని పింగళ సర్పాల పడగలపై మణుల కాంతితో, కుంకుమ ద్రవంతో దిక్కుల ముఖాలను ప్రకాశింపజేసేవాడు, మదించిన ఏనుగు చర్మాన్ని ఉత్తరీయంగా ధరించినవాడు అయిన భూతనాథుడైన శివునిలో నా మనస్సు అద్భుతమైన ఆనందం పొందాలి.",
       },
-      meaning:{
-        en:`Shiva shines even in darkness.`,
-        hi:`शिव अंधकार में भी प्रकाशमान हैं।`,
-        od:`ଶିବ ଅନ୍ଧକାରରେ ମଧ୍ୟ ଦୀପ୍ତିମାନ।`,
-        te:`శివుడు అంధకారంలో కూడా ప్రకాశిస్తాడు.`
-      }
     },
-
     {
-      id:9, type:'shloka', num:9,
-      original:`प्रफुल्लनीलपङ्कजप्रपञ्चकालिमप्रभा वलम्बिकण्ठकन्दली रुचिप्रबद्धकन्धरम्॥`,
-      transliteration:`Praphullanilapankajaprapanchakalimaprabha`,
-      script:{
-        od:`ପ୍ରଫୁଲ୍ଲନୀଳପଙ୍କଜପ୍ରପଞ୍ଚକାଳିମପ୍ରଭା ବଳମ୍ବିକଣ୍ଠକନ୍ଦଳୀ ରୁଚିପ୍ରବଦ୍ଧକନ୍ଧରମ୍॥`,
-        te:`ప్రఫుల్లనీలపంకజప్రపంచకాలిమప్రభా వలంబికంఠకందలీ రుచిప్రబద్ధకంధరమ్॥`
+      id: 5,
+      type: 'shloka',
+      num: 5,
+      original: "सहस्रलोचनप्रभृत्यशेषलेखशेखर\nप्रसूनधूलिधोरणीविधूसराङ्घ्रिपीठभूः।\nभुजङ्गराजमालया निबद्धजाटजूटकः\nश्रियै चिराय जायतां चकोरबन्धुशेखरः॥",
+      transliteration: "Sahasralochanaprabhrityasheshalekhashekhara\nPrasunadhulidhoranividhusaranghripithabhuh\nBhujangarajamalaya Nibaddhajatajutakah\nShriyai Chiraya Jayatam Chakorabandhushekharah",
+      script: {
+        od: "ସହସ୍ରଲୋଚନପ୍ରଭୃତ୍ୟଶେଷଲେଖଶେଖର\nପ୍ରସୂନଧୂଲିଧୋରଣୀବିଧୂସରାଙ୍ଘ୍ରିପୀଠଭୂଃ।\nଭୁଜଙ୍ଗରାଜମାଲୟା ନିବଦ୍ଧଜାଟଜୂଟକଃ\nଶ୍ରିୟୈ ଚିରାୟ ଜାୟତାଂ ଚକୋରବନ୍ଧୁଶେଖରଃ॥",
+        te: "సహస్రలోచనప్రభృత్యశేషలేఖశేఖర\nప్రసూనధూలిధోరణీవిధూసరాంఘ్రిపీఠభూః।\nభుజంగరాజమాలయా నిబద్ధజాటజూటకః\nశ్రియై చిరాయ జాయతాం చకోరబంధుశేఖరః॥",
       },
-      meaning:{
-        en:`Shiva shines like a blue lotus.`,
-        hi:`शिव नील कमल के समान शोभित हैं।`,
-        od:`ଶିବ ନୀଳ କମଳ ପରି ଶୋଭା ପାଉଛନ୍ତି।`,
-        te:`శివుడు నీలకమలం వలె కనిపిస్తాడు.`
-      }
-    },
-
-    {
-      id:10, type:'shloka', num:10,
-      original:`स्मरच्छिदं पुरच्छिदं भवच्छिदं मखच्छिदं गजच्छिदांधकच्छिदं तमन्तकच्छिदं भजे॥`,
-      transliteration:`Smarachchidam purachchidam bhavachchidam makhachchidam`,
-      script:{
-        od:`ସ୍ମରଚ୍ଛିଦଂ ପୁରଚ୍ଛିଦଂ ଭବଚ୍ଛିଦଂ ମଖଚ୍ଛିଦଂ ଗଜଚ୍ଛିଦାନ୍ଧକଚ୍ଛିଦଂ ତମନ୍ତକଚ୍ଛିଦଂ ଭଜେ॥`,
-        te:`స్మరచ్ఛిదం పురచ్ఛిదం భవచ్ఛిదం మఖచ్ఛిదం గజచ్ఛిదాంధకచ్ఛిదం తమంతకచ్ఛిదం భజే॥`
+      meaning: {
+        en: "May Shiva, whose footstool is grey with the pollen dust of flowers shed by Indra and all the gods bowing before him, whose matted locks are bound by the king of serpents, and who wears the moon on his crest, grant us lasting prosperity.",
+        hi: "इन्द्र आदि सब देवताओं के सिर के पुष्पों की धूल से जिनकी चरणपीठ धूसर हो गई है, जिनकी जटाएँ सर्पराज की माला से बँधी हैं और जो चन्द्रमा को मस्तक पर धारण करते हैं, वे शिव हमें स्थायी समृद्धि दें।",
+        od: "ଇନ୍ଦ୍ର ଆଦି ସମସ୍ତ ଦେବତାଙ୍କ ମସ୍ତକର ଫୁଲର ଧୂଳିରେ ଯେଉଁଙ୍କ ପାଦପୀଠ ଧୂସର ହୋଇଛି, ଯେଉଁଙ୍କ ଜଟା ସର୍ପରାଜଙ୍କ ମାଳାରେ ବନ୍ଧା ଏବଂ ଯେ ଚନ୍ଦ୍ରକୁ ମସ୍ତକରେ ଧାରଣ କରନ୍ତି, ସେହି ଶିବ ଆମକୁ ସ୍ଥାୟୀ ସମୃଦ୍ଧି ଦିଅନ୍ତୁ।",
+        te: "ఇంద్రాది దేవతల శిరస్సుల నుండి రాలిన పుష్పధూళితో ఎవరి పాదపీఠం బూడిదరంగుగా మారిందో, ఎవరి జటలు సర్పరాజ మాలతో బంధించబడ్డాయో, ఎవరు చంద్రుని శిరస్సున ధరిస్తారో, ఆ శివుడు మనకు స్థిరమైన సంపదను ప్రసాదించుగాక.",
       },
-      meaning:{
-        en:`Shiva destroys all evil forces.`,
-        hi:`शिव सभी बुराइयों का नाश करते हैं।`,
-        od:`ଶିବ ସମସ୍ତ ଅସୁଭକୁ ନାଶ କରନ୍ତି।`,
-        te:`శివుడు అన్ని దుష్టులను నశింపజేస్తాడు.`
-      }
     },
-
-
     {
-  id:11, type:'shloka', num:11,
-  original:`जयत्वदभ्रविभ्रम भ्रमद्भुजंगमस्फुरत्
-धगद्धगद्धगज्ज्वलल्ललाटपट्टपावके॥`,
-  transliteration:`Jayatvadabhravibhrama bhramadbhujangamasphurat
-Dhagaddhagaddhagajjvalallalata pattapavake`,
-  script:{
-    od:`ଜୟତ୍ୱଦଭ୍ରବିଭ୍ରମ ଭ୍ରମଦ୍ଭୁଜଙ୍ଗମସ୍ଫୁରତ୍
-ଧଗଦ୍ଧଗଦ୍ଧଗଜ୍ଜ୍ୱଳଲ୍ଲଳାଟପଟ୍ଟପାବକେ॥`,
-    te:`జయత్వదభ్రవిభ్రమ భ్రమద్భుజంగమస్ఫురత్
-ధగద్ధగద్ధగజ్జ్వలల్లలాటపట్టపావకే॥`
-  },
-  meaning:{
-    en:`Shiva whose forehead blazes with powerful fire.`,
-    hi:`शिव जिनका ललाट अग्नि से प्रज्वलित है।`,
-    od:`ଶିବଙ୍କ ଲଳାଟ ଅଗ୍ନିରେ ଜ୍ୱଳିତ।`,
-    te:`శివుని లలాటం అగ్నితో ప్రకాశిస్తుంది.`
-  }
-},
-
-{
-  id:12, type:'shloka', num:12,
-  original:`धरा धरेंद्र नंदिनी कुचाग्रचित्रपत्रक
-प्रकल्पनैकशिल्पिनि त्रिलोचने रतिर्मम॥`,
-  transliteration:`Dharaadharendranandini kuchagra chitra patraka
-Prakalpanaika shilpini trilochane ratirmama`,
-  script:{
-    od:`ଧରାଧରେନ୍ଦ୍ରନନ୍ଦିନୀ କୁଚାଗ୍ରଚିତ୍ରପତ୍ରକ
-ପ୍ରକଳ୍ପନୈକଶିଳ୍ପିନୀ ତ୍ରିଲୋଚନେ ରତିର୍ମମ॥`,
-    te:`ధరాధరేంద్రనందినీ కుచాగ్రచిత్రపత్రక
-ప్రకల్పనైకశిల్పినీ త్రిలోచనే రతిర్మమ॥`
-  },
-  meaning:{
-    en:`My devotion is always towards Shiva, the three-eyed Lord.`,
-    hi:`मेरा मन सदैव त्रिनेत्र शिव में लगा रहे।`,
-    od:`ମୋର ଭକ୍ତି ସଦା ତ୍ରିନେତ୍ର ଶିବଙ୍କ ପାଖରେ ରହୁ।`,
-    te:`నా భక్తి ఎప్పుడూ త్రినేత్రుడైన శివునిపై ఉండాలి.`
-  }
-},
-
-{
-  id:13, type:'shloka', num:13,
-  original:`नवीनमेघमण्डली निरुद्धदुर्धरस्फुरत्
-कुहूनिशीथिनीतमः प्रबन्धबन्धुकन्धरः॥`,
-  transliteration:`Naveenameghamandali niruddhadurdharasphurat
-Kuhuni sheethini tamah prabandha bandhu kandharah`,
-  script:{
-    od:`ନବୀନମେଘମଣ୍ଡଳୀନିରୁଦ୍ଧଦୁର୍ଧରସ୍ଫୁରତ୍
-କୁହୁନିଶୀଥିନୀତମଃ ପ୍ରବନ୍ଧବନ୍ଧୁକନ୍ଧରଃ॥`,
-    te:`నవీనమేఘమండలీనిరుద్ధదుర్ధరస్ఫురత్
-కుహునిశీథినీతమఃప్రబంధబంధుకంధరః॥`
-  },
-  meaning:{
-    en:`Shiva shines even in the deepest darkness.`,
-    hi:`शिव अंधकार में भी प्रकाशमान हैं।`,
-    od:`ଶିବ ଅନ୍ଧକାରରେ ମଧ୍ୟ ଦୀପ୍ତିମାନ।`,
-    te:`శివుడు అంధకారంలో కూడా ప్రకాశిస్తాడు.`
-  }
-},
-
-{
-  id:14, type:'shloka', num:14,
-  original:`प्रफुल्लनीलपङ्कजप्रपञ्चकालिमप्रभा
-वलम्बिकण्ठकन्दली रुचिप्रबद्धकन्धरम्॥`,
-  transliteration:`Praphullanilapankaja prapanchakalimaprabha
-Valambikantha kandali ruchiprabaddha kandharam`,
-  script:{
-    od:`ପ୍ରଫୁଲ୍ଲନୀଳପଙ୍କଜପ୍ରପଞ୍ଚକାଳିମପ୍ରଭା
-ବଳମ୍ବିକଣ୍ଠକନ୍ଦଳୀ ରୁଚିପ୍ରବଦ୍ଧକନ୍ଧରମ୍॥`,
-    te:`ప్రఫుల్లనీలపంకజప్రపంచకాలిమప్రభా
-వలంబికంఠకందలీ రుచిప్రబద్ధకంధరమ్॥`
-  },
-  meaning:{
-    en:`Shiva shines like a blue lotus with divine beauty.`,
-    hi:`शिव नील कमल के समान शोभित हैं।`,
-    od:`ଶିବ ନୀଳ କମଳ ପରି ଦୀପ୍ତିମାନ।`,
-    te:`శివుడు నీలకమలం వలె ప్రకాశిస్తాడు.`
-  }
-},
-
-{
-  id:15, type:'shloka', num:15,
-  original:`इमं हि नित्यं एवमुक्तमुत्तमोत्तमं स्तवं
-पठन्स्मरन्ब्रुवन्नरो विशुद्धिमेति संततम्॥`,
-  transliteration:`Imam hi nityam evamuktam uttamottamam stavam
-Pathan smaran bruvan naro vishuddhimeti santatam`,
-  script:{
-    od:`ଇମଂ ହି ନିତ୍ୟମେବମୁକ୍ତମୁତ୍ତମୋତ୍ତମଂ ସ୍ତବଂ
-ପଠନ୍ ସ୍ମରନ୍ ବ୍ରୁବନ୍ ନରୋ ବିଶୁଦ୍ଧିମେତି ସନ୍ତତମ୍॥`,
-    te:`ఇమం హి నిత్యమేవముక్తముత్తమోత్తమం స్తవం
-పఠన్ స్మరన్ బ్రువన్ నరో విశుద్ధిమేతి సంతతమ్॥`
-  },
-  meaning:{
-    en:`Whoever recites this stotram daily becomes pure and blessed.`,
-    hi:`जो इस स्तोत्र का नित्य पाठ करता है, वह शुद्ध और धन्य होता है।`,
-    od:`ଯେ ଏହି ସ୍ତୋତ୍ରକୁ ନିତ୍ୟ ପାଠ କରେ, ସେ ପବିତ୍ର ହୁଏ।`,
-    te:`ఈ స్తోత్రాన్ని నిత్యం చదివేవాడు పవిత్రుడవుతాడు.`
-  }
-}
-
-  ]
+      id: 6,
+      type: 'shloka',
+      num: 6,
+      original: "ललाटचत्वरज्वलद्धनञ्जयस्फुलिङ्गभा\nनिपीतपञ्चसायकं नमन्निलिम्पनायकम्।\nसुधामयूखलेखया विराजमानशेखरं\nमहाकपालि सम्पदे शिरो जटालमस्तु नः॥",
+      transliteration: "Lalatachatvarajvaladdhananjayasphulingabha\nNipitapanchasayakam Namannilimpanayakam\nSudhamayukhalekhaya Virajamanashekharam\nMahakapali Sampade Shiro Jatalamastu Nah",
+      script: {
+        od: "ଲଲାଟଚତ୍ବରଜ୍ବଲଦ୍ଧନଞ୍ଜୟସ୍ଫୁଲିଙ୍ଗଭା\nନିପୀତପଞ୍ଚସାୟକଂ ନମନ୍ନିଲିମ୍ପନାୟକମ୍।\nସୁଧାମୟୂଖଲେଖୟା ବିରାଜମାନଶେଖରଂ\nମହାକପାଲି ସମ୍ପଦେ ଶିରୋ ଜଟାଲମସ୍ତୁ ନଃ॥",
+        te: "లలాటచత్వరజ్వలద్ధనంజయస్ఫులింగభా\nనిపీతపంచసాయకం నమన్నిలింపనాయకం।\nసుధామయూఖలేఖయా విరాజమానశేఖరం\nమహాకపాలి సంపదే శిరో జటాలమస్తు నః॥",
+      },
+      meaning: {
+        en: "May the matted head of the great Lord, adorned with the nectar-rayed moon, bring us prosperity, the head that drank up the five-arrowed Kama with the sparks of the fire on his forehead and before which the lord of the gods bows.",
+        hi: "जिन्होंने अपने ललाट की अग्नि की चिनगारियों से कामदेव को भस्म कर दिया, जिन्हें इन्द्र प्रणाम करते हैं और जिनका मुकुट अमृत-किरणों वाले चन्द्रमा से सुशोभित है, उन महादेव की जटाओं वाला मस्तक हमें सम्पदा दे।",
+        od: "ଯେ ନିଜ ଲଲାଟର ଅଗ୍ନି ସ୍ଫୁଲିଙ୍ଗରେ କାମଦେବଙ୍କୁ ଭସ୍ମ କରିଥିଲେ, ଯେଉଁଙ୍କୁ ଇନ୍ଦ୍ର ପ୍ରଣାମ କରନ୍ତି ଏବଂ ଯେଉଁଙ୍କ ମୁକୁଟ ଅମୃତ-କିରଣ ଚନ୍ଦ୍ରରେ ଶୋଭିତ, ସେହି ମହାଦେବଙ୍କ ଜଟାଯୁକ୍ତ ମସ୍ତକ ଆମକୁ ସମ୍ପଦ ଦିଅନ୍ତୁ।",
+        te: "తన నుదుటి అగ్నికణాలతో మన్మథుని దహించినవాడు, ఇంద్రుడు నమస్కరించేవాడు, అమృతకిరణ చంద్రునితో అలంకృతమైన కిరీటం గలవాడైన మహాదేవుని జటాయుక్త శిరస్సు మనకు సంపదను ఇవ్వాలి.",
+      },
+    },
+    {
+      id: 7,
+      type: 'shloka',
+      num: 7,
+      original: "करालभालपट्टिकाधगद्धगद्धगज्ज्वल\nद्धनञ्जयाहुतीकृतप्रचण्डपञ्चसायके।\nधराधरेन्द्रनन्दिनीकुचाग्रचित्रपत्रक\nप्रकल्पनैकशिल्पिनि त्रिलोचने रतिर्मम॥",
+      transliteration: "Karalabhalapattikadhagaddhagaddhagajjvala\nDdhananjayahutikritaprachandapanchasayake\nDharadharendranandinikuchagrachitrapatraka\nPrakalpanaikashilpini Trilochane Ratirmama",
+      script: {
+        od: "କରାଲଭାଲପଟ୍ଟିକାଧଗଦ୍ଧଗଦ୍ଧଗଜ୍ଜ୍ବଲ\nଦ୍ଧନଞ୍ଜୟାହୁତୀକୃତପ୍ରଚଣ୍ଡପଞ୍ଚସାୟକେ।\nଧରାଧରେନ୍ଦ୍ରନନ୍ଦିନୀକୁଚାଗ୍ରଚିତ୍ରପତ୍ରକ\nପ୍ରକଲ୍ପନୈକଶିଲ୍ପିନି ତ୍ରିଲୋଚନେ ରତିର୍ମମ॥",
+        te: "కరాలభాలపట్టికాధగద్ధగద్ధగజ్జ్వల\nద్ధనంజయాహుతీకృతప్రచండపంచసాయకే।\nధరాధరేంద్రనందినీకుచాగ్రచిత్రపత్రక\nప్రకల్పనైకశిల్పిని త్రిలోచనే రతిర్మమ॥",
+      },
+      meaning: {
+        en: "My delight is in the three-eyed Shiva, who burned the mighty five-arrowed Kama in the fire blazing on his fearsome forehead, and who alone is the master craftsman of the decorative marks painted on the breasts of Parvati, the mountain-king's daughter.",
+        hi: "जिन्होंने अपने भयंकर ललाट की धधकती अग्नि में प्रचण्ड कामदेव को आहुति बना दिया, और जो पार्वती के वक्ष पर चित्र-रचना करने में एकमात्र कुशल हैं, उन त्रिनेत्रधारी शिव में मेरी प्रीति हो।",
+        od: "ଯେ ନିଜ ଭୟଙ୍କର ଲଲାଟର ଜଳନ୍ତା ଅଗ୍ନିରେ ପ୍ରଚଣ୍ଡ କାମଦେବଙ୍କୁ ଆହୁତି କରିଥିଲେ, ଏବଂ ପାର୍ବତୀଙ୍କ ବକ୍ଷରେ ଚିତ୍ର ରଚନା କରିବାରେ ଏକମାତ୍ର ନିପୁଣ, ସେହି ତ୍ରିନେତ୍ରଧାରୀ ଶିବଙ୍କଠାରେ ମୋର ପ୍ରୀତି ହେଉ।",
+        te: "తన భయంకర నుదుటి మండే అగ్నిలో ప్రచండ మన్మథుని ఆహుతి చేసినవాడు, పార్వతి వక్షస్థలంపై చిత్రరచన చేయడంలో ఏకైక నిపుణుడైన త్రినేత్రుడు శివునిపై నాకు ప్రీతి కలగాలి.",
+      },
+    },
+    {
+      id: 8,
+      type: 'shloka',
+      num: 8,
+      original: "नवीनमेघमण्डलीनिरुद्धदुर्धरस्फुरत्\nकुहूनिशीथिनीतमःप्रबन्धबद्धकन्धरः।\nनिलिम्पनिर्झरीधरस्तनोतु कृत्तिसिन्धुरः\nकलानिधानबन्धुरः श्रियं जगद्धुरन्धरः॥",
+      transliteration: "Navinameghamandaliniruddhadurdharasphurat\nKuhunishithinitamahprabandhabaddhakandharah\nNilimpanirjharidharastanotu Krittisindhurah\nKalanidhanabandhurah Shriyam Jagaddhurandharah",
+      script: {
+        od: "ନବୀନମେଘମଣ୍ଡଲୀନିରୁଦ୍ଧଦୁର୍ଧରସ୍ଫୁରତ୍\nକୁହୂନିଶୀଥିନୀତମଃପ୍ରବନ୍ଧବଦ୍ଧକନ୍ଧରଃ।\nନିଲିମ୍ପନିର୍ଝରୀଧରସ୍ତନୋତୁ କୃତ୍ତିସିନ୍ଧୁରଃ\nକଲାନିଧାନବନ୍ଧୁରଃ ଶ୍ରିୟଂ ଜଗଦ୍ଧୁରନ୍ଧରଃ॥",
+        te: "నవీనమేఘమండలీనిరుద్ధదుర్ధరస్ఫురత్\nకుహూనిశీథినీతమఃప్రబంధబద్ధకంధరః।\nనిలింపనిర్ఝరీధరస్తనోతు కృత్తిసింధురః\nకలానిధానబంధురః శ్రియం జగద్ధురంధరః॥",
+      },
+      meaning: {
+        en: "May Shiva, whose neck is dark like a thick bank of fresh clouds hiding the moonless night, who bears the heavenly river Ganga, wears the elephant hide, shines with the crescent moon and carries the burden of the world, grant us prosperity.",
+        hi: "जिनका कण्ठ अमावस्या की रात को ढकने वाली नवीन मेघ-घटा के समान श्याम है, जो गंगा को धारण करते हैं, गजचर्म ओढ़ते हैं, चन्द्रकला से सुशोभित हैं और जगत् का भार वहन करते हैं, वे शिव हमें समृद्धि दें।",
+        od: "ଯେଉଁଙ୍କ କଣ୍ଠ ଅମାବାସ୍ୟା ରାତିକୁ ଆବୃତ କରୁଥିବା ନୂଆ ମେଘମାଳା ପରି ଶ୍ୟାମ, ଯେ ଗଙ୍ଗାକୁ ଧାରଣ କରନ୍ତି, ଗଜଚର୍ମ ପିନ୍ଧନ୍ତି, ଚନ୍ଦ୍ରକଳାରେ ଶୋଭିତ ଏବଂ ଜଗତର ଭାର ବହନ କରନ୍ତି, ସେହି ଶିବ ଆମକୁ ସମୃଦ୍ଧି ଦିଅନ୍ତୁ।",
+        te: "అమావాస్య రాత్రిని కప్పివేసే నవమేఘమాల వలె ఎవరి కంఠం నల్లగా ఉన్నదో, ఎవరు గంగను ధరిస్తారో, గజచర్మం కప్పుకుంటారో, చంద్రకళతో ప్రకాశిస్తారో, జగత్తు భారాన్ని మోస్తారో, ఆ శివుడు మనకు సంపదను ఇవ్వాలి.",
+      },
+    },
+    {
+      id: 9,
+      type: 'shloka',
+      num: 9,
+      original: "प्रफुल्लनीलपङ्कजप्रपञ्चकालिमप्रभा\nऽवलम्बिकण्ठकन्दलीरुचिप्रबद्धकन्धरम्।\nस्मरच्छिदं पुरच्छिदं भवच्छिदं मखच्छिदं\nगजच्छिदान्धकच्छिदं तमन्तकच्छिदं भजे॥",
+      transliteration: "Praphullanilapankajaprapanchakalimaprabha\nValambikanthakandaliruchiprabaddhakandharam\nSmarachchhidam Purachchhidam Bhavachchhidam Makhachchhidam\nGajachchhidandhakachchhidam Tamantakachchhidam Bhaje",
+      script: {
+        od: "ପ୍ରଫୁଲ୍ଲନୀଲପଙ୍କଜପ୍ରପଞ୍ଚକାଲିମପ୍ରଭା\nଽବଲମ୍ବିକଣ୍ଠକନ୍ଦଲୀରୁଚିପ୍ରବଦ୍ଧକନ୍ଧରମ୍।\nସ୍ମରଚ୍ଛିଦଂ ପୁରଚ୍ଛିଦଂ ଭବଚ୍ଛିଦଂ ମଖଚ୍ଛିଦଂ\nଗଜଚ୍ଛିଦାନ୍ଧକଚ୍ଛିଦଂ ତମନ୍ତକଚ୍ଛିଦଂ ଭଜେ॥",
+        te: "ప్రఫుల్లనీలపంకజప్రపంచకాలిమప్రభా\nఽవలంబికంఠకందలీరుచిప్రబద్ధకంధరం।\nస్మరచ్ఛిదం పురచ్ఛిదం భవచ్ఛిదం మఖచ్ఛిదం\nగజచ్ఛిదాంధకచ్ఛిదం తమంతకచ్ఛిదం భజే॥",
+      },
+      meaning: {
+        en: "I worship Shiva, whose neck shows the dark glow of blossoming blue lotuses, the destroyer of Kama, of the three cities, of worldly bondage, of the sacrifice, of the elephant demon, of Andhaka, and of Yama.",
+        hi: "खिले हुए नीलकमलों की श्यामल आभा से सुशोभित कण्ठ वाले, कामदेव, त्रिपुर, संसार-बन्धन, यज्ञ, गजासुर, अन्धकासुर और यम का संहार करने वाले शिव का मैं भजन करता हूँ।",
+        od: "ପ୍ରଫୁଟିତ ନୀଳ କମଳର ଶ୍ୟାମଳ ଆଭାରେ ଶୋଭିତ କଣ୍ଠଧାରୀ, କାମଦେବ, ତ୍ରିପୁର, ସଂସାରବନ୍ଧନ, ଯଜ୍ଞ, ଗଜାସୁର, ଅନ୍ଧକାସୁର ଓ ଯମଙ୍କୁ ସଂହାର କରିଥିବା ଶିବଙ୍କୁ ମୁଁ ଭଜନ କରେ।",
+        te: "విరిసిన నీలకమలాల నల్లని కాంతితో శోభించే కంఠం గలవాడు, మన్మథుని, త్రిపురాలను, సంసారబంధాన్ని, యజ్ఞాన్ని, గజాసురుని, అంధకాసురుని, యముని సంహరించిన శివుని నేను భజిస్తాను.",
+      },
+    },
+    {
+      id: 10,
+      type: 'shloka',
+      num: 10,
+      original: "अखर्वसर्वमङ्गलाकलाकदम्बमञ्जरी\nरसप्रवाहमाधुरीविजृम्भणामधुव्रतम्।\nस्मरान्तकं पुरान्तकं भवान्तकं मखान्तकं\nगजान्तकान्धकान्तकं तमन्तकान्तकं भजे॥",
+      transliteration: "Akharvasarvamangalakalakadambamanjari\nRasapravahamadhurivijrimbhanamadhuvratam\nSmarantakam Purantakam Bhavantakam Makhantakam\nGajantakandhakantakam Tamantakantakam Bhaje",
+      script: {
+        od: "ଅଖର୍ବସର୍ବମଙ୍ଗଲାକଲାକଦମ୍ବମଞ୍ଜରୀ\nରସପ୍ରବାହମାଧୁରୀବିଜୃମ୍ଭଣାମଧୁବ୍ରତମ୍।\nସ୍ମରାନ୍ତକଂ ପୁରାନ୍ତକଂ ଭବାନ୍ତକଂ ମଖାନ୍ତକଂ\nଗଜାନ୍ତକାନ୍ଧକାନ୍ତକଂ ତମନ୍ତକାନ୍ତକଂ ଭଜେ॥",
+        te: "అఖర్వసర్వమంగలాకలాకదంబమంజరీ\nరసప్రవాహమాధురీవిజృంభణామధువ్రతం।\nస్మరాంతకం పురాంతకం భవాంతకం మఖాంతకం\nగజాంతకాంధకాంతకం తమంతకాంతకం భజే॥",
+      },
+      meaning: {
+        en: "I worship Shiva, the bee that drinks the honey from the cluster of blossoms of all auspicious arts, the destroyer of Kama, of the three cities, of worldly bondage, of the sacrifice, of the elephant demon, of Andhaka, and the one who ends even Death.",
+        hi: "समस्त मंगलमयी कलाओं के कदम्ब-पुष्पों की मंजरी के रस-प्रवाह का आस्वादन करने वाले भ्रमर, तथा कामदेव, त्रिपुर, संसार, यज्ञ, गजासुर, अन्धकासुर और यमराज का अन्त करने वाले शिव का मैं भजन करता हूँ।",
+        od: "ସମସ୍ତ ମଙ୍ଗଳମୟ କଳାର କଦମ୍ବ ମଞ୍ଜରୀର ରସ ପାନ କରୁଥିବା ଭ୍ରମର, ଏବଂ କାମଦେବ, ତ୍ରିପୁର, ସଂସାର, ଯଜ୍ଞ, ଗଜାସୁର, ଅନ୍ଧକାସୁର ଓ ଯମରାଜଙ୍କ ଅନ୍ତକାରୀ ଶିବଙ୍କୁ ମୁଁ ଭଜନ କରେ।",
+        te: "సర్వమంగళ కళల కదంబ మంజరుల రసప్రవాహ మాధుర్యాన్ని ఆస్వాదించే తుమ్మెద వంటివాడు, మన్మథుని, త్రిపురాలను, సంసారాన్ని, యజ్ఞాన్ని, గజాసురుని, అంధకాసురుని, యముని అంతం చేసిన శివుని నేను భజిస్తాను.",
+      },
+    },
+    {
+      id: 11,
+      type: 'shloka',
+      num: 11,
+      original: "जयत्वदभ्रविभ्रमभ्रमद्भुजङ्गमश्वसद्\nविनिर्गमत्क्रमस्फुरत्करालभालहव्यवाट्।\nधिमिद्धिमिद्धिमिद्ध्वनन्मृदङ्गतुङ्गमङ्गल\nध्वनिक्रमप्रवर्तितप्रचण्डताण्डवः शिवः॥",
+      transliteration: "Jayatvadabhravibhramabhramadbhujangamashvasad\nVinirgamatkramasphuratkaralabhalahavyavat\nDhimiddhimiddhimiddhvananmridangatungamangala\nDhvanikramapravartitaprachandatandavah Shivah",
+      script: {
+        od: "ଜୟତ୍ବଦଭ୍ରବିଭ୍ରମଭ୍ରମଦ୍ଭୁଜଙ୍ଗମଶ୍ବସଦ୍\nବିନିର୍ଗମତ୍କ୍ରମସ୍ଫୁରତ୍କରାଲଭାଲହବ୍ୟବାଟ୍।\nଧିମିଦ୍ଧିମିଦ୍ଧିମିଦ୍ଧ୍ବନନ୍ମୃଦଙ୍ଗତୁଙ୍ଗମଙ୍ଗଲ\nଧ୍ବନିକ୍ରମପ୍ରବର୍ତିତପ୍ରଚଣ୍ଡତାଣ୍ଡବଃ ଶିବଃ॥",
+        te: "జయత్వదభ్రవిభ్రమభ్రమద్భుజంగమశ్వసద్\nవినిర్గమత్క్రమస్ఫురత్కరాలభాలహవ్యవాట్।\nధిమిద్ధిమిద్ధిమిద్ధ్వనన్మృదంగతుంగమంగల\nధ్వనిక్రమప్రవర్తితప్రచండతాండవః శివః॥",
+      },
+      meaning: {
+        en: "Victorious is Shiva, whose forehead fire flames from the breath of the serpents coiling above it, and who performs his fierce dance to the rhythmic, auspicious sound of the drums beating dhimid dhimid dhimid.",
+        hi: "जिनके मस्तक पर घूमते सर्पों की फुफकार से ललाट की अग्नि धधक उठती है, और जिनका प्रचण्ड ताण्डव धिमिद् धिमिद् की गूँजती मृदंग-ध्वनि के क्रम में चलता है, उन शिव की जय हो।",
+        od: "ଯେଉଁଙ୍କ ମସ୍ତକରେ ଘୂରୁଥିବା ସର୍ପଙ୍କ ନିଶ୍ୱାସରେ ଲଲାଟର ଅଗ୍ନି ପ୍ରଜ୍ୱଳିତ ହୁଏ, ଏବଂ ଯାହାଙ୍କ ପ୍ରଚଣ୍ଡ ତାଣ୍ଡବ ଧିମିଦ୍ ଧିମିଦ୍ ମୃଦଙ୍ଗ ଧ୍ୱନିର କ୍ରମରେ ଚାଲେ, ସେହି ଶିବଙ୍କର ଜୟ ହେଉ।",
+        te: "తలపై తిరిగే సర్పాల శ్వాసతో నుదుటి అగ్ని మండుతుందో, ధిమిద్ ధిమిద్ ధిమిద్ అనే మృదంగ ధ్వని క్రమంలో ఎవరి ప్రచండ తాండవం సాగుతుందో, ఆ శివునికి జయం.",
+      },
+    },
+    {
+      id: 12,
+      type: 'shloka',
+      num: 12,
+      original: "दृषद्विचित्रतल्पयोर्भुजङ्गमौक्तिकस्रजोर्\nगरिष्ठरत्नलोष्ठयोः सुहृद्विपक्षपक्षयोः।\nतृणारविन्दचक्षुषोः प्रजामहीमहेन्द्रयोः\nसमप्रवृत्तिकः कदा सदाशिवं भजाम्यहम्॥",
+      transliteration: "Drishadvichitratalpayorbhujangamauktikasrajor\nGarishtharatnaloshthayoh Suhridvipakshapakshayoh\nTrinaravindachakshushoh Prajamahimahendrayoh\nSamapravrittikah Kada Sadashivam Bhajamyaham",
+      script: {
+        od: "ଦୃଷଦ୍ବିଚିତ୍ରତଲ୍ପୟୋର୍ଭୁଜଙ୍ଗମୌକ୍ତିକସ୍ରଜୋର୍\nଗରିଷ୍ଠରତ୍ନଲୋଷ୍ଠୟୋଃ ସୁହୃଦ୍ବିପକ୍ଷପକ୍ଷୟୋଃ।\nତୃଣାରବିନ୍ଦଚକ୍ଷୁଷୋଃ ପ୍ରଜାମହୀମହେନ୍ଦ୍ରୟୋଃ\nସମପ୍ରବୃତ୍ତିକଃ କଦା ସଦାଶିବଂ ଭଜାମ୍ୟହମ୍॥",
+        te: "దృషద్విచిత్రతల్పయోర్భుజంగమౌక్తికస్రజోర్\nగరిష్ఠరత్నలోష్ఠయోః సుహృద్విపక్షపక్షయోః।\nతృణారవిందచక్షుషోః ప్రజామహీమహేంద్రయోః\nసమప్రవృత్తికః కదా సదాశివం భజామ్యహమ్॥",
+      },
+      meaning: {
+        en: "When shall I worship Sadashiva, with an equal mind toward a stone or a soft bed, a snake or a string of pearls, a priceless jewel or a lump of earth, friend or foe, a blade of grass or a lotus-eyed beauty, a common subject or a mighty king?",
+        hi: "पत्थर या कोमल शय्या, सर्प या मोतियों की माला, बहुमूल्य रत्न या मिट्टी का ढेला, मित्र या शत्रु, तिनके या कमल-नेत्र, प्रजा या राजा, सब में समभाव रखता हुआ मैं सदाशिव का भजन कब करूँगा?",
+        od: "ପଥର କିମ୍ବା କୋମଳ ଶଯ୍ୟା, ସର୍ପ କିମ୍ବା ମୁକ୍ତାମାଳା, ବହୁମୂଲ୍ୟ ରତ୍ନ କିମ୍ବା ମାଟି ଢେଲା, ମିତ୍ର କିମ୍ବା ଶତ୍ରୁ, ତୃଣ କିମ୍ବା କମଳନେତ୍ର, ପ୍ରଜା କିମ୍ବା ରାଜା, ସବୁଥିରେ ସମଭାବ ରଖି ମୁଁ ସଦାଶିବଙ୍କୁ କେବେ ଭଜନ କରିବି?",
+        te: "రాయి లేదా మెత్తని పాన్పు, పాము లేదా ముత్యాల హారం, విలువైన రత్నం లేదా మట్టిముద్ద, మిత్రుడు లేదా శత్రువు, గడ్డిపోచ లేదా కమలనేత్ర, ప్రజ లేదా రాజు అన్నింటిలో సమభావంతో నేను సదాశివుని ఎప్పుడు భజిస్తాను?",
+      },
+    },
+    {
+      id: 13,
+      type: 'shloka',
+      num: 13,
+      original: "कदा निलिम्पनिर्झरीनिकुञ्जकोटरे वसन्\nविमुक्तदुर्मतिः सदा शिरःस्थमञ्जलिं वहन्।\nविलोललोललोचनो ललामभाललग्नकः\nशिवेति मन्त्रमुच्चरन् कदा सुखी भवाम्यहम्॥",
+      transliteration: "Kada Nilimpanirjharinikunjakotare Vasan\nVimuktadurmatih Sada Shirahsthamanjalim Vahan\nVilolalolalochano Lalamabhalalagnakah\nShiveti Mantramuchcharan Kada Sukhi Bhavamyaham",
+      script: {
+        od: "କଦା ନିଲିମ୍ପନିର୍ଝରୀନିକୁଞ୍ଜକୋଟରେ ବସନ୍\nବିମୁକ୍ତଦୁର୍ମତିଃ ସଦା ଶିରଃସ୍ଥମଞ୍ଜଲିଂ ବହନ୍।\nବିଲୋଲଲୋଲଲୋଚନୋ ଲଲାମଭାଲଲଗ୍ନକଃ\nଶିବେତି ମନ୍ତ୍ରମୁଚ୍ଚରନ୍ କଦା ସୁଖୀ ଭବାମ୍ୟହମ୍॥",
+        te: "కదా నిలింపనిర్ఝరీనికుంజకోటరే వసన్\nవిముక్తదుర్మతిః సదా శిరఃస్థమంజలిం వహన్।\nవిలోలలోలలోచనో లలామభాలలగ్నకః\nశివేతి మంత్రముచ్చరన్ కదా సుఖీ భవామ్యహమ్॥",
+      },
+      meaning: {
+        en: "When shall I be happy, living in a cave on the bank of the heavenly river, free of evil thoughts, folding my hands over my head, my eyes restless with devotion, and repeating the mantra Shiva?",
+        hi: "देवनदी गंगा के किनारे कुंज की गुफा में रहता हुआ, दुर्बुद्धि से मुक्त, सिर पर हाथ जोड़े, चंचल नेत्रों से युक्त होकर मैं शिव मन्त्र का उच्चारण करता हुआ कब सुखी होऊँगा?",
+        od: "ଦେବନଦୀ ଗଙ୍ଗା କୂଳର କୁଞ୍ଜ ଗୁମ୍ଫାରେ ରହି, ଦୁର୍ମତିରୁ ମୁକ୍ତ ହୋଇ, ମସ୍ତକ ଉପରେ ହାତ ଯୋଡ଼ି, ଚଞ୍ଚଳ ନେତ୍ରରେ ଶିବ ମନ୍ତ୍ର ଉଚ୍ଚାରଣ କରି ମୁଁ କେବେ ସୁଖୀ ହେବି?",
+        te: "దేవనది గంగ ఒడ్డున కుంజగుహలో నివసిస్తూ, దుర్బుద్ధి లేకుండా, తలపై చేతులు జోడించి, చంచల నేత్రాలతో శివ మంత్రాన్ని ఉచ్చరిస్తూ నేను ఎప్పుడు సుఖంగా ఉంటాను?",
+      },
+    },
+    {
+      id: 14,
+      type: 'shloka',
+      num: 14,
+      original: "इमं हि नित्यमेवमुक्तमुत्तमोत्तमं स्तवं\nपठन्स्मरन्ब्रुवन्नरो विशुद्धिमेति सन्ततम्।\nहरे गुरौ सुभक्तिमाशु याति नान्यथा गतिं\nविमोहनं हि देहिनां सुशङ्करस्य चिन्तनम्॥",
+      transliteration: "Imam Hi Nityamevamuktamuttamottamam Stavam\nPathansmaranbruvannaro Vishuddhimeti Santatam\nHare Gurau Subhaktimashu Yati Nanyatha Gatim\nVimohanam Hi Dehinam Sushankarasya Chintanam",
+      script: {
+        od: "ଇମଂ ହି ନିତ୍ୟମେବମୁକ୍ତମୁତ୍ତମୋତ୍ତମଂ ସ୍ତବଂ\nପଠନ୍ସ୍ମରନ୍ବ୍ରୁବନ୍ନରୋ ବିଶୁଦ୍ଧିମେତି ସନ୍ତତମ୍।\nହରେ ଗୁରୌ ସୁଭକ୍ତିମାଶୁ ୟାତି ନାନ୍ୟଥା ଗତିଂ\nବିମୋହନଂ ହି ଦେହିନାଂ ସୁଶଙ୍କରସ୍ୟ ଚିନ୍ତନମ୍॥",
+        te: "ఇమం హి నిత్యమేవముక్తముత్తమోత్తమం స్తవం\nపఠన్స్మరన్బ్రువన్నరో విశుద్ధిమేతి సంతతం।\nహరే గురౌ సుభక్తిమాశు యాతి నాన్యథా గతిం\nవిమోహనం హి దేహినాం సుశంకరస్య చింతనమ్॥",
+      },
+      meaning: {
+        en: "According to the text, whoever recites, remembers or speaks this supreme hymn daily becomes pure. It grows devotion to Shiva, the guru, quickly, and there is no other way, since contemplating Shankara dispels the delusion of embodied beings.",
+        hi: "पाठ के अनुसार जो मनुष्य इस उत्तम स्तोत्र का नित्य पाठ, स्मरण या कथन करता है, वह शुद्ध होता है। इससे गुरु शिव में शीघ्र भक्ति होती है, इसके सिवा और मार्ग नहीं, क्योंकि शंकर का चिन्तन देहधारियों के मोह को दूर करता है।",
+        od: "ପାଠ ଅନୁସାରେ ଯେ ମଣିଷ ଏହି ଉତ୍ତମ ସ୍ତୋତ୍ରକୁ ନିତ୍ୟ ପାଠ, ସ୍ମରଣ ବା କଥନ କରେ, ସେ ଶୁଦ୍ଧ ହୁଏ। ଏହା ଦ୍ୱାରା ଗୁରୁ ଶିବଙ୍କଠାରେ ଶୀଘ୍ର ଭକ୍ତି ଜାତ ହୁଏ, ଏହାଠାରୁ ଅନ୍ୟ ମାର୍ଗ ନାହିଁ, କାରଣ ଶଙ୍କରଙ୍କ ଚିନ୍ତନ ଦେହଧାରୀଙ୍କ ମୋହ ଦୂର କରେ।",
+        te: "పాఠం ప్రకారం ఈ ఉత్తమ స్తోత్రాన్ని నిత్యం పఠించే, స్మరించే లేదా పలికే మనిషి శుద్ధుడవుతాడు. దీనివల్ల గురువైన శివునిపై భక్తి త్వరగా కలుగుతుంది, వేరే మార్గం లేదు, ఎందుకంటే శంకరుని చింతన దేహధారుల మోహాన్ని తొలగిస్తుంది.",
+      },
+    },
+    {
+      id: 15,
+      type: 'shloka',
+      num: 15,
+      original: "पूजावसानसमये दशवक्त्रगीतं\nयः शम्भुपूजनपरं पठति प्रदोषे।\nतस्य स्थिरां रथगजेन्द्रतुरङ्गयुक्तां\nलक्ष्मीं सदैव सुमुखीं प्रददाति शम्भुः॥",
+      transliteration: "Pujavasanasamaye Dashavaktragitam\nYah Shambhupujanaparam Pathati Pradoshe\nTasya Sthiram Rathagajendraturangayuktam\nLakshmim Sadaiva Sumukhim Pradadati Shambhuh",
+      script: {
+        od: "ପୂଜାବସାନସମୟେ ଦଶବକ୍ତ୍ରଗୀତଂ\nୟଃ ଶମ୍ଭୁପୂଜନପରଂ ପଠତି ପ୍ରଦୋଷେ।\nତସ୍ୟ ସ୍ଥିରାଂ ରଥଗଜେନ୍ଦ୍ରତୁରଙ୍ଗୟୁକ୍ତାଂ\nଲକ୍ଷ୍ମୀଂ ସଦୈବ ସୁମୁଖୀଂ ପ୍ରଦଦାତି ଶମ୍ଭୁଃ॥",
+        te: "పూజావసానసమయే దశవక్త్రగీతం\nయః శంభుపూజనపరం పఠతి ప్రదోషే।\nతస్య స్థిరాం రథగజేంద్రతురంగయుక్తాం\nలక్ష్మీం సదైవ సుముఖీం ప్రదదాతి శంభుః॥",
+      },
+      meaning: {
+        en: "The text says that at the close of worship, in the evening (pradosha), Shambhu grants steady fortune, with chariots, elephants and horses, to the one who recites this hymn sung by the ten-headed Ravana. Read it as a traditional promise of the stotra, not a guarantee.",
+        hi: "पाठ कहता है कि पूजा के अन्त में, प्रदोष काल में, दशमुख रावण द्वारा गाए गए इस स्तोत्र का जो पाठ करता है, उसे शम्भु रथ, हाथी और घोड़ों से युक्त स्थिर लक्ष्मी देते हैं। इसे स्तोत्र की पारम्परिक फलश्रुति समझें, कोई गारंटी नहीं।",
+        od: "ପାଠ କହେ ଯେ ପୂଜା ଶେଷରେ, ପ୍ରଦୋଷ କାଳରେ, ଦଶମୁଖ ରାବଣ ଗାଇଥିବା ଏହି ସ୍ତୋତ୍ର ଯେ ପାଠ କରେ, ତାହାକୁ ଶମ୍ଭୁ ରଥ, ହାତୀ ଓ ଘୋଡ଼ା ସହିତ ସ୍ଥିର ସମ୍ପଦ ଦିଅନ୍ତି। ଏହାକୁ ସ୍ତୋତ୍ରର ପାରମ୍ପରିକ ଫଳଶ୍ରୁତି ଭାବରେ ବୁଝନ୍ତୁ, ଗ୍ୟାରେଣ୍ଟି ନୁହେଁ।",
+        te: "పూజ ముగింపులో, ప్రదోష కాలంలో, పదితలల రావణుడు గానం చేసిన ఈ స్తోత్రాన్ని పఠించేవానికి శంభుడు రథ, గజ, అశ్వ సహితమైన స్థిర సంపదను ఇస్తాడని పాఠం చెబుతుంది. దీనిని స్తోత్రం యొక్క సంప్రదాయ ఫలశ్రుతిగా చూడండి, హామీగా కాదు.",
+      },
+    },
+  ],
 };

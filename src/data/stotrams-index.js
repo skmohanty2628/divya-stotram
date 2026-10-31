@@ -505,6 +505,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'asato-ma-sadgamaya',
+    title: {
+      en: 'Asato Ma Sadgamaya',
+      hi: 'असतो मा सद्गमय',
+      od: 'ଅସତୋ ମା ସଦ୍ଗମୟ',
+      te: 'అసతో మా సద్గమయ',
+    },
+    deity: 'All Beings',
+    deityEmoji: '🕉️',
+    deityIcon: '',
+    description: {
+      en: 'Asato Ma Sadgamaya, the Pavamana prayer from the Brihadaranyaka Upanishad asking to be led from untruth to truth, darkness to light and death to immortality, with meaning in English, Hindi, Odia and Telugu and a chanting video',
+      hi: 'असतो मा सद्गमय, बृहदारण्यक उपनिषद् की पवमान प्रार्थना, असत्य से सत्य, अन्धकार से प्रकाश और मृत्यु से अमरता की ओर, अर्थ सहित',
+      od: 'ଅସତୋ ମା ସଦ୍ଗମୟ, ବୃହଦାରଣ୍ୟକ ଉପନିଷଦର ପବମାନ ପ୍ରାର୍ଥନା, ଅସତ୍ୟରୁ ସତ୍ୟ, ଅନ୍ଧକାରରୁ ଆଲୋକ ଓ ମୃତ୍ୟୁରୁ ଅମରତ୍ୱକୁ, ଅର୍ଥ ସହିତ',
+      te: 'అసతో మా సద్గమయ, బృహదారణ్యక ఉపనిషత్తులోని పవమాన ప్రార్థన, అసత్యం నుండి సత్యం, చీకటి నుండి వెలుగు, మృత్యువు నుండి అమరత్వం వైపు, అర్థంతో',
+    },
+    color: 'from-yellow-950 to-stone-900',
+    accent: '#e6c36a',
+    youtubeId: 'Vwyo62x9yC4',
+    verseCount: 1,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

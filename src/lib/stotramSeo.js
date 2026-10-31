@@ -117,6 +117,11 @@ const SEO_COPY = {
     description:
       'Read Shuklambaradharam Vishnum Shashivarnam Chaturbhujam, the dhyana shloka for removing obstacles, in English, Hindi, Odia and Telugu with meaning, when to chant it before a puja, and a video to follow along.',
   },
+  'asato-ma-sadgamaya': {
+    title: 'Asato Ma Sadgamaya Mantra in English, Hindi, Odia & Telugu with Meaning',
+    description:
+      'Read Asato Ma Sadgamaya (असतो मा सद्गमय), the Brihadaranyaka Upanishad prayer for truth, light and immortality, in English, Hindi, Odia and Telugu with meaning, when to chant it, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

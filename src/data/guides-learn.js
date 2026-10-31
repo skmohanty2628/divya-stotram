@@ -1191,39 +1191,44 @@ export const GUIDES_LEARN = [
     category: 'Meaning and history',
     title: 'Gayatri Mantra Word by Word: Meaning, Translation and Origin',
     description:
-      'A word-by-word translation of the Gayatri Mantra: Om, Bhur Bhuvah Svah, Tat Savitur Varenyam, Bhargo Devasya Dhimahi, Dhiyo Yo Nah Prachodayat, with its source in the Rig Veda and its metre.',
+      'A word-by-word translation of the Gayatri Mantra: Om, Bhur Bhuvah Svah, Tat Savitur Varenyam, Bhargo Devasya Dhimahi, Dhiyo Yo Nah Prachodayat, with its source in the Rig Veda, its metre, the role of Savitr and how it is used in daily prayer.',
     h1: 'Gayatri Mantra Word by Word',
     intro:
-      'The Gayatri Mantra is among the oldest and most recited verses in Hindu tradition. Many people chant it without a word-by-word understanding. This guide explains each part, its source and its structure.',
+      'The Gayatri Mantra is among the oldest and most recited verses in Hindu tradition. Many people chant it without a word-by-word understanding. This guide explains each part, its source and its structure, and notes where translators and traditions differ.',
     sections: [
       {
         h: 'The mantra and its source',
         p: [
-          `The Gayatri Mantra is a single verse of the Rig Veda (3.62.10), attributed to the sage Vishvamitra and addressed to Savitr, the sun as the inspirer. It is composed in a metre called Gayatri, which has three lines of eight syllables each, twenty-four syllables in all. The opening Om Bhur Bhuvah Svah is a traditional prefix added in ritual use.`,
+          `The Gayatri Mantra is a single verse of the Rig Veda (3.62.10), traditionally attributed to the sage Vishvamitra and addressed to Savitr, the sun as the inspirer. It is composed in a metre called Gayatri, which has three lines of eight syllables each, twenty-four syllables in all. Many other mantras share the same form, and the metre is named after this best-known example.`,
+          `The opening Om Bhur Bhuvah Svah is a traditional prefix. It is placed before the three lines when the mantra is chanted, and it is not part of the Rig Vedic verse itself.`,
         ],
       },
       {
         h: 'The prefix: Om Bhur Bhuvah Svah',
         p: [
-          `Om is the sacred syllable. Bhur, Bhuvah and Svah are the vyahritis, names of the three worlds: earth, the atmosphere or space between, and the heavens. Together they invoke the whole of existence before the verse begins.`,
+          `Om is the sacred syllable, treated as the source from which the three words that follow arise. Bhur, Bhuvah and Svah are the vyahritis, names of the three worlds: earth, the atmosphere or space between, and the heavens. Together they invoke the whole of existence before the verse begins.`,
+          `One reading takes them as a call to creation: the light of the sun reaches the earth, the sky and space, and the speaker asks that it reach the mind as well. Some traditions also connect the three words with yogic practices, which are outside the scope of this guide.`,
         ],
       },
       {
         h: 'Line one: Tat Savitur Varenyam',
         p: [
-          `Tat means that. Savitur is of Savitr, the inspiring sun or the divine source of light. Varenyam means worthy of being chosen, excellent, adorable. The line can be read as: that adorable light of the divine Savitr.`,
+          `Tat means that. Savitur is of Savitr, the inspiring sun or the divine source of light. The name is read as the one who enlivens or impels. Varenyam means worthy of being chosen, the best, adorable. The line can be read as: that adorable light of the divine Savitr.`,
+          `Savitr is the Vedic deity of the sun in its rising and setting aspect. Later tradition identifies him with Surya, and the Maitri Upanishad identifies Savitr with the sun. Some teachers read Savitr more abstractly as the illumination that awakens the mind, and do not treat it only as a deity outside oneself.`,
         ],
       },
       {
         h: 'Line two: Bhargo Devasya Dhimahi',
         p: [
-          `Bhargo means radiance, splendour. Devasya means of the divine. Dhimahi means we meditate upon. So: we meditate on the radiance of the divine.`,
+          `Bhargo, also written bhargas, means radiance, splendour or light. Devasya means of the divine. Dhimahi means we meditate upon, or we hold in mind. So: we meditate on the radiance of the divine.`,
+          `Translators differ most on bhargas. Some render it as light, others as splendour or glory, and some commentators link light with knowledge, as its subtlest form. All of these readings keep the sense of brightness.`,
         ],
       },
       {
         h: 'Line three: Dhiyo Yo Nah Prachodayat',
         p: [
-          `Dhiyo means intellects, understanding. Yo means who. Nah means our. Prachodayat means may it inspire or may it impel. So: may it inspire our understanding.`,
+          `Dhiyo means intellects, thoughts, understanding. Yo means who, or which. Nah means our. Prachodayat means may it inspire or may it impel. So: may it inspire our understanding.`,
+          `The grammar matters here. The verb is a wish, and the subject is the radiance of the previous line. The prayer is therefore not addressed to a distant being with a request for wealth or favour. It asks that the light we have just contemplated move our own thinking.`,
         ],
       },
       {
@@ -1233,9 +1238,10 @@ export const GUIDES_LEARN = [
         ],
       },
       {
-        h: 'Reciting it',
+        h: 'How it is used in practice',
         p: [
-          `Many recite it three times at sunrise, noon and sunset, or 108 times with a mala. A calm pace, attention to the meaning and correct vowel length are more important than speed. Our guide on how to chant the Gayatri Mantra explains posture and timing.`,
+          `The mantra is traditionally repeated in daily prayers three times a day while facing the sun: at sunrise, noon and sunset. It is also traditionally whispered into a boy's ear during the thread ceremony, one of the Hindu rites of passage. Many people today, of any age, recite it three times in the morning, or 108 times with a mala.`,
+          `A calm pace, attention to the meaning and correct vowel length are more important than speed. Our guide on how to chant the Gayatri Mantra explains posture and timing, and the Gayatri Mantra page on this site gives the text in Hindi, Odia and Telugu with meaning.`,
         ],
       },
     ],
@@ -1252,14 +1258,32 @@ export const GUIDES_LEARN = [
         q: 'What does Savitr mean?',
         a: 'Savitr is the Vedic deity of the sun as the stimulator or inspirer; later tradition identifies him with Surya.',
       },
+      {
+        q: 'Is Om Bhur Bhuvah Svah part of the Rig Veda verse?',
+        a: 'No. It is a traditional prefix added when the mantra is chanted. The Rig Vedic verse is the three lines beginning Tat Savitur Varenyam.',
+      },
+      {
+        q: 'What does bhargo mean?',
+        a: 'Radiance or splendour. Translators also render it as light or glory.',
+      },
+      {
+        q: 'When is it chanted?',
+        a: 'Traditionally at sunrise, noon and sunset. Many people chant it in the morning, three or 108 times.',
+      },
+      {
+        q: 'Is it a prayer for wealth?',
+        a: 'No. It is a prayer for clarity of understanding. It does not promise any worldly result.',
+      },
     ],
     related: {
       stotrams: ['gayatri-mantra', 'aditya-hridayam'],
-      guides: ['how-to-chant-gayatri-mantra', 'power-of-gayatri-mantra'],
+      guides: ['how-to-chant-gayatri-mantra', 'power-of-gayatri-mantra', 'om-meaning-and-how-to-chant', 'morning-prayer-routine'],
     },
     sources: [
       'Rig Veda 3.62.10 (Savitr hymn)',
       'Jamison, S. and Brereton, J., The Rigveda: The Earliest Religious Poetry of India, Oxford University Press, 2014',
+      'Advaita Vision, article on the Gayatri Mantra',
+      'Sri Deva Sthanam, page on the Gayatri Mantra',
     ],
   },
 
@@ -1624,7 +1648,7 @@ export const GUIDES_LEARN = [
     ],
     related: {
       stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra'],
-      guides: ['kartika-month-odisha-guide', 'krishna-janmashtami-guide'],
+      guides: ['kartika-month-odisha-guide', 'krishna-janmashtami-guide', 'snana-yatra-snana-purnima-puri-guide'],
     },
     sources: [
       'Incredible India (Ministry of Tourism, Government of India), Rath Yatra festival page',
@@ -3123,6 +3147,198 @@ export const GUIDES_LEARN = [
       'ThePrint, report on pinda daan across Odisha on Mahalaya',
       'Wikipedia, article on Pitru Paksha',
       'Free Press Journal, article on Mahalaya or Sarvapitri Amavasya',
+    ],
+  },
+  {
+    slug: 'snana-yatra-snana-purnima-puri-guide',
+    category: 'Odisha festivals',
+    title: 'Snana Purnima in Puri: The 108-Pot Bath, Gajanana Besha and Anasara Before Ratha Yatra',
+    description:
+      'A guide to Snana Yatra (Snana Purnima) at the Puri Jagannath Temple: the bathing of the deities with 108 pots of water, the elephant dress, the fortnight of Anasara, and how the date is fixed.',
+    h1: 'Snana Purnima: The Bathing Festival of Lord Jagannath',
+    intro:
+      'Months before the great chariots roll down the Bada Danda, Lord Jagannath and his brother and sister are taken out in public for one reason: a bath. Snana Yatra, also called Snana Purnima or Deva Snana Purnima, is the first public appearance of the deities in the year and the opening of the Ratha Yatra season. This guide explains what happens, what the rituals are said to mean, and how to follow the day.',
+    sections: [
+      {
+        h: 'When it is observed',
+        p: [
+          `Snana Yatra is held on the full moon (purnima) of the Hindu month of Jyeshtha, which usually falls in June. Devotees regard it as the birthday of Lord Jagannath.`,
+          `Because a purnima can begin on one day and end on the next, calendars can differ by a day. This guide does not quote a date. Follow your family's Odia panjika or the announcements of the Srimandir administration.`,
+        ],
+      },
+      {
+        h: 'A public bath for the deities',
+        p: [
+          `It is the first time each year that Jagannath, Balabhadra and Subhadra leave the temple sanctum for a public procession, to a bathing platform where they are bathed and displayed before the crowd. In the Puri accounts the platform is called the Snana Mandap. One standard account calls it the Snana Bedi, the bathing platform.`,
+          `The belief among devotees is that seeing the deities on this day cleanses sins. Crowds gather for the sight, and many accounts describe the day as the start of the Ratha Yatra festivities.`,
+        ],
+      },
+      {
+        h: 'The 108 pots',
+        p: [
+          `The deities are bathed with 108 pots of purified water while mantras are recited. Accounts differ on the source of the water: one describes it as drawn from the temple's northern well, another from the golden well of the temple. Both describe a well within the temple compound. According to one report the water is mixed with sandalwood, flowers and herbs.`,
+          `The Skanda Purana credits King Indradyumna, the legendary king who is said to have installed the deities, with beginning the ceremony. As with other temple traditions, historians and devotees read this story differently, and the account is best taken as the tradition's own explanation of the origin.`,
+        ],
+      },
+      {
+        h: 'Gajanana Besha, the elephant dress',
+        p: [
+          `In the evening after the bath, Jagannath and Balabhadra are dressed in elephant headgear. This is known as Gajanana Besha or Hati Besha, and it is said to represent Ganesha. The dress is a vivid reminder of how Puri's tradition holds several deities within one worship.`,
+          `If you want to add a prayer of your own for the day, the Ganesh Aarti and the Vakratunda Mahakaya shloka are natural choices.`,
+        ],
+      },
+      {
+        h: 'Anasara, the fortnight of rest',
+        p: [
+          `After the bath, the story is that the deities fall ill, with a ritual fever, and withdraw for about a fortnight. This period is called Anasara. During it the temple does not show the deities to the public. Temple physicians, including the Raj Vaidya and the shrine vaidyas, care for them with Ayurvedic medicine and light food.`,
+          `In place of the deities, devotees see three painted scrolls, known as the Anasara Patti, which are shown in the temple. Devotees also visit the Alarnatha temple, since Jagannath is believed to appear there during this time. The deities reappear in the ceremony of Netrotsav on the eve of the Ratha Yatra, a moment that is described as one of great joy for devotees.`,
+        ],
+      },
+      {
+        h: 'What the ritual means',
+        p: [
+          `Many people read the bath and the illness as a humanising story: the Lord who is served as a king and a child accepts the same pattern as a family, with a birthday, a bath and a period of rest. Others read it as a ritual of renewal that prepares the deities for the journey of the Ratha Yatra.`,
+          `Whichever way it is read, the festival is a clear example of how Odisha's tradition treats Jagannath as a living member of the household.`,
+        ],
+      },
+      {
+        h: 'Other places that keep the festival',
+        p: [
+          `Snana Yatra is not only a Puri festival. Mahesh in Serampore near Kolkata is described as keeping its Snana Yatra for several centuries, and its Mahesh Ratha Yatra is called the second oldest in India. Some temples elsewhere also keep their deities in seclusion until their own Ratha Yatra.`,
+        ],
+      },
+      {
+        h: 'How to follow the day',
+        p: [
+          `If you cannot visit Puri, you can follow the announcements of the temple administration, offer a lamp at home and read a Jagannath or Vishnu prayer. The Vishnu Sahasranamam is a traditional choice. Keep the day simple, and treat the Anasara fortnight as a time of quiet before the Ratha Yatra.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Snana Yatra?',
+        a: 'The bathing festival of Lord Jagannath, Balabhadra and Subhadra, held on the full moon of Jyeshtha and regarded by devotees as Jagannath\'s birthday.',
+      },
+      {
+        q: 'Why are 108 pots used?',
+        a: 'The ritual bath uses 108 pots of purified water with mantras, a number that is treated as sacred in Hindu practice.',
+      },
+      {
+        q: 'What is Gajanana Besha?',
+        a: 'The elephant dress given to Jagannath and Balabhadra after the bath. It is said to represent Ganesha.',
+      },
+      {
+        q: 'What is Anasara?',
+        a: 'The fortnight of seclusion after the bath, when the deities are said to be ill and are treated by temple physicians before the Ratha Yatra.',
+      },
+      {
+        q: 'Can devotees see the deities during Anasara?',
+        a: 'Not in the sanctum. Devotees see the Anasara Patti paintings and visit the Alarnatha temple, and the deities reappear at Netrotsav before the Ratha Yatra.',
+      },
+      {
+        q: 'Who started the festival?',
+        a: 'The Skanda Purana credits King Indradyumna. This is the tradition\'s own account.',
+      },
+      {
+        q: 'What is the date this year?',
+        a: 'It follows the full moon of Jyeshtha in the panjika, so check your Odia calendar.',
+      },
+    ],
+    related: {
+      stotrams: ['vishnu-sahasranamam', 'ganesh-aarti', 'vakratunda-mahakaya-mantra'],
+      guides: ['jagannath-ratha-yatra-puri-guide', 'gamha-purnima-rakhi-purnima-odisha-guide', 'ganesh-chaturthi-guide', 'how-to-chant-vishnu-mantra'],
+    },
+    sources: [
+      'Wikipedia, article on Snana Yatra',
+      'Deccan Chronicle, article on Snana Purnima and the sacred bath that heralds Lord Jagannath\'s journey',
+    ],
+  },
+  {
+    slug: 'dhanu-jatra-bargarh-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Dhanu Jatra in Bargarh: The Open-Air Theatre Where the Town Becomes Mathura',
+    description:
+      'A guide to Dhanu Jatra in Bargarh, Odisha: the eleven-day open-air play of Krishna and King Kansa, how the town and the Jeera river become Mathura and the Yamuna, its history, and how the date is fixed.',
+    h1: 'Dhanu Jatra: Bargarh\'s Eleven-Day Krishna Play',
+    intro:
+      'For about eleven days in the winter, a whole town in western Odisha turns into a stage. Bargarh becomes Mathura, the Jeera river becomes the Yamuna, and a king called Kansa rules the streets. Dhanu Jatra is described as the world\'s largest open-air theatre, and it tells one of the best-known stories of Krishna. This guide explains the story, the setting and how the festival is kept.',
+    sections: [
+      {
+        h: 'When it is held',
+        p: [
+          `Dhanu Jatra follows the lunar calendar. One account says it begins on Pausha Shukla Chaturthi and ends on Pausha Purnima, which another source describes as eleven days before the Pausha full moon. This brings it to December or January.`,
+          `Because tithis can differ by a day between calendars, this guide does not quote a date. Check the schedule announced by the Bargarh organisers or your Odia panjika.`,
+        ],
+      },
+      {
+        h: 'The story it tells',
+        p: [
+          `The play retells the visit of Krishna and his brother Balarama to Mathura to watch a bow ceremony (dhanu means bow) arranged by their uncle, the tyrant King Kansa. It covers events from Kansa\'s rise to power to his death and the restoration of Ugrasena as king. One account says the staging runs from the marriage of Devaki and Vasudeva to the fall of Kansa, as described in the scriptures.`,
+          `The central message is the triumph of good over evil. The story is described in the scriptures and is a familiar part of Krishna traditions, which our Krishna Janmashtami guide describes.`,
+        ],
+      },
+      {
+        h: 'A town that becomes Mathura',
+        p: [
+          `What makes Dhanu Jatra unusual is that the scenes are staged in the real landscape. The main town becomes Mathura and the Jeera river stands in for the Yamuna. A village across the river, called Ambapali, becomes Gopapura, and a pond there becomes the Kalindi Lake. A mango grove stands in for Vrindavan.`,
+          `The main stage is a temporary bamboo structure in the town\'s vegetable market, and a tall decorated stage in the town centre serves as Kansa\'s court. A second stage is set up in the grounds of a school. A chariot is used for Akrura\'s journey to fetch Krishna and Balarama. The action covers a distance of several kilometres, with one account giving about five and another about eight, so scenes play out at their proper places at the same time.`,
+        ],
+      },
+      {
+        h: 'No script, and a king who fines people',
+        p: [
+          `The play is performed without a written script. Local people and visitors take parts as characters and the actors improvise their dialogue. For the duration of the festival, King Kansa rules the town, and he is known to fine people for mistakes. One account says that former Chief Minister Biju Patnaik was once among those fined, which shows how seriously the town takes the fiction.`,
+          `Daily life in the town carries on while the festival takes place, and cultural programmes continue late into the night.`,
+        ],
+      },
+      {
+        h: 'How old is it?',
+        p: [
+          `The origin is not firmly documented. One account says the festival has been held in Bargarh since 1947, and that some older residents believe labourers started it after independence as a way to celebrate freedom from British rule, with Kansa\'s death standing for the end of colonial rule. Another says it has been held almost every year since 1948 and that its exact origins are unknown. These accounts differ by a year and agree that the beginnings are uncertain, so it is best to describe the festival as a tradition of the middle of the twentieth century, with its origin debated.`,
+          `The festival is also listed in some sources as a record holder for the largest open-air theatre. Treat that as a claim made by the sources rather than something this guide can confirm.`,
+        ],
+      },
+      {
+        h: 'Visiting and following it',
+        p: [
+          `Bargarh is in western Odisha. If you plan to attend, look for the programme published by the organisers each year, because the stages and timings are announced locally. Expect crowds and walking between locations, and dress for winter evenings.`,
+          `If you cannot go, you can follow the story at home through the Krishna prayers on this site, such as the Om Namo Bhagavate Vasudevaya mantra, and read about Janmashtami in our guide.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is Dhanu Jatra?',
+        a: 'An eleven-day open-air theatre festival in Bargarh, Odisha, that retells Krishna\'s visit to Mathura and the downfall of King Kansa.',
+      },
+      {
+        q: 'Why is it called Dhanu Jatra?',
+        a: 'Dhanu means bow. The story centres on a bow ceremony arranged by Kansa, which Krishna and Balarama attend.',
+      },
+      {
+        q: 'Which places stand in for Mathura and the Yamuna?',
+        a: 'Bargarh town is Mathura and the Jeera river is the Yamuna. The village of Ambapali across the river is Gopapura.',
+      },
+      {
+        q: 'Is there a script?',
+        a: 'No. Actors improvise their dialogue, and local people take part in the roles.',
+      },
+      {
+        q: 'When does it begin?',
+        a: 'Accounts say it begins on Pausha Shukla Chaturthi and ends on Pausha Purnima. Check the schedule announced each year.',
+      },
+      {
+        q: 'How old is the festival?',
+        a: 'Sources place it from 1947 or 1948 onward and say the exact origin is uncertain.',
+      },
+    ],
+    related: {
+      stotrams: ['krishna-vasudevaya-mantra', 'hare-krishna-maha-mantra', 'vishnu-sahasranamam'],
+      guides: ['krishna-janmashtami-guide', 'makar-sankranti-odisha-guide', 'nuakhai-western-odisha-guide', 'sital-sasthi-sambalpur-odisha-guide'],
+    },
+    sources: [
+      'Wikipedia, article on Dhanu jatra',
+      'ISKCON News, article on Dhanu Yatra, the largest open air ethnic theatre',
     ],
   },
 ];

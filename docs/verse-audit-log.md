@@ -111,3 +111,23 @@ One line per audit. Rotation: every stotram in every language (Hindi/Devanagari,
 - New: gamha-purnima-rakhi-purnima-odisha-guide (sources: Odisha Bytes, eOdisha). Temple ritual details come from a single detailed account and the guide says so.
 - New: mahalaya-pitru-paksha-odisha-guide (sources: ETV Bharat, ThePrint, Wikipedia, Free Press Journal). No dates quoted.
 - Upgraded: maha-mrityunjaya-mantra-meaning (about 364 to 890 words). Added Taittiriya Samhita 1.8.6 and Vajasaneyi Samhita 3.60, word by word breakdown, tryambaka note, Pradosh use. Sources: Shlokam.org and Bharatpedia.
+
+## 2026-10-31: shiva-tandav, Hindi (with Odia, Telugu and English transliteration rebuilt from it)
+- Sources: sanskritdocuments.org (Shivatandavastotra by Ravana, 17 verses with variants noted) and ramcharit.in (15-verse edition). The two agree on the text of the 15 verses used.
+- Problem found: the site had 15 two-line pieces. Verses 7, 8 and 9 were cut in half and the missing halves were scattered as separate pieces (the "dhara dharendra nandini kucagra" lines at 12, a second "navina megha" at 13, a second "praphulla nila" at 14), the first piece of verse 11 was joined to the wrong lines, and verse 8 read "bandhukandharah" instead of "baddhakandharah".
+- Fix: the stotram is rebuilt as the standard 15-verse edition with four lines per verse (verses 1 to 13 as in both sources, verse 14 imam hi nityam, verse 15 pujavasana). Odia, Telugu and English transliteration were regenerated from the corrected Devanagari by the standard conversion, and meanings were rewritten for all 15 verses in four languages. The last two verses are described as the text's traditional promise, not a guarantee.
+- Variants recorded, not changed: ङ्घ्रि (sanskritdocuments) against ङ्ग्रि (ramcharit.in, a print error); स्रजोर् against स्रजो in verse 12; नान्यथा against नाऽन्यथा; क्वचिच्चिदम्बरे as an alternate reading in verse 3; मदान्धसिन्धुर... alternate in verse 4. The site follows sanskritdocuments.org.
+- Not included: two extra verses (nilimpanatha... and prachanda vadavanala...) that sanskritdocuments.org says appear only in some versions. The guide shiva-tandava-stotram-meaning-and-story already says editions have 15 or 17 verses.
+- Needs human check: a reader of Odia and Telugu should read the new meanings (these were written by hand, not from a printed edition). Next in rotation: shiva-tandav in Odia.
+
+## 2026-10-31: new mantra added: asato-ma-sadgamaya
+- Text: Devanagari compared across shlokam.org and bhaktibharat.com. Both cite Brihadaranyaka Upanishad 1.3.28 and give the same three lines. Variant: shlokam.org writes mrityor ma amritam and bhaktibharat.com joins it as mrityor mamritam; the site uses the joined form. bhaktibharat.com prints one shanti as shanti (typo).
+- Context: Wikipedia (Pavamana Mantra) notes the closing Om Shantih is a later addition, and that the Upanishad says the three lines carry one meaning, a plea for immortality.
+- YouTube: id Vwyo62x9yC4, "Asato Ma Sadgamaya With Lyrics | Early Morning Chant | Nirguna Mantra For Peace | Rajshri Soul", channel Rajshri Soul, oEmbed 200. Alternative checked: l7gXrjJeAHc (Times Music Spiritual, Rattan Mohan Sharma), oEmbed 200.
+- Cross-link: added to related.stotrams of best-prayer-for-inner-peace.
+
+## 2026-10-31: guides
+- New: snana-yatra-snana-purnima-puri-guide (sources: Wikipedia Snana Yatra, Deccan Chronicle). The two differ on the water source (northern well against golden well) and the guide says so.
+- New: dhanu-jatra-bargarh-odisha-guide (sources: Wikipedia Dhanu jatra, ISKCON News). The two differ on the start year (1947 against 1948) and the stage radius (8 km against 5 km); the guide says so.
+- Upgraded: gayatri-mantra-word-by-word-meaning (about 389 to 818 words). Added the prefix note, Savitr, bhargas readings, grammar of the last line, usage and more FAQs. Sources added: Advaita Vision, Sri Deva Sthanam.
+- Cross-links: snana guide added to jagannath-ratha-yatra-puri-guide.

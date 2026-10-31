@@ -205,4 +205,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does it guarantee that obstacles will go away?', a: 'No. It is a prayer and a way to begin with focus. It does not guarantee any result.' },
     ],
   },
+  'asato-ma-sadgamaya': {
+    what: `Asato Ma Sadgamaya is a short Sanskrit prayer from the Brihadaranyaka Upanishad (1.3.28), one of the oldest Upanishads. It has three lines, each asking to be led from one state to a better one: from the unreal to the real, from darkness to light, and from death to immortality. The verse is called a Pavamana mantra, a purifying chant, and the closing Om Shantih said three times is a later addition that most recitations include. It is sung at the close of assemblies, in schools and ashrams, in yoga classes and in many homes as a daily prayer. The Upanishad itself says that all three lines carry one meaning, a plea for immortality, and Vedanta commentary reads the prayer as a turn from the changing world toward what does not change.`,
+    meaning: `Asato means from the unreal or untrue, ma means me, and sat-gamaya means lead to the real. The word sat means what is true and lasting, and asat what is passing or false. Tamasah is from darkness and jyotih is light, so the second line asks for light, often read as knowledge. Mrityoh is from death and amritam is immortality or deathlessness. Different traditions read the lines in different ways: some as a wish for moral truth and clear understanding in daily life, others as the Vedanta prayer for liberation. Both readings are in use.`,
+    benefits: [
+      'Short and easy to memorise, so it suits children, students and beginners',
+      'A traditional way to close a class, a gathering or a prayer',
+      'Can be chanted aloud or quietly, once or on a mala of 108 beads',
+      'A calm start to the morning or end to the evening',
+      'Open to anyone, with no initiation needed',
+    ],
+    bestTime: `Say it at the start or end of the day, at the close of a prayer or study session, or whenever you want to settle your mind. There is no fixed day or count. Many people chant it three times, and 11 or 108 repetitions are common for a longer sitting.`,
+    faqs: [
+      { q: 'What does Asato Ma Sadgamaya mean?', a: 'Lead me from the unreal to the real, from darkness to light, from death to immortality. It ends with Om, peace, peace, peace.' },
+      { q: 'Where is it from?', a: 'The Brihadaranyaka Upanishad, chapter 1, section 3, verse 28.' },
+      { q: 'Who wrote it?', a: 'It belongs to the Upanishadic tradition and no individual author is named.' },
+      { q: 'Why is it called a Pavamana mantra?', a: 'Pavamana means purified or purifying, a word the Vedas link with Soma. The verse is also called an abhyaroha, a prayer of ascent.' },
+      { q: 'When should I chant it?', a: 'At the start or end of the day, or at the close of a prayer or class. There is no fixed time.' },
+      { q: 'Does it guarantee any result?', a: 'No. It is a prayer and a way to turn the mind toward truth and light. It does not guarantee any outcome.' },
+    ],
+  },
 };

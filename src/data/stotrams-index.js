@@ -529,6 +529,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'om-jai-jagdish-hare-aarti',
+    title: {
+      en: 'Om Jai Jagdish Hare Aarti',
+      hi: 'ॐ जय जगदीश हरे आरती',
+      od: 'ଓଁ ଜୟ ଜଗଦୀଶ ହରେ ଆରତୀ',
+      te: 'ఓం జయ జగదీశ హరే ఆరతి',
+    },
+    deity: 'Vishnu',
+    deityEmoji: '🪔',
+    deityIcon: '',
+    description: {
+      en: 'Om Jai Jagdish Hare, the best known aarti to Lord Vishnu as Jagdish, with all eight stanzas in Hindi, Odia, Telugu and English script, meaning in four languages and a video to sing along',
+      hi: 'ॐ जय जगदीश हरे, भगवान विष्णु की सबसे प्रसिद्ध आरती, आठों पदों के साथ हिन्दी, ओड़िया, तेलुगु और अंग्रेज़ी लिपि में, चार भाषाओं में अर्थ सहित',
+      od: 'ଓଁ ଜୟ ଜଗଦୀଶ ହରେ, ଭଗବାନ ବିଷ୍ଣୁଙ୍କର ସବୁଠାରୁ ପ୍ରସିଦ୍ଧ ଆରତୀ, ଆଠଟି ପଦ ସହିତ ହିନ୍ଦୀ, ଓଡ଼ିଆ, ତେଲୁଗୁ ଓ ଇଂରାଜୀ ଲିପିରେ, ଚାରି ଭାଷାରେ ଅର୍ଥ ସହିତ',
+      te: 'ఓం జయ జగదీశ హరే, విష్ణువుకు అత్యంత ప్రసిద్ధ ఆరతి, ఎనిమిది చరణాలతో హిందీ, ఒడియా, తెలుగు, ఇంగ్లీష్ లిపిలో, నాలుగు భాషల్లో అర్థంతో',
+    },
+    color: 'from-amber-950 to-stone-900',
+    accent: '#f0b84a',
+    youtubeId: '3ucCEjXS9n8',
+    verseCount: 8,
+    language: 'Hindi',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

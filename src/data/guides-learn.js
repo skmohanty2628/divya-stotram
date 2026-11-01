@@ -1648,7 +1648,7 @@ export const GUIDES_LEARN = [
     ],
     related: {
       stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra'],
-      guides: ['kartika-month-odisha-guide', 'krishna-janmashtami-guide', 'snana-yatra-snana-purnima-puri-guide'],
+      guides: ['kartika-month-odisha-guide', 'krishna-janmashtami-guide', 'snana-yatra-snana-purnima-puri-guide', 'bahuda-yatra-suna-besha-niladri-bije-puri-guide', 'jagannath-mahaprasad-ananda-bazar-puri-guide'],
     },
     sources: [
       'Incredible India (Ministry of Tourism, Government of India), Rath Yatra festival page',
@@ -3339,6 +3339,153 @@ export const GUIDES_LEARN = [
     sources: [
       'Wikipedia, article on Dhanu jatra',
       'ISKCON News, article on Dhanu Yatra, the largest open air ethnic theatre',
+    ],
+  },
+  {
+    slug: 'jagannath-mahaprasad-ananda-bazar-puri-guide',
+    category: 'Odisha festivals',
+    title: 'Mahaprasad of Puri: The Jagannath Temple Kitchen, Ananda Bazar and Nirmalya',
+    description:
+      'A guide to the Mahaprasad of the Jagannath Temple in Puri: how it is cooked in earthen pots, the Suaras who prepare it, the offering to Bimala, the Ananda Bazar where it is eaten together, and what Nirmalya means.',
+    h1: 'Mahaprasad of Puri: The Kitchen, the Offering and Ananda Bazar',
+    intro:
+      'For many people who visit Puri, the meal at the temple is as memorable as the darshan. The food offered to Lord Jagannath is called Mahaprasad, and it is cooked in one of the largest temple kitchens in India. This guide explains what Mahaprasad is, how it is made, how it is offered and shared, and which popular claims about it are beliefs rather than established facts.',
+    sections: [
+      {
+        h: 'What Mahaprasad means',
+        p: [
+          `The word joins maha, meaning great, with prasada, meaning grace or a gift received from the deity. Wikipedia describes Mahaprasad as the food offered to Jagannath at the Puri temple and received back as the highest form of divine grace. The ISKCON News article uses the name Abhada as another name for the same offerings.`,
+          `Food becomes Mahaprasad only after it has been offered. It is first presented to Jagannath, Balabhadra and Subhadra, and then it is offered again to the goddess Bimala, whose shrine stands within the temple complex. This second offering is called Bimala Prasad. Only after both offerings is the food considered Mahaprasad and shared with devotees.`,
+        ],
+      },
+      {
+        h: 'The kitchen and the cooks',
+        p: [
+          `The food is cooked in the Rosha Ghara, the temple kitchen. An article by Sarada Lahangir for ISKCON News in 2007 describes a kitchen of 32 rooms with 752 stoves, worked by about 500 cooks and 300 helpers. These are figures reported in that article and they may differ from other counts, so treat them as an indication of scale rather than an exact record.`,
+          `The cooks are hereditary temple servitors known as Suaras, and the senior ones are called Maha-Suaras. They follow rules handed down within their families. According to Wikipedia, the cooking uses earthen pots and firewood, no onion or garlic is used, and nothing is tasted before the offering has been made. The same ISKCON News article adds that potatoes, tomatoes and cauliflower are not used in the temple, and that fine jaggery replaces sugar in the sweet dishes.`,
+        ],
+      },
+      {
+        h: 'Pots stacked on one fire',
+        p: [
+          `The detail most visitors remember is the way the pots are arranged. The Free Press Journal reports that hundreds of earthen pots sit one above another over the wood-fired stoves, and that devotees believe the pot at the top cooks first. The article presents this as a belief that people regard as a miracle. It is a good example of how this kitchen is described in two ways: as a practical method handed down by cooks, and as a sign of divine presence.`,
+          `Temple legend also says that the goddess Mahalakshmi herself oversees the kitchen. The same legends say that the food stays fresh and that the amount of rice cooked each day matches the number of people who arrive. A servitor quoted by ISKCON News said there is no fixed limit on the rice cooked, because food is prepared for those who come. These are traditions and statements by servitors, and this guide does not present them as verified facts.`,
+        ],
+      },
+      {
+        h: 'Fifty-six offerings and six meals a day',
+        p: [
+          `Wikipedia says the deities are offered food six times a day, and the ISKCON News article speaks of 56 kinds of offering. The Free Press Journal links the number 56 with the story of Krishna, in which Yashoda is said to have prepared eight dishes for each of seven days, which gives 56, and it notes that this is why devotees speak of Chappan Bhog. Not every source connects the Puri offerings to that story, so it is best described as one explanation in use.`,
+          `The menu includes rice, dal, vegetable dishes, khichdi, sweets and other Odia foods. Wikipedia names anna (rice), dali (lentils), besara, khechudi, saga and pakhala among the cooked items, and khai, nadia kora and gaja among the dry items, which are the ones sold for pilgrims to carry home.`,
+        ],
+      },
+      {
+        h: 'Ananda Bazar and eating together',
+        p: [
+          `Cooked Mahaprasad is sold and eaten at the Ananda Bazar, the open market area of the temple. Wikipedia describes it as a food court where devotees eat together and where dry Mahaprasad is also sold. Sitting down to the same food, whatever one's background, is described as a sign of equality. The Free Press Journal makes the same point about inclusivity, and Wikipedia states that the Mahaprasad can be eaten by anyone, regardless of caste, creed or religion.`,
+          `If you visit, buy from the counters of the temple administration, and eat from the leaf or earthen dish provided.`,
+        ],
+      },
+      {
+        h: 'Nirmalya',
+        p: [
+          `Nirmalya is the name for Mahaprasad rice that has been dried. Pilgrims often take it home and keep it as a blessing. Wikipedia reports a belief that it is given to a person near death, and describes it as highly auspicious. This guide treats that as a devotional belief and does not make claims about what it does.`,
+        ],
+      },
+      {
+        h: 'Mahaprasad at home',
+        p: [
+          `You can follow the same idea at home: prepare plain vegetarian food, place a small portion before a picture of Jagannath or Vishnu, say a short prayer such as the Om Jai Jagdish Hare aarti, and then eat. The idea in all of this is the same as in Puri, that the meal is first offered and then received with thanks.`,
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'What is Mahaprasad?', a: 'The food offered to Lord Jagannath at the Puri temple and then shared with devotees. It is first offered to the deities and then to the goddess Bimala.' },
+      { q: 'Who cooks it?', a: 'Hereditary temple cooks called Suaras and Maha-Suaras, using earthen pots and firewood.' },
+      { q: 'Is Mahaprasad vegetarian?', a: 'Yes. Wikipedia describes it as vegetarian and sattvik, without onion or garlic.' },
+      { q: 'What is Ananda Bazar?', a: 'The open food court of the Jagannath Temple where Mahaprasad is eaten together and dry items are sold.' },
+      { q: 'What is Nirmalya?', a: 'Dried Mahaprasad rice that devotees often take home as a blessing.' },
+      { q: 'Is it true that the top pot cooks first?', a: 'It is a widely repeated belief, reported by the Free Press Journal as such. It is a tradition, not something this guide can verify.' },
+    ],
+    related: {
+      stotrams: ['om-jai-jagdish-hare-aarti', 'vishnu-sahasranamam'],
+      guides: ['jagannath-ratha-yatra-puri-guide', 'snana-yatra-snana-purnima-puri-guide', 'boita-bandana-bali-jatra-kartika-purnima-guide'],
+    },
+    sources: [
+      'Wikipedia, article on Mahaprasad (Jagannath Temple)',
+      'ISKCON News, Sarada Lahangir, Jagannath Temple in Puri has India\'s biggest kitchen (2007)',
+      'Free Press Journal, Jagannath Rath Yatra: What Is Mahaprasad? Know Its Preparation And Spiritual Significance',
+    ],
+  },
+  {
+    slug: 'bahuda-yatra-suna-besha-niladri-bije-puri-guide',
+    category: 'Odisha festivals',
+    title: 'Bahuda Yatra, Suna Besha and Niladri Bije: How the Puri Ratha Yatra Ends',
+    description:
+      'A guide to the return journey of the Puri Ratha Yatra: Bahuda Yatra, the stop at the Mausi Maa temple, Suna Besha in gold, Adhara Pana, the Lakshmi episode and Niladri Bije.',
+    h1: 'Bahuda Yatra, Suna Besha and Niladri Bije in Puri',
+    intro:
+      'Most people know the Ratha Yatra as the day the three great chariots leave the Jagannath Temple. The festival does not end there. After the stay at the Gundicha Temple the deities return along the same road, and then a series of rituals over several days brings them back inside the sanctum. This guide follows that return, from Bahuda Yatra to Niladri Bije.',
+    sections: [
+      {
+        h: 'What Bahuda Yatra is',
+        p: [
+          `Bahuda means return in Odia. The Free Press Journal describes Bahuda Yatra as the homecoming of Jagannath, Balabhadra and Subhadra from the Gundicha Temple to the main temple at Puri. It is also called Ulta Rath or Ulto Rath, the reverse chariot festival, because it retraces the outward journey. Bhaktibharat lists the whole festival as running from Ashadha Shukla Dwitiya to Dashami, which is how the festival dates are fixed: they follow the lunar calendar, so the Gregorian date changes each year and should be taken from the temple administration.`,
+          `During the days between the outward and the return journey, the deities stay at the Gundicha Temple, which tradition calls the home of Jagannath\'s aunt. On the return day the chariots are pulled again along the Grand Road. According to OdishaBytes, the chariots reached the Lions\' Gate in a set order: Taladhwaja, the chariot of Balabhadra, first, then Darpadalana of Subhadra, and Nandighosa of Jagannath last. The same report put the distance covered at about 2.6 kilometres.`,
+        ],
+      },
+      {
+        h: 'The stop at the Mausi Maa temple',
+        p: [
+          `On the way back the chariots halt at the Mausi Maa temple, which the Free Press Journal and Jawhar Sircar both mention. Mausi Maa means maternal aunt. There the deities are offered poda pitha, a baked rice cake that is described as one of Jagannath\'s favourite foods.`,
+          `The king of Puri, the Gajapati, also performs Chhera Pahanra on the return, sweeping the chariot floors with a golden-handled broom. Outlook India reports that he performs it on the Ratha Yatra and on Bahuda Yatra as well. Our Ratha Yatra guide explains the ritual in more detail.`,
+        ],
+      },
+      {
+        h: 'Suna Besha: the golden dress',
+        p: [
+          `After the chariots stand before the Lions\' Gate of the temple, the deities remain on them. On the next day they are dressed in gold ornaments in the ceremony called Suna Besha. Suna means gold in Odia. Jawhar Sircar calls it one of the most spectacular events of the festival and says it draws very large crowds. The deities are seen on the chariots, in front of the crowd, rather than inside the sanctum.`,
+          `This guide does not list the ornaments, because accounts of the exact items differ and the temple administration publishes the details each year.`,
+        ],
+      },
+      {
+        h: 'Adhara Pana: the sweet drink',
+        p: [
+          `The next day brings Adhara Pana. Sircar describes it as a sweet drink offered to the deities in large earthen pots. The pots are then ceremonially broken. Pana is the Odia word for a cooling sweet drink and is also central to the festival of Pana Sankranti, which our Maha Bishuba Pana Sankranti guide explains.`,
+        ],
+      },
+      {
+        h: 'The Lakshmi episode and Niladri Bije',
+        p: [
+          `The last ritual is Niladri Bije, the return of the deities into the sanctum. Niladri is a name by which Puri is known in devotional literature. The Free Press Journal spells it Niladri Bijay. The festival ends with this entry into the temple.`,
+          `A well-known story belongs here. Goddess Lakshmi, who stayed behind in the temple, is said to be displeased at being left behind, and at first she does not allow Jagannath to enter. The Free Press Journal says he offers her Rasagola, after which she lets him in. Sircar describes the same scene as a playful ritual of reconciliation after the goddess refuses entry. The sources agree on the shape of the story but differ on the offering, so the Rasagola detail should be taken as the one the Free Press Journal gives.`,
+        ],
+      },
+      {
+        h: 'Following the festival from home',
+        p: [
+          `If you cannot be in Puri, read about the festival and sing a Vishnu aarti such as Om Jai Jagdish Hare at home, and offer a simple sweet or pitha to the deity.`,
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'What is Bahuda Yatra?', a: 'The return journey of Jagannath, Balabhadra and Subhadra from the Gundicha Temple to the main temple in Puri. It is also called Ulta Rath.' },
+      { q: 'What is Suna Besha?', a: 'The ceremony in which the deities are dressed in gold ornaments while on their chariots.' },
+      { q: 'What is Adhara Pana?', a: 'A sweet drink offered in large earthen pots, which are then broken.' },
+      { q: 'What is Niladri Bije?', a: 'The ritual re-entry of the deities into the sanctum, which ends the festival.' },
+      { q: 'Why is the Mausi Maa temple important?', a: 'The chariots halt there and the deities are offered poda pitha, a baked rice cake.' },
+      { q: 'How is the date fixed?', a: 'The festival follows lunar days, from Ashadha Shukla Dwitiya to Dashami, so the Gregorian date varies each year.' },
+    ],
+    related: {
+      stotrams: ['om-jai-jagdish-hare-aarti', 'vishnu-sahasranamam'],
+      guides: ['jagannath-ratha-yatra-puri-guide', 'snana-yatra-snana-purnima-puri-guide', 'jagannath-mahaprasad-ananda-bazar-puri-guide', 'maha-bishuba-pana-sankranti-odisha-guide'],
+    },
+    sources: [
+      'Free Press Journal, What Is Bahuda Yatra? Know About The Return Journey Of Lord Jagannatha',
+      'Jawhar Sircar, Ulta Rath festivities: the last four days',
+      'OdishaBytes, All 3 chariots return to Lions\' Gate on Bahuda Yatra',
+      'Outlook India, Puri\'s titular king performs Chhera Pahanra',
+      'Bhaktibharat, 10 lesser-known facts about Puri Rath Yatra',
     ],
   },
 ];

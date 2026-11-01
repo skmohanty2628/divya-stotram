@@ -23,6 +23,7 @@ import { sahanaVavatu } from '@/data/sahana-vavatu-mantra';
 import { vakratundaMahakaya } from '@/data/vakratunda-mahakaya-mantra';
 import { shuklambaradharam } from '@/data/shuklambaradharam-mantra';
 import { asatoMaSadgamaya } from '@/data/asato-ma-sadgamaya';
+import { omJaiJagdishHare } from '@/data/om-jai-jagdish-hare-aarti';
 
 export const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
@@ -50,4 +51,5 @@ export const VERSE_DATA = {
   'vakratunda-mahakaya-mantra': vakratundaMahakaya,
   'shuklambaradharam-mantra': shuklambaradharam,
   'asato-ma-sadgamaya': asatoMaSadgamaya,
+  'om-jai-jagdish-hare-aarti': omJaiJagdishHare,
 };

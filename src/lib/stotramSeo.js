@@ -122,6 +122,11 @@ const SEO_COPY = {
     description:
       'Read Asato Ma Sadgamaya (असतो मा सद्गमय), the Brihadaranyaka Upanishad prayer for truth, light and immortality, in English, Hindi, Odia and Telugu with meaning, when to chant it, and a video to follow along.',
   },
+  'om-jai-jagdish-hare-aarti': {
+    title: 'Om Jai Jagdish Hare Aarti Lyrics in Hindi, Odia, Telugu & English with Meaning',
+    description:
+      'Read Om Jai Jagdish Hare (ॐ जय जगदीश हरे), the Vishnu aarti, with all eight stanzas in Hindi, Odia, Telugu and English script, meaning in four languages, and a video to sing along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

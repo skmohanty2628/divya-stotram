@@ -219,33 +219,49 @@ export const GUIDES_PRACTICE = [
     category: 'Daily practice',
     title: 'Night Prayer Routine: Evening Mantras and a Calm Close to the Day',
     description:
-      'A gentle evening and night prayer routine in the Hindu tradition: dusk lamp, Shubham Karoti, Hanuman and Vishnu verses, gratitude practice and a short wind-down for sleep.',
+      'A gentle evening and night prayer routine in the Hindu tradition: the dusk lamp and the Shubham Karoti verse, the Shantakaram Vishnu verse, an aarti, a short gratitude review, shanti mantras and a quiet wind-down for sleep.',
     h1: 'Night Prayer Routine: Evening Mantras to Close the Day',
     intro:
-      'If the morning is for setting intention, the evening is for gratitude and release. Hindu households have a rich tradition of dusk prayers. This guide gives a simple routine you can complete in ten minutes.',
+      'If the morning is for setting intention, the evening is for gratitude and release. Hindu households have a long tradition of prayers at dusk and before sleep, and most of them are short. This guide sets out a simple routine you can finish in ten minutes, explains the verses it uses with their meaning, and notes where versions differ. Nothing here is compulsory, and you can keep only the parts that suit your home.',
     sections: [
       {
-        h: 'Dusk and the lamp',
+        h: 'Why dusk is a special time',
         p: [
-          `Sandhya, the juncture of day and night, is traditionally a time for lighting a lamp and saying a short prayer. Light a diya at the entrance or before your prayer corner. As you light it, many families recite: Shubham Karoti Kalyanam, Arogyam Dhanasampadah, Shatrubuddhi Vinashaya Deepajyotir Namostute. It means: I bow to the light of the lamp, which brings auspiciousness, wellbeing, health and wealth, and destroys hostile thoughts. Children in many households learn it as their first prayer.`,
+          `The Sanskrit word sandhya means a junction, the moment where one part of the day meets the next. Wikipedia explains that the traditional daily rite called Sandhyavandanam is performed at three such junctions, at dawn, at noon and at dusk, and the dusk rite is done facing west and continues until the stars appear. That rite is traditionally performed by initiated men, but the idea behind it, that the turn of the day is a good moment to pause, is shared by many households which simply light a lamp at the same hour.`,
+          `You do not need a formal rite to use the hour. Washing your face and hands, lighting a lamp and standing quietly for a minute is a recognisable evening practice in many Indian homes.`,
+        ],
+      },
+      {
+        h: 'The lamp and the Shubham Karoti verse',
+        p: [
+          `Light a diya at the entrance or before your prayer corner. As you light it, many families recite the verse: Shubham karoti kalyanam, arogyam dhana-sampada, shatru-buddhi-vinashaya, dipa-jyotir namo 'stu te. The Green Message site gives the meaning as: salutations to the light of the lamp, which brings auspiciousness, health and prosperity, and which destroys hostile thoughts. The last word of the verse is also seen as namostute or namo 'stu te, and Bhaktibharat prints the last part as dipa-jyoti namo 'stu te. These are spelling choices, not different verses.`,
+          `The word shatru-buddhi is usually read as the mind that regards others as enemies, so many people take the last line as a prayer to be rid of ill will within themselves. Bhaktibharat lists a second verse with it that begins Dipo jyoti param brahma and ends sandhya-dipa namo 'stu te, a line that names the evening lamp.`,
+          `The verse is also widely taught to children. It is short, easy to remember and often the first prayer a child learns.`,
+        ],
+      },
+      {
+        h: 'A verse to Vishnu: Shantakaram',
+        p: [
+          `A verse that suits the quiet of the evening is the Vishnu dhyana shloka beginning Shantakaram bhujagashayanam. Shlokam.org gives its meaning as follows: I bow to Vishnu, whose nature is calm, who rests on the serpent, from whose navel the lotus rises, who rules the gods, who sustains the universe, who is as boundless as the sky, whose colour is that of a rain cloud, who is the beloved of Lakshmi, who has lotus eyes, who yogis reach through meditation, who removes the fear of worldly existence and who is the one lord of all worlds. Shlokam.org does not name the text it comes from, and this guide does not either.`,
+          `If you want a longer evening prayer, the Vishnu Sahasranamam is a traditional choice, and the Hanuman Chalisa is a common evening recitation in many homes. For a short, shared evening prayer, the Om Jai Jagdish Hare aarti is sung with the lamp in many families, and you will find it on this site with meaning.`,
         ],
       },
       {
         h: 'Gratitude and review',
         p: [
-          `Sit for a few minutes and review the day without judgement. Name three things you are grateful for, one thing you could have done better, and one person you wish well. This is the spiritual equivalent of tidying up before sleep.`,
+          `Sit for a few minutes and review the day without judgement. Name three things you are grateful for, one thing you could have done better, and one person you wish well. This is the spiritual equivalent of tidying up before sleep. If you write it down, keep the page short so that it stays a habit.`,
         ],
       },
       {
-        h: 'What to recite',
+        h: 'Ending on goodwill',
         p: [
-          `Choose something gentle. The Hanuman Chalisa is a common evening prayer in many homes. Vishnu mantras and the Shantakaram verse suit the hour. A shanti mantra such as Om Sarve Bhavantu Sukhinah ends the day on goodwill. If you are tired, even one verse is enough.`,
+          `A shanti mantra is a good way to finish. Sarve Bhavantu Sukhinah, may all beings be happy, ends the day on goodwill. The Sahana Vavatu mantra, a prayer for teacher and student to study without ill will, suits families with children. The Asato Ma Sadgamaya prayer, from the Brihadaranyaka Upanishad, asks to be led from the unreal to the real, from darkness to light. All three are on this site with meaning in four languages. If you are tired, even one verse is enough.`,
         ],
       },
       {
         h: 'Winding down for sleep',
         p: [
-          `Turn off bright screens. Wash hands, feet and face. Recite your chosen mantra softly, with slow breaths. Many people find it helpful to keep a notebook beside the bed to write down any lingering worries, so they do not need to hold them in their heads. For more on sleep, see our guide on mantras for sleep.`,
+          `Turn off bright screens. Wash hands, feet and face. Recite your chosen mantra softly, with slow breaths. Many people find it helpful to keep a notebook beside the bed to write down any lingering worries, so they do not need to hold them in their heads. A prayer is not a medical treatment for sleeplessness; if poor sleep goes on for weeks, speak to a doctor. For more on sleep, see our guide on mantras for sleep.`,
         ],
       },
       {
@@ -254,15 +270,29 @@ export const GUIDES_PRACTICE = [
           `A shared evening prayer, even two minutes long, is one of the simplest ways to bring a household together. Children benefit from the predictable ritual, and adults from the pause. If schedules differ, a shared message with a verse can keep far-away relatives in the practice.`,
         ],
       },
+      {
+        h: 'A ten-minute outline',
+        p: [
+          `One simple sequence is: wash and light the lamp with the Shubham Karoti verse (one minute), sing or recite one prayer such as the Shantakaram verse or an aarti (three minutes), sit for the gratitude review (three minutes), end with Sarve Bhavantu Sukhinah (one minute) and then put screens away. Change it freely. A shorter routine kept every night is worth more than a long one kept rarely.`,
+        ],
+      },
     ],
     faqs: [
       {
         q: 'What is Shubham Karoti?',
-        a: 'A traditional dusk prayer to the lamp, asking for auspiciousness and wellbeing.',
+        a: 'A traditional dusk prayer to the lamp, asking for auspiciousness, health and prosperity and for hostile thoughts to be destroyed.',
       },
       {
         q: 'What should I chant at night?',
-        a: 'Something gentle such as the Hanuman Chalisa, a Vishnu mantra or a shanti mantra.',
+        a: 'Something gentle such as the Shantakaram verse, the Hanuman Chalisa, an aarti or a shanti mantra.',
+      },
+      {
+        q: 'Why is dusk called sandhya?',
+        a: 'Sandhya means a junction, the point where one part of the day meets the next. The traditional Sandhyavandanam rite is done at dawn, noon and dusk.',
+      },
+      {
+        q: 'Which way should I face?',
+        a: 'In the traditional dusk Sandhyavandanam rite, Wikipedia says one faces west. For a home prayer there is no strict rule; face the lamp or the picture.',
       },
       {
         q: 'Can I pray in bed?',
@@ -272,13 +302,20 @@ export const GUIDES_PRACTICE = [
         q: 'How long should it be?',
         a: 'Five to ten minutes is plenty.',
       },
+      {
+        q: 'Will it cure insomnia?',
+        a: 'No. It can help you slow down at the end of the day, but it is not a treatment. See a doctor if sleep problems continue.',
+      },
     ],
     related: {
-      stotrams: ['hanuman-chalisa', 'vishnu-sahasranamam'],
+      stotrams: ['hanuman-chalisa', 'vishnu-sahasranamam', 'sarve-bhavantu-sukhinah', 'asato-ma-sadgamaya', 'om-jai-jagdish-hare-aarti', 'sahana-vavatu-mantra'],
       guides: ['best-mantra-for-sleep', 'best-prayer-for-inner-peace', 'morning-prayer-routine'],
     },
     sources: [
-      'Traditional Shubham Karoti prayer, widely taught to children in India',
+      'Green Message, Shubham Karoti Kalyanam with meaning',
+      'Bhaktibharat, Deep Prajwalan mantra (Shubham Karoti Kalyanam)',
+      'Shlokam.org, Shantakaram Bhujagashayanam with meaning',
+      'Wikipedia, article on Sandhyavandanam',
     ],
   },
 

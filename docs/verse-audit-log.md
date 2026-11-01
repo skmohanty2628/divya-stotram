@@ -131,3 +131,20 @@ One line per audit. Rotation: every stotram in every language (Hindi/Devanagari,
 - New: dhanu-jatra-bargarh-odisha-guide (sources: Wikipedia Dhanu jatra, ISKCON News). The two differ on the start year (1947 against 1948) and the stage radius (8 km against 5 km); the guide says so.
 - Upgraded: gayatri-mantra-word-by-word-meaning (about 389 to 818 words). Added the prefix note, Savitr, bhargas readings, grammar of the last line, usage and more FAQs. Sources added: Advaita Vision, Sri Deva Sthanam.
 - Cross-links: snana guide added to jagannath-ratha-yatra-puri-guide.
+
+## 2026-11-01: audit: shiva-tandav, Odia
+- Method: Odia converted back to Devanagari by Unicode offset (with fixes for ୟ, ୱ) and compared with the site Hindi in all 15 verses: no mismatch. Then compared with the independent Odia edition on vignanam.org (15 verses).
+- Differences were regional variants only: murdhani and murddhani (v2), bhala and phala (v7, v11), ahutikrita and adharikrita with ratirmama and matirmama (v7), baddhakandharah and bandhukandharah (v8), avalambi and vilambi (v9), akharva and agarva (v10), trinaravinda and trishnaravinda (v12), vilolalola and vimuktalola and kada and sada (v13), one missing visarga in the vignanam print (v5). Word-final halants are valid. No broken Unicode.
+- Result: no fixes needed. Next in rotation: shiva-tandav, Telugu.
+
+## 2026-11-01: new mantra added: om-jai-jagdish-hare-aarti
+- Text: eight stanzas compared across bhaktibharat.com and drikpanchang.com. Variants: stanza 5 reads "main moorakh phalkami, main sevak tum swami" on bhaktibharat.com and "main moorakh khal kami" on drikpanchang.com (site uses the bhaktibharat.com reading); "thakur tum mere" against "tum thakur mere"; binse and vinse; sampatti and sampati (site uses sampati). Drikpanchang adds a ninth stanza naming Shivananda Swami; it is not used and the page says authorship is traditionally given as Pt. Shardha Ram Phillauri (about 1870, per Wikipedia and bhaktibharat.com).
+- Odia and Telugu are converted from the Hindi by Unicode offset. Odia and Telugu meanings are hand written and need a human reader check.
+- YouTube: id 3ucCEjXS9n8, Om Jai Jagdish Hare Aarti, Anuradha Paudwal, channel T-Series Bhakti Sagar, oEmbed 200.
+- Registered in verseData.js, stotrams-index.js, stotram-extra.js, stotramSeo.js.
+
+## 2026-11-01: guides
+- New: jagannath-mahaprasad-ananda-bazar-puri-guide (sources: Wikipedia Mahaprasad (Jagannath Temple), ISKCON News 2007, Free Press Journal). Kitchen figures (32 rooms, 752 stoves, about 500 cooks) are attributed to the 2007 article, and the top-pot-cooks-first and Mahalakshmi claims are stated as beliefs. Wikipedia lists khai, nadia kora and gaja as dry items.
+- New: bahuda-yatra-suna-besha-niladri-bije-puri-guide (sources: Free Press Journal, Jawhar Sircar, OdishaBytes, Outlook India, Bhaktibharat). Sources differ on the Lakshmi offering: Free Press Journal says Rasagola, Sircar names no sweet. The guide says so. No festival dates are quoted.
+- Upgraded: night-prayer-routine (about 368 to 1,200 words). Added the sandhya explanation, Shubham Karoti text and meaning with spelling variants, Shantakaram meaning, ten-minute outline and more FAQs. Sources: Green Message, Bhaktibharat, Shlokam.org, Wikipedia Sandhyavandanam.
+- Cross-links: both new guides added to jagannath-ratha-yatra-puri-guide.

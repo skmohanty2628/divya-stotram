@@ -225,4 +225,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does it guarantee any result?', a: 'No. It is a prayer and a way to turn the mind toward truth and light. It does not guarantee any outcome.' },
     ],
   },
+  'om-jai-jagdish-hare-aarti': {
+    what: `Om Jai Jagdish Hare is the aarti sung at the close of puja in countless Hindu homes and temples, addressed to Vishnu as Jagdish, the Lord of the world. It is in simple Hindi and is traditionally credited to Pt. Shardha Ram Phillauri, who is said to have written it around 1870. Printed versions differ a little: some have eight stanzas and some add a ninth that names Shivananda Swami, and a few lines have regional wording. The text on this page follows the eight-stanza form found in common aarti collections. Each stanza ends with the refrain Om Jai Jagdish Hare, which the congregation sings together while the lamp is waved before the deity.`,
+    meaning: `The aarti addresses the Lord as parent, friend, protector and inner knower. The early stanzas speak of removing the troubles of devotees. The middle stanzas call him mother and father, the complete Supreme Soul, the inner guide and an ocean of compassion. The singer then admits to a dull mind and a wish for results, and asks to be taken into refuge. The last stanza asks for the removal of worldly faults, and for growth in faith, devotion and service to saints. Where a stanza speaks of rewards, it is a statement of hope in the song, not a promise.`,
+    benefits: [
+      'Easy words in Hindi that children and new learners pick up quickly',
+      'Sung together, so it brings a household or temple into one prayer',
+      'A traditional close to daily puja and to many festival worships',
+      'Short enough to sing in a few minutes with a lamp',
+      'Open to everyone, with no initiation needed',
+    ],
+    bestTime: `It is sung at the end of morning or evening puja while the aarti lamp is waved in a clockwise circle before the deity. It is also sung on Thursdays, which many families dedicate to Vishnu, and at festivals. There is no fixed number of repetitions.`,
+    faqs: [
+      { q: 'Who wrote Om Jai Jagdish Hare?', a: 'It is traditionally credited to Pt. Shardha Ram Phillauri, around 1870. Some prints add a stanza naming Shivananda Swami, so authorship in older books is sometimes given differently.' },
+      { q: 'Who is Jagdish?', a: 'Jagdish means Lord of the world, a name of Vishnu. The aarti calls him Hari.' },
+      { q: 'How many stanzas does it have?', a: 'This page gives eight, the form in common aarti collections. Some prints add a ninth.' },
+      { q: 'Why do some versions read differently?', a: 'Aartis passed on by singing pick up small differences in wording over time. In stanza five, one print reads khal kami where this page reads phalkami.' },
+      { q: 'When is it sung?', a: 'At the end of puja, morning or evening, and at festivals. It is not tied to one day.' },
+      { q: 'Does singing it guarantee a result?', a: 'No. It is a devotional song of hope and surrender and carries no guarantee.' },
+    ],
+  },
 };

@@ -7,6 +7,8 @@ import { SubscribeInline } from '@/components/SubscribeWidget';
 import { GUIDES, GUIDES_UPDATED, getGuideBySlug, guideReadMinutes } from '@/data/guides';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 import { SITE_URL, SITE_NAME } from '@/lib/site';
+import FestivalCountdown from '@/components/FestivalCountdown';
+import { FESTIVAL_DATES } from '@/data/festival-dates';
 
 const idFor = (text) =>
   text
@@ -93,7 +95,9 @@ export default function GuidePageView({ slug }) {
           </p>
         </header>
 
-        <nav aria-label="Contents" className="rounded-2xl border border-[#c9922a]/25 bg-[#fffaf1] p-5">
+        {FESTIVAL_DATES.some((f) => f.slug === guide.slug) && <FestivalCountdown slug={guide.slug} heading="Coming up" />}
+
+        <nav aria-label="Contents" className="mt-8 rounded-2xl border border-[#c9922a]/25 bg-[#fffaf1] p-5">
           <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#c9922a]">In this guide</p>
           <ol className="mt-3 grid gap-x-8 gap-y-1.5 sm:grid-cols-2">
             {guide.sections.map((s, i) => (

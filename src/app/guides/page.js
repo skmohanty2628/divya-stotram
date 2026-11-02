@@ -3,6 +3,9 @@ import SiteShell from '@/components/SiteShell';
 import JsonLd from '@/components/JsonLd';
 import { getGuideCategories, GUIDES, guideReadMinutes } from '@/data/guides';
 import { SITE_URL } from '@/lib/site';
+import PhotoCarousel from '@/components/PhotoCarousel';
+import FestivalCountdown from '@/components/FestivalCountdown';
+import { PHOTO_SETS } from '@/data/festival-photos';
 
 export const metadata = {
   title: 'Mantra and Prayer Guides: How to Chant, When and Why',
@@ -34,13 +37,16 @@ export default function GuidesHub() {
           </p>
         </header>
 
+        <FestivalCountdown />
+
         {categories.map((cat) => (
           <section key={cat.name} className="mt-12">
             <div className="mb-5 flex items-center gap-4">
               <h2 className="font-cinzel text-2xl font-bold text-[#8b1a00]">{cat.name}</h2>
               <div className="h-px flex-1 bg-gradient-to-r from-[#c9922a]/40 to-transparent" />
             </div>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {PHOTO_SETS[cat.name] && <PhotoCarousel {...PHOTO_SETS[cat.name]} />}
+            <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {cat.items.map((g) => (
                 <Link
                   key={g.slug}

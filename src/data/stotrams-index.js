@@ -553,6 +553,30 @@ export const STOTRAMS_INDEX = [
     language: 'Hindi',
     featured: false,
   },
+  {
+    slug: 'karagre-vasate-lakshmi',
+    title: {
+      en: 'Karagre Vasate Lakshmi (Kara Darshan Mantra)',
+      hi: 'कराग्रे वसते लक्ष्मीः (कर दर्शन मन्त्र)',
+      od: 'କରାଗ୍ରେ ବସତେ ଲକ୍ଷ୍ମୀଃ (କର ଦର୍ଶନ ମନ୍ତ୍ର)',
+      te: 'కరాగ్రే వసతే లక్ష్మీః (కర దర్శన మంత్రం)',
+    },
+    deity: 'Lakshmi',
+    deityEmoji: '🙏',
+    deityIcon: '',
+    description: {
+      en: 'Karagre Vasate Lakshmi, the morning verse said while looking at the palms, naming Lakshmi, Sarasvati and Govinda, with meaning in English, Hindi, Odia and Telugu and a video',
+      hi: 'कराग्रे वसते लक्ष्मीः, हथेलियों को देखते हुए प्रातः बोला जाने वाला श्लोक, लक्ष्मी, सरस्वती और गोविन्द के नाम सहित, अर्थ और वीडियो के साथ',
+      od: 'କରାଗ୍ରେ ବସତେ ଲକ୍ଷ୍ମୀଃ, ହାତକୁ ଦେଖି ପ୍ରଭାତରେ କହିବା ଶ୍ଲୋକ, ଲକ୍ଷ୍ମୀ, ସରସ୍ୱତୀ ଓ ଗୋବିନ୍ଦଙ୍କ ନାମ ସହ, ଅର୍ଥ ଓ ଭିଡିଓ ସହିତ',
+      te: 'కరాగ్రే వసతే లక్ష్మీః, అరచేతులను చూస్తూ ఉదయం చెప్పే శ్లోకం, లక్ష్మి, సరస్వతి, గోవిందుల పేర్లతో, అర్థం మరియు వీడియోతో',
+    },
+    color: 'from-orange-950 to-stone-900',
+    accent: '#f2b04a',
+    youtubeId: 'KGYGtddqVOo',
+    verseCount: 1,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

@@ -127,6 +127,11 @@ const SEO_COPY = {
     description:
       'Read Om Jai Jagdish Hare (ॐ जय जगदीश हरे), the Vishnu aarti, with all eight stanzas in Hindi, Odia, Telugu and English script, meaning in four languages, and a video to sing along.',
   },
+  'karagre-vasate-lakshmi': {
+    title: 'Karagre Vasate Lakshmi Mantra in English, Hindi, Odia & Telugu with Meaning',
+    description:
+      'Read Karagre Vasate Lakshmi (कराग्रे वसते लक्ष्मीः), the Kara Darshan morning verse, in English, Hindi, Odia and Telugu with meaning, when to say it, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

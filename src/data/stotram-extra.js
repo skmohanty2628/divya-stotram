@@ -245,4 +245,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does singing it guarantee a result?', a: 'No. It is a devotional song of hope and surrender and carries no guarantee.' },
     ],
   },
+  'karagre-vasate-lakshmi': {
+    what: `Karagre Vasate Lakshmi is a short Sanskrit verse said on waking, before getting out of bed, while looking at the open palms. It names three presences: Lakshmi at the fingertips, Sarasvati in the middle of the palm and Govinda, a name of Vishnu, at the base. It is also called the Kara Darshan mantra, from the words for looking at the hands. Sources print it with no author, so it is best described as a traditional verse. Many households teach it to children as one of the first morning prayers, and it is often followed by a verse asking the Earth for forgiveness for stepping on her.`,
+    meaning: `Karagre means at the tip of the hand, vasate means lives, and Lakshmi is the goddess of wealth. Karamadhye is in the middle of the hand, and Sarasvati is the goddess of learning. Karamule means at the base of the hand, tu is a connecting word, and Govinda is a name of Vishnu or Krishna. Prabhate means in the morning, and karadarshanam means looking at the hands. Shlokam.org notes that the fingertips suggest prosperity that comes through work, the middle of the palm suggests learning that is held and cherished, and the base suggests a spiritual foundation. Other teachers explain the three places in slightly different words.`,
+    benefits: [
+      'A one-line start to the morning that takes under a minute',
+      'Easy to memorise, so it suits children and beginners',
+      'Links the day\'s work (the hands) with learning and devotion',
+      'Needs no lamp, bath or ritual items, so it can be said in bed',
+      'Open to anyone, with no initiation needed',
+    ],
+    bestTime: `Say it as soon as you wake, before you leave the bed. Open both palms in front of you, look at them while you say the verse, and then touch them lightly to the face. There is no fixed count. It is often followed by the Bhumi Kshama verse before putting your feet on the floor.`,
+    faqs: [
+      { q: 'What does Karagre Vasate Lakshmi mean?', a: 'Lakshmi lives at the fingertips, Sarasvati in the middle of the palm and Govinda at the base, so look at your hands in the morning.' },
+      { q: 'Why look at the palms in the morning?', a: 'It is a traditional way to start the day with a thought of wealth earned by effort, learning and devotion, linked to the hands that do the day\'s work.' },
+      { q: 'Who wrote it?', a: 'No author is named in the sources checked. It is a traditional verse.' },
+      { q: 'Is it Saraswati or Sarasvati?', a: 'Both spellings are used. Some prints end the line with a short i and others with a long i.' },
+      { q: 'What do I say after it?', a: 'Many families follow it with the Bhumi Kshama verse, Samudravasane Devi, asking the Earth for forgiveness before stepping down.' },
+      { q: 'Does it guarantee wealth or success?', a: 'No. It is a morning prayer and a reminder, and it carries no guarantee of any result.' },
+    ],
+  },
 };

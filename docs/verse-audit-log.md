@@ -148,3 +148,19 @@ One line per audit. Rotation: every stotram in every language (Hindi/Devanagari,
 - New: bahuda-yatra-suna-besha-niladri-bije-puri-guide (sources: Free Press Journal, Jawhar Sircar, OdishaBytes, Outlook India, Bhaktibharat). Sources differ on the Lakshmi offering: Free Press Journal says Rasagola, Sircar names no sweet. The guide says so. No festival dates are quoted.
 - Upgraded: night-prayer-routine (about 368 to 1,200 words). Added the sandhya explanation, Shubham Karoti text and meaning with spelling variants, Shantakaram meaning, ten-minute outline and more FAQs. Sources: Green Message, Bhaktibharat, Shlokam.org, Wikipedia Sandhyavandanam.
 - Cross-links: both new guides added to jagannath-ratha-yatra-puri-guide.
+
+## 2026-11-02: audit: shiva-tandav, Telugu
+- Method: Telugu converted back to Devanagari by Unicode offset and compared with the site Hindi in all 15 verses. The only differences were the convention of a final anusvara in place of a final m with halant, which is valid. No broken Unicode, no stray halants or spaces before matras.
+- Then compared with the independent Telugu edition on vignanam.org (15 verses). Differences were the same regional variants logged for Odia on 2026-11-01: murdhani and murddhani (v2), bhala and phala (v7, v11), baddhakandharah and bandhukandharah (v8), avalambi and vilambi (v9), akharva and agarva (v10), the v12 last line and the v13 vilolalola and vimuktalola variant.
+- Result: no fixes needed. Next in rotation: shiva-tandav, English transliteration.
+
+## 2026-11-02: new mantra added: karagre-vasate-lakshmi
+- Text: Devanagari compared across shlokam.org and bhaktibharat.com (Pratah Smaran page). Same verse in both. Variant: shlokam.org ends the first line with sarasvati (short i), bhaktibharat.com with sarasvati (long i); the site uses the long form. bhaktibharat.com spaces karamule as two words. No author named in either source. A third source (greenmesg.org) showed a bot check and was not used.
+- Odia and Telugu are converted from the Hindi by Unicode offset. The four meanings are hand written and need a human reader check.
+- YouTube: id KGYGtddqVOo, "Karagray Vaste Laxmi Karamdhyay Saraswati with lyrics", channel Saregama Bhakti, oEmbed 200.
+- Registered in verseData.js, stotrams-index.js, stotram-extra.js, stotramSeo.js. Added to related.stotrams of morning-prayer-routine.
+
+## 2026-11-02: guides
+- New: rukuna-rath-yatra-ashokashtami-lingaraj-bhubaneswar-guide (sources: Bhubaneswar Smart City site, Incredible India, Wikipedia Rameshwar Deula, The Statesman). Sources differ on the deities: Chandrasekhar with Rukmini and Basudeva in two, Lingaraj with Parvati in Incredible India. The guide says so. The Rama legends are marked as tradition. No date is quoted.
+- New: samba-dashami-konark-chandrabhaga-pausha-odisha-guide (sources: Wikipedia Samba Dashami, OdishaBytes). The Samba legend is marked as tradition (Wikipedia tags it citation needed). No date is quoted.
+- Upgraded: best-mantra-for-study-focus (about 370 to 1,090 words). Added Khadi Chhuan, Sahana Vavatu, Kara Darshan, Hayagriva meaning, more FAQs and a note that a mantra does not replace study. Sources added: Vedadhara, Wikipedia Vidyarambha, Odisha Lifestyle, Shlokam.org.

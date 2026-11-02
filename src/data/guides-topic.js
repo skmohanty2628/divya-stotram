@@ -424,33 +424,52 @@ export const GUIDES_TOPIC = [
     category: 'Learning',
     title: 'Best Mantras for Study, Focus and Exams: Saraswati, Gayatri and Hayagriva',
     description:
-      'Mantras for students: Saraswati Vandana, Gayatri Mantra, Hayagriva and Ganesha, with a study routine, tips for exam days and how families can use them with children.',
+      'Mantras for students: Saraswati Vandana, Gayatri Mantra, Hayagriva, Ganesha, Sahana Vavatu and the morning Kara Darshan verse, with a study routine, exam-day tips, Khadi Chhuan in Odisha and how families can use them with children.',
     h1: 'Best Mantras for Study, Focus and Exams',
     intro:
-      'Indian tradition has long linked learning with devotion: children begin their schooling with a prayer to Saraswati, and exam season brings a flurry of temple visits. This guide shares the mantras students use and a practical routine that combines prayer with real study habits.',
+      'Indian tradition has long linked learning with devotion: children begin their schooling with a prayer to Saraswati, teachers and students begin a lesson together with a short verse, and exam season brings a flurry of temple visits. This guide shares the mantras students use, explains what each one means, and gives a practical routine that combines prayer with real study habits. A mantra can steady the mind before work, but it does not replace the work.',
     sections: [
       {
         h: 'Saraswati',
         p: [
-          `Saraswati, goddess of learning, is invoked with the Saraswati Vandana, Ya Kundendu Tusharahara Dhavala, and with the simple mantra Om Aim Saraswatyai Namah. Aim is her beej syllable. Students traditionally place their books before her on Vasant Panchami and recite the Vandana before opening them. In Odisha, children begin writing in a ritual called Khadi Chhuan on that day.`,
+          `Saraswati, goddess of learning, is invoked with the Saraswati Vandana, Ya Kundendu Tusharahara Dhavala, and with the simple mantra Om Aim Saraswatyai Namah. Aim is her beej syllable. Students traditionally place their books before her on Vasant Panchami and recite the Vandana before opening them. An Odisha lifestyle article describes homes, schools and colleges decorated for the day, with books, pens and other tools of study placed at the goddess\'s feet and students praying for success in their studies.`,
+          `The Saraswati Vandana is on this site with meaning in four languages, and our Vasant Panchami guide explains the festival.`,
+        ],
+      },
+      {
+        h: 'Khadi Chhuan: a child\'s first letters in Odisha',
+        p: [
+          `Wikipedia describes Vidyarambha, the ceremony that marks a child\'s start in formal learning, and says that in Odisha a similar ceremony is called Khadi Chuan and is held mainly on Ganesh Chaturthi and Vasant Panchami. In the wider tradition an adult guides the child\'s finger over the first letters, written on grains of rice or wheat in front of the deity. The details vary between families and regions, so ask the elders of your own household how they do it.`,
         ],
       },
       {
         h: 'Gayatri for the intellect',
         p: [
-          `The Gayatri Mantra literally asks for inspiration of the intellect, and generations of students have recited it before study. Three or eleven repetitions in the morning take less than five minutes.`,
+          `The Gayatri Mantra, from the Rigveda (3.62.10), asks the divine light of Savitr to inspire our understanding, and generations of students have recited it before study. Three or eleven repetitions in the morning take less than five minutes. Our word-by-word guide to the Gayatri shows what each word means, which helps a student say it with attention and not just by rote.`,
         ],
       },
       {
         h: 'Hayagriva and Ganesha',
         p: [
-          `Hayagriva, the horse-headed form of Vishnu, is the god of knowledge in the Vaishnava tradition. His verse, Jnananandamayam Devam Nirmala Sphatikakritim, Adharam Sarvavidyanam Hayagrivam Upasmahe, is popular with students in South India. Ganesha, remover of obstacles, is invoked before the exam itself with Om Gam Ganapataye Namah.`,
+          `Hayagriva, the horse-headed form of Vishnu, is the god of knowledge in the Vaishnava tradition. His verse, Jnananandamayam Devam Nirmala Sphatikakritim, Adharam Sarvavidyanam Hayagrivam Upasmahe, is popular with students in South India. Vedadhara\'s explanation gives its meaning as a salutation to Hayagriva, whose form is pure and crystal-like, who is knowledge and bliss, and who is the foundation of all branches of learning. That page does not name an author for the verse, and this guide does not either. Ganesha, remover of obstacles, is invoked before the exam itself with Om Gam Ganapataye Namah.`,
+        ],
+      },
+      {
+        h: 'Sahana Vavatu: a verse to say together',
+        p: [
+          `Not every study mantra is a request for marks. The Sahana Vavatu verse, from the Upanishads, is a prayer said by teacher and student together, asking to be protected together, to be nourished together, to work with energy and to study without hatred for one another. It suits a class, a study group or a parent sitting with a child, and it sets the tone for learning as a shared task. It is on this site with meaning.`,
+        ],
+      },
+      {
+        h: 'The morning palm verse',
+        p: [
+          `Karagre Vasate Lakshmi, said on waking while looking at the palms, names Sarasvati as living in the middle of the palm, with Lakshmi at the fingertips and Govinda at the base. Shlokam.org explains the middle of the palm as the place where we hold things, suggesting that we should hold learning close. It takes under a minute and needs no preparation, so it is a good verse to teach a child as a first morning habit.`,
         ],
       },
       {
         h: 'A study routine',
         p: [
-          `Before the first session of the day, wash your face, sit at your desk, and recite one mantra three times. Study in blocks of 25 to 45 minutes with short breaks. Keep your phone out of reach. On exam day, recite your mantra once at home, breathe slowly on the way, and avoid last-minute cramming that raises anxiety. The mantra supports focus; the preparation does the work.`,
+          `Before the first session of the day, wash your face, sit at your desk, and recite one mantra three times. Study in blocks of 25 to 45 minutes with short breaks. Keep your phone out of reach. On exam day, recite your mantra once at home, breathe slowly on the way, and avoid last-minute cramming that raises anxiety. The mantra supports focus; the preparation does the work. If a child has persistent difficulty concentrating or learning, speak to a teacher or a doctor, and treat prayer as an addition, not a replacement.`,
         ],
       },
       {
@@ -463,7 +482,7 @@ export const GUIDES_TOPIC = [
     faqs: [
       {
         q: 'Which mantra improves concentration?',
-        a: 'The Gayatri, Saraswati and Hayagriva mantras are traditional choices.',
+        a: 'The Gayatri, Saraswati and Hayagriva mantras are traditional choices. None is a guarantee of results, and regular study habits matter most.',
       },
       {
         q: 'Which mantra for exams?',
@@ -475,16 +494,32 @@ export const GUIDES_TOPIC = [
       },
       {
         q: 'When is Saraswati Puja?',
-        a: 'On Vasant Panchami in the month of Magha, usually in late January or February.',
+        a: 'On Vasant Panchami, the fifth day of the bright half of Magha, which usually falls in late January or February. The date is fixed by the lunar calendar and changes each year.',
+      },
+      {
+        q: 'What is Khadi Chhuan?',
+        a: 'The Odia ceremony in which a child writes the first letters. Wikipedia says it is held mainly on Ganesh Chaturthi and Vasant Panchami.',
+      },
+      {
+        q: 'What can a whole class say together?',
+        a: 'The Sahana Vavatu verse, an Upanishadic prayer for teacher and student to learn together without ill will.',
+      },
+      {
+        q: 'Can a mantra replace studying?',
+        a: 'No. It can calm the mind before work. Marks come from preparation.',
       },
     ],
     related: {
-      stotrams: ['saraswati-vandana', 'gayatri-mantra', 'ganesh-aarti'],
-      guides: ['how-to-chant-gayatri-mantra', 'best-mantra-for-confidence'],
+      stotrams: ['saraswati-vandana', 'gayatri-mantra', 'ganesh-aarti', 'sahana-vavatu-mantra', 'karagre-vasate-lakshmi'],
+      guides: ['how-to-chant-gayatri-mantra', 'best-mantra-for-confidence', 'vasant-panchami-saraswati-puja-guide', 'gayatri-mantra-word-by-word-meaning'],
     },
     sources: [
       'Traditional Saraswati Stotra',
       'Rigveda 3.62.10',
+      'Vedadhara, Jnananandamayam Devam meaning',
+      'Wikipedia, article on Vidyarambha',
+      'Odisha Lifestyle, Saraswati Puja in Odisha',
+      'Shlokam.org, Karaagre Vasathe',
     ],
   },
 

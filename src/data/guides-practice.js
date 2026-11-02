@@ -206,7 +206,7 @@ export const GUIDES_PRACTICE = [
       },
     ],
     related: {
-      stotrams: ['gayatri-mantra', 'ganesh-aarti', 'aditya-hridayam'],
+      stotrams: ['gayatri-mantra', 'ganesh-aarti', 'aditya-hridayam', 'karagre-vasate-lakshmi'],
       guides: ['spiritual-routine-for-beginners', 'how-to-chant-gayatri-mantra'],
     },
     sources: [

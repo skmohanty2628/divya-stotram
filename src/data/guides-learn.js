@@ -3488,4 +3488,140 @@ export const GUIDES_LEARN = [
       'Bhaktibharat, 10 lesser-known facts about Puri Rath Yatra',
     ],
   },
+  {
+    slug: 'rukuna-rath-yatra-ashokashtami-lingaraj-bhubaneswar-guide',
+    category: 'Odisha festivals',
+    title: 'Rukuna Rath Yatra: Ashokashtami and Lord Lingaraj\'s Chariot Journey in Bhubaneswar',
+    description:
+      'A guide to the Rukuna Rath Yatra of Bhubaneswar: Ashokashtami, the chariot of Lord Lingaraj to the Rameswara (Mausi Maa) temple, the four-day stay, the return, the name Analeuta and how sources differ on the deities.',
+    h1: 'Rukuna Rath Yatra and Ashokashtami in Bhubaneswar',
+    intro:
+      'Most people think of Puri when they hear the words Ratha Yatra, but Bhubaneswar has its own chariot festival, held every spring in honour of Lord Lingaraj. It is called the Rukuna Rath Yatra and it falls on Ashokashtami. This guide explains what happens, where the chariot goes, how long the deities stay away, and the points on which the published accounts do not agree.',
+    sections: [
+      {
+        h: 'What Ashokashtami is',
+        p: [
+          `Ashokashtami, also written Asokastami, is the eighth day of the bright fortnight of the month of Chaitra. The Bhubaneswar tourism site says that it falls on the day before Ram Navami, and Wikipedia says the same in its article on the Rameshwar Deula. Because it is fixed by the lunar day and not by a date on the calendar, the Gregorian date changes from year to year, and you should check the temple announcement or a panchang each year. Incredible India describes it as one of the major festivals of Bhubaneswar, the city known as Ekamra Kshetra.`,
+          `The festival centres on the Lingaraj Temple, a large Kalinga-style temple to Shiva. Incredible India calls the deity the king of lingams. The temple itself was completed in the eleventh century according to an article carried by The Statesman, which credits it to the Somavamsi kings.`,
+        ],
+      },
+      {
+        h: 'The chariot and the journey',
+        p: [
+          `On Ashokashtami the festival image of Lingaraj is taken out of the temple in a large chariot, the Rukuna Rath, and carried to the Rameswara temple. Thousands of devotees pull the chariot through the streets of the old town. Wikipedia puts the Rameshwar Deula about two kilometres from the Lingaraj shrine and describes it as the Mausi Maa temple of Lingaraj, meaning the temple of his maternal aunt. It gives the age of the temple as the ninth century.`,
+          `The Statesman article, written by an unnamed Bhubaneswar journalist, says the chariot is slow and hard to steer because its wheels and axles are carved from a single piece, and that the journey takes several hours with frequent halts. Treat that as the article\'s description. The Bhubaneswar tourism site gives a second name for the festival, Analeuta Rath Jatra, and explains it as a reference to the chariot never making a U-turn on its way.`,
+        ],
+      },
+      {
+        h: 'Who rides in the chariot',
+        p: [
+          `The accounts do not agree on this point. The Bhubaneswar tourism site and The Statesman both say the chariot carries Chandrasekhar, the festival form of Lingaraj, together with Rukmini and Basudeva. Incredible India instead says the idols are Lingaraj with Parvati and their family. This guide does not choose one version. If you plan to attend, ask the temple servitors in Old Town, who can tell you which images are taken out and how the arrangement is explained locally.`,
+        ],
+      },
+      {
+        h: 'The stay at the aunt\'s temple and the return',
+        p: [
+          `The Bhubaneswar tourism site says the deities stay at the Mausi Maa temple for four days and return on the fifth day in a Bahuda Yatra, a return journey. Wikipedia likewise says the visit lasts four days. The Statesman article says only that the deities are welcomed with special offerings, entertained for a few days and then taken back with music, dance and fireworks. This follows the same shape as the Puri festival, in which Jagannath goes to the Gundicha Temple and returns, and our guides to the Puri Ratha Yatra and Bahuda Yatra explain that pattern.`,
+        ],
+      },
+      {
+        h: 'Legends attached to the festival',
+        p: [
+          `Incredible India links Ashokashtami with Lord Rama, who is said to have sought the blessings of Shakti and Shiva at Lingaraj during his war against Ravana and to have led the first chariot procession to mark his victory. Wikipedia says that, according to a legend, Rama made a linga at the Rameshwar temple on his way back from Lanka at Sita\'s request, and it marks the claim as lacking a citation. These are traditional stories and not documented history.`,
+          `The Statesman article tells a different story: that Parvati was upset when Shiva left her behind, and that he promised her evening boat rides on Bindusagar during the Chandan Yatra. The article names this as a legend. It also says that some scholars think the Rukuna festival is older than the present form of the Puri Ratha Yatra, a claim that this guide reports and cannot confirm.`,
+        ],
+      },
+      {
+        h: 'Visiting and following it',
+        p: [
+          `Old Bhubaneswar gets very crowded on the day. Carry water, since the festival falls in the warm spring months, and plan to watch from the street, where the chariot is pulled. If you cannot go, you can follow the festival through local news and learn a Shiva prayer at home, such as the Shiva Panchakshara Stotram or the Shiv Chalisa.`,
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'What is Ashokashtami?', a: 'The eighth day of the bright fortnight of Chaitra, the day before Ram Navami. It is the day of the Rukuna Rath Yatra in Bhubaneswar.' },
+      { q: 'Where does the chariot go?', a: 'From the Lingaraj Temple to the Rameswara temple, called the Mausi Maa temple, about two kilometres away.' },
+      { q: 'How long do the deities stay?', a: 'Four days according to the Bhubaneswar tourism site and Wikipedia. They return on the fifth day.' },
+      { q: 'Why is it called Analeuta Rath Jatra?', a: 'The Bhubaneswar tourism site says it is because the chariot never makes a U-turn on its way.' },
+      { q: 'Who rides in the chariot?', a: 'Sources differ: Chandrasekhar with Rukmini and Basudeva in two accounts, and Lingaraj with Parvati in another.' },
+      { q: 'How is the date fixed?', a: 'By the lunar day, the eighth of the bright half of Chaitra, so the calendar date changes each year.' },
+    ],
+    related: {
+      stotrams: ['shiva-panchakshara-stotram', 'shiv-chalisa', 'maha-mrityunjaya-mantra', 'shiva-tandav'],
+      guides: ['maha-shivaratri-guide', 'rama-navami-guide', 'chandan-yatra-puri-guide', 'bahuda-yatra-suna-besha-niladri-bije-puri-guide', 'jagannath-ratha-yatra-puri-guide'],
+    },
+    sources: [
+      'Bhubaneswar Smart City tourism site, Rukuna Rath Jatra',
+      'Incredible India, Asokastami',
+      'Wikipedia, article on Rameshwar Deula',
+      'The Statesman, The 1000 year-old Rakuna Rath Yatra',
+    ],
+  },
+  {
+    slug: 'samba-dashami-konark-chandrabhaga-pausha-odisha-guide',
+    category: 'Odisha festivals',
+    title: 'Samba Dashami: The Surya Festival of Pausha Shukla Dashami in Odisha',
+    description:
+      'A guide to Samba Dashami in Odisha: the Samba legend, the morning offering to Surya, the pithas, the noon turmeric-water ritual, the Chandrabhaga gathering near Konark and how the date is fixed.',
+    h1: 'Samba Dashami: Surya Worship and the Legend of Samba in Odisha',
+    intro:
+      'Samba Dashami is a festival of the Sun that is observed mainly in Odisha. Families make a special meal for Surya at sunrise, mothers pray for their children, and thousands gather at Chandrabhaga near the Konark Sun Temple. This guide describes the rituals and the story behind them, and it says which parts rest on tradition rather than on documents.',
+    sections: [
+      {
+        h: 'When it is observed',
+        p: [
+          `Samba Dashami falls on the tenth day of the bright fortnight of Pausha in the Odia calendar, in the winter months. Wikipedia describes it as a festival unique to Odisha, strongest in the eastern part of the state. Because the day is set by the lunar calendar, the Gregorian date changes every year. Wikipedia gives different dates for different years in its infobox, which shows how the date moves, so check an Odia calendar or the temple announcement for the current year.`,
+        ],
+      },
+      {
+        h: 'The legend of Samba',
+        p: [
+          `The festival takes its name from Samba, a son of Krishna. An OdishaBytes report says that Samba was afflicted with leprosy after he mocked the sage Narada, and that on the advice of a sage he worshipped Surya for twelve years at Mitravana, on the bank of the Chandrabhaga near present-day Konark, and was cured after a holy dip on this day. Wikipedia tells a shorter version, with the cure after twelve years of penance near Konark, and adds a note that the claim lacks a citation.`,
+          `This guide treats the story as a tradition that explains the festival. It is not a medical claim, and the festival should not be read as a promise that prayer cures illness.`,
+        ],
+      },
+      {
+        h: 'The morning offering',
+        p: [
+          `Wikipedia says the women of the family wake before sunrise, bathe and cook a meal for Surya. The dishes it names are khichdi, Odia puri and ghadghadia tarkari. The food is offered to the Sun at sunrise, with a separate portion for each member of the family, and in particular for the children.`,
+          `After the offering the family makes pithas and sweets. Wikipedia lists manda pitha, kakara pitha and chhenaguda, and OdishaBytes names manda, kakara and poda pitha among the dishes that married women prepared. The cooked food is then eaten as prasad.`,
+        ],
+      },
+      {
+        h: 'Noon and evening rituals',
+        p: [
+          `Wikipedia describes a noon ritual in which a bowl of turmeric water with a betel leaf is taken to the chaunra mula, a small shrine with a tulsi plant. The women look at the Sun through the bowl, offer the food, read the Samba Dasami Brata Katha, the story of the vow, and pray for their families. In the evening it describes the Mahakala puja, in which budha chakuli is offered to Yama.`,
+          `Details of these rites vary between households and districts. If you want to follow them, ask an older woman in the family, who will know the local custom.`,
+        ],
+      },
+      {
+        h: 'Chandrabhaga near Konark',
+        p: [
+          `OdishaBytes reports that thousands gather at Chandrabhaga, near the Konark Sun Temple in Puri district, and that many come early to watch the sunrise over the Bay of Bengal. It says pilgrims pray for health and protection, especially for children, and that devotees pull a chariot carrying idols from the Ananta Abadhuta Mutt to the beach, singing devotional songs. The same report notes that the administration made security arrangements for the crowds.`,
+        ],
+      },
+      {
+        h: 'A Sun prayer at home',
+        p: [
+          `If you cannot travel, you can offer water to the rising Sun and say a verse. The Gayatri mantra is addressed to the Sun as Savitr, and the Aditya Hridayam is a longer hymn to the Sun that is recited in the Ramayana tradition. Both are on this site with meaning, and our Makar Sankranti guide explains another winter Sun festival of Odisha.`,
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'What is Samba Dashami?', a: 'A festival of Surya observed in Odisha on the tenth day of the bright fortnight of Pausha.' },
+      { q: 'Who was Samba?', a: 'A son of Krishna. In the tradition he was cured of leprosy by Surya after twelve years of worship near Konark. The story is a tradition and not a documented fact.' },
+      { q: 'What is offered to Surya?', a: 'Khichdi, Odia puri and ghadghadia tarkari, with a separate portion for each family member, followed by pithas.' },
+      { q: 'What is the turmeric water ritual?', a: 'At noon women look at the Sun through a bowl of turmeric water with betel, kept at the tulsi shrine, as described on Wikipedia.' },
+      { q: 'Where do people gather?', a: 'At Chandrabhaga near the Konark Sun Temple, where thousands come at sunrise.' },
+      { q: 'How is the date fixed?', a: 'By the lunar day, so the Gregorian date changes each year.' },
+    ],
+    related: {
+      stotrams: ['gayatri-mantra', 'aditya-hridayam', 'navagraha-stotram'],
+      guides: ['makar-sankranti-odisha-guide', 'maha-bishuba-pana-sankranti-odisha-guide', 'power-of-gayatri-mantra', 'gayatri-mantra-word-by-word-meaning'],
+    },
+    sources: [
+      'Wikipedia, article on Samba Dashami',
+      'OdishaBytes, Thousands gather at Odisha\'s Chandrabhaga to celebrate Sun God\'s miraculous cure legend',
+    ],
+  },
 ];

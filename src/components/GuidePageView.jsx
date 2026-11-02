@@ -9,6 +9,8 @@ import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 import { SITE_URL, SITE_NAME } from '@/lib/site';
 import FestivalCountdown from '@/components/FestivalCountdown';
 import { FESTIVAL_DATES } from '@/data/festival-dates';
+import PhotoCarousel from '@/components/PhotoCarousel';
+import { GUIDE_PHOTOS } from '@/data/guide-photos';
 
 const idFor = (text) =>
   text
@@ -96,6 +98,10 @@ export default function GuidePageView({ slug }) {
         </header>
 
         {FESTIVAL_DATES.some((f) => f.slug === guide.slug) && <FestivalCountdown slug={guide.slug} heading="Coming up" />}
+
+        {(GUIDE_PHOTOS[guide.slug] || []).length >= 3 && (
+          <PhotoCarousel eyebrow="Photo gallery" title={`${guide.h1.split(':')[0]} in pictures`} items={GUIDE_PHOTOS[guide.slug]} />
+        )}
 
         <nav aria-label="Contents" className="mt-8 rounded-2xl border border-[#c9922a]/25 bg-[#fffaf1] p-5">
           <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#c9922a]">In this guide</p>

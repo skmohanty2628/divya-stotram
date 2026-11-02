@@ -1,3 +1,5 @@
+import { GUIDE_PHOTOS, HUB_SOURCES } from '@/data/guide-photos';
+
 // Photos are hosted by Wikimedia Commons under free licences and credited on every slide.
 // `file` is the exact Commons file name.
 const P = (file, alt, caption, credit, license) => ({ file, alt, caption, credit, license });
@@ -60,3 +62,24 @@ export const PHOTO_SETS = {
     ],
   },
 };
+
+// Extend each hub gallery with 4K-or-larger photos taken from the guides in that category (round robin, no repeats).
+for (const [cat, slugs] of Object.entries(HUB_SOURCES)) {
+  const set = PHOTO_SETS[cat];
+  if (!set) continue;
+  const seen = new Set(set.items.map((i) => i.file));
+  const pools = slugs.map((sl) => (GUIDE_PHOTOS[sl] || []).filter((p) => p.w >= 3840));
+  const target = 50;
+  let progressed = true;
+  for (let round = 0; set.items.length < target && progressed; round++) {
+    progressed = false;
+    for (const pool of pools) {
+      const p = pool[round];
+      if (p && !seen.has(p.file) && set.items.length < target) {
+        seen.add(p.file);
+        set.items.push({ file: p.file, alt: p.alt, caption: p.caption, credit: p.credit, license: p.license });
+      }
+      if (p) progressed = true;
+    }
+  }
+}

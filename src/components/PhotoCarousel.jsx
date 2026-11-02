@@ -5,6 +5,19 @@ import { commonsUrl, commonsPage } from '@/data/festival-photos';
 
 const INTERVAL = 10000;
 
+// Commons can briefly refuse a request when many thumbnails load at once, so retry a failed image a couple of times.
+function retry(e) {
+  const img = e.currentTarget;
+  const n = Number(img.dataset.retry || 0);
+  if (n >= 2) return;
+  img.dataset.retry = String(n + 1);
+  const base = img.dataset.base || img.src.replace(/[&?]r=\d+$/, '');
+  img.dataset.base = base;
+  setTimeout(() => {
+    img.src = `${base}${base.includes('?') ? '&' : '?'}r=${n + 1}`;
+  }, 1200 * (n + 1));
+}
+
 export default function PhotoCarousel({ eyebrow, title, items }) {
   const [i, setI] = useState(0);
   const [paused, setPaused] = useState(false);
@@ -105,6 +118,7 @@ export default function PhotoCarousel({ eyebrow, title, items }) {
                 alt=""
                 loading="lazy"
                 decoding="async"
+                onError={retry}
                 className="h-full w-full object-cover"
               />
             </button>
@@ -115,10 +129,11 @@ export default function PhotoCarousel({ eyebrow, title, items }) {
           <img
             key={cur.file}
             src={commonsUrl(cur.file, 2000)}
-            srcSet={`${commonsUrl(cur.file, 1200)} 1200w, ${commonsUrl(cur.file, 2000)} 2000w`}
+            srcSet={`${commonsUrl(cur.file, 1200)} 1200w, ${commonsUrl(cur.file, 2000)} 2000w, ${commonsUrl(cur.file, 3200)} 3200w`}
             sizes="(min-width: 1024px) 800px, 100vw"
             alt={cur.alt}
             decoding="async"
+            onError={retry}
             className="absolute inset-0 h-full w-full animate-[pcFade_0.6s_ease] object-cover"
           />
           <link rel="preload" as="image" href={commonsUrl(next.file, 2000)} />

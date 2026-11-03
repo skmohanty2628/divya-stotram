@@ -135,8 +135,8 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['shiva-tandav', 'shiv-chalisa', 'shiva-panchakshara-stotram'],
-      guides: ['how-to-chant-shiva-mantra', 'shiva-tandav-benefits'],
+      stotrams: ['shiva-tandav', 'shiv-chalisa', 'shiva-panchakshara-stotram', 'lingashtakam'],
+      guides: ['how-to-chant-shiva-mantra', 'shiva-tandav-benefits', 'maha-shivaratri-lingaraj-mahadeepa-bhubaneswar-guide'],
     },
     sources: [
       'Kane, P.V., History of Dharmasastra, Vol. V (Shivaratri vrata)',
@@ -1648,7 +1648,7 @@ export const GUIDES_LEARN = [
     ],
     related: {
       stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra'],
-      guides: ['kartika-month-odisha-guide', 'krishna-janmashtami-guide', 'snana-yatra-snana-purnima-puri-guide', 'bahuda-yatra-suna-besha-niladri-bije-puri-guide', 'jagannath-mahaprasad-ananda-bazar-puri-guide'],
+      guides: ['kartika-month-odisha-guide', 'krishna-janmashtami-guide', 'snana-yatra-snana-purnima-puri-guide', 'bahuda-yatra-suna-besha-niladri-bije-puri-guide', 'jagannath-mahaprasad-ananda-bazar-puri-guide', 'hera-panchami-lakshmi-gundicha-puri-guide'],
     },
     sources: [
       'Incredible India (Ministry of Tourism, Government of India), Rath Yatra festival page',
@@ -3478,7 +3478,7 @@ export const GUIDES_LEARN = [
     ],
     related: {
       stotrams: ['om-jai-jagdish-hare-aarti', 'vishnu-sahasranamam'],
-      guides: ['jagannath-ratha-yatra-puri-guide', 'snana-yatra-snana-purnima-puri-guide', 'jagannath-mahaprasad-ananda-bazar-puri-guide', 'maha-bishuba-pana-sankranti-odisha-guide'],
+      guides: ['jagannath-ratha-yatra-puri-guide', 'snana-yatra-snana-purnima-puri-guide', 'jagannath-mahaprasad-ananda-bazar-puri-guide', 'maha-bishuba-pana-sankranti-odisha-guide', 'hera-panchami-lakshmi-gundicha-puri-guide'],
     },
     sources: [
       'Free Press Journal, What Is Bahuda Yatra? Know About The Return Journey Of Lord Jagannatha',
@@ -3547,8 +3547,8 @@ export const GUIDES_LEARN = [
       { q: 'How is the date fixed?', a: 'By the lunar day, the eighth of the bright half of Chaitra, so the calendar date changes each year.' },
     ],
     related: {
-      stotrams: ['shiva-panchakshara-stotram', 'shiv-chalisa', 'maha-mrityunjaya-mantra', 'shiva-tandav'],
-      guides: ['maha-shivaratri-guide', 'rama-navami-guide', 'chandan-yatra-puri-guide', 'bahuda-yatra-suna-besha-niladri-bije-puri-guide', 'jagannath-ratha-yatra-puri-guide'],
+      stotrams: ['shiva-panchakshara-stotram', 'shiv-chalisa', 'maha-mrityunjaya-mantra', 'shiva-tandav', 'lingashtakam'],
+      guides: ['maha-shivaratri-guide', 'rama-navami-guide', 'chandan-yatra-puri-guide', 'bahuda-yatra-suna-besha-niladri-bije-puri-guide', 'jagannath-ratha-yatra-puri-guide', 'maha-shivaratri-lingaraj-mahadeepa-bhubaneswar-guide'],
     },
     sources: [
       'Bhubaneswar Smart City tourism site, Rukuna Rath Jatra',
@@ -3622,6 +3622,184 @@ export const GUIDES_LEARN = [
     sources: [
       'Wikipedia, article on Samba Dashami',
       'OdishaBytes, Thousands gather at Odisha\'s Chandrabhaga to celebrate Sun God\'s miraculous cure legend',
+    ],
+  },
+  {
+    slug: 'hera-panchami-lakshmi-gundicha-puri-guide',
+    category: 'Odisha festivals',
+    title: 'Hera Panchami: Why Goddess Lakshmi Visits the Gundicha Temple During Ratha Yatra',
+    description:
+      'A guide to Hera Panchami in Puri: why Mahalakshmi is said to be angry, her palanquin procession to the Gundicha Temple, the symbolic damage to the Nandighosa chariot, her return through Hera Gohiri Sahi and how the day is fixed.',
+    h1: 'Hera Panchami: Mahalakshmi\'s Visit to the Gundicha Temple',
+    intro:
+      `Hera Panchami is a day in the middle of the Ratha Yatra at Puri when Goddess Mahalakshmi leaves the Jagannath Temple in a palanquin and goes to the Gundicha Temple, where her husband is staying with his brother and sister. The ritual is part drama and part devotion, and large crowds watch it along the Grand Road. This guide describes what the reports say happens, shows where the sources differ and explains how devotees understand it.`,
+    sections: [
+      {
+        h: 'When it is observed',
+        p: [
+          `Wikipedia places Hera Panchami on the fifth day of the bright fortnight of Ashadha, and the All India Radio report calls it the fifth day of the Ratha Yatra. The two ways of counting do not match exactly, because the chariots roll earlier in the same fortnight, so the tithi name Panchami is the safest guide. Wikipedia links the name to the words for seeing and for the fifth day, and one news report explains hera as to see or to visit. The date follows the lunar calendar, so the Gregorian date changes every year. Check the announcements from the Jagannath Temple administration or a local panchang for the year you plan to be in Puri.`,
+        ],
+      },
+      {
+        h: 'The story behind the ritual',
+        p: [
+          `When Jagannath, Balabhadra and Subhadra leave the Jagannath Temple on their chariots for the Gundicha Temple, Mahalakshmi stays behind in the main temple. Wikipedia and the Free Press Journal both tell the story as one of hurt feelings. The Lord has gone away without his wife, the days pass without his return, and she decides to go and ask why.`,
+          `Reports describe the Gundicha Temple in two ways. The Free Press Journal calls it the home of the Lord's aunt, and ThePrint says it is regarded as the birthplace of the deities. Both ideas are part of the Ratha Yatra tradition, and our Ratha Yatra guide tells the wider story.`,
+        ],
+      },
+      {
+        h: 'The procession to Gundicha',
+        p: [
+          `Mahalakshmi is carried in a decorated palanquin from the Jagannath Temple along the Grand Road. All India Radio says the temple servitors carry her, and ThePrint puts the distance at about 2.6 kilometres. Wikipedia says she travels in her golden form, which refers to the golden image used in the ritual. According to All India Radio, her procession halts beside the Nandighosa chariot, where she is welcomed and given a garland of consent. Wikipedia describes the same garland, which it calls an agyan mala, offered to appease her.`,
+        ],
+      },
+      {
+        h: 'At the door of the Gundicha Temple',
+        p: [
+          `The reports differ here. Wikipedia and All India Radio say the main door of the Gundicha Temple is shut against her, so she cannot go in and feels slighted. ThePrint says she enters the temple but cannot meet Jagannath, who is said to be with his childhood companions. All of them agree on the mood. She has come to protest, and the visit does not end in a reunion.`,
+        ],
+      },
+      {
+        h: 'The damaged chariot',
+        p: [
+          `Before she leaves, part of Jagannath's chariot, Nandighosa, is damaged as a sign of her displeasure. Wikipedia says she orders an attendant to break it, and All India Radio says she tells her servitors to do so. The Free Press Journal and ThePrint both describe the damage as symbolic. It is a token gesture inside a ritual, not a loss of the chariot.`,
+        ],
+      },
+      {
+        h: 'The secret return through Hera Gohiri Sahi',
+        p: [
+          `Mahalakshmi then goes back to the Jagannath Temple without a procession. Wikipedia and All India Radio name her route as Hera Gohiri Sahi, a lane in Puri. Wikipedia adds that she waits behind a tamarind tree outside the Gundicha Temple before slipping away by this path. ThePrint says only that she returns by a different route and does not name it.`,
+        ],
+      },
+      {
+        h: 'What the ritual means',
+        p: [
+          `Devotees read Hera Panchami as a picture of love between the Lord and his consort. The Free Press Journal connects it with madhurya rasa, the sweet mood of divine love and longing. ThePrint quotes the researcher Bhaskar Mishra, who describes it as an expression of her anger and also of divine love, longing and playful marital quarrel.`,
+          `It is a ritual drama with a devotional meaning. It should not be read as saying that the deities are literally angry, and nothing in these reports ties the day to a promise of results.`,
+        ],
+      },
+      {
+        h: 'Where the ritual comes from',
+        p: [
+          `Wikipedia says Hera Panchami is mentioned in the Skanda Purana. It adds that, according to temple history, the ritual was once performed symbolically through the recitation of mantras, and that under King Kapilendra Deb it became the fuller enactment with a golden image of Mahalakshmi, citing the temple chronicle Madala Panji. This account comes from one source in the reading for this guide, so treat the historical detail as reported tradition.`,
+        ],
+      },
+      {
+        h: 'From Hera Panchami to the return journey',
+        p: [
+          `All India Radio says the day also marks the start of the Bahuda Yatra, the return journey, when the chariots are turned towards the south in a step called Dakhina Moda. ThePrint likewise says the ritual begins the preparations for the return, with the three chariots turned to face the way back. Our guide to Bahuda Yatra, Suna Besha and Niladri Bije follows the story from there.`,
+        ],
+      },
+      {
+        h: 'Remembering Lakshmi at home',
+        p: [
+          `Odisha has its own Lakshmi traditions, such as the Thursday worship described in our Manabasa Gurubara guide. If you would like a verse for the day, the Mahalakshmi Ashtakam is on this site with meaning in four languages. A prayer is a devotional act and carries no guaranteed result.`,
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'What is Hera Panchami?', a: 'A ritual during the Puri Ratha Yatra in which Goddess Mahalakshmi is carried to the Gundicha Temple to show her displeasure that Lord Jagannath left without her.' },
+      { q: 'Why is Lakshmi said to be angry?', a: 'In the story the Lord goes to the Gundicha Temple for the Yatra without taking her, and the days pass without his return.' },
+      { q: 'What does she damage?', a: 'A part of the Nandighosa chariot, as a symbolic sign of her displeasure.' },
+      { q: 'What is Hera Gohiri Sahi?', a: 'A lane in Puri that two sources name as the route by which she returns to the Jagannath Temple.' },
+      { q: 'Do the sources agree on every detail?', a: 'No. They differ on whether she enters the Gundicha Temple and on how the days are counted. This guide says where they differ.' },
+      { q: 'How is the date fixed?', a: 'By the lunar day, the fifth day of the bright fortnight of Ashadha, so the Gregorian date changes each year.' },
+      { q: 'Is the ritual found in a scripture?', a: 'Wikipedia says it is mentioned in the Skanda Purana and that its present form is linked to King Kapilendra Deb, citing the Madala Panji.' },
+    ],
+    related: {
+      stotrams: ['mahalakshmi-ashtakam'],
+      guides: ['jagannath-ratha-yatra-puri-guide', 'bahuda-yatra-suna-besha-niladri-bije-puri-guide', 'manabasa-gurubara-odisha-guide', 'jagannath-mahaprasad-ananda-bazar-puri-guide'],
+    },
+    sources: [
+      'Wikipedia, article on Ratha Yatra (Puri)',
+      'All India Radio (newsonair.gov.in), Hera Panchami ritual observed during Puri Rath Yatra',
+      'Free Press Journal, What is Hera Panchami? The story behind Goddess Lakshmi\'s anger at Lord Jagannath',
+      'ThePrint, Thousands witness Hera Panchami ritual in Odisha\'s Puri as Rath Yatra festivities continue',
+    ],
+  },
+  {
+    slug: 'maha-shivaratri-lingaraj-mahadeepa-bhubaneswar-guide',
+    category: 'Odisha festivals',
+    title: 'Maha Shivaratri at Lingaraj Temple, Bhubaneswar: The Fast, the Night Vigil and the Mahadeepa',
+    description:
+      'A guide to Maha Shivaratri at the Lingaraj Temple in Bhubaneswar: the day-long fast, bel leaves, the morning and evening rituals, the Mahadeepa raised at night, the crowds and what visitors should know.',
+    h1: 'Maha Shivaratri at Lingaraj Temple: Fast, Vigil and the Mahadeepa',
+    intro:
+      `Maha Shivaratri is the biggest day of the year at the Lingaraj Temple in Bhubaneswar. Devotees fast through the day, queue for darshan, offer bel leaves and stay awake through the night, and the fast ends only after a great lamp called the Mahadeepa is raised to the top of the temple. This guide follows the day as Wikipedia and news reports describe it, and it says what those sources leave unclear.`,
+    sections: [
+      {
+        h: 'The temple in brief',
+        p: [
+          `Wikipedia dates the Lingaraj Temple to the 11th century CE, and an OdishaBytes report also calls it an 11th-century temple. The main deity, Lingaraja, is worshipped as Shiva. Wikipedia notes that the temple is still in active worship, unlike most of the old temples of Bhubaneswar, and that it holds images of Vishnu too, possibly because of the rising prominence of the Jagannath tradition under the Ganga rulers.`,
+          `The compound is not open to non-Hindus. Wikipedia mentions a viewing platform beside the wall that gives a good view of the outside of the temple.`,
+        ],
+      },
+      {
+        h: 'Why Shivaratri is the main festival here',
+        p: [
+          `Wikipedia calls Shivaratri the major festival of the temple and gives a figure of 200,000 visitors for the year 2012. It says the festival is held in the month of Phalguna, that devotees fast for a full day and offer bel leaves to Lingaraja, and that the main celebrations take place at night, when people pray all night long. It adds that the fast is usually broken after the Mahadeepa is lit on the spire.`,
+          `The day follows the lunar calendar, so its Gregorian date changes each year. Our Maha Shivaratri guide explains how the day is fixed.`,
+        ],
+      },
+      {
+        h: 'The morning rituals',
+        p: [
+          `According to an OdishaBytes report, the early rituals start before dawn with Mangala Alati and Abakash. The temple then opens for Sahanamela darshan, when devotees can see the deity, and this runs into the late morning. Mahasnana, the ritual bath, and Besa, the dressing of the deity, follow around midday.`,
+          `The Orissa Post adds that thousands of devotees gather from early morning, that the doors open at dawn during the aarti, and that some Shiva temples in the area keep separate queues for men and women.`,
+        ],
+      },
+      {
+        h: 'Through the afternoon and evening',
+        p: [
+          `The same OdishaBytes report lists Dwiprahara Dhoopa and Sandhya Alati among the rituals of the later part of the day, with Sandhya Dhoopa in the evening. These belong to the temple's daily routine of offerings and lamp ceremonies. Public darshan resumes at night, and the schedule for that year shows it running from about 10 pm to 11 pm.`,
+        ],
+      },
+      {
+        h: 'The Mahadeepa',
+        p: [
+          `Around 10 pm, after Sandhya Dhoopa, the Mahadeepa is lifted to the top of the temple, near its crown. OdishaBytes says the priests of the shrine lift it, and Wikipedia describes it as a huge lamp lit on the spire. Two OdishaBytes reports say that this lifting ends the day-long fast of the devotees.`,
+          `The sources do not say what the lamp is made of or how much oil it burns, so this guide does not guess. The timing also changes from year to year. One report says the lamp was raised about half an hour before the scheduled 10 pm, and OdishaBytes has carried a headline about a delayed lifting in another year.`,
+        ],
+      },
+      {
+        h: 'The night and the next morning',
+        p: [
+          `The Orissa Post reported that security staff were deployed for the night rush and that cultural programmes of music and dance continued until dawn. It also noted that fasting was widely observed in the city. After the night darshan, the OdishaBytes schedule lists the Badasinghar and Pahuda rituals in the early hours of the next morning.`,
+        ],
+      },
+      {
+        h: 'Planning a visit',
+        p: [
+          `Dates, timings and the order of events change from year to year, so rely on the announcements of the temple administration and on local news in the days before the festival. Reports describe very large crowds and a heavy police presence, so plan extra time and carry only what you need.`,
+          `Non-Hindu visitors cannot enter the compound, but the viewing platform allows a look at the outside. If you fast, do it in a way that suits your health, and ask your doctor first if you have a medical condition.`,
+        ],
+      },
+      {
+        h: 'Shivaratri at home',
+        p: [
+          `If you cannot travel, you can offer water or a few bel leaves to a Shiva image or Linga and spend part of the evening in prayer. Several texts on this site fit the day, among them the Lingashtakam, which praises the Linga in eight verses, the Shiva Panchakshara Stotram, the Maha Mrityunjaya mantra and the Shiva Tandava Stotram. Our Rukuna Rath Yatra guide describes another festival held at the same temple.`,
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'What is the Mahadeepa?', a: 'A great lamp raised to the top of the Lingaraj Temple at night on Maha Shivaratri. Reports say devotees end their fast after it is lifted.' },
+      { q: 'When is the Mahadeepa lifted?', a: 'Reports give about 10 pm, though it has been early or late in some years, so check the schedule for the year.' },
+      { q: 'Which deity is worshipped at the Lingaraj Temple?', a: 'Lingaraja, worshipped as Shiva. Wikipedia also notes images of Vishnu in the temple.' },
+      { q: 'Can non-Hindus enter the temple?', a: 'No, according to Wikipedia. There is a viewing platform beside the wall.' },
+      { q: 'What do devotees offer on Maha Shivaratri?', a: 'Wikipedia says bel leaves are offered to Lingaraja on this day.' },
+      { q: 'How is the date fixed?', a: 'Maha Shivaratri follows the lunar calendar, so its date changes each year.' },
+      { q: 'Does fasting or visiting guarantee a result?', a: 'No. These are devotional observances and carry no guaranteed result.' },
+    ],
+    related: {
+      stotrams: ['lingashtakam', 'shiva-panchakshara-stotram', 'maha-mrityunjaya-mantra', 'shiva-tandav'],
+      guides: ['maha-shivaratri-guide', 'rukuna-rath-yatra-ashokashtami-lingaraj-bhubaneswar-guide', 'how-to-chant-shiva-mantra'],
+    },
+    sources: [
+      'Wikipedia, article on Lingaraja Temple',
+      'OdishaBytes, Maha Shivratri ritual schedule for Lingaraj Temple in Odisha capital',
+      'OdishaBytes, Maha Shivratri: know Mahadeepa time for Lingaraj Temple in Bhubaneswar',
+      'OdishaBytes, Mahadeepa raised atop Lingaraj Temple before schedule',
+      'Orissa Post, Ekamra resonates Shiva Namah; thousands throng Lingaraj Temple',
     ],
   },
 ];

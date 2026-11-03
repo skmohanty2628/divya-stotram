@@ -666,68 +666,89 @@ export const GUIDES_TOPIC = [
     category: 'Strength',
     title: 'Best Mantras for Protection and Fearlessness: Hanuman, Durga, Narasimha and Ram Raksha',
     description:
-      'Mantras traditionally recited for protection and courage: Hanuman Chalisa, Durga, Narasimha, Ram Raksha Stotram and Maha Mrityunjaya, with meaning and a safe, practical view.',
+      'Mantras traditionally recited for protection and courage: Hanuman Chalisa lines, Durga, Narasimha, Ram Raksha Stotram, Aditya Hridayam and Maha Mrityunjaya, with meaning, sources and a safe, practical view.',
     h1: 'Best Mantras for Protection and Fearlessness',
     intro:
-      'Protection mantras are among the oldest in Hindu practice. Their purpose is to calm fear and cultivate steadiness. This guide explains the most common ones, what they mean, and how to treat them alongside practical safety.',
+      `Protection mantras are among the oldest in Hindu practice. Their purpose is to calm fear and build steadiness, not to make a person untouchable. This guide explains the most common ones, where each comes from, what the words mean and how to use them alongside ordinary safety measures.`,
     sections: [
+      {
+        h: 'What protection means in these prayers',
+        p: [
+          `The Sanskrit word raksha means protection and kavacha means armour. Texts with these words in their names ask the deity to stand guard over the person reciting them, and they give that person a steady phrase to hold when fear rises. They do not claim to prevent harm. Each section below says where a text comes from, and the last sections say plainly what a prayer can and cannot do.`,
+        ],
+      },
       {
         h: 'Hanuman',
         p: [
-          `Hanuman, known as Sankat Mochan, the remover of difficulties, is the most popular protector. The Hanuman Chalisa and the Bajrang Baan are recited especially on Tuesdays and Saturdays. Many people keep a small image of Hanuman at the entrance of their homes.`,
+          `Hanuman, known as Sankat Mochan, the remover of difficulties, is the most popular protector. The Hanuman Chalisa by Tulsidas has several lines that people turn to in fear. On this site's numbering, verse 24 says that ghosts and spirits do not come near when the name of Mahavir is spoken, verse 26 says that Hanuman frees from difficulty the one who keeps him in mind, speech and action, and verse 36 says that troubles end and pain is removed for the one who remembers the strong hero Hanuman. Printed editions number the verses a little differently, so find them by their opening words: bhoot pisach nikat nahin aavai, sankat te Hanuman chhudavai and sankat katai mitai sab pira.`,
+          `The Bajrang Baan is a longer and more forceful hymn to Hanuman. Both texts are recited especially on Tuesdays and Saturdays, and many people keep a small image of Hanuman at the entrance of their homes.`,
         ],
       },
       {
         h: 'Durga',
         p: [
-          `Durga is the great protectress, and the Durga Stotram and Aigiri Nandini praise her as the one who defeats the forces of fear and destruction. The Devi Kavacha, a verse of armour within the Devi Mahatmya tradition, places her protection on each part of the body.`,
+          `Durga is the great protectress, and the Durga Stotram and Aigiri Nandini praise her as the one who defeats the forces of fear and destruction. The Devi Kavacha, a verse of armour linked with the Devi Mahatmya tradition, places her protection on each part of the body. Friday is a common day for Durga prayer.`,
         ],
       },
       {
         h: 'Ram Raksha Stotram',
         p: [
-          `Raksha means protection, and the Ram Raksha Stotram is literally armour made of words. It names Rama in connection with each part of the body, from head to feet. Many families recite it before travel.`,
+          `Raksha means protection, and the Ram Raksha Stotram is armour made of words. It is attributed to the sage Budha Kaushika, and its opening lines name him as the rishi, Sita and Ramachandra as the deity and Anushtup as the metre, in the manner of a mantra. The verses name Rama in connection with each part of the body, from head to feet. Many families recite it before travel.`,
         ],
       },
       {
         h: 'Narasimha',
         p: [
-          `Narasimha, the man-lion form of Vishnu, emerged to protect his devotee Prahlada. His mantra, Ugram Viram Maha Vishnum Jvalantam Sarvatomukham, Nrisimham Bhishanam Bhadram Mrityor Mrityum Namamyaham, is traditionally recited by those who feel threatened. It means I bow to Narasimha, fierce, heroic, blazing, facing all directions, auspicious, the death of death.`,
+          `Narasimha, the man-lion form of Vishnu, emerged to protect his devotee Prahlada, a story told in the seventh book of the Bhagavata Purana. His mantra, Ugram Viram Maha Vishnum Jvalantam Sarvatomukham, Nrisimham Bhishanam Bhadram Mrityor Mrityum Namamyaham, is traditionally recited by those who feel threatened. It means I bow to Narasimha, fierce, heroic, blazing, facing all directions, auspicious, the death of death.`,
+        ],
+      },
+      {
+        h: 'Aditya Hridayam',
+        p: [
+          `The Aditya Hridayam, a hymn to the Sun, appears in the Yuddha Kanda of the Valmiki Ramayana, where the sage Agastya teaches it to Rama on the battlefield before the final fight with Ravana. Editions number the chapter differently, 105 in some and 107 in others. People who recite it for courage are following that story, in which the hymn is given to a warrior who is tired and worried. It is on this site with meaning in four languages.`,
+        ],
+      },
+      {
+        h: 'Maha Mrityunjaya',
+        p: [
+          `The Maha Mrityunjaya mantra comes from the Rigveda (7.59.12) and is addressed to Tryambaka, a name of Shiva. It is traditionally chanted by people who are afraid or whose family members are unwell. It asks to be freed from death the way a ripe cucumber is freed from its stalk. It is a prayer and not a medical treatment, so see a doctor for any illness. Our meaning guide explains the words one by one.`,
         ],
       },
       {
         h: 'Fearlessness is the real protection',
         p: [
-          `The Upanishads say that the knower of Brahman fears nothing. In practice, protection mantras work on the fear itself: they steady the mind so that you can think clearly and act wisely. Alongside them, take real precautions: lock the door, drive carefully, keep emergency contacts handy. If you are in danger from another person, please contact local emergency services or a helpline. In the US call 911, and in India call 112. Prayer and practical safety are partners, not rivals.`,
+          `The Taittiriya Upanishad (2.9.1) says that one who knows the bliss of Brahman is not afraid of anything. In practice, protection mantras work on the fear itself. They steady the mind so that you can think clearly and act wisely.`,
+          `Alongside them, take real precautions: lock the door, drive carefully, keep emergency contacts handy. If you are in danger from another person, please contact local emergency services or a helpline. In the US call 911, and in India call 112. Prayer and practical safety are partners, not rivals.`,
+        ],
+      },
+      {
+        h: 'A simple way to use them',
+        p: [
+          `Choose one text you feel close to, sit for five minutes, say it slowly and let your breath settle. Repeating the same text for a few weeks makes it familiar, and familiar words are easier to recall when you are anxious. There is no rule that you must chant a fixed number of times, and none of these texts needs initiation.`,
         ],
       },
     ],
     faqs: [
-      {
-        q: 'Which mantra is best for protection?',
-        a: 'The Hanuman Chalisa, Durga Stotram and Ram Raksha Stotram are the most widely used.',
-      },
-      {
-        q: 'Can these mantras protect from harm?',
-        a: 'They are devotional practices that give courage and calm. They do not replace practical safety.',
-      },
-      {
-        q: 'Which day is best?',
-        a: 'Tuesday and Saturday for Hanuman, Friday for Durga, Thursday for Rama.',
-      },
-      {
-        q: 'Should I fear black magic or the evil eye?',
-        a: 'Tradition speaks of these, but there is no evidence for them. Prayer is best used to cultivate inner steadiness.',
-      },
+      { q: 'Which mantra is best for protection?', a: 'The Hanuman Chalisa, Durga Stotram and Ram Raksha Stotram are the most widely used. The best one is the text you can say calmly and regularly.' },
+      { q: 'Can these mantras protect from harm?', a: 'They are devotional practices that give courage and calm. They do not replace practical safety, and they carry no guarantee.' },
+      { q: 'Which day is best?', a: 'Tuesday and Saturday for Hanuman, Friday for Durga, Thursday for Rama. These are customs, not rules of the texts.' },
+      { q: 'Which Hanuman Chalisa lines are about fear and trouble?', a: 'Verses 24, 26 and 36 on this site: bhoot pisach nikat nahin aavai, sankat te Hanuman chhudavai and sankat katai mitai sab pira. Numbering differs slightly between editions.' },
+      { q: 'Who wrote the Ram Raksha Stotram?', a: 'It is attributed to the sage Budha Kaushika, and the text names him in its opening lines.' },
+      { q: 'Should I fear black magic or the evil eye?', a: 'Tradition speaks of these, but there is no evidence for them. Prayer is best used to cultivate inner steadiness.' },
+      { q: 'What should I do if I feel unsafe?', a: 'Contact local emergency services or a helpline. In the US call 911, and in India call 112. Use prayer as a support, not a substitute.' },
     ],
     related: {
-      stotrams: ['hanuman-chalisa', 'bajrang-baan', 'ram-raksha-stotram', 'durga-stotram'],
-      guides: ['hanuman-chalisa-benefits', 'how-to-chant-durga-mantra', 'best-mantra-for-anxiety'],
+      stotrams: ['hanuman-chalisa', 'bajrang-baan', 'ram-raksha-stotram', 'durga-stotram', 'aditya-hridayam', 'maha-mrityunjaya-mantra'],
+      guides: ['hanuman-chalisa-benefits', 'how-to-chant-durga-mantra', 'best-mantra-for-anxiety', 'maha-mrityunjaya-mantra-meaning'],
     },
     sources: [
-      'Ram Raksha Stotram by Budha Kaushika',
+      'Ram Raksha Stotram, attributed to Budha Kaushika',
       'Devi Mahatmya, Markandeya Purana',
       'Bhagavata Purana, Skandha 7, for the story of Prahlada and Narasimha',
+      'Hanuman Chalisa by Tulsidas',
+      'Valmiki Ramayana, Yuddha Kanda, for the Aditya Hridayam',
+      'Rigveda 7.59.12, for the Maha Mrityunjaya mantra',
+      'Taittiriya Upanishad 2.9.1 (Brahmananda Valli)',
     ],
   },
 

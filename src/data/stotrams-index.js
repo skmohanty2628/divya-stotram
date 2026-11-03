@@ -577,6 +577,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'lingashtakam',
+    title: {
+      en: 'Lingashtakam (Brahma Murari Surarchita Lingam)',
+      hi: 'लिङ्गाष्टकम् (ब्रह्ममुरारि सुरार्चित लिङ्गम्)',
+      od: 'ଲିଙ୍ଗାଷ୍ଟକମ୍ (ବ୍ରହ୍ମମୁରାରି ସୁରାର୍ଚିତ ଲିଙ୍ଗମ୍)',
+      te: 'లింగాష్టకం (బ్రహ్మమురారి సురార్చిత లింగం)',
+    },
+    deity: 'Shiva',
+    deityEmoji: '🔱',
+    deityIcon: '',
+    description: {
+      en: 'Lingashtakam (Brahma Murari Surarchita Lingam), the eight-verse hymn to the Shiva Linga with its closing verse, in English, Hindi, Odia and Telugu with meaning and a chanting video',
+      hi: 'लिङ्गाष्टकम् (ब्रह्ममुरारि सुरार्चित लिङ्गम्), शिव लिंग की स्तुति के आठ श्लोक और समापन श्लोक, हिन्दी, ओड़िया, तेलुगु और अंग्रेज़ी लिपि में, चार भाषाओं में अर्थ और वीडियो के साथ',
+      od: 'ଲିଙ୍ଗାଷ୍ଟକମ୍ (ବ୍ରହ୍ମମୁରାରି ସୁରାର୍ଚିତ ଲିଙ୍ଗମ୍), ଶିବ ଲିଙ୍ଗର ଆଠ ଶ୍ଳୋକ ଓ ସମାପନ ଶ୍ଳୋକ, ହିନ୍ଦୀ, ଓଡ଼ିଆ, ତେଲୁଗୁ ଓ ଇଂରାଜୀ ଲିପିରେ, ଚାରି ଭାଷାରେ ଅର୍ଥ ଓ ଭିଡିଓ ସହିତ',
+      te: 'లింగాష్టకం (బ్రహ్మమురారి సురార్చిత లింగం), శివలింగ స్తుతి ఎనిమిది శ్లోకాలు, ముగింపు శ్లోకంతో, హిందీ, ఒడియా, తెలుగు, ఇంగ్లీష్ లిపిలో, నాలుగు భాషల్లో అర్థం మరియు వీడియోతో',
+    },
+    color: 'from-slate-900 to-indigo-950',
+    accent: '#a9c4f0',
+    youtubeId: 'S91CFs_rvvI',
+    verseCount: 9,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

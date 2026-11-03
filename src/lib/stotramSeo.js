@@ -132,6 +132,11 @@ const SEO_COPY = {
     description:
       'Read Karagre Vasate Lakshmi (कराग्रे वसते लक्ष्मीः), the Kara Darshan morning verse, in English, Hindi, Odia and Telugu with meaning, when to say it, and a video to follow along.',
   },
+  'lingashtakam': {
+    title: 'Lingashtakam Lyrics in English, Hindi, Odia & Telugu with Meaning (Brahma Murari Surarchita Lingam)',
+    description:
+      'Read Lingashtakam (लिङ्गाष्टकम्), Brahma Murari Surarchita Lingam, all eight verses and the closing verse in English, Hindi, Odia and Telugu with meaning, when to chant it, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

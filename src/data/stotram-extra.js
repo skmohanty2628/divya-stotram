@@ -265,4 +265,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does it guarantee wealth or success?', a: 'No. It is a morning prayer and a reminder, and it carries no guarantee of any result.' },
     ],
   },
+  'lingashtakam': {
+    what: `Lingashtakam is a Sanskrit hymn of eight verses, each praising the Linga of Sadashiva, with a ninth verse that states the fruit of reading it. Every one of the eight ends with the same line, tat pranamami sadashiva lingam, which means I bow to that Linga of ever-auspicious Shiva. The Linga is the rounded stone form in which Shiva is worshipped in temples and homes. The hymn opens with the words Brahma Murari Surarchita Lingam, and people often search for it by that line. The editions checked name no author, so it is best described as a traditional hymn. It is sung in Shiva temples and at home, and it is a common choice on Mondays, at Pradosha and on Maha Shivaratri.`,
+    meaning: `The verses are a list of praises, one for each pair of lines. The first says the Linga is worshipped by Brahma, Vishnu and all the gods and removes the sorrow that comes with birth. The second and fourth recall well-known stories: Shiva burning Kama, Shiva ending the sacrifice of Daksha, and Shiva breaking the pride of Ravana. Verses three and five picture the Linga covered in sandal, saffron and fragrant pastes and dressed with a lotus garland. Verse six compares its light to ten million suns. Verse seven pictures the Linga ringed by an eight-petalled lotus and speaks of an eightfold poverty that the text does not list. The eighth calls the Linga higher than the highest and the supreme Self. The ninth verse says that whoever reads the hymn near Shiva reaches the world of Shiva and rejoices with him. Teachers read this as a traditional promise of devotion, and this page does not treat it as a guarantee.`,
+    benefits: [
+      'Eight regular verses with one repeating last line, so it is easy to learn by ear',
+      'A familiar hymn for Monday worship, Pradosha and Maha Shivaratri',
+      'Works as a short offering during abhisheka or before a Shiva image at home',
+      'Names the stories of Kama, Daksha and Ravana, which helps children and new learners follow the verses',
+      'Open to everyone, with no initiation needed',
+    ],
+    bestTime: `There is no fixed rule in the text. Many devotees recite it on Mondays, in the evening twilight of Pradosha, on Maha Shivaratri and while offering water, milk or bilva leaves to the Linga. It takes about four to five minutes to sing. Sit with a clean mind, light a lamp if you wish and finish with Om Namah Shivaya. The closing verse speaks of reading it in the presence of Shiva, which many people take to mean a Shiva temple or a Shiva image or Linga at home.`,
+    faqs: [
+      { q: 'What does Lingashtakam mean?', a: 'Ashtakam means a group of eight, so Lingashtakam is eight verses on the Linga of Shiva. Each ends with the line tat pranamami sadashiva lingam, I bow to that Linga of Sadashiva.' },
+      { q: 'Who wrote Lingashtakam?', a: 'The editions checked on sanskritdocuments.org and shlokam.org name no author. It is best treated as a traditional hymn.' },
+      { q: 'How many verses does it have?', a: 'Eight verses on the Linga, plus a ninth verse (the phalashruti) that states the fruit of reading it. This page gives all nine.' },
+      { q: 'Why do some versions read differently?', a: 'Printed texts differ in a few words. In verse two some prints read kamadaham where this page reads kamadahana, in verse three sugandhi or sugandha, and in verse four vinashana or ninashana. The meaning stays the same.' },
+      { q: 'When should I chant it?', a: 'Any time you wish. It is popular on Mondays, at Pradosha and on Maha Shivaratri, but the text sets no day or count.' },
+      { q: 'Does it guarantee a result?', a: 'No. The last verse gives the traditional fruit of reading it, which is nearness to Shiva. It is a statement of faith and carries no guarantee of any worldly outcome.' },
+    ],
+  },
 };

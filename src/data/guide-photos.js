@@ -1,7 +1,7 @@
 // Topic photos for each guide, all from Wikimedia Commons under free licences (CC BY, CC BY-SA, CC0, public domain).
 // Row format: [Commons file name, width in pixels, photographer, licence code].
 // Only photos that show the guide's own topic are listed. Guides with too few suitable free photos have no gallery.
-const L = { A4: 'CC BY-SA 4.0', A3: 'CC BY-SA 3.0', A2: 'CC BY-SA 2.0', B4: 'CC BY 4.0', B3: 'CC BY 3.0', B2: 'CC BY 2.0', C0: 'CC0' };
+const L = { A4: 'CC BY-SA 4.0', B25: 'CC BY 2.5', PD: 'Public domain', A3: 'CC BY-SA 3.0', A2: 'CC BY-SA 2.0', B4: 'CC BY 4.0', B3: 'CC BY 3.0', B2: 'CC BY 2.0', C0: 'CC0' };
 
 const RAW = {
   'maha-shivaratri-guide': [
@@ -11,6 +11,10 @@ const RAW = {
     ['Brihadisvara Temple during Maha Shivaratri-WUS03611 (edit).jpg', 5849, 'Rainer Halama (edit by Unpetit)', 'A4'],
     ['Pandal during Mahashivratri.jpg', 4000, 'SayandeepDutta', 'B4'],
     ['Sadhu during Maha Shivaratri Celebrations at Pashupatinath Temple, Kathmandu, Nepal-070A6903.jpg', 3945, 'Bijay Chaurasia', 'A4'],
+    ['Maha Shivaratri Celebrations at Pashupatinath Temple, Kathmandu, Nepal-070A6629.jpg', 6720, 'Bijay Chaurasia', 'A4'],
+    ['Maha Shivaratri Celebrations at Pashupatinath Temple, Kathmandu, Nepal-070A6632.jpg', 6720, 'Bijay Chaurasia', 'A4'],
+    ['Maha Shivaratri Celebrations at Pashupatinath Temple, Kathmandu, Nepal-070A6699.jpg', 6720, 'Bijay Chaurasia', 'A4'],
+    ['Homa yagya during Maha Shivaratri in Nepal-070A2847.jpg', 6720, 'Bijay Chaurasia', 'A4'],
   ],
   'navaratri-nine-forms-of-durga': [
     ['A garba dancers delight.jpg', 5184, 'Johnrobert99', 'A4'],
@@ -67,6 +71,10 @@ const RAW = {
     ['JANMASHTAMI CELEBRATION.jpg', 4912, 'Amitt M Patell', 'A4'],
     ['Celebrating the Joy of Krishna’s Arrival 16.jpg', 3840, 'Sumita Roy Dutta', 'A4'],
     ['Celebrations of Krishna Janmashtami.jpg', 3264, 'KrishnaKumarKarthik', 'A4'],
+    ['Dahihandi on Janmastmi in Chinawal 1.jpg', 2048, 'abhiriksh', 'A3'],
+    ['Janmashtami celebration 01.jpg', 4016, '03Ani03', 'A4'],
+    ['Janmashtami celebration 02.jpg', 4016, '03Ani03', 'A4'],
+    ['Rituals during the puja of Janmashtami in Kolkata 03.jpg', 3840, 'Sumita Roy Dutta', 'A4'],
   ],
   'rama-navami-guide': [
     ['Ram Temple Jaisidewal Kathmandu Nepal Rajesh Dhungana (5).jpg', 7360, 'Rajesh Dhungana', 'A4'],
@@ -133,11 +141,16 @@ const RAW = {
     ['Tulsi Ghat.jpg', 4608, 'Nandanupadhyay', 'A3'],
     ['Varanasi Assi Ghat.jpg', 4208, 'Ankitsingh123', 'A4'],
     ['Tulsi Das Home from the Ganga River near Hanuman Ghat, Varanasi.jpg', 4032, 'Nav102', 'A4'],
+    ['Tulsidas Home in Varanasi.jpg', 4032, 'Nav102', 'A4'],
+    ['Hanuman Chalisa at Hanuman Jayanti.jpg', 5184, 'Suyash Dwivedi', 'A4'],
+    ['Gosvami Tulsidas II.jpg', 2618, 'Nmisra', 'A3'],
   ],
   'om-meaning-and-how-to-chant': [
     ['Crown Chakra Sahasrara lotus Om symbol purple.jpg', 4677, 'Bhullargraphic', 'A4'],
     ['Om Symbol at Kanaka Durga Temple.jpg', 3456, 'Krishna Chaitanya Velaga', 'A4'],
     ['City of London Cemetery and Crematorium ~ floral tribute - Hindu Om symbol.jpg', 2500, 'Acabashi', 'A4'],
+    ['1 Om Aum symbol in a historic Kerala Hindu temple.jpg', 4032, 'Ms Sarah Welch', 'A4'],
+    ['1 rounded Om Aum symbol in Chhattisgarh Hindu temple.jpg', 4032, 'Ms Sarah Welch', 'A4'],
   ],
   'maha-mrityunjaya-mantra-meaning': [
     ['Adiyogi Shiva steel burst 2018.jpg', 4752, 'Prabhuthiru57', 'A4'],
@@ -182,10 +195,16 @@ const RAW = {
     ['Manabasa Gurubara Puja 02.jpg', 3264, 'Prateek Pattanaik', 'A4'],
     ['Manabasa Gurubara Puja 03.jpg', 3264, 'Prateek Pattanaik', 'A4'],
     ['Manabasa Gurubara Mahalaxmi puja.jpg', 2560, 'Skb4umama', 'A4'],
+    ['Manabasa Gurubara Laxmi Puja.jpg', 3968, 'Chinmayee Mishra', 'A4'],
+    ['Jhoti Chita during Manabasa gurubara.jpg', 3264, 'Subhashish Panigrahi', 'A3'],
   ],
   'kumar-purnima-odisha-guide': [
     ['Kumar Purnima 2.JPG', 3072, 'Banojmahala', 'A4'],
     ['Kumar Purnima.JPG', 3072, 'Banojmahala', 'A4'],
+    ['Kumar purnima 1.jpg', 4608, 'Barsa Bijayinee', 'A4'],
+    ['Kumar purnima 2.jpg', 4608, 'Barsa Bijayinee', 'A4'],
+    ['Kumar purnima 3.jpg', 4608, 'Barsa Bijayinee', 'A4'],
+    ['Kumar purnima 4.jpg', 4608, 'Barsa Bijayinee', 'A4'],
   ],
   'boita-bandana-bali-jatra-kartika-purnima-guide': [
     ['Balijatra re byabasai.JPG', 5184, 'Kamalakanta777', 'A4'],
@@ -206,12 +225,19 @@ const RAW = {
     ['Enduri pitha1.jpg', 2592, 'Chinmayee Mishra', 'A4'],
     ['Enduri Pitha wrapped with turmeric leaf.jpg', 2592, 'Chinmayee Mishra', 'A4'],
     ['Enduri (cropped).jpg', 2540, 'Subhransuphotography', 'A4'],
+    ['Enduri Peetha.jpg', 1920, 'Subhransuphotography', 'A4'],
   ],
   'raja-parba-odisha-guide': [
     ['Poda Pitha.JPG', 3470, 'Udipta876', 'A4'],
     ['Baigana poda pitha.jpg', 3265, 'Manaswini sahu', 'A4'],
     ['Muga poda pitha.jpg', 2876, 'Manaswini sahu', 'A4'],
     ['Chuda poda pitha.jpg', 2693, 'Manaswini sahu', 'A4'],
+    ['Raja Doli khela Odia festival.jpg', 2048, 'Saroj Bal', 'A3'],
+    ['Raja Janta poda pitha.jpg', 1600, 'Jagadish Uttarakabata', 'A3'],
+    ['Raja Pana.jpg', 1600, 'Jagadish Uttarakabata', 'A3'],
+    ['Raja doli.jpg', 1600, 'Jagadish Uttarakabata', 'A3'],
+    ['Raja Doli.JPG', 4000, 'Gorvachove', 'A3'],
+    ['Rajo Parab.jpg', 6000, 'Footlooseinme', 'A4'],
   ],
   'nuakhai-western-odisha-guide': [
     ['Sambalpuri Din -ସମ୍ବଲପୁରୀ ଦିନ୍ 02.jpg', 6240, 'Dr. Sanjeeb Kumar Mishra', 'A4'],
@@ -233,6 +259,7 @@ const RAW = {
     ['Mathardev Mela Sarni 2021 ; Makar Sankranti Fair 04.jpg', 4032, 'Kaushlendrapathe', 'A4'],
     ['Tusu Parab and Makar Sankranti 20.jpg', 4000, 'Goutam1962', 'A4'],
     ['A bonfire celebrating Lohri Makar Sankranti eve Hindu and Sikh festivals.jpg', 3210, 'Satish Krishnamurthy', 'B2'],
+    ['Image Makara chaula.jpeg', 3264, 'Swetapadma07', 'A4'],
   ],
   'dola-purnima-odisha-guide': [
     ['Festive holi 03.jpg', 6720, 'Zaheed Sarwer Khan', 'B4'],
@@ -255,13 +282,25 @@ const RAW = {
     ['Narendra Tank, Puri, Odisha 1.JPG', 4000, 'Aditya Mahar', 'A3'],
     ['Narendra Tank, Puri, Odisha.JPG', 4000, 'Aditya Mahar', 'A3'],
     ['Narendra Pokhari 2.jpg', 3876, 'Aliva Sahoo', 'A4'],
+    ['Chandan Yatra of Lord Jagannath in Puri.jpg', 3414, 'Milan Madhav Das', 'B3'],
   ],
   'savitri-brata-odisha-guide': [
     ['Vat Purnima image by Raju Kasambe DSCN6393 01.jpg', 4608, 'Dr. Raju Kasambe', 'A4'],
     ['Vat Purnima image by Raju Kasambe DSCN6393 05.jpg', 4608, 'Dr. Raju Kasambe', 'A4'],
+    ['Savitri\'s defeat of the god of death, Yama.jpg', 4829, 'The Calcutta Art Studio', 'PD'],
+    ['Savitri laid down her husband head.jpg', 2210, 'W. D. Monro, illustrated by Evelyn Paul', 'PD'],
+    ['Savitri en de doodsgod Yama, RP-T-1993-372.jpg', 7310, 'Rijksmuseum', 'C0'],
   ],
   'maha-bishuba-pana-sankranti-odisha-guide': [
     ['Pana Preparation on the occasion of Pana Sankranti 03.jpg', 4032, 'Surajit.198', 'A4'],
+    ['Pana Sankranti.jpg', 2000, 'Sangram Keshari Senapati', 'A4'],
+    ['Bela pana.jpg', 3592, 'Subhashish Panigrahi', 'A3'],
+    ['Basundhara theki.jpg', 3695, 'Kamalakanta777', 'A3'],
+    ['Bel sarbat.jpg', 5472, 'Subhransuphotography', 'A4'],
+    ['Pana Preparation on the occasion of Pana Sankranti 02.jpg', 4032, 'Surajit.198', 'A4'],
+    ['Pana Preparation on the occasion of Pana Sankranti 05.jpg', 4032, 'Surajit.198', 'A4'],
+    ['Pana Preparation on the occasion of Pana Sankranti 04.jpg', 4032, 'Surajit.198', 'A4'],
+    ['Pana Preparation on the occasion of Pana Sankranti 06.jpg', 4032, 'Surajit.198', 'A4'],
   ],
   'akhi-muthi-anukula-akshaya-tritiya-odisha-guide': [
     ['Ratha khala karya.jpg', 4160, 'Dibyadarsi Nayak', 'A4'],
@@ -275,6 +314,8 @@ const RAW = {
   'khudurukuni-osha-odisha-guide': [
     ['Khudurukuni or bhalukuni 03.jpg', 4032, '2sarojkumar', 'A4'],
     ['Khudurukuni or bhalukuni 02.jpg', 4032, '2sarojkumar', 'A4'],
+    ['Khudurukuni osha.jpg', 4128, 'DashNistha', 'A4'],
+    ['Khudurukuni osha in fategarh.jpg', 4128, 'DashNistha', 'A4'],
   ],
   'gamha-purnima-rakhi-purnima-odisha-guide': [
     ['Rakhi Competition at SEABA 01.jpg', 5184, 'Jagseer S Sidhu', 'A4'],
@@ -296,16 +337,25 @@ const RAW = {
     ['Ganga Snan on Mahalaya 02.jpg', 5184, 'Goutam1962', 'A4'],
     ['Mahalaya an auspicious day 35.jpg', 5184, 'Goutam1962', 'A4'],
     ['Mahalaya an auspicious day 37.jpg', 5184, 'Goutam1962', 'A4'],
+    ['Mahalaya, an auspicious day to perform Tarpan 01.jpg', 5472, 'Goutam1962', 'A4'],
+    ['Mahalaya, an auspicious day to perform Tarpan 02.jpg', 5472, 'Goutam1962', 'A4'],
+    ['Mahalaya, an auspicious day to perform Tarpan 15.jpg', 5472, 'Goutam1962', 'A4'],
   ],
   'dhanu-jatra-bargarh-odisha-guide': [
     ['Mathura Nagar Of Bargarh-Dhanuyatra.jpg', 3640, 'Sudhansu Bhusan Baghar', 'A3'],
     ['100 1350 bargarh dhanuyatra 2013.jpg', 3640, 'Sudhansu Bhusan Baghar', 'A3'],
+    ['Dhanujatra kansa.jpg', 4096, 'Pmsarangi', 'A4'],
+    ['Dhanujatra Kansa1.jpg', 4096, 'Pmsarangi', 'A4'],
   ],
   'jagannath-mahaprasad-ananda-bazar-puri-guide': [
     ['Abadha and Prasada in earthen pots in Ananta Basudeba Temple, Bhubaneswar.jpg', 4928, 'Prateek Pattanaik', 'A4'],
     ['Mahaprasad Bhoj at Akhand Harinam Saptah.jpg', 4096, 'Sntshkumar750', 'A4'],
     ['Prasad in Bhubaneswar 01.jpg', 3888, 'Kritzolina', 'A4'],
     ['Prasad in Bhubaneswar 03.jpg', 3888, 'Kritzolina', 'A4'],
+    ['Jagannath Puri Mahaprasadam 01.JPG', 2048, 'Yuv103m', 'A4'],
+    ['Jagannath Puri Mahaprasadam 02.JPG', 2048, 'Yuv103m', 'A4'],
+    ['Jagannath Puri Mahaprasadam 03.jpg', 1618, 'Yuv103m', 'A4'],
+    ['Jaganath Temple 11d - Mahaprasad (26670020006).jpg', 1981, 'juggadery', 'A2'],
   ],
   'bahuda-yatra-suna-besha-niladri-bije-puri-guide': [
     ["Annual chariot festival 'Jagannath Yatra', Puri Odisha.jpg", 6171, 'Prashant Kharote', 'A4'],
@@ -342,6 +392,40 @@ const RAW = {
     ['13th Century stone curvings at Konark Sun Temple Puri district, Odisha, India 1.jpg', 5711, 'Joydeep', 'A4'],
     ['Konark Sun Temple Puri district, Odisha, India 3.jpg', 5591, 'Joydeep Chakraborty', 'A4'],
     ['Konark Sun Temple Puri district, Odisha, India 1.jpg', 5420, 'Joydeep', 'A4'],
+  ],
+  'kaunria-kathi-bada-badua-daka-odisha-guide': [
+    ['Kaunria Kathi 1.jpg', 3264, 'Prateek Pattanaik', 'A4'],
+    ['Kaunria Kathi 2.jpg', 3264, 'Prateek Pattanaik', 'A4'],
+  ],
+  'hera-panchami-lakshmi-gundicha-puri-guide': [
+    ['Gundicha temple puri.JPG', 4000, 'Kamalakanta777', 'A3'],
+    ['Gundicha Temple, Puri, Odisha1.JPG', 4000, 'Aditya Mahar', 'A3'],
+    ['Gundicha Temple, Puri, Odisha.JPG', 4000, 'Aditya Mahar', 'A3'],
+    ['Gundicha Temple.jpg', 4096, 'Aliva Sahoo', 'A4'],
+    ['Gundicha Temple during Puri Ratha Jatra 2024.jpg', 4032, 'Liman Chandrakar', 'A4'],
+    ['Durga-Madhaba in Gupta Gundicha 01.jpg', 3264, 'Prateek Pattanaik', 'A4'],
+    ['Nakchana Dwar,Gundicha Temple,Puri,Odisha.jpg', 4160, 'Navneet Baliarsingh', 'A4'],
+    ['Gundicha temple.jpg', 2560, 'Chinmayee Mishra', 'A4'],
+  ],
+  'snana-yatra-snana-purnima-puri-guide': [
+    ['Gajanana Besha.jpg', 3616, 'Aliva Sahoo', 'A4'],
+    ['Gajanana Besha Of Lord Jagannath.jpg', 4608, 'Rajani3737', 'A3'],
+    ['God & Goddess dressed in elephant.JPG', 3264, 'Taraprasad Jena', 'A3'],
+    ['Snana yatra.jpg', 3200, 'Ben30ghosh', 'A4'],
+    ['Puri Snana Purnima.JPG', 2304, 'Ilya Mauter', 'B25'],
+    ['Lord Jagannath, Bhalabhadra and Devi Subhadra on Snana Bedi.jpg', 1200, 'Government of Odisha', 'B4'],
+    ['Devi Subhadra on Snana Mandapa.jpg', 1200, 'Government of Odisha', 'B4'],
+    ['Pahandi of Lord Jagannath on 2022 Snana Jatra.jpg', 1200, 'Government of Odisha', 'B4'],
+    ['Snana Jatra 2023.jpg', 1200, 'Government of Odisha', 'B4'],
+    ['Gajanana Besh on 2022 Sanana Jatra.jpg', 1200, 'Government of Odisha', 'B4'],
+  ],
+  'maha-shivaratri-lingaraj-mahadeepa-bhubaneswar-guide': [
+    ['Lingaraj Temple, Bhubaneswar, Odisha, India (2023) 01.jpg', 3264, 'AmlanBiswal25', 'A4'],
+    ['Lingaraj Temple, Bhubaneswar, Odisha, India (2023) 02.jpg', 3264, 'AmlanBiswal25', 'A4'],
+    ['Lingaraj Temple, Bhubaneswar, Odisha, India (2023) 03.jpg', 3264, 'AmlanBiswal25', 'A4'],
+    ['Lingaraj Temple, Bhubaneswar, Odisha, India (2023) 04.jpg', 3264, 'AmlanBiswal25', 'A4'],
+    ['Lingaraj Temple, Bhubaneswar, Odisha, India (2023) 05.jpg', 3264, 'AmlanBiswal25', 'A4'],
+    ['Lingaraj Temple, Bhubaneswar, Odisha, India (2023) 07.jpg', 3264, 'AmlanBiswal25', 'A4'],
   ],
 };
 

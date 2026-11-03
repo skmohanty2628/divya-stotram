@@ -177,7 +177,7 @@ export default function PhotoCarousel({ eyebrow, title, items }) {
       <style>{`
         @keyframes pcBar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
         @keyframes pcFade { from { opacity: 0; } to { opacity: 1; } }
-        @media (prefers-reduced-motion: reduce) { [class*="pcFade"] { animation: none !important; } }
+        @media (prefers-reduced-motion: reduce) { [class*=pcFade] { animation: none !important; } }
       `}</style>
     </section>
   );

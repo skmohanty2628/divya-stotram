@@ -99,7 +99,7 @@ export default function GuidePageView({ slug }) {
 
         {FESTIVAL_DATES.some((f) => f.slug === guide.slug) && <FestivalCountdown slug={guide.slug} heading="Coming up" />}
 
-        {(GUIDE_PHOTOS[guide.slug] || []).length >= 3 && (
+        {(GUIDE_PHOTOS[guide.slug] || []).length >= 2 && (
           <PhotoCarousel eyebrow="Photo gallery" title={`${guide.h1.split(':')[0]} in pictures`} items={GUIDE_PHOTOS[guide.slug]} />
         )}
 

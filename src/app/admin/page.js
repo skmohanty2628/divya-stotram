@@ -32,6 +32,7 @@ import {
   RefreshCcw,
 } from 'lucide-react';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
+import AdminFeedback from '@/components/AdminFeedback';
 
 const AUTO_REFRESH_MS = 10_000;
 
@@ -1203,6 +1204,9 @@ export default function AdminPage() {
                 </p>
               </div>
             )}
+
+            <SectionTitle icon={Star}>Reader Feedback</SectionTitle>
+            <AdminFeedback />
 
             <SectionTitle icon={ShieldCheck}>SEO & AdSense Readiness</SectionTitle>
             <div className="grid gap-3">

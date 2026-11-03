@@ -1,6 +1,7 @@
 import './globals.css';
 import Link from 'next/link';
 import { SubscribePopup } from '@/components/SubscribeWidget';
+import FeedbackWidget from '@/components/FeedbackWidget';
 import { SITE_URL } from '@/lib/site';
 
 export const viewport = {
@@ -122,6 +123,7 @@ function SiteFooter() {
             <div className="mt-4 grid gap-2 text-sm sm:text-[15px]">
               <Link href="/about" className={FOOTER_LINK}>About us</Link>
               <Link href="/editorial-policy" className={FOOTER_LINK}>Editorial policy</Link>
+              <Link href="/feedback" className={FOOTER_LINK}>Feedback</Link>
               <Link href="/glossary" className={FOOTER_LINK}>Glossary</Link>
               <Link href="/contact" className={FOOTER_LINK}>Contact</Link>
               <Link href="/privacy-policy" className={FOOTER_LINK}>Privacy policy</Link>
@@ -231,6 +233,7 @@ export default function RootLayout({ children }) {
           <SiteFooter />
         </div>
         <SubscribePopup />
+        <FeedbackWidget />
       </body>
     </html>
   );

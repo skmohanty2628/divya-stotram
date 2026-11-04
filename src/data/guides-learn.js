@@ -719,68 +719,98 @@ export const GUIDES_LEARN = [
   },
 
   {
-    slug: 'vasant-panchami-saraswati-puja-guide',
-    category: 'Festivals',
-    title: 'Vasant Panchami and Saraswati Puja: Meaning, Rituals and What to Chant',
-    description:
-      'What Vasant Panchami celebrates, why Saraswati is worshipped with books and instruments, the Odia custom of Khadi Chhuan, and the prayers students and artists recite.',
-    h1: 'Vasant Panchami and Saraswati Puja',
-    intro:
-      'Vasant Panchami marks the arrival of spring and is the day devotees worship Saraswati, the goddess of learning, music and the arts. It is especially important to students, teachers and artists. This guide explains the day and a simple observance.',
-    sections: [
+    "slug": "vasant-panchami-saraswati-puja-guide",
+    "category": "Festivals",
+    "title": "Vasant Panchami and Saraswati Puja: Meaning, Rituals and What to Chant",
+    "description": "What Vasant Panchami celebrates, how its date is fixed, how Saraswati Puja is kept in Odisha and other regions, the Odia custom of Khadi Chhuan, and the prayers students and artists recite.",
+    "h1": "Vasant Panchami and Saraswati Puja",
+    "intro": "Vasant Panchami marks the turn towards spring and is the day devotees worship Saraswati, the goddess of learning, speech, music and the arts. It matters most to students, teachers and artists, and in Odisha it is one of the biggest school festivals of the year. This guide explains how the day is fixed, how it is kept in different regions and a simple way to observe it at home.",
+    "sections": [
       {
-        h: 'When it falls',
-        p: [
-          `Vasant Panchami falls on the fifth day (panchami) of the bright fortnight of the month of Magha, usually in late January or February. The date changes yearly with the lunar calendar. Spring itself is welcomed with yellow, the colour of mustard flowers, so yellow clothes and yellow sweets are common.`,
-        ],
+        "h": "How the date is fixed",
+        "p": [
+          "Vasant Panchami falls on the fifth day (panchami) of the bright fortnight of the month of Magha, which usually places it in late January or February. Because it follows the lunar calendar, the date moves on the Gregorian calendar each year, and the panchami tithi can begin on one day and end on the next. When that happens, people follow the day on which the tithi is present at the time of the morning puja, as their local panchang says. This page does not quote a single date for that reason.",
+          "The festival also marks the start of the preparation for Holi, which comes roughly forty days later, so many communities treat it as the real beginning of spring."
+        ]
       },
       {
-        h: 'Who is Saraswati?',
-        p: [
-          `Saraswati is the goddess of knowledge, speech, music and wisdom, shown seated on a white lotus with a veena, a book and a rosary. She is already praised in the Rig Veda as a river and as speech. Worshipping her is a way of asking for clarity of mind and of thanking teachers and the traditions of learning.`,
-        ],
+        "h": "Who is Saraswati?",
+        "p": [
+          "Saraswati is the goddess of knowledge, speech, music and wisdom, shown seated on a white lotus with a veena, a book and a rosary. She is already praised in the Rig Veda as a river and as speech, and over the centuries the river goddess became the goddess of learning. Worshipping her is a way of asking for clarity of mind and of thanking teachers and the traditions of learning."
+        ]
       },
       {
-        h: 'How the day is observed',
-        p: [
-          `Students place their books, pens and instruments before an image of Saraswati and do not study on that day, as an offering of the tools of learning. Schools and colleges hold community pujas. Many families wear yellow and offer flowers, sweets and fruit. In many places the day is also considered an auspicious beginning for children's education.`,
-        ],
+        "h": "How the day is observed",
+        "p": [
+          "Students place their books, pens and instruments before an image of Saraswati and keep them aside from study for the day, as an offering of the tools of learning. Homes set up small shrines, and schools and colleges hold shared pujas in which students, teachers and neighbours take part. Many families wear yellow and offer flowers, sweets and fruit. Yellow recalls the mustard flowers that bloom at this time of year.",
+          "In many places the day is also considered a good start for something new, whether a child's first lessons, a new instrument or a new course."
+        ]
       },
       {
-        h: 'The Odia custom of Khadi Chhuan',
-        p: [
-          `In Odisha, Saraswati Puja is a major festival, and young children are often introduced to writing on this day in a ceremony called Khadi Chhuan (or Khadi Dhara), in which a chalk or khadi is placed in the child's hand and the first letters are written. In other parts of India the similar ritual is called Vidyarambham or Aksharabhyasam.`,
-        ],
+        "h": "Vasant Panchami in Odisha",
+        "p": [
+          "In Odisha the festival is called Basanta Panchami or Saraswati Puja, and Sri Panchami is another name used in some places. Schools from primary level to university arrange a puja with a decorated image or picture of the goddess, and homas are held in many institutions. Cultural programmes with Odissi dance and devotional or classical music are common in temples, cultural centres and schools.",
+          "Food has its own place. Reports from Odisha mention Basanta Kakara Pitha made from rice flour and jaggery, Sweet Kanika, a sweet rice offered as prasad, and Chuda Ghasa, a mix of flattened rice, jaggery, coconut and banana. At Puri, the Jagannath Temple is reported to mark the day with Ratha Katha Anukula, a ceremony connected with the timber for the chariots of Rath Yatra."
+        ]
       },
       {
-        h: 'What to chant',
-        p: [
-          `The Saraswati Vandana beginning Ya Kundendu Tushara Hara Dhavala is the most widely known prayer. The simple mantra Om Aim Saraswatyai Namah can be repeated 108 times. Students often recite them before study, with attention on the meaning.`,
-        ],
+        "h": "The Odia custom of Khadi Chhuan",
+        "p": [
+          "Young children, usually around three to five years old, are often introduced to writing on this day. In Odisha the ceremony is called Khadi Chhuan, in which the child holds a chalk or a khadi and writes the first letters, sometimes tracing them in rice grains, with an elder guiding the hand. In other parts of India a similar ritual is called Vidyarambham or Aksharabhyasam, and among Bengali Hindus it is Haate-Khori."
+        ]
       },
+      {
+        "h": "How other regions keep the day",
+        "p": [
+          "The festival changes character from place to place. In West Bengal schools hold Saraswati Puja on their own premises. In Punjab the day is known as the Basant festival and is linked with kite flying and yellow food. In Telugu-speaking regions it is called Sri Panchami, where Sri refers to Saraswati as a form of the goddess. In some regions the day is associated with Kamadeva, which is why it is also called Madana Panchami. Outside India, Hindus in Bali keep a related day as Hari Raya Saraswati."
+        ]
+      },
+      {
+        "h": "What to chant",
+        "p": [
+          "The Saraswati Vandana beginning Ya Kundendu Tushara Hara Dhavala is the most widely known prayer, and you can read it with its meaning on this site. The simple mantra Om Aim Saraswatyai Namah can be repeated 108 times. Students often recite them before study, with attention on the meaning, then sit quietly for a few minutes before opening a book."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Why do students keep books at the puja?',
-        a: 'Placing books and instruments before the goddess is an offering of the tools of learning, and a pause of respect for them.',
+        "q": "Why do students keep books at the puja?",
+        "a": "Placing books and instruments before the goddess is an offering of the tools of learning, and a pause of respect for them."
       },
       {
-        q: 'Why is yellow worn?',
-        a: 'Yellow evokes the mustard fields of spring, and has become the colour of the day.',
+        "q": "Why is yellow worn?",
+        "a": "Yellow evokes the mustard fields of spring, and has become the colour of the day."
       },
       {
-        q: 'What is Khadi Chhuan?',
-        a: 'It is an Odia ritual in which a child writes the first letters on Vasant Panchami or Saraswati Puja.',
+        "q": "What is Khadi Chhuan?",
+        "a": "It is an Odia ritual in which a child writes the first letters on Vasant Panchami or Saraswati Puja. Similar customs elsewhere are Vidyarambham and Aksharabhyasam."
       },
+      {
+        "q": "On which day should I do the puja if the tithi spans two days?",
+        "a": "Follow your local panchang or temple. The tithi can begin on one day and end on the next, and regions sometimes differ by a day."
+      },
+      {
+        "q": "Is Vasant Panchami only for students?",
+        "a": "No. Teachers, musicians, writers and artists also keep it, and many families use it as a good day to start something new."
+      }
     ],
-    related: {
-      stotrams: ['saraswati-vandana'],
-      guides: ['best-mantra-for-study-focus', 'spiritual-routine-for-beginners'],
+    "related": {
+      "stotrams": [
+        "saraswati-vandana"
+      ],
+      "guides": [
+        "best-mantra-for-study-focus",
+        "spiritual-routine-for-beginners",
+        "jagannath-ratha-yatra-puri-guide"
+      ]
     },
-    sources: [
-      'Rig Veda (hymns to Sarasvati, e.g. 6.61)',
-      'Kane, P.V., History of Dharmasastra, Vol. V (Vasanta Panchami)',
-    ],
+    "sources": [
+      "Rig Veda (hymns to Sarasvati, e.g. 6.61)",
+      "Kane, P.V., History of Dharmasastra, Vol. V (Vasanta Panchami)",
+      "Wikipedia, Vasant Panchami",
+      "OdishaTV, Saraswati Puja in Odisha",
+      "Sambad English, Saraswati Puja in Odisha"
+    ]
   },
 
   {
@@ -1647,7 +1677,7 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra'],
+      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'jagannath-ashtakam'],
       guides: ['kartika-month-odisha-guide', 'krishna-janmashtami-guide', 'snana-yatra-snana-purnima-puri-guide', 'bahuda-yatra-suna-besha-niladri-bije-puri-guide', 'jagannath-mahaprasad-ananda-bazar-puri-guide', 'hera-panchami-lakshmi-gundicha-puri-guide'],
     },
     sources: [
@@ -2581,7 +2611,7 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['krishna-vasudevaya-mantra', 'hare-krishna-maha-mantra', 'vishnu-sahasranamam'],
+      stotrams: ['krishna-vasudevaya-mantra', 'hare-krishna-maha-mantra', 'vishnu-sahasranamam', 'jagannath-ashtakam'],
       guides: ['jagannath-ratha-yatra-puri-guide', 'krishna-janmashtami-guide', 'kartika-month-odisha-guide', 'dola-purnima-odisha-guide'],
     },
     sources: [
@@ -3245,7 +3275,7 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['vishnu-sahasranamam', 'ganesh-aarti', 'vakratunda-mahakaya-mantra'],
+      stotrams: ['vishnu-sahasranamam', 'ganesh-aarti', 'vakratunda-mahakaya-mantra', 'jagannath-ashtakam'],
       guides: ['jagannath-ratha-yatra-puri-guide', 'gamha-purnima-rakhi-purnima-odisha-guide', 'ganesh-chaturthi-guide', 'how-to-chant-vishnu-mantra'],
     },
     sources: [
@@ -3408,7 +3438,7 @@ export const GUIDES_LEARN = [
       { q: 'Is it true that the top pot cooks first?', a: 'It is a widely repeated belief, reported by the Free Press Journal as such. It is a tradition, not something this guide can verify.' },
     ],
     related: {
-      stotrams: ['om-jai-jagdish-hare-aarti', 'vishnu-sahasranamam'],
+      stotrams: ['om-jai-jagdish-hare-aarti', 'vishnu-sahasranamam', 'jagannath-ashtakam'],
       guides: ['jagannath-ratha-yatra-puri-guide', 'snana-yatra-snana-purnima-puri-guide', 'boita-bandana-bali-jatra-kartika-purnima-guide'],
     },
     sources: [
@@ -3477,7 +3507,7 @@ export const GUIDES_LEARN = [
       { q: 'How is the date fixed?', a: 'The festival follows lunar days, from Ashadha Shukla Dwitiya to Dashami, so the Gregorian date varies each year.' },
     ],
     related: {
-      stotrams: ['om-jai-jagdish-hare-aarti', 'vishnu-sahasranamam'],
+      stotrams: ['om-jai-jagdish-hare-aarti', 'vishnu-sahasranamam', 'jagannath-ashtakam'],
       guides: ['jagannath-ratha-yatra-puri-guide', 'snana-yatra-snana-purnima-puri-guide', 'jagannath-mahaprasad-ananda-bazar-puri-guide', 'maha-bishuba-pana-sankranti-odisha-guide', 'hera-panchami-lakshmi-gundicha-puri-guide'],
     },
     sources: [
@@ -3707,7 +3737,7 @@ export const GUIDES_LEARN = [
       { q: 'Is the ritual found in a scripture?', a: 'Wikipedia says it is mentioned in the Skanda Purana and that its present form is linked to King Kapilendra Deb, citing the Madala Panji.' },
     ],
     related: {
-      stotrams: ['mahalakshmi-ashtakam'],
+      stotrams: ['mahalakshmi-ashtakam', 'jagannath-ashtakam'],
       guides: ['jagannath-ratha-yatra-puri-guide', 'bahuda-yatra-suna-besha-niladri-bije-puri-guide', 'manabasa-gurubara-odisha-guide', 'jagannath-mahaprasad-ananda-bazar-puri-guide'],
     },
     sources: [
@@ -3801,5 +3831,188 @@ export const GUIDES_LEARN = [
       'OdishaBytes, Mahadeepa raised atop Lingaraj Temple before schedule',
       'Orissa Post, Ekamra resonates Shiva Namah; thousands throng Lingaraj Temple',
     ],
+  },
+  {
+    "slug": "nabakalebara-puri-jagannath-guide",
+    "category": "Odisha festivals",
+    "title": "Nabakalebara at Puri: How Lord Jagannath Gets a New Body",
+    "description": "What Nabakalebara is, why it happens only in years with an extra Ashadha, how the sacred neem logs are found, what happens at the temple, and how the 2015 ceremony unfolded.",
+    "h1": "Nabakalebara at Puri: The New Body of Lord Jagannath",
+    "intro": "Nabakalebara is the rare ceremony at the Jagannath Temple in Puri in which the wooden images of Jagannath, Balabhadra, Subhadra and Sudarshan are replaced with newly carved ones. The old images are buried and the new ones take their place, and the whole process is spread over months. This guide explains what the word means, when the ceremony happens, how the logs are found and what the public is able to see.",
+    "sections": [
+      {
+        "h": "What Nabakalebara means",
+        "p": [
+          "The word comes from the Odia for new (naba) and body (kalebara), so it means a new embodiment. The images worshipped at Puri are carved from neem wood and are not made of stone or metal. Over time they are replaced, and the ceremony is spoken of as the passing of the old body and the arrival of a new one. For devotees this is not a repair of an old object. The belief is that the same divine presence moves into the new images.",
+          "Four images are renewed: Jagannath, Balabhadra, Subhadra and the disc-shaped Sudarshan. The Government of Odisha's account of the 2015 ceremony describes the work in four stages: the search for the sacred wood, the building of the wooden structure, the consecration of the images and the placing of the life substance in them, and finally the finishing of the images."
+        ]
+      },
+      {
+        "h": "When it happens",
+        "p": [
+          "Nabakalebara does not follow a fixed number of years. It is held in a year when the lunar month of Ashadha is repeated, that is, a year with an adhika or extra Ashadha. That year falls between roughly eight and nineteen years after the last ceremony. The years listed in the sources checked are 1912, 1931, 1950, 1969, 1977, 1996 and 2015, so most gaps are nineteen years and the gap from 1969 to 1977 is only eight.",
+          "Because it depends on the lunar calendar and on temple decision, this guide does not quote a date for the next one. Preparations begin months before the festival, with the search for the wood starting in the spring of the same year."
+        ]
+      },
+      {
+        "h": "The search for the sacred wood",
+        "p": [
+          "The sacred wood is called daru, and each image needs its own neem tree. The search begins with the ritual known as Banajaga Jatra, in which a party of temple servitors sets out to find the trees. The official account of 2015 records that the search party included a member of the Pati Mohapatra family, twenty Daitapatis, a Lenka, nine Maharanas, sixteen brahmins, three Deulakaranas and a police escort. After prayers at the Mangala temple the party split into four groups, and over seven days they examined more than a hundred neem trees.",
+          "A tree is chosen only if it carries particular signs. The description repeated in the sources is as follows. The tree for Jagannath is dark in colour, with four main branches and the marks of a conch and a disc. Balabhadra's tree is light or white, with seven branches and the signs of a plough and a pestle. Subhadra's tree is yellowish, with five branches and a lotus. Sudarshan's tree is reddish, with three branches and a disc. Traditional accounts add that the best trees stand near a river or a crossing, close to a Shiva temple, with no bird nests in the branches.",
+          "In 2015 the trees were announced one by one during April. Sudarshan's was found at Gadakantunia, Balabhadra's at Jhankad, Subhadra's at Adhangagarh and Jagannath's at Kharipadia. Some other lists give slightly different village spellings, which is common for small places, so treat the names as approximate."
+        ]
+      },
+      {
+        "h": "Felling the trees and carving the images",
+        "p": [
+          "When a tree is felled, the tools are touched in a set order: a golden axe, then a silver one, then an iron one, while the 108 names of God are chanted. The logs are carried to Puri by cart, with crowds waiting along the way. In 2015 the log for Jagannath reached the temple on 22 May.",
+          "Inside the temple compound the images are carved in a closed workshop by specialist carvers, with a long fire ritual running alongside. The 2015 account notes an eleven-day yajna with more than seventy brahmins taking part, ending in the temple being sealed to outsiders. This part of the work is kept private, so the public descriptions are brief."
+        ]
+      },
+      {
+        "h": "The transfer of the life substance",
+        "p": [
+          "The most guarded moment is the transfer of what is called the Brahma padartha, the life substance, from the old images into the new ones. It takes place at night, with only a few chosen servitors present, and the nature of the substance is not described publicly. In 2015 the official account places this on the night of the Chaturdashi in mid June.",
+          "After the transfer the old images are buried in the Koili Baikuntha, a burial ground inside the temple compound. The ceremony is therefore also a funeral in the eyes of devotees, which is why the period around it is one of mourning and also of rebirth."
+        ]
+      },
+      {
+        "h": "What the public sees",
+        "p": [
+          "The new images rest in the recovery chamber, the Anasara Pindi, after the Snana Purnima bath, and devotees see them again at the Naba Jaubana darshan, the first sight of the new youth of the Lord. In 2015 that darshan was restricted to avoid a stampede, following a commission recommendation that the High Court upheld.",
+          "Then comes the Rath Yatra, when the new images ride out on the chariots. The 2015 Rath Yatra was held on 18 July, and the account counts it as the first time in about nineteen years that devotees saw the new forms on the chariots. The official reference reports about 58 lakh visitors to Puri during the 2015 ceremony. An earlier source gives about 20 lakh pilgrims for 1996, though different counts exist."
+        ]
+      },
+      {
+        "h": "How to follow it with respect",
+        "p": [
+          "Most of the ceremony happens inside the temple, so the best way to follow it is through the official announcements of the Shree Jagannath Temple Administration and through the temple's own traditions. The Jagannath Ashtakam and the other prayers on this site are ways to join in at home. Readers who want to understand the wider calendar can read the guides to Snana Yatra, Ratha Yatra and Bahuda Yatra."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What does Nabakalebara mean?",
+        "a": "It means a new body in Odia. The wooden images of Jagannath, Balabhadra, Subhadra and Sudarshan are replaced with newly carved ones and the old ones are buried."
+      },
+      {
+        "q": "How often is it held?",
+        "a": "Only in a year with an extra Ashadha month. The gap has been eight, twelve or nineteen years, and the sources checked list 1912, 1931, 1950, 1969, 1977, 1996 and 2015."
+      },
+      {
+        "q": "How are the neem logs chosen?",
+        "a": "A search party looks for neem trees with set signs of colour, number of branches and marks such as the conch, disc, plough or lotus, and the tree must also stand in a suitable place."
+      },
+      {
+        "q": "Where are the old images buried?",
+        "a": "In the Koili Baikuntha inside the Jagannath Temple compound."
+      },
+      {
+        "q": "Can the public watch the transfer?",
+        "a": "No. The transfer of the life substance is done at night by a few chosen servitors and is not open to the public."
+      },
+      {
+        "q": "Is a date given for the next Nabakalebara?",
+        "a": "This guide does not give one. It depends on the lunar calendar and on the temple administration, so check official announcements."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "jagannath-ashtakam",
+        "vishnu-sahasranamam"
+      ],
+      "guides": [
+        "jagannath-ratha-yatra-puri-guide",
+        "snana-yatra-snana-purnima-puri-guide",
+        "bahuda-yatra-suna-besha-niladri-bije-puri-guide"
+      ]
+    },
+    "sources": [
+      "Wikipedia, Nabakalebara",
+      "Government of Odisha, Orissa Annual Reference 2017, account of Nabakalebara 2015"
+    ]
+  },
+  {
+    "slug": "jagannath-ashtakam-meaning-and-story",
+    "category": "Meaning and history",
+    "title": "Jagannath Ashtakam (Kadachit Kalindi): Meaning, Verses and Background",
+    "description": "What each verse of the Jagannath Ashtakam says, how the hymn moves from Vrindavan to Puri, its traditional attribution to Adi Shankaracharya, the different editions, and when it is sung.",
+    "h1": "Jagannath Ashtakam: Meaning, Verses and Background",
+    "intro": "The Jagannath Ashtakam begins with the words Kadachit Kalindi Tata Vipina and is one of the best known hymns to Lord Jagannath of Puri. It has eight verses, each ending in the same plea, and a ninth verse that names the fruit of reading it. This guide explains what each verse says, where the hymn is traditionally said to come from and why the printed editions differ.",
+    "sections": [
+      {
+        "h": "Shape of the hymn",
+        "p": [
+          "Ashtakam means a set of eight, and each of the eight verses has four lines. The first three lines paint a picture of the Lord. The fourth line is the refrain, Jagannathah Svami Nayanapathagami Bhavatu Me, which asks that Lord Jagannath, the master, may come into the path of my eyes. In other words the singer is asking for darshan, the sight of the Lord. Because the last line never changes, the hymn is easy to learn by ear and is often sung in groups.",
+          "The editions checked on this site also carry a ninth verse, the phalashruti, which says that a person who reads the hymn with a disciplined and pure mind is cleansed of sin and goes to the world of Vishnu. This is the traditional claim of the closing verse and is not a promise of any worldly result."
+        ]
+      },
+      {
+        "h": "From Vrindavan to Puri: the verses",
+        "p": [
+          "The first two verses recall Krishna in Vrindavan. The first places him on the bank of the Kalindi, the Yamuna, in the woods, absorbed in music and enjoying the company of the cowherd women, while Lakshmi, Shiva, Brahma, Indra and Ganesha worship his feet. The second gives the familiar picture of a flute in the left hand, a peacock feather on the head and silk cloth at the waist. The hymn says that the Lord of Puri is the same one who played in Vrindavan.",
+          "The third verse turns to Puri itself. It speaks of the shore of the great ocean and of the Blue Hill, where the Lord lives in a palace with his strong brother Balabhadra and with Subhadra between them. That image of three deities side by side is exactly what devotees see on the Ratnabedi, the jewelled platform in the sanctum. The fourth verse praises him as an ocean of mercy, beautiful like a line of rain clouds, whose deeds are sung at the crest of the Vedas.",
+          "The fifth verse recalls the Rath Yatra. It pictures the Lord riding in his chariot along the road, meeting crowds of brahmins and growing kind as he hears their praise. The sixth calls him the supreme Brahman with eyes like open lotus petals who rests with his feet on the head of Ananta. The seventh is a personal statement of what the singer does not want: no kingdom, no gold or jewels, no beautiful wife desired by everyone. The only wish is for the sight of the Lord. The eighth is a plea to remove the worthless cycle of worldly life and the long line of sins, ending with the claim that the Lord's feet are placed on the poor and the helpless."
+        ]
+      },
+      {
+        "h": "Who composed it",
+        "p": [
+          "The hymn is traditionally attributed to Adi Shankaracharya, and the closing line of one popular edition says so. Tradition also links Shankaracharya with Puri, because the Govardhan Matha there is held to be the eastern of the four monasteries he founded, and it is connected with the Rigveda and the teaching Prajnanam Brahma. Some sources, however, attribute the hymn differently, and the manuscript history is not settled. For that reason this site calls it a traditional hymn and does not claim certainty about its author."
+        ]
+      },
+      {
+        "h": "Why the printed texts differ",
+        "p": [
+          "The hymn exists in more than one recension. The edition on sanskritdocuments.org has eight verses, with a few different words from the longer edition on shlokam.org, and the Roman text on hinduismoutlook.com follows the longer one. This site follows the nine-verse edition. The differences are small and do not change the meaning of the verses. Readers should expect to see some words spelled or divided differently in books and videos."
+        ]
+      },
+      {
+        "h": "When it is sung",
+        "p": [
+          "The text fixes no day or count. Many families sing it in the morning or evening prayer, on Thursdays, on Ekadashi and through the month of Kartika, and in Puri it is heard around the festivals of Snana Yatra, Rath Yatra and Bahuda Yatra. Reading the meaning first makes the Sanskrit easier to follow."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the last line of each verse?",
+        "a": "It is the refrain Jagannathah Svami Nayanapathagami Bhavatu Me, which asks that Lord Jagannath may come into the path of my eyes."
+      },
+      {
+        "q": "How many verses are there?",
+        "a": "Eight verses and a ninth closing verse in the edition this site follows. Some editions print only eight."
+      },
+      {
+        "q": "Did Adi Shankaracharya write it?",
+        "a": "Tradition says so, but some sources attribute it differently and the manuscript history is not settled."
+      },
+      {
+        "q": "Does it mention Puri or only Vrindavan?",
+        "a": "Both. The first two verses recall Krishna in Vrindavan and the later verses speak of Puri, the Blue Hill, the chariot and Balabhadra and Subhadra."
+      },
+      {
+        "q": "Does reading it guarantee a result?",
+        "a": "No. The closing verse gives the traditional fruit, reaching the world of Vishnu, as a statement of faith."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "jagannath-ashtakam",
+        "vishnu-sahasranamam",
+        "krishna-vasudevaya-mantra"
+      ],
+      "guides": [
+        "jagannath-ratha-yatra-puri-guide",
+        "nabakalebara-puri-jagannath-guide",
+        "kartika-month-odisha-guide"
+      ]
+    },
+    "sources": [
+      "shlokam.org, Jagannathashtakam text",
+      "sanskritdocuments.org, jagannAthAShTaka",
+      "Hinduism Outlook, Jagannath Ashtakam: Lyrics, Meaning",
+      "Wikipedia, Govardhan Math"
+    ]
   },
 ];

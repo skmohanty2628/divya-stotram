@@ -1,5 +1,5 @@
 // GAYATRI MANTRA - Proper Format
-// 1. Dhyanam (Meditation)  2. The Mantra  3. Gayatri Hrudayam  4. Phala Shruti
+// 1. The Gayatri Mantra (Rigveda 3.62.10)  2. Gayatri Shiras (Taittiriya Aranyaka 10.27)  3. Closing shanti
 
 export const gayatriMantra = {
   slug: 'gayatri-mantra',
@@ -13,7 +13,7 @@ export const gayatriMantra = {
       original:
         'ॐ भूर्भुवः स्वः\nतत्सवितुर्वरेण्यं\nभर्गो देवस्य धीमहि\nधियो यो नः प्रचोदयात्॥',
       script: {
-        od: 'ଓଁ ଭୂର୍ଭୁଵଃ ସ୍ୱଃ\nତତ୍ ସବିତୁର୍ ବରେଣ୍ୟଂ\nଭର୍ଗୋ ଦେବସ୍ୟ ଧୀମହି\nଧିୟୋ ଯୋ ନଃ ପ୍ରଚୋଦୟାତ୍॥',
+        od: 'ଓଁ ଭୂର୍ଭୁବଃ ସ୍ୱଃ\nତତ୍ ସବିତୁର୍ ବରେଣ୍ୟଂ\nଭର୍ଗୋ ଦେବସ୍ୟ ଧୀମହି\nଧିୟୋ ଯୋ ନଃ ପ୍ରଚୋଦୟାତ୍॥',
         te: 'ఓం భూర్భువః స్వః\nతత్ సవితుర్ వరేణ్యం\nభర్గో దేవస్య ధీమహి\nధియో యో నః ప్రచోదయాత్॥',
       },
       meaning: {
@@ -28,26 +28,6 @@ export const gayatriMantra = {
       id: 'gm-2',
       type: 'mantra',
       num: 2,
-      transliteration:
-        'Om Tat Savitur Varenyam\nYasya Bhaargah Punati Dhiyah\nSo Devah Prachodayat',
-      original:
-        'ॐ तत्सवितुर्वरेण्यं यस्य भार्गः पुनाति धियः।\nसोः देवः प्रचोदयात्॥',
-      script: {
-        od: 'ଓଁ ତତ୍ ସବିତୁ ର୍ ବରେଣ୍ୟଂ ଯସ୍ୟ ଭାର୍ଗଃ ପୁନାତି ଧିୟଃ।\nସୋଃ ଦେବଃ ପ୍ରଚୋଦୟାତ୍॥',
-        te: 'ఓం తత్సవితుర్వరేణ్యం యస్య భార్గః పునాతి ధియః।\nసోఽ దేవః ప్రచోదయాత్॥',
-      },
-      meaning: {
-        en: 'That most venerable Sun, whose brilliance purifies all intellects, may that divine god inspire and lead us forward on the righteous path.',
-        hi: 'वह सर्वश्रेष्ठ सूर्य जिसका तेज सभी बुद्धियों को पवित्र करता है, वह दिव्य देव हमें सन्मार्ग पर प्रेरित करे।',
-        od: 'ସେ ଶ୍ରେଷ୍ଠ ସୂର୍ଯ୍ୟ, ଯାହାଙ୍କ ଦିବ୍ୟ ତେଜ ସମସ୍ତ ବୁଦ୍ଧିକୁ ପବିତ୍ର କରେ, ସେହି ଦେବତା ଆମକୁ ସତ୍ପଥରେ ପ୍ରେରିତ କରନ୍ତୁ।',
-        te: 'అన్ని బుద్ధులను పరిశుద్ధం చేసే గొప్ప సూర్యదేవుడు, ఆ దివ్య దేవుడు మనలను సన్మార్గంలో నడిపించుగాక.',
-      }
-    },
-
-    {
-      id: 'gm-3',
-      type: 'mantra',
-      num: 3,
       transliteration:
         'Om Apo Jyoti Raso Amritam\nBrahma Bhoorbhuvah Svarom',
       original:
@@ -65,9 +45,9 @@ export const gayatriMantra = {
     },
 
     {
-      id: 'gm-4',
+      id: 'gm-3',
       type: 'mantra',
-      num: 4,
+      num: 3,
       transliteration:
         'Om Shantih Shantih Shantih\nOm Tat Sat',
       original:

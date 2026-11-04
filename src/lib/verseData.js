@@ -26,6 +26,7 @@ import { asatoMaSadgamaya } from '@/data/asato-ma-sadgamaya';
 import { omJaiJagdishHare } from '@/data/om-jai-jagdish-hare-aarti';
 import { karagreVasateLakshmi } from '@/data/karagre-vasate-lakshmi';
 import { lingashtakam } from '@/data/lingashtakam';
+import { jagannathAshtakam } from '@/data/jagannath-ashtakam';
 
 export const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
@@ -56,4 +57,5 @@ export const VERSE_DATA = {
   'om-jai-jagdish-hare-aarti': omJaiJagdishHare,
   'karagre-vasate-lakshmi': karagreVasateLakshmi,
   'lingashtakam': lingashtakam,
+  'jagannath-ashtakam': jagannathAshtakam,
 };

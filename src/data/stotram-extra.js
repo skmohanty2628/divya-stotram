@@ -285,4 +285,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does it guarantee a result?', a: 'No. The last verse gives the traditional fruit of reading it, which is nearness to Shiva. It is a statement of faith and carries no guarantee of any worldly outcome.' },
     ],
   },
+  'jagannath-ashtakam': {
+    what: `Jagannath Ashtakam is a Sanskrit hymn of eight verses to Lord Jagannath, the form of Krishna worshipped at Puri in Odisha, with a ninth verse that states the fruit of reading it. Each of the eight verses ends with the same line, Jagannathah Svami Nayanapathagami Bhavatu Me, which asks that Lord Jagannath may come into the path of my eyes. The hymn opens with the words Kadachit Kalindi Tata Vipina, and people often search for it by that line. It is traditionally attributed to Adi Shankaracharya, who is remembered in Odisha as having visited Puri, but a few sources attribute it differently and the early manuscript history is not settled, so this page presents it as a traditional hymn. Printed editions differ in a few words, and the notes below say which edition this page follows.`,
+    meaning: `Each verse paints one picture of the Lord. The first sees him by the Yamuna in the woods of Vrindavan with music and the cowherd women, and says that Lakshmi, Shiva, Brahma, Indra and Ganesha worship his feet. The second describes the flute, the peacock feather and the silk cloth. The third turns to Puri, where he lives on the shore of the ocean on the Blue Hill with his brother Balabhadra and sister Subhadra beside him. The fourth calls him an ocean of mercy, dark and handsome like a line of rain clouds. The fifth recalls the chariot, when he rides out and listens to the praise of the brahmins he meets on the road. The sixth calls him the supreme Brahman with eyes like lotus petals. In the seventh the singer says he asks for no kingdom, wealth or beautiful wife and only wants the sight of the Lord. The eighth is a plea to remove the worthless cycle of worldly life and the long line of sins. The ninth is the closing promise.`,
+    benefits: [
+      'Eight regular verses with one repeating last line, so it is easy to learn by ear',
+      'A familiar hymn at Puri and in Odia homes, especially around Ratha Yatra',
+      'Pairs the Vrindavan Krishna with the Puri Jagannath, which helps new readers see how they are one tradition',
+      'Short enough to sing in about five minutes before the evening lamp or a family prayer',
+      'Open to everyone, with no initiation needed',
+    ],
+    bestTime: `The text sets no fixed time. Many families sing it in the morning or evening prayer, on Thursdays, on Ekadashi, in the month of Kartika, and during the days around Snana Yatra and Ratha Yatra. It takes about five minutes. Sit with a clean mind, light a lamp if you wish, and finish with Jai Jagannath. The closing verse speaks of reading it with a disciplined and pure mind, which is a matter of attitude and not of any count or ritual.`,
+    faqs: [
+      { q: 'What does Jagannath Ashtakam mean?', a: 'Ashtakam means a group of eight, so Jagannath Ashtakam is eight verses on Lord Jagannath. Each one ends with the line Jagannathah Svami Nayanapathagami Bhavatu Me, may Lord Jagannath come into the path of my sight.' },
+      { q: 'Who wrote Jagannath Ashtakam?', a: 'It is traditionally attributed to Adi Shankaracharya. Some sources attribute it differently and the manuscript history is not settled, so it is safest to call it a traditional hymn.' },
+      { q: 'How many verses does it have?', a: 'Eight verses and a ninth closing verse that states the fruit of reading it. Some printed editions give only the eight verses.' },
+      { q: 'Why do some versions read differently?', a: 'Printed texts differ in a few words. The edition on sanskritdocuments.org has several different readings from the edition on shlokam.org and hinduismoutlook.com, which this page follows. The meaning of the verses stays the same.' },
+      { q: 'When should I chant it?', a: 'Any time you wish. It is popular in Kartika and around Ratha Yatra in Puri, but the text sets no day or count.' },
+      { q: 'Does it guarantee a result?', a: 'No. The last verse gives the traditional fruit of reading it, which is reaching the world of Vishnu. It is a statement of faith and carries no guarantee of any worldly outcome.' },
+    ],
+  },
 };

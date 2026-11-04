@@ -137,6 +137,11 @@ const SEO_COPY = {
     description:
       'Read Lingashtakam (लिङ्गाष्टकम्), Brahma Murari Surarchita Lingam, all eight verses and the closing verse in English, Hindi, Odia and Telugu with meaning, when to chant it, and a video to follow along.',
   },
+  'jagannath-ashtakam': {
+    title: 'Jagannath Ashtakam Lyrics in English, Hindi, Odia & Telugu with Meaning (Kadachit Kalindi)',
+    description:
+      'Read Jagannath Ashtakam (जगन्नाथाष्टकम्), Kadachit Kalindi Tata Vipine, all eight verses and the closing verse in English, Hindi, Odia and Telugu with meaning, when it is recited, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

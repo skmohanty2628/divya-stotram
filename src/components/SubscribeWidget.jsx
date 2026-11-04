@@ -78,6 +78,7 @@ export function SubscribePopup() {
       if (data.ok) {
         localStorage.setItem('divya_subscribed', 'true');
         localStorage.setItem('divya_subscriber_email', email.trim());
+        if (data.sid) localStorage.setItem('ds_sid', data.sid);
         setSubmitted(true);
       } else {
         setError(data.error || 'Something went wrong. Please try again.');
@@ -213,6 +214,7 @@ export function SubscribeInline() {
       if (data.ok) {
         localStorage.setItem('divya_subscribed', 'true');
         localStorage.setItem('divya_subscriber_email', email.trim());
+        if (data.sid) localStorage.setItem('ds_sid', data.sid);
         setSubmitted(true);
       } else {
         setError(data.error || 'Something went wrong.');

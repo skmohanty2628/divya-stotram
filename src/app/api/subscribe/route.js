@@ -1,6 +1,6 @@
 import { Resend } from 'resend';
 import { clientIp, rateLimit } from '@/lib/rateLimit';
-import { EMAIL_FROM, REPLY_TO, unsubscribeUrl, unsubscribeHeaders } from '@/lib/emailTokens';
+import { SITE_URL, EMAIL_FROM, REPLY_TO, unsubscribeUrl, unsubscribeHeaders, sidFor } from '@/lib/emailTokens';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
@@ -84,6 +84,10 @@ export async function POST(request) {
       lastSeen: new Date().toISOString(),
     });
 
+    // Index used by the reading streak to find this subscriber from the private reader id.
+    const sid = sidFor(email);
+    if (sid) await firebaseSet(`sidIndex/${sid}`, emailKey);
+
     // ── 3. Increment daily counter ────────────────────────────────────────────
     const todayCount = await firebaseGet(`subscriberStats/daily/${today}`);
     await firebaseSet(`subscriberStats/daily/${today}`, (todayCount || 0) + 1);
@@ -122,12 +126,16 @@ export async function POST(request) {
               </ul>
             </div>
             <div style="text-align: center; margin: 28px 0;">
-              <a href="https://divyastotram.com" style="background: linear-gradient(to right, #c9922a, #f0c040); color: #0d0000; text-decoration: none; padding: 12px 28px; border-radius: 50px; font-weight: bold; font-size: 14px; letter-spacing: 1px;">
+              <a href="${SITE_URL}/?r=${sid}" style="background: linear-gradient(to right, #c9922a, #f0c040); color: #0d0000; text-decoration: none; padding: 12px 28px; border-radius: 50px; font-weight: bold; font-size: 14px; letter-spacing: 1px;">
                 Start Reading Today →
               </a>
             </div>
-            <p style="font-size: 12px; color: #c9922a; text-align: center; margin-top: 24px;">
-              You can <a href="${unsubscribeUrl(email)}" style="color: #c9922a;">unsubscribe</a> at any time.
+            <div style="background: #1a0505; border: 1px solid rgba(201,146,42,0.3); border-radius: 12px; padding: 14px 18px; margin: 20px 0 0;">
+              <p style="color: #f0c040; font-size: 13px; margin: 0 0 4px;">One small favour</p>
+              <p style="color: #e8d5b5; font-size: 13px; line-height: 1.6; margin: 0;">If this landed in Promotions or Updates, drag it to your Primary tab and tap Yes, so tomorrow's prayer arrives where you will see it. You can also just reply with a hello.</p>
+            </div>
+            <p style="font-size: 13px; color: #e8d5b5; text-align: center; margin-top: 24px;">
+              You can <a href="${unsubscribeUrl(email)}" style="color: #f0c040; text-decoration: underline;">unsubscribe</a> at any time.
             </p>
           </div>
         `,
@@ -149,7 +157,7 @@ export async function POST(request) {
      }
     }
 
-    return Response.json({ ok: true, message: 'Subscribed successfully.' });
+    return Response.json({ ok: true, message: 'Subscribed successfully.', sid });
   } catch (error) {
     console.error('Subscribe API error:', error);
     return Response.json(

@@ -38,3 +38,10 @@ export function unsubscribeHeaders(email) {
     'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click',
   };
 }
+
+// Reader id used for the reading streak. It is derived from the address with the server secret, so it cannot be guessed.
+export function sidFor(email) {
+  const s = secret();
+  if (!s) return '';
+  return crypto.createHmac('sha256', s).update('sid:' + String(email).trim().toLowerCase()).digest('hex').slice(0, 24);
+}

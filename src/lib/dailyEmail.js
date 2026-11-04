@@ -1,5 +1,8 @@
 import { Resend } from 'resend';
-import { SITE_URL, EMAIL_FROM, REPLY_TO, unsubscribeUrl, unsubscribeHeaders } from '@/lib/emailTokens';
+import { SITE_URL, EMAIL_FROM, REPLY_TO, unsubscribeUrl, unsubscribeHeaders, sidFor } from '@/lib/emailTokens';
+import { FESTIVAL_DATES } from '@/data/festival-dates';
+import { GUIDES_LEARN } from '@/data/guides-learn';
+import { fbPatch, emailKey, istDate, liveStreak } from '@/lib/streakStore';
 
 
 // ── Stotram rotation (15 stotrams, cycles by day of year) ────────────────────
@@ -218,10 +221,78 @@ function getDayName() {
   return new Date().toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
 }
 
+// Festival within the next 7 days (India dates), or null.
+function upcomingFestival() {
+  const today = istDate(0);
+  const t0 = Date.parse(today + 'T00:00:00Z');
+  let best = null;
+  for (const f of FESTIVAL_DATES) {
+    const days = Math.round((Date.parse(f.date + 'T00:00:00Z') - t0) / 86400000);
+    if (days >= 0 && days <= 7 && (!best || days < best.days)) best = { ...f, days };
+  }
+  return best;
+}
+
+// The two newest guides (new guides are appended to the end of the list).
+function newestGuides() {
+  return GUIDES_LEARN.slice(-2).reverse().map((g) => ({
+    slug: g.slug,
+    title: g.title,
+    blurb: String(g.description || '').slice(0, 150),
+  }));
+}
+
+function esc(t) {
+  return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
 // ── Beautiful HTML email template ────────────────────────────────────────────
-function buildEmailHtml(stotram, message, email) {
+function buildEmailHtml(stotram, message, email, extras = {}) {
   const unsubUrl = unsubscribeUrl(email);
-  const readUrl = `${SITE_URL}/${stotram.slug}`;
+  const sid = extras.sid || '';
+  const link = (path) => `${SITE_URL}${path}${sid ? `?r=${sid}` : ''}`;
+  const readUrl = link(`/${stotram.slug}`);
+  const streak = extras.streak || { count: 0, readToday: false };
+  const festival = extras.festival || null;
+  const newGuides = extras.newGuides || [];
+
+  const streakLine = streak.count > 0
+    ? (streak.readToday
+        ? `You are on a ${streak.count}-day reading streak. Today is already counted.`
+        : `You are on a ${streak.count}-day reading streak. Open today's prayer to make it ${streak.count + 1}.`)
+    : 'Open any prayer today to start your reading streak.';
+  const streakNum = streak.count > 0 ? String(streak.count) : '0';
+
+  const festivalWhen = festival
+    ? (festival.days === 0 ? 'Today' : festival.days === 1 ? 'Tomorrow' : `In ${festival.days} days`)
+    : '';
+  const festivalBlock = festival ? `
+  <!-- Festival -->
+  <tr>
+    <td style="background:#0f0101;padding:0 30px 24px;">
+      <table width="100%" cellpadding="0" cellspacing="0"><tr>
+        <td style="background:rgba(232,118,10,0.14);border:1px solid rgba(232,118,10,0.4);border-radius:14px;padding:18px 20px;text-align:center;">
+          <p style="margin:0 0 4px;font-size:10px;color:#e8760a;letter-spacing:2px;text-transform:uppercase;">🪔 ${festivalWhen}</p>
+          <p style="margin:0 0 6px;font-family:Georgia,serif;font-size:18px;color:#f0c040;">${esc(festival.name)}</p>
+          <p style="margin:0 0 12px;font-size:13px;color:#e8d5b5;opacity:0.8;">${esc(festival.note || '')}</p>
+          <a href="${link('/' + festival.slug)}" style="color:#f0c040;font-size:13px;text-decoration:underline;">Read the festival guide</a>
+        </td>
+      </tr></table>
+    </td>
+  </tr>` : '';
+
+  const guidesBlock = newGuides.length ? `
+  <!-- New guides -->
+  <tr>
+    <td style="background:#0a0000;padding:8px 30px 24px;border-top:1px solid rgba(201,146,42,0.15);">
+      <p style="margin:16px 0 12px;font-size:11px;color:#c9922a;letter-spacing:3px;text-transform:uppercase;text-align:center;">New on Divya Stotram</p>
+      ${newGuides.map((g) => `
+      <p style="margin:0 0 14px;text-align:left;">
+        <a href="${link('/' + g.slug)}" style="font-family:Georgia,serif;font-size:15px;color:#f0c040;text-decoration:underline;">${esc(g.title)}</a><br/>
+        <span style="font-size:12px;line-height:1.6;color:#e8d5b5;opacity:0.75;">${esc(g.blurb)}</span>
+      </p>`).join('')}
+    </td>
+  </tr>` : '';
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -315,6 +386,8 @@ function buildEmailHtml(stotram, message, email) {
     </td>
   </tr>
 
+  ${festivalBlock}
+
   <!-- CTA Button -->
   <tr>
     <td style="background:#0f0101;padding:8px 30px 32px;text-align:center;">
@@ -325,6 +398,8 @@ function buildEmailHtml(stotram, message, email) {
     </td>
   </tr>
 
+  ${guidesBlock}
+
   <!-- Other Prayers Section -->
   <tr>
     <td style="background:#0a0000;padding:24px 30px;border-top:1px solid rgba(201,146,42,0.15);">
@@ -332,19 +407,19 @@ function buildEmailHtml(stotram, message, email) {
       <table width="100%" cellpadding="0" cellspacing="0">
         <tr>
           <td width="33%" style="padding:4px;text-align:center;">
-            <a href="${SITE_URL}/hanuman-chalisa" style="display:block;background:rgba(232,118,10,0.1);border:1px solid rgba(232,118,10,0.25);border-radius:12px;padding:12px 8px;text-decoration:none;">
+            <a href="${link('/hanuman-chalisa')}" style="display:block;background:rgba(232,118,10,0.1);border:1px solid rgba(232,118,10,0.25);border-radius:12px;padding:12px 8px;text-decoration:none;">
               <div style="font-size:22px;">🦧</div>
               <p style="margin:4px 0 0;font-size:10px;color:#f0c040;letter-spacing:1px;">Hanuman Chalisa</p>
             </a>
           </td>
           <td width="33%" style="padding:4px;text-align:center;">
-            <a href="${SITE_URL}/gayatri-mantra" style="display:block;background:rgba(240,192,64,0.08);border:1px solid rgba(240,192,64,0.2);border-radius:12px;padding:12px 8px;text-decoration:none;">
+            <a href="${link('/gayatri-mantra')}" style="display:block;background:rgba(240,192,64,0.08);border:1px solid rgba(240,192,64,0.2);border-radius:12px;padding:12px 8px;text-decoration:none;">
               <div style="font-size:22px;">🌞</div>
               <p style="margin:4px 0 0;font-size:10px;color:#f0c040;letter-spacing:1px;">Gayatri Mantra</p>
             </a>
           </td>
           <td width="33%" style="padding:4px;text-align:center;">
-            <a href="${SITE_URL}/durga-stotram" style="display:block;background:rgba(229,57,53,0.08);border:1px solid rgba(229,57,53,0.2);border-radius:12px;padding:12px 8px;text-decoration:none;">
+            <a href="${link('/durga-stotram')}" style="display:block;background:rgba(229,57,53,0.08);border:1px solid rgba(229,57,53,0.2);border-radius:12px;padding:12px 8px;text-decoration:none;">
               <div style="font-size:22px;">🌺</div>
               <p style="margin:4px 0 0;font-size:10px;color:#f0c040;letter-spacing:1px;">Durga Stotram</p>
             </a>
@@ -354,12 +429,12 @@ function buildEmailHtml(stotram, message, email) {
     </td>
   </tr>
 
-  <!-- Streak reminder -->
+  <!-- Streak -->
   <tr>
     <td style="background:#0a0000;padding:16px 30px 24px;text-align:center;border-top:1px solid rgba(201,146,42,0.1);">
-      <p style="margin:0;font-size:22px;">🔥</p>
-      <p style="margin:6px 0 0;font-family:Georgia,serif;font-size:14px;color:#e8d5b5;opacity:0.75;">Keep your prayer streak alive, visit Divya Stotram every day!</p>
-      <a href="${SITE_URL}" style="display:inline-block;margin-top:10px;color:#c9922a;font-size:12px;text-decoration:underline;">divyastotram.com</a>
+      <p style="margin:0;font-size:22px;">🔥 <span style="font-family:Georgia,serif;font-size:26px;color:#f0c040;">${streakNum}</span></p>
+      <p style="margin:6px 0 0;font-family:Georgia,serif;font-size:14px;color:#e8d5b5;opacity:0.85;">${streakLine}</p>
+      <a href="${link('/')}" style="display:inline-block;margin-top:10px;color:#c9922a;font-size:12px;text-decoration:underline;">divyastotram.com</a>
     </td>
   </tr>
 
@@ -369,9 +444,10 @@ function buildEmailHtml(stotram, message, email) {
       <div style="background:linear-gradient(90deg,#c9922a,#f0c040,#e8760a,#f0c040,#c9922a);height:2px;margin-bottom:16px;border-radius:2px;"></div>
       <p style="margin:0 0 6px;font-size:11px;color:#c9922a;letter-spacing:2px;text-transform:uppercase;">🕉️ Divya Stotram</p>
       <p style="margin:0 0 8px;font-size:11px;color:#e8d5b5;opacity:0.4;">Sacred Hindu Prayers in English, Hindi, Odia & Telugu</p>
-      <p style="margin:0;font-size:10px;color:#e8d5b5;opacity:0.3;">
-        You received this because you subscribed at divyastotram.com · 
-        <a href="${unsubUrl}" style="color:#c9922a;opacity:0.6;text-decoration:underline;">Unsubscribe</a>
+      <p style="margin:0 0 12px;font-size:12px;line-height:1.6;color:#e8d5b5;opacity:0.7;">Want these in your Primary tab? Drag this email to Primary and tap Yes. Or reply with a hello, it helps too.</p>
+      <p style="margin:0;font-size:12px;line-height:1.6;color:#e8d5b5;opacity:0.7;">
+        You received this because you subscribed at divyastotram.com.<br/>
+        <a href="${unsubUrl}" style="color:#f0c040;text-decoration:underline;">Unsubscribe</a>
       </p>
     </td>
   </tr>
@@ -424,13 +500,13 @@ export function emailConfigStatus() {
   };
 }
 
-function payloadFor(email, stotram, message) {
+function payloadFor(email, stotram, message, extras) {
   return {
     from: EMAIL_FROM,
     to: email,
     replyTo: REPLY_TO,
     subject: `🕉️ Today's Sacred Prayer | ${stotram.name} | ${getDayName()}`,
-    html: buildEmailHtml(stotram, message, email),
+    html: buildEmailHtml(stotram, message, email, { ...extras, sid: sidFor(email) }),
     headers: unsubscribeHeaders(email),
   };
 }
@@ -445,15 +521,29 @@ export async function sendDailyEmails({ onlyEmail = null } = {}) {
   const stotram = getTodayStotram();
   const message = getTodayMessage();
 
+  const subs = await getAllSubscribers();
+  const streaks = {};
+  for (const sub of subs) streaks[String(sub.email).trim().toLowerCase()] = liveStreak(sub.streak);
+
   let emails;
   if (onlyEmail) {
     const e = String(onlyEmail).trim().toLowerCase();
     if (!EMAIL_RE.test(e)) return { ok: false, status: 400, error: 'Invalid email address' };
     emails = [e];
   } else {
-    const subs = await getAllSubscribers();
     emails = [...new Set(subs.map((s) => String(s.email).trim().toLowerCase()).filter((e) => EMAIL_RE.test(e)))];
   }
+
+  // Lets the private reader id in each email link find its subscriber. One request for everyone.
+  const index = {};
+  for (const e of emails) {
+    const id = sidFor(e);
+    if (id) index[id] = emailKey(e);
+  }
+  if (Object.keys(index).length) await fbPatch('sidIndex', index);
+
+  const shared = { festival: upcomingFestival(), newGuides: newestGuides() };
+  const extrasFor = (e) => ({ ...shared, streak: streaks[e] || { count: 0, readToday: false } });
 
   if (emails.length === 0) return { ok: true, message: 'No subscribers yet', sent: 0, failed: 0, total: 0 };
 
@@ -462,7 +552,7 @@ export async function sendDailyEmails({ onlyEmail = null } = {}) {
   const errors = [];
 
   if (emails.length === 1) {
-    const { error } = await resend.emails.send(payloadFor(emails[0], stotram, message));
+    const { error } = await resend.emails.send(payloadFor(emails[0], stotram, message, extrasFor(emails[0])));
     if (error) {
       failed = 1;
       errors.push(error.message || String(error.name || 'Send failed'));
@@ -474,7 +564,7 @@ export async function sendDailyEmails({ onlyEmail = null } = {}) {
     for (let i = 0; i < emails.length; i += 100) {
       const chunk = emails.slice(i, i + 100);
       try {
-        const { error } = await resend.batch.send(chunk.map((e) => payloadFor(e, stotram, message)));
+        const { error } = await resend.batch.send(chunk.map((e) => payloadFor(e, stotram, message, extrasFor(e))));
         if (error) {
           failed += chunk.length;
           errors.push(error.message || String(error.name || 'Batch failed'));

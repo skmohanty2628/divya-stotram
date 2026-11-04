@@ -11,6 +11,7 @@ import StreakTracker from '@/components/StreakTracker';
 import { SubscribeInline } from '@/components/SubscribeWidget';
 import DailyPrayerSuggestions from '@/components/DailyPrayerSuggestions';
 import { LANGS, stotramPath } from '@/lib/site';
+import ReadingBar from '@/components/ReadingBar';
 
 import ReadingToolbar from '@/components/ReadingToolbar';
 
@@ -123,6 +124,7 @@ function StotramContent({ meta, verseData, top, children, htmlLang }) {
 
   return (
     <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-32" lang={htmlLang}>
+      <ReadingBar />
       <Breadcrumbs title={meta.title?.en} />
 
       <div className="flex items-center gap-4 pt-2 pb-5 border-b border-[#c9922a]/20 mb-5">

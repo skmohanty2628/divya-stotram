@@ -11,6 +11,10 @@ import FestivalCountdown from '@/components/FestivalCountdown';
 import { FESTIVAL_DATES } from '@/data/festival-dates';
 import PhotoCarousel from '@/components/PhotoCarousel';
 import { GUIDE_PHOTOS } from '@/data/guide-photos';
+import { commonsUrl } from '@/data/festival-photos';
+import ShareBar from '@/components/ShareBar';
+import ReadingBar from '@/components/ReadingBar';
+import GuideThumb from '@/components/GuideThumb';
 
 const idFor = (text) =>
   text
@@ -29,6 +33,15 @@ export default function GuidePageView({ slug }) {
     .map((s) => STOTRAMS_INDEX.find((x) => x.slug === s))
     .filter(Boolean);
   const relatedGuides = (guide.related?.guides || []).map(getGuideBySlug).filter(Boolean);
+  const sectionList = [...guide.sections.map((s) => ({ id: idFor(s.h), h: s.h })), { id: 'faq', h: 'Frequently asked questions' }];
+  const cat = GUIDES.filter((g) => g.category === guide.category);
+  const at = cat.findIndex((g) => g.slug === guide.slug);
+  const prevGuide = cat.length > 2 ? cat[(at - 1 + cat.length) % cat.length] : null;
+  const nextGuide = cat.length > 1 ? cat[(at + 1) % cat.length] : null;
+  const thumbOf = (g) => {
+    const ph = (GUIDE_PHOTOS[g.slug] || [])[0];
+    return ph ? commonsUrl(ph.file, 640) : null;
+  };
   const sameCategory = GUIDES.filter((g) => g.category === guide.category && g.slug !== guide.slug).slice(0, 3);
 
   const article = {
@@ -75,6 +88,7 @@ export default function GuidePageView({ slug }) {
       <JsonLd data={breadcrumb} />
       <JsonLd data={faq} />
 
+      <ReadingBar sections={sectionList} />
       <div className="mx-auto max-w-4xl px-4 pb-24 sm:px-6">
         <nav aria-label="Breadcrumb" className="pt-6 text-sm font-garamond text-[#8b1a00]/70">
           <Link href="/" className="hover:text-[#8b1a00]">Home</Link>
@@ -95,6 +109,9 @@ export default function GuidePageView({ slug }) {
             By the Divya Stotram editorial team · Updated {GUIDES_UPDATED} · {mins} min read ·{' '}
             <Link href="/editorial-policy" className="underline decoration-[#c9922a]/50">How we write</Link>
           </p>
+          <div className="mt-5">
+            <ShareBar url={url} title={guide.h1} label="Share this guide" />
+          </div>
         </header>
 
         {FESTIVAL_DATES.some((f) => f.slug === guide.slug) && <FestivalCountdown slug={guide.slug} heading="Coming up" />}
@@ -179,6 +196,31 @@ export default function GuidePageView({ slug }) {
             </p>
           </Card>
         )}
+
+        {!!(prevGuide || nextGuide) && (
+          <nav aria-label="Previous and next guide" className="mt-12 grid gap-4 sm:grid-cols-2">
+            {prevGuide && prevGuide.slug !== nextGuide?.slug ? (
+              <Link href={`/${prevGuide.slug}`} className="group rounded-2xl border border-[#c9922a]/25 bg-white p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:border-[#c9922a] hover:shadow-md">
+                <GuideThumb src={thumbOf(prevGuide)} />
+                <p className="mt-3 font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#e8760a]">← Previous in {guide.category}</p>
+                <p className="mt-1 font-cinzel text-base font-bold leading-snug text-[#8b1a00]">{prevGuide.h1}</p>
+              </Link>
+            ) : (
+              <span />
+            )}
+            {nextGuide && (
+              <Link href={`/${nextGuide.slug}`} className="group rounded-2xl border border-[#c9922a]/25 bg-white p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:border-[#c9922a] hover:shadow-md sm:text-right">
+                <GuideThumb src={thumbOf(nextGuide)} />
+                <p className="mt-3 font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#e8760a]">Next in {guide.category} →</p>
+                <p className="mt-1 font-cinzel text-base font-bold leading-snug text-[#8b1a00]">{nextGuide.h1}</p>
+              </Link>
+            )}
+          </nav>
+        )}
+
+        <div className="mt-10 rounded-2xl border border-[#c9922a]/25 bg-[#fffaf1] p-5">
+          <ShareBar url={url} title={guide.h1} label="Found this useful? Share it" />
+        </div>
 
         {!!(relatedGuides.length || sameCategory.length) && (
           <section className="mt-12">

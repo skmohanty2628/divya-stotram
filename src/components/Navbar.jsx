@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import TodayBanner from '@/components/TodayBanner';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Search, X, Menu } from 'lucide-react';
@@ -376,6 +377,7 @@ export default function Navbar() {
       </div>
 
       <div className="h-16" />
+      <TodayBanner />
     </>
   );
 }

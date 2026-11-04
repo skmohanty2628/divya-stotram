@@ -233,12 +233,20 @@ function upcomingFestival() {
   return best;
 }
 
+// Cuts at a word boundary so the line never ends mid-word.
+function shortBlurb(text, max = 140) {
+  const t = String(text || '').trim();
+  if (t.length <= max) return t;
+  const cut = t.slice(0, max);
+  return cut.slice(0, Math.max(cut.lastIndexOf(' '), 40)).replace(/[,;:\s]+$/, '') + '...';
+}
+
 // The two newest guides (new guides are appended to the end of the list).
 function newestGuides() {
   return GUIDES_LEARN.slice(-2).reverse().map((g) => ({
     slug: g.slug,
     title: g.title,
-    blurb: String(g.description || '').slice(0, 150),
+    blurb: shortBlurb(g.description),
   }));
 }
 

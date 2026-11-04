@@ -1,5 +1,6 @@
 import { Resend } from 'resend';
 import { clientIp, rateLimit } from '@/lib/rateLimit';
+import { EMAIL_FROM, REPLY_TO, unsubscribeUrl, unsubscribeHeaders } from '@/lib/emailTokens';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
@@ -94,10 +95,13 @@ export async function POST(request) {
     // ── 5. Send welcome email ─────────────────────────────────────────────────
     const resendKey = process.env.RESEND_API_KEY;
     if (resendKey) {
+     try {
       const resend = new Resend(resendKey);
 
-      await resend.emails.send({
-        from: 'Divya Stotram <contactdivyastotram@gmail.com>',
+      const welcome = await resend.emails.send({
+        from: EMAIL_FROM,
+        replyTo: REPLY_TO,
+        headers: unsubscribeHeaders(email),
         to: email,
         subject: '🙏 Welcome to Divya Stotram | Your Daily Devotional Has Begun!',
         html: `
@@ -123,19 +127,26 @@ export async function POST(request) {
               </a>
             </div>
             <p style="font-size: 12px; color: #c9922a; text-align: center; margin-top: 24px;">
-              You can unsubscribe at any time by replying with "unsubscribe".
+              You can <a href="${unsubscribeUrl(email)}" style="color: #c9922a;">unsubscribe</a> at any time.
             </p>
           </div>
         `,
       });
 
+      // Resend returns errors instead of throwing. The subscriber is already saved, so a failed email never blocks sign-up.
+      if (welcome?.error) console.error('Welcome email failed:', welcome.error);
+
       // Admin notification
-      await resend.emails.send({
-        from: 'Divya Stotram <contactdivyastotram@gmail.com>',
+      const note = await resend.emails.send({
+        from: EMAIL_FROM,
         to: 'contactdivyastotram@gmail.com',
         subject: `🔔 New Subscriber | ${email}`,
         html: `<p>New subscriber: <strong>${email}</strong></p><p>Time: ${new Date().toISOString()}</p>`,
       });
+      if (note?.error) console.error('Admin notification failed:', note.error);
+     } catch (e) {
+      console.error('Email step failed:', e);
+     }
     }
 
     return Response.json({ ok: true, message: 'Subscribed successfully.' });

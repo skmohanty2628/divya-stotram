@@ -33,6 +33,7 @@ import {
 } from 'lucide-react';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 import AdminFeedback from '@/components/AdminFeedback';
+import AdminEmail from '@/components/AdminEmail';
 
 const AUTO_REFRESH_MS = 10_000;
 
@@ -1204,6 +1205,9 @@ export default function AdminPage() {
                 </p>
               </div>
             )}
+
+            <SectionTitle icon={Mail}>Daily Email</SectionTitle>
+            <AdminEmail />
 
             <SectionTitle icon={Star}>Reader Feedback</SectionTitle>
             <AdminFeedback />

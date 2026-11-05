@@ -1,12 +1,13 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import ReaderModeButton from '@/components/ReaderMode';
 
 const KEY = 'ds_text_zoom';
 const STEPS = [0.9, 1, 1.15, 1.3, 1.5];
 
 // Reader controls: text size, save as PDF (browser print), WhatsApp share, jump to the japa counter.
-export default function ReadingToolbar({ title }) {
+export default function ReadingToolbar({ title, readerTitle, verses }) {
   const [step, setStep] = useState(1);
 
   useEffect(() => {
@@ -43,6 +44,7 @@ export default function ReadingToolbar({ title }) {
           A+
         </button>
       </div>
+      <ReaderModeButton title={readerTitle || title} verses={verses} className={btn} />
       <button className={btn} onClick={() => window.print()}>
         ⬇ Save as PDF
       </button>

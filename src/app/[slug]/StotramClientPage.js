@@ -142,7 +142,7 @@ function StotramContent({ meta, verseData, top, children, htmlLang }) {
 
       <LanguageTabs slug={meta.slug} />
 
-      <ReadingToolbar title={meta.title?.en || 'this stotram'} />
+      <ReadingToolbar title={meta.title?.en || 'this stotram'} readerTitle={meta.title?.[lang] || meta.title?.en} verses={verses} />
 
       {top}
 

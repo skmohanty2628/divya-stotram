@@ -7,6 +7,7 @@ import { LangProvider, useLang } from '@/components/LanguageSwitcher';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 import { GUIDES, getGuideBySlug } from '@/data/guides';
 import { SubscribeInline } from '@/components/SubscribeWidget';
+import VerseOfTheDay from '@/components/VerseOfTheDay';
 import { stotramPath, LANGS } from '@/lib/site';
 
 // Traditional weekday associations (shown as tradition, not as a promise of results).
@@ -184,6 +185,7 @@ export default function HomePageClient() {
       <div className="min-h-screen bg-[#fdf6e3]">
         <Navbar />
         <Hero />
+        <VerseOfTheDay />
         <StotramGrid />
         <GuidesSection />
         <Languages />

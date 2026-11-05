@@ -71,7 +71,7 @@ export const vishnuSahasranamam = {
       transliteration: 'Svayambhooh Shambhuh Aadityah Pushkaraaksho Mahaasvanah\nAnaadi Nidhano Dhaataa Vidhaataa Dhaaturuttamah',
       original: 'स्वयम्भूः शम्भुरादित्यः पुष्कराक्षो महास्वनः।\nअनादिनिधनो धाता विधाता धातुरुत्तमः॥',
       script: {
-        od: 'ସ୍ୱୟମ୍ ଭୂଃ ଶମ୍ଭୁ ରାଦିତ୍ୟଃ ପୁଷ୍କ ରାକ୍ଷୋ ମହାସ୍ୱନଃ।\nଅନାଦି ନିଧ ନୋ ଧାତା ବିଧାତା ଧାତୁ ରୁ ତ୍ ତ ମ ଃ॥',
+        od: 'ସ୍ୱୟମ୍ଭୂଃ ଶମ୍ଭୁରାଦିତ୍ୟଃ ପୁଷ୍କରାକ୍ଷୋ ମହାସ୍ୱନଃ।\nଅନାଦିନିଧନୋ ଧାତା ବିଧାତା ଧାତୁରୁତ୍ତମଃ॥',
         te: 'స్వయంభూః శంభురాదిత్యః పుష్కరాక్షో మహాస్వనః।\nఅనాదినిధనో ధాతా విధాతా ధాతురుత్తమః॥',
       },
       meaning: {
@@ -86,7 +86,7 @@ export const vishnuSahasranamam = {
       transliteration: 'Aprameyah Hrisheekeshaha Padmanabhah Amaraprabhuh\nVishvakarmaa Manuh Tvashtaa Sthavishtah Sthaviro Dhruvah',
       original: 'अप्रमेयो हृषीकेशः पद्मनाभोऽमरप्रभुः।\nविश्वकर्मा मनुस्त्वष्टा स्थविष्ठः स्थविरो ध्रुवः॥',
       script: {
-        od: 'ଅପ୍ରମେୟୋ ହୃଷୀ କ େ ଶ ଃ ପଦ୍ ମ ନ ା ଭ ୋ ଽ ମ ର ପ ୍ ର ଭ ୁ ଃ।\nବ ି ଶ ୍ ୱ କ ର ୍ ମ ା ମ ନ ୁ ସ ୍ ତ ୱ ଷ ୍ ଠ ା ସ ୍ ଥ ବ ି ଷ ୍ ଠ ଃ ସ ୍ ଥ ବ ି ର ୋ ଧ ୍ ର ୁ ବ ଃ॥',
+        od: 'ଅପ୍ରମେୟୋ ହୃଷୀକେଶଃ ପଦ୍ମନାଭୋଽମରପ୍ରଭୁଃ।\nବିଶ୍ୱକର୍ମା ମନୁସ୍ତ୍ୱଷ୍ଟା ସ୍ଥବିଷ୍ଠଃ ସ୍ଥବିରୋ ଧ୍ରୁବଃ॥',
         te: 'అప్రమేయో హృషీకేశః పద్మనాభోఽమరప్రభుః।\nవిశ్వకర్మా మనుస్త్వష్టా స్థవిష్ఠః స్థవిరో ధ్రువః॥',
       },
       meaning: {
@@ -101,7 +101,7 @@ export const vishnuSahasranamam = {
       transliteration: 'Agrahyah Shaashvatah Krishno Lohitaakshah Pratardanah\nPrabhootas Trikakubbdhaamah Pavitram Mangalam Param',
       original: 'अग्राह्यः शाश्वतः कृष्णो लोहिताक्षः प्रतर्दनः।\nप्रभूतस्त्रिककुब्धाम पवित्रं मंगलं परम्॥',
       script: {
-        od: 'ଅ ଗ ୍ ର ା ହ ୍ ୟ ଃ ଶ ା ଶ ୍ ୱ ତ ଃ କ ୃ ଷ ୍ ଣ ୋ ଲ ୋ ହ ି ତ ା କ ୍ ଷ ଃ ପ ୍ ର ତ ର ୍ ଦ ନ ଃ।\nପ ୍ ର ଭ ୂ ତ ସ ୍ ତ ୍ ର ି କ କ ୁ ବ ୍ ଧ ା ମ ପ ବ ି ତ ୍ ର ଂ ମ ଂ ଗ ଳ ଂ ପ ର ମ ୍॥',
+        od: 'ଅଗ୍ରାହ୍ୟଃ ଶାଶ୍ୱତଃ କୃଷ୍ଣୋ ଲୋହିତାକ୍ଷଃ ପ୍ରତର୍ଦନଃ।\nପ୍ରଭୂତସ୍ତ୍ରିକକୁବ୍ଧାମ ପବିତ୍ରଂ ମଂଗଲଂ ପରମ୍॥',
         te: 'అగ్రాహ్యః శాశ్వతః కృష్ణో లోహితాక్షః ప్రతర్దనః।\nప్రభూతస్త్రికకుబ్ధామ పవిత్రం మంగళం పరం॥',
       },
       meaning: {
@@ -116,7 +116,7 @@ export const vishnuSahasranamam = {
       transliteration: 'Eeshaanah Praanadah Praano Jyeshthah Shreshthah Prajaapatih\nHiranyagarbho Bhoogarbho Maadhavo Madhusoodanah',
       original: 'ईशानः प्राणदः प्राणो ज्येष्ठः श्रेष्ठः प्रजापतिः।\nहिरण्यगर्भो भूगर्भो माधवो मधुसूदनः॥',
       script: {
-        od: 'ଈ ଶ ା ନ ଃ ପ ୍ ର ା ଣ ଦ ଃ ପ ୍ ର ା ଣ ୋ ଜ ୍ ୟ େ ଷ ୍ ଠ ଃ ଶ ୍ ର େ ଷ ୍ ଠ ଃ ପ ୍ ର ଜ ା ପ ତ ି ଃ।\nହ ି ର ଣ ୍ ୟ ଗ ର ୍ ଭ ୋ ଭ ୂ ଗ ର ୍ ଭ ୋ ମ ା ଧ ବ ୋ ମ ଧ ୁ ସ ୂ ଦ ନ ଃ॥',
+        od: 'ଈଶାନଃ ପ୍ରାଣଦଃ ପ୍ରାଣୋ ଜ୍ୟେଷ୍ଠଃ ଶ୍ରେଷ୍ଠଃ ପ୍ରଜାପତିଃ।\nହିରଣ୍ୟଗର୍ଭୋ ଭୂଗର୍ଭୋ ମାଧବୋ ମଧୁସୂଦନଃ॥',
         te: 'ఈశానః ప్రాణదః ప్రాణో జ్యేష్ఠః శ్రేష్ఠః ప్రజాపతిః।\nహిరణ్యగర్భో భూగర్భో మాధవో మధుసూదనః॥',
       },
       meaning: {
@@ -131,7 +131,7 @@ export const vishnuSahasranamam = {
       transliteration: 'Eeshvaro Vikramee Dhanvee Medhaavee Vikramah Kramah\nAnuttamo Duraadharshah Kritajnah Kritiratmavaan',
       original: 'ईश्वरो विक्रमी धन्वी मेधावी विक्रमः क्रमः।\nअनुत्तमो दुराधर्षः कृतज्ञः कृतिरात्मवान्॥',
       script: {
-        od: 'ଈ ଶ ୍ ୱ ର ୋ ବ ି କ ୍ ର ମ ୀ ଧ ନ ୍ ୱ ୀ ମ େ ଧ ା ବ ୀ ବ ି କ ୍ ର ମ ଃ କ ୍ ର ମ ଃ।\nଅ ନ ୁ ତ ୍ ତ ମ ୋ ଦ ୁ ର ା ଧ ର ୍ ଷ ଃ କ ୃ ତ ଜ ୍ ଞ ଃ କ ୃ ତ ି ର ା ତ ୍ ମ ବ ା ନ ୍॥',
+        od: 'ଈଶ୍ୱରୋ ବିକ୍ରମୀ ଧନ୍ୱୀ ମେଧାବୀ ବିକ୍ରମଃ କ୍ରମଃ।\nଅନୁତ୍ତମୋ ଦୁରାଧର୍ଷଃ କୃତଜ୍ଞଃ କୃତିରାତ୍ମବାନ୍॥',
         te: 'ఈశ్వరో విక్రమీ ధన్వీ మేధావీ విక్రమః క్రమః।\nఅనుత్తమో దురాధర్షః కృతజ్ఞః కృతిరాత్మవాన్॥',
       },
       meaning: {
@@ -146,7 +146,7 @@ export const vishnuSahasranamam = {
       transliteration: 'Sureshaha Sharanam Sharma Vishvaretaah Prajaabhavah\nAhah Samvatsaro Vyaalah Pratyayah Sarvadarshanah',
       original: 'सुरेशः शरणं शर्म विश्वरेताः प्रजाभवः।\nअहः संवत्सरो व्यालः प्रत्ययः सर्वदर्शनः॥',
       script: {
-        od: 'ସ ୁ ର େ ଶ ଃ ଶ ର ଣ ଂ ଶ ର ୍ ମ ବ ି ଶ ୍ ୱ ର େ ତ ା ଃ ପ ୍ ର ଜ ା ଭ ବ ଃ।\nଅ ହ ଃ ସ ଂ ବ ତ ୍ ସ ର ୋ ବ ୍ ୟ ା ଳ ଃ ପ ୍ ର ତ ୍ ୟ ୟ ଃ ସ ର ୍ ବ ଦ ର ୍ ଶ ନ ଃ॥',
+        od: 'ସୁରେଶଃ ଶରଣଂ ଶର୍ମ ବିଶ୍ୱରେତାଃ ପ୍ରଜାଭବଃ।\nଅହଃ ସଂବତ୍ସରୋ ବ୍ୟାଲଃ ପ୍ରତ୍ୟୟଃ ସର୍ବଦର୍ଶନଃ॥',
         te: 'సురేశః శరణం శర్మ విశ్వరేతాః ప్రజాభవః।\nఅహః సంవత్సరో వ్యాళః ప్రత్యయః సర్వదర్శనః॥',
       },
       meaning: {
@@ -161,7 +161,7 @@ export const vishnuSahasranamam = {
       transliteration: 'Ajah Sarveshvarah Siddhah Siddhih Sarvaadira Achyutah\nVrishakaapir Ameyaatmaa Sarvayoga Vinihsritah',
       original: 'अजः सर्वेश्वरः सिद्धः सिद्धिः सर्वादिरच्युतः।\nवृषाकपिरमेयात्मा सर्वयोगविनिःसृतः॥',
       script: {
-        od: 'ଅ ଜ ଃ ସ ର ୍ ବ େ ଶ ୍ ୱ ର ଃ ସ ି ଦ ୍ ଧ ଃ ସ ି ଦ ୍ ଧ ି ଃ ସ ର ୍ ବ ା ଦ ି ର ଚ ୍ ୟ ୁ ତ ଃ।\nବ ୃ ଷ ା କ ପ ି ର ମ େ ୟ ା ତ ୍ ମ ା ସ ର ୍ ବ ଯ ୋ ଗ ବ ି ନ ି ଃ ସ ୃ ତ ଃ॥',
+        od: 'ଅଜଃ ସର୍ବେଶ୍ୱରଃ ସିଦ୍ଧଃ ସିଦ୍ଧିଃ ସର୍ବାଦିରଚ୍ୟୁତଃ।\nବୃଷାକପିରମେୟାତ୍ମା ସର୍ବୟୋଗବିନିଃସୃତଃ॥',
         te: 'అజః సర్వేశ్వరః సిద్ధః సిద్ధిః సర్వాదిరచ్యుతః।\nవృషాకపిరమేయాత్మా సర్వయోగవినిఃసృతః॥',
       },
       meaning: {
@@ -176,7 +176,7 @@ export const vishnuSahasranamam = {
       transliteration: 'Vasur Vasumanaah Satyah Samaatmaa Sammitah Samah\nAmoghah Pundareekaakshah Vrishakarmaa Vrishaakritih',
       original: 'वसुर्वसुमनाः सत्यः समात्मा सम्मितः समः।\nअमोघः पुण्डरीकाक्षः वृषकर्मा वृषाकृतिः॥',
       script: {
-        od: 'ବ ସ ୁ ର ୍ ବ ସ ୁ ମ ନ ା ଃ ସ ତ ୍ ୟ ଃ ସ ମ ା ତ ୍ ମ ା ସ ମ ୍ ମ ି ତ ଃ ସ ମ ଃ।\nଅ ମ ୋ ଘ ଃ ପ ୁ ଣ ୍ ଡ ର ୀ କ ା କ ୍ ଷ ଃ ବ ୃ ଷ କ ର ୍ ମ ା ବ ୃ ଷ ା କ ୃ ତ ି ଃ॥',
+        od: 'ବସୁର୍ବସୁମନାଃ ସତ୍ୟଃ ସମାତ୍ମା ସମ୍ମିତଃ ସମଃ।\nଅମୋଘଃ ପୁଣ୍ଡରୀକାକ୍ଷଃ ବୃଷକର୍ମା ବୃଷାକୃତିଃ॥',
         te: 'వసుర్వసుమనాః సత్యః సమాత్మా సమ్మితః సమః।\nఅమోఘః పుండరీకాక్షః వృషకర్మా వృషాకృతిః॥',
       },
       meaning: {
@@ -191,7 +191,7 @@ export const vishnuSahasranamam = {
       transliteration: 'Rudro Bahushiraa Babhruh Vishvayonih Shuchishravaa\nAmritah Shashvatasthaanuh Varaaroho Mahatapaah',
       original: 'रुद्रो बहुशिरा बभ्रुर्विश्वयोनिः शुचिश्रवाः।\nअमृतः शाश्वतस्थाणुर्वरारोहो महातपाः॥',
       script: {
-        od: 'ର ୁ ଦ ୍ ର ୋ ବ ହ ୁ ଶ ି ର ା ବ ଭ ୍ ର ୁ ର ୍ ବ ି ଶ ୍ ୱ ଯ ୋ ନ ି ଃ ଶ ୁ ଚ ି ଶ ୍ ର ବ ା ଃ।\nଅ ମ ୃ ତ ଃ ଶ ା ଶ ୍ ୱ ତ ସ ୍ ଥ ା ଣ ୁ ର ୍ ବ ର ା ର ୋ ହ ୋ ମ ହ ା ତ ପ ା ଃ॥',
+        od: 'ରୁଦ୍ରୋ ବହୁଶିରା ବଭ୍ରୁର୍ବିଶ୍ୱୟୋନିଃ ଶୁଚିଶ୍ରବାଃ।\nଅମୃତଃ ଶାଶ୍ୱତସ୍ଥାଣୁର୍ବରାରୋହୋ ମହାତପାଃ॥',
         te: 'రుద్రో బహుశిరా బభ్రుర్విశ్వయోనిః శుచిశ్రవాః।\nఅమృతః శాశ్వతస్థాణుర్వరారోహో మహాతపాః॥',
       },
       meaning: {
@@ -206,7 +206,7 @@ export const vishnuSahasranamam = {
       transliteration: 'Sarvagah Sarvavidbhaanuh Vishvaksenah Janaardanah\nVedo Vedavid Avyangah Vedaangah Vedavit Kavih',
       original: 'सर्वगः सर्वविद्भानुर्विश्वक्सेनो जनार्दनः।\nवेदो वेदविदव्यंगो वेदांगो वेदवित्कविः॥',
       script: {
-        od: 'ସ ର ୍ ବ ଗ ଃ ସ ର ୍ ବ ବ ି ଦ ୍ ଭ ା ନ ୁ ର ୍ ବ ି ଶ ୍ ୱ କ ୍ ସ େ ନ ୋ ଜ ନ ା ର ୍ ଦ ନ ଃ।\nବ େ ଦ ୋ ବ େ ଦ ବ ି ଦ ବ ୍ ୟ ଂ ଗ ୋ ବ େ ଦ ା ଂ ଗ ୋ ବ େ ଦ ବ ି ତ ୍ କ ବ ି ଃ॥',
+        od: 'ସର୍ବଗଃ ସର୍ବବିଦ୍ଭାନୁର୍ବିଶ୍ୱକ୍ସେନୋ ଜନାର୍ଦନଃ।\nବେଦୋ ବେଦବିଦବ୍ୟଂଗୋ ବେଦାଂଗୋ ବେଦବିତ୍କବିଃ॥',
         te: 'సర్వగః సర్వవిద్భానుర్విశ్వక్సేనో జనార్దనః।\nవేదో వేదవిదవ్యంగో వేదాంగో వేదవిత్కవిః॥',
       },
       meaning: {
@@ -221,7 +221,7 @@ export const vishnuSahasranamam = {
       transliteration: 'Vanamaalee Gadee Shaarngee Shankhee Chakree Cha Nandakee\nShreem Aan Naaraayano Vishnur Vaasudevo Abhirakshatu',
       original: 'वनमाली गदी शार्ङ्गी शंखी चक्री च नन्दकी।\nश्रीमान् नारायणो विष्णुर्वासुदेवोऽभिरक्षतु॥',
       script: {
-        od: 'ବ ନ ମ ା ଳ ୀ ଗ ଦ ୀ ଶ ା ର ୍ ଙ ୍ ଗ ୀ ଶ ଂ ଖ ୀ ଚ କ ୍ ର ୀ ଚ ନ ନ ୍ ଦ କ ୀ।\nଶ ୍ ର ୀ ମ ା ନ ୍ ନ ା ର ା ୟ ଣ ୋ ବ ି ଷ ୍ ଣ ୁ ର ୍ ବ ା ସ ୁ ଦ େ ବ ୋ ଽ ଭ ି ର କ ୍ ଷ ତ ୁ॥',
+        od: 'ବନମାଲୀ ଗଦୀ ଶାର୍ଙ୍ଗୀ ଶଂଖୀ ଚକ୍ରୀ ଚ ନନ୍ଦକୀ।\nଶ୍ରୀମାନ୍ ନାରାୟଣୋ ବିଷ୍ଣୁର୍ବାସୁଦେବୋଽଭିରକ୍ଷତୁ॥',
         te: 'వనమాలీ గదీ శార్ంగీ శంఖీ చక్రీ చ నందకీ।\nశ్రీమాన్ నారాయణో విష్ణుర్వాసుదేవోఽభిరక్షతు॥',
       },
       meaning: {

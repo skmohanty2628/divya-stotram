@@ -3,7 +3,7 @@ import { GUIDES_TOPIC } from './guides-topic';
 import { GUIDES_PRACTICE } from './guides-practice';
 import { GUIDES_LEARN } from './guides-learn';
 
-export const GUIDES_UPDATED = '2026-10-17';
+export const GUIDES_UPDATED = '2026-11-05';
 
 export const GUIDES = [...GUIDES_DEITY, ...GUIDES_TOPIC, ...GUIDES_PRACTICE, ...GUIDES_LEARN];
 

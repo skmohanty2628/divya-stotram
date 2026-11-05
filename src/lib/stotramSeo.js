@@ -142,6 +142,11 @@ const SEO_COPY = {
     description:
       'Read Jagannath Ashtakam (जगन्नाथाष्टकम्), Kadachit Kalindi Tata Vipine, all eight verses and the closing verse in English, Hindi, Odia and Telugu with meaning, when it is recited, and a video to follow along.',
   },
+  'krishnashtakam': {
+    title: 'Krishnashtakam Lyrics in English, Hindi, Odia & Telugu with Meaning (Vasudeva Sutam Devam)',
+    description:
+      'Read Krishnashtakam (कृष्णाष्टकम्), Vasudeva Sutam Devam Kamsa Chanura Mardanam, all eight verses and the closing verse in English, Hindi, Odia and Telugu with meaning, when it is sung, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

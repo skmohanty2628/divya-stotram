@@ -567,70 +567,120 @@ export const GUIDES_LEARN = [
 
 
   {
-    slug: 'krishna-janmashtami-guide',
-    category: 'Festivals',
-    title: 'Krishna Janmashtami: Meaning, Midnight Worship, Fasting and What to Chant',
-    description:
-      'What Janmashtami celebrates, why worship is at midnight, how devotees fast, regional customs such as Dahi Handi, and the mantras and texts recited for Krishna.',
-    h1: 'Krishna Janmashtami: Meaning, Worship and What to Chant',
-    intro:
-      'Janmashtami celebrates the birth of Krishna, the eighth avatar of Vishnu in the tradition, and the teacher of the Bhagavad Gita. This guide explains the festival, how families observe it, and how to take part simply.',
-    sections: [
+    "slug": "krishna-janmashtami-guide",
+    "category": "Festivals",
+    "title": "Krishna Janmashtami: Meaning, Midnight Worship, Fasting, Puri Customs and What to Chant",
+    "description": "What Janmashtami celebrates, how the day is chosen, why worship is at midnight, how devotees fast, what happens at Puri and in other regions, Dahi Handi and Nanda Utsav, and the prayers recited for Krishna.",
+    "h1": "Krishna Janmashtami: Meaning, Worship and What to Chant",
+    "intro": "Janmashtami celebrates the birth of Krishna, regarded in the Vaishnava tradition as the eighth avatar of Vishnu and the teacher of the Bhagavad Gita. The festival is kept at midnight, because that is the hour of the birth in the story. This guide explains how the day is chosen, what the story says, how families and temples observe it, what is done at Puri in Odisha, and which prayers are recited, so that a reader can take part simply and with understanding.",
+    "sections": [
       {
-        h: 'When it falls',
-        p: [
-          `Janmashtami is observed on the eighth day (ashtami) of the dark fortnight in the month of Shravana or Bhadrapada, depending on the calendar, which usually places it in August or September. The date changes every year because the Hindu calendar is lunisolar. Because tradition places Krishna's birth at midnight, the exact timing of the ashtami at night is used to choose the day.`,
-        ],
+        "h": "When it falls",
+        "p": [
+          "Janmashtami is the eighth day, the Ashtami, of the dark fortnight of the lunar month. The month is called Shravana in the amanta calendar and Bhadrapada in the purnimanta calendar, and both names point to the same day, which usually falls in August or September. The date changes every year because the Hindu calendar follows both the moon and the sun. The Rohini nakshatra is linked with the birth, and one of the festival's names is Ashtami Rohini, though the sources checked do not explain exactly how the two are combined.",
+          "Because the birth is placed at midnight, the Ashtami that is present at night is the one used to choose the day. In 2026 two sources give Friday 4 September. It is wise to confirm each year's day on a local panchang before you plan. Temples in different regions sometimes keep the festival on different days."
+        ]
       },
       {
-        h: 'The story in brief',
-        p: [
-          `In the Bhagavata Purana, Krishna was born to Devaki and Vasudeva in the prison of Kamsa, the tyrannical king of Mathura, and was carried across the Yamuna to Gokul, where he grew up among cowherds. The festival remembers this birth and the childhood stories of the butter-loving child, the flute-player and, later, the charioteer who spoke the Gita to Arjuna.`,
-        ],
+        "h": "The story in brief",
+        "p": [
+          "In the Bhagavata Purana, Krishna is the eighth child of Devaki and Vasudeva. Her brother, King Kamsa of Mathura, had heard a prophecy that her eighth son would kill him, so he imprisoned the couple and killed their first six children. Krishna was born in the prison at midnight. In the story the guards fell asleep and the doors opened, and Vasudeva carried the newborn across the Yamuna, which was in flood, to Gokul, where he was raised by Yashoda and Nanda.",
+          "The festival remembers this birth and the stories of the butter-loving child, the flute player and the cowherd. It also remembers the charioteer who spoke the Gita to Arjuna. Which of these a family tells most depends on the home and the region."
+        ]
       },
       {
-        h: 'How devotees observe the day',
-        p: [
-          `Many people fast until midnight, then break the fast after the birth ceremony with fruit, milk sweets and prasad. Homes and temples decorate a cradle with a small image of baby Krishna, sing bhajans, and rock the cradle at midnight. Children are sometimes dressed as Krishna and Radha. Fasting is optional, and anyone unwell, pregnant, elderly or on medication should eat appropriately.`,
-        ],
+        "h": "Midnight worship at home and in temples",
+        "p": [
+          "Devotees keep a vigil in the evening and sing bhajans until midnight. At the hour of birth, the image of the infant Krishna is bathed, dressed and placed in a cradle. A common home order is to decorate a small cradle, bathe the image with panchamrita, then with clean water, offer butter, sugar candy, tulasi and flowers, perform aarti and rock the cradle gently. After that the family shares prasad.",
+          "Children are often dressed as Krishna and Radha. Lamps and flowers are used in homes and temples. The details vary from family to family and none of them is needed to take part."
+        ]
       },
       {
-        h: 'Regional customs',
-        p: [
-          `In Maharashtra and Gujarat the day after is celebrated with Dahi Handi, in which human pyramids try to break a pot of curd hung high above, recalling Krishna's childhood love of butter. In Mathura and Vrindavan there are elaborate temple celebrations. In Odisha and Bengal, devotees often keep a night vigil with kirtan, and in South India households draw small footprints leading into the home.`,
-        ],
+        "h": "Fasting on Janmashtami",
+        "p": [
+          "Many people fast through the day, taking only fruit and water, and break the fast after the midnight worship with prasad. Others fast only until the evening. Fasting is a personal custom and not a requirement. People who are unwell, pregnant, elderly or on medication should eat sensibly, and a fast can be kept by giving up one kind of food or by simple remembrance of Krishna through the day."
+        ]
       },
       {
-        h: 'What to chant',
-        p: [
-          `The most common mantra is Om Namo Bhagavate Vasudevaya, the twelve-syllable mantra of Vishnu and Krishna. Others recite the Hare Krishna maha-mantra, passages of the Bhagavad Gita, or the Vishnu Sahasranamam. Read the meaning of whatever you chant so that it is more than sound.`,
-        ],
+        "h": "Nanda Utsav and Dahi Handi",
+        "p": [
+          "The day after Janmashtami is called Nandotsav or Nanda Utsav in the north, a celebration for Krishna's foster parents Nanda and Yashoda. In Odisha the same day is called Nanda Ucchhaba. Dahi Handi is held on this day in the north and is especially popular in Maharashtra. A clay pot of buttermilk is hung high and teams build human pyramids to break it, which recalls the child Krishna stealing butter. The contents are treated as prasad."
+        ]
       },
+      {
+        "h": "Janmashtami at Puri",
+        "p": [
+          "At the Shree Jagannath Temple in Puri, where Krishna is worshipped as Lord Jagannath, a news report from 2026 describes public darshan being suspended from about 7 pm until midnight, from the evening Sandhya Dhupa until the ceremony called Krishna Janma Niti is complete. After the Jaya Bijaya Dwara, one of the temple doors, is closed, two senior temple servants dressed as Devaki and Vasudeva perform the birth rituals. Nandotsav and the start of the Krishna Leela rituals follow the next day. The Math temples and Gaudiya Math centres in Puri hold bhajan and kirtan, and the ISKCON temple in Bhubaneswar opens early and holds midnight celebrations.",
+          "Wikipedia adds that in Odisha devotees fast and worship until midnight, the Bhagavata Purana is recited, and the festival is also known as Sri Krishna Jayanti. For how the Jagannath hymns relate to Krishna, see the Jagannath Ashtakam guide linked below."
+        ]
+      },
+      {
+        "h": "Customs in other regions",
+        "p": [
+          "Dance dramas called Rasa Lila or Krishna Lila are staged in the north, especially around Mathura and in Manipur, Assam, Rajasthan and Gujarat, and often start days before the festival. In Tamil Nadu, kolams and small footprints are drawn from the door to the prayer room. In Gujarat, Makhan Handi is held at Dwarka and bullock carts are decorated in Kutch. In Andhra Pradesh and Telangana boys dress as Krishna and visit neighbours. In Kashmir, Pandits call the day Zaram Satam and visit a Krishna temple at midnight. In Assam and Manipur, namghars, Raas Leela and vigils mark the day."
+        ]
+      },
+      {
+        "h": "What to chant and read",
+        "p": [
+          "The usual mantra is Om Namo Bhagavate Vasudevaya, the twelve-syllable mantra of Vishnu and Krishna, and the Hare Krishna maha-mantra is also widely sung. Hymns on this site that suit the day include the Krishnashtakam, which describes Krishna from head to foot in eight verses, the Krishna Vasudevaya mantra and the Vishnu Sahasranamam. Read the meaning of whatever you chant so that it is more than sound, and note that no source promises a worldly result from the festival."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Why is Krishna worshipped at midnight?',
-        a: 'Tradition says Krishna was born at midnight, so the birth ceremony is held then.',
+        "q": "Why is Krishna worshipped at midnight?",
+        "a": "Tradition says Krishna was born at midnight in the prison of Kamsa, so the birth ceremony is held at that hour."
       },
       {
-        q: 'Do I have to fast on Janmashtami?',
-        a: 'No. Fasting is a common custom, but it is personal and optional.',
+        "q": "Do I have to fast on Janmashtami?",
+        "a": "No. Fasting is a common custom, but it is personal and optional. Many people fast until midnight and break the fast with prasad."
       },
       {
-        q: 'What is the difference between Janmashtami and Gokulashtami?',
-        a: 'They are two names for the same festival; Gokulashtami is common in the south and Maharashtra.',
+        "q": "What is the difference between Janmashtami and Gokulashtami?",
+        "a": "They are two names for the same festival. Other names include Sri Krishna Jayanti, used in Odisha, and Ashtami Rohini."
       },
+      {
+        "q": "What is Nanda Utsav?",
+        "a": "It is the day after Janmashtami, which celebrates Krishna's foster parents Nanda and Yashoda. In Odisha it is called Nanda Ucchhaba."
+      },
+      {
+        "q": "What is Dahi Handi?",
+        "a": "A custom on the day after Janmashtami, popular in Maharashtra, in which teams build a human pyramid to break a pot of buttermilk hung high, recalling Krishna's love of butter."
+      },
+      {
+        "q": "When is Janmashtami in 2026?",
+        "a": "Two sources gave Friday 4 September 2026, and the festival is kept on the Ashtami present at midnight. Check a local panchang for the day in future years."
+      },
+      {
+        "q": "Which prayers are suitable?",
+        "a": "Om Namo Bhagavate Vasudevaya, the Hare Krishna maha-mantra, the Krishnashtakam and the Vishnu Sahasranamam are common choices. Nothing is compulsory."
+      }
     ],
-    related: {
-      stotrams: ['krishna-vasudevaya-mantra', 'hare-krishna-maha-mantra', 'vishnu-sahasranamam'],
-      guides: ['how-to-chant-vishnu-mantra', 'vishnu-sahasranamam-benefits'],
+    "related": {
+      "stotrams": [
+        "krishna-vasudevaya-mantra",
+        "krishnashtakam",
+        "hare-krishna-maha-mantra",
+        "vishnu-sahasranamam",
+        "jagannath-ashtakam"
+      ],
+      "guides": [
+        "how-to-chant-vishnu-mantra",
+        "vishnu-sahasranamam-benefits",
+        "jagannath-ashtakam-meaning-and-story",
+        "jagannath-ratha-yatra-puri-guide",
+        "ekadashi-vrat-guide"
+      ]
     },
-    sources: [
-      'Bhagavata Purana, Tenth Canto (the birth and childhood of Krishna)',
-      'Kane, P.V., History of Dharmasastra, Vol. V (Krishna Janmashtami)',
-    ],
+    "sources": [
+      "Bhagavata Purana, Tenth Canto (the birth and childhood of Krishna)",
+      "Wikipedia, Krishna Janmashtami",
+      "HinduTone, Krishna Janmashtami 2026: Date, Midnight Puja, Story and Mantra",
+      "OdishaBytes, Odisha Celebrates Janmashtami: Puri Jagannath Temple Closes Evening Darshan for Birth Rituals (2026)",
+      "Kane, P.V., History of Dharmasastra, Vol. V (Krishna Janmashtami)"
+    ]
   },
-
   {
     slug: 'rama-navami-guide',
     category: 'Festivals',
@@ -875,7 +925,7 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra'],
+      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'krishnashtakam'],
       guides: ['how-to-chant-vishnu-mantra', 'vishnu-sahasranamam-benefits'],
     },
     sources: [
@@ -4000,8 +4050,7 @@ export const GUIDES_LEARN = [
       "stotrams": [
         "jagannath-ashtakam",
         "vishnu-sahasranamam",
-        "krishna-vasudevaya-mantra"
-      ],
+        "krishna-vasudevaya-mantra", "krishnashtakam"],
       "guides": [
         "jagannath-ratha-yatra-puri-guide",
         "nabakalebara-puri-jagannath-guide",
@@ -4013,6 +4062,223 @@ export const GUIDES_LEARN = [
       "sanskritdocuments.org, jagannAthAShTaka",
       "Hinduism Outlook, Jagannath Ashtakam: Lyrics, Meaning",
       "Wikipedia, Govardhan Math"
+    ]
+  },
+  {
+    "slug": "panchuka-kartika-last-five-days-odisha-guide",
+    "category": "Odisha festivals",
+    "title": "Panchuka in Odisha: The Last Five Days of Kartika, Habisha and the Daily Beshas of Puri",
+    "description": "What Panchuka is, when the five days fall, why many Odias give up fish and meat, how Habisha is eaten, the five daily Beshas of Lord Jagannath at Puri and how the days lead to Kartika Purnima.",
+    "h1": "Panchuka: The Five Holiest Days of Kartika in Odisha",
+    "intro": "In Odisha the last five days of the month of Kartika are called Panchuka. They begin on the bright-fortnight Ekadashi and end on Kartika Purnima, the full moon that closes the month. Many families who have not kept the whole month's vows keep these five days, and at Puri the temple shows Lord Jagannath in a different dress each day. This guide explains what the days are, what people eat and avoid, what is seen at Puri and how the dates are worked out, and it says where the sources differ.",
+    "sections": [
+      {
+        "h": "What Panchuka is",
+        "p": [
+          "Panchuka means the five days at the end of Kartika. Every source checked agrees on the span: it starts on Kartika Shukla Ekadashi, the eleventh day of the bright half, and finishes on Kartika Purnima. The same period is also called Bhishma Panchaka, and Wikipedia lists the name Vaka Panchaka as well.",
+          "The five days sit inside Kartika, which is the month Odias treat as the holiest of the year. Many devotees, and especially widows and older women, keep a month-long Kartika Brata with a single meal a day and daily reading of the Kartika Mahatmya from the Padma Purana. Panchuka is the closing stretch of that vow, and it is also the part that people who could not keep the whole month still try to keep. For the wider month see the guide to Kartika in Odisha linked below."
+        ]
+      },
+      {
+        "h": "When the five days fall in 2026",
+        "p": [
+          "Calendars list the 2026 span as 20 to 24 November, ending on Kartika Purnima on 24 November. The first day needs care, because the Ekadashi tithi is fixed by the sunrise rule and in 2026 neither day of the Ekadashi is clean in India. One calendar source explains that Dashami is still running at sunrise on Friday 20 November and Ekadashi ends before sunrise on Saturday 21 November, so Smarta families keep the fast on the Friday while Vaishnava families keep it on the Saturday.",
+          "For Puri this matters, because the temple follows its own calendar and announces its own days. If you plan to travel, confirm the first day with the Shree Jagannath Temple Administration or the local almanac instead of relying on a general listing. The last day, Kartika Purnima, is the same in the lists checked."
+        ]
+      },
+      {
+        "h": "What people eat and what they avoid",
+        "p": [
+          "The first rule in every account is to give up non-vegetarian food. One source spells it out as fish, meat and eggs. Devotees of Jagannath are expected to do this for the whole of Kartika, and those who cannot manage the full month give it up for these five days. Because of this, a popular saying in Odisha holds that even the cranes, who live on fish, turn pious in these days. The saying is told by one Odisha news report quoting a scholar of Jagannath culture, and it is a piece of folk belief, not a rule.",
+          "Many also eat Habisha, a single simple meal a day cooked without salt or spices from a short list of permitted vegetables and rice, usually in the afternoon. Those who keep the month-long vow are called Habisyalis in Odisha and, in the Puri accounts, are mostly widows and older women. At Puri some take Mahaprasad from the temple for the month and others cook their own. One account adds that married couples are asked to keep apart in these days.",
+          "Other restrictions mentioned are small acts of non-harm. Some people avoid cutting crops or trees, plucking flowers, leaves or fruit, and cutting hair or nails. People are also expected not to harm any living creature, and in villages many feed birds and animals. These are observances families choose to keep and they differ from home to home."
+        ]
+      },
+      {
+        "h": "The five Beshas of Lord Jagannath at Puri",
+        "p": [
+          "The sight that draws most visitors is the daily Besha, or dress, in which Lord Jagannath and his siblings are shown at the Shree Mandir. Three independent accounts give the same order. On Ekadashi the Lord is shown as Lakshmi-Narayana, on Dwadashi as Bankachula, on Trayodashi as Tribikrama, on Chaturdashi as Lakshmi-Nrusingha and on Kartika Purnima as Raja Rajeswari, also written Rajarajeswara.",
+          "The spellings differ between sources, for example Bankachula and Bankachuda, and Rajarajeswara or Raja Rajeswari, and Wikipedia's page on Panchaka lists some other names, including Dalakia and Adakia Besha, alongside Lakshmi-Nrusingha and Trivikrama. Descriptions of the ornaments are not given in the sources checked, so this guide does not describe them. On Purnima the Rajarajeswara dress is said to draw over a lakh of people, and a report from 2023 says the daily crowd in Kartika is 80,000 to a lakh, rising in Panchuka. Extra prasad is prepared for the Habisyalis."
+        ]
+      },
+      {
+        "h": "Lakshmi, Narayan and the tulsi",
+        "p": [
+          "At home the five days are given to Lakshmi and Narayan. Married women worship the tulsi plant as Vrundavati, praying for the long life of their husbands, and in the evening a lamp is lit at the tulsi altar. Homes are decorated with rangoli, and the Kartika Purana is read. The same tulsi worship is behind the ceremony known as Tulsi Vivah, which is explained in a separate guide linked below. At Puri, one account says that some devotees worship the tulsi as an image of Jagannath himself, in a practice called Baluka Puja."
+        ]
+      },
+      {
+        "h": "The stories told about these days",
+        "p": [
+          "Two stories are told. In the Odisha account of one scholar, the five days are connected to the sage and warrior Bhishma, and childless couples keep a Bhishma Vrata and offer water. In another account a hunter who had killed animals through the whole month stopped killing in these five days and, by that, is said to have been freed from rebirth. The sources do not tell the Pandava story in full, and different families tell it differently, so it is best taken as tradition and not as history.",
+          "Kartika Purnima, the final day, has many names. It is called Deva Diwali, and one source also calls it Tripurari Purnima for Shiva's victory over the three cities. In Odisha it is the day of Boita Bandana, when people float tiny boats before sunrise to remember the sea trade of old Kalinga. The guide linked below covers the boat festival in full."
+        ]
+      },
+      {
+        "h": "Keeping Panchuka in a respectful way",
+        "p": [
+          "No source asks for any particular count, mantra or spending. A simple way to keep the days is to eat vegetarian food, light an evening lamp at the tulsi, read a short prayer and keep the day calm. Prayers popular in these days include the Vishnu Sahasranamam and the Jagannath Ashtakam, both on this site. If you have a health condition, a fast should be changed to suit it, and any vow is a personal matter between a family and its tradition. Nothing here promises a worldly result."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is Panchuka?",
+        "a": "It is the last five days of the month of Kartika in Odisha, from Kartika Shukla Ekadashi to Kartika Purnima. The same days are also called Bhishma Panchaka."
+      },
+      {
+        "q": "When is Panchuka in 2026?",
+        "a": "Calendars list 20 to 24 November 2026, ending on Kartika Purnima on 24 November. The first day depends on how the Ekadashi is fixed, so confirm it with the Puri temple or your local almanac."
+      },
+      {
+        "q": "Can I eat fish or eggs during Panchuka?",
+        "a": "Tradition says no. Devotees avoid all non-vegetarian food for the whole of Kartika, and those who cannot do that keep it for these five days. It is a personal vow and not a rule for everyone."
+      },
+      {
+        "q": "What is Habisha?",
+        "a": "A single simple meal a day, cooked without salt or spices from a short list of vegetables and rice. Those who keep the whole month are called Habisyalis."
+      },
+      {
+        "q": "What are the five Beshas at Puri?",
+        "a": "Lakshmi-Narayana on Ekadashi, Bankachula on Dwadashi, Tribikrama on Trayodashi, Lakshmi-Nrusingha on Chaturdashi and Raja Rajeswari on Kartika Purnima. Spellings and some names differ between sources."
+      },
+      {
+        "q": "Is the crane story true?",
+        "a": "It is a folk saying that even cranes give up fish in these days. It is repeated in Odisha news reports and is a belief, not a rule."
+      },
+      {
+        "q": "What happens on the last day?",
+        "a": "Kartika Purnima ends Panchuka and the Kartika Brata. Many Odias bathe at dawn and float small boats in Boita Bandana, and at Puri the Rajarajeswara Besha is shown."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "vishnu-sahasranamam",
+        "jagannath-ashtakam",
+        "krishnashtakam"
+      ],
+      "guides": [
+        "kartika-month-odisha-guide",
+        "boita-bandana-bali-jatra-kartika-purnima-guide",
+        "jagannath-mahaprasad-ananda-bazar-puri-guide",
+        "ekadashi-vrat-guide"
+      ]
+    },
+    "sources": [
+      "OdishaBytes, Five Days When Even Cranes Abandon Fish: Legends and Rituals Associated with Panchuka",
+      "Kalinga TV, Holy Panchuka begins in Odisha, Know significance",
+      "shreekhetra.com, Kartika Brata at Puri",
+      "Hindu Blog, Panchuka in Kartik month in Orissa",
+      "Wikipedia, Panchaka",
+      "HinduTone, Dev Uthani Ekadashi and Tulsi Vivah 2026 date city-wise (for the Smarta and Vaishnava Ekadashi)"
+    ]
+  },
+
+  {
+    "slug": "tulsi-vivah-dev-uthani-ekadashi-guide",
+    "category": "Festivals",
+    "title": "Dev Uthani Ekadashi and Tulsi Vivah: Meaning, Dates, Stories and How to Keep Them at Home",
+    "description": "What Dev Uthani Ekadashi and Tulsi Vivah are, how the two days are connected, why the 2026 date differs between traditions, the stories of Vrinda and Vishnu, regional customs and a simple home ceremony.",
+    "h1": "Dev Uthani Ekadashi and Tulsi Vivah",
+    "intro": "Dev Uthani Ekadashi, also called Prabodhini Ekadashi, is the day the god Vishnu is believed to wake after four months of sleep. Tulsi Vivah, the symbolic marriage of the holy basil plant to Vishnu, follows on or soon after it. Together they close the rainy season observance of Chaturmas and, in tradition, open the season of weddings. This guide explains how the two are linked, why the 2026 date is not the same for everyone, what the stories say and how a family can keep the day with care.",
+    "sections": [
+      {
+        "h": "What Dev Uthani Ekadashi is",
+        "p": [
+          "Ekadashi is the eleventh day of each lunar fortnight. Dev Uthani Ekadashi falls on the eleventh day of the bright half of the month of Kartika. Tradition says that Vishnu goes to sleep at the start of Chaturmas, the four rainy months, and wakes on this day. For that reason it is also called Prabodhini, from the word for awakening, and Devutthana, the rising of the god. It marks the end of Chaturmas, and the calendar sources checked say that auspicious activities such as marriages and housewarmings resume after it.",
+          "At home the day is kept by waking Vishnu with a conch, bells and the call Uttishtha Uttishtha Govinda, bathing his image, dressing it in yellow and offering flowers, tulsi and incense. The usual Ekadashi fast without grains and beans is kept. A general guide to Ekadashi fasting is linked below."
+        ]
+      },
+      {
+        "h": "What Tulsi Vivah is",
+        "p": [
+          "Tulsi Vivah is a ritual in which a tulsi plant, regarded as a form of Lakshmi, is married to Vishnu. Wikipedia describes the groom as usually a shaligram stone, with a brass image of Vishnu or Krishna or an amla branch as a stand-in. The wedding marks the end of the monsoon and the start of the Hindu wedding season, and it can be held at any time from Prabodhini Ekadashi to Kartika Purnima, with the exact day varying by region.",
+          "Because of this window, families choose different days within it. Some of the sources checked place the marriage on Dwadashi, the day after the Ekadashi, and Telugu regions hold it around Utthana Dwadashi. In Odisha the same five days are called Panchuka, when married women worship the tulsi as Vrundavati. The guide to Panchuka is linked below."
+        ]
+      },
+      {
+        "h": "Why the 2026 date is not the same for everyone",
+        "p": [
+          "An Ekadashi fast is kept on the day on which the Ekadashi tithi is present at sunrise. In India in 2026, one calendar source explains, Dashami is still running at sunrise on Friday 20 November and the Ekadashi ends before sunrise on Saturday 21 November, so neither morning has a full Ekadashi. Smarta families therefore keep the fast on Friday 20 November and Vaishnava families, who avoid an Ekadashi touched by Dashami at dawn, keep it on Saturday 21 November.",
+          "The same source gives Tulsi Vivah as Saturday 21 November 2026 in both India and the USA. Another calendar lists the Dwadashi tithi on that day, with an evening muhurat after sunset. Tithi and muhurat times change by city, and almanacs differ by a few minutes, so check a local panchang or ask a priest before you plan the ceremony. This guide does not give a time."
+        ]
+      },
+      {
+        "h": "The stories behind the marriage",
+        "p": [
+          "Wikipedia records three accounts. In the Puranic story, Vrinda is the devoted wife of the asura Jalandhara, whose strength came from her faithfulness. After Shiva defeats Jalandhara, Vishnu deceives Vrinda by taking her husband's form. She curses him and gives up her life, and Vishnu ensures that she returns as the tulsi plant. A calendar article names the Padma Purana as the place of this story and adds that Vishnu promised to marry her each year in the form of the shaligram.",
+          "In the popular account Vishnu promised to marry Vrinda in her next birth, and that wedding is said to have taken place on Prabodhini Ekadashi. A Vaishnava account links the tulsi to the churning of the cosmic ocean, where a tear of Vishnu fell into the nectar and formed her. The stories differ, and families tell the one they grew up with."
+        ]
+      },
+      {
+        "h": "How families keep Tulsi Vivah",
+        "p": [
+          "The wedding resembles a Hindu marriage. People fast until the evening, and a small mandap is built around the tulsi, often from sugarcane stalks. The plant is dressed as a bride in a red cloth with bangles, a bindi and flowers, and sometimes a paper face is placed on it. The groom image is bathed, dressed in yellow and decorated. A thread joins the two, and in some homes the image is carried around the plant seven times. Offerings listed by the sources include sugarcane, amla, tamarind and sweet potato, with lamps, incense and fruit.",
+          "A couple with no daughter may act as the parents of the tulsi and perform the giving away of the bride, which Wikipedia calls meritorious. The rites end with aarti and the sharing of prasad. A short mantra such as Om Namo Bhagavate Vasudevaya may be chanted. Vishnu prayers on this site, including the Vishnu Sahasranamam, the Krishna Vasudevaya mantra and the Krishnashtakam, suit the day, and nothing in the sources calls for a particular count or spending."
+        ]
+      },
+      {
+        "h": "Customs in different regions",
+        "p": [
+          "Wikipedia gives several examples. In Maharashtra a white cloth is held between the couple while the mantras are sung, rice mixed with vermilion is thrown over them and women usually perform the rites, with sugarcane, coconut and groundnut shared as prasad. In Saunja in Bihar the whole village celebrates for three days with scripture recitation, a procession and a shared meal. In Saurashtra two Rama temples hold an elaborate version in which an image of Vishnu is carried to the bride's temple. Telugu regions call it Tulasi Kalyanam, held around Utthana Dwadashi with an amla branch for Vishnu."
+        ]
+      },
+      {
+        "h": "A short note on respect",
+        "p": [
+          "The plant is a living tulsi, so keep it watered and do not break it for show. Take the fast only as far as your health allows. Neither the stories nor the sources promise any worldly result from the ceremony, and a family can keep it in a very simple way with one lamp, a few flowers and a prayer."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between Dev Uthani Ekadashi and Tulsi Vivah?",
+        "a": "Dev Uthani Ekadashi is the day Vishnu is believed to wake after Chaturmas. Tulsi Vivah is the symbolic marriage of the tulsi plant to Vishnu, held on or after that day up to Kartika Purnima."
+      },
+      {
+        "q": "When are they in 2026?",
+        "a": "One calendar gives Dev Uthani Ekadashi on Friday 20 November for Smarta families and Saturday 21 November for Vaishnava families in India, with Tulsi Vivah on Saturday 21 November. Check a local panchang for your city."
+      },
+      {
+        "q": "Why do two dates appear?",
+        "a": "Because the Ekadashi must be present at sunrise, and in 2026 Dashami still runs at sunrise on the Friday while the Ekadashi ends before sunrise on the Saturday. Smarta and Vaishnava traditions choose differently."
+      },
+      {
+        "q": "Who is the groom in Tulsi Vivah?",
+        "a": "Usually a shaligram stone, a form of Vishnu. A brass image of Vishnu or Krishna, or an amla branch, may stand in for him."
+      },
+      {
+        "q": "Can I keep Tulsi Vivah at home without a priest?",
+        "a": "Many families do. The steps are decorating the plant, dressing the groom image, joining them with a thread, offering flowers, fruit and sugarcane, and ending with aarti."
+      },
+      {
+        "q": "Does the ceremony guarantee a good marriage?",
+        "a": "No. The sources describe the ritual and its stories and promise no worldly result."
+      },
+      {
+        "q": "How is it kept in Odisha?",
+        "a": "The days fall in Panchuka, when married women worship the tulsi as Vrundavati and light a lamp at the tulsi altar each evening."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "vishnu-sahasranamam",
+        "krishna-vasudevaya-mantra",
+        "krishnashtakam"
+      ],
+      "guides": [
+        "ekadashi-vrat-guide",
+        "kartika-month-odisha-guide",
+        "panchuka-kartika-last-five-days-odisha-guide",
+        "how-to-chant-vishnu-mantra"
+      ]
+    },
+    "sources": [
+      "Wikipedia, Tulasi Vivaha",
+      "DekhoPanchang, Devutthana Ekadashi 2026",
+      "HinduTone, Dev Uthani Ekadashi and Tulsi Vivah 2026 in the USA",
+      "SmartPuja, Tulsi Vivah 2026: Date, Shubh Muhurat, Significance and Puja Vidhi",
+      "OdishaBytes and Kalinga TV reports on Panchuka (for the Odisha note)"
     ]
   },
 ];

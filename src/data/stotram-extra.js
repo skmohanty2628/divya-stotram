@@ -305,4 +305,25 @@ export const STOTRAM_EXTRA = {
       { q: 'Does it guarantee a result?', a: 'No. The last verse gives the traditional fruit of reading it, which is reaching the world of Vishnu. It is a statement of faith and carries no guarantee of any worldly outcome.' },
     ],
   },
+  'krishnashtakam': {
+    what: `Krishnashtakam is a Sanskrit hymn of eight verses to Lord Krishna, with a ninth verse that states the fruit of reading it. Each of the eight verses ends with the same line, Krishnam Vande Jagadgurum, which means I bow to Krishna, the teacher of the world. The hymn opens with the words Vasudeva Sutam Devam Kamsa Chanura Mardanam, and people often search for it by that line. Several different hymns are called Krishnashtakam, so the first line is the safest way to be sure which one you want. The editions checked name no author. Some books attribute this hymn to Adi Shankaracharya, but that is not settled, so this page presents it as a traditional hymn. Printed editions differ in a few spellings, and the notes below say which reading this page follows.`,
+    meaning: `Each verse is a picture of Krishna, and each ends with the same bow. The first names him as the son of Vasudeva, the one who ended Kamsa and Chanura and the great joy of his mother Devaki. The second gives his colour, like the flax flower, with a necklace, anklets, bracelets and armlets. The third describes his curled hair, a face like the full moon and shining earrings. The fourth speaks of the scent of mandara flowers, a gentle smile, four arms and a peacock feather in his crest. The fifth describes eyes like opened lotus petals, the colour of a rain cloud, and calls him the crest jewel of the Yadavas. The sixth recalls his play with Rukmini, his yellow silk and the fragrance of tulasi. The seventh speaks of the saffron marks on his chest, his place as the dwelling of Lakshmi and his bow. The eighth names the Shrivatsa mark, the broad chest, the forest garland, the conch and the discus. The ninth is the closing promise.`,
+    benefits: [
+      'Eight regular verses with one repeating last line, so it is easy to learn by ear',
+      'A short morning prayer, since the closing verse speaks of reading it after waking',
+      'Gives a clear picture of Krishna from head to foot, which helps children and new readers follow the verses',
+      'Pairs well with the Jagannath Ashtakam, which looks at the same Lord as he is worshipped at Puri',
+      'Open to everyone, with no initiation needed',
+    ],
+    bestTime: `The text itself says to read it after rising in the morning. Many families also sing it on Janmashtami, in the month of Kartika and on Ekadashi, but the text sets no day or count. It takes about four minutes to sing. Sit with a clean mind, light a lamp if you wish, and finish with a quiet Jai Shri Krishna. The closing verse speaks of remembering him, which is a matter of attitude and not of any count or ritual.`,
+    faqs: [
+      { q: 'What does Krishnashtakam mean?', a: 'Ashtakam means a group of eight, so Krishnashtakam is eight verses on Krishna. Each one ends with the line Krishnam Vande Jagadgurum, I bow to Krishna, the teacher of the world.' },
+      { q: 'Which Krishnashtakam is this?', a: 'This page gives the one that begins Vasudeva Sutam Devam Kamsa Chanura Mardanam. Other hymns share the name, for example one that begins Bhaje Vrajaikamandanam, so check the first line.' },
+      { q: 'Who wrote Krishnashtakam?', a: 'The editions checked name no author. Some books attribute it to Adi Shankaracharya, and one reference calls it sometimes ascribed to him, but that is not settled, so it is safest to call it a traditional hymn.' },
+      { q: 'How many verses does it have?', a: 'Eight verses on Krishna and a ninth closing verse that states the fruit of reading it. Some printed editions give only the eight.' },
+      { q: 'Why do some versions read differently?', a: 'Printed texts differ in a few spellings. One edition on shlokam.org prints atasi with a long first a, kankana with a plain n, keli with a retroflex l and vinashyati with a different sibilant. Drik Panchang and Bhakti Bharat agree with each other, and this page follows them. The meaning of the verses stays the same.' },
+      { q: 'When should I chant it?', a: 'The closing verse says after rising in the morning. It is also sung on Janmashtami and in Kartika, but the text sets no day or count.' },
+      { q: 'Does it guarantee a result?', a: 'No. The last verse gives the traditional fruit of reading it, which is the destruction of past sin by remembrance. It is a statement of faith and carries no guarantee of any worldly outcome.' },
+    ],
+  },
 };

@@ -27,6 +27,7 @@ import { omJaiJagdishHare } from '@/data/om-jai-jagdish-hare-aarti';
 import { karagreVasateLakshmi } from '@/data/karagre-vasate-lakshmi';
 import { lingashtakam } from '@/data/lingashtakam';
 import { jagannathAshtakam } from '@/data/jagannath-ashtakam';
+import { krishnashtakam } from '@/data/krishnashtakam';
 
 export const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
@@ -58,4 +59,5 @@ export const VERSE_DATA = {
   'karagre-vasate-lakshmi': karagreVasateLakshmi,
   'lingashtakam': lingashtakam,
   'jagannath-ashtakam': jagannathAshtakam,
+  'krishnashtakam': krishnashtakam,
 };

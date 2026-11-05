@@ -17,7 +17,7 @@ const PRAYERS = {
   'akhi-muthi-anukula-akshaya-tritiya-odisha-guide': [['mahalakshmi-ashtakam', 'Mahalakshmi Ashtakam'], ['vishnu-sahasranamam', 'Vishnu Sahasranamam']],
   'jagannath-ratha-yatra-puri-guide': [['jagannath-ashtakam', 'Jagannath Ashtakam']],
   'gamha-purnima-rakhi-purnima-odisha-guide': [['vishnu-sahasranamam', 'Vishnu Sahasranamam'], ['gayatri-mantra', 'Gayatri Mantra']],
-  'krishna-janmashtami-guide': [['krishna-vasudevaya-mantra', 'Krishna Vasudevaya Mantra'], ['hare-krishna-maha-mantra', 'Hare Krishna Maha Mantra']],
+  'krishna-janmashtami-guide': [['krishna-vasudevaya-mantra', 'Krishna Vasudevaya Mantra'], ['krishnashtakam', 'Krishnashtakam'], ['hare-krishna-maha-mantra', 'Hare Krishna Maha Mantra']],
   'ganesh-chaturthi-guide': [['ganesh-aarti', 'Ganesh Aarti'], ['vakratunda-mahakaya-mantra', 'Vakratunda Mahakaya']],
   'durga-puja-odisha-guide': [['durga-stotram', 'Durga Stotram'], ['aigiri-nandini', 'Aigiri Nandini']],
 };

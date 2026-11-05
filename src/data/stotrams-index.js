@@ -625,6 +625,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'krishnashtakam',
+    title: {
+      en: 'Krishnashtakam (Vasudeva Sutam Devam)',
+      hi: 'कृष्णाष्टकम् (वसुदेव सुतं देवम्)',
+      od: 'କୃଷ୍ଣାଷ୍ଟକମ୍ (ବସୁଦେବ ସୁତଂ ଦେବମ୍)',
+      te: 'కృష్ణాష్టకం (వసుదేవ సుతం దేవం)',
+    },
+    deity: 'Krishna',
+    deityEmoji: '🪈',
+    deityIcon: '',
+    description: {
+      en: 'Krishnashtakam (Vasudeva Sutam Devam), the eight-verse hymn to Lord Krishna with its closing verse, in English, Hindi, Odia and Telugu with meaning and a chanting video',
+      hi: 'कृष्णाष्टकम् (वसुदेव सुतं देवम्), भगवान कृष्ण की स्तुति के आठ श्लोक और समापन श्लोक, हिन्दी, ओड़िया, तेलुगु और अंग्रेज़ी लिपि में, चार भाषाओं में अर्थ और वीडियो सहित',
+      od: 'କୃଷ୍ଣାଷ୍ଟକମ୍ (ବସୁଦେବ ସୁତଂ ଦେବମ୍), ଭଗବାନ କୃଷ୍ଣଙ୍କ ସ୍ତୁତିର ଆଠ ଶ୍ଳୋକ ଓ ସମାପନ ଶ୍ଳୋକ, ହିନ୍ଦୀ, ଓଡ଼ିଆ, ତେଲୁଗୁ ଓ ଇଂରାଜୀ ଲିପିରେ, ଚାରି ଭାଷାରେ ଅର୍ଥ ଓ ଭିଡିଓ ସହିତ',
+      te: 'కృష్ణాష్టకం (వసుదేవ సుతం దేవం), శ్రీకృష్ణ స్తుతిలో ఎనిమిది శ్లోకాలు, ముగింపు శ్లోకంతో, హిందీ, ఒడియా, తెలుగు, ఇంగ్లీష్ లిపిలో, నాలుగు భాషల్లో అర్థం, వీడియోతో',
+    },
+    color: 'from-slate-900 to-indigo-950',
+    accent: '#6fa8dc',
+    youtubeId: '8HH0k0B58yQ',
+    verseCount: 9,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

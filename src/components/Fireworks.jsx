@@ -6,10 +6,10 @@ import { useEffect, useRef, useState } from 'react';
 // Fountain crackers spray from the right edge. Rockets rise from the bottom and burst at random heights, and a tap or click on empty space sets off a burst there.
 // It pauses when the tab is hidden, uses fewer particles on small screens, and starts switched off for visitors
 // who ask their device for reduced motion. A couple with sparklers stands in the free space on the left on wide screens.
-const COLORS = ['#ffd45a', '#ff9d2e', '#ff5a3c', '#ff7bb0', '#7cf0a6', '#6fd8ff', '#c79bff', '#fff2b8'];
+const COLORS = ['#ffb300', '#ff7a00', '#ff3d2e', '#e91e8c', '#19b34a', '#1e9bff', '#8e44ff', '#f5c000'];
 const GRAVITY = 0.045;
 // Fountain crackers (anaar) stand in the free space on the right edge and spray sparks in cycles.
-const FOUNTAIN_COLORS = ['#fff2b8', '#ffd45a', '#ff9d2e', '#ffb347', '#ffe9a0'];
+const FOUNTAIN_COLORS = ['#ffb300', '#ff9100', '#ff7a00', '#f5c000', '#ffcc33'];
 
 function rand(a, b) {
   return a + Math.random() * (b - a);
@@ -38,7 +38,7 @@ export default function Fireworks() {
     const rockets = [];
     const sparks = [];
     const small = () => w < 640;
-    const SPARK_COLORS = ['#fff7d0', '#ffe27a', '#ffffff', '#ffb347'];
+    const SPARK_COLORS = ['#ffb300', '#ff8f00', '#f5c000', '#ff6d00'];
     const drawPerson = (x, baseY, woman, face, t, phase) => {
       const bob = Math.sin(t / 380 + phase) * 3;
       const skin = '#d9a066';
@@ -139,7 +139,7 @@ export default function Fireworks() {
           life: willow ? rand(1.8, 2.6) : rand(0.9, 1.6),
           age: 0,
           color: i % 3 === 0 ? alt : color,
-          size: rand(1.2, 2.2),
+          size: rand(1.2, 2.2) * (small() ? 1.7 : 1.25),
           drag: willow ? 0.985 : 0.97,
           grav: willow ? GRAVITY * 1.5 : GRAVITY,
         });
@@ -178,7 +178,7 @@ export default function Fireworks() {
         tips.push(drawPerson(free * 0.3, baseY, false, 1, t, 0));
         tips.push(drawPerson(free * 0.78, baseY, true, -1, t, 1.7));
       }
-      ctx.globalCompositeOperation = 'lighter';
+      ctx.globalCompositeOperation = 'source-over';
       tips.forEach((tp) => {
         const glow = ctx.createRadialGradient(tp.tx, tp.ty, 1, tp.tx, tp.ty, 22);
         glow.addColorStop(0, 'rgba(255,236,160,0.8)');
@@ -196,7 +196,7 @@ export default function Fireworks() {
             life: rand(0.3, 0.7),
             age: 0,
             color: SPARK_COLORS[Math.floor(Math.random() * SPARK_COLORS.length)],
-            size: rand(0.8, 1.6),
+            size: rand(0.8, 1.6) * 1.5,
             drag: 0.96,
             grav: 0.05,
           });
@@ -222,7 +222,7 @@ export default function Fireworks() {
             life: rand(0.5, 1.1),
             age: 0,
             color: FOUNTAIN_COLORS[Math.floor(Math.random() * FOUNTAIN_COLORS.length)],
-            size: rand(1, 1.9),
+            size: rand(1, 1.9) * (small() ? 1.9 : 1.4),
             drag: 0.99,
             grav: 0.09,
           });
@@ -234,8 +234,8 @@ export default function Fireworks() {
         r.x += r.vx * dt;
         r.y += r.vy * dt;
         r.vy += 0.012 * dt;
-        ctx.fillStyle = 'rgba(255,230,160,0.9)';
-        ctx.fillRect(r.x - 1, r.y, 2, 6);
+        ctx.fillStyle = '#ff8f00';
+        ctx.fillRect(r.x - 1.5, r.y, 3, 9);
         if (r.y <= r.peak || r.vy > -1) {
           burst(r.x, r.y);
           rockets.splice(i, 1);
@@ -253,7 +253,7 @@ export default function Fireworks() {
         s.x += s.vx * dt;
         s.y += s.vy * dt;
         const k = 1 - s.age / s.life;
-        ctx.globalAlpha = Math.min(1, k * 1.4) * 0.9;
+        ctx.globalAlpha = Math.min(1, k * 1.6);
         ctx.fillStyle = s.color;
         ctx.beginPath();
         ctx.arc(s.x, s.y, s.size * (0.5 + k * 0.7), 0, Math.PI * 2);

@@ -8,7 +8,7 @@ const SECTIONS = [
   ['Information we collect', 'We collect only what is needed to run the site: (a) anonymous usage data through Google Analytics, such as pages viewed, approximate location, device and browser type; (b) the name, email address and message you choose to send through the contact form; (c) your email address, and optionally your name and preferred deity, if you subscribe to the daily prayer email; (d) the questions you type into the Ask the Pandit assistant or the verse explanation feature, which are sent to our AI provider to produce an answer.'],
   ['How we use it', 'To show you the pages you ask for, understand which content is useful, answer your messages, send the daily prayer email you asked for, keep the site secure and prevent abuse. We do not sell your personal information.'],
   ['Cookies and advertising', 'We use Google AdSense to show advertising. Google and its partners use cookies and similar technologies to serve and measure ads, including ads based on your prior visits to this or other websites. You can learn how Google uses data from sites that use its services at https://policies.google.com/technologies/partner-sites, opt out of personalised advertising at https://adssettings.google.com, or manage cookies in your browser. Where required (for example in the EEA, UK and Switzerland) we show a consent message and honour your choice.'],
-  ['Google Analytics', 'We use Google Analytics 4 to understand aggregate traffic. It sets cookies and receives your IP address, which Google truncates. You can block it with Google\'s browser add-on at https://tools.google.com/dlpage/gaoptout.'],
+  ['Google Analytics', 'We use Google Analytics 4 to understand aggregate traffic. It sets cookies and receives your IP address, which Google truncates. We also run a small tracker of our own that records which pages an anonymous browser opens and how long each page is in use, under a random id stored on your device. It stores no name, email or IP address, keeps the data for 45 days and does nothing if your browser sends Do Not Track or Global Privacy Control. You can block it with Google\'s browser add-on at https://tools.google.com/dlpage/gaoptout.'],
   ['Email subscriptions', 'If you subscribe, we store your email address with Firebase and send mail through Resend. Every email contains an unsubscribe link, and unsubscribing removes you from the list. You can also write to us and ask us to delete your data.'],
   ['AI features', 'Questions to Ask the Pandit and the verse explanation tool are processed by Groq. Please do not include personal, medical or financial information in them.'],
   ['Other third parties', 'Embedded YouTube videos may set cookies when played. Our hosting provider, Vercel, processes technical request data (such as IP address) to deliver the site.'],
@@ -23,7 +23,7 @@ export default function PrivacyPolicyPage() {
     <SiteShell>
       <div className="mx-auto max-w-3xl px-4 pb-24 pt-14 sm:px-6">
         <h1 className="font-cinzel text-4xl font-bold text-[#8b1a00]">Privacy Policy</h1>
-        <p className="mt-2 font-garamond text-base text-[#3d1a00]/60">Last updated: October 2026</p>
+        <p className="mt-2 font-garamond text-base text-[#3d1a00]/60">Last updated: November 2026</p>
         <div className="mt-8 space-y-8">
           {SECTIONS.map(([h, t], i) => (
             <section key={h}>

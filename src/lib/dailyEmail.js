@@ -3,6 +3,7 @@ import { SITE_URL, EMAIL_FROM, REPLY_TO, unsubscribeUrl, unsubscribeHeaders, sid
 import { FESTIVAL_DATES } from '@/data/festival-dates';
 import { GUIDES_LEARN } from '@/data/guides-learn';
 import { fbPatch, emailKey, istDate, liveStreak } from '@/lib/streakStore';
+import { verseOfTheDay } from '@/lib/verseOfDay';
 
 
 // ── Stotram rotation (15 stotrams, cycles by day of year) ────────────────────
@@ -263,6 +264,26 @@ function buildEmailHtml(stotram, message, email, extras = {}) {
   const streak = extras.streak || { count: 0, readToday: false };
   const festival = extras.festival || null;
   const newGuides = extras.newGuides || [];
+  const votd = extras.votd || null;
+  const votdBlock = votd
+    ? `
+  <!-- Verse of the Day -->
+  <tr>
+    <td style="background:#0f0101;padding:0 30px 24px;">
+      <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td style="border:1px solid rgba(201,146,42,0.25);border-radius:16px;padding:20px 22px;text-align:center;">
+            <p style="margin:0 0 4px;font-size:10px;color:#c9922a;letter-spacing:3px;text-transform:uppercase;">Verse of the Day</p>
+            <p style="margin:0 0 12px;font-size:11px;color:#e8d5b5;opacity:0.6;">${esc(votd.title)}, verse ${votd.num} of ${votd.total}</p>
+            <p style="margin:0 0 12px;font-family:Georgia,serif;font-size:16px;line-height:1.9;color:#f0c040;white-space:pre-line;">${esc(votd.verseText)}</p>
+            <p style="margin:0 0 14px;font-family:Georgia,serif;font-size:13px;line-height:1.7;color:#e8d5b5;opacity:0.85;">${esc(votd.meaningText)}</p>
+            <a href="${link('/' + votd.slug)}" style="font-size:12px;color:#f0c040;text-decoration:underline;">Read the full stotram</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>`
+    : '';
 
   const streakLine = streak.count > 0
     ? (streak.readToday
@@ -393,6 +414,8 @@ function buildEmailHtml(stotram, message, email, extras = {}) {
       </table>
     </td>
   </tr>
+
+  ${votdBlock}
 
   ${festivalBlock}
 
@@ -550,7 +573,15 @@ export async function sendDailyEmails({ onlyEmail = null } = {}) {
   }
   if (Object.keys(index).length) await fbPatch('sidIndex', index);
 
-  const shared = { festival: upcomingFestival(), newGuides: newestGuides() };
+  let votd = null;
+  try {
+    const hi = verseOfTheDay('hi');
+    const en = verseOfTheDay('en');
+    if (hi && en) votd = { ...hi, title: en.title, meaningText: en.meaningText };
+  } catch {
+    votd = null;
+  }
+  const shared = { festival: upcomingFestival(), newGuides: newestGuides(), votd };
   const extrasFor = (e) => ({ ...shared, streak: streaks[e] || { count: 0, readToday: false } });
 
   if (emails.length === 0) return { ok: true, message: 'No subscribers yet', sent: 0, failed: 0, total: 0 };

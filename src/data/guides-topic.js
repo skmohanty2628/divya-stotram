@@ -144,143 +144,212 @@ export const GUIDES_TOPIC = [
   },
 
   {
-    slug: 'best-mantra-for-sleep',
-    category: 'Peace of mind',
-    title: 'Best Mantras for Sleep: Calming Hindu Chants and a Bedtime Routine',
-    description:
-      'Calming Hindu mantras for sleep, including Om, Shantakaram, Om Namah Shivaya and the Gayatri, with a gentle bedtime routine and honest advice about persistent insomnia.',
-    h1: 'Best Mantras for Sleep: Calming Chants and a Bedtime Routine',
-    intro:
-      'Many people lie awake because the mind will not slow down. A quiet mantra, repeated softly, can give a busy mind something simple to follow. This guide offers gentle choices, a bedtime routine, and some honest cautions.',
-    sections: [
+    "slug": "best-mantra-for-sleep",
+    "category": "Peace of mind",
+    "title": "Best Mantras for Sleep: Calming Hindu Chants and a Bedtime Routine",
+    "description": "Calming Hindu mantras for sleep, including Om, Shantakaram, Om Namah Shivaya and the Gayatri, with a gentle bedtime routine and honest advice about persistent insomnia.",
+    "h1": "Best Mantras for Sleep: Calming Chants and a Bedtime Routine",
+    "intro": "Many people lie awake because the mind will not slow down. A quiet mantra, repeated softly, can give a busy mind something simple to follow. This guide offers gentle choices, a bedtime routine, what one well-known study found about slow rhythmic recitation, and honest advice about when sleeplessness needs a doctor rather than a prayer.",
+    "sections": [
       {
-        h: 'Why a mantra before bed',
-        p: [
-          `Sleep needs the body and mind to downshift. Slow, rhythmic repetition tends to lengthen the out-breath, and a longer out-breath is a recognised way to calm the nervous system. A mantra also gives the thinking mind a task so that it stops composing tomorrow's to-do list. It is not magic, but it is a pleasant and free habit.`,
-        ],
+        "h": "Why a mantra before bed",
+        "p": [
+          "Sleep needs the body and mind to downshift. A mantra gives the thinking mind a single, undemanding task so that it stops composing tomorrow's to-do list. It is not magic, but it is a pleasant and free habit that also marks the end of the day."
+        ]
       },
       {
-        h: 'Choices for the evening',
-        p: [
-          `The Shantakaram verse to Vishnu, Shantakaram Bhujagashayanam Padmanabham Suresham, describes the peaceful one who reclines on the serpent; its gentle meaning suits bedtime. Om Namah Shivaya is brief and rhythmic. A slow Om, drawn out on the exhale, needs no words at all. Some families end the day with three recitations of the Gayatri or a single verse of the Hanuman Chalisa. Choose whichever you find soothing; avoid anything that feels stimulating or loud.`,
-        ],
+        "h": "What a study of slow recitation found",
+        "p": [
+          "In a 2001 study in the BMJ, Bernardi and colleagues measured 23 healthy adults while they recited either the Ave Maria in Latin or a yoga mantra, both paced at about six repetitions a minute. Both kinds of recitation produced strong, synchronised increases in the body's slow cardiovascular rhythms, and baroreflex sensitivity, a measure of how well blood pressure is regulated, rose from about 9.5 to 11.5 ms/mmHg. The authors suggested that slow, rhythmic recitation may help autonomic balance.",
+          "The study was small, it did not look at sleep, and it measured healthy adults for a short time. It is fair to say that unhurried recitation changes breathing and heart rhythm in a calming direction. It does not show that a mantra cures insomnia."
+        ]
       },
       {
-        h: 'A bedtime routine',
-        p: [
-          `Dim the lights thirty minutes before bed and put the phone away. Wash your face and feet, which many families do before prayer. Sit on the edge of the bed or lie down. Breathe in for four, out for six, and repeat the mantra silently on each out-breath. Continue until you feel heavy, then stop counting and let sleep come. If you wake in the night, repeat the mantra again rather than reaching for the screen.`,
-        ],
+        "h": "Choices for the evening",
+        "p": [
+          "The Shantakaram verse to Vishnu, Shantakaram Bhujagashayanam Padmanabham Suresham, describes the peaceful one who reclines on the serpent. Its gentle meaning suits bedtime. Om Namah Shivaya is brief and rhythmic. A slow Om, drawn out on the exhale, needs no words at all. Some families end the day with three recitations of the Gayatri or a single verse of the Hanuman Chalisa. Choose whichever you find soothing, and avoid anything that feels stimulating or loud."
+        ]
       },
       {
-        h: 'Habits that help',
-        p: [
-          `A regular bedtime, a cool dark room, avoiding caffeine after midday and heavy meals late at night all help more than any single technique. The mantra works best as part of that picture.`,
-        ],
+        "h": "A bedtime routine",
+        "p": [
+          "Dim the lights thirty minutes before bed and put the phone away. Wash your face and feet, which many families do before prayer. Sit on the edge of the bed or lie down. Breathe in for four, out for six, and repeat the mantra silently on each out-breath. Continue until you feel heavy, then stop counting and let sleep come.",
+          "If you wake in the night, repeat the mantra again rather than reaching for the screen. If you are still wide awake after what feels like twenty minutes, many sleep specialists advise getting up, sitting somewhere dim and doing something quiet until you feel sleepy, then returning to bed. That keeps the bed linked with sleep rather than with worry."
+        ]
       },
       {
-        h: 'When to see a doctor',
-        p: [
-          `If you struggle to sleep most nights for more than a few weeks, snore loudly, wake gasping, or feel unusually low in the day, please see a doctor. Insomnia and sleep apnoea are treatable. Devotional practice can sit alongside medical care but should not delay it.`,
-        ],
+        "h": "Habits that help",
+        "p": [
+          "A regular wake-up time, daylight in the morning, a cool dark room, avoiding caffeine after midday and avoiding heavy meals late at night all help more than any single technique. Alcohol may make you drowsy but tends to fragment sleep later in the night. The mantra works best as part of that picture."
+        ]
       },
+      {
+        "h": "When to see a doctor",
+        "p": [
+          "The American College of Physicians defines chronic insomnia as trouble sleeping, with daytime distress or impairment, at least three nights a week for at least three months. For adults with that pattern its guideline recommends cognitive behavioural therapy for insomnia, known as CBT-I, as the first treatment, with medication considered later and usually for the short term.",
+          "Please see a doctor if you struggle to sleep most nights for more than a few weeks, snore loudly, wake gasping, or feel unusually low or anxious in the day. Insomnia and sleep apnoea are treatable. Devotional practice can sit alongside medical care but should not delay it."
+        ]
+      },
+      {
+        "h": "For shift workers, new parents and travellers",
+        "p": [
+          "If your sleep time keeps changing, use the same short mantra and breathing pattern whenever you lie down, whatever the hour. The routine becomes a cue. New parents can use the same silent practice during night feeds. A familiar verse also helps when you are in a strange bed on a journey."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Which mantra is best for sleep?',
-        a: 'A short, calming one such as Om, Om Namah Shivaya or the Shantakaram verse. Pick what soothes you.',
+        "q": "Which mantra is best for sleep?",
+        "a": "A short, calming one such as Om, Om Namah Shivaya or the Shantakaram verse. Pick what soothes you."
       },
       {
-        q: 'Can I chant lying down?',
-        a: 'Yes. For a silent bedtime practice lying down is perfectly acceptable.',
+        "q": "Can I chant lying down?",
+        "a": "Yes. For a silent bedtime practice lying down is perfectly acceptable."
       },
       {
-        q: 'How many repetitions?',
-        a: 'There is no required count at night; continue until you feel drowsy.',
+        "q": "How many repetitions?",
+        "a": "There is no required count at night. Continue until you feel drowsy."
       },
       {
-        q: 'Will it cure insomnia?',
-        a: 'It may help relaxation but is not a medical treatment. See a doctor for persistent problems.',
+        "q": "Will it cure insomnia?",
+        "a": "It may help relaxation but is not a medical treatment. See a doctor for persistent problems."
       },
+      {
+        "q": "Should I chant aloud or silently?",
+        "a": "Silently or in a whisper is best at night, so that you do not wake yourself or others."
+      },
+      {
+        "q": "What if my mind keeps wandering?",
+        "a": "That is normal. Notice it and return to the mantra without scolding yourself. Returning is the practice."
+      },
+      {
+        "q": "When is insomnia considered chronic?",
+        "a": "The American College of Physicians uses at least three nights a week for at least three months, with daytime distress. If that sounds like you, ask a doctor about CBT-I."
+      }
     ],
-    related: {
-      stotrams: ['gayatri-mantra', 'hanuman-chalisa'],
-      guides: ['night-prayer-routine', 'best-mantra-for-anxiety'],
+    "related": {
+      "stotrams": [
+        "gayatri-mantra",
+        "hanuman-chalisa"
+      ],
+      "guides": [
+        "night-prayer-routine",
+        "best-mantra-for-anxiety",
+        "how-to-use-japa-mala"
+      ]
     },
-    sources: [
-      'Traditional Shantakaram stotra to Vishnu',
-      'Bernardi L. et al., BMJ 2001;323:1446',
-    ],
+    "sources": [
+      "Traditional Shantakaram stotra to Vishnu",
+      "Bernardi L. et al., Effect of rosary prayer and yoga mantras on autonomic cardiovascular rhythms: comparative study, BMJ 2001;323:1446-1449",
+      "American College of Physicians, Management of Chronic Insomnia Disorder in Adults, Annals of Internal Medicine 2016"
+    ]
   },
-
   {
-    slug: 'best-mantra-for-money',
-    category: 'Livelihood',
-    title: 'Best Mantras for Money and Prosperity: Lakshmi, Kubera and Ganesha',
-    description:
-      'Traditional mantras for prosperity: Lakshmi, Kubera and Ganesha mantras with meaning, how to practise, and why Hindu tradition pairs prayer with honest work and generosity.',
-    h1: 'Best Mantras for Money and Prosperity',
-    intro:
-      'Hindu tradition does not look down on prosperity. Artha, material wellbeing, is one of the four goals of life. But it asks that wealth be earned honestly and shared. This guide covers the mantras traditionally used for prosperity, with a realistic view of what they can and cannot do.',
-    sections: [
+    "slug": "best-mantra-for-money",
+    "category": "Livelihood",
+    "title": "Best Mantras for Money and Prosperity: Lakshmi, Kubera and Ganesha",
+    "description": "Traditional mantras for prosperity: Lakshmi, Kubera and Ganesha mantras with meaning, how to practise, and why Hindu tradition pairs prayer with honest work and generosity.",
+    "h1": "Best Mantras for Money and Prosperity",
+    "intro": "Hindu tradition does not look down on prosperity. Artha, material wellbeing, is one of the four goals of life, next to dharma, kama and moksha. But it asks that wealth be earned honestly and shared. This guide covers the mantras traditionally used for prosperity, how to practise them in a short weekly routine, what the older texts say about giving, and a realistic view of what a mantra can and cannot do for your finances.",
+    "sections": [
       {
-        h: 'Lakshmi',
-        p: [
-          `Lakshmi is the goddess of wealth in the broad sense of shri, prosperity together with grace. The popular mantra Om Shreem Mahalakshmyai Namah is chanted on Fridays, often 108 times. The Mahalakshmi Ashtakam and the Shri Sukta are the classic hymns. Our guide to Lakshmi mantras and the Friday ritual gives a full routine.`,
-        ],
+        "h": "Wealth as one of four goals",
+        "p": [
+          "The classical list of purusharthas places artha beside dharma (right conduct), kama (legitimate desire) and moksha (freedom). Wealth is not treated as shameful, and neither is it treated as the point of life. A householder is expected to earn, support a family, host guests and give to others. Prayers for prosperity make most sense when read inside that frame: they ask for steadiness and grace in a part of life that every household has to manage."
+        ]
       },
       {
-        h: 'Kubera',
-        p: [
-          `Kubera is the treasurer of the gods and lord of the north. His mantra, Om Yakshaya Kuberaya Vaishravanaya Dhanadhanyadhipataye Dhanadhanyasamriddhim Me Dehi Dapaya Svaha, asks for abundance of wealth and grain. It is often chanted on Diwali and Dhanteras, the day of wealth, which comes just before it.`,
-        ],
+        "h": "Lakshmi",
+        "p": [
+          "Lakshmi is the goddess of wealth in the broad sense of shri, prosperity together with grace and beauty. The popular mantra Om Shreem Mahalakshmyai Namah is chanted on Fridays, often 108 times. The Mahalakshmi Ashtakam and the Shri Sukta are the classic hymns, and both can be read aloud in a few minutes. This site gives the Mahalakshmi Ashtakam in Hindi, Odia and Telugu with meaning. Our guide to Lakshmi mantras and the Friday ritual gives a full routine."
+        ]
       },
       {
-        h: 'Ganesha',
-        p: [
-          `Ganesha removes obstacles, and before any financial undertaking such as starting a business or signing an agreement, many people recite Om Gam Ganapataye Namah. This is a prayer for clear thinking and smooth progress rather than money directly.`,
-        ],
+        "h": "Kubera",
+        "p": [
+          "Kubera is the treasurer of the gods and lord of the north. His popular mantra, Om Yakshaya Kuberaya Vaishravanaya Dhanadhanyadhipataye Dhanadhanyasamriddhim Me Dehi Dapaya Svaha, asks for abundance of wealth and grain. It is often chanted around Dhanteras and Diwali. Many families pair Kubera with Lakshmi, the one as keeper of the treasury and the other as the grace that makes it fruitful."
+        ]
       },
       {
-        h: 'What tradition says about wealth',
-        p: [
-          `The Bhagavad Gita (2.47) advises acting without clinging to the fruit of action: Karmanye vadhikaraste ma phaleshu kadachana. Lakshmi worship is not a way of avoiding work; households traditionally worship the tools of their trade on Vishwakarma Puja and Ayudha Puja precisely to honour the work that makes prosperity possible. Dana, generosity, is considered the natural partner of wealth.`,
-        ],
+        "h": "Ganesha",
+        "p": [
+          "Ganesha removes obstacles, and before any financial undertaking such as starting a business or signing an agreement, many people recite Om Gam Ganapataye Namah. This is a prayer for clear thinking and smooth progress rather than money directly. Some people begin their weekly money review, paying bills or filling in accounts, with one round of it, which turns an irksome task into a calm one."
+        ]
       },
       {
-        h: 'A realistic practice',
-        p: [
-          `Chant for ten minutes on Friday morning or evening, and give something, however small, to someone in need. Alongside it, do the practical things: keep a budget, avoid high-interest debt, build an emergency fund, and seek advice from a qualified financial adviser if you are in difficulty. This guide is general information and not financial advice. The mantras can give calm and a framework of gratitude during stressful times.`,
-        ],
+        "h": "What the texts say about earning and giving",
+        "p": [
+          "The Bhagavad Gita (2.47) advises acting without clinging to the fruit of action: Karmanye vadhikaraste ma phaleshu kadachana. Lakshmi worship is not a way of avoiding work. Households traditionally worship the tools of their trade on Vishwakarma Puja and Ayudha Puja precisely to honour the work that makes prosperity possible.",
+          "Giving is the natural partner of earning. The Taittiriya Upanishad (1.11.3), in its advice to departing students, says to give with faith and not without it, with modesty and with understanding. In plain terms: give thoughtfully and willingly, not carelessly or to be seen. That can be a small regular donation, food for someone who needs it, or time given to a cause."
+        ]
       },
+      {
+        "h": "A weekly routine that fits real life",
+        "p": [
+          "Pick Friday morning or evening. Wash, light a lamp, and sit for ten minutes. Say a verse or two of the Mahalakshmi Ashtakam, or chant your chosen mantra 108 times on a mala, or 11 times if you are short of time. Close by naming one thing you are grateful for in your work or home. Then do a short practical review: look at your spending for the week and decide on one small saving or one small gift.",
+          "The pairing matters. A mantra will not change a bank balance by itself, but a calm weekly habit of looking honestly at your money often does. People who dread their finances tend to avoid looking at them, and avoidance is expensive."
+        ]
+      },
+      {
+        "h": "Practical steps that match the spirit",
+        "p": [
+          "Keep a simple budget. Avoid high-interest debt. Build an emergency fund over time, since financial advisers commonly suggest several months of basic expenses as a target. Keep records, pay taxes and bills on time, and read contracts before signing them. If you are in debt or in difficulty, speak to a qualified financial adviser or a nonprofit credit counsellor in your country. This guide is general information and not financial advice."
+        ]
+      },
+      {
+        "h": "A word of caution",
+        "p": [
+          "Be wary of anyone who sells a secret mantra, a special locket or a paid ritual that promises money. No credible tradition asks for payment in exchange for guaranteed wealth, and many people have lost savings to such offers. The traditional mantras on this page are open to everyone and cost nothing. If someone pressures you to pay, step away."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Which mantra is best for money?',
-        a: 'Lakshmi mantras such as Om Shreem Mahalakshmyai Namah are the most common, with Kubera and Ganesha mantras as complements.',
+        "q": "Which mantra is best for money?",
+        "a": "Lakshmi mantras such as Om Shreem Mahalakshmyai Namah are the most common, with Kubera and Ganesha mantras as complements. Choose the one you can say with attention."
       },
       {
-        q: 'Which day is best?',
-        a: 'Friday for Lakshmi; Diwali and Dhanteras are the major occasions.',
+        "q": "Which day is best?",
+        "a": "Friday for Lakshmi. Dhanteras and Diwali are the major occasions of the year."
       },
       {
-        q: 'Will chanting increase my income?',
-        a: 'Tradition links prayer with grace but also stresses work and honesty. We cannot promise financial results.',
+        "q": "Will chanting increase my income?",
+        "a": "Tradition links prayer with grace but also stresses work and honesty. We cannot promise financial results, and no mantra replaces a plan."
       },
       {
-        q: 'Can I chant for a business?',
-        a: 'Yes. Many business owners begin the day with Ganesha and Lakshmi mantras.',
+        "q": "Can I chant for a business?",
+        "a": "Yes. Many business owners begin the day with Ganesha and Lakshmi mantras. Keep honest accounts alongside."
       },
+      {
+        "q": "How many times should I chant?",
+        "a": "108 on a mala is traditional, but 11 or 21 with full attention is also fine. Regular short practice matters more than a long one done once."
+      },
+      {
+        "q": "Is it right to ask for wealth in prayer?",
+        "a": "Yes. The tradition counts artha as a legitimate aim. It asks that wealth be earned fairly and shared."
+      },
+      {
+        "q": "What should I do if someone offers a paid money mantra or ritual?",
+        "a": "Decline. Genuine traditional mantras are free, and promises of guaranteed wealth are a common sign of a scam."
+      }
     ],
-    related: {
-      stotrams: ['mahalakshmi-ashtakam', 'ganesh-aarti'],
-      guides: ['lakshmi-mantra-friday-ritual', 'best-mantra-for-job'],
+    "related": {
+      "stotrams": [
+        "mahalakshmi-ashtakam",
+        "ganesh-aarti"
+      ],
+      "guides": [
+        "lakshmi-mantra-friday-ritual",
+        "best-mantra-for-job",
+        "diwali-lakshmi-puja-guide"
+      ]
     },
-    sources: [
-      'Shri Sukta (Rigvedic khila)',
-      'Bhagavad Gita 2.47',
-    ],
+    "sources": [
+      "Shri Sukta (Rigvedic khila)",
+      "Bhagavad Gita 2.47",
+      "Taittiriya Upanishad, Shikshavalli 1.11.3 (advice on giving)"
+    ]
   },
-
   {
     slug: 'best-mantra-for-job',
     category: 'Livelihood',
@@ -351,74 +420,106 @@ export const GUIDES_TOPIC = [
   },
 
   {
-    slug: 'best-mantra-for-confidence',
-    category: 'Strength',
-    title: 'Best Mantras for Confidence, Courage and Interviews',
-    description:
-      'Mantras and prayers people use to build confidence and calm nerves: Hanuman, Durga, Surya and Ganesha, with a two-minute pre-interview routine and tips for public speaking.',
-    h1: 'Best Mantras for Confidence, Courage and Interviews',
-    intro:
-      'Confidence in the Hindu devotional view is not self-assertion; it is the steadiness that comes from knowing you do not carry the burden alone. This guide gives mantras and a short routine for moments when you need to feel braver, from an interview to a hard conversation.',
-    sections: [
+    "slug": "best-mantra-for-confidence",
+    "category": "Strength",
+    "title": "Best Mantras for Confidence, Courage and Interviews",
+    "description": "Mantras and prayers people use to build confidence and calm nerves: Hanuman, Durga, Surya and Ganesha, with a two-minute pre-interview routine and tips for public speaking.",
+    "h1": "Best Mantras for Confidence, Courage and Interviews",
+    "intro": "Confidence in the Hindu devotional view is not self-assertion. It is the steadiness that comes from knowing you do not carry the burden alone. This guide gives mantras and a short routine for moments when you need to feel braver, from an interview to a hard conversation, and adds one useful finding from psychology about turning nerves into energy.",
+    "sections": [
       {
-        h: 'Hanuman for courage',
-        p: [
-          `Hanuman is the deity of courage, but his courage is always described as service-based: he does not leap because he is proud; he leaps because he has a task. The Hanuman Chalisa and the short mantra Om Hanumate Namah are popular before tests of nerve. The image to keep in mind is of Hanuman crossing the ocean, doubting nothing.`,
-        ],
+        "h": "Hanuman for courage",
+        "p": [
+          "Hanuman is the deity of courage, but his courage is always described as service-based: he does not leap because he is proud, he leaps because he has a task. The Hanuman Chalisa and the short mantra Om Hanumate Namah are popular before tests of nerve. The image to keep in mind is of Hanuman crossing the ocean, doubting nothing."
+        ]
       },
       {
-        h: 'Durga for inner strength',
-        p: [
-          `Durga is the tradition's picture of confidence combined with compassion: ten arms, a lion, serenity. Reciting a verse such as Sarva Mangala Mangalye or the short Om Dum Durgayai Namah is a way of connecting with that poise. Many women recite it before important professional moments.`,
-        ],
+        "h": "Durga for inner strength",
+        "p": [
+          "Durga is the tradition's picture of confidence combined with compassion: ten arms, a lion, serenity. Reciting a verse such as Sarva Mangala Mangalye or the short Om Dum Durgayai Namah is a way of connecting with that poise. Many women recite it before important professional moments."
+        ]
       },
       {
-        h: 'Surya and the Gayatri for clarity',
-        p: [
-          `Confidence is also about thinking clearly under pressure. The Gayatri Mantra, which asks for illumination of the mind, and the Aditya Hridayam, which Rama received before his most decisive moment, both suit this need. Recite the Gayatri three times and notice your breathing slow.`,
-        ],
+        "h": "Surya and the Gayatri for clarity",
+        "p": [
+          "Confidence is also about thinking clearly under pressure. The Gayatri Mantra, which asks for illumination of the mind, suits this need. So does the Aditya Hridayam. In the Yuddha Kanda of the Valmiki Ramayana (sarga 107), the sage Agastya teaches this hymn to the Sun to a weary Rama on the battlefield, shortly before his final fight with Ravana, and the Sun god then urges him to fight with full strength. The story is a reminder that even the hero needed a steadying practice at the decisive moment."
+        ]
       },
       {
-        h: 'A two-minute routine before an interview',
-        p: [
-          `In the hour before, find a quiet spot. Stand or sit tall. Breathe in for four, out for six, three times. Silently repeat your chosen mantra eleven times, one on each out-breath. Then think of one thing you are proud of in your preparation. Walk in with your shoulders relaxed. This routine takes two minutes and helps with the physical symptoms of nerves.`,
-        ],
+        "h": "Turn nerves into excitement",
+        "p": [
+          "Psychology offers a helpful companion to these prayers. In studies by Alison Wood Brooks of Harvard Business School, published in 2014, people who told themselves they were excited before an anxiety-provoking task did better than people who tried to calm down. Those who said I am excited before a speech gave longer talks and were rated as more persuasive and competent. Those prompted to get excited before hard maths problems scored about 8 percent higher, and in a singing task the excited group scored about 80 percent against 69 percent for those who said they were calm.",
+          "The idea is that anxiety and excitement are both high-energy states, so it is easier to relabel the feeling than to switch it off. You can use this with a mantra: breathe slowly, say the verse, then add a plain sentence such as I am ready and I am excited to begin. Treat the research as encouraging rather than a guarantee, since results vary between people and tasks."
+        ]
       },
       {
-        h: 'Practical confidence',
-        p: [
-          `The most reliable confidence comes from preparation. Rehearse answers aloud, ask a friend to mock-interview you, and sleep well. Mantras help you feel steady; they do not replace readiness. If social anxiety or fear of speaking is severe and persistent, a therapist can offer techniques that work well alongside devotional practice.`,
-        ],
+        "h": "A two-minute routine before an interview",
+        "p": [
+          "In the hour before, find a quiet spot. Stand or sit tall. Breathe in for four, out for six, three times. Silently repeat your chosen mantra eleven times, one on each out-breath. Then think of one thing you are proud of in your preparation, and tell yourself you are excited to show it. Walk in with your shoulders relaxed. This routine takes two minutes and helps with the physical symptoms of nerves."
+        ]
       },
+      {
+        "h": "After a setback",
+        "p": [
+          "Not every interview or talk goes well. Afterwards, write down one thing that went right and one thing to change. Say a short prayer of thanks for the chance you had. Hanuman's story includes setbacks, and his steadiness is part of what makes him admired. Confidence that survives a poor result is the lasting kind."
+        ]
+      },
+      {
+        "h": "Practical confidence",
+        "p": [
+          "The most reliable confidence comes from preparation. Rehearse answers aloud, ask a friend to mock-interview you, and sleep well the night before. Mantras help you feel steady. They do not replace readiness. If social anxiety or fear of speaking is severe and persistent, a therapist can offer techniques that work well alongside devotional practice."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Which mantra is best for confidence?',
-        a: 'Hanuman mantras, the Gayatri and Durga mantras are common. Choose one that you connect with.',
+        "q": "Which mantra is best for confidence?",
+        "a": "Hanuman mantras, the Gayatri and Durga mantras are common. Choose one that you connect with."
       },
       {
-        q: 'Which mantra before an interview?',
-        a: 'Om Gam Ganapataye Namah, the Gayatri or Om Hanumate Namah, repeated eleven times with slow breathing.',
+        "q": "Which mantra before an interview?",
+        "a": "Om Gam Ganapataye Namah, the Gayatri or Om Hanumate Namah, repeated eleven times with slow breathing."
       },
       {
-        q: 'Can I use a mantra for public speaking?',
-        a: 'Yes. A quiet mantra with slow breathing before you speak helps many people.',
+        "q": "Can I use a mantra for public speaking?",
+        "a": "Yes. A quiet mantra with slow breathing before you speak helps many people."
       },
       {
-        q: 'Does it work instantly?',
-        a: 'It can calm you in minutes, but long-term confidence builds with practice and preparation.',
+        "q": "Does it work instantly?",
+        "a": "It can calm you in minutes, but long-term confidence builds with practice and preparation."
       },
+      {
+        "q": "What is the story of Aditya Hridayam?",
+        "a": "In the Yuddha Kanda of the Valmiki Ramayana, sage Agastya teaches Rama this hymn to the Sun before his final battle with Ravana, to restore his courage."
+      },
+      {
+        "q": "Is it better to calm down or get excited before a big moment?",
+        "a": "One set of studies found that people who reframed their nerves as excitement did better than those who tried to calm down. Slow breathing and a mantra can be combined with that reframe."
+      },
+      {
+        "q": "What if my nerves are severe?",
+        "a": "If fear of speaking or social situations is intense and lasting, see a therapist or doctor. Prayer can support treatment but should not replace it."
+      }
     ],
-    related: {
-      stotrams: ['hanuman-chalisa', 'durga-stotram', 'gayatri-mantra'],
-      guides: ['best-mantra-for-job', 'how-to-chant-hanuman-chalisa', 'best-mantra-for-anxiety'],
+    "related": {
+      "stotrams": [
+        "hanuman-chalisa",
+        "durga-stotram",
+        "gayatri-mantra"
+      ],
+      "guides": [
+        "best-mantra-for-job",
+        "how-to-chant-hanuman-chalisa",
+        "best-mantra-for-anxiety"
+      ]
     },
-    sources: [
-      'Goswami Tulsidas, Hanuman Chalisa',
-      'Devi Mahatmya, Sarva Mangala Mangalye verse',
-    ],
+    "sources": [
+      "Goswami Tulsidas, Hanuman Chalisa",
+      "Devi Mahatmya, Sarva Mangala Mangalye verse",
+      "Valmiki Ramayana, Yuddha Kanda, sarga 107 (Aditya Hridayam)",
+      "Brooks A.W., Get excited: reappraising pre-performance anxiety as excitement, Journal of Experimental Psychology: General, 2014"
+    ]
   },
-
   {
     slug: 'best-mantra-for-study-focus',
     category: 'Learning',
@@ -524,143 +625,216 @@ export const GUIDES_TOPIC = [
   },
 
   {
-    slug: 'best-mantra-for-health',
-    category: 'Wellbeing',
-    title: 'Mantras for Health and Healing: Maha Mrityunjaya, Dhanvantari and Hanuman',
-    description:
-      'Traditional prayers for health and for a sick loved one: Maha Mrityunjaya mantra, Dhanvantari, Hanuman Chalisa and Aditya Hridayam, with a clear note that prayer complements medical care.',
-    h1: 'Mantras for Health and Healing',
-    intro:
-      'When someone we love is unwell, prayer is a natural response. This guide covers the mantras families traditionally recite for health, what each means, and how to use them in a way that supports, and never delays, proper medical care.',
-    sections: [
+    "slug": "best-mantra-for-health",
+    "category": "Wellbeing",
+    "title": "Mantras for Health and Healing: Maha Mrityunjaya, Dhanvantari and Hanuman",
+    "description": "Traditional prayers for health and for a sick loved one: Maha Mrityunjaya mantra, Dhanvantari, Hanuman Chalisa and Aditya Hridayam, with a clear note that prayer complements medical care.",
+    "h1": "Mantras for Health and Healing",
+    "intro": "When someone we love is unwell, prayer is a natural response. This guide covers the mantras families traditionally recite for health, what each means, how to use them in a way that supports and never delays proper medical care, and how caregivers can look after themselves while they pray for someone else.",
+    "sections": [
       {
-        h: 'A clear note first',
-        p: [
-          `Mantras are devotional practices, not medical treatments. If you or someone you love is unwell, please seek medical attention. The prayers below are for comfort, courage and the sense of not being alone. Everything on this page is about spiritual practice and is not medical advice.`,
-        ],
+        "h": "A clear note first",
+        "p": [
+          "Mantras are devotional practices, not medical treatments. If you or someone you love is unwell, please seek medical attention, and call your local emergency number for urgent symptoms. The prayers below are for comfort, courage and the sense of not being alone. Everything on this page is about spiritual practice and is not medical advice."
+        ]
       },
       {
-        h: 'Maha Mrityunjaya mantra',
-        p: [
-          `The Maha Mrityunjaya mantra from the Rigveda (7.59.12) addresses Shiva, the three-eyed one: Om Tryambakam Yajamahe Sugandhim Pushtivardhanam, Urvarukamiva Bandhanan Mrityor Mukshiya Mamritat. It means we worship the three-eyed lord who nourishes all; as the ripe cucumber is freed from its stalk, may he free us from death, not from immortality. It is the most commonly recited mantra for illness and recovery, and is often chanted 108 times by family members while a patient rests.`,
-        ],
+        "h": "Maha Mrityunjaya mantra",
+        "p": [
+          "The Maha Mrityunjaya mantra from the Rigveda (7.59.12) addresses Shiva, the three-eyed one: Om Tryambakam Yajamahe Sugandhim Pushtivardhanam, Urvarukamiva Bandhanan Mrityor Mukshiya Mamritat. It means we worship the three-eyed lord who nourishes all. As the ripe cucumber is freed from its stalk, may he free us from death, not from immortality. It is the most commonly recited mantra for illness and recovery, and is often chanted 108 times by family members while a patient rests. This site has the mantra in Hindi, Odia and Telugu with meaning."
+        ]
       },
       {
-        h: 'Dhanvantari and Surya',
-        p: [
-          `Dhanvantari, the physician of the gods, emerged from the churning of the ocean holding a pot of nectar. He is the deity of Ayurveda, and Dhanteras, two days before Diwali, is his festival. His mantra is Om Namo Bhagavate Dhanvantaraye Amritakalashahastaya. Surya, the sun, is associated with vitality, and the Aditya Hridayam is traditionally recited on Sundays by those seeking renewed strength.`,
-        ],
+        "h": "Dhanvantari and Surya",
+        "p": [
+          "Dhanvantari, the physician of the gods, emerged from the churning of the ocean holding a pot of nectar. He is the deity of Ayurveda, and Dhanteras, two days before Diwali, is his festival. His mantra is Om Namo Bhagavate Dhanvantaraye Amritakalashahastaya. Surya, the sun, is associated with vitality, and the Aditya Hridayam is traditionally recited on Sundays by those seeking renewed strength."
+        ]
       },
       {
-        h: 'Hanuman for courage during illness',
-        p: [
-          `Hanuman is remembered in the Ramayana as the one who brought the Sanjeevani herb to revive Lakshmana. For this reason, the Hanuman Chalisa is recited by many families in a health crisis. Its verse about Sanjeevani is a source of hope; read it as a prayer for strength for the patient and the carers.`,
-        ],
+        "h": "Hanuman for courage during illness",
+        "p": [
+          "Hanuman is remembered in the Ramayana as the one who brought the Sanjeevani herb to revive Lakshmana. For this reason, the Hanuman Chalisa is recited by many families in a health crisis. Its verse about Sanjeevani is a source of hope. Read it as a prayer for strength for the patient and the carers. The Sankat Mochan Hanuman Ashtak, which retells this rescue in its fifth verse, is another short choice."
+        ]
       },
       {
-        h: 'How to support a sick loved one',
-        p: [
-          `Recite quietly near them if they welcome it, or recite elsewhere and simply send your thoughts. Do not pressure anyone to join a ritual. Keep their appointments, ask the doctor questions, rest yourself, and accept help from others. Caregivers need care too, and the most beautiful devotion is often simple presence.`,
-        ],
+        "h": "Why slow recitation can feel calming",
+        "p": [
+          "In a 2001 BMJ study of 23 healthy adults, recitation of a yoga mantra and of the Latin Ave Maria, both paced at about six repetitions a minute, produced strong synchronised changes in cardiovascular rhythms and a rise in baroreflex sensitivity. The study was small and did not test illness, so it cannot be read as a treatment. It does suggest why slow, even recitation tends to feel steadying for the person doing it, whether they are a patient or a worried relative."
+        ]
       },
+      {
+        "h": "How to support a sick loved one",
+        "p": [
+          "Recite quietly near them if they welcome it, or recite elsewhere and simply send your thoughts. Do not pressure anyone to join a ritual, and respect those who prefer no prayer at all. Keep their appointments, ask the doctor questions, write down medicines and instructions, and accept help from others. The most beautiful devotion is often simple presence."
+        ]
+      },
+      {
+        "h": "If you are the caregiver",
+        "p": [
+          "Caregivers can become exhausted without noticing. Take a few slow breaths with a short mantra when you feel overwhelmed. Sleep when you can, eat properly, and ask someone else to take a shift. Speak to the care team or a doctor if you feel persistently low, anxious or unable to cope. Looking after yourself is part of looking after them."
+        ]
+      },
+      {
+        "h": "A simple daily rhythm during an illness",
+        "p": [
+          "Many families choose one fixed time, for example the early morning or the evening lamp, and say the same mantra for the same number of rounds each day. A fixed rhythm gives the household something steady while everything else is uncertain. Keep it short enough to continue on hard days, and let go of any rule that makes you feel guilty for missing a day."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Which mantra is best for health?',
-        a: 'The Maha Mrityunjaya mantra is the most widely recited, followed by Dhanvantari and Hanuman prayers.',
+        "q": "Which mantra is best for health?",
+        "a": "The Maha Mrityunjaya mantra is the most widely recited, followed by Dhanvantari and Hanuman prayers."
       },
       {
-        q: 'Can mantras cure disease?',
-        a: 'No. They provide comfort and support but are not a medical treatment.',
+        "q": "Can mantras cure disease?",
+        "a": "No. They provide comfort and support but are not a medical treatment."
       },
       {
-        q: 'How many times should the Maha Mrityunjaya mantra be chanted?',
-        a: '108 times is traditional, but any sincere count is fine.',
+        "q": "How many times should the Maha Mrityunjaya mantra be chanted?",
+        "a": "108 times is traditional, but any sincere count is fine."
       },
       {
-        q: 'Can I chant for someone else?',
-        a: 'Yes. Praying for another person is a common and valued practice.',
+        "q": "Can I chant for someone else?",
+        "a": "Yes. Praying for another person is a common and valued practice."
       },
+      {
+        "q": "Should I stop treatment if I pray?",
+        "a": "No. Continue the treatment your doctor recommends. Prayer can sit alongside it."
+      },
+      {
+        "q": "What can I recite if I cannot concentrate?",
+        "a": "A very short line such as Om Namah Shivaya, or simply Om with slow breathing, is enough."
+      },
+      {
+        "q": "Is there a mantra for caregivers?",
+        "a": "Any short calming mantra will do. Use it with slow breathing during breaks, and make sure you rest and seek help too."
+      }
     ],
-    related: {
-      stotrams: ['hanuman-chalisa', 'aditya-hridayam', 'shiv-chalisa'],
-      guides: ['how-to-chant-shiva-mantra', 'best-mantra-for-protection'],
+    "related": {
+      "stotrams": [
+        "hanuman-chalisa",
+        "aditya-hridayam",
+        "shiv-chalisa",
+        "maha-mrityunjaya-mantra",
+        "sankat-mochan-hanuman-ashtak"
+      ],
+      "guides": [
+        "how-to-chant-shiva-mantra",
+        "best-mantra-for-protection",
+        "best-mantra-for-anxiety"
+      ]
     },
-    sources: [
-      'Rigveda 7.59.12',
-      'Valmiki Ramayana, Yuddha Kanda, for the Sanjeevani episode',
-    ],
+    "sources": [
+      "Rigveda 7.59.12",
+      "Valmiki Ramayana, Yuddha Kanda, for the Sanjeevani episode",
+      "Bernardi L. et al., BMJ 2001;323:1446-1449 (slow recitation and cardiovascular rhythms)"
+    ]
   },
-
   {
-    slug: 'best-mantra-for-marriage',
-    category: 'Family',
-    title: 'Mantras for Marriage and Finding a Life Partner: Parvati, Katyayani and Rama-Sita',
-    description:
-      'Traditional prayers for a happy marriage and for those seeking a partner: the Katyayani mantra, Gauri worship, Shiva-Parvati and Rama-Sita devotion, with grounded advice.',
-    h1: 'Mantras for Marriage and Finding a Life Partner',
-    intro:
-      'Marriage is a milestone in many families, and prayer is a part of how people approach it. This guide covers the deities and verses traditionally associated with marriage, and adds a grounded note that relationships grow from character and effort.',
-    sections: [
+    "slug": "best-mantra-for-marriage",
+    "category": "Family",
+    "title": "Mantras for Marriage and Finding a Life Partner: Parvati, Katyayani and Rama-Sita",
+    "description": "Traditional prayers for a happy marriage and for those seeking a partner: the Katyayani mantra, Gauri worship, Shiva-Parvati and Rama-Sita devotion, with grounded advice.",
+    "h1": "Mantras for Marriage and Finding a Life Partner",
+    "intro": "Marriage is a milestone in many families, and prayer is a part of how people approach it. This guide covers the deities and verses traditionally associated with marriage, offers some ideas for couples who are already married, and adds a grounded note that relationships grow from character, honesty and effort, and that the choice to marry is yours.",
+    "sections": [
       {
-        h: 'Katyayani',
-        p: [
-          `The Bhagavata Purana tells that the young women of Vraja worshipped Goddess Katyayani for a month so that Krishna would be their husband. Their prayer, Katyayani Mahamaye Mahayoginyadhishvari, Nandagopasutam Devi Patim Me Kuru Te Namah, is the best-known marriage mantra. It asks the goddess, great power, to grant a husband who is the beloved of Nanda's household. Today it is recited by many young women, with the wording adapted to a prayer for a suitable partner. The Chaitra and Sharad Navratri are favoured times.`,
-        ],
+        "h": "Katyayani",
+        "p": [
+          "The Bhagavata Purana (10.22) tells that the young women of Vraja worshipped Goddess Katyayani for a month so that Krishna would be their husband. Their prayer, Katyayani Mahamaye Mahayoginyadhishvari, Nandagopasutam Devi Patim Me Kuru Te Namah, is the best-known marriage mantra. It asks the goddess of great power to grant a husband who is the beloved of Nanda's household. Today it is recited by many young women, with the wording adapted to a prayer for a suitable partner. The Chaitra and Sharad Navratri are favoured times."
+        ]
       },
       {
-        h: 'Shiva and Parvati',
-        p: [
-          `Parvati performed severe austerities to win Shiva. Their marriage is the ideal of devoted partnership between equals, and unmarried people and couples alike pray to them. Mondays are the traditional fasting day for those seeking a good partner, especially the sixteen Mondays vow known as Solah Somvar. Recite Om Namah Shivaya and the Shiv Chalisa, and offer water or bilva leaves at a temple.`,
-        ],
+        "h": "Shiva and Parvati",
+        "p": [
+          "Parvati performed severe austerities to win Shiva. Their marriage is the ideal of devoted partnership between equals, and unmarried people and couples alike pray to them. Mondays are the traditional fasting day for those seeking a good partner, especially the sixteen Mondays vow known as Solah Somvar. Recite Om Namah Shivaya and the Shiv Chalisa, and offer water or bilva leaves at a temple. A fast is optional, and people with health needs should eat suitably."
+        ]
       },
       {
-        h: 'Rama and Sita',
-        p: [
-          `For a happy marriage already begun, many couples turn to Rama and Sita, whose bond in the Ramayana is the model of mutual loyalty. Reciting the Ram Raksha Stotram together, or reading a passage from the Ramayana on anniversaries, is a lovely family custom.`,
-        ],
+        "h": "Rama and Sita",
+        "p": [
+          "For a happy marriage already begun, many couples turn to Rama and Sita, whose bond in the Ramayana is the model of mutual loyalty. Reciting the Ram Raksha Stotram together, or reading a passage from the Ramayana on anniversaries, is a lovely family custom."
+        ]
       },
       {
-        h: 'Praying with perspective',
-        p: [
-          `A marriage depends on two people and on choices. Prayer can give you patience and hope while you meet people, but it cannot choose for you or override anyone's will. Use the waiting time to grow: be clear about what you value, learn to communicate well, and be open to meeting people through family, friends and community. If anyone is pressuring you into a marriage you do not want, please seek support from someone you trust.`,
-        ],
+        "h": "Praying with perspective",
+        "p": [
+          "A marriage depends on two people and on choices. Prayer can give you patience and hope while you meet people, but it cannot choose for you or override anyone's will. Use the waiting time to grow: be clear about what you value, learn to communicate well, and be open to meeting people through family, friends and community."
+        ]
       },
       {
-        h: 'Keeping a marriage warm',
-        p: [
-          `Couples can recite a shanti mantra together, light a lamp on their anniversary, and share a few quiet minutes each evening. These small practices build a sense of shared sacred space, which many couples say is worth more than any special ritual.`,
-        ],
+        "h": "A gentle practice while you wait",
+        "p": [
+          "If you are waiting to meet someone, a short fixed practice can keep you steady. Choose one prayer, for example the Katyayani mantra or Om Namah Shivaya, and keep a small weekly rhythm such as Monday evenings. Pair it with something active: attend a community gathering, accept an introduction, or contact an old friend. Many people find that the practice calms the worry about timing, while the activity creates the opportunities. If waiting begins to weigh on your mood, talk to a friend or counsellor, because feeling low about it is common and deserves care."
+        ]
       },
+      {
+        "h": "Family customs and your own choice",
+        "p": [
+          "In many families, parents and relatives help with introductions, and some consult horoscopes, ask a priest for a date or arrange rituals. These customs differ between communities and regions, and they are family decisions rather than part of mantra practice. Whatever your family follows, a marriage should be entered freely by both people. If anyone is pressuring you into a marriage you do not want, please seek support from someone you trust, such as an elder, a friend, a counsellor or a local helpline."
+        ]
+      },
+      {
+        "h": "Things worth discussing before marriage",
+        "p": [
+          "Couples who talk early about money, children, work, where to live, family responsibilities and how to handle disagreement tend to start with fewer surprises. A prayer for patience works best next to honest conversation. Premarital counselling, offered by many community organisations and faith groups, can be a useful structure for these talks."
+        ]
+      },
+      {
+        "h": "Keeping a marriage warm",
+        "p": [
+          "Couples can recite a shanti mantra together, light a lamp on their anniversary, and share a few quiet minutes each evening. A short daily habit, such as saying one thing you appreciated about each other, builds a sense of shared sacred space, which many couples say is worth more than any special ritual."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Which mantra is best for marriage?',
-        a: 'The Katyayani mantra and Shiva-Parvati worship are the most traditional.',
+        "q": "Which mantra is best for marriage?",
+        "a": "The Katyayani mantra and Shiva-Parvati worship are the most traditional."
       },
       {
-        q: 'What is Solah Somvar?',
-        a: 'A vow of fasting and worship on sixteen Mondays, traditionally for a suitable partner.',
+        "q": "What is Solah Somvar?",
+        "a": "A vow of fasting and worship on sixteen Mondays, traditionally for a suitable partner."
       },
       {
-        q: 'Can chanting delay or fix a marriage?',
-        a: 'No. It supports patience and hope but does not determine outcomes.',
+        "q": "Can chanting delay or fix a marriage?",
+        "a": "No. It supports patience and hope but does not determine outcomes."
       },
       {
-        q: 'Can couples chant together?',
-        a: 'Yes. Reciting a shanti mantra or Ram Raksha Stotram together is a loved practice.',
+        "q": "Can couples chant together?",
+        "a": "Yes. Reciting a shanti mantra or Ram Raksha Stotram together is a loved practice."
       },
+      {
+        "q": "Do I need a horoscope to pray for marriage?",
+        "a": "No. Horoscope matching is a family custom that varies, and it is separate from mantra practice."
+      },
+      {
+        "q": "Can men chant the Katyayani mantra?",
+        "a": "The verse is traditionally linked to the Vraja women, but prayer to a goddess is open to anyone. Adapt the wording to your own intention."
+      },
+      {
+        "q": "What should I do if I am being pressured to marry?",
+        "a": "Speak to someone you trust, such as an elder, friend or counsellor. Marriage should be a free choice, and prayer is no reason to accept pressure."
+      }
     ],
-    related: {
-      stotrams: ['shiv-chalisa', 'ram-raksha-stotram', 'durga-stotram'],
-      guides: ['how-to-chant-shiva-mantra', 'best-prayer-for-inner-peace'],
+    "related": {
+      "stotrams": [
+        "shiv-chalisa",
+        "ram-raksha-stotram",
+        "durga-stotram"
+      ],
+      "guides": [
+        "how-to-chant-shiva-mantra",
+        "best-prayer-for-inner-peace",
+        "mantra-chanting-rules-faq"
+      ]
     },
-    sources: [
-      'Bhagavata Purana, Skandha 10, chapter 22',
-      'Traditional Solah Somvar vrata',
-    ],
+    "sources": [
+      "Bhagavata Purana, Skandha 10, chapter 22 (Katyayani vrata)",
+      "Traditional Solah Somvar vrata"
+    ]
   },
-
   {
     slug: 'best-mantra-for-protection',
     category: 'Strength',

@@ -32,8 +32,10 @@ import {
   RefreshCcw,
 } from 'lucide-react';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
+import { GUIDES } from '@/data/guides';
 import AdminFeedback from '@/components/AdminFeedback';
 import AdminEmail from '@/components/AdminEmail';
+import AdminVisitors from '@/components/AdminVisitors';
 
 const AUTO_REFRESH_MS = 10_000;
 
@@ -507,9 +509,12 @@ export default function AdminPage() {
   const seoChecklist = [
     { ok: true, text: `${totalStotrams} stotrams indexed in STOTRAMS_INDEX` },
     {
-      ok: pagesWithData >= 13,
-      text: `${pagesWithData}/13 stotrams have verse data files`,
+      ok: pagesWithData >= totalStotrams - 6,
+      text: `${pagesWithData}/${totalStotrams} stotrams have verse data files`,
     },
+    { ok: GUIDES.length >= 50, text: `${GUIDES.length} guides published (long-form pages for AdSense)` },
+    { ok: true, text: 'Verse of the day live on the home page and in the daily email' },
+    { ok: true, text: 'Own visitor tracker records pages and time per page (see Visitor Sessions)' },
     { ok: true, text: 'Google Analytics 4 connected on public pages' },
     { ok: true, text: 'Google Search Console connected & sitemap submitted' },
     { ok: true, text: 'generateMetadata() used on stotram pages' },
@@ -1206,6 +1211,9 @@ export default function AdminPage() {
               </div>
             )}
 
+            <SectionTitle icon={Users}>Visitor Sessions (per visitor, per page)</SectionTitle>
+            <AdminVisitors />
+
             <SectionTitle icon={Mail}>Daily Email</SectionTitle>
             <AdminEmail />
 
@@ -1251,6 +1259,9 @@ export default function AdminPage() {
                   href: 'https://vercel.com/dashboard',
                   icon: '▲',
                 },
+                { label: 'AdSense', href: 'https://www.google.com/adsense', icon: '💰' },
+                { label: 'Resend', href: 'https://resend.com/emails', icon: '✉️' },
+                { label: 'Firebase', href: 'https://console.firebase.google.com', icon: '🔥' },
                 { label: 'Homepage', href: '/', icon: '🏠' },
               ].map((item) => (
                 <a

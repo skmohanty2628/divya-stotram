@@ -4,6 +4,26 @@
 const L = { A4: 'CC BY-SA 4.0', B25: 'CC BY 2.5', PD: 'Public domain', A3: 'CC BY-SA 3.0', A2: 'CC BY-SA 2.0', B4: 'CC BY 4.0', B3: 'CC BY 3.0', B2: 'CC BY 2.0', C0: 'CC0' };
 
 const RAW = {
+  'kali-puja-odisha-dipabali-amavasya-puri-guide': [
+    ['Bhadra Kali Puja 2018 - 1.jpg', 4000, 'Sangram Keshari Senapati', 'A4'],
+    ['Bhadra Kali Puja 2018 - 2.jpg', 4000, 'Sangram Keshari Senapati', 'A4'],
+    ['Bhadra Kali Puja 2018 - 3.jpg', 4000, 'Sangram Keshari Senapati', 'A4'],
+    ['Bhadra Kali Puja 2018 - 4.jpg', 4000, 'Sangram Keshari Senapati', 'A4'],
+    ['Bhadra Kali Puja 2018 - 5.jpg', 4000, 'Sangram Keshari Senapati', 'A4'],
+    ['Bhadra Kali Puja 2018 - 6.jpg', 4000, 'Sangram Keshari Senapati', 'A4'],
+    ['Bhadra Kali Puja 2018 - 7.jpg', 4000, 'Sangram Keshari Senapati', 'A4'],
+    ['Bhadra Kali Puja 2018 - 8.jpg', 4000, 'Sangram Keshari Senapati', 'A4'],
+    ['Pathaka Shop in Bhadrak during Kali Puja.jpg', 4000, 'Sangram Keshari Senapati', 'A4'],
+    ['Shyamakali temple.jpeg', 2560, 'Abha S Pradhan', 'PD'],
+  ],
+  'karthika-masam-telugu-month-2026-dates-guide': [
+    ['Karthika Deepam.jpg', 4640, 'Greeshma sai', 'A4'],
+    ['Indian goose berries lighted up in the night.jpg', 3264, 'K.P.B. SAI MRUDULA', 'A4'],
+    ['Hindu festival of worshipping snakes.jpeg', 4208, 'రవిచంద్ర', 'A3'],
+    ['Karthikai Deepam lit on the sacred hill.jpg', 4000, 'Prajnaana', 'A4'],
+    ['Karthikai Deepam at Mt. Arunachala.jpg', 2250, 'Accesscrawl', 'A4'],
+    ['Karthika deepam in tamilnadu.jpg', 2048, 'S.Elaiyaraja', 'A4'],
+  ],
   'maha-shivaratri-guide': [
     ['Devotees Offer Prayers To A Lord Hanuman during Maha Shivaratri in Nepal-070A2848.jpg', 6720, 'Bijay Chaurasia', 'A4'],
     ['Sadhu Giving Blessings to a Devotee During Maha Shivaratri at Pashupatinath Temple, Kathmandu, Nepal-070A6924.jpg', 6648, 'Bijay Chaurasia', 'A4'],
@@ -459,6 +479,7 @@ export const HUB_SOURCES = {
     'maha-shivaratri-guide', 'navaratri-nine-forms-of-durga', 'hanuman-jayanti-guide', 'ganesh-chaturthi-guide',
     'diwali-lakshmi-puja-guide', 'krishna-janmashtami-guide', 'rama-navami-guide', 'vasant-panchami-saraswati-puja-guide',
     'kartika-month-odisha-guide', 'durga-puja-odisha-guide', 'jagannath-ratha-yatra-puri-guide',
+    'karthika-masam-telugu-month-2026-dates-guide',
   ],
   'Meaning and history': [
     'aigiri-nandini-meaning-and-story', 'shiva-tandava-stotram-meaning-and-story', 'hanuman-chalisa-history-tulsidas',
@@ -470,5 +491,6 @@ export const HUB_SOURCES = {
     'gamha-purnima-rakhi-purnima-odisha-guide', 'mahalaya-pitru-paksha-odisha-guide', 'bahuda-yatra-suna-besha-niladri-bije-puri-guide',
     'rukuna-rath-yatra-ashokashtami-lingaraj-bhubaneswar-guide', 'samba-dashami-konark-chandrabhaga-pausha-odisha-guide',
     'jagannath-ratha-yatra-puri-guide', 'prathamastami-odisha-guide', 'raja-parba-odisha-guide',
+    'kali-puja-odisha-dipabali-amavasya-puri-guide',
   ],
 };

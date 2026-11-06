@@ -2,6 +2,7 @@ import './globals.css';
 import Link from 'next/link';
 import { SubscribePopup } from '@/components/SubscribeWidget';
 import SubscriberPing from '@/components/SubscriberPing';
+import VisitTracker from '@/components/VisitTracker';
 import FeedbackWidget from '@/components/FeedbackWidget';
 import { SITE_URL } from '@/lib/site';
 
@@ -235,6 +236,7 @@ export default function RootLayout({ children }) {
         </div>
         <SubscribePopup />
         <SubscriberPing />
+        <VisitTracker />
         <FeedbackWidget />
       </body>
     </html>

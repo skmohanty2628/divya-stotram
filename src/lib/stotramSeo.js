@@ -147,6 +147,11 @@ const SEO_COPY = {
     description:
       'Read Krishnashtakam (कृष्णाष्टकम्), Vasudeva Sutam Devam Kamsa Chanura Mardanam, all eight verses and the closing verse in English, Hindi, Odia and Telugu with meaning, when it is sung, and a video to follow along.',
   },
+  'sankat-mochan-hanuman-ashtak': {
+    title: 'Sankat Mochan Hanuman Ashtak Lyrics in English, Hindi, Odia & Telugu with Meaning (Bal Samay Ravi Bhakshi Liyo)',
+    description:
+      'Read Sankat Mochan Hanuman Ashtak (संकट मोचन हनुमान अष्टक), Bal Samay Ravi Bhakshi Liyo Tab, all eight verses and the closing doha in English, Hindi, Odia and Telugu with meaning, when it is recited, and a video to chant along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

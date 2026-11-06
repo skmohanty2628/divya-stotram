@@ -28,6 +28,7 @@ import { karagreVasateLakshmi } from '@/data/karagre-vasate-lakshmi';
 import { lingashtakam } from '@/data/lingashtakam';
 import { jagannathAshtakam } from '@/data/jagannath-ashtakam';
 import { krishnashtakam } from '@/data/krishnashtakam';
+import { hanumanAshtak } from '@/data/sankat-mochan-hanuman-ashtak';
 
 export const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
@@ -60,4 +61,5 @@ export const VERSE_DATA = {
   'lingashtakam': lingashtakam,
   'jagannath-ashtakam': jagannathAshtakam,
   'krishnashtakam': krishnashtakam,
+  'sankat-mochan-hanuman-ashtak': hanumanAshtak,
 };

@@ -649,6 +649,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'sankat-mochan-hanuman-ashtak',
+    title: {
+      en: 'Sankat Mochan Hanuman Ashtak (Bal Samay Ravi Bhakshi Liyo)',
+      hi: 'संकट मोचन हनुमान अष्टक (बाल समय रवि भक्षि लियो)',
+      od: 'ସଙ୍କଟମୋଚନ ହନୁମାନ ଅଷ୍ଟକ (ବାଲ ସମୟ ରବି ଭକ୍ଷି ଲିୟୋ)',
+      te: 'సంకటమోచన హనుమాన్ అష్టకం (బాల సమయ రవి భక్షి లియో)',
+    },
+    deity: 'Hanuman',
+    deityEmoji: '🏹',
+    deityIcon: '',
+    description: {
+      en: 'Sankat Mochan Hanuman Ashtak (Bal Samay Ravi Bhakshi Liyo), the eight verses and closing doha on Hanuman as the remover of troubles, in English, Hindi, Odia and Telugu with meaning and a video',
+      hi: 'संकट मोचन हनुमान अष्टक (बाल समय रवि भक्षि लियो), संकटमोचन हनुमान की स्तुति के आठ पद और समापन दोहा, अर्थ और वीडियो सहित हिन्दी, अंग्रेज़ी, ओड़िया और तेलुगु में',
+      od: 'ସଙ୍କଟମୋଚନ ହନୁମାନ ଅଷ୍ଟକ (ବାଲ ସମୟ ରବି ଭକ୍ଷି ଲିୟୋ), ହନୁମାନଙ୍କ ସ୍ତୁତିର ଆଠ ପଦ ଓ ସମାପ୍ତି ଦୋହା, ଅର୍ଥ ଓ ଭିଡିଓ ସହିତ',
+      te: 'సంకటమోచన హనుమాన్ అష్టకం (బాల సమయ రవి భక్షి లియో), హనుమంతుని స్తుతిలో ఎనిమిది పద్యాలు, ముగింపు దోహా, అర్థం మరియు వీడియోతో',
+    },
+    color: 'from-orange-950 to-red-950',
+    accent: '#e0733a',
+    youtubeId: 'HH_a6aRO1TE',
+    verseCount: 9,
+    language: 'Awadhi Hindi',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

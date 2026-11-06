@@ -13,7 +13,7 @@ const PRAYERS = {
   'maha-shivaratri-guide': [['shiva-panchakshara-stotram', 'Shiva Panchakshara Stotram'], ['lingashtakam', 'Lingashtakam']],
   'dola-purnima-odisha-guide': [['krishna-vasudevaya-mantra', 'Krishna Vasudevaya Mantra'], ['hare-krishna-maha-mantra', 'Hare Krishna Maha Mantra']],
   'rama-navami-guide': [['ram-raksha-stotram', 'Ram Raksha Stotram']],
-  'hanuman-jayanti-guide': [['hanuman-chalisa', 'Hanuman Chalisa'], ['bajrang-baan', 'Bajrang Baan']],
+  'hanuman-jayanti-guide': [['hanuman-chalisa', 'Hanuman Chalisa'], ['bajrang-baan', 'Bajrang Baan'], ['sankat-mochan-hanuman-ashtak', 'Sankat Mochan Hanuman Ashtak']],
   'akhi-muthi-anukula-akshaya-tritiya-odisha-guide': [['mahalakshmi-ashtakam', 'Mahalakshmi Ashtakam'], ['vishnu-sahasranamam', 'Vishnu Sahasranamam']],
   'jagannath-ratha-yatra-puri-guide': [['jagannath-ashtakam', 'Jagannath Ashtakam']],
   'gamha-purnima-rakhi-purnima-odisha-guide': [['vishnu-sahasranamam', 'Vishnu Sahasranamam'], ['gayatri-mantra', 'Gayatri Mantra']],

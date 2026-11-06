@@ -34,7 +34,7 @@ export const gayatriMantra = {
         'ॐ आपो ज्योतीरसोऽमृतं ब्रह्म भूर्भुवः स्वरोम्।',
       script: {
         od: 'ଓଁ ଆପୋ ଜ୍ୟୋତୀ ରସୋଽମୃତଂ ବ୍ରହ୍ମ ଭୂର୍ଭୁବଃ ସ୍ୱରୋମ୍।',
-        te: 'ఓం ఆపో జ్యోతీ రసోఽమృతం బ్రహ్మ భూర్భువః స్వరోం।',
+        te: 'ఓం ఆపో జ్యోతీ రసోఽమృతం బ్రహ్మ భూర్భువః స్వరోమ్।',
       },
       meaning: {
         en: 'Water, light, essence (rasa), immortality, and Brahman, all are pervaded by Om across the three worlds (bhu, bhuva, svah). This is the closing invocation after the Gayatri Mantra.',

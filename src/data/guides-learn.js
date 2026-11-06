@@ -287,7 +287,7 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['hanuman-chalisa', 'bajrang-baan'],
+      stotrams: ['hanuman-chalisa', 'bajrang-baan', 'sankat-mochan-hanuman-ashtak'],
       guides: ['hanuman-chalisa-history-tulsidas', 'hanuman-chalisa-benefits', 'how-to-chant-hanuman-chalisa'],
     },
     sources: [
@@ -492,7 +492,7 @@ export const GUIDES_LEARN = [
     ],
     related: {
       stotrams: ['mahalakshmi-ashtakam', 'ganesh-aarti'],
-      guides: ['lakshmi-mantra-friday-ritual', 'best-mantra-for-money'],
+      guides: ['lakshmi-mantra-friday-ritual', 'best-mantra-for-money', 'kali-puja-odisha-dipabali-amavasya-puri-guide'],
     },
     sources: [
       'Kane, P.V., History of Dharmasastra, Vol. V (Dipavali)',
@@ -868,45 +868,56 @@ export const GUIDES_LEARN = [
     category: 'Festivals',
     title: 'Kartika Month in Odisha: Habisha, Tulsi Worship, Panchuka and Boita Bandana',
     description:
-      'A guide to the sacred month of Kartika in Odisha: Habisha vegetarian meals, evening tulsi and lamp worship, the Panchuka days, Kartika Purnima, Boita Bandana and Bali Yatra.',
+      'A guide to the sacred month of Kartika in Odisha: Habisha vegetarian meals, evening tulsi and lamp worship, the Panchuka days, Dipabali, Kartika Purnima, Boita Bandana and Bali Yatra, with the 2026 dates and how the Telugu Karthika month compares.',
     h1: 'Kartika Month in Odisha',
     intro:
-      'Kartika, the month falling around October and November, is one of the most devotional months in Odisha. Households follow special customs, and the month ends with Kartika Purnima, a festival of boats, lamps and memory. This guide explains the main observances.',
+      'Kartika, the month falling around October and November, is one of the most devotional months in Odisha. Households follow special customs, and the month ends with Kartika Purnima, a festival of boats, lamps and memory. This guide explains the main observances, the dates that matter in 2026 and the habits that families pass down, and it points to the separate guides on each festival inside the month.',
     sections: [
       {
         h: 'Why Kartika is special',
         p: [
           `In Vaishnava tradition, Kartika is dedicated to Vishnu (Damodara), and across Odisha many families treat the month as a time of simplicity and regular worship. Because the Hindu calendar is lunisolar, the month starts and ends on different dates each year, so check an Odia panjika or your temple's calendar.`,
+          `The month is also a season. The rains have ended, the evenings turn cool and the days shorten, and the custom of lighting a lamp at dusk fits that change. Many of the observances below are small and daily, which is part of why the month feels so different from a festival that lasts a single day.`,
+        ],
+      },
+      {
+        h: 'Key dates in 2026',
+        p: [
+          `Dipabali, the Diwali new moon, falls on Sunday 8 November 2026, and on that night Odisha keeps Kali Puja and the ancestor custom of Kaunria Kathi; see our guides on both. Calendars list the five days of Panchuka as 20 to 24 November, and Kartika Purnima, with Boita Bandana at dawn, on Tuesday 24 November. The first day of Panchuka depends on how the Ekadashi is fixed, so confirm it with the Puri temple or your local almanac.`,
+          `The Telugu calendar names its month Karthika too, but it counts from new moon to new moon, so two calendars list it as 10 November to 8 December 2026. The full moon on 24 November is the high day in both traditions. Our guide on Karthika Masam sets out the Telugu dates.`,
         ],
       },
       {
         h: 'Habisha: simple meals',
         p: [
           `Many devotees, especially older women and widows, observe Habisha: a single simple vegetarian meal cooked without onion, garlic, salt in some households, and typically with boiled rice, ghee and vegetables, for the whole month. This is a personal vow. Those with medical conditions or special dietary needs should not follow strict fasting.`,
+          `Habisha is not a competition. Families differ on what is included, and many people keep a lighter version, such as avoiding onion and garlic and eating vegetarian food through the month. Children, pregnant women and anyone unwell should eat as their doctor advises, and the lamp and prayer remain fully valid without the fast.`,
         ],
       },
       {
         h: 'Tulsi and the evening lamp',
         p: [
           `The tulsi plant is worshipped each morning and evening. Households light a lamp at the tulsi chaura, the raised platform where the plant is grown, and offer water and prayers. In many places lamps are also raised on a pole, the akasha deepa, to guide ancestors and light the dark season.`,
+          `A simple form is enough: clean the spot, light one lamp at dusk, offer a little water and sit quietly for a minute. The evening lamp is also what links the month to the later marriage of tulsi, described in our guide on Tulsi Vivah and Dev Uthani Ekadashi.`,
         ],
       },
       {
         h: 'Panchuka, the last five days',
         p: [
-          `The last five days of the month, from Ekadashi to Purnima, are called Panchuka. In the Jagannath temple at Puri, special rituals are performed during these days, including the Hari-Hara form of the deity on certain days. Many devotees observe a stricter vow in this period, and pilgrims come to Puri in large numbers.`,
+          `The last five days of the month, from Ekadashi to Purnima, are called Panchuka. Special worship is performed in the Jagannath temple at Puri during these days, and pilgrims come to Puri in large numbers. Many devotees observe a stricter vow in this period. Our guide on Panchuka describes the days one by one.`,
         ],
       },
       {
         h: 'Kartika Purnima, Boita Bandana and Bali Yatra',
         p: [
-          `On the full moon day, people rise before dawn, bathe, and float tiny boats made of banana stem, paper or thermocol with a lamp, betel and flowers in rivers, ponds and the sea. This is Boita Bandana (worship of boats). It remembers the ancient Odia sailors, the sadhabas, who sailed to Bali, Java, Sumatra and other places in Southeast Asia from the Odisha coast. In Cuttack a large fair called Bali Yatra is held on the banks of the Mahanadi.`,
+          `On the full moon day, people rise before dawn, bathe, and float tiny boats made of banana stem, a dry leaf or paper with a lamp, betel and flowers in rivers, ponds and the sea. This is Boita Bandana (worship of boats). It remembers the ancient Odia sailors, the sadhabas, who sailed to Bali, Java, Sumatra and other places in Southeast Asia from the Odisha coast. In Cuttack a large fair called Bali Yatra is held on the banks of the Mahanadi.`,
+          `Please avoid thermocol and plastic boats. They stay in the water for years and break into small pieces that harm fish and birds. A boat of banana stem or plain paper does the same work. Our guide on Boita Bandana explains how to make one and how to keep the water clean.`,
         ],
       },
       {
         h: 'What to chant',
         p: [
-          `Common prayers are the Vishnu Sahasranamam, Om Namo Bhagavate Vasudevaya, and the Jagannath Ashtakam. Reciting a short prayer at the tulsi in the evening is a gentle daily practice to follow through the month.`,
+          `Common prayers are the Vishnu Sahasranamam, Om Namo Bhagavate Vasudevaya, and the Jagannath Ashtakam. Reciting a short prayer at the tulsi in the evening is a gentle daily practice to follow through the month. The Krishnashtakam is another short hymn that suits the lamp hour.`,
         ],
       },
     ],
@@ -923,18 +934,34 @@ export const GUIDES_LEARN = [
         q: 'Do I have to fast through Kartika?',
         a: 'No. Observances are personal vows, and people with health needs should eat suitably.',
       },
+      {
+        q: 'When is Kartika Purnima in 2026?',
+        a: 'Calendars list Tuesday 24 November 2026. Confirm the dawn timing for Boita Bandana with your local temple or panjika.',
+      },
+      {
+        q: 'What are the Panchuka days in 2026?',
+        a: 'Calendars list 20 to 24 November 2026. The first day depends on how the Ekadashi is fixed, so check locally.',
+      },
+      {
+        q: 'Is the Odia Kartika the same as the Telugu Karthika?',
+        a: 'The month is the same in name, but Telugu panchangams count from new moon to new moon, so their month runs from 10 November to 8 December in 2026. Both reach their high point on the full moon of 24 November.',
+      },
+      {
+        q: 'What should I use for the boat?',
+        a: 'Banana stem, a dry leaf or plain paper. Avoid thermocol and plastic, which pollute the water.',
+      },
     ],
     related: {
-      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'krishnashtakam'],
-      guides: ['how-to-chant-vishnu-mantra', 'vishnu-sahasranamam-benefits'],
+      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'krishnashtakam', 'jagannath-ashtakam'],
+      guides: ['how-to-chant-vishnu-mantra', 'vishnu-sahasranamam-benefits', 'panchuka-kartika-last-five-days-odisha-guide', 'boita-bandana-bali-jatra-kartika-purnima-guide', 'tulsi-vivah-dev-uthani-ekadashi-guide', 'kali-puja-odisha-dipabali-amavasya-puri-guide', 'karthika-masam-telugu-month-2026-dates-guide'],
     },
     sources: [
       'Padma Purana (Kartika-mahatmya) as summarised in standard works on the Hindu calendar',
       'Odisha Tourism and Odisha State Museum materials on Boita Bandana and Bali Yatra',
+      'Jyothishamu and Ramtha Media, Karthika Masam 2026 (for the Telugu month and the 24 November full moon)',
+      'BankBazaar and BhaktiBharat, Kali Puja 2026 (for the 8 November Dipabali date)',
     ],
   },
-
-
   {
     slug: 'aigiri-nandini-meaning-and-story',
     category: 'Meaning and history',
@@ -1167,7 +1194,7 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['hanuman-chalisa', 'bajrang-baan'],
+      stotrams: ['hanuman-chalisa', 'bajrang-baan', 'sankat-mochan-hanuman-ashtak'],
       guides: ['hanuman-chalisa-benefits', 'how-to-chant-hanuman-chalisa', 'hanuman-jayanti-guide'],
     },
     sources: [
@@ -1968,7 +1995,7 @@ export const GUIDES_LEARN = [
     ],
     related: {
       stotrams: ['mahalakshmi-ashtakam'],
-      guides: ['diwali-lakshmi-puja-guide', 'kartika-month-odisha-guide'],
+      guides: ['diwali-lakshmi-puja-guide', 'kartika-month-odisha-guide', 'kali-puja-odisha-dipabali-amavasya-puri-guide'],
     },
     sources: [
       'Outlook Traveller, article on the story of Bada Badua Daka in Odisha',
@@ -4270,7 +4297,8 @@ export const GUIDES_LEARN = [
         "ekadashi-vrat-guide",
         "kartika-month-odisha-guide",
         "panchuka-kartika-last-five-days-odisha-guide",
-        "how-to-chant-vishnu-mantra"
+        "how-to-chant-vishnu-mantra",
+        "karthika-masam-telugu-month-2026-dates-guide"
       ]
     },
     "sources": [
@@ -4280,5 +4308,182 @@ export const GUIDES_LEARN = [
       "SmartPuja, Tulsi Vivah 2026: Date, Shubh Muhurat, Significance and Puja Vidhi",
       "OdishaBytes and Kalinga TV reports on Panchuka (for the Odisha note)"
     ]
+  },
+  {
+    slug: 'kali-puja-odisha-dipabali-amavasya-puri-guide',
+    category: 'Odisha festivals',
+    title: 'Kali Puja in Odisha: Dipabali Night, the Puri Kali Temples and How It Is Kept',
+    description:
+      'What Kali Puja means in Odisha on the Dipabali new moon, the Puri temples of Dakshinakali, Shyamakali and Harachandi, the night rituals, the Bhadrak fair, the 2026 date and how to worship Kali at home with care.',
+    h1: 'Kali Puja in Odisha on Dipabali Night',
+    intro:
+      'On the new moon night of Kartika, much of India worships Lakshmi. In Odisha, and especially in Puri, the same night belongs to Kali as well. Temples glow with lamps, devotees stay awake for the midnight arati, and families call out to their ancestors. This guide explains what Kali Puja is, where it is kept in Odisha, what happens at the temples and how a household can mark the night quietly at home.',
+    sections: [
+      {
+        h: 'The date in 2026 and how it is fixed',
+        p: [
+          `Kali Puja follows the new moon (amavasya) of the month of Kartika, the same night as Diwali, called Dipabali in Odia. In 2026 one calendar lists it for Sunday 8 November, with the amavasya tithi running from 11:27 in the morning on 8 November to 12:31 in the afternoon on 9 November. The same source gives the Nishita muhurat, the late-night worship window, as roughly 11:39 at night to 12:31 after midnight. A temple panjika may give slightly different minutes for Puri or Bhubaneswar, so treat these times as a guide and confirm them with your local temple or almanac.`,
+          `The reason the night matters is the hour. Kali Puja is done in the dark half of the night rather than at dusk, so the day is chosen by when the new moon tithi covers midnight. This is the usual rule for night worship of the goddess, and it is why Kali Puja and the evening Lakshmi Puja can be held on the same date by different families.`,
+        ],
+      },
+      {
+        h: 'Why Odisha keeps Kali alongside Dipabali',
+        p: [
+          `Odisha is best known for Durga Puja, but one regional writer calls Kali Puja the second most celebrated festival of eastern India after Durga Puja. A report on Puri notes that on this night the city turns to Maa Kali while most of the country honours Lakshmi. The goddess is seen as the destroyer of ignorance and ego, and the festival is read as light overcoming darkness. Many Odia homes still light lamps and make offerings to Lakshmi as well, so the two kinds of worship sit together rather than compete.`,
+          `Kali Puja also shares the night with Kaunria Kathi, the custom of lighting jute sticks to call the ancestors. Our guide on Kaunria Kathi and Bada Badua Daka explains that tradition, and the two are often seen side by side on Dipabali night.`,
+        ],
+      },
+      {
+        h: 'The Puri temples',
+        p: [
+          `Puri has several goddess shrines that draw crowds on this night. Maa Dakshinakali is near Swargadwar, the cremation ground by the sea. Maa Shyamakali is at Dolamandap Sahi, Maa Harachandi is near Chakratirtha Road, and Maa Mangala also keeps related worship. These shrines follow the older Shakta customs of the town, and their rituals vary from one temple to the next.`,
+          `The common elements reported for the night are a long worship of the goddess dressed in red hibiscus and ornaments, a fire rite (yajna or homa), and a midnight arati that draws the largest crowds. Singing, plays and devotional programmes run into the early hours. Some families also offer tarpan for their ancestors at the Baisi Pahacha, the twenty-two steps of the Jagannath temple, which links the night to the memory of the dead.`,
+        ],
+      },
+      {
+        h: 'Tantrik worship and sacrifice, said plainly',
+        p: [
+          `Some old Shakta shrines follow Tantrik rites, and reports list offerings such as fish and, in a few places, a symbolic sacrifice. These customs belong to specific temples and their priestly traditions, and they differ widely. They are not a requirement for a household, and no home needs to follow them. If you visit a Tantrik shrine, stand back, ask before taking photographs and follow the priests' instructions. The home forms below are the ones that suit most families.`,
+        ],
+      },
+      {
+        h: 'Kali Puja beyond Puri: the Bhadrak fair',
+        p: [
+          `Bhadrak is the best-known place for Kali Puja outside Puri. Its celebration is tied to the Bhadrakali fair. Puja committees put up large pandals and compete over the main idols, and the city ranks them in a contest called Kalakunja. Some idols now carry themes that speak against superstition and for social awareness. A Meenabazar fair, rides, food stalls and night Jatra plays draw the crowds, and idol-making begins several days earlier, much as it does for Durga Puja.`,
+        ],
+      },
+      {
+        h: 'A simple way to mark the night at home',
+        p: [
+          `A household does not need a large setup. Clean the prayer corner, place a picture or small image of Kali or Durga, and light a lamp in the evening. Offer red hibiscus if you can find it, along with fruit and sweets, and keep the food vegetarian. Sit in the late evening and recite a short prayer, for example the Durga Stotram or the Aigiri Nandini, both of which are on this site in Hindi, Odia and Telugu. If you keep a fast, keep it light, and stop if you feel unwell.`,
+          `If you wish to join the midnight arati at a temple, go with family, carry a torch, mind the crowd near the sea and keep children close. Firecrackers cause smoke, burns and harm to animals, so lamps are the kinder choice.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'When is Kali Puja in 2026?',
+        a: 'One calendar lists Sunday 8 November 2026, with the best worship window late that night around 11:39 to 12:31. Confirm the minutes with your local temple or almanac.',
+      },
+      {
+        q: 'Is Kali Puja the same as Diwali?',
+        a: 'It falls on the same new moon night. Many parts of India worship Lakshmi that evening, while Odisha, Bengal and Assam also give a large place to Kali, and some homes do both.',
+      },
+      {
+        q: 'Which Puri temples are known for Kali Puja?',
+        a: 'Maa Dakshinakali near Swargadwar, Maa Shyamakali at Dolamandap Sahi, Maa Harachandi near Chakratirtha Road and Maa Mangala are the ones named in current reports.',
+      },
+      {
+        q: 'Do I have to follow the Tantrik customs?',
+        a: 'No. Those are specific to certain temples. A home puja with a lamp, red flowers, fruit and a short prayer is enough.',
+      },
+      {
+        q: 'What is the link with Kaunria Kathi?',
+        a: 'Both happen on Dipabali night. Kaunria Kathi calls the ancestors with lit jute sticks, and Kali Puja honours the goddess. They are separate customs kept on the same night.',
+      },
+      {
+        q: 'Does the puja promise any result?',
+        a: 'No. The sources describe the festival and its meaning and promise no worldly result. It is an act of devotion.',
+      },
+    ],
+    related: {
+      stotrams: ['durga-stotram', 'aigiri-nandini'],
+      guides: ['diwali-lakshmi-puja-guide', 'kaunria-kathi-bada-badua-daka-odisha-guide', 'durga-puja-odisha-guide', 'kartika-month-odisha-guide'],
+    },
+    sources: [
+      'BhaktiBharat, Kali Puja in Puri (temples, rituals and date)',
+      'OdishaLifestyle, Kali Puja: The Celebration (Bhadrak fair and Kalakunja)',
+      'BankBazaar, Kali Puja 2026 (amavasya and Nishita muhurat timings)',
+    ],
+  },
+  {
+    slug: 'karthika-masam-telugu-month-2026-dates-guide',
+    category: 'Festivals',
+    title: 'Karthika Masam 2026: Dates, Somavarams, Deepam and Vana Bhojanam',
+    description:
+      'A clear guide to Karthika Masam in the Telugu calendar for 2026: the start and end dates, the four Karthika Somavarams, Nagula Chavithi, Ekadashi, Karthika Pournami, and the customs of lamps, fasting and outdoor meals.',
+    h1: 'Karthika Masam 2026: Dates and Customs',
+    intro:
+      'Karthika Masam is the month when Telugu households light lamps at dawn and dusk, fast on Mondays and gather under amla trees for meals. It is among the most observed months of the year in Andhra Pradesh and Telangana. This guide gives the 2026 dates as two calendars list them, explains why they differ from the Odia and North Indian count, and describes each custom in plain terms.',
+    sections: [
+      {
+        h: 'When Karthika Masam falls in 2026',
+        p: [
+          `The Telugu calendar counts months from new moon to new moon, which is called the amanta system. By that count, two calendar sources give Karthika Masam 2026 as running from Tuesday 10 November to Tuesday 8 December, the day of Karthika Amavasya. The first day is the first day of the bright fortnight, shukla pratipada, just after the Diwali new moon on 8 November.`,
+          `This is why the Telugu month can seem a few weeks behind what you may see in a North Indian or Odia calendar. Those traditions follow a full-moon-to-full-moon count, so their Kartika overlaps the first half of the Telugu month. A temple panjika is the final word for your town, because tithis shift by minutes between cities.`,
+        ],
+      },
+      {
+        h: 'Key dates in the month',
+        p: [
+          `Two sources agree on these days for 2026. Nagula Chavithi falls on Friday 13 November, when many families worship the snake and pour milk at an anthill. Karthika Somavaram, the Mondays of the month, are 16, 23 and 30 November and 7 December. Karthika Pournami, the full moon and the high point of the month, is Tuesday 24 November.`,
+          `Prabodhini or Utthana Ekadashi is listed for 20 November by one source. The other notes that panchangams differ and some place it on 21 November, and gives Ksheerabdhi Dwadashi on Saturday 21 November. Check locally which day your family keeps. Our guide on Tulsi Vivah and Dev Uthani Ekadashi explains how the sunrise rule decides it.`,
+        ],
+      },
+      {
+        h: 'Deepam: lighting lamps',
+        p: [
+          `The defining custom of the month is the lamp. Families light oil or ghee lamps at home, before the tulasi plant, at the doorway and in temples, often at both dawn and dusk. On Karthika Pournami lamps are placed in great numbers, and in many temples the whole compound is lit. The lamp is offered to Shiva and Vishnu alike, since Karthika is sacred to both in the Telugu tradition.`,
+        ],
+      },
+      {
+        h: 'Karthika Somavaram and fasting',
+        p: [
+          `Mondays are given to Shiva. Many devotees fast through the day, bathe before sunrise, visit a Shiva temple, light a lamp and break the fast after the evening worship. Some keep a strict fast, others take fruit or one simple meal. A fast is a personal vow, and people with health conditions, pregnancy or old age should eat sensibly rather than push themselves. Shiva temples hold special abhishekam on these Mondays, and a short chant such as the Shiva Panchakshara Stotram or the Maha Mrityunjaya Mantra suits the evening.`,
+        ],
+      },
+      {
+        h: 'Vana Bhojanam and the amla tree',
+        p: [
+          `Vana bhojanam means a meal in the woods. Families and communities cook or carry food to a garden or grove, often near an amla (usiri) tree, say a prayer there and eat together. It is a social custom as much as a ritual, and those who take part are asked to leave the place clean. Carry reusable plates, take your waste home and avoid plastic.`,
+        ],
+      },
+      {
+        h: 'Karthika Puranam, baths and food',
+        p: [
+          `Many households read or hear a chapter of the Karthika Puranam each evening of the month, so that the whole text is heard by the end. Others bathe before dawn in a river or at home, worship the tulasi and avoid non-vegetarian food for the month. Most of these are matters of family custom, and the sources describe them without prescribing a single rule.`,
+        ],
+      },
+      {
+        h: 'Where this meets Odisha and the wider calendar',
+        p: [
+          `Odisha keeps its own Kartika with Habisha meals, the Panchuka days and Boita Bandana on the full moon. The two traditions share the full moon on 24 November as their high day. Our guides on Kartika in Odisha and on Boita Bandana show how the same month looks on the Odia side.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'When does Karthika Masam start in 2026?',
+        a: 'Two calendars give Tuesday 10 November 2026 in India, ending with Karthika Amavasya on Tuesday 8 December. Confirm with your local panchangam.',
+      },
+      {
+        q: 'What are the Karthika Somavaram dates in 2026?',
+        a: 'The four Mondays are 16, 23 and 30 November and 7 December 2026.',
+      },
+      {
+        q: 'When is Karthika Pournami in 2026?',
+        a: 'Tuesday 24 November 2026, the full moon that closes the main observances of the month.',
+      },
+      {
+        q: 'Why does the Telugu month start later than in some calendars?',
+        a: 'Telugu panchangams count months from new moon to new moon, while North Indian and Odia calendars count from full moon to full moon, so the same month begins about two weeks apart.',
+      },
+      {
+        q: 'What is Vana Bhojanam?',
+        a: 'A community meal outdoors, often near an amla tree, with a short prayer. Participants are asked to keep the place clean.',
+      },
+      {
+        q: 'Do I have to fast every Monday?',
+        a: 'No. The fast is a personal vow. People who are unwell, pregnant or elderly may eat lightly or skip it, and the lamp and prayer are still valid.',
+      },
+    ],
+    related: {
+      stotrams: ['shiva-panchakshara-stotram', 'maha-mrityunjaya-mantra', 'lingashtakam', 'vishnu-sahasranamam'],
+      guides: ['kartika-month-odisha-guide', 'tulsi-vivah-dev-uthani-ekadashi-guide', 'boita-bandana-bali-jatra-kartika-purnima-guide', 'ekadashi-vrat-guide'],
+    },
+    sources: [
+      'Jyothishamu, Karthika Masam 2026 start and end dates',
+      'Ramtha Media, Karthika Masam 2026 dates, Somavaralu and Pournami',
+    ],
   },
 ];

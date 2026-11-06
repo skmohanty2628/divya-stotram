@@ -326,4 +326,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does it guarantee a result?', a: 'No. The last verse gives the traditional fruit of reading it, which is the destruction of past sin by remembrance. It is a statement of faith and carries no guarantee of any worldly outcome.' },
     ],
   },
+  'sankat-mochan-hanuman-ashtak': {
+    what: `Sankat Mochan Hanuman Ashtak is a devotional hymn of eight verses in Awadhi Hindi, followed by a closing doha. Each verse recalls one rescue in the Ramayana and ends with the same line, Ko nahin janat hai jag mein kapi, Sankat Mochan naam tiharo, which asks who in the world does not know that Hanuman's name is the remover of troubles. Tradition attributes it to Tulsidas, the poet of the Ramcharitmanas, but the editions checked do not cite a manuscript for this, so the attribution is best held as traditional. It is sung widely on Tuesdays and Saturdays, and the Sankat Mochan temple in Varanasi shares the name.`,
+    meaning: `The verses move through the story one scene at a time. The first recalls the child Hanuman swallowing the sun and the gods pleading until he let it go. The second tells how he brought Rama to Sugriva, who lived in fear of Vali. The third and fourth follow the search for Sita, the news he brought, and the ring he gave her. The fifth is the herb that saved Lakshmana, the sixth the freeing of the army from the serpent noose with Garuda's help, and the seventh the rescue of Rama and Lakshmana from Ahiravana in the netherworld. The eighth turns to the reader and asks Hanuman to remove whatever trouble is ours. The closing doha praises his red body and thunderbolt strength.`,
+    benefits: [
+      'A compact way to remember eight well known episodes of the Ramayana through one hymn',
+      'Easy to learn by ear, since every verse ends with the same refrain',
+      'Often sung alongside the Hanuman Chalisa on Tuesdays and Saturdays',
+      'Gives a simple, honest prayer in the eighth verse for anyone carrying a worry',
+      'Open to everyone, with no initiation needed',
+    ],
+    bestTime: `Tuesday and Saturday are the days of Hanuman, and many families sing the Ashtak in the morning or at dusk on those days. The text sets no fixed count or hour. Reading all eight verses and the doha takes about five minutes.`,
+    faqs: [
+      { q: 'What does Sankat Mochan Hanuman Ashtak mean?', a: 'Ashtak means a group of eight, and Sankat Mochan means remover of troubles. The hymn is eight verses on Hanuman in that role, with a closing doha.' },
+      { q: 'Who wrote the Hanuman Ashtak?', a: 'It is traditionally attributed to Tulsidas. The editions checked cite no manuscript for this, so treat the attribution as traditional rather than proven.' },
+      { q: 'Is it the same as the Hanuman Chalisa?', a: 'No. The Chalisa has forty verses of praise. The Ashtak has eight verses, each recalling one rescue from the Ramayana, and a closing doha.' },
+      { q: 'Why do some versions look different?', a: 'Printed texts differ in spelling, for example bhakshi or bhakshee in the first verse and devahin or debihin in the seventh. Some websites also leave out the refrain line after each verse. This page keeps the refrain, as printed editions do.' },
+      { q: 'When should I recite it?', a: 'Tuesday and Saturday are the usual days, in the morning or at dusk, but it can be read on any day.' },
+      { q: 'Does reading it guarantee relief from trouble?', a: 'No. The hymn expresses faith and asks for help. It makes no guarantee of any worldly result, and it is not a substitute for medical, legal or financial advice.' },
+    ],
+  },
 };

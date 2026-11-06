@@ -71,7 +71,7 @@ export const GUIDES_DEITY = [
       },
     ],
     related: {
-      stotrams: ['hanuman-chalisa', 'bajrang-baan'],
+      stotrams: ['hanuman-chalisa', 'bajrang-baan', 'sankat-mochan-hanuman-ashtak'],
       guides: ['how-to-chant-hanuman-chalisa', 'best-mantra-for-anxiety', 'best-mantra-for-protection'],
     },
     sources: [
@@ -148,7 +148,7 @@ export const GUIDES_DEITY = [
       },
     ],
     related: {
-      stotrams: ['hanuman-chalisa', 'bajrang-baan'],
+      stotrams: ['hanuman-chalisa', 'bajrang-baan', 'sankat-mochan-hanuman-ashtak'],
       guides: ['hanuman-chalisa-benefits', 'mantra-chanting-rules-faq', 'can-we-chant-during-periods'],
     },
     sources: [

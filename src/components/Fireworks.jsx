@@ -8,6 +8,9 @@ import { useEffect, useRef, useState } from 'react';
 // who ask their device for reduced motion. A couple with sparklers stands in the free space on the left on wide screens.
 const COLORS = ['#ffb300', '#ff7a00', '#ff3d2e', '#e91e8c', '#19b34a', '#1e9bff', '#8e44ff', '#f5c000'];
 const GRAVITY = 0.045;
+// Plays for DURATION ms, then fades out over FADE ms and stops. Phones get a lighter, see-through version.
+const DURATION = 10000;
+const FADE = 1500;
 // Fountain crackers (anaar) stand in the free space on the right edge and spray sparks in cycles.
 const FOUNTAIN_COLORS = ['#ffb300', '#ff9100', '#ff7a00', '#f5c000', '#ffcc33'];
 
@@ -35,6 +38,7 @@ export default function Fireworks() {
     let raf = 0;
     let last = 0;
     let nextLaunch = 0;
+    let el = 0;
     const rockets = [];
     const sparks = [];
     const small = () => w < 640;
@@ -153,8 +157,17 @@ export default function Fireworks() {
     };
 
     const onPointer = (e) => {
+      if (el > DURATION) return;
       if (e.target && e.target.closest && e.target.closest('a, button, input, textarea, select, summary, label')) return;
       burst(e.clientX, e.clientY);
+    };
+
+    const finish = () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener('resize', resize);
+      window.removeEventListener('pointerdown', onPointer);
+      ctx.clearRect(0, 0, w, h);
+      canvas.style.display = 'none';
     };
 
     const frame = (t) => {
@@ -165,10 +178,16 @@ export default function Fireworks() {
       }
       const dt = Math.min(2.5, (t - (last || t)) / 16.67);
       last = t;
-      if (t > nextLaunch) {
+      el += dt * 16.67;
+      if (el > DURATION + FADE) {
+        finish();
+        return;
+      }
+      canvas.style.opacity = String((small() ? 0.75 : 1) * (el > DURATION ? 1 - (el - DURATION) / FADE : 1));
+      if (el < DURATION - 1200 && t > nextLaunch) {
         launch();
         if (!small() && Math.random() < 0.35) launch();
-        nextLaunch = t + rand(900, 1900);
+        nextLaunch = t + rand(900, 1900) * (small() ? 1.4 : 1);
       }
       ctx.clearRect(0, 0, w, h);
       const tips = [];
@@ -185,7 +204,7 @@ export default function Fireworks() {
         glow.addColorStop(1, 'rgba(255,200,90,0)');
         ctx.fillStyle = glow;
         ctx.fillRect(tp.tx - 22, tp.ty - 22, 44, 44);
-        for (let k = 0; k < 3; k += 1) {
+        for (let k = 0; k < (el < DURATION ? 3 : 0); k += 1) {
           const a = rand(0, Math.PI * 2);
           const sp = rand(0.8, 3.2);
           sparks.push({
@@ -204,7 +223,7 @@ export default function Fireworks() {
       });
       fountainSpots().forEach((fx, idx) => {
         const cycle = ((t / 1000 + idx * 3.5) % 9);
-        if (cycle > 5.5) return;
+        if (cycle > 5.5 || el >= DURATION) return;
         const glow = ctx.createRadialGradient(fx, h, 2, fx, h, 46);
         glow.addColorStop(0, 'rgba(255,190,80,0.55)');
         glow.addColorStop(1, 'rgba(255,190,80,0)');

@@ -7,6 +7,11 @@ import { useEffect, useRef } from 'react';
 // larger particles on phones, and is not rendered at all for visitors who ask for reduced motion.
 // A tap on empty space sends a small burst of the theme's own particles.
 
+// The effect plays for DURATION ms, then fades out over FADE ms and stops, so the page is calm for reading.
+// Phones get a lighter version: about half the particles, slower spawning and a see-through canvas.
+const DURATION = 10000;
+const FADE = 1500;
+
 const rand = (a, b) => a + Math.random() * (b - a);
 const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
 const TAU = Math.PI * 2;
@@ -690,9 +695,10 @@ export default function ThemeCanvas({ theme }) {
     let raf = 0;
     let last = 0;
     let nextSpawn = 0;
+    let el = 0;
     let stars = [];
     const list = [];
-    const env = () => ({ ctx, w, h, t: last, small: w < 640, u: w < 640 ? 1.25 : 1, stars });
+    const env = () => ({ ctx, w, h, t: last, small: w < 640, u: 1, stars });
 
     const resize = () => {
       dpr = Math.min(window.devicePixelRatio || 1, 1.5);
@@ -709,7 +715,7 @@ export default function ThemeCanvas({ theme }) {
       }
     };
 
-    const maxCount = () => (w < 640 ? cfg.max[0] : cfg.max[1]);
+    const maxCount = () => (w < 640 ? Math.max(3, Math.ceil(cfg.max[0] * 0.5)) : cfg.max[1]);
 
     const add = () => {
       const e = env();
@@ -723,6 +729,7 @@ export default function ThemeCanvas({ theme }) {
     const onPointer = (ev) => {
       if (ev.target && ev.target.closest && ev.target.closest('a, button, input, textarea, select, summary, label')) return;
       const e = env();
+      if (el > DURATION) return;
       if (cfg.spawnMany) {
         holiBurst(e, ev.clientX, ev.clientY, list);
         return;
@@ -748,6 +755,14 @@ export default function ThemeCanvas({ theme }) {
       while (list.length > 260) list.shift();
     };
 
+    const finish = () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener('resize', resize);
+      window.removeEventListener('pointerdown', onPointer);
+      ctx.clearRect(0, 0, w, h);
+      canvas.style.display = 'none';
+    };
+
     const frame = (t) => {
       raf = requestAnimationFrame(frame);
       if (document.visibilityState !== 'visible') {
@@ -756,9 +771,16 @@ export default function ThemeCanvas({ theme }) {
       }
       const dt = Math.min(2.5, (t - (last || t)) / 16.67);
       last = t;
-      if (t > nextSpawn) {
+      el += dt * 16.67;
+      if (el > DURATION + FADE) {
+        finish();
+        return;
+      }
+      const base = w < 640 ? 0.6 : 1;
+      canvas.style.opacity = String(base * (el > DURATION ? 1 - (el - DURATION) / FADE : 1));
+      if (el < DURATION && t > nextSpawn) {
         add();
-        nextSpawn = t + rand(cfg.every[0], cfg.every[1]);
+        nextSpawn = t + rand(cfg.every[0], cfg.every[1]) * (w < 640 ? 1.5 : 1);
       }
       ctx.clearRect(0, 0, w, h);
       const e = env();
@@ -800,7 +822,7 @@ export default function ThemeCanvas({ theme }) {
     resize();
     const e0 = env();
     if (cfg.spawn) {
-      for (let i = 0; i < (cfg.seed || 0); i += 1) {
+      for (let i = 0; i < Math.round((cfg.seed || 0) * (w < 640 ? 0.5 : 1)); i += 1) {
         const p = cfg.spawn(e0);
         if (p.shape !== 'boat') p.y = rand(0, h * 0.95);
         p.age = rand(0.8, 2);

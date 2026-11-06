@@ -3,11 +3,13 @@
 import { useEffect, useRef, useState } from 'react';
 
 // Decorative Diwali fireworks drawn on a canvas laid over the whole page. The canvas never takes clicks.
-// Rockets rise from the bottom and burst at random heights, and a tap or click on empty space sets off a burst there.
+// Fountain crackers spray from the right edge. Rockets rise from the bottom and burst at random heights, and a tap or click on empty space sets off a burst there.
 // It pauses when the tab is hidden, uses fewer particles on small screens, and starts switched off for visitors
-// who ask their device for reduced motion. A button lets anyone turn it off or on, and the choice is remembered.
+// who ask their device for reduced motion. A couple with sparklers stands in the free space on the left on wide screens.
 const COLORS = ['#ffd45a', '#ff9d2e', '#ff5a3c', '#ff7bb0', '#7cf0a6', '#6fd8ff', '#c79bff', '#fff2b8'];
 const GRAVITY = 0.045;
+// Fountain crackers (anaar) stand in the free space on the right edge and spray sparks in cycles.
+const FOUNTAIN_COLORS = ['#fff2b8', '#ffd45a', '#ff9d2e', '#ffb347', '#ffe9a0'];
 
 function rand(a, b) {
   return a + Math.random() * (b - a);
@@ -15,17 +17,11 @@ function rand(a, b) {
 
 export default function Fireworks() {
   const canvasRef = useRef(null);
-  const [on, setOn] = useState(null);
+  const [on, setOn] = useState(false);
 
   useEffect(() => {
-    let saved = null;
-    try {
-      saved = localStorage.getItem('ds_fireworks');
-    } catch {
-      saved = null;
-    }
     const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    setOn(saved === 'on' ? true : saved === 'off' ? false : !reduce);
+    setOn(!reduce);
   }, []);
 
   useEffect(() => {
@@ -42,6 +38,77 @@ export default function Fireworks() {
     const rockets = [];
     const sparks = [];
     const small = () => w < 640;
+    const SPARK_COLORS = ['#fff7d0', '#ffe27a', '#ffffff', '#ffb347'];
+    const drawPerson = (x, baseY, woman, face, t, phase) => {
+      const bob = Math.sin(t / 380 + phase) * 3;
+      const skin = '#d9a066';
+      ctx.lineCap = 'round';
+      ctx.lineJoin = 'round';
+      // lower body
+      if (woman) {
+        ctx.fillStyle = '#b3261e';
+        ctx.beginPath();
+        ctx.moveTo(x - 13, baseY - 82);
+        ctx.lineTo(x + 13, baseY - 82);
+        ctx.lineTo(x + 26, baseY);
+        ctx.lineTo(x - 26, baseY);
+        ctx.closePath();
+        ctx.fill();
+        ctx.fillStyle = '#e6b43c';
+        ctx.fillRect(x - 26, baseY - 7, 52, 5);
+      } else {
+        ctx.fillStyle = '#f1e6d2';
+        ctx.fillRect(x - 11, baseY - 48, 9, 48);
+        ctx.fillRect(x + 2, baseY - 48, 9, 48);
+      }
+      // torso
+      ctx.fillStyle = woman ? '#7a1410' : '#e0733a';
+      ctx.beginPath();
+      ctx.roundRect(x - 14, baseY - 112, 28, woman ? 32 : 68, 7);
+      ctx.fill();
+      // head and hair
+      ctx.fillStyle = '#2a1810';
+      ctx.beginPath();
+      ctx.arc(x - face * 2, baseY - 126, 12.5, 0, Math.PI * 2);
+      ctx.fill();
+      if (woman) {
+        ctx.beginPath();
+        ctx.arc(x - face * 11, baseY - 133, 6, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.fillStyle = '#c0392b';
+        ctx.fillRect(x - 1, baseY - 140, 2, 3);
+      }
+      ctx.fillStyle = skin;
+      ctx.beginPath();
+      ctx.arc(x + face * 2, baseY - 124, 10.5, 0, Math.PI * 2);
+      ctx.fill();
+      // arm and sparkler
+      const hx = x + face * 36;
+      const hy = baseY - 118 + bob;
+      ctx.strokeStyle = woman ? '#7a1410' : '#e0733a';
+      ctx.lineWidth = 8;
+      ctx.beginPath();
+      ctx.moveTo(x + face * 6, baseY - 104);
+      ctx.lineTo(x + face * 22, baseY - 106 + bob * 0.5);
+      ctx.stroke();
+      ctx.strokeStyle = skin;
+      ctx.lineWidth = 6;
+      ctx.beginPath();
+      ctx.moveTo(x + face * 22, baseY - 106 + bob * 0.5);
+      ctx.lineTo(hx, hy);
+      ctx.stroke();
+      const tx = hx + face * 6;
+      const ty = hy - 30;
+      ctx.strokeStyle = '#6b6b6b';
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(hx, hy);
+      ctx.lineTo(tx, ty);
+      ctx.stroke();
+      return { tx, ty };
+    };
+    const showCouple = () => w >= 1200;
+    const fountainSpots = () => (w >= 1100 ? [w - 70, w - 150] : [w - 36]);
 
     const resize = () => {
       dpr = Math.min(window.devicePixelRatio || 1, 1.5);
@@ -77,7 +144,7 @@ export default function Fireworks() {
           grav: willow ? GRAVITY * 1.5 : GRAVITY,
         });
       }
-      while (sparks.length > 420) sparks.shift();
+      while (sparks.length > 520) sparks.shift();
     };
 
     const launch = () => {
@@ -104,7 +171,64 @@ export default function Fireworks() {
         nextLaunch = t + rand(900, 1900);
       }
       ctx.clearRect(0, 0, w, h);
+      const tips = [];
+      if (showCouple()) {
+        const free = (w - 848) / 2;
+        const baseY = h - 90;
+        tips.push(drawPerson(free * 0.3, baseY, false, 1, t, 0));
+        tips.push(drawPerson(free * 0.78, baseY, true, -1, t, 1.7));
+      }
       ctx.globalCompositeOperation = 'lighter';
+      tips.forEach((tp) => {
+        const glow = ctx.createRadialGradient(tp.tx, tp.ty, 1, tp.tx, tp.ty, 22);
+        glow.addColorStop(0, 'rgba(255,236,160,0.8)');
+        glow.addColorStop(1, 'rgba(255,200,90,0)');
+        ctx.fillStyle = glow;
+        ctx.fillRect(tp.tx - 22, tp.ty - 22, 44, 44);
+        for (let k = 0; k < 3; k += 1) {
+          const a = rand(0, Math.PI * 2);
+          const sp = rand(0.8, 3.2);
+          sparks.push({
+            x: tp.tx,
+            y: tp.ty,
+            vx: Math.cos(a) * sp,
+            vy: Math.sin(a) * sp,
+            life: rand(0.3, 0.7),
+            age: 0,
+            color: SPARK_COLORS[Math.floor(Math.random() * SPARK_COLORS.length)],
+            size: rand(0.8, 1.6),
+            drag: 0.96,
+            grav: 0.05,
+          });
+        }
+      });
+      fountainSpots().forEach((fx, idx) => {
+        const cycle = ((t / 1000 + idx * 3.5) % 9);
+        if (cycle > 5.5) return;
+        const glow = ctx.createRadialGradient(fx, h, 2, fx, h, 46);
+        glow.addColorStop(0, 'rgba(255,190,80,0.55)');
+        glow.addColorStop(1, 'rgba(255,190,80,0)');
+        ctx.fillStyle = glow;
+        ctx.fillRect(fx - 46, h - 46, 92, 46);
+        const n = Math.round((small() ? 2 : 4) * dt);
+        for (let k = 0; k < n; k += 1) {
+          const a = -Math.PI / 2 + rand(-0.3, 0.3);
+          const speed = small() ? rand(3.4, 6) : rand(4.2, 7.6);
+          sparks.push({
+            x: fx + rand(-3, 3),
+            y: h - 4,
+            vx: Math.cos(a) * speed,
+            vy: Math.sin(a) * speed,
+            life: rand(0.5, 1.1),
+            age: 0,
+            color: FOUNTAIN_COLORS[Math.floor(Math.random() * FOUNTAIN_COLORS.length)],
+            size: rand(1, 1.9),
+            drag: 0.99,
+            grav: 0.09,
+          });
+        }
+      });
+      while (sparks.length > 520) sparks.shift();
       for (let i = rockets.length - 1; i >= 0; i -= 1) {
         const r = rockets[i];
         r.x += r.vx * dt;
@@ -152,28 +276,6 @@ export default function Fireworks() {
     };
   }, [on]);
 
-  const toggle = () => {
-    const next = !on;
-    setOn(next);
-    try {
-      localStorage.setItem('ds_fireworks', next ? 'on' : 'off');
-    } catch {
-      // Storage may be blocked; the choice then lasts for this visit only.
-    }
-  };
-
-  if (on === null) return null;
-  return (
-    <>
-      {on ? <canvas ref={canvasRef} aria-hidden="true" className="pointer-events-none fixed inset-0 z-30" /> : null}
-      <button
-        type="button"
-        onClick={toggle}
-        aria-pressed={on}
-        className="fixed bottom-20 left-4 z-40 rounded-full border border-[#c9922a]/50 bg-[#1a0505]/90 px-3.5 py-2 font-cinzel-reg text-[10px] uppercase tracking-[1.5px] text-[#f0c040] shadow-lg backdrop-blur hover:bg-[#2a0a0a]"
-      >
-        {on ? 'Fireworks: on' : 'Fireworks: off'}
-      </button>
-    </>
-  );
+  if (!on) return null;
+  return <canvas ref={canvasRef} aria-hidden="true" className="pointer-events-none fixed inset-0 z-30" />;
 }

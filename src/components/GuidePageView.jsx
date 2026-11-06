@@ -15,6 +15,7 @@ import { commonsUrl } from '@/data/festival-photos';
 import ShareBar from '@/components/ShareBar';
 import ReadingBar from '@/components/ReadingBar';
 import GuideThumb from '@/components/GuideThumb';
+import Fireworks from '@/components/Fireworks';
 
 const idFor = (text) =>
   text
@@ -84,6 +85,7 @@ export default function GuidePageView({ slug }) {
 
   return (
     <SiteShell>
+      {guide.slug === 'diwali-lakshmi-puja-guide' && <Fireworks />}
       <JsonLd data={article} />
       <JsonLd data={breadcrumb} />
       <JsonLd data={faq} />

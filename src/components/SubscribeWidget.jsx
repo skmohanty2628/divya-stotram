@@ -185,7 +185,7 @@ export function SubscribePopup() {
 }
 
 // ─── Inline widget: embeds in any page ───────────────────────────────────────
-export function SubscribeInline() {
+export function SubscribeInline({ variant = 'full' }) {
   const [submitted, setSubmitted] = useState(false);
   const [email, setEmail] = useState('');
   const [loading, setLoading] = useState(false);
@@ -225,6 +225,40 @@ export function SubscribeInline() {
       setLoading(false);
     }
   };
+
+  if (variant === 'compact') {
+    // Light, one-line card for the middle of a page. Hidden once the reader has subscribed.
+    if (submitted) return null;
+    return (
+      <aside aria-label="Email reminders" className="my-8 rounded-2xl border border-[#c9922a]/40 bg-[#fff8ec] p-4 sm:p-5">
+        <p className="font-cinzel text-base font-bold text-[#8b1a00]">One verse by email each morning</p>
+        <p className="mt-1 font-garamond text-base leading-snug text-[#3d1a00]/80">
+          Free. You also get a heads-up before each festival, with the prayer to read. Unsubscribe anytime.
+        </p>
+        <div className="mt-3 flex flex-col gap-2 sm:flex-row">
+          <label htmlFor="sub-compact" className="sr-only">Email address</label>
+          <input
+            id="sub-compact"
+            type="email"
+            value={email}
+            onChange={(e) => { setEmail(e.target.value); setError(''); }}
+            onKeyDown={(e) => e.key === 'Enter' && handleSubmit()}
+            placeholder="Your email address"
+            className="min-w-0 flex-1 rounded-xl border border-[#c9922a]/50 bg-white px-4 py-2.5 font-garamond text-base text-[#1a0a00] outline-none focus:border-[#8b1a00]"
+          />
+          <button
+            type="button"
+            onClick={handleSubmit}
+            disabled={loading}
+            className="rounded-xl bg-[#8b1a00] px-6 py-2.5 font-cinzel-reg text-xs uppercase tracking-[2px] text-white transition hover:bg-[#a82300] disabled:opacity-60"
+          >
+            {loading ? '...' : 'Subscribe'}
+          </button>
+        </div>
+        {error && <p className="mt-2 font-garamond text-sm text-red-700">{error}</p>}
+      </aside>
+    );
+  }
 
   return (
     <div className="my-8 rounded-[24px] border border-[#c9922a]/25 bg-gradient-to-br from-[#1a0505] via-[#1c0808] to-[#120202] p-6 shadow-[0_8px_30px_rgba(0,0,0,0.3)]">

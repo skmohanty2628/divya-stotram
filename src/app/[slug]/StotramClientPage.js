@@ -193,6 +193,8 @@ function StotramContent({ meta, verseData, top, children, htmlLang }) {
         )}
       </section>
 
+      <SubscribeInline variant="compact" />
+
       {children}
 
       <DailyPrayerSuggestions currentSlug={meta.slug} lang={lang} />

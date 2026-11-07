@@ -19,5 +19,7 @@ export const FESTIVAL_DATES = [
   { name: 'Ganesh Chaturthi', date: '2027-09-04', odisha: false, slug: 'ganesh-chaturthi-guide', note: 'Ganesh festival begins' },
   { name: 'Dussehra', date: '2027-10-09', odisha: true, slug: 'durga-puja-odisha-guide', note: 'Vijayadashami' },
   { name: 'Diwali and Lakshmi Puja', date: '2027-10-29', odisha: false, slug: 'diwali-lakshmi-puja-guide', note: 'Amavasya evening' },
+  { name: 'Chhath Puja (Sandhya Arghya)', date: '2027-11-04', odisha: false, slug: 'chhath-puja-surya-shashthi-guide', note: 'Four days, 2 to 5 November' },
+  { name: 'Gopashtami (Gopastami)', date: '2027-11-06', odisha: true, slug: 'gopashtami-gopastami-cow-worship-guide', note: 'Kartika Shukla Ashtami, cow worship' },
   { name: 'Kartika Purnima, Boita Bandana and Bali Jatra', date: '2027-11-14', odisha: true, slug: 'boita-bandana-bali-jatra-kartika-purnima-guide', note: 'Cuttack and all of Odisha' },
 ];

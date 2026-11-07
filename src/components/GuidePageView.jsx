@@ -153,6 +153,7 @@ export default function GuidePageView({ slug }) {
                 </Prose>
               </section>
               {i === 1 && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_IN_ARTICLE} />}
+              {i === Math.max(2, Math.floor(guide.sections.length / 2)) && <SubscribeInline variant="compact" />}
             </div>
           ))}
         </article>

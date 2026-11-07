@@ -58,7 +58,7 @@ export default function VerseOfTheDay() {
 
   return (
     <section aria-labelledby="votd-h" className="mx-auto max-w-3xl px-4 pt-10 sm:px-6">
-      <div className="min-h-[34rem] rounded-3xl border border-[#c9922a]/35 bg-gradient-to-br from-[#fff8ec] to-white p-5 shadow-sm sm:min-h-[26rem] sm:p-8">
+      <div className="min-h-[30rem] rounded-3xl border border-[#c9922a]/35 bg-gradient-to-br from-[#fff8ec] to-white p-5 shadow-sm sm:min-h-[22rem] sm:p-8">
         <div className="flex items-baseline justify-between gap-3">
           <h2 id="votd-h" className="font-cinzel-reg text-[11px] uppercase tracking-[4px] text-[#a85200]">{t.eyebrow}</h2>
           {data && (

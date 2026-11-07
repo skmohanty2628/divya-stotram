@@ -3,6 +3,8 @@
 // Update this list once a year. `date` is the civil date in India (YYYY-MM-DD).
 export const FESTIVAL_DATES = [
   { name: 'Diwali and Lakshmi Puja', date: '2026-11-08', odisha: false, slug: 'diwali-lakshmi-puja-guide', note: 'Amavasya evening' },
+  { name: 'Chhath Puja (Sandhya Arghya)', date: '2026-11-15', odisha: false, slug: 'chhath-puja-surya-shashthi-guide', note: 'Four days, 13 to 16 November' },
+  { name: 'Gopashtami (Gopastami)', date: '2026-11-17', odisha: true, slug: 'gopashtami-gopastami-cow-worship-guide', note: 'Kartika Shukla Ashtami, cow worship' },
   { name: 'Kartika Purnima, Boita Bandana and Bali Jatra', date: '2026-11-24', odisha: true, slug: 'boita-bandana-bali-jatra-kartika-purnima-guide', note: 'Cuttack and all of Odisha' },
   { name: 'Makara Sankranti', date: '2027-01-15', odisha: true, slug: 'makar-sankranti-odisha-guide', note: 'Sun enters Capricorn' },
   { name: 'Vasant Panchami', date: '2027-02-11', odisha: false, slug: 'vasant-panchami-saraswati-puja-guide', note: 'Saraswati Puja' },

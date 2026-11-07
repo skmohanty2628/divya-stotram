@@ -571,7 +571,7 @@ export const GUIDES_DEITY = [
       },
     ],
     related: {
-      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra'],
+      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'shantakaram-bhujagashayanam'],
       guides: ['how-to-chant-vishnu-mantra', 'best-prayer-for-inner-peace'],
     },
     sources: [
@@ -661,7 +661,7 @@ export const GUIDES_DEITY = [
       },
     ],
     related: {
-      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'shuklambaradharam-mantra'],
+      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'shuklambaradharam-mantra', 'shantakaram-bhujagashayanam'],
       guides: ['vishnu-sahasranamam-benefits', 'best-prayer-for-inner-peace', 'kartika-month-odisha-guide', 'ekadashi-vrat-guide'],
     },
     sources: [
@@ -676,50 +676,56 @@ export const GUIDES_DEITY = [
     category: 'Lakshmi',
     title: 'Lakshmi Mantras and the Friday Ritual: Mahalakshmi Ashtakam, Diwali and Varalakshmi',
     description:
-      'A guide to Lakshmi worship: the Friday ritual, the Mahalakshmi Ashtakam and Shri Sukta, Diwali Lakshmi Puja, Varalakshmi Vratam, and a balanced view of wealth in Hindu tradition.',
+      'A guide to Lakshmi worship: who she is, the Shri Sukta and Mahalakshmi Ashtakam, a simple Friday ritual, Diwali, Kumar Purnima, Manabasa Gurubara and Varalakshmi Vratam, and a balanced view of wealth.',
     h1: 'Lakshmi Mantras and the Friday Ritual',
     intro:
-      'Lakshmi is worshipped for prosperity, but in Hindu thought prosperity means much more than money. This guide explains how Lakshmi is understood, the mantras and hymns used on Fridays, and the festivals that centre on her.',
+      'Lakshmi is worshipped for prosperity, but in Hindu thought prosperity means much more than money. This guide explains how Lakshmi is understood, the hymns and mantras used on Fridays, the festivals that centre on her in different regions, and how to keep the practice honest and calm.',
     sections: [
       {
         h: 'Who Lakshmi is',
         p: [
-          `Lakshmi, consort of Vishnu, emerged from the churning of the ocean of milk, seated on a lotus. She is the goddess of shri, a word that means beauty, grace, prosperity and auspiciousness together. The eight forms of Ashtalakshmi include wealth, courage, knowledge, victory, children, grain and royal power, which shows how broad her domain is.`,
+          `Lakshmi, also called Shri, is the consort of Vishnu. In the story of the churning of the ocean of milk she rises from the waters seated on a lotus, and she then chooses Vishnu. The Vishnu Purana tells of her in its first book, where she is presented as Vishnu's constant companion who takes a suitable form in each of his incarnations, as Sita with Rama and as Rukmini with Krishna. Tradition therefore treats her as inseparable from Vishnu and not as a separate goddess who comes and goes.`,
+          `The word shri covers beauty, grace, prosperity and auspiciousness together. In pictures Lakshmi sits or stands on a lotus, holds lotuses, and often has coins flowing from one hand, while elephants pour water over her in the form called Gajalakshmi. The traditional set of eight forms, Ashtalakshmi, usually names Adi, Dhana, Dhanya, Gaja, Santana, Dhairya or Veera, Vijaya and Vidya. They stand for primal prosperity, wealth, grain, royal power, children, courage, victory and knowledge. Lists vary between temples and regions, but all show how wide her domain is.`,
         ],
       },
       {
-        h: 'Texts and mantras',
+        h: 'The hymns and mantras',
         p: [
-          `The oldest hymn is the Shri Sukta, an appendix to the Rigveda. The Mahalakshmi Ashtakam, from the Padma Purana, is a popular eight-verse hymn recited by Indra. The simple mantra Om Shreem Mahalakshmyai Namah is widely used for japa, with shreem as the beej syllable of Lakshmi. Another favourite is the Kanakadhara Stotram attributed to Adi Shankaracharya, said to have been composed on the spot in the house of a poor Brahmin woman.`,
+          `The oldest hymn is the Shri Sukta, a supplement to the Rigveda (a khila, meaning an appended text). It begins by calling on Agni, Jatavedas, to bring Lakshmi, the golden-hued one, and it asks that she stay and not leave. It is chanted at temples and at Lakshmi puja, and it is traditionally learned by ear, so it is best started with a teacher or a good recording.`,
+          `The Mahalakshmi Ashtakam, eight verses attributed to Indra in the Padma Purana, is the most popular hymn for home use. It opens with the words namastestu mahamaye, a bow to the great illusion-power seated in the Shripitha, the seat of Shri. The site has the full text with meaning on the Mahalakshmi Ashtakam page. A third text, the Kanakadhara Stotram, is attributed to Adi Shankaracharya. Tradition says he composed it as a young monk who had begged alms at the house of a very poor woman, who gave him the only thing she had, a single gooseberry (amla). This is a traditional story and not a historical record.`,
+          `For japa the usual short mantra is Om Shreem Mahalakshmyai Namah. Shreem is the seed syllable (beej) associated with Lakshmi. It is chanted on a mala of 108 beads, or a smaller fixed count, such as 27 or 54, which suits a short morning.`,
         ],
       },
       {
-        h: 'The Friday ritual',
+        h: 'A simple Friday ritual',
         p: [
-          `Friday is the day of Lakshmi. A simple home ritual begins with cleaning the house, especially the entrance and the prayer corner, lighting a lamp in the evening, offering a flower and a sweet, and reciting the Mahalakshmi Ashtakam or chanting the mantra 108 times. Many women wear traditional clothes and draw rangoli at the doorstep. The point is to welcome auspiciousness through cleanliness, order and gratitude.`,
+          `Friday is the day usually kept for Lakshmi in much of India. A short home ritual can look like this. Clean the house in the morning, especially the entrance and the prayer corner. Bathe and wear fresh clothes. In the evening light a lamp, offer a flower, preferably a lotus or any white or pink flower, and a small sweet or fruit. Recite the Mahalakshmi Ashtakam, or chant the mantra 108 times, and then sit quietly for a minute or two. Many women draw rangoli at the door, and some families offer kheer.`,
+          `The point is order, cleanliness and gratitude, so keep it simple enough to do every week. A ritual done calmly for ten minutes is better than an elaborate one that is hard to repeat.`,
         ],
       },
       {
-        h: 'Diwali and Varalakshmi Vratam',
+        h: 'Festivals of Lakshmi across regions',
         p: [
-          `On Diwali night, homes are lit with lamps and Lakshmi Puja is performed, often with Ganesha first. In Andhra Pradesh, Telangana, Karnataka and Tamil Nadu, Varalakshmi Vratam is observed on the Friday before the full moon of the month of Shravana, when women worship a kalasha decorated as the Goddess, tie sacred threads, and share sweets with neighbours.`,
+          `Diwali is the great Lakshmi festival, and Lakshmi Puja is performed on the evening of the amavasya, with Ganesha worshipped first. In 2026 it falls on 8 November. See the Diwali guide for the five days and the regional traditions.`,
+          `On the full moon night after Dussehra many Hindu families worship Lakshmi, in Bengal as Kojagari Lakshmi Puja and in Odisha as part of Kumar Purnima. In Odisha, Lakshmi is also worshipped on Thursdays in the month of Margashira (November to December) in the festival called Manabasa Gurubara, so in Odisha the weekly day is often Thursday and not Friday. In Andhra Pradesh, Telangana, Karnataka and Tamil Nadu, Varalakshmi Vratam is kept on the Friday before the full moon of Shravana, when women worship a kalasha decorated as the Goddess, tie a sacred thread and share sweets with neighbours.`,
         ],
       },
       {
         h: 'A balanced view of wealth',
         p: [
-          `Lakshmi tradition is clear that wealth gained by hard work, honesty and generosity is blessed, and that wealth hoarded or gained unjustly does not stay. Chanting alone is not a financial plan. If you are facing debt or financial stress, please also seek practical help from a trusted adviser. The mantras can offer calm and a framework of gratitude while you do the practical work.`,
+          `The tradition is clear that wealth earned by hard work, honesty and generosity is blessed, and that wealth hoarded or gained unjustly does not last. Shri in the hymns includes fame, grain, cattle, a good household and learning, not only coins. Lakshmi is also said to stay where there is cleanliness, order and kindness, which is why the Friday ritual starts with a clean house.`,
+          `Chanting alone is not a financial plan. If you are facing debt or financial stress, please also seek practical help from a trusted adviser or a certified counsellor. The mantras can offer calm and a framework of gratitude while you do the practical work, but no text can promise a particular amount of money.`,
         ],
       },
     ],
     faqs: [
       {
         q: 'Which day is best for Lakshmi worship?',
-        a: 'Friday, and especially Diwali night and Varalakshmi Vratam.',
+        a: 'Friday is the usual day in most of India, with Diwali night and Varalakshmi Vratam as the main festivals. In Odisha, Thursdays in Margashira are kept as Manabasa Gurubara.',
       },
       {
         q: 'Can chanting solve money problems?',
-        a: 'It can bring calm and focus, but it is not a substitute for practical financial action.',
+        a: 'It can bring calm and focus, but it is not a substitute for practical financial action such as budgeting, advice and steady work.',
       },
       {
         q: 'What is the beej mantra of Lakshmi?',
@@ -727,16 +733,29 @@ export const GUIDES_DEITY = [
       },
       {
         q: 'Should Ganesha be worshipped before Lakshmi?',
-        a: 'Traditionally yes, because Ganesha is invoked at the start of all worship.',
+        a: 'Traditionally yes, because Ganesha is invoked at the start of all worship, and on Diwali the puja begins with him.',
+      },
+      {
+        q: 'What is the Shri Sukta?',
+        a: 'A hymn to Lakshmi that is traditionally attached to the Rigveda as a supplement. It is chanted at temples and at Lakshmi puja.',
+      },
+      {
+        q: 'Who is said to have composed the Mahalakshmi Ashtakam?',
+        a: 'It is attributed to Indra in the Padma Purana. Like many traditional attributions, this is a matter of tradition and not of manuscript proof.',
+      },
+      {
+        q: 'What offerings suit a Friday puja?',
+        a: 'A lamp, a flower such as a lotus or a white or pink flower, and a small sweet or fruit. Kheer is also common. Simple is fine.',
       },
     ],
     related: {
       stotrams: ['mahalakshmi-ashtakam', 'ganesh-aarti'],
-      guides: ['best-mantra-for-money', 'durga-mantra-during-navratri'],
+      guides: ['best-mantra-for-money', 'diwali-lakshmi-puja-guide', 'manabasa-gurubara-odisha-guide', 'kumar-purnima-odisha-guide', 'durga-mantra-during-navratri'],
     },
     sources: [
       'Shri Sukta (Rigvedic khila)',
       'Padma Purana, Mahalakshmi Ashtakam',
+      'Vishnu Purana, Book 1, the churning of the ocean and Lakshmi',
     ],
   },
 

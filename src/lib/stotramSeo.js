@@ -152,6 +152,11 @@ const SEO_COPY = {
     description:
       'Read Sankat Mochan Hanuman Ashtak (संकट मोचन हनुमान अष्टक), Bal Samay Ravi Bhakshi Liyo Tab, all eight verses and the closing doha in English, Hindi, Odia and Telugu with meaning, when it is recited, and a video to chant along.',
   },
+  'shantakaram-bhujagashayanam': {
+    title: 'Shantakaram Bhujagashayanam Lyrics in English, Hindi, Odia & Telugu with Meaning (Vishnu Dhyana Shloka)',
+    description:
+      'Read Shantakaram Bhujagashayanam (शान्ताकारं भुजगशयनं), the four-line Vishnu dhyana shloka, in English, Hindi, Odia and Telugu with meaning, when it is recited, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

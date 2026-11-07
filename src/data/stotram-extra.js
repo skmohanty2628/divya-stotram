@@ -346,4 +346,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does reading it guarantee relief from trouble?', a: 'No. The hymn expresses faith and asks for help. It makes no guarantee of any worldly result, and it is not a substitute for medical, legal or financial advice.' },
     ],
   },
+  'shantakaram-bhujagashayanam': {
+    what: `Shantakaram Bhujagashayanam is a short Sanskrit verse of four lines that describes Vishnu as he is imagined in meditation. It is one of the best known Vishnu prayers and is often the first verse a child learns to say before Vishnu worship. The editions checked do not name the text it comes from, so it is best described as a traditional dhyana shloka, a verse used to bring the form of the deity to mind before prayer.`,
+    meaning: `The verse is a string of descriptions, each line giving a few. The first line calls him peaceful in form, resting on the serpent Shesha, with a lotus rising from his navel, and Lord of the gods. The second says he supports the whole universe, is vast like the sky, has the colour of a rain cloud and beautiful limbs. The third calls him the beloved of Lakshmi, lotus-eyed and reachable by yogis in meditation. The last line is the offering itself: I bow to Vishnu, who removes the fear of worldly life, the one Lord of all worlds.`,
+    benefits: [
+      'Short enough to learn in one sitting and say at the start of any Vishnu prayer',
+      'Gives a clear picture to hold in the mind while meditating, which helps focus',
+      'Easy to say with children, since the lines are even and the sound is gentle',
+      'Can be used before reading longer texts such as the Vishnu Sahasranamam',
+      'Open to everyone, with no initiation needed',
+    ],
+    bestTime: `Many families say it in the morning after bathing, at the evening lamp, or at the start of Vishnu worship on Thursdays, Ekadashi and Kartika days. The text sets no fixed hour or count. One recitation takes under a minute, and some people repeat it three times or eleven times as a simple practice of their own.`,
+    faqs: [
+      { q: 'What does Shantakaram Bhujagashayanam mean?', a: 'It begins with the words "whose form is peaceful, who reclines on the serpent". The whole verse describes Vishnu in meditation and ends with a bow to him as the remover of the fear of worldly life.' },
+      { q: 'Which text is it from?', a: 'The editions checked do not name a source work. It is a traditional invocation, widely used in Vishnu worship, so this site does not give a book or chapter for it.' },
+      { q: 'Is it a mantra or a stotram?', a: 'It is a dhyana shloka, a verse of meditation on the deity. People often call it a Vishnu mantra, but it is a prayer of description and praise and not a bija mantra.' },
+      { q: 'When should I say it?', a: 'Any time is fine. Morning, the evening lamp and the start of Vishnu puja are the usual moments, and it is commonly said before longer Vishnu texts.' },
+      { q: 'Can children and beginners say it?', a: 'Yes. It is short, the meaning is easy to explain, and nothing in it needs special preparation.' },
+      { q: 'Does saying it guarantee a result?', a: 'No. It expresses devotion and a wish for calm. It makes no promise of any worldly outcome and does not replace medical, legal or financial help.' },
+    ],
+  },
 };

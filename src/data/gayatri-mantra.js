@@ -9,7 +9,7 @@ export const gayatriMantra = {
       type: 'mantra',
       num: 1,
       transliteration:
-        'Om Bhur Bhuva Suva\nTat Savitur Varenyam\nBhargo Devasya Dhimahi\nDhiyo Yo Nah Prachodayat',
+        'Om Bhur Bhuvah Svah\nTat Savitur Varenyam\nBhargo Devasya Dhimahi\nDhiyo Yo Nah Prachodayat',
       original:
         'ॐ भूर्भुवः स्वः\nतत्सवितुर्वरेण्यं\nभर्गो देवस्य धीमहि\nधियो यो नः प्रचोदयात्॥',
       script: {
@@ -29,7 +29,7 @@ export const gayatriMantra = {
       type: 'mantra',
       num: 2,
       transliteration:
-        'Om Apo Jyoti Raso Amritam\nBrahma Bhoorbhuvah Svarom',
+        'Om Apo Jyotiraso Amritam\nBrahma Bhur Bhuvah Svarom',
       original:
         'ॐ आपो ज्योतीरसोऽमृतं ब्रह्म भूर्भुवः स्वरोम्।',
       script: {

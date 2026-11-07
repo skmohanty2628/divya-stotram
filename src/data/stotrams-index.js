@@ -673,6 +673,30 @@ export const STOTRAMS_INDEX = [
     language: 'Awadhi Hindi',
     featured: false,
   },
+  {
+    slug: 'shantakaram-bhujagashayanam',
+    title: {
+      en: 'Shantakaram Bhujagashayanam (Vishnu Dhyana Shloka)',
+      hi: 'शान्ताकारं भुजगशयनं (विष्णु ध्यान श्लोक)',
+      od: 'ଶାନ୍ତାକାରଂ ଭୁଜଗଶୟନଂ (ବିଷ୍ଣୁ ଧ୍ୟାନ ଶ୍ଳୋକ)',
+      te: 'శాంతాకారం భుజగశయనం (విష్ణు ధ్యాన శ్లోకం)',
+    },
+    deity: 'Vishnu',
+    deityEmoji: '𖣐',
+    deityIcon: '',
+    description: {
+      en: 'Shantakaram Bhujagashayanam, the four-line Vishnu dhyana shloka, in English, Hindi, Odia and Telugu with meaning and a video',
+      hi: 'शान्ताकारं भुजगशयनं, भगवान विष्णु का चार पंक्तियों का ध्यान श्लोक, अर्थ और वीडियो सहित हिन्दी, अंग्रेज़ी, ओड़िया और तेलुगु में',
+      od: 'ଶାନ୍ତାକାରଂ ଭୁଜଗଶୟନଂ, ଭଗବାନ ବିଷ୍ଣୁଙ୍କ ଚାରି ପଦର ଧ୍ୟାନ ଶ୍ଳୋକ, ଅର୍ଥ ଓ ଭିଡିଓ ସହିତ',
+      te: 'శాంతాకారం భుజగశయనం, విష్ణువు నాలుగు పాదాల ధ్యాన శ్లోకం, అర్థం మరియు వీడియోతో',
+    },
+    color: 'from-sky-950 to-indigo-950',
+    accent: '#5b9bd5',
+    youtubeId: 'Im5TK-glA9M',
+    verseCount: 1,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

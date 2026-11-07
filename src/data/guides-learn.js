@@ -492,7 +492,7 @@ export const GUIDES_LEARN = [
     ],
     related: {
       stotrams: ['mahalakshmi-ashtakam', 'ganesh-aarti'],
-      guides: ['lakshmi-mantra-friday-ritual', 'best-mantra-for-money', 'kali-puja-odisha-dipabali-amavasya-puri-guide'],
+      guides: ['lakshmi-mantra-friday-ritual', 'best-mantra-for-money', 'kali-puja-odisha-dipabali-amavasya-puri-guide', 'chhath-puja-surya-shashthi-guide', 'gopashtami-gopastami-cow-worship-guide'],
     },
     sources: [
       'Kane, P.V., History of Dharmasastra, Vol. V (Dipavali)',
@@ -670,8 +670,7 @@ export const GUIDES_LEARN = [
         "vishnu-sahasranamam-benefits",
         "jagannath-ashtakam-meaning-and-story",
         "jagannath-ratha-yatra-puri-guide",
-        "ekadashi-vrat-guide"
-      ]
+        "ekadashi-vrat-guide", "gopashtami-gopastami-cow-worship-guide"]
     },
     "sources": [
       "Bhagavata Purana, Tenth Canto (the birth and childhood of Krishna)",
@@ -953,7 +952,7 @@ export const GUIDES_LEARN = [
     ],
     related: {
       stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'krishnashtakam', 'jagannath-ashtakam'],
-      guides: ['how-to-chant-vishnu-mantra', 'vishnu-sahasranamam-benefits', 'panchuka-kartika-last-five-days-odisha-guide', 'boita-bandana-bali-jatra-kartika-purnima-guide', 'tulsi-vivah-dev-uthani-ekadashi-guide', 'kali-puja-odisha-dipabali-amavasya-puri-guide', 'karthika-masam-telugu-month-2026-dates-guide'],
+      guides: ['how-to-chant-vishnu-mantra', 'vishnu-sahasranamam-benefits', 'panchuka-kartika-last-five-days-odisha-guide', 'boita-bandana-bali-jatra-kartika-purnima-guide', 'tulsi-vivah-dev-uthani-ekadashi-guide', 'kali-puja-odisha-dipabali-amavasya-puri-guide', 'karthika-masam-telugu-month-2026-dates-guide', 'gopashtami-gopastami-cow-worship-guide', 'chhath-puja-surya-shashthi-guide'],
     },
     sources: [
       'Padma Purana (Kartika-mahatmya) as summarised in standard works on the Hindu calendar',
@@ -1671,7 +1670,7 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'hare-krishna-maha-mantra'],
+      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'hare-krishna-maha-mantra', 'shantakaram-bhujagashayanam'],
       guides: ['how-to-chant-vishnu-mantra', 'vishnu-sahasranamam-benefits', 'kartika-month-odisha-guide'],
     },
     sources: [
@@ -4291,15 +4290,13 @@ export const GUIDES_LEARN = [
       "stotrams": [
         "vishnu-sahasranamam",
         "krishna-vasudevaya-mantra",
-        "krishnashtakam"
-      ],
+        "krishnashtakam", "shantakaram-bhujagashayanam"],
       "guides": [
         "ekadashi-vrat-guide",
         "kartika-month-odisha-guide",
         "panchuka-kartika-last-five-days-odisha-guide",
         "how-to-chant-vishnu-mantra",
-        "karthika-masam-telugu-month-2026-dates-guide"
-      ]
+        "karthika-masam-telugu-month-2026-dates-guide", "gopashtami-gopastami-cow-worship-guide"]
     },
     "sources": [
       "Wikipedia, Tulasi Vivaha",
@@ -4484,6 +4481,203 @@ export const GUIDES_LEARN = [
     sources: [
       'Jyothishamu, Karthika Masam 2026 start and end dates',
       'Ramtha Media, Karthika Masam 2026 dates, Somavaralu and Pournami',
+    ],
+  },
+  {
+    slug: 'chhath-puja-surya-shashthi-guide',
+    category: 'Festivals',
+    title: 'Chhath Puja 2026: Dates, the Four Days and Surya Arghya',
+    description:
+      'Chhath Puja 2026 runs from 13 to 16 November. A plain guide to the four days, Nahay Khay, Kharna, Sandhya Arghya and Usha Arghya, who is worshipped, what is offered, and what is known about its origin.',
+    h1: 'Chhath Puja: The Four Days of Surya Worship',
+    intro:
+      'Chhath is the festival where people stand in water at sunset and sunrise and offer thanks to the Sun. It is kept mainly in Bihar, Jharkhand and eastern Uttar Pradesh, in the Terai of Nepal, and by families from those regions living elsewhere. This guide gives the 2026 dates, explains each of the four days, and says honestly what is tradition, what is folklore and what is simply not known.',
+    sections: [
+      {
+        h: 'When Chhath falls in 2026',
+        p: [
+          `Chhath is named after Shashthi, the sixth day of the bright half of the month of Kartika, which comes about a week after Diwali. In 2026 Diwali is on 8 November, and the four days of Chhath are 13 to 16 November. Nahay Khay is on Friday 13 November, Kharna on Saturday 14 November, Sandhya Arghya (the evening offering) on Sunday 15 November, and Usha Arghya (the morning offering) on Monday 16 November.`,
+          `Two panchang sites checked give the same four dates. One of them puts the Shashthi tithi from late on 14 November to the early hours of 16 November, which is why the evening offering falls on the 15th. The exact minute of sunset and sunrise depends on your city, so use a local sunrise and sunset table for the arghya times rather than a time quoted for another place.`,
+        ],
+      },
+      {
+        h: 'Who is worshipped',
+        p: [
+          `The main deity is Surya, the Sun, and he is worshipped directly, without an image. Alongside him people pray to Chhathi Maiya, the goddess of Shashthi, who is traditionally seen as a protector of children. Popular accounts call her the sister of the Sun, while some writers describe her as his consort, and she is often identified with Devasena, who appears in the Brahma Vaivarta Purana. These accounts differ, and nothing in the festival depends on settling the question.`,
+          `Chhath is not limited to women, although women have traditionally led it. Many men keep the fast as well, and the whole family usually helps with the cooking, carrying the offerings and preparing the river bank.`,
+        ],
+      },
+      {
+        h: 'Day one: Nahay Khay',
+        p: [
+          `Nahay means bathing and khay means eating. The person keeping the fast bathes in a river or at home, the house and the cooking area are cleaned, and one simple meal is cooked in a clean vessel. A common meal is rice, chana dal and bottle gourd (lauki), made without onion and garlic. The meal is eaten once, and the fast of the next days starts from here.`,
+        ],
+      },
+      {
+        h: 'Day two: Kharna',
+        p: [
+          `On Kharna the person fasts through the day without food or water. In the evening a small offering is made and then eaten as prasad. It is usually kheer made with jaggery and rice, with roti or chapati. After this meal the main fast begins: about 36 hours without food or water, until the morning offering on the fourth day. Family and neighbours often visit on Kharna to receive a little of the prasad.`,
+        ],
+      },
+      {
+        h: 'Day three: Sandhya Arghya',
+        p: [
+          `This is the main day. In the afternoon the offerings are prepared in bamboo baskets (soop and daura) and carried to the river, pond or a prepared water tank, often by the family walking together and singing Chhath songs. As the sun sets, the devotee stands in the water facing the sun and the offerings are lifted towards it, while water, and in many families milk, is poured as arghya. Many families stay through the evening and return home with the baskets.`,
+          `The offerings include thekua (a wheat and jaggery cookie fried in ghee), sugarcane, coconut, bananas and other seasonal fruit. The prasad is cooked on a clean earthen stove, often fed with mango wood, and is made without onion and garlic. Salt is avoided in the main prasad.`,
+        ],
+      },
+      {
+        h: 'Day four: Usha Arghya',
+        p: [
+          `Before sunrise the family returns to the water. The devotee stands in the water again and offers arghya to the rising sun. When the offering is complete the fast is broken, usually with a little prasad and water, which is called parana. The prasad is then shared with relatives and neighbours, and the festival ends.`,
+        ],
+      },
+      {
+        h: 'Where Chhath comes from',
+        p: [
+          `Nobody can give a firm date for Chhath. Worship of the Sun is very old in India, and a scholar quoted by the Sahapedia project suggests the sun-worship core of the festival has stayed the same while the mother goddess side may have grown later. The festival also falls after the rice harvest, and many people see it as a thanksgiving for the crop.`,
+          `A story told in the Brahma Vaivarta Purana is often connected to it. In the retelling used by one researcher, a childless king and queen perform a sacrifice, their child is born lifeless, and the goddess Devasena appears and asks the queen to worship her and the Sun, after which the queen has a child. Popular tradition also links the festival to Karna, who is said to have stood in water to worship his father, the Sun, and to Draupadi and the Pandavas. These are folk and local traditions and are not historical records. They are worth knowing as part of how people understand the festival, but a reader should treat them as stories.`,
+        ],
+      },
+      {
+        h: 'Keeping the fast safely',
+        p: [
+          `A fast of about 36 hours without water is demanding. Anyone who is elderly, pregnant, diabetic or on regular medicines should talk to a doctor before keeping it, and it is perfectly acceptable to keep a lighter fast. Standing in cold water in the early morning is also tiring, so warm clothes for afterwards and a family member nearby are sensible. Ghats can be crowded, so follow the local instructions, keep children close and avoid the deep parts of a river.`,
+          `Cleanliness is also part of the spirit of the festival. Families and neighbourhood groups traditionally clean the ghats before Chhath, and it helps to carry the offerings in baskets and leaves rather than plastic, and to take everything home or dispose of it properly afterwards.`,
+        ],
+      },
+      {
+        h: 'If you want to take part without keeping the fast',
+        p: [
+          `Visitors are usually welcome at the ghat. Watch what the family does first, stay behind the line of people offering arghya, and ask before touching any basket or prasad, since the offerings are kept ritually clean. Receiving prasad with both hands and offering to help with carrying baskets or cleaning the bank is usually appreciated. If you simply want to mark the festival at home, you can offer water to the rising sun and recite a sun prayer such as the Aditya Hridayam or the Gayatri Mantra.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'When is Chhath Puja in 2026?',
+        a: 'From 13 to 16 November 2026. Nahay Khay is on 13 November, Kharna on 14 November, Sandhya Arghya on 15 November and Usha Arghya on 16 November. Check a local panchang for sunrise and sunset in your city.',
+      },
+      {
+        q: 'Why is it called Chhath?',
+        a: 'Chhath comes from the word for six. The main day is Shashthi, the sixth day of the bright half of the month of Kartika.',
+      },
+      {
+        q: 'Who is Chhathi Maiya?',
+        a: 'She is the goddess worshipped with Surya during the festival and is traditionally seen as a protector of children. She is often identified with Devasena. Accounts differ on whether she is the sister or the consort of the Sun.',
+      },
+      {
+        q: 'Is it only for women?',
+        a: 'No. Women have traditionally led it, but men also keep the fast, and families do the work together.',
+      },
+      {
+        q: 'What is thekua?',
+        a: 'It is a cookie made from wheat flour, jaggery and ghee, fried and offered as a main Chhath prasad along with fruit and sugarcane.',
+      },
+      {
+        q: 'Do I have to keep the 36 hour fast without water?',
+        a: 'The traditional fast is without water, but it is demanding. People with health conditions should take medical advice, and a lighter fast is a perfectly acceptable choice.',
+      },
+      {
+        q: 'Can someone outside the family join the ghat?',
+        a: 'Usually yes. Join quietly, follow the family, ask before touching offerings and keep a respectful distance from those standing in the water.',
+      },
+    ],
+    related: {
+      stotrams: ['aditya-hridayam', 'gayatri-mantra'],
+      guides: ['diwali-lakshmi-puja-guide', 'how-to-chant-gayatri-mantra', 'kartika-month-odisha-guide', 'tulsi-vivah-dev-uthani-ekadashi-guide'],
+    },
+    sources: [
+      'Shubh Panchang, Chhath Puja 2026 dates and Shashthi tithi',
+      'SmartPuja, Chhath Puja 2026 date, rituals and legends',
+      'Sahapedia, Chhath Puja: Origin of the Festival, and the Story of Devasena',
+    ],
+  },
+  {
+    slug: 'gopashtami-gopastami-cow-worship-guide',
+    category: 'Festivals',
+    title: 'Gopashtami 2026: Cow Worship, Krishna and How to Observe It',
+    description:
+      'Gopashtami falls on Kartika Shukla Ashtami, 17 November 2026 by most panchangs. What the day marks, the story of Krishna and the cows, how cows are worshipped, and a note on how it is kept in Puri.',
+    h1: 'Gopashtami (Gopastami): The Day of Krishna and the Cows',
+    intro:
+      'Gopashtami is a quiet, gentle festival. It is kept on the eighth day of the bright half of Kartika, and on that day cows and calves are washed, decorated and worshipped. It is linked to the story of the young Krishna first taking the cows out to graze. This guide explains the day, the story behind it, a simple way to observe it, and what we can and cannot say about how it is kept in Odisha.',
+    sections: [
+      {
+        h: 'When Gopashtami falls in 2026',
+        p: [
+          `Gopashtami is on Kartika Shukla Ashtami, the eighth tithi of the bright fortnight of Kartika. In 2026 most panchang sites give Tuesday 17 November. That fits the calendar around it: Dev Uthani (Prabodhini) Ekadashi is on 20 November, three days later, and Kartika Purnima follows on 24 November. Because a tithi can begin late in the evening, some regions may mark the day on the 16th or 18th, so check the panchang for your own place.`,
+          `Gopashtami also falls seven days after Govardhan Puja, the day after Diwali, and the two festivals are connected through the same story.`,
+        ],
+      },
+      {
+        h: 'What the day marks',
+        p: [
+          `According to the account given on BhaktiBharat and in Vaishnava tradition, Gopashtami is the day when Krishna and Balarama reached the age at which boys of the cowherd community took on the care of the grown cattle. Until then they had looked after the calves. Nanda held a ceremony for the cows and for Krishna, and the brothers took the herd out for the first time. This is why Krishna is called Gopala, the keeper of cows, and Govinda.`,
+          `Wikipedia describes the festival in the same terms, as the coming of age of Krishna, when his father entrusted the cows of Vrindavan to him, and says it is observed mainly in Gaudiya Vaishnava communities and the Radha Vallabha tradition. Many other homes and gaushalas also keep it.`,
+        ],
+      },
+      {
+        h: 'The Govardhan story',
+        p: [
+          `The festival is also tied to the story of Govardhan. Krishna advised the people of Braj to stop the yearly offering to Indra, and Indra sent a heavy rain in anger. Krishna lifted Govardhan hill and held it over the people and cattle for seven days. Some versions say that on the eighth day, Gopashtami, Indra gave up and bowed to Krishna. An account carried by OdishaBytes adds that the divine cow Surabhi then honoured Krishna and gave him the name Govinda, lord of cows. Versions differ in detail, and this guide gives the common outline without claiming that any one version is the only one.`,
+        ],
+      },
+      {
+        h: 'How the cows are worshipped',
+        p: [
+          `A simple observance, as described on BhaktiBharat, goes like this. Rise early, bathe, and clean the home and the cow shed or gaushala. Decorate the place with rangoli and flowers. Wash the cows and calves and take them for a short walk. Apply a tilak to them, offer jaggery, sweets, rice and water, and light a lamp. Perform an aarti and walk around the cow, then feed her fresh green grass. Some people also offer prayers to Krishna with the cows, and recite Krishna names or the Krishnashtakam.`,
+          `At gaushalas the day often includes a feast and a drive to collect fodder. If you cannot reach a cow, a common choice is to give fodder or a donation to a gaushala that you trust, or to feed a cow nearby with proper food such as grass or jaggery, not leftovers or plastic-wrapped food.`,
+        ],
+      },
+      {
+        h: 'Gopashtami in Puri and Odisha',
+        p: [
+          `Some Odia sources spell the festival Gopastami. A report by OdishaBytes from 2022 describes the day being kept in Puri with cows worshipped using turmeric and kumkum and offered pure vegetarian food, and describes it as a major Vaishnava festival. We could not find a reliable source in English for specific rituals at the Jagannath temple on this day, so this guide does not describe any. If you know the local custom in your village or temple, that is the best guide for how it is kept there.`,
+          `Gopastami falls in the same month as Kartika Purnima, Boita Bandana and the Panchuka days, which are covered in the Kartika month guide on this site.`,
+        ],
+      },
+      {
+        h: 'A kind way to keep the day',
+        p: [
+          `The festival is about care for animals, so the kindest observance is one that does not stress them. Avoid loud noise, heavy decorations, or anything that could harm a cow if she eats it, such as plastic, thick flower strings or painted items. Do not force a calf into a crowd. Give clean water and fresh fodder, and if you feed jaggery, give a small amount, since cattle have their own dietary needs. Where possible, support a gaushala that keeps proper records and cares for sick and old animals.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'When is Gopashtami in 2026?',
+        a: 'On Kartika Shukla Ashtami, which is 17 November 2026 in most panchangs. A tithi can differ by a day between regions, so check a local panchang.',
+      },
+      {
+        q: 'What is Gopashtami?',
+        a: 'It is the festival of the day Krishna and Balarama first took the cows out to graze, and a day to wash, decorate and worship cows and calves.',
+      },
+      {
+        q: 'How is it different from Govardhan Puja?',
+        a: 'Govardhan Puja is the day after Diwali and remembers Krishna lifting the Govardhan hill. Gopashtami is a week later and centres on the cows and Krishna becoming their keeper. The two stories are linked.',
+      },
+      {
+        q: 'Is it called Gopastami in Odisha?',
+        a: 'Some Odia sources spell it Gopastami. It is the same day, Kartika Shukla Ashtami.',
+      },
+      {
+        q: 'How do I observe it at home if I have no cow?',
+        a: 'You can offer fodder or a donation to a gaushala, feed a cow near you with grass or jaggery, and recite a Krishna prayer. A picture or small figure of Krishna with a cow can be worshipped at home with a lamp and flowers.',
+      },
+      {
+        q: 'Is there a mantra for the day?',
+        a: 'There is no single required mantra. People commonly use Krishna prayers such as Om Namo Bhagavate Vasudevaya or the Krishnashtakam, and cow prayers from their family tradition.',
+      },
+    ],
+    related: {
+      stotrams: ['krishnashtakam', 'krishna-vasudevaya-mantra'],
+      guides: ['krishna-janmashtami-guide', 'kartika-month-odisha-guide', 'tulsi-vivah-dev-uthani-ekadashi-guide', 'diwali-lakshmi-puja-guide'],
+    },
+    sources: [
+      'BhaktiBharat, Gopashtami story and puja steps',
+      'Wikipedia, Gopashtami',
+      'OdishaBytes, Gopashtami celebrated in Puri (1 November 2022)',
     ],
   },
 ];

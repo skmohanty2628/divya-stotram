@@ -2,6 +2,8 @@
 // Themes are drawn in src/components/ThemeCanvas.jsx. Unlisted guides fall back to their category.
 const BY_SLUG = {
   'diwali-lakshmi-puja-guide': 'diwali',
+  'chhath-puja-surya-shashthi-guide': 'sun',
+  'gopashtami-gopastami-cow-worship-guide': 'feathers',
   'ekadashi-vrat-guide': 'leaves',
   'how-to-use-japa-mala': 'mala',
   'morning-prayer-routine': 'sun',

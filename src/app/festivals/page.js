@@ -36,7 +36,7 @@ export default function FestivalsPage() {
       <JsonLd data={jsonLd} />
       <div className="mx-auto max-w-6xl px-4 pb-24 sm:px-6">
         <header className="pb-6 pt-14 text-center">
-          <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#e8760a]">Calendar</p>
+          <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#a85200]">Calendar</p>
           <h1 className="mt-3 font-cinzel text-4xl font-bold text-[#8b1a00] md:text-5xl">Festival Calendar</h1>
           <p className="mx-auto mt-4 max-w-2xl font-garamond text-xl leading-relaxed text-[#3d1a00]/75">
             Major Hindu and Odisha festivals month by month, with a guide for each one. Filter for Odisha, or add any
@@ -51,7 +51,7 @@ export default function FestivalsPage() {
         </div>
 
         <aside className="mt-12 rounded-2xl border border-[#c9922a]/30 bg-[#fffaf1] p-5">
-          <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#c9922a]">About these dates</p>
+          <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#8a5f00]">About these dates</p>
           <p className="mt-2 font-garamond text-lg leading-relaxed text-[#3d1a00]/85">
             Festival dates follow the Hindu lunar calendar, so they move on the Gregorian calendar every year. The dates
             here follow the Drik Panchang calendar for India and were checked against a second source, but a tithi can

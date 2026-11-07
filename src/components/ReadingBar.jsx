@@ -82,7 +82,7 @@ export default function ReadingBar({ sections = [] }) {
               Contents
             </button>
             <p className="min-w-0 flex-1 truncate font-garamond text-base text-[#3d1a00]/80">
-              <span className="mr-2 text-[#c9922a]">{cur + 1}/{sections.length}</span>
+              <span className="mr-2 text-[#8a5f00]">{cur + 1}/{sections.length}</span>
               {sections[cur] && sections[cur].h}
             </p>
             <span className="flex-none font-cinzel-reg text-[10px] tracking-[2px] text-[#3d1a00]/50">{Math.round(pct)}%</span>
@@ -107,7 +107,7 @@ export default function ReadingBar({ sections = [] }) {
                       onClick={() => setOpen(false)}
                       className={`block rounded-lg px-3 py-2 font-garamond text-lg transition hover:bg-[#fff7e8] ${i === cur ? 'font-bold text-[#8b1a00]' : 'text-[#3d1a00]/85'}`}
                     >
-                      <span className="mr-2 text-[#c9922a]">{i + 1}.</span>
+                      <span className="mr-2 text-[#8a5f00]">{i + 1}.</span>
                       {s.h}
                     </a>
                   </li>

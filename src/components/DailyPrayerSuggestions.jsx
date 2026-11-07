@@ -116,7 +116,7 @@ export default function DailyPrayerSuggestions({ currentSlug, lang = 'en' }) {
           {current.emoji}
         </div>
         <div className="flex-1 min-w-0">
-          <p className="font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#c9922a]/60">
+          <p className="font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#c9922a]">
             {NOW_READING[lang] || NOW_READING.en}
           </p>
           <p className="font-cinzel text-base font-bold text-[#f0c040] truncate">
@@ -161,12 +161,12 @@ export default function DailyPrayerSuggestions({ currentSlug, lang = 'en' }) {
                     {item[lang] || item.en}
                   </p>
                   {lang !== 'en' && (
-                    <p className="font-cinzel-reg text-[10px] text-[#c9922a]/50 truncate mt-0.5">
+                    <p className="font-cinzel-reg text-[10px] text-[#c9922a] truncate mt-0.5">
                       {item.en}
                     </p>
                   )}
                 </div>
-                <div className="flex shrink-0 items-center gap-1 text-[#c9922a]/50 group-hover:text-[#c9922a]">
+                <div className="flex shrink-0 items-center gap-1 text-[#c9922a] group-hover:text-[#c9922a]">
                   <span className="font-cinzel-reg text-[10px] uppercase tracking-wider">
                     {READ_LABEL[lang] || READ_LABEL.en}
                   </span>

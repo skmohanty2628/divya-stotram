@@ -24,7 +24,7 @@ export default function AboutPage() {
     <SiteShell>
       <JsonLd data={ld} />
       <div className="mx-auto max-w-3xl px-4 pb-24 pt-14 sm:px-6">
-        <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#e8760a]">Our story</p>
+        <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#a85200]">Our story</p>
         <h1 className="mt-3 font-cinzel text-4xl font-bold text-[#8b1a00]">About Divya Stotram</h1>
         <div className="mt-8">
           <Prose>

@@ -112,7 +112,7 @@ export default function AskPandit({ stotramContext }) {
               {chatLang && (
                 <button
                   onClick={resetChat}
-                  className="font-cinzel-reg text-[9px] tracking-widest text-[#c9922a]/50 hover:text-[#c9922a] uppercase transition-colors"
+                  className="font-cinzel-reg text-[9px] tracking-widest text-[#8a5f00] hover:text-[#8a5f00] uppercase transition-colors"
                   title="Change language"
                 >
                   <Globe size={13} />
@@ -126,7 +126,7 @@ export default function AskPandit({ stotramContext }) {
 
           {!chatLang && (
             <div className="px-4 py-5">
-              <p className="font-cinzel-reg text-[10px] tracking-[3px] uppercase text-[#e8760a] mb-1 text-center">
+              <p className="font-cinzel-reg text-[10px] tracking-[3px] uppercase text-[#a85200] mb-1 text-center">
                 Choose Your Language
               </p>
               <p className="font-garamond text-sm text-[#e8d5b5]/60 text-center mb-4 italic">
@@ -158,7 +158,7 @@ export default function AskPandit({ stotramContext }) {
             <>
               <div className="flex-1 overflow-y-auto px-4 py-3 space-y-3">
                 <div className="flex justify-center">
-                  <span className="font-cinzel-reg text-[9px] tracking-[2px] uppercase text-[#c9922a]/40 bg-[#c9922a]/5 border border-[#c9922a]/15 rounded-full px-3 py-1">
+                  <span className="font-cinzel-reg text-[9px] tracking-[2px] uppercase text-[#8a5f00] bg-[#c9922a]/5 border border-[#c9922a]/15 rounded-full px-3 py-1">
                     {chatLang.label} · {chatLang.name}
                   </span>
                 </div>

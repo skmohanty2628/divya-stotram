@@ -38,7 +38,7 @@ export default function StotramInfo({ slug }) {
         <ul className="space-y-2">
           {info.benefits.map((b, i) => (
             <li key={i} className="flex items-start gap-3">
-              <span className="text-[#c9922a] mt-1 flex-shrink-0">✦</span>
+              <span className="text-[#8a5f00] mt-1 flex-shrink-0">✦</span>
               <span className="font-garamond text-base text-[#3d1a00]/80 leading-relaxed">{b}</span>
             </li>
           ))}
@@ -68,7 +68,7 @@ export default function StotramInfo({ slug }) {
                 className="w-full text-left px-5 py-4 flex items-center justify-between gap-4 hover:bg-[#fdf6e3] transition-colors"
               >
                 <span className="font-garamond text-base font-semibold text-[#3d1a00]">{faq.q}</span>
-                <span className="text-[#c9922a] text-lg flex-shrink-0">{openFaq === i ? '−' : '+'}</span>
+                <span className="text-[#8a5f00] text-lg flex-shrink-0">{openFaq === i ? '−' : '+'}</span>
               </button>
               {openFaq === i && (
                 <div className="px-5 pb-4 pt-1 border-t border-[#c9922a]/10">

@@ -24,7 +24,7 @@ export default function StotramPageView({ slug, langCode = 'en' }) {
     description: seo.description,
     url,
     inLanguage: lang.hreflang,
-    image: `${SITE_URL}/og-image.png`,
+    image: `${SITE_URL}/og/${slug}`,
     datePublished: '2026-04-08',
     dateModified: CONTENT_UPDATED,
     author: { '@type': 'Organization', name: `${SITE_NAME} Editorial Team`, url: `${SITE_URL}/about` },

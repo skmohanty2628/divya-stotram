@@ -164,7 +164,7 @@ export default function FestivalCalendar() {
                     >
                       <div className="flex flex-wrap items-start justify-between gap-2">
                         <div>
-                          <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#e8760a]">
+                          <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#a85200]">
                             {['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][dateObj.getUTCDay()]}, {Number(f.date.slice(8))} {MONTHS[m - 1]} {y}
                           </p>
                           <h3 className="mt-1 font-cinzel text-lg font-bold leading-snug text-[#8b1a00]">{f.name}</h3>

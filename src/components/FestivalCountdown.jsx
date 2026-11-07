@@ -106,7 +106,7 @@ export default function FestivalCountdown({ slug, heading = 'Next festival' }) {
 
       {rest.length > 0 && (
         <div className="mt-4">
-          <p className="mb-2 font-cinzel-reg text-[11px] uppercase tracking-[4px] text-[#e8760a]">Coming up</p>
+          <p className="mb-2 font-cinzel-reg text-[11px] uppercase tracking-[4px] text-[#a85200]">Coming up</p>
           <ul className="flex gap-3 overflow-x-auto pb-2">
             {rest.map((f) => {
               const days = Math.max(0, Math.ceil((target(f.date) - now) / 86400000));

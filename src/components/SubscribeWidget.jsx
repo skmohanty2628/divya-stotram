@@ -103,7 +103,7 @@ export function SubscribePopup() {
         {/* Close */}
         <button
           onClick={dismiss}
-          className="absolute right-3 top-3 rounded-full p-1.5 text-[#c9922a]/60 transition-colors hover:text-[#c9922a]"
+          className="absolute right-3 top-3 rounded-full p-1.5 text-[#c9922a] transition-colors hover:text-[#c9922a]"
           aria-label="Close"
         >
           <X size={18} />
@@ -160,7 +160,7 @@ export function SubscribePopup() {
               <p className="mt-2 font-garamond text-xs text-red-400">{error}</p>
             )}
 
-            <p className="mt-3 text-center font-cinzel-reg text-[9px] uppercase tracking-[1.8px] text-[#c9922a]/40">
+            <p className="mt-3 text-center font-cinzel-reg text-[9px] uppercase tracking-[1.8px] text-[#c9922a]">
               Unsubscribe anytime · No spam · Sacred only 🕉️
             </p>
           </>
@@ -263,7 +263,7 @@ export function SubscribeInline() {
           </div>
 
           {error && <p className="mt-2 font-garamond text-xs text-red-400">{error}</p>}
-          <p className="mt-2 font-cinzel-reg text-[9px] uppercase tracking-[1.5px] text-[#c9922a]/40">
+          <p className="mt-2 font-cinzel-reg text-[9px] uppercase tracking-[1.5px] text-[#c9922a]">
             Free · No spam · Unsubscribe anytime
           </p>
         </>

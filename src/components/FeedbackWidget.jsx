@@ -4,6 +4,9 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { FeedbackForm, FeedbackList } from '@/components/FeedbackParts';
+import { STOTRAMS_INDEX } from '@/data/stotrams-index';
+
+const STOTRAM_SLUGS = new Set(STOTRAMS_INDEX.map((s) => s.slug));
 
 // A small "Feedback" tab in the bottom-left corner of every public page. It opens a compact card
 // (never a full-screen overlay) with a form and the latest messages from other readers.
@@ -13,6 +16,8 @@ export default function FeedbackWidget() {
   const [tab, setTab] = useState('write');
   const [refresh, setRefresh] = useState(0);
   const btn = useRef(null);
+  // Stotram pages already carry Play and Ask Pandit buttons on phones, so keep the screen clear there.
+  const onStotram = STOTRAM_SLUGS.has(pathname.split('/').filter(Boolean)[0] || '');
 
   useEffect(() => {
     if (!open) return undefined;
@@ -34,7 +39,7 @@ export default function FeedbackWidget() {
     }`;
 
   return (
-    <div className="fixed bottom-4 left-4 z-[55] print:hidden">
+    <div className={`fixed bottom-3 left-3 z-[55] print:hidden sm:bottom-4 sm:left-4 ${onStotram ? 'hidden sm:block' : ''}`}>
       {open && (
         <div
           role="dialog"
@@ -72,12 +77,12 @@ export default function FeedbackWidget() {
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
         aria-label={open ? 'Close feedback' : 'Give feedback'}
-        className="flex items-center gap-2 rounded-full bg-gradient-to-r from-[#8b1a00] to-[#c2410c] px-4 py-2.5 font-cinzel-reg text-[11px] uppercase tracking-[2px] text-white shadow-lg ring-1 ring-white/30 transition hover:brightness-110"
+        className="flex h-11 w-11 items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#8b1a00] to-[#c2410c] font-cinzel-reg text-[11px] uppercase tracking-[2px] text-white shadow-lg ring-1 ring-white/30 transition hover:brightness-110 sm:h-auto sm:w-auto sm:px-4 sm:py-2.5"
       >
         <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
           <path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
         </svg>
-        Feedback
+        <span className="hidden sm:inline">Feedback</span>
       </button>
     </div>
   );

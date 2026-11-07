@@ -5,7 +5,7 @@ const SITE_URL = 'https://divyastotram.com';
 
 export async function generateMetadata() {
   return {
-    title: 'Online Japa Counter | Chanting Room | Divya Stotram',
+    title: 'Online Japa Counter | Chanting Room',
     description:
       'Free online japa mala counter with voice recognition. Chant Jai Shree Ram, Om Namah Shivaya, Hare Krishna and more, the app listens and counts automatically. Track 108, 54, or 1008 chants.',
     keywords:

@@ -39,7 +39,7 @@ export default function ReadingToolbar({ title, readerTitle, verses }) {
         <button className="px-3 py-2 font-garamond text-sm disabled:opacity-30" onClick={() => setStep((s) => Math.max(0, s - 1))} disabled={step === 0} aria-label="Smaller text">
           A−
         </button>
-        <span className="px-1 font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#c9922a]">Text</span>
+        <span className="px-1 font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#8a5f00]">Text</span>
         <button className="px-3 py-2 font-garamond text-lg disabled:opacity-30" onClick={() => setStep((s) => Math.min(STEPS.length - 1, s + 1))} disabled={step === STEPS.length - 1} aria-label="Larger text">
           A+
         </button>

@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import TodayBanner from '@/components/TodayBanner';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { Search, X, Menu } from 'lucide-react';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -28,6 +28,7 @@ function StotramIcon({ s }) {
 
 export default function Navbar() {
   const pathname = usePathname();
+  const router = useRouter();
 
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -194,14 +195,26 @@ export default function Navbar() {
                 }`}
               >
                 <div className="bg-white/95 backdrop-blur-xl border border-[#c9922a]/30 rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.18)] overflow-hidden">
+                  <form
+                    role="search"
+                    onSubmit={(e) => {
+                      e.preventDefault();
+                      const q = query.trim();
+                      if (!q) return;
+                      closeSearch();
+                      router.push(`/search?q=${encodeURIComponent(q)}`);
+                    }}
+                  >
                   <input
+                    aria-label="Search stotrams and guides"
                     autoFocus={searchOpen}
                     type="text"
                     value={query}
                     onChange={(e) => handleSearch(e.target.value)}
-                    placeholder="Search stotrams..."
-                    className="w-full px-4 py-3 font-garamond text-sm text-[#1a0a00] bg-white/80 outline-none border-b border-[#c9922a]/20 placeholder-[#c9922a]/40"
+                    placeholder="Search stotrams and guides..."
+                    className="w-full px-4 py-3 font-garamond text-sm text-[#1a0a00] bg-white/80 outline-none border-b border-[#c9922a]/20 placeholder-[#8a5f00]/60"
                   />
+                  </form>
 
                   <div className="max-h-80 overflow-y-auto">
                     {results.map((s) => (
@@ -216,7 +229,7 @@ export default function Navbar() {
                           <p className="font-cinzel-reg text-sm text-[#8b1a00] font-bold">
                             {s.title.en}
                           </p>
-                          <p className="font-garamond text-xs text-[#c9922a]/70">
+                          <p className="font-garamond text-xs text-[#8a5f00]">
                             {s.deity} · {s.verseCount} verses
                           </p>
                         </div>
@@ -225,10 +238,19 @@ export default function Navbar() {
 
                     {query && results.length === 0 && (
                       <div className="px-4 py-3">
-                        <p className="text-[#3d1a00]/50 font-garamond text-sm">
-                          No stotrams found
+                        <p className="text-[#3d1a00]/60 font-garamond text-sm">
+                          No stotrams found. Press Enter to search the guides too.
                         </p>
                       </div>
+                    )}
+                    {query.trim() && (
+                      <Link
+                        href={`/search?q=${encodeURIComponent(query.trim())}`}
+                        onClick={closeSearch}
+                        className="block px-4 py-3 text-center font-cinzel-reg text-[11px] uppercase tracking-[2px] text-[#8b1a00] hover:bg-[#fdf6e3]"
+                      >
+                        See all results
+                      </Link>
                     )}
                   </div>
                 </div>
@@ -292,7 +314,7 @@ export default function Navbar() {
                   <p className="font-cinzel text-sm tracking-wide text-[#8b1a00]">
                     DIVYA STOTRAM
                   </p>
-                  <p className="font-garamond text-xs text-[#c9922a]/70">
+                  <p className="font-garamond text-xs text-[#8a5f00]">
                     Sacred prayers in 4 languages
                   </p>
                 </div>
@@ -318,7 +340,7 @@ export default function Navbar() {
                   <p className="font-cinzel-reg text-sm text-[#8b1a00] font-bold">
                     Chanting Room
                   </p>
-                  <p className="font-garamond text-xs text-[#c9922a]/70">
+                  <p className="font-garamond text-xs text-[#8a5f00]">
                     Voice japa mala counter
                   </p>
                 </div>

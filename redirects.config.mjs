@@ -1,6 +1,7 @@
 // Old thin pages -> consolidated deep guides (301/308 permanent).
 // Generated from the audit: 99 near-duplicate template pages were merged into 29 in-depth guides.
 export const REDIRECTS = [
+  ['stotrams', 'all-stotrams'],
   ['hanuman-chalisa-for-anxiety', 'best-mantra-for-anxiety'],
   ['hanuman-chalisa-for-job', 'best-mantra-for-job'],
   ['hanuman-chalisa-for-health', 'best-mantra-for-health'],

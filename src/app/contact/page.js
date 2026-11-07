@@ -51,7 +51,7 @@ export default function ContactPage() {
             <p className="font-garamond italic text-[#3d1a00]/70 text-lg">We'd love to hear from you</p>
             <div className="flex items-center justify-center gap-3 mt-4 opacity-40">
               <div className="h-px w-20 bg-[#c9922a]" />
-              <span className="text-[#c9922a]">✦</span>
+              <span className="text-[#8a5f00]">✦</span>
               <div className="h-px w-20 bg-[#c9922a]" />
             </div>
           </div>
@@ -64,8 +64,8 @@ export default function ContactPage() {
               { icon: MessageCircle, label: 'Response', value: 'Within 48 hours' },
             ].map(({ icon: Icon, label, value }, i) => (
               <div key={i} className="bg-white border border-[#c9922a]/30 shadow-sm rounded-xl p-5 text-center">
-                <Icon size={22} className="text-[#c9922a] mx-auto mb-2" />
-                <p className="font-cinzel-reg text-[9px] tracking-[3px] uppercase text-[#e8760a]/70 mb-1">{label}</p>
+                <Icon size={22} className="text-[#8a5f00] mx-auto mb-2" />
+                <p className="font-cinzel-reg text-[9px] tracking-[3px] uppercase text-[#a85200] mb-1">{label}</p>
                 <p className="font-garamond text-sm text-[#3d1a00]">{value}</p>
               </div>
             ))}
@@ -74,7 +74,7 @@ export default function ContactPage() {
           {/* Contact form */}
           {!sent ? (
             <div className="bg-white border border-[#c9922a]/30 shadow-sm rounded-2xl p-8">
-              <p className="font-cinzel-reg text-[10px] tracking-[4px] uppercase text-[#e8760a] mb-6">Send a Message</p>
+              <p className="font-cinzel-reg text-[10px] tracking-[4px] uppercase text-[#a85200] mb-6">Send a Message</p>
               
               {/* Error Message */}
               {error && (
@@ -147,14 +147,14 @@ export default function ContactPage() {
               <span className="text-5xl block mb-4">🙏</span>
               <p className="font-cinzel text-xl text-[#8b1a00] mb-2">Thank you!</p>
               <p className="font-garamond text-lg text-[#3d1a00]/75">Your message has been sent successfully. We'll respond within 48 hours.</p>
-              <button onClick={() => setSent(false)} className="mt-6 font-cinzel-reg text-xs tracking-widest uppercase text-[#8b1a00] hover:text-[#e8760a] transition-colors">
+              <button onClick={() => setSent(false)} className="mt-6 font-cinzel-reg text-xs tracking-widest uppercase text-[#8b1a00] hover:text-[#a85200] transition-colors">
                 Send another message
               </button>
             </div>
           )}
 
           <div className="text-center mt-8">
-            <Link href="/" className="font-cinzel-reg text-xs tracking-widest uppercase text-[#8b1a00]/70 hover:text-[#c9922a] transition-colors">
+            <Link href="/" className="font-cinzel-reg text-xs tracking-widest uppercase text-[#8b1a00]/70 hover:text-[#8a5f00] transition-colors">
               ← Back to home
             </Link>
           </div>

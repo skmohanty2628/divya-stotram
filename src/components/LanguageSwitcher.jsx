@@ -89,7 +89,7 @@ export default function LanguageSwitcher() {
         <span className="font-cinzel-reg text-xs tracking-wider text-[#8b1a00] font-bold">
           {current.native}
         </span>
-        <span className="text-[#c9922a] text-xs">▾</span>
+        <span className="text-[#8a5f00] text-xs">▾</span>
       </button>
 
       {open && (
@@ -97,7 +97,7 @@ export default function LanguageSwitcher() {
           role="listbox"
           className="absolute right-0 top-full mt-2 bg-white border border-[#c9922a]/30 rounded-xl overflow-hidden z-50 min-w-[160px] shadow-xl shadow-black/10"
         >
-          <p className="font-cinzel-reg text-[9px] tracking-[2px] uppercase text-[#c9922a]/60 px-3 pt-3 pb-1">
+          <p className="font-cinzel-reg text-[9px] tracking-[2px] uppercase text-[#8a5f00] px-3 pt-3 pb-1">
             Select Language
           </p>
           {LANGS.map((l) => (
@@ -115,7 +115,7 @@ export default function LanguageSwitcher() {
             >
               <span className="text-lg w-6 text-center">{l.short}</span>
               <span className="font-garamond text-sm font-bold">{l.name}</span>
-              {l.code === lang && <span className="ml-auto text-[#c9922a] text-xs">✓</span>}
+              {l.code === lang && <span className="ml-auto text-[#8a5f00] text-xs">✓</span>}
             </button>
           ))}
         </div>

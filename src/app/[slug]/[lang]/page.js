@@ -35,9 +35,9 @@ export async function generateMetadata({ params }) {
       siteName: SITE_NAME,
       type: 'article',
       locale: l.hreflang,
-      images: [{ url: '/og-image.png', width: 1200, height: 630, alt: meta.title?.[l.code] || meta.title?.en }],
+      images: [{ url: `/og/${slug}`, width: 1200, height: 630, alt: meta.title?.[l.code] || meta.title?.en }],
     },
-    twitter: { card: 'summary_large_image', title: seo.title, description: seo.description, images: ['/og-image.png'] },
+    twitter: { card: 'summary_large_image', title: seo.title, description: seo.description, images: [`/og/${slug}`] },
   };
 }
 

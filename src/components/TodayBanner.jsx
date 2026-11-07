@@ -66,19 +66,19 @@ export default function TodayBanner() {
 
   return (
     <div role="status" className="relative z-[5] border-b border-[#c9922a]/40 bg-gradient-to-r from-[#8b1a00] via-[#b53a00] to-[#e8760a] text-white print:hidden">
-      <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3 pr-12 sm:px-6">
-        <p className="font-cinzel text-sm font-bold sm:text-base">
-          {isToday ? `Shubh ${f.name.split(',')[0].split(' and ')[0]}!` : `Tomorrow: ${f.name}`}
+      <div className="mx-auto flex max-w-6xl items-center gap-x-3 gap-y-2 px-4 py-2 pr-12 sm:flex-wrap sm:gap-x-4 sm:px-6 sm:py-3">
+        <p className="min-w-0 flex-1 truncate font-cinzel text-[13px] font-bold sm:flex-none sm:text-base">
+          {isToday ? `Shubh ${f.name.split(',')[0].split(' and ')[0]}!` : `Tomorrow: ${f.name.split(' and ')[0]}`}
         </p>
-        <p className="font-garamond text-base text-white/90">
+        <p className="hidden font-garamond text-base text-white/90 sm:block">
           {isToday ? `Today is ${f.name}. ${f.note}.` : `${f.note}. Dates can differ by a day between regions, so confirm with your local panchang.`}
         </p>
-        <div className="flex flex-wrap items-center gap-2">
-          <Link href={`/${f.slug}`} className="rounded-full bg-white px-4 py-1 font-cinzel-reg text-[11px] uppercase tracking-[2px] text-[#8b1a00] transition hover:bg-[#fff1d1]">
+        <div className="flex flex-none flex-wrap items-center gap-2">
+          <Link href={`/${f.slug}`} className="rounded-full bg-white px-3 py-1 font-cinzel-reg text-[11px] uppercase tracking-[1.5px] text-[#8b1a00] transition hover:bg-[#fff1d1] sm:px-4 sm:tracking-[2px]">
             Read the guide
           </Link>
           {prayers.map(([slug, label]) => (
-            <Link key={slug} href={`/${slug}`} className="rounded-full border border-white/60 px-4 py-1 font-cinzel-reg text-[11px] uppercase tracking-[2px] text-white transition hover:bg-white/15">
+            <Link key={slug} href={`/${slug}`} className="hidden rounded-full border border-white/60 px-4 py-1 font-cinzel-reg text-[11px] uppercase tracking-[2px] text-white transition hover:bg-white/15 sm:inline-block">
               {label}
             </Link>
           ))}
@@ -88,7 +88,7 @@ export default function TodayBanner() {
         type="button"
         onClick={close}
         aria-label="Dismiss festival banner"
-        className="absolute right-3 top-1/2 h-8 w-8 -translate-y-1/2 rounded-full text-xl leading-none text-white/90 transition hover:bg-white/15"
+        className="absolute right-1 top-1/2 h-11 w-11 -translate-y-1/2 rounded-full text-2xl leading-none text-white/90 transition hover:bg-white/15 sm:right-3 sm:h-9 sm:w-9"
       >
         ×
       </button>

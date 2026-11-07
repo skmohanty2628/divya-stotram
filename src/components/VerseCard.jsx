@@ -91,7 +91,7 @@ export default function VerseCard({ verse }) {
       {/* Meaning */}
       {meaningOpen && (
         <div className="mt-8 text-center">
-          <div className="text-xs tracking-widest text-[#c9922a] mb-2 uppercase font-cinzel-reg">
+          <div className="text-xs tracking-widest text-[#8a5f00] mb-2 uppercase font-cinzel-reg">
             Meaning
           </div>
 
@@ -112,7 +112,7 @@ export default function VerseCard({ verse }) {
           {/* AI Response */}
           {(loadingAI || aiResponse) && (
             <div className="mt-6 p-5 rounded-2xl border border-[#c9922a]/20 bg-[#fffaf3]">
-              <div className="text-xs tracking-widest text-[#c9922a] mb-2 uppercase font-cinzel-reg">
+              <div className="text-xs tracking-widest text-[#8a5f00] mb-2 uppercase font-cinzel-reg">
                 AI Explanation
               </div>
 

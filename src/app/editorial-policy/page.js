@@ -61,7 +61,7 @@ export default function EditorialPolicyPage() {
   return (
     <SiteShell>
       <div className="mx-auto max-w-3xl px-4 pb-24 pt-14 sm:px-6">
-        <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#e8760a]">Our standards</p>
+        <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#a85200]">Our standards</p>
         <h1 className="mt-3 font-cinzel text-4xl font-bold text-[#8b1a00]">Editorial Policy</h1>
         <p className="mt-4 font-garamond text-xl leading-relaxed text-[#3d1a00]/80">
           How we source, write, review and correct what we publish.

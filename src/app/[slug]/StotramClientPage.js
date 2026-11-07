@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 import { ChevronRight } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import VerseCard from '@/components/VerseCard';
@@ -25,7 +26,7 @@ function Breadcrumbs({ title }) {
           </Link>
         </li>
         <li aria-hidden="true">
-          <ChevronRight size={14} className="text-[#c9922a]" />
+          <ChevronRight size={14} className="text-[#8a5f00]" />
         </li>
         <li>
           <Link href="/all-stotrams" className="font-garamond text-[#8b1a00]/70 hover:text-[#8b1a00] transition-colors">
@@ -33,7 +34,7 @@ function Breadcrumbs({ title }) {
           </Link>
         </li>
         <li aria-hidden="true">
-          <ChevronRight size={14} className="text-[#c9922a]" />
+          <ChevronRight size={14} className="text-[#8a5f00]" />
         </li>
         <li>
           <span className="font-garamond text-[#3d1a00]/85">{title}</span>
@@ -45,13 +46,39 @@ function Breadcrumbs({ title }) {
 
 function LanguageTabs({ slug }) {
   const { lang } = useLang();
+  const [saved, setSaved] = useState(null);
+  const [hide, setHide] = useState(false);
+  useEffect(() => {
+    try {
+      const s = localStorage.getItem('divya_lang');
+      setSaved(LANGS.some((l) => l.code === s) ? s : null);
+    } catch (e) {}
+  }, []);
+  const pref = saved && saved !== lang ? LANGS.find((l) => l.code === saved) : null;
+  return (
+    <>
+      {pref && !hide && (
+        <div className="mb-3 flex items-center gap-3 rounded-2xl border border-[#c9922a]/40 bg-[#fff8ec] px-4 py-2.5 font-garamond text-base text-[#3d1a00]">
+          <span className="flex-1">You usually read in {pref.name}.</span>
+          <Link href={stotramPath(slug, pref.code)} hrefLang={pref.hreflang} className="rounded-full bg-[#8b1a00] px-4 py-1 font-cinzel-reg text-[11px] uppercase tracking-[1.5px] text-white">
+            Switch to {pref.native}
+          </Link>
+          <button type="button" onClick={() => setHide(true)} aria-label="Dismiss" className="h-9 w-9 rounded-full text-xl leading-none text-[#3d1a00]/70 hover:bg-[#8b1a00]/10">×</button>
+        </div>
+      )}
+      <LanguageTabsInner slug={slug} lang={lang} />
+    </>
+  );
+}
+
+function LanguageTabsInner({ slug, lang }) {
   return (
     <div
       role="navigation"
       aria-label="Choose language"
       className="mb-6 flex flex-wrap items-center gap-2"
     >
-      <span className="font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#c9922a]">Read in</span>
+      <span className="font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#8a5f00]">Read in</span>
       {LANGS.map((l) => {
         const active = l.code === lang;
         return (
@@ -133,7 +160,7 @@ function StotramContent({ meta, verseData, top, children, htmlLang }) {
           <h1 className="font-cinzel text-xl sm:text-3xl font-bold text-[#8b1a00] leading-tight">
             {meta.title?.[lang] || meta.title?.en}
           </h1>
-          <p className="font-cinzel-reg text-[10px] tracking-[2px] uppercase text-[#c9922a]/80 mt-1">
+          <p className="font-cinzel-reg text-[10px] tracking-[2px] uppercase text-[#8a5f00] mt-1">
             {meta.language} · {meta.verseCount} {meta.verseCount === 1 ? 'Verse' : 'Verses'}
           </p>
         </div>

@@ -29,7 +29,7 @@ export default function MusicPlayer({ youtubeId, title }) {
           {/* Header */}
           <div className="flex items-center justify-between px-4 py-3 border-b border-[#c9922a]/20 bg-[#150303]">
             <div className="flex items-center gap-2">
-              <Music size={14} className="text-[#e8760a] flex-shrink-0" />
+              <Music size={14} className="text-[#a85200] flex-shrink-0" />
               <span className="font-cinzel-reg text-xs tracking-widest text-[#f0c040] truncate max-w-[180px] sm:max-w-[140px]">
                 {title}
               </span>
@@ -37,14 +37,14 @@ export default function MusicPlayer({ youtubeId, title }) {
             <div className="flex items-center gap-3">
               <button
                 onClick={() => setMin(m => !m)}
-                className="text-[#c9922a]/60 hover:text-[#c9922a] p-1"
+                className="text-[#8a5f00] hover:text-[#8a5f00] p-1"
                 title={minimized ? 'Expand' : 'Minimize'}
               >
                 {minimized ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
               </button>
               <button
                 onClick={() => setOpen(false)}
-                className="text-[#c9922a]/60 hover:text-[#c9922a] p-1"
+                className="text-[#8a5f00] hover:text-[#8a5f00] p-1"
                 title="Close"
               >
                 <X size={16} />
@@ -72,7 +72,7 @@ export default function MusicPlayer({ youtubeId, title }) {
           )}
 
           {minimized && (
-            <div className="px-4 py-2 font-garamond text-xs text-[#c9922a]/60 flex items-center gap-2">
+            <div className="px-4 py-2 font-garamond text-xs text-[#8a5f00] flex items-center gap-2">
               <Music size={12} className="animate-pulse" />
               Playing in background...
             </div>

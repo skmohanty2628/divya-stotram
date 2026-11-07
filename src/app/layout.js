@@ -230,8 +230,14 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className="min-h-screen bg-white text-[#1a0a00]">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-[10000] focus:rounded-full focus:bg-[#8b1a00] focus:px-5 focus:py-2.5 focus:font-cinzel-reg focus:text-xs focus:uppercase focus:tracking-[2px] focus:text-white"
+        >
+          Skip to main content
+        </a>
         <div className="flex min-h-screen flex-col">
-          <main className="flex-1">{children}</main>
+          <main id="main-content" tabIndex={-1} className="flex-1 outline-none">{children}</main>
           <SiteFooter />
         </div>
         <SubscribePopup />

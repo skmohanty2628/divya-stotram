@@ -56,7 +56,7 @@ export default function GlossaryPage() {
     <SiteShell>
       <JsonLd data={ld} />
       <div className="mx-auto max-w-3xl px-4 pb-24 pt-14 sm:px-6">
-        <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#e8760a]">Learn</p>
+        <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#a85200]">Learn</p>
         <h1 className="mt-3 font-cinzel text-4xl font-bold text-[#8b1a00]">Glossary of Devotional Terms</h1>
         <p className="mt-4 text-lg text-[#3d1a00]/85">
           Short, plain definitions of words you will meet on this site and in temples. Meanings can differ between

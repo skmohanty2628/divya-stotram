@@ -46,15 +46,23 @@ export default function VerseOfTheDay() {
     } catch {}
   };
 
+  const niceDate = (iso) => {
+    try {
+      return new Date(`${iso}T12:00:00Z`).toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' });
+    } catch (e) {
+      return iso;
+    }
+  };
+
   const btn = 'rounded-full border border-[#c9922a]/40 bg-white px-4 py-2 font-garamond text-base text-[#3d1a00] transition-colors hover:border-[#c9922a] hover:bg-[#fff3d6]';
 
   return (
     <section aria-labelledby="votd-h" className="mx-auto max-w-3xl px-4 pt-10 sm:px-6">
-      <div className="rounded-3xl border border-[#c9922a]/35 bg-gradient-to-br from-[#fff8ec] to-white p-5 shadow-sm sm:p-8">
+      <div className="min-h-[34rem] rounded-3xl border border-[#c9922a]/35 bg-gradient-to-br from-[#fff8ec] to-white p-5 shadow-sm sm:min-h-[26rem] sm:p-8">
         <div className="flex items-baseline justify-between gap-3">
-          <h2 id="votd-h" className="font-cinzel-reg text-[11px] uppercase tracking-[4px] text-[#e8760a]">{t.eyebrow}</h2>
+          <h2 id="votd-h" className="font-cinzel-reg text-[11px] uppercase tracking-[4px] text-[#a85200]">{t.eyebrow}</h2>
           {data && (
-            <p className="font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#8b1a00]/60">{data.date}</p>
+            <p className="font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#8b1a00]/60">{niceDate(data.date)}</p>
           )}
         </div>
 
@@ -75,7 +83,7 @@ export default function VerseOfTheDay() {
             <div className="verse-text mt-3 text-center text-xl sm:text-2xl">{data.verseText}</div>
             {data.meaningText ? (
               <div className="mt-5 border-t border-[#c9922a]/20 pt-4">
-                <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#c9922a]">{t.meaning}</p>
+                <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#8a5f00]">{t.meaning}</p>
                 <p className="verse-meaning mt-1 text-base sm:text-lg">{data.meaningText}</p>
               </div>
             ) : null}

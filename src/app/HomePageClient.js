@@ -5,7 +5,6 @@ import { useEffect, useMemo, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import { LangProvider, useLang } from '@/components/LanguageSwitcher';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
-import { GUIDES, getGuideBySlug } from '@/data/guides';
 import { SubscribeInline } from '@/components/SubscribeWidget';
 import VerseOfTheDay from '@/components/VerseOfTheDay';
 import { stotramPath, LANGS } from '@/lib/site';
@@ -21,14 +20,6 @@ const WEEKDAY = [
   { day: 'Saturday', deity: 'Hanuman and Shani', slug: 'navagraha-stotram', note: 'Saturday is traditionally associated with Shani and Hanuman.' },
 ];
 
-const FEATURED_GUIDES = [
-  'how-to-chant-hanuman-chalisa',
-  'how-to-chant-gayatri-mantra',
-  'best-mantra-for-anxiety',
-  'morning-prayer-routine',
-  'durga-mantra-during-navratri',
-  'spiritual-routine-for-beginners',
-];
 
 function PrayerOfTheDay() {
   const { lang } = useLang();
@@ -38,7 +29,7 @@ function PrayerOfTheDay() {
   const s = STOTRAMS_INDEX.find((x) => x.slug === w.slug) || STOTRAMS_INDEX[0];
   return (
     <div className="mx-auto mt-10 max-w-xl rounded-3xl border border-[#c9922a]/40 bg-white/90 p-6 text-left shadow-xl backdrop-blur">
-      <p className="font-cinzel-reg text-[10px] uppercase tracking-[4px] text-[#e8760a]">Prayer for {w.day}</p>
+      <p className="font-cinzel-reg text-[10px] uppercase tracking-[4px] text-[#a85200]">Prayer for {w.day}</p>
       <h2 className="mt-2 font-cinzel text-2xl font-bold text-[#8b1a00]">{s.title?.[lang] || s.title.en}</h2>
       <p className="mt-2 font-garamond text-base leading-snug text-[#3d1a00]/75">{w.note}</p>
       <Link
@@ -56,7 +47,7 @@ function Hero() {
     <section className="relative overflow-hidden bg-gradient-to-b from-[#fff3d6] via-[#fdf6e3] to-[#fdf6e3] px-4 pb-16 pt-16 text-center sm:px-6">
       <div className="pointer-events-none absolute -top-24 left-1/2 h-[28rem] w-[28rem] -translate-x-1/2 rounded-full bg-[#e8760a]/15 blur-3xl" />
       <div className="relative mx-auto max-w-3xl">
-        <p className="font-cinzel-reg text-[11px] uppercase tracking-[6px] text-[#e8760a]">॥ ॐ ॥</p>
+        <p className="font-cinzel-reg text-[11px] uppercase tracking-[6px] text-[#a85200]">॥ ॐ ॥</p>
         <h1 className="mt-4 font-cinzel text-4xl font-bold leading-tight text-[#8b1a00] md:text-6xl">
           Hindu Prayers and Mantras, With Meaning
         </h1>
@@ -86,7 +77,7 @@ function StotramGrid() {
   return (
     <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
       <div className="text-center">
-        <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#e8760a]">The collection</p>
+        <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#a85200]">The collection</p>
         <h2 className="mt-2 font-cinzel text-3xl font-bold text-[#8b1a00]">Sacred Stotrams</h2>
       </div>
       <div className="mt-6 flex flex-wrap justify-center gap-2" role="group" aria-label="Filter by deity">
@@ -110,12 +101,12 @@ function StotramGrid() {
             href={stotramPath(s.slug, lang)}
             className="group flex flex-col rounded-2xl border border-[#c9922a]/25 bg-white p-5 shadow-sm transition-all hover:-translate-y-1 hover:border-[#c9922a] hover:shadow-lg"
           >
-            <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#e8760a]">{s.deity}</p>
+            <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#a85200]">{s.deity}</p>
             <h3 className="mt-2 font-cinzel text-lg font-bold leading-snug text-[#8b1a00]">{s.title?.[lang] || s.title.en}</h3>
             <p className="mt-2 line-clamp-4 flex-1 font-garamond text-base leading-snug text-[#3d1a00]/70">
               {s.description?.[lang] || s.description.en}
             </p>
-            <span className="mt-4 font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#c9922a] transition-transform group-hover:translate-x-1">
+            <span className="mt-4 font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#8a5f00] transition-transform group-hover:translate-x-1">
               Read →
             </span>
           </Link>
@@ -125,13 +116,12 @@ function StotramGrid() {
   );
 }
 
-function GuidesSection() {
-  const guides = FEATURED_GUIDES.map(getGuideBySlug).filter(Boolean);
+function GuidesSection({ guides, count }) {
   return (
     <section className="bg-[#fff3d6]/60 px-4 py-14 sm:px-6">
       <div className="mx-auto max-w-6xl">
         <div className="text-center">
-          <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#e8760a]">Learn</p>
+          <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#a85200]">Learn</p>
           <h2 className="mt-2 font-cinzel text-3xl font-bold text-[#8b1a00]">Guides for Your Practice</h2>
           <p className="mx-auto mt-3 max-w-2xl font-garamond text-lg text-[#3d1a00]/75">
             How to chant, when to chant and what it means, written plainly and honestly.
@@ -147,7 +137,7 @@ function GuidesSection() {
         </div>
         <p className="mt-8 text-center">
           <Link href="/guides" className="font-cinzel-reg text-xs uppercase tracking-[3px] text-[#8b1a00] underline decoration-[#c9922a] underline-offset-4">
-            All {GUIDES.length} guides
+            All {count} guides
           </Link>
         </p>
       </div>
@@ -179,7 +169,7 @@ function Languages() {
   );
 }
 
-export default function HomePageClient() {
+export default function HomePageClient({ featuredGuides = [], guideCount = 0 }) {
   return (
     <LangProvider>
       <div className="min-h-screen bg-[#fdf6e3]">
@@ -187,7 +177,7 @@ export default function HomePageClient() {
         <Hero />
         <VerseOfTheDay />
         <StotramGrid />
-        <GuidesSection />
+        <GuidesSection guides={featuredGuides} count={guideCount} />
         <Languages />
         <section className="mx-auto max-w-3xl px-4 pb-20 sm:px-6">
           <SubscribeInline />

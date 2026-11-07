@@ -210,7 +210,7 @@ export default function PhotoCarousel({ eyebrow, title, items }) {
     >
       <div className="mb-3 flex items-end justify-between gap-3 px-1">
         <div>
-          <p className="font-cinzel-reg text-[10px] uppercase tracking-[4px] text-[#e8760a]">{eyebrow}</p>
+          <p className="font-cinzel-reg text-[10px] uppercase tracking-[4px] text-[#a85200]">{eyebrow}</p>
           <p className="font-cinzel text-lg font-bold text-[#8b1a00] sm:text-xl">{title}</p>
         </div>
         <p className="font-cinzel-reg text-xs tracking-[2px] text-[#8b1a00]/70" aria-live="off">

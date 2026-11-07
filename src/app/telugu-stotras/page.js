@@ -2,7 +2,7 @@ import LangHub from '@/components/LangHub';
 import { SITE_URL } from '@/lib/site';
 
 export const metadata = {
-  title: 'తెలుగులో స్తోత్రాలు మరియు మంత్రాలు అర్థంతో | హనుమాన్ చాలీసా | Divya Stotram',
+  title: 'తెలుగులో స్తోత్రాలు మరియు మంత్రాలు అర్థంతో | హనుమాన్ చాలీసా',
   description: 'తెలుగులో స్తోత్రాలు మరియు మంత్రాలు చదవండి: హనుమాన్ చాలీసా, శివ తాండవం, దుర్గా స్తోత్రం, గాయత్రీ మంత్రం మరియు మరిన్ని, అర్థంతో. Telugu stotram lyrics with meaning.',
   alternates: { canonical: `${SITE_URL}/telugu-stotras` },
 };

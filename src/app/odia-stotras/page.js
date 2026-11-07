@@ -2,7 +2,7 @@ import LangHub from '@/components/LangHub';
 import { SITE_URL } from '@/lib/site';
 
 export const metadata = {
-  title: 'ଓଡ଼ିଆ ସ୍ତୋତ୍ର ଓ ମନ୍ତ୍ର ଅର୍ଥ ସହିତ | ଅୟିଗିରି ନନ୍ଦିନୀ, ହନୁମାନ ଚାଳୀଶା | Divya Stotram',
+  title: 'ଓଡ଼ିଆ ସ୍ତୋତ୍ର ଓ ମନ୍ତ୍ର ଅର୍ଥ ସହିତ | ଅୟିଗିରି ନନ୍ଦିନୀ, ହନୁମାନ ଚାଳୀଶା',
   description: 'ଓଡ଼ିଆ ଭାଷାରେ ସ୍ତୋତ୍ର ଓ ମନ୍ତ୍ର ପଢ଼ନ୍ତୁ: ଅୟିଗିରି ନନ୍ଦିନୀ, ହନୁମାନ ଚାଳୀଶା, ରାମ ରକ୍ଷା ସ୍ତୋତ୍ର, ବଜରଙ୍ଗ ବାଣ ଓ ଅଧିକ, ଅର୍ଥ ଓ ଉଚ୍ଚାରଣ ସହିତ। Odia stotram lyrics with meaning.',
   alternates: { canonical: `${SITE_URL}/odia-stotras` },
 };

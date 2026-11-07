@@ -51,7 +51,7 @@ export default function GuidePageView({ slug }) {
     headline: guide.h1,
     description: guide.description,
     url,
-    image: `${SITE_URL}/og-image.png`,
+    image: `${SITE_URL}/og/${guide.slug}`,
     inLanguage: 'en',
     datePublished: '2026-04-08',
     dateModified: GUIDES_UPDATED,
@@ -94,16 +94,16 @@ export default function GuidePageView({ slug }) {
       <div className="mx-auto max-w-4xl px-4 pb-24 sm:px-6">
         <nav aria-label="Breadcrumb" className="pt-6 text-sm font-garamond text-[#8b1a00]/70">
           <Link href="/" className="hover:text-[#8b1a00]">Home</Link>
-          <span className="mx-2 text-[#c9922a]">›</span>
+          <span className="mx-2 text-[#8a5f00]">›</span>
           <Link href="/guides" className="hover:text-[#8b1a00]">Guides</Link>
-          <span className="mx-2 text-[#c9922a]">›</span>
+          <span className="mx-2 text-[#8a5f00]">›</span>
           <span className="text-[#3d1a00]/85">{guide.category}</span>
         </nav>
 
         <header className="pb-6 pt-6">
           <div className="mb-4 flex items-center gap-3">
             <div className="h-px w-12 bg-gradient-to-r from-transparent to-[#c9922a]" />
-            <span className="font-cinzel-reg text-[11px] uppercase tracking-[4px] text-[#e8760a]">{guide.category}</span>
+            <span className="font-cinzel-reg text-[11px] uppercase tracking-[4px] text-[#a85200]">{guide.category}</span>
           </div>
           <h1 className="font-cinzel text-3xl font-bold leading-tight text-[#8b1a00] md:text-5xl">{guide.h1}</h1>
           <p className="mt-5 font-garamond text-xl leading-relaxed text-[#3d1a00]/85">{guide.intro}</p>
@@ -123,19 +123,19 @@ export default function GuidePageView({ slug }) {
         )}
 
         <nav aria-label="Contents" className="mt-8 rounded-2xl border border-[#c9922a]/25 bg-[#fffaf1] p-5">
-          <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#c9922a]">In this guide</p>
+          <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#8a5f00]">In this guide</p>
           <ol className="mt-3 grid gap-x-8 gap-y-1.5 sm:grid-cols-2">
             {guide.sections.map((s, i) => (
               <li key={s.h} className="font-garamond text-lg">
                 <a href={`#${idFor(s.h)}`} className="text-[#8b1a00] hover:underline">
-                  <span className="mr-2 text-[#c9922a]">{i + 1}.</span>
+                  <span className="mr-2 text-[#8a5f00]">{i + 1}.</span>
                   {s.h}
                 </a>
               </li>
             ))}
             <li className="font-garamond text-lg">
               <a href="#faq" className="text-[#8b1a00] hover:underline">
-                <span className="mr-2 text-[#c9922a]">{guide.sections.length + 1}.</span>Frequently asked questions
+                <span className="mr-2 text-[#8a5f00]">{guide.sections.length + 1}.</span>Frequently asked questions
               </a>
             </li>
           </ol>
@@ -204,7 +204,7 @@ export default function GuidePageView({ slug }) {
             {prevGuide && prevGuide.slug !== nextGuide?.slug ? (
               <Link href={`/${prevGuide.slug}`} className="group rounded-2xl border border-[#c9922a]/25 bg-white p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:border-[#c9922a] hover:shadow-md">
                 <GuideThumb src={thumbOf(prevGuide)} />
-                <p className="mt-3 font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#e8760a]">← Previous in {guide.category}</p>
+                <p className="mt-3 font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#a85200]">← Previous in {guide.category}</p>
                 <p className="mt-1 font-cinzel text-base font-bold leading-snug text-[#8b1a00]">{prevGuide.h1}</p>
               </Link>
             ) : (
@@ -213,7 +213,7 @@ export default function GuidePageView({ slug }) {
             {nextGuide && (
               <Link href={`/${nextGuide.slug}`} className="group rounded-2xl border border-[#c9922a]/25 bg-white p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:border-[#c9922a] hover:shadow-md sm:text-right">
                 <GuideThumb src={thumbOf(nextGuide)} />
-                <p className="mt-3 font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#e8760a]">Next in {guide.category} →</p>
+                <p className="mt-3 font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#a85200]">Next in {guide.category} →</p>
                 <p className="mt-1 font-cinzel text-base font-bold leading-snug text-[#8b1a00]">{nextGuide.h1}</p>
               </Link>
             )}
@@ -236,9 +236,9 @@ export default function GuidePageView({ slug }) {
                     href={`/${g.slug}`}
                     className="group rounded-2xl border border-[#c9922a]/25 bg-white p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-[#c9922a] hover:shadow-md"
                   >
-                    <p className="font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#e8760a]">{g.category}</p>
+                    <p className="font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#a85200]">{g.category}</p>
                     <p className="mt-1 font-cinzel text-base font-bold leading-snug text-[#8b1a00]">{g.h1}</p>
-                    <span className="mt-3 inline-block font-cinzel-reg text-[11px] uppercase tracking-widest text-[#c9922a] transition-all group-hover:translate-x-1">
+                    <span className="mt-3 inline-block font-cinzel-reg text-[11px] uppercase tracking-widest text-[#8a5f00] transition-all group-hover:translate-x-1">
                       Read guide →
                     </span>
                   </Link>

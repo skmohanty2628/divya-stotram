@@ -24,7 +24,7 @@ function Content() {
   return (
     <div className="mx-auto max-w-6xl px-4 pb-20 sm:px-6">
       <header className="pb-8 pt-14 text-center">
-        <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#e8760a]">The collection</p>
+        <p className="font-cinzel-reg text-[11px] uppercase tracking-[5px] text-[#a85200]">The collection</p>
         <h1 className="mt-3 font-cinzel text-4xl font-bold text-[#8b1a00] md:text-5xl">All Stotrams and Mantras</h1>
         <p className="mx-auto mt-4 max-w-2xl font-garamond text-xl leading-relaxed text-[#3d1a00]/75">
           {STOTRAMS_INDEX.length} sacred prayers with text, transliteration and meaning in English, Hindi, Odia and
@@ -33,7 +33,7 @@ function Content() {
       </header>
 
       <div className="relative mx-auto mb-10 max-w-2xl">
-        <Search size={18} className="absolute left-4 top-1/2 -translate-y-1/2 text-[#c9922a]" />
+        <Search size={18} className="absolute left-4 top-1/2 -translate-y-1/2 text-[#8a5f00]" />
         <input
           type="search"
           value={q}
@@ -52,12 +52,12 @@ function Content() {
             hidden={!matches(s, q)}
             className="group flex flex-col rounded-2xl border border-[#c9922a]/25 bg-white p-5 shadow-sm transition-all hover:-translate-y-1 hover:border-[#c9922a] hover:shadow-lg"
           >
-            <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#e8760a]">{s.deity}</p>
+            <p className="font-cinzel-reg text-[10px] uppercase tracking-[3px] text-[#a85200]">{s.deity}</p>
             <h2 className="mt-2 font-cinzel text-lg font-bold leading-snug text-[#8b1a00]">{s.title?.[lang] || s.title.en}</h2>
             <p className="mt-2 line-clamp-4 flex-1 font-garamond text-base leading-snug text-[#3d1a00]/70">
               {s.description?.[lang] || s.description.en}
             </p>
-            <div className="mt-4 flex items-center justify-between font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#c9922a]">
+            <div className="mt-4 flex items-center justify-between font-cinzel-reg text-[10px] uppercase tracking-[2px] text-[#8a5f00]">
               <span>{s.verseCount} verses</span>
               <span className="transition-transform group-hover:translate-x-1">Read →</span>
             </div>

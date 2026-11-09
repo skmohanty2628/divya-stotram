@@ -355,7 +355,7 @@ export const STOTRAM_ARTICLES = {
   'ram-raksha-stotram': {
     quick: [
       ['Composer', 'Budha Kaushika (Bhudha Kaushika), a sage'],
-      ['Verses', 'About 38 verses in the anushtup metre'],
+      ['Verses', '38 shlokas, mostly in the anushtup metre, plus an opening sankalpa and a dhyana verse'],
       ['Language', 'Sanskrit'],
       ['Deity', 'Lord Rama'],
       ['Special days', 'Ram Navami, Thursdays, daily protection prayer'],

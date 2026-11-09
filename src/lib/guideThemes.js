@@ -4,6 +4,8 @@ const BY_SLUG = {
   'diwali-lakshmi-puja-guide': 'diwali',
   'chhath-puja-surya-shashthi-guide': 'sun',
   'gopashtami-gopastami-cow-worship-guide': 'feathers',
+  'panchuka-odisha-last-five-days-kartika-guide': 'lamps',
+  'guru-brahma-guru-vishnu-meaning-and-guru-purnima': 'sun',
   'ekadashi-vrat-guide': 'leaves',
   'how-to-use-japa-mala': 'mala',
   'morning-prayer-routine': 'sun',

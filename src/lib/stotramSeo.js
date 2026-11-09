@@ -157,6 +157,11 @@ const SEO_COPY = {
     description:
       'Read Shantakaram Bhujagashayanam (शान्ताकारं भुजगशयनं), the four-line Vishnu dhyana shloka, in English, Hindi, Odia and Telugu with meaning, when it is recited, and a video to follow along.',
   },
+  'guru-brahma-guru-vishnu': {
+    title: 'Guru Brahma Guru Vishnu Lyrics in English, Hindi, Odia & Telugu with Meaning (Guru Shloka)',
+    description:
+      'Read Guru Brahma Guru Vishnu (गुरुर्ब्रह्मा गुरुर्विष्णुः), the Sanskrit guru shloka, in English, Hindi, Odia and Telugu with meaning, when it is recited, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

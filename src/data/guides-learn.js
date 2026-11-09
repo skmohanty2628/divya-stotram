@@ -149,34 +149,44 @@ export const GUIDES_LEARN = [
     category: 'Festivals',
     title: 'Navaratri: The Nine Forms of Goddess Durga and What Each Day Means',
     description:
-      'A day-by-day guide to Navaratri and the nine forms of Durga (Navadurga): Shailaputri, Brahmacharini, Chandraghanta, Kushmanda, Skandamata, Katyayani, Kalaratri, Mahagauri and Siddhidatri.',
+      'A day-by-day guide to Navaratri and the nine forms of Durga (Navadurga): Shailaputri, Brahmacharini, Chandraghanta, Kushmanda, Skandamata, Katyayani, Kalaratri, Mahagauri and Siddhidatri, with the Devi Mahatmya background, ways to observe the nine nights and a chanting plan.',
     h1: 'Navaratri: The Nine Forms of Goddess Durga',
     intro:
-      'Navaratri means nine nights. During this festival devotees worship the Goddess in nine forms, one for each night. This guide lists the nine forms of Navadurga in their traditional order and explains how people observe the festival.',
+      'Navaratri means nine nights. During this festival devotees worship the Goddess in nine forms, one for each night. This guide lists the nine forms of Navadurga in their traditional order, explains where that list comes from, describes how each form is usually pictured and shows how people observe the festival at home.',
     sections: [
       {
         h: 'About the festival',
         p: [
-          `Shardiya Navaratri, in the month of Ashvin, is the best known and is followed by Vijayadashami (Dussehra). There is also Chaitra Navaratri in spring. The dates follow the lunar calendar and change each year. In different regions the festival is marked with fasting, garba dance, Durga Puja pandals, golu displays or the worship of books and tools.`,
+          `Shardiya Navaratri, in the month of Ashvin, is the best known and is followed by Vijayadashami (Dussehra). There is also Chaitra Navaratri in spring, and two further Navaratris, in Ashadha and Magha, that are kept mainly by Shakta practitioners and are often called the Gupta Navaratris. The dates follow the lunar calendar and change each year. In different regions the festival is marked with fasting, garba dance, Durga Puja pandals, golu displays or the worship of books and tools.`,
+          `In Odisha, Bengal and Assam the same days are Durga Puja, with the image installed and worshipped from the sixth or seventh day. Our guides on Durga Puja in Odisha and on Prathamastami cover the Odia observance.`,
+        ],
+      },
+      {
+        h: 'Where the list of nine comes from',
+        p: [
+          `The names of the nine forms are given in the Devi Kavacham, a protective hymn that belongs to the Chandi tradition of the Markandeya Purana and is recited together with the Durga Saptashati. In a few verses it lists the nine in a fixed order: Shailaputri, Brahmacharini, Chandraghanta, Kushmanda, Skandamata, Katyayani, Kalaratri, Mahagauri and Siddhidatri. That order is what most Navaratri calendars follow, and it is why the forms are assigned to the nine nights one after the other.`,
+          `The Durga Saptashati itself, also called the Devi Mahatmya, is a text of about 700 verses in 13 chapters. It tells three episodes: the slaying of Madhu and Kaitabha, the long battle with the buffalo demon Mahishasura, and the defeat of Shumbha and Nishumbha. The Navadurga names are a devotional layer drawn from the Kavacham and later practice, which is why the pictures below vary a little by region.`,
         ],
       },
       {
         h: 'The nine forms in order',
         p: [
-          `Day 1, Shailaputri, daughter of the mountain (Himalaya). Day 2, Brahmacharini, the Goddess in her form of austerity and learning. Day 3, Chandraghanta, with a crescent moon on her forehead like a bell. Day 4, Kushmanda, associated with the creation of the universe with her smile. Day 5, Skandamata, mother of Skanda (Kartikeya). Day 6, Katyayani, the warrior form who slays Mahishasura. Day 7, Kalaratri, the dark form who destroys fear and ignorance. Day 8, Mahagauri, radiant and serene. Day 9, Siddhidatri, giver of spiritual accomplishments.`,
-          `This sequence follows the verse known as the Devi Kavacham in the Markandeya Purana tradition; local customs and the colours assigned to each day vary.`,
+          `Day 1, Shailaputri, daughter of the mountain (Himalaya), usually shown on a bull with a trident and a lotus. Day 2, Brahmacharini, the Goddess in her form of austerity and learning, shown with a rosary and a water pot. Day 3, Chandraghanta, with a crescent moon on her forehead like a bell. Day 4, Kushmanda, associated with the creation of the universe with her smile.`,
+          `Day 5, Skandamata, mother of Skanda (Kartikeya), shown with the child on her lap. Day 6, Katyayani, the warrior form who slays Mahishasura and is named for the sage Katyayana. Day 7, Kalaratri, the dark form who destroys fear and ignorance. Day 8, Mahagauri, radiant, fair and serene. Day 9, Siddhidatri, giver of spiritual accomplishments, usually seated on a lotus.`,
+          `These descriptions follow common printed iconography. Details such as the vehicle, the number of arms and the objects held differ between temples and calendars, so treat them as a guide to the tradition and not as a fixed rule.`,
         ],
       },
       {
         h: 'How people observe it',
         p: [
-          `Many people fast fully or partially, eat a simple vegetarian diet without onion and garlic, and set up a small altar with a kalash. Others read the Durga Saptashati (Devi Mahatmya), a text of 700 verses. Fasting is optional, and anyone who is unwell should eat suitably.`,
+          `Many people fast fully or partially, eat a simple vegetarian diet without onion and garlic, and set up a small altar with a kalash. Others read the Durga Saptashati (Devi Mahatmya), a text of 700 verses, often over the nine days, or recite the Devi Kavacham. Fasting is optional, and anyone who is unwell, pregnant or elderly should eat suitably.`,
+          `On the eighth or ninth day many families worship young girls as the Goddess in a rite called Kanya Puja, offering them food and small gifts. Customs differ, and some families do not keep it at all.`,
         ],
       },
       {
         h: 'What to chant',
         p: [
-          `Popular choices are the Durga mantra Om Dum Durgayai Namah, the Aigiri Nandini Stotram, and the Durga Stotram. Our guide to Durga mantras during Navratri gives a simple nine-day plan.`,
+          `Popular choices are the Durga mantra Om Dum Durgayai Namah, the Aigiri Nandini Stotram, and the Durga Stotram. Our guide to Durga mantras during Navratri gives a simple nine-day plan. If you are short of time, one stotram a day, read slowly with the meaning in mind, is better than a long recitation done in a hurry.`,
         ],
       },
       {
@@ -192,6 +202,10 @@ export const GUIDES_LEARN = [
         a: 'Nine forms, called Navadurga, one for each night.',
       },
       {
+        q: 'Where is the list of the nine forms found?',
+        a: 'In the Devi Kavacham, a hymn of the Chandi tradition in the Markandeya Purana, which names the nine in a fixed order. The Durga Saptashati itself tells the stories of the Goddess without using the Navadurga names as day labels.',
+      },
+      {
         q: 'Do the colours of each day matter?',
         a: 'Colour schemes for each day are a modern, regional custom and differ from place to place; they are not scriptural requirements.',
       },
@@ -199,13 +213,22 @@ export const GUIDES_LEARN = [
         q: 'Is it necessary to fast for all nine days?',
         a: 'No. Many people fast on selected days or simply eat lightly. Worship with devotion matters more than the strictness of the fast.',
       },
+      {
+        q: 'What is the difference between Chaitra and Shardiya Navaratri?',
+        a: 'Chaitra Navaratri falls in spring and Shardiya Navaratri in autumn, in Ashvin. Both honour the Goddess in the same nine forms, and Shardiya is followed by Vijayadashami.',
+      },
+      {
+        q: 'Can I read the Devi Mahatmya without a teacher?',
+        a: 'Many families read it at home. Some traditions prefer to learn the recitation from an elder, but there is no barrier to reading it with respect.',
+      },
     ],
     related: {
       stotrams: ['aigiri-nandini', 'durga-stotram'],
-      guides: ['durga-mantra-during-navratri', 'how-to-chant-durga-mantra'],
+      guides: ['durga-mantra-during-navratri', 'how-to-chant-durga-mantra', 'durga-puja-odisha-guide', 'prathamastami-odisha-guide'],
     },
     sources: [
       'Devi Mahatmya (Durga Saptashati), Markandeya Purana, with the Devi Kavacham listing the Navadurga',
+      'Devi Kavacham text and verse summary on Vedadhara (vedadhara.com), which lists the nine names under verses 3 to 5',
       'Standard references on Hindu festivals, e.g. Kane, History of Dharmasastra, Vol. V',
     ],
   },
@@ -4678,6 +4701,193 @@ export const GUIDES_LEARN = [
       'BhaktiBharat, Gopashtami story and puja steps',
       'Wikipedia, Gopashtami',
       'OdishaBytes, Gopashtami celebrated in Puri (1 November 2022)',
+    ],
+  },
+  {
+    slug: 'panchuka-odisha-last-five-days-kartika-guide',
+    category: 'Festivals',
+    title: 'Panchuka in Odisha: The Last Five Days of Kartika, Puri Beshas and How to Observe Them',
+    description:
+      'A guide to Panchuka, the five days from Kartika Shukla Ekadashi to Kartika Purnima: the Puri beshas of Lord Jagannath, habisha, tulsi lamps, the 2026 dates, and how families who cannot keep the whole month observe it.',
+    h1: 'Panchuka in Odisha: The Last Five Days of Kartika',
+    intro:
+      'Panchuka is the closing stretch of the Odia month of Kartika. It starts on the Ekadashi of the bright fortnight and ends on Kartika Purnima, the full moon. Many families who could not keep the Kartika vow for the whole month keep these five days instead, and at Puri the deities appear in a different besha, or attire, on each day. This guide explains the dates, the daily beshas, the customs at home and the questions people ask most.',
+    sections: [
+      {
+        h: 'What Panchuka means and when it falls',
+        p: [
+          `The word comes from the idea of five days, the same sense as panch in Sanskrit. Panchuka is counted from Kartika Shukla Ekadashi to Kartika Purnima, so the five days are Ekadashi, Dwadashi, Trayodashi, Chaturdashi and Purnima. Because these are lunar days, the calendar date changes every year.`,
+          `In 2026 the dates fall from Friday 20 November to Tuesday 24 November. Ekadashi, often called Bada Ekadashi in Odisha and Prabodhini or Devutthana Ekadashi elsewhere, is on 20 November, and the Purnima tithi runs from the late evening of 23 November to the evening of 24 November, as listed by published panchang sources. Local panchangs and the Srimandir administration announce the final days, and the count can differ by a day in some years. A news report on the 2024 Panchuka at Puri, for example, said it would be observed for four days and did not give a reason, so it is wise to check the temple notice for the year you are planning.`,
+        ],
+      },
+      {
+        h: 'The five beshas of Lord Jagannath at Puri',
+        p: [
+          `At the Srimandir in Puri the deities are dressed in a special besha on each day of Panchuka, shown after the morning Abakasha ritual. Reports from the temple and the list of Kartika beshas give the same order. On Ekadashi the besha is Laxmi Narayan, also called Thiakia. On Dwadashi it is Bankachuda. On Trayodashi it is Tribikrama, also called Dalikia. On Chaturdashi it is Laxmi Narasimha, also called Adakia. On Purnima it is the golden Raja Rajeswar besha, which belongs to the family of Suna Besha.`,
+          `Each name points to a form of Vishnu or a royal attire. Laxmi Narayan shows Vishnu with Lakshmi, Tribikrama recalls the Vamana story in which Vishnu takes three steps, and Laxmi Narasimha shows the man-lion form with Lakshmi. We do not describe the ornaments of each besha here, because the sources we checked list the names and days but not the dress in detail, and the servitors who prepare them are the proper authority. Devotees who stay in Puri during these days often plan their darshan around the besha of the day.`,
+        ],
+      },
+      {
+        h: 'Why people keep Panchuka',
+        p: [
+          `The whole month of Kartika is a time of vegetarian food and daily worship in Odisha, with the Habisha diet and evening lamps at the tulsi plant. Not everyone can keep a month of discipline. Panchuka is the shorter route: people who could not observe Kartika for the month take up the vow for the last five days, and tradition says it brings a similar merit. We cannot verify that claim, and it is best read as the belief of those who keep the vow rather than as a promise of any result.`,
+          `A story told in connection with Panchuka is about a hunter who killed animals through the whole month but held back during these five days and was said to have gained liberation. Stories of this kind appear in popular retellings and the Kartika Purana tradition. They are meant to show that a short period of real restraint is valued, and they vary from teller to teller.`,
+        ],
+      },
+      {
+        h: 'Customs at home',
+        p: [
+          `Most families who keep Panchuka eat only vegetarian food and avoid fish, meat and eggs for the five days. Many follow Habisha, the simple boiled meal eaten without certain vegetables. Some people avoid plucking leaves and flowers, including tulsi leaves, as an act of non-harm, and in villages people put out food for birds and animals.`,
+          `Elderly people, and especially women known as Habishyalis, often eat a single plain meal a day without salt or spices, and many stay in Puri for the five days to visit the Jagannath temple. This is a personal vow, and anyone who is unwell, pregnant or elderly should eat as their doctor advises. The prayer and the lamp are still complete without a strict fast.`,
+        ],
+      },
+      {
+        h: 'Tulsi, lamps and evening worship',
+        p: [
+          `The tulsi chaura, the raised altar of the basil plant, is the centre of the home observance. People wake before sunrise, finish their morning tasks and worship Lakshmi and Narayana. In the evening an earthen lamp is lit at the tulsi plant, a rangoli is drawn in front of it, and conch shells and the ululation called hulahuli are sounded. Married women worship tulsi as Vrindavati, praying for the wellbeing of their family.`,
+          `Garuda Dwadashi falls within Panchuka and is marked with tulsi puja. Many households also read from the Kartika Purana, or recite short Vishnu prayers such as the Shantakaram Bhujagashayanam verse and the Krishna Vasudevaya mantra. A few minutes with a lamp and a verse is a perfectly valid way to keep the days.`,
+        ],
+      },
+      {
+        h: 'Kartika Purnima and Boita Bandana',
+        p: [
+          `The fifth day is Kartika Purnima, which closes both Panchuka and the month. Before dawn, families in Odisha go to a river, pond or sea and float small boats, called boita, made of banana stem, paper or thermocol, with a lamp and betel inside. The custom, Boita Bandana, remembers the old sea trade between Odisha and distant lands, and the traders called Sadhabas who sailed from the coast. Our guide to Boita Bandana and Bali Yatra covers it in full.`,
+          `At the Srimandir the day has the golden Raja Rajeswar besha. Different traditions place the awakening of Vishnu from his yogic sleep on Prabodhini Ekadashi or around Kartika Purnima, so you will hear both in Odisha. This is one reason the same days are holy in several ways.`,
+        ],
+      },
+      {
+        h: 'A simple plan for the five days',
+        p: [
+          `If you want to keep Panchuka at home without strict rules, a plan could be this. Keep to vegetarian food for the five days. Light a lamp at the tulsi plant each evening and stand there for a minute or two. Read a short Vishnu prayer on Ekadashi and Dwadashi, and on Purnima float a boita or light a lamp by the water. If you are away from home, a lamp in a window and a quiet prayer are enough.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'When is Panchuka in 2026?',
+        a: 'It runs from Kartika Shukla Ekadashi on Friday 20 November to Kartika Purnima on Tuesday 24 November 2026. Check the Srimandir notice or a local panchang, since the temple count can differ by a day in some years.',
+      },
+      {
+        q: 'What are the five beshas at Puri during Panchuka?',
+        a: 'Laxmi Narayan on Ekadashi, Bankachuda on Dwadashi, Tribikrama on Trayodashi, Laxmi Narasimha on Chaturdashi, and the golden Raja Rajeswar besha on Kartika Purnima.',
+      },
+      {
+        q: 'Who keeps Panchuka?',
+        a: 'Mostly people who could not observe the vow for the whole month of Kartika, and elderly devotees who stay in Puri. Anyone may keep it in the way that suits their health.',
+      },
+      {
+        q: 'Do I have to fast for Panchuka?',
+        a: 'No. The usual practice is a vegetarian diet and evening lamps. A single plain meal a day is a stricter personal choice, and it should not be taken up by anyone who is unwell.',
+      },
+      {
+        q: 'Is Panchuka the same as Panchak in the north Indian calendar?',
+        a: 'No. Panchak in the north Indian almanac refers to a period of inauspicious nakshatras and is a different idea. The Odia Panchuka is a five-day devotional observance in Kartika.',
+      },
+      {
+        q: 'What is Boita Bandana?',
+        a: 'It is the custom of floating small boats with lamps on Kartika Purnima morning, remembering the sea trade of ancient Odisha. It closes Panchuka.',
+      },
+    ],
+    related: {
+      stotrams: ['shantakaram-bhujagashayanam', 'krishna-vasudevaya-mantra', 'vishnu-sahasranamam', 'jagannath-ashtakam'],
+      guides: ['kartika-month-odisha-guide', 'boita-bandana-bali-jatra-kartika-purnima-guide', 'ekadashi-vrat-guide', 'kali-puja-odisha-dipabali-amavasya-puri-guide'],
+    },
+    sources: [
+      'Hindu Blog, Panchuka in Kartik month in Orissa (hindu-blog.com)',
+      'OMMCOM News, Four-day Panchuka commences, report on the Puri Srimandir beshas',
+      'OdishaTV, report on Bankachuda Besha on the second day of Panchuka at Puri Srimandir',
+      'Wikipedia, Beshas of Jagannath (table of Kartika beshas and tithis)',
+      'Hindutone, Karthika Pournami 2026 purnima time (tithi times and the date of Devutthana Ekadashi)',
+      'Odia calendar listing for 2026 (Kartika Purnima on 24 November)',
+    ],
+  },
+  {
+    slug: 'guru-brahma-guru-vishnu-meaning-and-guru-purnima',
+    category: 'Understanding practice',
+    title: 'Guru Brahma Guru Vishnu: Word-by-Word Meaning and Guru Purnima',
+    description:
+      'The Sanskrit guru shloka Guru Brahma Guru Vishnu explained word by word, with the meaning of the word guru, where the verse is attributed, how it is used on Guru Purnima, and how to say it at home.',
+    h1: 'Guru Brahma Guru Vishnu: Meaning, Words and Use',
+    intro:
+      'Guru Brahma Guru Vishnu is a two-line Sanskrit verse said before lessons, in music and dance classes, and on Guru Purnima. Most people learn the sound long before they learn the meaning. This guide goes through the verse a word at a time, explains what the word guru is taken to mean, says where the verse is attributed and notes how the words vary between printings.',
+    sections: [
+      {
+        h: 'The verse in words',
+        p: [
+          `The verse reads: Gurur brahma gurur vishnuh gurur devo maheshvarah. Guruh sakshat parabrahma tasmai shri gurave namah. Printed editions differ slightly in how they join the words, and some read param brahma instead of parabrahma, but this is the same verse.`,
+          `Read in order, it says: the guru is Brahma, the guru is Vishnu, the guru is the divine Maheshvara. The guru is directly the Supreme Brahman. To that revered guru, salutations. You can hear it in many recitations, and our page for the verse has the text in Devanagari, Odia, Telugu and English with a video.`,
+        ],
+      },
+      {
+        h: 'Word by word',
+        p: [
+          `Guruh means the teacher. Brahma, Vishnu and Maheshvara are the three divine functions the tradition names: creation, preservation and dissolution. Devah means god or divine being. Sakshat means directly, in front of the eyes. Parabrahma is the highest Brahman, the ultimate reality of the Upanishads. Tasmai means to that one, shri is a mark of respect, gurave is the form of guru for the one who is addressed, and namah is a bow, a salutation.`,
+          `So the first line gives the guru the three roles by which the divine is described: one who brings into being the student's understanding, one who keeps it safe and one who removes what is false. That reading is a common way to explain the line, and it is an interpretation rather than a rule in the text. The second line goes one step further and says the guru is the highest reality made visible. It does not say a teacher is a god in a literal sense. It says the student should treat the person who gives knowledge with the greatest respect.`,
+        ],
+      },
+      {
+        h: 'What the word guru means',
+        p: [
+          `A popular explanation splits the word into gu, darkness, and ru, the one who removes it, so a guru is one who dispels ignorance. The explanation is given in the Advayataraka Upanishad, where the verse numbering depends on the edition. Most modern sources repeat it, and it is useful for remembering why the guru is honoured. Linguists would call this a traditional etymology, a way of reading the word rather than a historical derivation.`,
+          `In ordinary Indian use the word guru covers a school teacher, a music or dance master, a family priest and a spiritual teacher. The verse does not require that you have a spiritual guru. Many people say it for the teachers who taught them to read, sing or cook.`,
+        ],
+      },
+      {
+        h: 'Where the verse comes from',
+        p: [
+          `The verse is commonly attributed to the Guru Gita, a long poem of praise to the guru in the form of a conversation between Shiva and Parvati, which tradition places in the Skanda Purana. The editions we checked do not give a verse number, and the verse is also sung on its own as a free-standing prayer, so we name no chapter or number. If you need a precise citation, look it up in the printed edition you use.`,
+        ],
+      },
+      {
+        h: 'Guru Purnima',
+        p: [
+          `The verse is most often heard on Guru Purnima, the full moon of the month of Ashadha, which falls around June or July. The day is also called Vyasa Purnima because it is taken as the birthday of Veda Vyasa, the sage credited with dividing the Vedas and composing the Mahabharata. Students offer flowers, fruit or a bow to their teachers and many people read the Guru Gita.`,
+          `The same full moon is honoured in other traditions. Buddhists remember the first sermon at Sarnath and begin the rainy-season retreat, and Jains honour their teachers at the start of Chaturmasya. The date changes every year, so check a panchang for the current one.`,
+        ],
+      },
+      {
+        h: 'How to say it at home',
+        p: [
+          `There is no fixed number of repetitions. Many families say the verse once, standing or sitting quietly, before study or practice, and again at morning prayer. Pronounce guruh with a soft final h, and say gurave with three clear syllables. Children learn it quickly if the two lines are split into four short halves.`,
+          `A sensible way to keep the spirit of the verse is to name a teacher you are thankful for before you say it. That keeps the words from becoming a rote sound. Nothing in the verse asks a student to stop thinking, and it promises no result in exams or in life.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is the meaning of Guru Brahma Guru Vishnu?',
+        a: 'It says the guru is Brahma, Vishnu and Maheshvara, and the guru is directly the Supreme Brahman. It ends with a bow to the revered guru.',
+      },
+      {
+        q: 'Which text is the verse from?',
+        a: 'It is commonly attributed to the Guru Gita, placed by tradition in the Skanda Purana. It is also sung as a separate prayer, and the editions we checked give no verse number.',
+      },
+      {
+        q: 'What does the word guru mean?',
+        a: 'By a traditional explanation, gu stands for darkness and ru for the one who removes it, so the guru removes ignorance. It is a traditional reading of the word, not a historical derivation.',
+      },
+      {
+        q: 'When should I say it?',
+        a: 'At the start of lessons and practice, in morning prayer and on Guru Purnima. Any time of day is fine.',
+      },
+      {
+        q: 'Do I need a spiritual guru to say it?',
+        a: 'No. You can say it in thanks to any teacher in your life.',
+      },
+      {
+        q: 'Why do some printings write param brahma?',
+        a: 'Some editions separate the words param and brahma and others join them as parabrahma. The meaning is the same.',
+      },
+    ],
+    related: {
+      stotrams: ['guru-brahma-guru-vishnu', 'saraswati-vandana', 'gayatri-mantra'],
+      guides: ['om-meaning-and-how-to-chant', 'gayatri-mantra-word-by-word-meaning', 'how-to-read-sanskrit-transliteration'],
+    },
+    sources: [
+      'Shlokam.org, Guru Brahma Guru Vishnu (Sanskrit text and transliteration)',
+      'Sanskrit.Today, Shloka - Guru (Sanskrit text and meaning)',
+      'Advayataraka Upanishad on the syllables gu and ru (verse number varies by edition)',
+      'Wikipedia, Guru Purnima (month, Vyasa Purnima and Buddhist and Jain observances)',
     ],
   },
 ];

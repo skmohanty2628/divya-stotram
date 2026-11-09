@@ -366,4 +366,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does saying it guarantee a result?', a: 'No. It expresses devotion and a wish for calm. It makes no promise of any worldly outcome and does not replace medical, legal or financial help.' },
     ],
   },
+  'guru-brahma-guru-vishnu': {
+    what: `Guru Brahma Guru Vishnu is a two-line Sanskrit verse that honours the teacher. It is one of the most familiar shlokas in India and is said at the start of lessons, in music and dance classes, in ashrams and on Guru Purnima. It is commonly attributed to the Guru Gita, a text that tradition places in the Skanda Purana, but the editions checked give no verse number, so this site does not state one. Many people simply learn it as a free-standing guru prayer.`,
+    meaning: `The first line names the guru with the three functions the tradition gives to the divine: Brahma who creates, Vishnu who sustains and Maheshvara, that is Shiva, who dissolves. The second line goes further and calls the guru the Supreme Brahman made present before one's eyes. The last words are the offering: salutations to that revered guru. It does not claim that every teacher is a god. It states how a student is meant to regard the one who gives knowledge, with gratitude and respect.`,
+    benefits: [
+      'Short enough to learn in a few minutes and say before study, practice or class',
+      'Reminds the student to approach learning with respect and gratitude',
+      'Widely used on Guru Purnima, the day set aside to honour teachers',
+      'Easy to teach to children, since it has only two even lines',
+      'Open to everyone, with no initiation needed',
+    ],
+    bestTime: `It is usually said at the start of a lesson, a music or dance practice, or morning prayer. On Guru Purnima, the full moon of Ashadha, families and students often recite it while offering flowers or thanks to a teacher. The text fixes no hour and no count, so one slow recitation, or three, is enough.`,
+    faqs: [
+      { q: 'What does Guru Brahma Guru Vishnu mean?', a: 'It says that the guru is Brahma, Vishnu and Maheshvara, and that the guru is the Supreme Brahman made visible. It ends with a bow to that guru.' },
+      { q: 'Which text is it from?', a: 'It is commonly attributed to the Guru Gita, which tradition places in the Skanda Purana. The editions checked do not give a verse number, and the verse is also sung on its own, so this site names no chapter or number.' },
+      { q: 'Is the wording always the same?', a: 'Nearly. Some printings write the first line joined as gururvishnurgururdevo, and some read "param brahma" for "parabrahma". These are the same verse.' },
+      { q: 'When is it recited?', a: 'At the start of classes and practice, at morning prayer, and on Guru Purnima. Any time of day is fine.' },
+      { q: 'Do I need a guru to say it?', a: 'No. It can be said in gratitude to any teacher, whether a school teacher, a music teacher or a spiritual guide.' },
+      { q: 'Does reciting it guarantee success in studies?', a: 'No. It expresses respect and a wish for guidance. It makes no promise of any result and does not replace effort or good teaching.' },
+    ],
+  },
 };

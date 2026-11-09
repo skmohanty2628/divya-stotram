@@ -188,7 +188,7 @@ export const STOTRAM_INFO = {
     faqs: [
       { q: 'What is Ram Raksha Stotram?', a: 'It is a Sanskrit protective hymn composed by sage Budha Kaushika, revealed by Lord Shiva in a dream, that invokes Ram\'s divine protection on every part of the devotee\'s body.' },
       { q: 'Who composed Ram Raksha Stotram?', a: 'Sage Budha Kaushika composed it after Lord Shiva revealed the stotram to him in a dream, instructing him to share it for the welfare of devotees.' },
-      { q: 'How many verses does Ram Raksha Stotram have?', a: 'The complete Ram Raksha Stotram has 38 verses covering the full body-protection kavach (armor) along with phala-shruti (result of recitation).' },
+      { q: 'How many verses does Ram Raksha Stotram have?', a: 'The Ram Raksha Stotram has 38 shlokas, usually preceded by a short opening sankalpa and a dhyana verse. Together they cover the body-protection kavach, prayers to Ram and Lakshmana, and the phala-shruti (the stated result of recitation). This page shows all 40 parts in order.' },
       { q: 'What are the benefits of Ram Raksha Stotram?', a: 'It grants protection from diseases, enemies, evil forces, and bad dreams. Daily chanting is said to be equivalent to reciting the entire Ramayana.' },
       { q: 'Can Ram Raksha Stotram be chanted at night?', a: 'Yes. Reciting Ram Raksha Stotram before sleeping is especially recommended as it destroys bad dreams and provides divine protection during sleep.' },
     ],

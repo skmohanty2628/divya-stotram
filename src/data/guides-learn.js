@@ -326,33 +326,49 @@ export const GUIDES_LEARN = [
     category: 'Understanding practice',
     title: 'How to Read Sanskrit Transliteration: A Beginner Guide to IAST and Pronunciation',
     description:
-      'Learn to read the Roman-script transliteration of Sanskrit prayers: long and short vowels, retroflex consonants, aspirates, visarga and anusvara, with simple practice tips.',
+      'Learn to read the Roman-script transliteration of Sanskrit prayers: IAST and its history, long and short vowels, retroflex and aspirated consonants, ṛ, ñ, ṅ, visarga and anusvara, how this site spells words, and simple practice tips.',
     h1: 'How to Read Sanskrit Transliteration',
     intro:
-      'Most stotram pages show the original verse, a transliteration in Roman letters, and a meaning. Transliteration is the bridge for readers who cannot yet read Devanagari, Odia or Telugu script. A few simple rules make it much easier to read aloud accurately.',
+      'Most stotram pages show the original verse, a transliteration in Roman letters, and a meaning. Transliteration is the bridge for readers who cannot yet read Devanagari, Odia or Telugu script. A few simple rules make it much easier to read aloud accurately, and knowing how the spelling system works also explains why the same prayer is spelled differently on different websites.',
     sections: [
       {
         h: 'Why transliteration exists',
         p: [
-          `Sanskrit has more distinct sounds than English has letters. Scholars therefore use diacritical marks in a system called IAST (International Alphabet of Sanskrit Transliteration), so that each Sanskrit sound maps to one written symbol. Many devotional sites use a simplified version without the marks, which is easier to type but less exact.`,
+          `Sanskrit has more distinct sounds than English has letters. Scholars therefore use diacritical marks in a system called IAST (International Alphabet of Sanskrit Transliteration), so that each Sanskrit sound maps to one written symbol. The system was formalised by the Transliteration Committee of the Geneva Oriental Congress in September 1894 and builds on earlier schemes suggested by scholars such as William Jones and Monier Monier-Williams.`,
+          `IAST is lossless: a reader who knows the system can rebuild the original Devanagari spelling from the Roman text without guessing. Many devotional sites use a simplified version without the marks, which is easier to type and read on a phone but less exact.`,
         ],
       },
       {
         h: 'Long and short vowels',
         p: [
           `A line over a vowel (ā, ī, ū) makes it long, held about twice as long as the short vowel. Short a sounds like the u in cut; long ā like the a in father. Short i is as in bit; long ī as in machine. Short u is as in put; long ū as in rule. Vowel length matters in Sanskrit metre, so do not skip it.`,
+          `The vowel ṛ is a syllabic r, a vowel sound made with the tongue in the r position. It is heard in words such as Kṛṣṇa, which many English spellings write as Krishna, and amṛta, written amrita. It is not the same as ri followed by a vowel, though the simplified spelling often writes it as ri.`,
         ],
       },
       {
         h: 'Special consonants',
         p: [
-          `Letters with a dot beneath (ṭ, ḍ, ṇ) are retroflex: the tongue curls back to touch the roof of the mouth. Consonants followed by h (kh, gh, th, dh, bh) are aspirated, with a puff of breath, and are single sounds, not two. The letter ś is like sh in shine, and ṣ is a deeper sh with the tongue curled. The letter c is pronounced ch as in chair.`,
+          `Letters with a dot beneath (ṭ, ḍ, ṇ, ṣ) are retroflex: the tongue curls back to touch the roof of the mouth. Consonants followed by h (kh, gh, th, dh, bh) are aspirated, with a puff of breath, and are single sounds, not two. The letter ś is like sh in shine, and ṣ is a deeper sh with the tongue curled. In plain spelling both are written sh, which is why Shiva can be spelled with either in IAST.`,
+          `The letter c is pronounced ch as in chair, and ch is the aspirated version with a stronger breath. That is why scholarly text writes candra where a simple spelling writes chandra. Two nasals trip many readers. The letter ñ is the palatal nasal, as in the ny of canyon, and ṅ is the velar nasal, as in the ng of sing.`,
         ],
       },
       {
         h: 'Anusvara and visarga',
         p: [
-          `The mark ṃ or ṁ (anusvara) is a nasal sound, close to the ng in song or an m depending on the next letter. The mark ḥ (visarga) is a soft breath after the vowel, as if echoing it: namaḥ is pronounced roughly nama-ha.`,
+          `The mark ṃ or ṁ (anusvara) is a nasal sound, close to the ng in song or an m depending on the next letter. The mark ḥ (visarga) is a soft breath after the vowel, as if echoing it: namaḥ is pronounced roughly nama-ha. In plain spelling it is often written as a final h.`,
+        ],
+      },
+      {
+        h: 'Other systems you may meet',
+        p: [
+          `Some sites use ISO 15919, a standard adopted in 2001 that mostly follows IAST and extends it to cover other Indian scripts. Others use ASCII-only schemes such as Harvard-Kyoto or ITRANS, which write long vowels as capital letters or doubled letters so that they can be typed on any keyboard. These ASCII schemes are handy for typing but have a drawback: they cannot capitalise proper names, since capitals already carry meaning.`,
+          `The plain spelling used on this site is a simplified style. Pages written at different times may differ slightly, for example in whether a long vowel is doubled, so treat the Devanagari, Odia or Telugu line as the exact text and the transliteration as a reading aid.`,
+        ],
+      },
+      {
+        h: 'Reading compound words',
+        p: [
+          `Sanskrit joins words, so a single printed word can contain several names. Look for the capital letters or hyphens that an editor has added to break a long word, and read the parts one at a time. Joined sounds also change at the boundary, a process called sandhi, so the ending of one word may not match its dictionary form. Reading slowly, one line and one half-line at a time, is the best way to learn the rhythm.`,
         ],
       },
       {
@@ -365,7 +381,7 @@ export const GUIDES_LEARN = [
     faqs: [
       {
         q: 'What is IAST?',
-        a: 'IAST is the standard scholarly system for writing Sanskrit in the Roman alphabet using diacritical marks.',
+        a: 'IAST is the standard scholarly system for writing Sanskrit in the Roman alphabet using diacritical marks. It was formalised at the Geneva Oriental Congress in 1894.',
       },
       {
         q: 'Does it matter if I mispronounce a mantra?',
@@ -375,12 +391,25 @@ export const GUIDES_LEARN = [
         q: 'Why is the same prayer spelled differently on different sites?',
         a: 'There is no single simplified spelling, so sites choose different conventions. IAST is the exact one.',
       },
+      {
+        q: 'Is sh in Shiva the same as ś or ṣ?',
+        a: 'Both ś and ṣ are written sh in plain spelling, so Shiva stands for the sound written śiva in IAST.',
+      },
+      {
+        q: 'What is the difference between IAST and ISO 15919?',
+        a: 'ISO 15919, adopted in 2001, mostly follows IAST and is largely a superset that also covers other Indian scripts. A few letters, such as the vocalic r and l, are written differently.',
+      },
+      {
+        q: 'Which should I trust, the transliteration or the original script?',
+        a: 'Trust the original script line first. The transliteration is a reading aid and may differ in small spelling choices.',
+      },
     ],
     related: {
-      stotrams: ['gayatri-mantra', 'ram-raksha-stotram'],
-      guides: ['mantra-chanting-rules-faq', 'spiritual-routine-for-beginners'],
+      stotrams: ['gayatri-mantra', 'ram-raksha-stotram', 'guru-brahma-guru-vishnu'],
+      guides: ['mantra-chanting-rules-faq', 'spiritual-routine-for-beginners', 'om-meaning-and-how-to-chant'],
     },
     sources: [
+      'Wikipedia, International Alphabet of Sanskrit Transliteration (Geneva Oriental Congress 1894, ISO 15919, Harvard-Kyoto and ITRANS)',
       'Monier-Williams, A Sanskrit-English Dictionary (IAST convention)',
       'Whitney, W.D., Sanskrit Grammar, on the sounds of the alphabet',
     ],
@@ -4888,6 +4917,189 @@ export const GUIDES_LEARN = [
       'Sanskrit.Today, Shloka - Guru (Sanskrit text and meaning)',
       'Advayataraka Upanishad on the syllables gu and ru (verse number varies by edition)',
       'Wikipedia, Guru Purnima (month, Vyasa Purnima and Buddhist and Jain observances)',
+    ],
+  },
+  {
+    slug: 'tulsi-vivah-guide',
+    category: 'Festivals',
+    title: 'Tulsi Vivah: Date, Story, Rituals and How to Observe It at Home',
+    description:
+      'A guide to Tulsi Vivah, the ritual wedding of the tulsi plant to Vishnu as a shaligram or amla branch: the 2026 date, the legend of Vrinda and Jalandhara, regional customs, a simple home puja and how it fits with Prabodhini Ekadashi and Kartika.',
+    h1: 'Tulsi Vivah: The Wedding of Tulsi and Vishnu',
+    intro:
+      'Tulsi Vivah, also called Tulasi Vivaha or Tulasi Kalyanam, is the ceremonial marriage of the tulsi plant to Vishnu. It is held in Kartika, after Prabodhini Ekadashi, and many households treat it as the start of the wedding season. This guide gives the 2026 date, the legend behind it, how different regions keep the day, and a simple way to observe it at home.',
+    sections: [
+      {
+        h: 'What Tulsi Vivah is',
+        p: [
+          `In the ritual, the tulsi (holy basil) plant, regarded as a form of Lakshmi, is married to Vishnu. Vishnu is represented by a shaligram stone, which is a black fossilised stone worshipped as a form of Vishnu, or in some regions by a branch of the amla tree. The ceremony is performed in the courtyard or on the balcony where the tulsi grows, usually on a raised platform called the Vrindavan or tulsi chaura.`,
+          `The festival marks the end of the monsoon and the close of Chaturmasya, the four months in which marriages are traditionally avoided. That is why Tulsi Vivah is taken as the signal that weddings can begin again.`,
+        ],
+      },
+      {
+        h: 'When it falls, and the 2026 date',
+        p: [
+          `Tulsi Vivah is held between Prabodhini Ekadashi, the eleventh day of the bright fortnight of Kartika, and Kartika Purnima, the full moon. The exact day depends on the region and on the family. In Telugu tradition it is kept on Kartika Shukla Dwadashi, which is also called Ksheerabdhi Dwadashi. Some households keep it on the evening of Ekadashi, and in some places it runs over several days.`,
+          `In 2026, Prabodhini Ekadashi is on Friday 20 November and Tulasi Vivah, on Ksheerabdi Dwadashi, is listed for Saturday 21 November, according to Drik Panchang as reported by Hindutone. Dates abroad can differ by a day, so check a local panchang for your city.`,
+        ],
+      },
+      {
+        h: 'The legend of Vrinda and Jalandhara',
+        p: [
+          `The best known story, found in the Puranas such as the Padma Purana and the Skanda Purana, is about Vrinda, a devoted follower of Vishnu who was married to the demon king Jalandhara. Her faithfulness made her husband almost impossible to defeat. When Jalandhara fought Shiva, Vishnu took Jalandhara's form and deceived Vrinda, and her vow was broken. In grief and anger she cursed Vishnu and gave up her life.`,
+          `In one telling the tulsi plant grew from the place where she died, and Vishnu, remorseful, promised to marry her. That promise is the origin of the yearly wedding, in which Vishnu as the shaligram is joined to tulsi. Other traditions tell it differently. One Vaishnava account says tulsi arose from a tear of joy that Vishnu shed during the churning of the ocean, and another says Lakshmi herself stayed on earth as the plant. The versions differ between texts and regions, and the festival does not depend on any one of them.`,
+        ],
+      },
+      {
+        h: 'How the ceremony is done',
+        p: [
+          `Devotees usually fast until the evening and then begin the wedding. A small mandap is built around the tulsi plant,. The tulsi is dressed as a bride in a sari and jewellery, and sometimes given a paper face. The groom, the shaligram or amla branch, is dressed in a dhoti. Both are bathed and garlanded and linked with a cotton thread. A couple who have no daughter often act as the bride's parents and perform the giving away of the bride.`,
+          `The offerings commonly include sugarcane, coconut, fruits and groundnuts. Afterwards the food is shared as prasad, and in many families the ceremony ends with an aarti and a song of blessing.`,
+        ],
+      },
+      {
+        h: 'Regional customs',
+        p: [
+          `In Maharashtra a white cloth is held between the couple while the Mangal Ashtaka verses are sung, and rice mixed with vermilion is thrown at the words of blessing. The rite is mostly performed by women, and tulsi is given a mangalsutra. In Telugu homes the festival is Tulasi Kalyanam, with an amla branch for Vishnu and a full puja with sixteen offerings. In Saunja in Bihar the celebration runs for three days from Ekadashi to Trayodashi, with recitation of the Ramcharitmanas and a procession. At two Rama temples in Saurashtra the image of Vishnu is carried in a wedding procession to the bride's temple.`,
+          `In Odisha, the tulsi chaura stands at the centre of every Kartika evening, and the days from Ekadashi to Purnima are kept as Panchuka. Families who do not hold a full wedding still light a lamp at the tulsi plant on these days. See our guides on Panchuka and on Kartika in Odisha.`,
+        ],
+      },
+      {
+        h: 'A simple way to observe it at home',
+        p: [
+          `You need a tulsi plant, a small image or a shaligram if you have one, flowers, a lamp, fruit and sugarcane or sweet if you can get them. Clean the area around the plant and decorate it simply. In the evening light a lamp, offer flowers and fruit, and say a short Vishnu prayer. The Shantakaram Bhujagashayanam verse or the Krishna Vasudevaya mantra both fit well.`,
+          `Take care not to pluck tulsi leaves unnecessarily, since many families avoid it during these days. If you do not have a shaligram, a picture of Vishnu or a small lamp is a valid representation. The fast is optional, and anyone who is unwell, pregnant or elderly should eat as their doctor advises.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'When is Tulsi Vivah in 2026?',
+        a: 'Prabodhini Ekadashi is on Friday 20 November 2026 and Tulasi Vivah on Ksheerabdi Dwadashi is listed for Saturday 21 November, per Drik Panchang as reported by Hindutone. Dates vary by place, so check a local panchang.',
+      },
+      {
+        q: 'Who is Vishnu in the ceremony?',
+        a: 'A shaligram stone, a black fossilised stone worshipped as Vishnu, or in some regions an amla branch. A picture of Vishnu is also used.',
+      },
+      {
+        q: 'Why is it done in Kartika?',
+        a: 'It follows Prabodhini Ekadashi, when Vishnu is said to wake from his sleep, and comes at the end of Chaturmasya, so it marks the start of the wedding season.',
+      },
+      {
+        q: 'Is a fast required?',
+        a: 'Many people fast until the evening ceremony, but it is optional. Those who are unwell, pregnant or elderly should eat as their doctor advises.',
+      },
+      {
+        q: 'Can I do it without a shaligram?',
+        a: 'Yes. A picture of Vishnu, an amla branch or a lamp is accepted in many homes. Devotion matters more than the object.',
+      },
+      {
+        q: 'Is the story the same everywhere?',
+        a: 'No. The Vrinda and Jalandhara story is the best known, but other traditions say tulsi came from a tear of Vishnu or from Lakshmi. The festival does not depend on a single version.',
+      },
+    ],
+    related: {
+      stotrams: ['shantakaram-bhujagashayanam', 'krishna-vasudevaya-mantra', 'vishnu-sahasranamam'],
+      guides: ['kartika-month-odisha-guide', 'panchuka-odisha-last-five-days-kartika-guide', 'ekadashi-vrat-guide', 'boita-bandana-bali-jatra-kartika-purnima-guide'],
+    },
+    sources: [
+      'Wikipedia, Tulasi Vivaha (timing, legends, rituals and regional customs, citing the Skanda, Padma and Shiva Puranas)',
+      'Wikipedia, Prabodhini Ekadashi (Vishnu awakening and the end of Chaturmasya)',
+      'Hindutone, Tulsi Vivah 2026 (dates from Drik Panchang)',
+    ],
+  },
+  {
+    slug: 'prabodhini-ekadashi-bada-ekadashi-odisha-guide',
+    category: 'Festivals',
+    title: 'Prabodhini Ekadashi 2026: Meaning, the End of Chaturmasya and Bada Ekadashi in Odisha',
+    description:
+      'A guide to Prabodhini Ekadashi (Dev Uthani, Bada Ekadashi in Odisha): the 2026 date, why Vishnu is said to wake, the end of Chaturmasya, fasting rules, regional customs and the Laxmi Narayan Besha at Puri on the first day of Panchuka.',
+    h1: 'Prabodhini Ekadashi: When Vishnu Wakes',
+    intro:
+      'Prabodhini Ekadashi falls on the eleventh day of the bright fortnight of Kartika. It is the day on which, in the Vaishnava tradition, Vishnu wakes from his four months of sleep, and it ends the period called Chaturmasya. In Odisha it is known as Bada Ekadashi and it opens the five days of Panchuka. This guide explains the date, the meaning, how people keep the fast and how the day is marked in different places.',
+    sections: [
+      {
+        h: 'The date in 2026',
+        p: [
+          `In 2026 Prabodhini Ekadashi falls on Friday 20 November, as listed by Drik Panchang through Hindutone. The following day, Saturday 21 November, is Ksheerabdi Dwadashi, when Tulsi Vivah is held in many places, and Kartika Purnima falls on Tuesday 24 November. Ekadashi dates can differ by a day between cities and between Smarta and Vaishnava traditions, so check a panchang for where you live.`,
+        ],
+      },
+      {
+        h: 'Names of the day',
+        p: [
+          `The day is known by many names. Wikipedia lists Prabodhini Ekadashi, Deva Uttana Ekadashi, Vishnu Prabodhini, Hari Prabodhini, Deva Prabodhini, Uttana Ekadashi and Deothan. In north India it is Dev Uthani or Dev Utthana Ekadashi. In Nepal it is Thulo Ekadashi, meaning the big Ekadashi. In Odisha it is called Bada Ekadashi, where bada means big. All of these refer to the same lunar day.`,
+        ],
+      },
+      {
+        h: 'Why Vishnu is said to wake',
+        p: [
+          `The tradition says that Vishnu falls asleep on Shayani Ekadashi in the monsoon and wakes on Prabodhini Ekadashi. The four months between are Chaturmasya, a time when marriages and other new beginnings are traditionally avoided. Waking the deity is the central ritual of the day. Households sing songs and verses to wake him, and the end of Chaturmasya is taken as the start of the wedding season.`,
+          `This is a devotional belief and not a historical event. Different regions place the awakening slightly differently, on Ekadashi or around Purnima, and this is one reason the days up to Kartika Purnima are all holy.`,
+        ],
+      },
+      {
+        h: 'How the fast is kept',
+        p: [
+          `Devotees fast on Ekadashi and perform a puja to Vishnu and Lakshmi in the evening. Offerings include sugarcane, rice and dried red chillies, which are later given away. Strict observers avoid grains and eat only fruit, milk or a single simple meal, and break the fast on Dwadashi after sunrise within the parana time given in the panchang.`,
+          `A fast is a personal choice. Anyone who is unwell, pregnant, elderly or diabetic should eat as their doctor advises, and the evening lamp and prayer are complete without it. Our general guide to Ekadashi vrat explains the rules in more detail.`,
+        ],
+      },
+      {
+        h: 'Customs across India',
+        p: [
+          `Prabodhini Ekadashi marks the start of the sugarcane harvest, and in some places farmers perform a puja in the field and hang canes in the home until Holi. In some households floor designs and images of Vishnu and Lakshmi are drawn with red soil and rice paste. At Pandharpur in Maharashtra the day is linked to Vithoba, a form of Vishnu, and Varkari pilgrims gather for celebrations that last until Kartika Purnima. In Gujarat many pilgrims make the Lili Parikrama around Mount Girnar, and the Pushkar Fair in Rajasthan begins around this day. For the Swaminarayan sect the day commemorates an event in the life of Swaminarayan, and followers keep a strict fast.`,
+        ],
+      },
+      {
+        h: 'Bada Ekadashi in Odisha and Puri',
+        p: [
+          `In Odisha, Prabodhini Ekadashi is the first day of Panchuka, the five days from Ekadashi to Kartika Purnima. At the Srimandir in Puri the deities appear in the Laxmi Narayan Besha on this day, also called Thiakia, followed by Bankachuda on Dwadashi, Tribikrama on Trayodashi, Laxmi Narasimha on Chaturdashi and the golden Raja Rajeswar Besha on Purnima. The beshas and their tithis are listed on Wikipedia and in reports from the temple.`,
+          `Families who could not keep the Kartika vow for the whole month often begin their Panchuka observance on Bada Ekadashi. They keep to vegetarian food, light lamps at the tulsi chaura and read from the Kartika Purana. Our guide to Panchuka covers the five days in full.`,
+        ],
+      },
+      {
+        h: 'Prayers for the day',
+        p: [
+          `Vishnu prayers fit the day. Many people read the Vishnu Sahasranamam, say the Krishna Vasudevaya mantra or the short Shantakaram Bhujagashayanam verse, and offer a lamp at the tulsi plant. Even a few minutes of attention, with a lamp lit and a simple prayer, counts as keeping the day.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'When is Prabodhini Ekadashi in 2026?',
+        a: 'On Friday 20 November 2026, per Drik Panchang through Hindutone. Dates can differ by a day between cities and traditions.',
+      },
+      {
+        q: 'What is Bada Ekadashi?',
+        a: 'It is the Odia name for Prabodhini Ekadashi and the first day of Panchuka, the five days to Kartika Purnima.',
+      },
+      {
+        q: 'Why does Chaturmasya end on this day?',
+        a: 'Tradition says Vishnu sleeps from Shayani Ekadashi and wakes on Prabodhini Ekadashi, and the four months between are Chaturmasya. Marriages are avoided in that time and resume after it.',
+      },
+      {
+        q: 'What is the Besha at Puri on this day?',
+        a: 'The Laxmi Narayan Besha, also called Thiakia, per the list of Kartika beshas on Wikipedia and temple reports.',
+      },
+      {
+        q: 'Must I fast?',
+        a: 'No. Fasting is a personal vow, and those who are unwell, pregnant or elderly should eat as their doctor advises.',
+      },
+      {
+        q: 'What is the link with Tulsi Vivah?',
+        a: 'Tulsi Vivah, the ritual wedding of tulsi to Vishnu, is held between Prabodhini Ekadashi and Kartika Purnima, in many places on the following Dwadashi.',
+      },
+    ],
+    related: {
+      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'shantakaram-bhujagashayanam'],
+      guides: ['ekadashi-vrat-guide', 'panchuka-odisha-last-five-days-kartika-guide', 'tulsi-vivah-guide', 'kartika-month-odisha-guide'],
+    },
+    sources: [
+      'Wikipedia, Prabodhini Ekadashi (names, Chaturmasya, customs and regional observances)',
+      'Wikipedia, Tulasi Vivaha (timing between Prabodhini Ekadashi and Kartika Purnima)',
+      'Wikipedia, Beshas of Jagannath (list of Kartika beshas and tithis)',
+      'Hindutone, Tulsi Vivah 2026 (dates from Drik Panchang)',
+      'OMMCOM News report on the Panchuka beshas at the Puri Srimandir',
     ],
   },
 ];

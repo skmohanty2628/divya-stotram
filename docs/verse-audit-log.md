@@ -300,3 +300,21 @@ One line per audit. Rotation: every stotram in every language (Hindi/Devanagari,
 - New guides: panchuka-odisha-last-five-days-kartika-guide (about 1,300 words, 6 FAQs; sources Hindu Blog, OMMCOM News, OdishaTV, Wikipedia Beshas of Jagannath, Hindutone and an Odia calendar for the 2026 dates 20 to 24 November; beshas listed by name only, ornaments not described) and guru-brahma-guru-vishnu-meaning-and-guru-purnima (about 1,100 words, 6 FAQs; Advayataraka Upanishad gu-ru explanation with the verse number left open since it varies by edition).
 - Upgraded: navaratri-nine-forms-of-durga (about 410 to 1,000 words, 6 FAQs). Added the Devi Kavacham source of the nine names (verses 3 to 5 per Vedadhara), Devi Mahatmya structure (13 chapters, three episodes), iconography with a note that it varies, other Navaratris, Kanya Puja and Odisha links.
 - Animation themes: panchuka guide lamps, guru guide sun. GUIDES_UPDATED set to 2026-11-09.
+
+## 2026-11-10: verse audit, vishnu-sahasranamam, Hindi (Devanagari), with Odia, Telugu and transliteration fixed to match
+- Scope: the 15 items on the site (verses 1 to 14 of the Sahasranama and verse 108, the closing "Vanamali gadi sharngi" line).
+- Sources compared with a folded character-level check (anusvara and nasal conjuncts, b/v, avagraha, punctuation): siva.sh (Vishnu Sahasranama Stotram, verse by verse) and hari-darshan.vercel.app (Vaikuntha Digital). The two sources agree with each other on every word of these 15 items. The "Hari" before the first verse on siva.sh and the "Om" on hari-darshan are not part of the verse and were ignored.
+- Fixes (all four fields, Devanagari, transliteration, Odia, Telugu, where the text appears):
+  - Verse 4: स्थाणुः भूतादिर्निधिरव्ययः to स्थाणुर्भूतादिर्निधिरव्ययः (sandhi, both sources).
+  - Verse 12: पुण्डरीकाक्षः वृषकर्मा to पुण्डरीकाक्षो वृषकर्मा (sandhi, both sources).
+  - Verse 13: अमृतः शाश्वतस्थाणुर्वरारोहो to अमृतः शाश्वतः स्थाणुर्वरारोहो (two names had been run together, both sources).
+  - Verse 14: विश्वक्सेनो to विष्वक्सेनो (spelling of Vishvaksena, both sources).
+- Round trip check of Odia and Telugu back to Devanagari: three differences, all script conventions and left as they are: Odia ର୍ତ୍ତ for र्त in verse 4 (भर्ता), and Telugu ళ for ल in मंगलं (verse 7) and व्याल (verse 10).
+- Left as is: nasal spelling with anusvara (मंगलं, व्यंगो, वेदांगो, शंखी) where the sources print ङ्. Both are accepted spellings and both folded equal.
+- Still to audit: Vishnu Sahasranamam beyond these 15 items (the site does not carry the full 1000 names).
+
+## 2026-11-10: new mantra and guides
+- New mantra: purnamadah-purnamidam (Om Purnamadah Purnamidam, Shanti mantra) in Hindi, Odia, Telugu and English. Text compared on Wikipedia (Shanti Mantras) and radhakrishnatemple.net: same words, only a final m versus anusvara in "purnamidam". Attribution: the invocation of the Isha Upanishad; Wikipedia lists the verse under both Isha and Brihadaranyaka, and no verse number is given because the sources checked give none. ॐ rendered as ଓଁ and ఓం by hand (the offset converter does not map it). YouTube: Rajshri Soul, "Universal Peace Mantra With Lyrics | Om Purnamadah 11 Times | Spiritual Chants For Focus & Peace", id umU7Ew79XoI, oEmbed 200. Meanings in my own words; Odia and Telugu meanings need a human check. Cross-linked from the guide best-prayer-for-inner-peace.
+- New guides: tulsi-vivah-guide (about 1,200 words, 6 FAQs; sources Wikipedia Tulasi Vivaha and Prabodhini Ekadashi, Hindutone for the 2026 dates from Drik Panchang) and prabodhini-ekadashi-bada-ekadashi-odisha-guide (about 1,000 words, 6 FAQs; Puri beshas from Wikipedia Beshas of Jagannath and the OMMCOM report). Dates: Prabodhini Ekadashi Friday 20 November 2026, Ksheerabdi Dwadashi Saturday 21 November, Kartika Purnima Tuesday 24 November. The "Odisha" section relies on the Panchuka sources, since Wikipedia's Prabodhini page does not mention Odisha.
+- Upgraded: how-to-read-sanskrit-transliteration (about 410 to 1,070 words, 6 FAQs). Added the history of IAST (Geneva Oriental Congress 1894), vocalic r, ñ and ṅ, c and ch, ISO 15919, Harvard-Kyoto and ITRANS, how this site spells, and reading compounds.
+- Animation themes: tulsi guide leaves, prabodhini guide lamps. GUIDES_UPDATED set to 2026-11-10.

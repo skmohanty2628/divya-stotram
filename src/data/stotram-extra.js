@@ -386,4 +386,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does reciting it guarantee success in studies?', a: 'No. It expresses respect and a wish for guidance. It makes no promise of any result and does not replace effort or good teaching.' },
     ],
   },
+  'purnamadah-purnamidam': {
+    what: `Om Purnamadah Purnamidam is a short peace invocation that opens the Isha Upanishad. The same verse is also associated with the Brihadaranyaka Upanishad, and some sources list it under both texts. It is said at the start of study, in satsang, at yagnas and in many schools and ashrams, and it ends with the usual triple Om shantih. It is a statement about wholeness, so it is short enough to learn in a few minutes.`,
+    meaning: `The verse says that that is whole and this is whole. In the Upanishad, that means the unseen reality, Brahman, and this means the world we see. It adds that wholeness comes forth from wholeness, and that when the whole is taken from the whole, the whole alone remains. The point is that the infinite is not used up by anything that arises from it. Teachers read the verse in different ways, some as a statement about Brahman and some as a prayer for a mind that feels complete and calm, and the words allow both.`,
+    benefits: [
+      'Short enough to learn quickly and say before study, meditation or prayer',
+      'Gives a simple thought to rest the mind on: that nothing real is lost by giving',
+      'Used in many schools and ashrams, so it is familiar in a group setting',
+      'Ends with the triple shantih, a calm way to close a session',
+      'Open to everyone, with no initiation needed',
+    ],
+    bestTime: `It is commonly said at the beginning of a study session, at morning prayer or meditation, and at the start of a gathering. The text fixes no hour and no count. Some people say it once, and some repeat the whole verse three or eleven times as a personal practice.`,
+    faqs: [
+      { q: 'What does Om Purnamadah Purnamidam mean?', a: 'It says that that is whole and this is whole, that wholeness comes from wholeness, and that when the whole is taken from the whole, the whole remains. It ends with a prayer for peace.' },
+      { q: 'Which text is it from?', a: 'It is the invocation of the Isha Upanishad. Some sources also list the same verse under the Brihadaranyaka Upanishad. The sources we checked give no verse number, so none is stated here.' },
+      { q: 'Is it the same as the other shanti mantras?', a: 'No. Shanti mantras are a group of invocations, each from a different text. This one is the invocation of the Isha Upanishad, and it is different from Asato Ma Sadgamaya and Sahana Vavatu.' },
+      { q: 'When should I say it?', a: 'At the start of study, meditation or a gathering. Any time of day is fine.' },
+      { q: 'What does purna mean?', a: 'Purna means full or whole, with nothing lacking. In the verse it describes Brahman and the world that arises from it.' },
+      { q: 'Does it guarantee a result?', a: 'No. It is a prayer and a thought to reflect on. It makes no promise of any worldly result and does not replace medical, legal or financial advice.' },
+    ],
+  },
 };

@@ -53,11 +53,11 @@ export const vishnuSahasranamam = {
     },
     {
       id: 'vs-4', type: 'shloka', num: 4,
-      transliteration: 'Sarvah Sharvah Shivah Sthaanuh Bhootaadir Nidhiravyayah\nSambhavo Bhaavano Bhartaa Prabhavah Prabhurheeshvarah',
-      original: 'सर्वः शर्वः शिवः स्थाणुः भूतादिर्निधिरव्ययः।\nसंभवो भावनो भर्ता प्रभवः प्रभुरीश्वरः॥',
+      transliteration: 'Sarvah Sharvah Shivah Sthaanur Bhootaadir Nidhiravyayah\nSambhavo Bhaavano Bhartaa Prabhavah Prabhurheeshvarah',
+      original: 'सर्वः शर्वः शिवः स्थाणुर्भूतादिर्निधिरव्ययः।\nसंभवो भावनो भर्ता प्रभवः प्रभुरीश्वरः॥',
       script: {
-        od: 'ସର୍ବଃ ଶର୍ବଃ ଶିବଃ ସ୍ଥାଣୁଃ ଭୂତାଦିର୍ ନିଧିରବ୍ୟୟଃ।\nସଂଭବୋ ଭାବନୋ ଭର୍ତ୍ତା ପ୍ରଭବଃ ପ୍ରଭୁରୀଶ୍ୱରଃ॥',
-        te: 'సర్వః శర్వః శివః స్థాణుః భూతాదిర్నిధిరవ్యయః।\nసంభవో భావనో భర్తా ప్రభవః ప్రభురీశ్వరః॥',
+        od: 'ସର୍ବଃ ଶର୍ବଃ ଶିବଃ ସ୍ଥାଣୁର୍ ଭୂତାଦିର୍ ନିଧିରବ୍ୟୟଃ।\nସଂଭବୋ ଭାବନୋ ଭର୍ତ୍ତା ପ୍ରଭବଃ ପ୍ରଭୁରୀଶ୍ୱରଃ॥',
+        te: 'సర్వః శర్వః శివః స్థాణుర్భూతాదిర్నిధిరవ్యయః।\nసంభవో భావనో భర్తా ప్రభవః ప్రభురీశ్వరః॥',
       },
       meaning: {
         en: 'He is everything (Sarva), destroyer of sins (Sharva), auspicious (Shiva), immovable (Sthaanu), the origin of all beings (Bhootaadi), the imperishable treasury (Nidhi-avyaya). The source of creation (Sambhava), nourisher (Bhaavana), sustainer (Bhartaa), creator (Prabhava), Lord (Prabhu), and Supreme Ruler (Ishvara).',
@@ -173,11 +173,11 @@ export const vishnuSahasranamam = {
     },
     {
       id: 'vs-12', type: 'shloka', num: 12,
-      transliteration: 'Vasur Vasumanaah Satyah Samaatmaa Sammitah Samah\nAmoghah Pundareekaakshah Vrishakarmaa Vrishaakritih',
-      original: 'वसुर्वसुमनाः सत्यः समात्मा सम्मितः समः।\nअमोघः पुण्डरीकाक्षः वृषकर्मा वृषाकृतिः॥',
+      transliteration: 'Vasur Vasumanaah Satyah Samaatmaa Sammitah Samah\nAmoghah Pundareekaaksho Vrishakarmaa Vrishaakritih',
+      original: 'वसुर्वसुमनाः सत्यः समात्मा सम्मितः समः।\nअमोघः पुण्डरीकाक्षो वृषकर्मा वृषाकृतिः॥',
       script: {
-        od: 'ବସୁର୍ବସୁମନାଃ ସତ୍ୟଃ ସମାତ୍ମା ସମ୍ମିତଃ ସମଃ।\nଅମୋଘଃ ପୁଣ୍ଡରୀକାକ୍ଷଃ ବୃଷକର୍ମା ବୃଷାକୃତିଃ॥',
-        te: 'వసుర్వసుమనాః సత్యః సమాత్మా సమ్మితః సమః।\nఅమోఘః పుండరీకాక్షః వృషకర్మా వృషాకృతిః॥',
+        od: 'ବସୁର୍ବସୁମନାଃ ସତ୍ୟଃ ସମାତ୍ମା ସମ୍ମିତଃ ସମଃ।\nଅମୋଘଃ ପୁଣ୍ଡରୀକାକ୍ଷୋ ବୃଷକର୍ମା ବୃଷାକୃତିଃ॥',
+        te: 'వసుర్వసుమనాః సత్యః సమాత్మా సమ్మితః సమః।\nఅమోఘః పుండరీకాక్షో వృషకర్మా వృషాకృతిః॥',
       },
       meaning: {
         en: 'He is the treasure (Vasu), with a noble mind (Vasumana), truth itself (Satya), equal-souled (Samaatmaa), perfectly balanced (Sammita), impartial (Sama). He is unerring (Amogha), lotus-eyed (Pundareekaaksha), virtuous in deeds (Vrishakarmaa), and of virtuous form (Vrishaakriti).',
@@ -188,11 +188,11 @@ export const vishnuSahasranamam = {
     },
     {
       id: 'vs-13', type: 'shloka', num: 13,
-      transliteration: 'Rudro Bahushiraa Babhruh Vishvayonih Shuchishravaa\nAmritah Shashvatasthaanuh Varaaroho Mahatapaah',
-      original: 'रुद्रो बहुशिरा बभ्रुर्विश्वयोनिः शुचिश्रवाः।\nअमृतः शाश्वतस्थाणुर्वरारोहो महातपाः॥',
+      transliteration: 'Rudro Bahushiraa Babhruh Vishvayonih Shuchishravaa\nAmritah Shashvatah Sthaanur Varaaroho Mahatapaah',
+      original: 'रुद्रो बहुशिरा बभ्रुर्विश्वयोनिः शुचिश्रवाः।\nअमृतः शाश्वतः स्थाणुर्वरारोहो महातपाः॥',
       script: {
-        od: 'ରୁଦ୍ରୋ ବହୁଶିରା ବଭ୍ରୁର୍ବିଶ୍ୱୟୋନିଃ ଶୁଚିଶ୍ରବାଃ।\nଅମୃତଃ ଶାଶ୍ୱତସ୍ଥାଣୁର୍ବରାରୋହୋ ମହାତପାଃ॥',
-        te: 'రుద్రో బహుశిరా బభ్రుర్విశ్వయోనిః శుచిశ్రవాః।\nఅమృతః శాశ్వతస్థాణుర్వరారోహో మహాతపాః॥',
+        od: 'ରୁଦ୍ରୋ ବହୁଶିରା ବଭ୍ରୁର୍ବିଶ୍ୱୟୋନିଃ ଶୁଚିଶ୍ରବାଃ।\nଅମୃତଃ ଶାଶ୍ୱତଃ ସ୍ଥାଣୁର୍ବରାରୋହୋ ମହାତପାଃ॥',
+        te: 'రుద్రో బహుశిరా బభ్రుర్విశ్వయోనిః శుచిశ్రవాః।\nఅమృతః శాశ్వతః స్థాణుర్వరారోహో మహాతపాః॥',
       },
       meaning: {
         en: 'He is Rudra, many-headed (Bahushira), the supporter (Babhru), the womb of the universe (Vishvayoni), of pure fame (Shuchishravaa). He is immortal (Amrita), eternally steadfast (Shashvata-sthaanu), who ascends the highest (Varaarodha), and of great penance (Mahatapaah).',
@@ -204,10 +204,10 @@ export const vishnuSahasranamam = {
     {
       id: 'vs-14', type: 'shloka', num: 14,
       transliteration: 'Sarvagah Sarvavidbhaanuh Vishvaksenah Janaardanah\nVedo Vedavid Avyangah Vedaangah Vedavit Kavih',
-      original: 'सर्वगः सर्वविद्भानुर्विश्वक्सेनो जनार्दनः।\nवेदो वेदविदव्यंगो वेदांगो वेदवित्कविः॥',
+      original: 'सर्वगः सर्वविद्भानुर्विष्वक्सेनो जनार्दनः।\nवेदो वेदविदव्यंगो वेदांगो वेदवित्कविः॥',
       script: {
-        od: 'ସର୍ବଗଃ ସର୍ବବିଦ୍ଭାନୁର୍ବିଶ୍ୱକ୍ସେନୋ ଜନାର୍ଦନଃ।\nବେଦୋ ବେଦବିଦବ୍ୟଂଗୋ ବେଦାଂଗୋ ବେଦବିତ୍କବିଃ॥',
-        te: 'సర్వగః సర్వవిద్భానుర్విశ్వక్సేనో జనార్దనః।\nవేదో వేదవిదవ్యంగో వేదాంగో వేదవిత్కవిః॥',
+        od: 'ସର୍ବଗଃ ସର୍ବବିଦ୍ଭାନୁର୍ବିଷ୍ୱକ୍ସେନୋ ଜନାର୍ଦନଃ।\nବେଦୋ ବେଦବିଦବ୍ୟଂଗୋ ବେଦାଂଗୋ ବେଦବିତ୍କବିଃ॥',
+        te: 'సర్వగః సర్వవిద్భానుర్విష్వక్సేనో జనార్దనః।\nవేదో వేదవిదవ్యంగో వేదాంగో వేదవిత్కవిః॥',
       },
       meaning: {
         en: 'He is omnipresent (Sarvaga), omniscient (Sarvavidh), brilliant as the sun (Bhaanu), destroyer of hostile forces (Vishvaksena), who agitates the evil ones (Janaardana). He is the Vedas (Veda), the knower of the Vedas (Vedavid), perfect in all limbs (Avyanga), the limbs of the Vedas (Vedaanga), and the supreme seer (Kavi).',

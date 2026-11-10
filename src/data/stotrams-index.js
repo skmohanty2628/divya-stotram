@@ -721,6 +721,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'purnamadah-purnamidam',
+    title: {
+      en: 'Om Purnamadah Purnamidam (Shanti Mantra)',
+      hi: 'ॐ पूर्णमदः पूर्णमिदं (शान्ति मन्त्र)',
+      od: 'ଓଁ ପୂର୍ଣ୍ଣମଦଃ ପୂର୍ଣ୍ଣମିଦଂ (ଶାନ୍ତି ମନ୍ତ୍ର)',
+      te: 'ఓం పూర్ణమదః పూర్ణమిదం (శాంతి మంత్రం)',
+    },
+    deity: 'All Beings',
+    deityEmoji: '🕉️',
+    deityIcon: '',
+    description: {
+      en: 'Om Purnamadah Purnamidam, the peace mantra of the Isha Upanishad, in English, Hindi, Odia and Telugu with meaning and a video',
+      hi: 'ॐ पूर्णमदः पूर्णमिदं, ईशावास्य उपनिषद् का शान्ति मन्त्र, अर्थ और वीडियो सहित हिन्दी, अंग्रेज़ी, ओड़िया और तेलुगु में',
+      od: 'ଓଁ ପୂର୍ଣ୍ଣମଦଃ ପୂର୍ଣ୍ଣମିଦଂ, ଈଶାବାସ୍ୟ ଉପନିଷଦର ଶାନ୍ତି ମନ୍ତ୍ର, ଅର୍ଥ ଓ ଭିଡିଓ ସହିତ',
+      te: 'ఓం పూర్ణమదః పూర్ణమిదం, ఈశావాస్య ఉపనిషత్తులోని శాంతి మంత్రం, అర్థం మరియు వీడియోతో',
+    },
+    color: 'from-sky-900 to-slate-900',
+    accent: '#8fc7e8',
+    youtubeId: 'umU7Ew79XoI',
+    verseCount: 1,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

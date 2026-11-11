@@ -1164,10 +1164,10 @@ export const GUIDES_LEARN = [
   {
     slug: 'hanuman-chalisa-history-tulsidas',
     category: 'Meaning and history',
-    title: 'Hanuman Chalisa: Who Wrote It, Its Structure, Language and the Akbar Legend',
+    title: 'Which Language Is Hanuman Chalisa In? Awadhi, Author and History',
     description:
-      'The history of the Hanuman Chalisa: its traditional author Tulsidas and the disputed dates of his life, the Awadhi language, the 43 verses, how the poem is arranged, the Akbar legend, and how it became one of the most recited prayers.',
-    h1: 'Hanuman Chalisa: Author, Structure, Language and Legend',
+      'Hanuman Chalisa is written in Awadhi, not Sanskrit or standard Hindi. Learn who wrote it (Tulsidas, by tradition), why it has 43 verses, how it is arranged and the Akbar legend.',
+    h1: 'Which Language Is the Hanuman Chalisa In? Awadhi, Author and History',
     intro:
       'The Hanuman Chalisa is one of the most widely recited devotional poems in the world, and millions of people know it by heart. This guide covers who wrote it, what is and is not known about its history, how its verses are arranged, the legend told about its composition and why its language made it so popular.',
     sections: [
@@ -5028,6 +5028,7 @@ export const GUIDES_LEARN = [
         "shiva-tandav"
       ],
       "guides": [
+        "vaikuntha-chaturdashi-hari-hara-guide",
         "boita-bandana-bali-jatra-kartika-purnima-guide",
         "panchuka-kartika-last-five-days-odisha-guide",
         "kartika-month-odisha-guide",
@@ -5145,6 +5146,108 @@ export const GUIDES_LEARN = [
       "Wikipedia, Arti (Hinduism) (meaning, etymology, items, clockwise waving, timing, songs, Sikh and other practice)",
       "HinduTone, How to Do Aarti Correctly: Steps, Meaning, What You Need and Safety Tips (steps, taking the aarti, safety and apartment advice)",
       "Heart of Hinduism fact sheet on the arati ceremony (Vaishnava order of offerings)"
+    ]
+  },
+  {
+    "slug": "vaikuntha-chaturdashi-hari-hara-guide",
+    "category": "Festivals",
+    "title": "Vaikuntha Chaturdashi 2026: Date, Hari-Hara Worship, Story and Puja Steps",
+    "description": "Vaikuntha Chaturdashi 2026 falls on Monday 23 November in India. Learn the tithi and Nishita timings, the thousand-lotus story, why Vishnu and Shiva are worshipped together and a simple home puja.",
+    "h1": "Vaikuntha Chaturdashi: Date, Story and How to Worship Vishnu and Shiva",
+    "intro": "Vaikuntha Chaturdashi is a festival of the Kartika month on which Hindus worship Lord Vishnu and Lord Shiva together. It falls on the fourteenth lunar day of the bright half, one day before Kartika Purnima. This guide gives the 2026 date and timings from a published panchang, tells the legend as the Shiva Purana is cited for it, explains what Hari-Hara means, and sets out a calm home puja. Customs vary by family and region, so treat the steps as a common pattern, not a single rule.",
+    "sections": [
+      {
+        "h": "Date and timings in 2026",
+        "p": [
+          "In India the festival falls on Monday 23 November 2026. According to a published Drik Panchang listing for New Delhi, the Chaturdashi tithi runs from about 2:36 am to 11:42 pm IST on that day. The Nishita kaal, the midnight window that many families use for the Vishnu puja, is given as roughly 11:41 pm on 23 November to 12:35 am on 24 November, about 54 minutes. The same listing gives sunrise as 6:50 am and sunset as 5:25 pm for that day.",
+          "These times are for New Delhi. Tithi and sunrise change from city to city, and for people outside India the calendar date can differ. One published calculation lists Sunday 22 November for the United States, Canada and the United Kingdom. If you follow a particular temple or family priest, use the date they announce. Kartika Purnima follows immediately, with its own tithi beginning at 11:42 pm IST on 23 November, so the two festivals sit back to back."
+        ]
+      },
+      {
+        "h": "The story of the thousand lotuses",
+        "p": [
+          "The best known legend is cited to the Shiva Purana. Vishnu travelled to Kashi (Varanasi) to worship Shiva and vowed to offer one thousand lotuses, speaking a name of Shiva with each flower. Shiva, testing his devotion, hid one lotus. When Vishnu found himself one flower short, he offered one of his own lotus-like eyes instead. Shiva stopped him, restored the eye and appeared before him. In many tellings Shiva also gave Vishnu the Sudarshana Chakra on this day.",
+          "Shaiva and Vaishnava tellings differ in emphasis, and some versions are told in other places. The message most people take from it is that devotion to one deity does not compete with devotion to the other."
+        ]
+      },
+      {
+        "h": "What Hari-Hara means",
+        "p": [
+          "Hari is a name of Vishnu and Hara a name of Shiva. On this day the two are worshipped as friends and equals. At the Kashi Vishwanath temple, Vishnu is said to be given a place of honour in the sanctum, and the two deities are described as exchanging tulsi and bilva leaves. These leaves are normally kept apart, because tulsi is dear to Vishnu and bilva to Shiva. Some families copy the custom at home and offer tulsi to Shiva and bilva to Vishnu for this one day.",
+          "In Ujjain, a published account says Lord Mahakal is taken in procession to the Gopal Mandir, where the deities exchange garlands. The procession timing is announced each year by the temple. In Rishikesh the day is marked by floating lamps on the Ganga in the evening."
+        ]
+      },
+      {
+        "h": "A simple home puja",
+        "p": [
+          "Many families worship Shiva in the morning and Vishnu at night, and some do both in the evening. Nothing here is compulsory, and a short sincere puja is as valid as a long one.",
+          "In the morning, bathe, light a lamp and offer water and bilva leaves and flowers to Shiva. You can chant Om Namah Shivaya, read a Shiva stotra, or listen to one. Our pages for Shiva Panchakshara Stotram and Lingashtakam are suited to this.",
+          "At night, around the Nishita window if you wish, light a ghee lamp before Vishnu, offer tulsi, lotus or other flowers and a simple naivedyam of fruit or sweets, and chant Om Namo Bhagavate Vasudevaya. Reading or hearing the Vishnu Sahasranamam is the traditional choice.",
+          "Fasting is optional. Anyone who is pregnant, elderly, diabetic or on regular medication should speak to a doctor before fasting, and a light meal is a fine alternative."
+        ]
+      },
+      {
+        "h": "Where it sits in the Kartika month",
+        "p": [
+          "Vaikuntha Chaturdashi comes in the last days of Kartika, when devotees also observe Tulsi Vivah, Kartika Purnima and Dev Deepawali. In Odisha the last five days of Kartika, from Prabodhini Ekadashi to Purnima, are called Panchuka, and Vaikuntha Chaturdashi falls inside that stretch. Our Panchuka guide covers the Odia customs of those days, and the Boita Bandana guide covers the Purnima morning that follows."
+        ]
+      },
+      {
+        "h": "Keeping the day simple",
+        "p": [
+          "The festival is about the unity of two traditions, not about getting the ritual exactly right. If you only have ten minutes, light a lamp, offer a flower or a leaf to each deity, say the name of each with respect and sit quietly. The tradition does not promise worldly results from the day, and nothing in this guide replaces medical or professional advice."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When is Vaikuntha Chaturdashi in 2026?",
+        "a": "Monday 23 November 2026 in India, according to a published Drik Panchang listing for New Delhi. Outside India the date can differ, so check with your temple or priest."
+      },
+      {
+        "q": "What is the Nishita kaal on Vaikuntha Chaturdashi?",
+        "a": "It is the midnight window used by many families for the Vishnu puja. For 2026 it is listed as about 11:41 pm on 23 November to 12:35 am on 24 November in New Delhi."
+      },
+      {
+        "q": "Why are Vishnu and Shiva worshipped together?",
+        "a": "The legend says Vishnu worshipped Shiva with lotuses at Kashi and was honoured by him. The day is therefore kept as Hari-Hara worship, which shows the two traditions as friends."
+      },
+      {
+        "q": "Is it right to offer tulsi to Shiva on this day?",
+        "a": "Customs say tulsi and bilva are usually kept for Vishnu and Shiva respectively, and that on this day the two are exchanged. Many families do this, and others follow their usual practice. Follow your family tradition."
+      },
+      {
+        "q": "Do I have to fast?",
+        "a": "No. Fasting is optional. Those with health conditions should ask a doctor first."
+      },
+      {
+        "q": "How is it related to Kartika Purnima?",
+        "a": "It falls the day before. The Chaturdashi tithi ends at 11:42 pm IST on 23 November 2026 in New Delhi, which is when the Purnima tithi begins."
+      },
+      {
+        "q": "Which mantra can I chant?",
+        "a": "Om Namah Shivaya for Shiva and Om Namo Bhagavate Vasudevaya for Vishnu are the commonly given ones. The Vishnu Sahasranamam is also read."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "vishnu-sahasranamam",
+        "shiva-panchakshara-stotram",
+        "lingashtakam",
+        "maha-mrityunjaya-mantra"
+      ],
+      "guides": [
+        "kartika-purnima-dev-deepawali-guide",
+        "panchuka-kartika-last-five-days-odisha-guide",
+        "tulsi-vivah-dev-uthani-ekadashi-guide",
+        "boita-bandana-bali-jatra-kartika-purnima-guide",
+        "kartika-month-odisha-guide"
+      ]
+    },
+    "sources": [
+      "HinduTone, Vaikuntha Chaturdashi 2026: Date (23 November), Hari-Hara Milan, Story and Manikarnika Snan (tithi, Nishita kaal, rituals, Ujjain, citing Drik Panchang)",
+      "Wikipedia, Vaikuntha Chaturdashi (Shiva Purana legend, Kashi Vishwanath exchange of tulsi and bilva, Rishikesh, regional variation)",
+      "Drik Panchang, Vaikuntha Chaturdashi date and time (Shiva Purana attribution of the legend)"
     ]
   },
 ];

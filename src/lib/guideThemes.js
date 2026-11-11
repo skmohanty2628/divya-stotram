@@ -8,6 +8,7 @@ const BY_SLUG = {
   'prabodhini-ekadashi-bada-ekadashi-odisha-guide': 'lamps',
   'kartika-purnima-dev-deepawali-guide': 'lamps',
   'how-to-perform-aarti-at-home-guide': 'lamps',
+  'vaikuntha-chaturdashi-hari-hara-guide': 'lamps',
   'ekadashi-vrat-guide': 'leaves',
   'how-to-use-japa-mala': 'mala',
   'morning-prayer-routine': 'sun',

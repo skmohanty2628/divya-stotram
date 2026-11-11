@@ -8,9 +8,9 @@ const SEO_COPY = {
       'Read Hanuman Chalisa in English, Hindi, Odia and Telugu with meaning, lyrics, benefits, best time to chant and FAQs. Hanuman Chalisa full path with meaning, Jai Hanuman Gyan Gun Sagar.',
   },
   'shiva-tandav': {
-    title: 'Shiva Tandav Stotram Lyrics in English, Hindi, Odia & Telugu with Meaning',
+    title: 'Shiv Tandav Stotram Lyrics in English with Meaning | Hindi, Odia, Telugu',
     description:
-      'Read Shiva Tandav Stotram lyrics in English, Hindi, Odia and Telugu with meaning. Jatatavigalajjala, powerful Shiva prayer by Ravana with devotional overview, benefits and FAQs.',
+      'Shiv Tandav Stotram lyrics in English (Jatatavi Galajjala), with meaning, the tradition that Ravana composed it, how to chant it and FAQs. Also in Hindi, Odia and Telugu script.',
   },
   'vishnu-sahasranamam': {
     title: 'Vishnu Sahasranamam in English, Hindi, Odia & Telugu with Meaning',
@@ -23,9 +23,9 @@ const SEO_COPY = {
       'Read Durga Stotram in English, Hindi, Odia and Telugu with devotional meaning. Ya Devi Sarvabhuteshu, Maa Durga prayer with benefits, chanting guidance and FAQs.',
   },
   'aigiri-nandini': {
-    title: 'Aigiri Nandini Lyrics in English, Hindi, Odia & Telugu | Mahishasura Mardini Stotram',
+    title: 'Aigiri Nandini Lyrics in English with Meaning | Hindi, Odia, Telugu',
     description:
-      'Read Aigiri Nandini (Mahishasura Mardini Stotram) full lyrics in English, Hindi, Odia and Telugu with meaning. Powerful Navratri prayer by Adi Shankaracharya, Ayi Giri Nandini Nandita Medini, verse by verse.',
+      'Aigiri Nandini (Ayi Giri Nandini, Mahishasura Mardini Stotram) full lyrics in English with meaning, plus Hindi, Odia and Telugu script. Navratri prayer to Goddess Durga, verse by verse.',
   },
   'gayatri-mantra': {
     title: 'Gayatri Mantra in English, Hindi, Odia & Telugu | Om Bhur Bhuva Swaha with Meaning',
@@ -48,9 +48,9 @@ const SEO_COPY = {
       'Read Mahalakshmi Ashtakam (Namaste Astu Mahamaye) in English, Hindi, Odia and Telugu with meaning. Powerful 8-verse Lakshmi prayer for wealth, prosperity and good fortune, recited on Fridays and during Lakshmi Puja.',
   },
   'ram-raksha-stotram': {
-    title: 'Ram Raksha Stotram in English, Hindi, Odia & Telugu with Meaning',
+    title: 'Ram Raksha Stotra Lyrics in English with Meaning | Hindi, Odia, Telugu',
     description:
-      'Read Ram Raksha Stotram in English, Hindi, Odia and Telugu with devotional overview. Powerful Ram protection prayer with benefits and FAQs.',
+      'Ram Raksha Stotra (Shri Rama Raksha Stotram) lyrics in English with meaning, how and when to chant it, and FAQs. Also in Hindi, Odia and Telugu script, with a video to follow.',
   },
   'aditya-hridayam': {
     title: 'Aditya Hridayam in English, Hindi, Odia & Telugu with Meaning',
@@ -73,9 +73,9 @@ const SEO_COPY = {
       'Read Om Krishnaya Vasudevaya Haraye Paramatmane mantra in English, Hindi, Odia & Telugu. Powerful Krishna mantra that destroys sorrow, brings peace and divine protection.',
   },
   'bajrang-baan': {
-    title: 'Bajrang Baan in English, Hindi, Odia & Telugu with Meaning',
+    title: 'Bajrang Baan Lyrics in English with Meaning | Hindi, Odia, Telugu',
     description:
-      'Read Bajrang Baan, Nishchay Prem Prateeti Te, in English, Hindi, Odia and Telugu with meaning. Powerful Hanuman protective prayer that destroys enemies and removes fear.',
+      'Bajrang Baan lyrics in English (Nishchay Prem Prateeti Te) with meaning, when it is recited and FAQs. Hanuman prayer also in Hindi, Odia and Telugu script, with a video.',
   },
   'maha-mrityunjaya-mantra': {
     title: 'Maha Mrityunjaya Mantra in English, Hindi, Odia & Telugu with Meaning',
@@ -205,20 +205,20 @@ export function getStotramSeo(slug, langCode = 'en') {
 
   if (langCode === 'hi') {
     return {
-      title: `${t.hi} | हिंदी में पाठ और अर्थ सहित (${t.en})`,
-      description: `${t.hi} (${t.en}) का पूरा पाठ देवनागरी में, अर्थ और पढ़ने की विधि सहित। ${d.hi || ''}`.trim(),
+      title: `${t.en} Lyrics in Hindi | ${t.hi} हिंदी में पाठ और अर्थ`,
+      description: `${t.en} lyrics in Hindi (Devanagari) with meaning. ${t.hi} का पूरा पाठ देवनागरी में, अर्थ और पढ़ने की विधि सहित। ${d.hi || ''}`.trim(),
     };
   }
   if (langCode === 'od') {
     return {
-      title: `${t.od} | ଓଡ଼ିଆରେ ପାଠ ଓ ଅର୍ଥ ସହିତ (${t.en})`,
-      description: `${t.od} (${t.en}) ର ସମ୍ପୂର୍ଣ୍ଣ ପାଠ ଓଡ଼ିଆ ଲିପିରେ, ଅର୍ଥ ସହିତ। ${d.od || ''}`.trim(),
+      title: `${t.en} Lyrics in Odia | ${t.od} ଓଡ଼ିଆ ପାଠ ଓ ଅର୍ଥ`,
+      description: `${t.en} lyrics in Odia script with meaning, to read and chant. ${t.od} ର ସମ୍ପୂର୍ଣ୍ଣ ପାଠ ଓଡ଼ିଆ ଲିପିରେ, ଅର୍ଥ ସହିତ। ${d.od || ''}`.trim(),
     };
   }
   if (langCode === 'te') {
     return {
-      title: `${t.te} | తెలుగులో పాఠం మరియు అర్థంతో (${t.en})`,
-      description: `${t.te} (${t.en}) పూర్తి పాఠం తెలుగు లిపిలో, అర్థంతో సహా. ${d.te || ''}`.trim(),
+      title: `${t.en} Lyrics in Telugu | ${t.te} తెలుగు పాఠం మరియు అర్థం`,
+      description: `${t.en} lyrics in Telugu script with meaning. ${t.te} పూర్తి పాఠం తెలుగు లిపిలో, అర్థంతో సహా. ${d.te || ''}`.trim(),
     };
   }
   return en;

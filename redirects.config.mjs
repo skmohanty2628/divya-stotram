@@ -70,4 +70,7 @@ export const REDIRECTS = [
   ['ganesha-prayer-before-work', 'best-mantra-for-job'],
   // removed stotram that was never a real page; point to its real successor
   ['shivaji-kavitt', 'indra-jimi-jambh-par'],
+  // duplicate same-topic guides merged into the older guide (2026-11-11)
+  ['tulsi-vivah-guide', 'tulsi-vivah-dev-uthani-ekadashi-guide'],
+  ['panchuka-odisha-last-five-days-kartika-guide', 'panchuka-kartika-last-five-days-odisha-guide'],
 ];

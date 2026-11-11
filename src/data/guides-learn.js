@@ -3566,7 +3566,7 @@ export const GUIDES_LEARN = [
       { q: 'Is it true that the top pot cooks first?', a: 'It is a widely repeated belief, reported by the Free Press Journal as such. It is a tradition, not something this guide can verify.' },
     ],
     related: {
-      stotrams: ['om-jai-jagdish-hare-aarti', 'vishnu-sahasranamam', 'jagannath-ashtakam'],
+      stotrams: ['om-jai-jagdish-hare-aarti', 'vishnu-sahasranamam', 'jagannath-ashtakam', 'brahmarpanam-brahma-havir'],
       guides: ['jagannath-ratha-yatra-puri-guide', 'snana-yatra-snana-purnima-puri-guide', 'boita-bandana-bali-jatra-kartika-purnima-guide'],
     },
     sources: [
@@ -4193,9 +4193,17 @@ export const GUIDES_LEARN = [
         ]
       },
       {
+        "h": "Kartika Purnima and Boita Bandana",
+        "p": [
+          "The fifth day is Kartika Purnima, which closes both Panchuka and the month. Before dawn, families in Odisha go to a river, pond or sea and float small boats, called boita, made of banana stem, paper or thermocol, with a lamp and betel inside. The custom, Boita Bandana, remembers the old sea trade between Odisha and distant lands, and the traders called Sadhabas who sailed from the coast. Our guide to Boita Bandana and Bali Yatra covers it in full.",
+          "Different traditions place the awakening of Vishnu from his yogic sleep on Prabodhini Ekadashi or around Kartika Purnima, so you will hear both in Odisha. This is one reason the same days are holy in several ways."
+        ]
+      },
+      {
         "h": "Keeping Panchuka in a respectful way",
         "p": [
-          "No source asks for any particular count, mantra or spending. A simple way to keep the days is to eat vegetarian food, light an evening lamp at the tulsi, read a short prayer and keep the day calm. Prayers popular in these days include the Vishnu Sahasranamam and the Jagannath Ashtakam, both on this site. If you have a health condition, a fast should be changed to suit it, and any vow is a personal matter between a family and its tradition. Nothing here promises a worldly result."
+          "No source asks for any particular count, mantra or spending. A simple way to keep the days is to eat vegetarian food, light an evening lamp at the tulsi, read a short prayer and keep the day calm. Prayers popular in these days include the Vishnu Sahasranamam and the Jagannath Ashtakam, both on this site. If you have a health condition, a fast should be changed to suit it, and any vow is a personal matter between a family and its tradition. Nothing here promises a worldly result.",
+          "If you want to keep Panchuka at home without strict rules, a plan could be this. Keep to vegetarian food for the five days. Light a lamp at the tulsi plant each evening and stand there for a minute or two. Read a short Vishnu prayer on Ekadashi and Dwadashi, and on Purnima float a boita or light a lamp by the water. If you are away from home, a lamp in a window and a quiet prayer are enough."
         ]
       }
     ],
@@ -4225,6 +4233,14 @@ export const GUIDES_LEARN = [
         "a": "It is a folk saying that even cranes give up fish in these days. It is repeated in Odisha news reports and is a belief, not a rule."
       },
       {
+        "q": "Do I have to fast for Panchuka?",
+        "a": "No. The usual practice is a vegetarian diet and evening lamps. A single plain meal a day is a stricter personal choice, and it should not be taken up by anyone who is unwell."
+      },
+      {
+        "q": "Is Panchuka the same as Panchak in the north Indian calendar?",
+        "a": "No. Panchak in the north Indian almanac refers to a period of inauspicious nakshatras and is a different idea. The Odia Panchuka is a five-day devotional observance in Kartika."
+      },
+      {
         "q": "What happens on the last day?",
         "a": "Kartika Purnima ends Panchuka and the Kartika Brata. Many Odias bathe at dawn and float small boats in Boita Bandana, and at Puri the Rajarajeswara Besha is shown."
       }
@@ -4248,7 +4264,9 @@ export const GUIDES_LEARN = [
       "shreekhetra.com, Kartika Brata at Puri",
       "Hindu Blog, Panchuka in Kartik month in Orissa",
       "Wikipedia, Panchaka",
-      "HinduTone, Dev Uthani Ekadashi and Tulsi Vivah 2026 date city-wise (for the Smarta and Vaishnava Ekadashi)"
+      "HinduTone, Dev Uthani Ekadashi and Tulsi Vivah 2026 date city-wise (for the Smarta and Vaishnava Ekadashi)",
+      "Wikipedia, Beshas of Jagannath (table of Kartika beshas and tithis)",
+      "Odia calendar listing for 2026 (Kartika Purnima on 24 November)"
     ]
   },
 
@@ -4733,104 +4751,6 @@ export const GUIDES_LEARN = [
     ],
   },
   {
-    slug: 'panchuka-odisha-last-five-days-kartika-guide',
-    category: 'Festivals',
-    title: 'Panchuka in Odisha: The Last Five Days of Kartika, Puri Beshas and How to Observe Them',
-    description:
-      'A guide to Panchuka, the five days from Kartika Shukla Ekadashi to Kartika Purnima: the Puri beshas of Lord Jagannath, habisha, tulsi lamps, the 2026 dates, and how families who cannot keep the whole month observe it.',
-    h1: 'Panchuka in Odisha: The Last Five Days of Kartika',
-    intro:
-      'Panchuka is the closing stretch of the Odia month of Kartika. It starts on the Ekadashi of the bright fortnight and ends on Kartika Purnima, the full moon. Many families who could not keep the Kartika vow for the whole month keep these five days instead, and at Puri the deities appear in a different besha, or attire, on each day. This guide explains the dates, the daily beshas, the customs at home and the questions people ask most.',
-    sections: [
-      {
-        h: 'What Panchuka means and when it falls',
-        p: [
-          `The word comes from the idea of five days, the same sense as panch in Sanskrit. Panchuka is counted from Kartika Shukla Ekadashi to Kartika Purnima, so the five days are Ekadashi, Dwadashi, Trayodashi, Chaturdashi and Purnima. Because these are lunar days, the calendar date changes every year.`,
-          `In 2026 the dates fall from Friday 20 November to Tuesday 24 November. Ekadashi, often called Bada Ekadashi in Odisha and Prabodhini or Devutthana Ekadashi elsewhere, is on 20 November, and the Purnima tithi runs from the late evening of 23 November to the evening of 24 November, as listed by published panchang sources. Local panchangs and the Srimandir administration announce the final days, and the count can differ by a day in some years. A news report on the 2024 Panchuka at Puri, for example, said it would be observed for four days and did not give a reason, so it is wise to check the temple notice for the year you are planning.`,
-        ],
-      },
-      {
-        h: 'The five beshas of Lord Jagannath at Puri',
-        p: [
-          `At the Srimandir in Puri the deities are dressed in a special besha on each day of Panchuka, shown after the morning Abakasha ritual. Reports from the temple and the list of Kartika beshas give the same order. On Ekadashi the besha is Laxmi Narayan, also called Thiakia. On Dwadashi it is Bankachuda. On Trayodashi it is Tribikrama, also called Dalikia. On Chaturdashi it is Laxmi Narasimha, also called Adakia. On Purnima it is the golden Raja Rajeswar besha, which belongs to the family of Suna Besha.`,
-          `Each name points to a form of Vishnu or a royal attire. Laxmi Narayan shows Vishnu with Lakshmi, Tribikrama recalls the Vamana story in which Vishnu takes three steps, and Laxmi Narasimha shows the man-lion form with Lakshmi. We do not describe the ornaments of each besha here, because the sources we checked list the names and days but not the dress in detail, and the servitors who prepare them are the proper authority. Devotees who stay in Puri during these days often plan their darshan around the besha of the day.`,
-        ],
-      },
-      {
-        h: 'Why people keep Panchuka',
-        p: [
-          `The whole month of Kartika is a time of vegetarian food and daily worship in Odisha, with the Habisha diet and evening lamps at the tulsi plant. Not everyone can keep a month of discipline. Panchuka is the shorter route: people who could not observe Kartika for the month take up the vow for the last five days, and tradition says it brings a similar merit. We cannot verify that claim, and it is best read as the belief of those who keep the vow rather than as a promise of any result.`,
-          `A story told in connection with Panchuka is about a hunter who killed animals through the whole month but held back during these five days and was said to have gained liberation. Stories of this kind appear in popular retellings and the Kartika Purana tradition. They are meant to show that a short period of real restraint is valued, and they vary from teller to teller.`,
-        ],
-      },
-      {
-        h: 'Customs at home',
-        p: [
-          `Most families who keep Panchuka eat only vegetarian food and avoid fish, meat and eggs for the five days. Many follow Habisha, the simple boiled meal eaten without certain vegetables. Some people avoid plucking leaves and flowers, including tulsi leaves, as an act of non-harm, and in villages people put out food for birds and animals.`,
-          `Elderly people, and especially women known as Habishyalis, often eat a single plain meal a day without salt or spices, and many stay in Puri for the five days to visit the Jagannath temple. This is a personal vow, and anyone who is unwell, pregnant or elderly should eat as their doctor advises. The prayer and the lamp are still complete without a strict fast.`,
-        ],
-      },
-      {
-        h: 'Tulsi, lamps and evening worship',
-        p: [
-          `The tulsi chaura, the raised altar of the basil plant, is the centre of the home observance. People wake before sunrise, finish their morning tasks and worship Lakshmi and Narayana. In the evening an earthen lamp is lit at the tulsi plant, a rangoli is drawn in front of it, and conch shells and the ululation called hulahuli are sounded. Married women worship tulsi as Vrindavati, praying for the wellbeing of their family.`,
-          `Garuda Dwadashi falls within Panchuka and is marked with tulsi puja. Many households also read from the Kartika Purana, or recite short Vishnu prayers such as the Shantakaram Bhujagashayanam verse and the Krishna Vasudevaya mantra. A few minutes with a lamp and a verse is a perfectly valid way to keep the days.`,
-        ],
-      },
-      {
-        h: 'Kartika Purnima and Boita Bandana',
-        p: [
-          `The fifth day is Kartika Purnima, which closes both Panchuka and the month. Before dawn, families in Odisha go to a river, pond or sea and float small boats, called boita, made of banana stem, paper or thermocol, with a lamp and betel inside. The custom, Boita Bandana, remembers the old sea trade between Odisha and distant lands, and the traders called Sadhabas who sailed from the coast. Our guide to Boita Bandana and Bali Yatra covers it in full.`,
-          `At the Srimandir the day has the golden Raja Rajeswar besha. Different traditions place the awakening of Vishnu from his yogic sleep on Prabodhini Ekadashi or around Kartika Purnima, so you will hear both in Odisha. This is one reason the same days are holy in several ways.`,
-        ],
-      },
-      {
-        h: 'A simple plan for the five days',
-        p: [
-          `If you want to keep Panchuka at home without strict rules, a plan could be this. Keep to vegetarian food for the five days. Light a lamp at the tulsi plant each evening and stand there for a minute or two. Read a short Vishnu prayer on Ekadashi and Dwadashi, and on Purnima float a boita or light a lamp by the water. If you are away from home, a lamp in a window and a quiet prayer are enough.`,
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: 'When is Panchuka in 2026?',
-        a: 'It runs from Kartika Shukla Ekadashi on Friday 20 November to Kartika Purnima on Tuesday 24 November 2026. Check the Srimandir notice or a local panchang, since the temple count can differ by a day in some years.',
-      },
-      {
-        q: 'What are the five beshas at Puri during Panchuka?',
-        a: 'Laxmi Narayan on Ekadashi, Bankachuda on Dwadashi, Tribikrama on Trayodashi, Laxmi Narasimha on Chaturdashi, and the golden Raja Rajeswar besha on Kartika Purnima.',
-      },
-      {
-        q: 'Who keeps Panchuka?',
-        a: 'Mostly people who could not observe the vow for the whole month of Kartika, and elderly devotees who stay in Puri. Anyone may keep it in the way that suits their health.',
-      },
-      {
-        q: 'Do I have to fast for Panchuka?',
-        a: 'No. The usual practice is a vegetarian diet and evening lamps. A single plain meal a day is a stricter personal choice, and it should not be taken up by anyone who is unwell.',
-      },
-      {
-        q: 'Is Panchuka the same as Panchak in the north Indian calendar?',
-        a: 'No. Panchak in the north Indian almanac refers to a period of inauspicious nakshatras and is a different idea. The Odia Panchuka is a five-day devotional observance in Kartika.',
-      },
-      {
-        q: 'What is Boita Bandana?',
-        a: 'It is the custom of floating small boats with lamps on Kartika Purnima morning, remembering the sea trade of ancient Odisha. It closes Panchuka.',
-      },
-    ],
-    related: {
-      stotrams: ['shantakaram-bhujagashayanam', 'krishna-vasudevaya-mantra', 'vishnu-sahasranamam', 'jagannath-ashtakam'],
-      guides: ['kartika-month-odisha-guide', 'boita-bandana-bali-jatra-kartika-purnima-guide', 'ekadashi-vrat-guide', 'kali-puja-odisha-dipabali-amavasya-puri-guide'],
-    },
-    sources: [
-      'Hindu Blog, Panchuka in Kartik month in Orissa (hindu-blog.com)',
-      'OMMCOM News, Four-day Panchuka commences, report on the Puri Srimandir beshas',
-      'OdishaTV, report on Bankachuda Besha on the second day of Panchuka at Puri Srimandir',
-      'Wikipedia, Beshas of Jagannath (table of Kartika beshas and tithis)',
-      'Hindutone, Karthika Pournami 2026 purnima time (tithi times and the date of Devutthana Ekadashi)',
-      'Odia calendar listing for 2026 (Kartika Purnima on 24 November)',
-    ],
-  },
-  {
     slug: 'guru-brahma-guru-vishnu-meaning-and-guru-purnima',
     category: 'Understanding practice',
     title: 'Guru Brahma Guru Vishnu: Word-by-Word Meaning and Guru Purnima',
@@ -4920,95 +4840,6 @@ export const GUIDES_LEARN = [
     ],
   },
   {
-    slug: 'tulsi-vivah-guide',
-    category: 'Festivals',
-    title: 'Tulsi Vivah: Date, Story, Rituals and How to Observe It at Home',
-    description:
-      'A guide to Tulsi Vivah, the ritual wedding of the tulsi plant to Vishnu as a shaligram or amla branch: the 2026 date, the legend of Vrinda and Jalandhara, regional customs, a simple home puja and how it fits with Prabodhini Ekadashi and Kartika.',
-    h1: 'Tulsi Vivah: The Wedding of Tulsi and Vishnu',
-    intro:
-      'Tulsi Vivah, also called Tulasi Vivaha or Tulasi Kalyanam, is the ceremonial marriage of the tulsi plant to Vishnu. It is held in Kartika, after Prabodhini Ekadashi, and many households treat it as the start of the wedding season. This guide gives the 2026 date, the legend behind it, how different regions keep the day, and a simple way to observe it at home.',
-    sections: [
-      {
-        h: 'What Tulsi Vivah is',
-        p: [
-          `In the ritual, the tulsi (holy basil) plant, regarded as a form of Lakshmi, is married to Vishnu. Vishnu is represented by a shaligram stone, which is a black fossilised stone worshipped as a form of Vishnu, or in some regions by a branch of the amla tree. The ceremony is performed in the courtyard or on the balcony where the tulsi grows, usually on a raised platform called the Vrindavan or tulsi chaura.`,
-          `The festival marks the end of the monsoon and the close of Chaturmasya, the four months in which marriages are traditionally avoided. That is why Tulsi Vivah is taken as the signal that weddings can begin again.`,
-        ],
-      },
-      {
-        h: 'When it falls, and the 2026 date',
-        p: [
-          `Tulsi Vivah is held between Prabodhini Ekadashi, the eleventh day of the bright fortnight of Kartika, and Kartika Purnima, the full moon. The exact day depends on the region and on the family. In Telugu tradition it is kept on Kartika Shukla Dwadashi, which is also called Ksheerabdhi Dwadashi. Some households keep it on the evening of Ekadashi, and in some places it runs over several days.`,
-          `In 2026, Prabodhini Ekadashi is on Friday 20 November and Tulasi Vivah, on Ksheerabdi Dwadashi, is listed for Saturday 21 November, according to Drik Panchang as reported by Hindutone. Dates abroad can differ by a day, so check a local panchang for your city.`,
-        ],
-      },
-      {
-        h: 'The legend of Vrinda and Jalandhara',
-        p: [
-          `The best known story, found in the Puranas such as the Padma Purana and the Skanda Purana, is about Vrinda, a devoted follower of Vishnu who was married to the demon king Jalandhara. Her faithfulness made her husband almost impossible to defeat. When Jalandhara fought Shiva, Vishnu took Jalandhara's form and deceived Vrinda, and her vow was broken. In grief and anger she cursed Vishnu and gave up her life.`,
-          `In one telling the tulsi plant grew from the place where she died, and Vishnu, remorseful, promised to marry her. That promise is the origin of the yearly wedding, in which Vishnu as the shaligram is joined to tulsi. Other traditions tell it differently. One Vaishnava account says tulsi arose from a tear of joy that Vishnu shed during the churning of the ocean, and another says Lakshmi herself stayed on earth as the plant. The versions differ between texts and regions, and the festival does not depend on any one of them.`,
-        ],
-      },
-      {
-        h: 'How the ceremony is done',
-        p: [
-          `Devotees usually fast until the evening and then begin the wedding. A small mandap is built around the tulsi plant,. The tulsi is dressed as a bride in a sari and jewellery, and sometimes given a paper face. The groom, the shaligram or amla branch, is dressed in a dhoti. Both are bathed and garlanded and linked with a cotton thread. A couple who have no daughter often act as the bride's parents and perform the giving away of the bride.`,
-          `The offerings commonly include sugarcane, coconut, fruits and groundnuts. Afterwards the food is shared as prasad, and in many families the ceremony ends with an aarti and a song of blessing.`,
-        ],
-      },
-      {
-        h: 'Regional customs',
-        p: [
-          `In Maharashtra a white cloth is held between the couple while the Mangal Ashtaka verses are sung, and rice mixed with vermilion is thrown at the words of blessing. The rite is mostly performed by women, and tulsi is given a mangalsutra. In Telugu homes the festival is Tulasi Kalyanam, with an amla branch for Vishnu and a full puja with sixteen offerings. In Saunja in Bihar the celebration runs for three days from Ekadashi to Trayodashi, with recitation of the Ramcharitmanas and a procession. At two Rama temples in Saurashtra the image of Vishnu is carried in a wedding procession to the bride's temple.`,
-          `In Odisha, the tulsi chaura stands at the centre of every Kartika evening, and the days from Ekadashi to Purnima are kept as Panchuka. Families who do not hold a full wedding still light a lamp at the tulsi plant on these days. See our guides on Panchuka and on Kartika in Odisha.`,
-        ],
-      },
-      {
-        h: 'A simple way to observe it at home',
-        p: [
-          `You need a tulsi plant, a small image or a shaligram if you have one, flowers, a lamp, fruit and sugarcane or sweet if you can get them. Clean the area around the plant and decorate it simply. In the evening light a lamp, offer flowers and fruit, and say a short Vishnu prayer. The Shantakaram Bhujagashayanam verse or the Krishna Vasudevaya mantra both fit well.`,
-          `Take care not to pluck tulsi leaves unnecessarily, since many families avoid it during these days. If you do not have a shaligram, a picture of Vishnu or a small lamp is a valid representation. The fast is optional, and anyone who is unwell, pregnant or elderly should eat as their doctor advises.`,
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: 'When is Tulsi Vivah in 2026?',
-        a: 'Prabodhini Ekadashi is on Friday 20 November 2026 and Tulasi Vivah on Ksheerabdi Dwadashi is listed for Saturday 21 November, per Drik Panchang as reported by Hindutone. Dates vary by place, so check a local panchang.',
-      },
-      {
-        q: 'Who is Vishnu in the ceremony?',
-        a: 'A shaligram stone, a black fossilised stone worshipped as Vishnu, or in some regions an amla branch. A picture of Vishnu is also used.',
-      },
-      {
-        q: 'Why is it done in Kartika?',
-        a: 'It follows Prabodhini Ekadashi, when Vishnu is said to wake from his sleep, and comes at the end of Chaturmasya, so it marks the start of the wedding season.',
-      },
-      {
-        q: 'Is a fast required?',
-        a: 'Many people fast until the evening ceremony, but it is optional. Those who are unwell, pregnant or elderly should eat as their doctor advises.',
-      },
-      {
-        q: 'Can I do it without a shaligram?',
-        a: 'Yes. A picture of Vishnu, an amla branch or a lamp is accepted in many homes. Devotion matters more than the object.',
-      },
-      {
-        q: 'Is the story the same everywhere?',
-        a: 'No. The Vrinda and Jalandhara story is the best known, but other traditions say tulsi came from a tear of Vishnu or from Lakshmi. The festival does not depend on a single version.',
-      },
-    ],
-    related: {
-      stotrams: ['shantakaram-bhujagashayanam', 'krishna-vasudevaya-mantra', 'vishnu-sahasranamam'],
-      guides: ['kartika-month-odisha-guide', 'panchuka-odisha-last-five-days-kartika-guide', 'ekadashi-vrat-guide', 'boita-bandana-bali-jatra-kartika-purnima-guide'],
-    },
-    sources: [
-      'Wikipedia, Tulasi Vivaha (timing, legends, rituals and regional customs, citing the Skanda, Padma and Shiva Puranas)',
-      'Wikipedia, Prabodhini Ekadashi (Vishnu awakening and the end of Chaturmasya)',
-      'Hindutone, Tulsi Vivah 2026 (dates from Drik Panchang)',
-    ],
-  },
-  {
     slug: 'prabodhini-ekadashi-bada-ekadashi-odisha-guide',
     category: 'Festivals',
     title: 'Prabodhini Ekadashi 2026: Meaning, the End of Chaturmasya and Bada Ekadashi in Odisha',
@@ -5092,7 +4923,7 @@ export const GUIDES_LEARN = [
     ],
     related: {
       stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'shantakaram-bhujagashayanam'],
-      guides: ['ekadashi-vrat-guide', 'panchuka-odisha-last-five-days-kartika-guide', 'tulsi-vivah-guide', 'kartika-month-odisha-guide'],
+      guides: ['ekadashi-vrat-guide', 'panchuka-kartika-last-five-days-odisha-guide', 'tulsi-vivah-dev-uthani-ekadashi-guide', 'kartika-month-odisha-guide'],
     },
     sources: [
       'Wikipedia, Prabodhini Ekadashi (names, Chaturmasya, customs and regional observances)',
@@ -5101,5 +4932,219 @@ export const GUIDES_LEARN = [
       'Hindutone, Tulsi Vivah 2026 (dates from Drik Panchang)',
       'OMMCOM News report on the Panchuka beshas at the Puri Srimandir',
     ],
+  },
+  {
+    "slug": "kartika-purnima-dev-deepawali-guide",
+    "category": "Festivals",
+    "title": "Kartika Purnima 2026: Dev Deepawali, Tripurari Purnima and Guru Nanak Jayanti on 24 November",
+    "description": "What Kartika Purnima is, why 24 November 2026 is also Dev Deepawali, Tripurari Purnima and Guru Nanak Jayanti, the Tripurasura story, Varanasi's lamp festival, regional customs and a safe way to light lamps at home.",
+    "h1": "Kartika Purnima and Dev Deepawali",
+    "intro": "Kartika Purnima, the full moon of the month of Kartika, is one of the most crowded days of the Hindu year. In different places it is called Dev Deepawali, Tripurari Purnima, Karthigai Deepam or Guru Nanak Jayanti, and Jains and Hindus both treat it as a pilgrimage day. This guide explains what each name refers to, when the day falls in 2026, and how families keep it at home without any special equipment.",
+    "sections": [
+      {
+        "h": "What Kartika Purnima is",
+        "p": [
+          "Kartika Purnima is the full moon day of the lunar month of Kartika, which falls in November or sometimes December. It comes about fifteen days after Diwali, which is why one of its names, Dev Deepawali, means the Diwali of the gods. It is also called Tripurari Purnima, and it closes the month-long Kartika snan, the practice of bathing before dawn in a river or other sacred water through the month.",
+          "The day is sacred to several traditions at once. Hindus link it to Shiva and to Vishnu, Sikhs mark the birth anniversary of Guru Nanak on it, and Jains travel to the Shatrunjaya hills near Palitana. A holy dip in a river or lake is prescribed on the day, and bathing in the Ganga at Varanasi and in the lake at Pushkar is considered especially meritorious."
+        ]
+      },
+      {
+        "h": "The date in 2026",
+        "p": [
+          "In India, Kartika Purnima falls on Tuesday 24 November 2026. A Drik Panchang based listing gives the Purnima tithi as beginning at 11:42 pm IST on Monday 23 November and ending at 8:23 pm IST on Tuesday 24 November. Because the tithi is running at dawn on the 24th, a bath before sunrise that day falls within Purnima, and the evening lamps are lit before it ends.",
+          "Outside India the date can shift. In some North American west-coast cities the full moon tithi covers Monday 23 November, so confirm with your local temple or a panchang made for your city. A tithi is a lunar day and does not match the clock day, which is why festival dates are never the same on the Gregorian calendar from year to year."
+        ]
+      },
+      {
+        "h": "The story of Tripurari Purnima",
+        "p": [
+          "The name Tripurari is an epithet of Shiva and means the enemy of Tripura. In the Puranic story the demon Tripurasura had conquered the world and built three cities that could fly. Shiva destroyed all three with a single arrow, and the gods celebrated by lighting lamps. That celebration is the origin of the name Dev Deepawali. The Shiva Purana and the Skanda Purana are named as sources for the story.",
+          "The day is also observed as the day of the manifestation of Matsya, the fish avatar of Vishnu. Shaivas and Vaishnavas both keep the day, and many families worship Shiva and Vishnu together as Hari-Hara. In Telugu regions a ritual fire called Jwala Toranam is lit after dusk, and it is said to re-enact the burning of Tripura."
+        ]
+      },
+      {
+        "h": "Dev Deepawali in Varanasi",
+        "p": [
+          "The best known celebration is on the ghats of Varanasi. It is the last of five days that begin on Prabodhini Ekadashi. The ghats from Ravidas Ghat to Rajghat are lit with more than a million earthen lamps, people bathe in the Ganga and float lamps on the river, and an evening Ganga aarti is performed by 21 young priests and 24 young women. Boat rides across the river to see the lit ghats are popular.",
+          "According to Wikipedia, the modern lamp lighting began at Dashashwamedh Ghat in 1991, started by Pandit Kishori Raman Dubey, so as a mass festival it is much newer than the Puranic story behind it. Expect large crowds, and plan boat and ghat visits well in advance if you travel."
+        ]
+      },
+      {
+        "h": "Guru Nanak Jayanti and the other traditions",
+        "p": [
+          "Sikhs observe Guru Nanak's Gurpurab on Kartika Purnima. Sources note that the date of his birth is debated: tradition places it in the month of Katik, while some modern scholars suggest the month of Baisakh, and the observance is reported to have moved to Katik in the time of Maharaja Ranjit Singh. In 2026 the Gurpurab falls on 24 November, with gurdwara programmes of kirtan and langar.",
+          "At Pushkar in Rajasthan the fair in honour of Brahma runs from Prabodhini Ekadashi to Kartika Purnima, and the full moon day is the most important. In Tamil Nadu the lamp festival Karthigai Deepam is held when the Purnima coincides with the Krittika nakshatra, and homes are lined with rows of lamps. In Odisha, people float small lit boats before dawn in Boita Bandana to remember the old sea trade of Kalinga. Our guides to Boita Bandana and to Panchuka explain the Odia customs."
+        ]
+      },
+      {
+        "h": "How families keep the day at home",
+        "p": [
+          "A plain home observance has four parts. Bathe before sunrise, taking a short resolve (sankalpa) to keep the day. Worship Shiva and Vishnu with flowers and a simple offering, and some families hold a Satyanarayana puja. In the evening, light lamps at the tulsi plant, at the doorway and in front of the deity, and offer lamps in a temple if you can reach one. Some people also light a large lamp with 365 wicks as a personal offering.",
+          "Nothing in these customs asks for a particular count of lamps or amount of spending, and a single lamp lit with attention is as complete as a hundred. Prayers on this site that suit the day include the Shiva Panchakshara Stotram, the Lingashtakam and the Vishnu Sahasranamam."
+        ]
+      },
+      {
+        "h": "Lighting lamps safely",
+        "p": [
+          "Keep lamps on a stable metal tray or a stone surface, away from curtains and paper. Never leave a flame unattended, keep water nearby, and keep children at a safe distance from large lamps and from the Jwala Toranam. Float lamps only where it is safe and allowed, and clear them afterwards so they do not litter the water. In flats abroad, follow the building rules on open flames and use sealed glass lamps or LED diyas where flames are not allowed."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When is Kartika Purnima in 2026?",
+        "a": "Tuesday 24 November 2026 in India. The Purnima tithi runs from 11:42 pm IST on 23 November to 8:23 pm IST on 24 November per a Drik Panchang based listing. Abroad, check a local panchang because the date can differ."
+      },
+      {
+        "q": "Why is it called Dev Deepawali?",
+        "a": "After Shiva destroyed the three cities of Tripurasura, the gods are said to have celebrated with lamps. The day is about fifteen days after Diwali, so it is called the Diwali of the gods."
+      },
+      {
+        "q": "Is Kartika Purnima the same as Guru Nanak Jayanti?",
+        "a": "They fall on the same day. Sikhs observe Guru Nanak's birth anniversary on Kartika Purnima, while Hindus keep it as Dev Deepawali and Tripurari Purnima."
+      },
+      {
+        "q": "Do I have to bathe in the Ganga?",
+        "a": "No. A bath before dawn at home, with a short resolve, is accepted by many families, and a river or lake bath is practised where it is available and safe."
+      },
+      {
+        "q": "Do I need to fast on Kartika Purnima?",
+        "a": "Customs differ, and the sources we checked fix no single rule. Nobody should fast who is unwell, pregnant or on medicine that needs food, and this guide gives no health advice."
+      },
+      {
+        "q": "What is Karthigai Deepam?",
+        "a": "It is the lamp festival of Tamil Nadu, held when the Purnima coincides with the Krittika nakshatra. Homes are lined with rows of lamps."
+      },
+      {
+        "q": "How is it kept in Odisha?",
+        "a": "People float small lit boats before dawn in Boita Bandana. The day also ends Panchuka and the Kartika Brata, and at Puri the Rajarajeswara Besha is shown."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "shiva-panchakshara-stotram",
+        "lingashtakam",
+        "vishnu-sahasranamam",
+        "shiva-tandav"
+      ],
+      "guides": [
+        "boita-bandana-bali-jatra-kartika-purnima-guide",
+        "panchuka-kartika-last-five-days-odisha-guide",
+        "kartika-month-odisha-guide",
+        "karthika-masam-telugu-month-2026-dates-guide",
+        "tulsi-vivah-dev-uthani-ekadashi-guide"
+      ]
+    },
+    "sources": [
+      "Wikipedia, Kartika Purnima (names, Tripurasura legend, Matsya, Guru Nanak, Pushkar, Shatrunjaya, Karthigai Deepam, Boita Bandana)",
+      "Wikipedia, Dev Deepavali (Varanasi) (the lamps on the ghats, the aarti and the 1991 start of the lamp lighting)",
+      "HinduTone, Kartik Purnima 2026: Date, Snan, Deep Daan and Puja Vidhi (date, tithi times from Drik Panchang, Jwala Toranam, lamp safety)",
+      "HinduTone, Karthika Pournami 2026 (the 24 November date and regional note)"
+    ]
+  },
+  {
+    "slug": "how-to-perform-aarti-at-home-guide",
+    "category": "Daily practice",
+    "title": "How to Perform Aarti at Home: Steps, Items, Meaning and Fire Safety",
+    "description": "A plain guide to doing aarti at home: what aarti means, the items on the thali, how to wave the lamp, how to take the aarti, which songs to sing, and fire safety for camphor, children and flats.",
+    "h1": "How to Perform Aarti at Home",
+    "intro": "Aarti is the part of worship in which a lit lamp is waved before the deity while a hymn is sung. It is simple enough for a child to join, and many families do it every morning or evening. This guide explains what aarti is, what you need, the steps in order, how to take the aarti yourself, and how to keep the flame safe at home.",
+    "sections": [
+      {
+        "h": "What aarti is",
+        "p": [
+          "Aarti, also spelled arti or arati, is a ritual of worship in which a flame is waved before an image of a deity. The word also names the hymn sung while it is done. The name comes from the Sanskrit aratrika, understood as something that removes ratri, the darkness of night. The ritual is thought to descend from the Vedic fire ceremonies. It is part of a puja and usually comes after the main worship.",
+          "In temples aarti is done at fixed times, in most places at least twice a day, and some traditions do it up to eight times. At home one aarti in the morning or evening is enough. The tradition does not ask for more."
+        ]
+      },
+      {
+        "h": "What you need",
+        "p": [
+          "A plate or thali, a small lamp (diya) with a cotton wick and ghee, which is the traditional fuel, and a bell. Oil is also used. Camphor is optional, and if you use it, keep it in its own holder on the plate. Many families add flowers, a little kumkum, rice grains and a small vessel of water. A stick of incense is offered just before the aarti in many homes.",
+          "Some traditions give each item on the plate a meaning, as the five elements: the lamp for fire, water for water, flowers for earth, and a fan for air and space. You do not need all of them. The plate and the lamp are the heart of it."
+        ]
+      },
+      {
+        "h": "The steps in order",
+        "p": [
+          "Finish your puja and any food offering first. Light the lamp and, if you are using camphor, set it in its holder. Stand facing the deity, hold the plate in the right hand and the bell in the left, and begin the song. Ring the bell steadily as you sing.",
+          "Wave the lamp in slow clockwise circles before the image. Some families follow a pattern of four circles at the feet, two at the navel, one at the face and seven around the whole form. Others simply make clockwise circles through the length of the song. Both are accepted, and no source fixes one number for everyone. When the song ends, offer the aarti to the others present and finish with a bow and a short personal prayer."
+        ]
+      },
+      {
+        "h": "How to take the aarti",
+        "p": [
+          "After the lamp has been waved, it is brought to the devotees. Hold both palms briefly over the flame, a few centimetres above it and without touching it, then bring the hands to the forehead or touch the eyes or the top of the head. It is a gesture of receiving the light and of purifying oneself. Keep children's hands well above the flame. In temples it is common to leave a small voluntary offering on the plate."
+        ]
+      },
+      {
+        "h": "Which songs to sing",
+        "p": [
+          "Om Jai Jagdish Hare is described as the most commonly sung aarti and is called a universal aarti. Other aartis are sung for Shiva, Lakshmi, Ganesha, Saraswati, Durga, Ganga, Tulsi and Surya, and Sukhakarta Dukhaharta is popular for Ganesha in Maharashtra. South Indian homes often use a short Sanskrit verse, a mangala harati song, or simply chant Om and the names of the deity. On this site you can read Om Jai Jagdish Hare and the Ganesh Aarti with the words in four scripts.",
+          "Sikh practice differs: the aarti is sung as kirtan without the ritual items. In Vaishnava temples the offering includes incense, lamp, water, cloth, flowers and a whisk, in a set order, with conch and bell. Follow your own family or temple method if it differs from this plain version."
+        ]
+      },
+      {
+        "h": "Fire safety at home",
+        "p": [
+          "Never hold burning camphor in the bare hand. Use a holder or a separate plate. Keep sleeves, dupattas, saree ends and long hair away from the flame. Let children ring the bell and offer the flowers, and hold the plate together with an adult. Put out camphor and lamps before leaving the room, and never leave a flame unattended.",
+          "In an apartment or abroad, use a single ghee lamp instead of camphor, keep a window slightly open, and stand away from the smoke detector. Never cover or disable a detector. An electric lamp is an acceptable substitute where flames are not allowed, and your lease or building rules decide this, not the ritual."
+        ]
+      },
+      {
+        "h": "Common questions about doing it right",
+        "p": [
+          "People worry most about getting the number of circles or the order wrong. The sources describe several patterns and none claims to be the only one. What the tradition values is a steady voice, a clean plate and a calm mind. Aarti does not promise any worldly result and does not replace medical or professional advice."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What does aarti mean?",
+        "a": "It is a ritual in which a flame is waved before the deity, and the hymn sung with it. The word comes from the Sanskrit aratrika, understood as removing the darkness of night."
+      },
+      {
+        "q": "Which direction do I wave the lamp?",
+        "a": "Clockwise, in front of the deity. Some families follow a set pattern of circles and others make slow circles through the song."
+      },
+      {
+        "q": "How often should I do aarti at home?",
+        "a": "Once in the morning or evening is enough. Temples do it at set times, in most cases at least twice a day."
+      },
+      {
+        "q": "Can I do aarti without camphor?",
+        "a": "Yes. A single ghee or oil lamp is enough, and many apartments prefer it for safety."
+      },
+      {
+        "q": "How do I take the aarti?",
+        "a": "Hold both palms briefly over the flame without touching it, then touch your forehead, eyes or the top of the head."
+      },
+      {
+        "q": "Which aarti song should I sing?",
+        "a": "Om Jai Jagdish Hare is the most widely sung, and others are sung for particular deities. Sing the one for the deity you have worshipped."
+      },
+      {
+        "q": "Is it safe to do aarti in a flat?",
+        "a": "Yes, with care. Use one ghee lamp, keep a window open, stay away from the smoke detector and follow building rules, or use an electric lamp where flames are not allowed."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "om-jai-jagdish-hare-aarti",
+        "ganesh-aarti",
+        "karagre-vasate-lakshmi"
+      ],
+      "guides": [
+        "stotram-mantra-chalisa-aarti-difference",
+        "morning-prayer-routine",
+        "night-prayer-routine",
+        "spiritual-routine-for-beginners"
+      ]
+    },
+    "sources": [
+      "Wikipedia, Arti (Hinduism) (meaning, etymology, items, clockwise waving, timing, songs, Sikh and other practice)",
+      "HinduTone, How to Do Aarti Correctly: Steps, Meaning, What You Need and Safety Tips (steps, taking the aarti, safety and apartment advice)",
+      "Heart of Hinduism fact sheet on the arati ceremony (Vaishnava order of offerings)"
+    ]
   },
 ];

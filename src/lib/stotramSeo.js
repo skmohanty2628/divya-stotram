@@ -167,6 +167,11 @@ const SEO_COPY = {
     description:
       'Read Om Purnamadah Purnamidam (ॐ पूर्णमदः पूर्णमिदं), the peace mantra of the Isha Upanishad, in English, Hindi, Odia and Telugu with meaning, when it is recited, and a video to follow along.',
   },
+  'brahmarpanam-brahma-havir': {
+    title: 'Brahmarpanam Brahma Havir Lyrics in English, Hindi, Odia & Telugu with Meaning (Bhojan Mantra)',
+    description:
+      'Read Brahmarpanam Brahma Havir (ब्रह्मार्पणं ब्रह्म हविः), Bhagavad Gita 4.24, the food prayer said before meals, in English, Hindi, Odia and Telugu with meaning, when it is recited, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

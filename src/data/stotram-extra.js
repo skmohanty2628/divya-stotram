@@ -406,4 +406,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does it guarantee a result?', a: 'No. It is a prayer and a thought to reflect on. It makes no promise of any worldly result and does not replace medical, legal or financial advice.' },
     ],
   },
+  'brahmarpanam-brahma-havir': {
+    what: `Brahmarpanam Brahma Havir is verse 24 of chapter 4 of the Bhagavad Gita. In the Gita it belongs to Krishna's account of different kinds of yajna, or sacrifice, and it describes a person who sees Brahman in the whole act of offering. Over time it became one of the best known prayers to say before a meal, and many families, schools and ashrams teach it to children. Saying it at the table is a custom of use. The Gita itself does not mention meals in this verse.`,
+    meaning: `The verse says that the act of offering is Brahman, the oblation is Brahman, and it is poured by Brahman into the fire, which is also Brahman. The one who is absorbed in action in this way reaches Brahman alone. Read at a meal, it asks the person to treat the food and the act of eating as an offering and to be thankful, instead of eating in a hurry. People understand it in different ways, from a plain note of gratitude to a full teaching on seeing the divine in every action.`,
+    benefits: [
+      'A short pause of thanks before eating, easy for children to learn',
+      'Turns a daily habit into a small act of attention and gratitude',
+      'Comes from a well known scripture, so the wording is the same in every region',
+      'Can be said by the whole family together at the table',
+      'Open to everyone, with no initiation or special preparation needed',
+    ],
+    bestTime: `It is said just before a meal, usually after washing the hands and sitting down, and in some homes after the food has been served. The text fixes no count, and one recitation is normal. Some families add other verses or a line of thanks, and practice differs from home to home.`,
+    faqs: [
+      { q: 'Where does Brahmarpanam Brahma Havir come from?', a: 'It is Bhagavad Gita chapter 4, verse 24. It sits in the part of the Gita where Krishna describes many kinds of sacrifice.' },
+      { q: 'What does it mean?', a: 'It says that the offering, the oblation, the fire and the one who offers are all Brahman, and that the person absorbed in action in this way reaches Brahman. Before a meal it is used as a prayer of gratitude.' },
+      { q: 'Is it only for meals?', a: 'No. The verse is about seeing Brahman in action in general. Saying it before eating is a later custom, and it can also be read as part of a study of the Gita.' },
+      { q: 'When should I say it?', a: 'Just before eating. Any meal of the day is fine, and one recitation is enough.' },
+      { q: 'Do I need to know Sanskrit?', a: 'No. You can read it in Hindi, Odia, Telugu or English letters on this page and listen to the video to follow the sound. The meaning is given alongside.' },
+      { q: 'Does it guarantee a result?', a: 'No. It is a prayer and a thought to reflect on. It makes no promise of any worldly result and does not replace medical, dietary or other professional advice.' },
+    ],
+  },
 };

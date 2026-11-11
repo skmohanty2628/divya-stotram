@@ -31,7 +31,7 @@ Sarva Papa Hare Devi Mahalakshmi Namostute`,
       script:{
         od:`ନମସ୍ତେ ଗରୁଡାରୂଢେ କୋଲାସୁରଭୟଙ୍କରି।
 ସର୍ବପାପହରେ ଦେବୀ ମହାଲକ୍ଷ୍ମୀ ନମୋସ୍ତୁତେ॥`,
-        te:`నమస్తే గరుడారూఢే కొలాసుర భయంకరి।
+        te:`నమస్తే గరుడారూఢే కోలాసురభయంకరి।
 సర్వపాపహరే దేవి మహాలక్ష్మి నమోస్తుతే॥`
       },
       meaning:{
@@ -65,14 +65,14 @@ Sarva Dukha Hare Devi Mahalakshmi Namostute`,
     {
       id:4, type:'shloka', num:4,
       original:`सिद्धिबुद्धिप्रदे देवि भुक्तिमुक्तिप्रदायिनि।
-मन्त्ररूपे सदा देवि महालक्ष्मि नमोऽस्तुते॥`,
+मन्त्रमूर्ते सदा देवि महालक्ष्मि नमोऽस्तुते॥`,
       transliteration:`Siddhi Buddhi Prade Devi Bhukti Mukti Pradayini
-Mantraroope Sada Devi Mahalakshmi Namostute`,
+Mantramoorte Sada Devi Mahalakshmi Namostute`,
       script:{
         od:`ସିଦ୍ଧିବୁଦ୍ଧିପ୍ରଦେ ଦେବୀ ଭୁକ୍ତିମୁକ୍ତିପ୍ରଦାୟିନୀ।
-ମନ୍ତ୍ରରୂପେ ସଦା ଦେବୀ ମହାଲକ୍ଷ୍ମୀ ନମୋସ୍ତୁତେ॥`,
-        te:`సిద్ధిబుద్ధిప్రదే దేవి భుక్తిముక్తి ప్రదాయిని।
-మంత్రరూపే సదా దేవి మహాలక్ష్మి నమోస్తుతే॥`
+ମନ୍ତ୍ରମୂର୍ତ୍ତେ ସଦା ଦେବୀ ମହାଲକ୍ଷ୍ମୀ ନମୋସ୍ତୁତେ॥`,
+        te:`సిద్ధిబుద్ధిప్రదే దేవి భుక్తిముక్తిప్రదాయిని।
+మంత్రమూర్తే సదా దేవి మహాలక్ష్మి నమోస్తుతే॥`
       },
       meaning:{
         en:`Goddess who grants wisdom, success, and liberation.`,
@@ -127,12 +127,12 @@ Mahapapa Hare Devi Mahalakshmi Namostute`,
       original:`पद्मासनस्थिते देवि परब्रह्मस्वरूपिणि।
 परमेशि जगन्मातर्महालक्ष्मि नमोऽस्तुते॥`,
       transliteration:`Padmasana Sthite Devi Parabrahma Swarupini
-Parameshi Jaganmata Mahalakshmi Namostute`,
+Parameshi Jaganmatar Mahalakshmi Namostute`,
       script:{
         od:`ପଦ୍ମାସନସ୍ଥିତେ ଦେବୀ ପରବ୍ରହ୍ମସ୍ୱରୂପିଣୀ।
 ପରମେଶି ଜଗନ୍ମାତର୍ମହାଲକ୍ଷ୍ମୀ ନମୋସ୍ତୁତେ॥`,
         te:`పద్మాసనస్థితే దేవి పరబ్రహ్మస్వరూపిణి।
-పరమేశి జగన్మాత మహాలక్ష్మి నమోస్తుతే॥`
+పరమేశి జగన్మాతర్మహాలక్ష్మి నమోస్తుతే॥`
       },
       meaning:{
         en:`O Goddess seated on lotus, mother of the universe.`,
@@ -147,12 +147,12 @@ Parameshi Jaganmata Mahalakshmi Namostute`,
       original:`श्वेताम्बरधरे देवि नानालङ्कारभूषिते।
 जगत्स्थिते जगन्मातर्महालक्ष्मि नमोऽस्तुते॥`,
       transliteration:`Shvetambara Dhare Devi Nanalankara Bhooshite
-Jagatsthite Jaganmata Mahalakshmi Namostute`,
+Jagatsthite Jaganmatar Mahalakshmi Namostute`,
       script:{
         od:`ଶ୍ୱେତାମ୍ବରଧରେ ଦେବୀ ନାନାଳଙ୍କାରଭୂଷିତେ।
 ଜଗତ୍ସ୍ଥିତେ ଜଗନ୍ମାତର୍ମହାଲକ୍ଷ୍ମୀ ନମୋସ୍ତୁତେ॥`,
         te:`శ్వేతాంబరధరే దేవి నానాలంకారభూషితే।
-జగత్ స్థితే జగన్మాత మహాలక్ష్మి నమోస్తుతే॥`
+జగత్స్థితే జగన్మాతర్మహాలక్ష్మి నమోస్తుతే॥`
       },
       meaning:{
         en:`Goddess adorned in white, sustaining the universe.`,

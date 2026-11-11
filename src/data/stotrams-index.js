@@ -745,6 +745,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'brahmarpanam-brahma-havir',
+    title: {
+      en: 'Brahmarpanam Brahma Havir (Bhojan Mantra)',
+      hi: 'ब्रह्मार्पणं ब्रह्म हविः (भोजन मन्त्र)',
+      od: 'ବ୍ରହ୍ମାର୍ପଣଂ ବ୍ରହ୍ମ ହବିଃ (ଭୋଜନ ମନ୍ତ୍ର)',
+      te: 'బ్రహ్మార్పణం బ్రహ్మ హవిః (భోజన మంత్రం)',
+    },
+    deity: 'Brahman',
+    deityEmoji: '🙏',
+    deityIcon: '',
+    description: {
+      en: 'Brahmarpanam Brahma Havir, Bhagavad Gita 4.24, the food prayer said before meals, in English, Hindi, Odia and Telugu with meaning and a video',
+      hi: 'ब्रह्मार्पणं ब्रह्म हविः, भगवद्गीता 4.24, भोजन से पहले बोला जाने वाला मन्त्र, अर्थ और वीडियो सहित हिन्दी, अंग्रेज़ी, ओड़िया और तेलुगु में',
+      od: 'ବ୍ରହ୍ମାର୍ପଣଂ ବ୍ରହ୍ମ ହବିଃ, ଭଗବଦ୍ଗୀତା ୪.୨୪, ଭୋଜନ ପୂର୍ବରୁ କୁହାଯାଉଥିବା ମନ୍ତ୍ର, ଅର୍ଥ ଓ ଭିଡିଓ ସହିତ',
+      te: 'బ్రహ్మార్పణం బ్రహ్మ హవిః, భగవద్గీత 4.24, భోజనానికి ముందు చెప్పే మంత్రం, అర్థం మరియు వీడియోతో',
+    },
+    color: 'from-amber-900 to-stone-900',
+    accent: '#e3b565',
+    youtubeId: 'xl3JulDyR6s',
+    verseCount: 1,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

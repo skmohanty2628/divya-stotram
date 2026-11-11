@@ -764,67 +764,101 @@ export const GUIDES_DEITY = [
     category: 'Gayatri',
     title: 'How to Chant the Gayatri Mantra: Pronunciation, Count, Time and Steps',
     description:
-      'Learn how to chant the Gayatri Mantra correctly: pronunciation of each line, the three traditional times, how to use a mala for 108 repetitions, posture, breath and common mistakes.',
+      "How to chant the Gayatri Mantra: its source in the Rigveda, the 24 syllables, line by line pronunciation, the three traditional times, counts of 108 and 28, mala use, a simple home routine and common questions answered.",
     h1: 'How to Chant the Gayatri Mantra: Pronunciation, Count and Time',
     intro:
-      'The Gayatri Mantra is short, but pronunciation and rhythm matter to many chanters. This guide lays out the mantra line by line, shows how to breathe through it, and offers a plain routine for sunrise practice.',
+      "The Gayatri Mantra is short, but people ask the same practical questions again and again: where it comes from, how to break it into lines, how many times to say it, when, and who may chant it. This guide answers them from the sources that describe the traditional practice, and then gives a plain routine you can follow at home.",
     sections: [
       {
-        h: 'The mantra line by line',
+        h: "Where the mantra comes from",
         p: [
-          `Om Bhur Bhuvah Svah. Tat Savitur Varenyam. Bhargo Devasya Dhimahi. Dhiyo Yo Nah Prachodayat. The mantra has three lines of eight syllables each in the Vedic metre, preceded by the Om and the three vyahritis. When chanting, pause lightly after each line. Say Svah with a soft ending, Varenyam with a clear nasal, and Prachodayat with the stress on the second syllable.`,
+          "The Gayatri Mantra is verse 10 of hymn 62 in the third book (mandala) of the Rigveda, written RV 3.62.10. Tradition names the sage Vishvamitra as its seer, and the verse is addressed to Savitr, the sun as the one who rouses and inspires. Its metre is also called Gayatri, which is why the mantra, the metre and the goddess of the mantra all share the name.",
+          "In the Rigveda the verse is only the line that begins Tat Savitur Varenyam. The Om and the three words Bhur Bhuvah Svah, called vyahritis, are placed in front of it in the Taittiriya Aranyaka (2.11), and that is the form most people chant today. A longer form with seven vyahritis appears in the Mahanarayana Upanishad. In plain terms, the verse asks us to meditate on the radiance of Savitr, the divine light, and prays that it may guide our thoughts.",
         ],
       },
       {
-        h: 'The three traditional times',
+        h: "The mantra line by line",
         p: [
-          `The mantra is recited at sunrise (Pratah Sandhya), midday (Madhyahna Sandhya) and sunset (Sayam Sandhya). Sunrise is considered the most important. If you can manage only one time, choose the morning. Facing east in the morning and west in the evening is traditional. If you cannot be outdoors, simply sit near a window.`,
+          "Om Bhur Bhuvah Svah. Tat Savitur Varenyam. Bhargo Devasya Dhimahi. Dhiyo Yo Nah Prachodayat.",
+          "The traditional count is 24 syllables in three lines of eight, and the opening Om Bhur Bhuvah Svah is treated as an introduction that is not counted in them. The text as it survives in the Samhita has only 23 syllables, because the first counted line comes out one short. That form is called Nichrit Gayatri. Reciters handle it in different ways: some keep seven syllables and hold the last sound of Varenyam a little longer, and some say Varenyam with an extra short vowel to restore the eighth beat. Both are old and accepted practice, so do not be alarmed if two teachers you hear differ here.",
+          "Say each line on one breath and pause lightly between lines. The Vedic recitation tradition also uses pitch accents on syllables. The only reliable way to learn them is to hear a teacher, so for home practice an even, unhurried voice is enough.",
         ],
       },
       {
-        h: 'Count and mala',
+        h: "Who traditionally chants it",
         p: [
-          `The traditional count is 108 repetitions, one mala. Smaller counts of 3, 11 or 28 are widely used by people who are short of time. With a mala, hold it in the right hand, move each bead with the thumb against the ring finger or middle finger, and avoid using the index finger. When you reach the large meru bead, reverse direction without crossing it. A round takes about 12 to 15 minutes.`,
+          "In the traditional Vedic scheme the mantra is taught at the upanayana, the thread ceremony that begins Vedic study, and the teaching of it is sometimes called Gayatri diksha. The sources also record that the verse RV 3.62.10 was traditionally given only to Brahmin boys, with other verses assigned to other groups.",
+          "Modern reform movements spread the mantra more widely. The Ramakrishna Mission, for example, gave it to people outside the traditional group. Whether women may chant it is answered in different ways by different traditions, and this guide cannot settle that. If your family follows a particular teacher or lineage, ask them. If you do not, many people simply chant it as a personal prayer.",
         ],
       },
       {
-        h: 'Breath and posture',
+        h: "The three traditional times",
         p: [
-          `Sit with a straight back on a cushion or a chair. Inhale before each line, and recite on the exhale, so that each line fills one breath. After a few rounds the breath settles into a rhythm of about six breaths a minute, which many people find calming. Close your eyes or keep them half open on the horizon.`,
+          "The full daily rite in which the mantra is the central part is called Sandhyavandanam. It is done three times a day: morning, noon and evening, at the junctions of the day. Each period is described as about 72 minutes, centred on sunrise, midday and sunset.",
+          "In the full rite the morning recitation is done facing east and continues until the sun rises, the noon practice is done facing north, and the evening recitation is done facing west until the stars appear. If you have time for only one sitting, choosing the morning is common, but the sources do not rank the three times for people who keep only one. Pick the one you can keep every day.",
         ],
       },
       {
-        h: 'Common mistakes',
+        h: "Count, mala and posture",
         p: [
-          `Rushing is the most common. Reciting at breakneck speed produces sound without attention. Another mistake is counting obsessively; use a mala so your mind is free for the meaning. Finally, do not worry about being corrected by others: the tradition values the sincerity of the heart, and teachers across traditions have encouraged people of all backgrounds to chant the mantra.`,
+          "The sources on Sandhyavandanam give counts of 1008, 108, 54 or 28 repetitions, with 10 as the least. Most home chanters use 108, one full mala, and many use 28 or 11 when short of time. A smaller count said every day is a better habit than a large count said rarely.",
+          "A mala is held in the right hand. Move one bead for each repetition with the thumb against the ring or middle finger and leave the index finger aside. When you reach the large bead called the meru, turn the mala around without crossing it. Our guide on using a japa mala explains this step by step. The chanting can be spoken aloud, whispered or done silently in the mind, and the tradition counts all three.",
+          "Sit with a straight back on a cushion or a chair and keep the eyes closed or half open. Breathe in before a line and let the line fill one exhale.",
+        ],
+      },
+      {
+        h: "A simple home routine",
+        p: [
+          "The full Sandhyavandanam also has opening steps: sipping water in small amounts (achamana), a breath exercise with the mantra (pranayama) and a spoken statement of intention (sankalpa). These are best learned from a teacher. For a plain home practice, wash your face and hands, sit facing east if you can, take three slow breaths, say the mantra 11 or 108 times, and end with a quiet minute of thanks.",
+          "If you are chanting for study or work, keep the intention modest. The mantra is a prayer and a meditation, and it makes no promise of exam marks, jobs or health. It does not replace medical or professional advice.",
+        ],
+      },
+      {
+        h: "Common mistakes",
+        p: [
+          "Rushing is the most common. Reciting at top speed produces sound without attention. A second mistake is counting too anxiously. Use a mala so that the mind is free for the meaning. A third is worrying about perfect pronunciation. Sincerity and steady practice matter more, and a teacher can correct details over time.",
         ],
       },
     ],
     faqs: [
       {
-        q: 'How many times should I chant Gayatri Mantra?',
-        a: 'Traditionally 108 times. 3, 11 or 28 times are common for shorter practice.',
+        q: "How many times should I chant the Gayatri Mantra?",
+        a: "The traditional counts are 1008, 108, 54 or 28 times, and the sources on Sandhyavandanam give 10 as the smallest. Most people at home chant 108, or 11 or 28 when short of time.",
       },
       {
-        q: 'Can women chant Gayatri Mantra?',
-        a: 'Yes. Many teachers and traditions encourage everyone to chant it.',
+        q: "Can women chant the Gayatri Mantra?",
+        a: "Traditions answer this differently. The Vedic scheme ties the mantra to the thread ceremony, while reform movements have spread it more widely. Follow your family teacher or tradition, and if you have none, many people chant it as a personal prayer.",
       },
       {
-        q: 'What is the best time?',
-        a: 'Sunrise is best, followed by midday and sunset.',
+        q: "What is the best time to chant it?",
+        a: "Traditionally morning, noon and evening, at the junctions of the day. If you can keep only one, many people choose the morning.",
       },
       {
-        q: 'Do I need to face east?',
-        a: 'It is traditional in the morning, but not required.',
+        q: "Do I need to face east?",
+        a: "In the full rite the morning chant faces east, the noon practice faces north and the evening chant faces west. For a home prayer, sitting in a quiet spot is enough.",
+      },
+      {
+        q: "Why does the mantra have 24 syllables?",
+        a: "The Gayatri metre has three lines of eight syllables. The opening Om Bhur Bhuvah Svah is an introduction and is not counted. The surviving text has only 23, so reciters make up the last beat in different accepted ways.",
+      },
+      {
+        q: "Is it the same as the Savitri mantra?",
+        a: "Yes. The mantra is addressed to Savitr, the sun as the inspiring light, and the mantra is also called the Savitri mantra.",
+      },
+      {
+        q: "Can I chant it silently?",
+        a: "Yes. The tradition counts aloud, whispered and mental recitation, so silent japa is accepted.",
       },
     ],
     related: {
       stotrams: ['gayatri-mantra', 'aditya-hridayam'],
-      guides: ['power-of-gayatri-mantra', 'best-mantra-for-study-focus', 'morning-prayer-routine'],
+      guides: ['power-of-gayatri-mantra', 'gayatri-mantra-word-by-word-meaning', 'how-to-use-japa-mala', 'morning-prayer-routine', 'best-mantra-for-study-focus'],
     },
     sources: [
-      'Rigveda 3.62.10',
-      'Traditional Sandhyavandana practice',
+      "Rigveda 3.62.10 (the verse), Wikipedia, Gayatri Mantra (seer, deity, metre, syllable count and the Nichrit form)",
+      "Taittiriya Aranyaka 2.11, as described in the Wikipedia article on the Gayatri Mantra (Om and the three vyahritis)",
+      "Wikipedia, Sandhyavandanam (the three times, directions, counts of 1008, 108, 54, 28 and at least 10)",
+      "Mahanarayana Upanishad (seven vyahritis), as described in Wikipedia",
     ],
   },
 

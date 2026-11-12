@@ -426,4 +426,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does it guarantee a result?', a: 'No. It is a prayer and a thought to reflect on. It makes no promise of any worldly result and does not replace medical, dietary or other professional advice.' },
     ],
   },
+  'manojavam-marutatulyavegam': {
+    what: `Manojavam Marutatulyavegam is a short Sanskrit prayer to Hanuman in two lines. It describes him as swift as the mind, equal to the wind in speed, master of his senses and the best among the wise, and it names him as the son of the Wind, chief of the monkey host and messenger of Shri Rama. The four editions checked for this page do not name a scripture or an author, so it is best described as a traditional Hanuman prayer.`,
+    meaning: `The verse is a request for refuge. The first line praises Hanuman's speed, his control over his senses and his wisdom. The second line gives his lineage and role: son of the Wind, leader of the vanaras and Rama's messenger. It ends by taking refuge in him. Some editions end instead with the words shirasa namami, I bow with my head, and both endings are in use.`,
+    benefits: [
+      'Short enough to learn in a few minutes and to repeat from memory',
+      'A simple way to remember Hanuman in the morning or before a task',
+      'Draws attention to the qualities devotees admire in him: focus, self-control and good sense',
+      'Can be said alone or together with the Hanuman Chalisa',
+      'Open to everyone, with no initiation or special preparation needed',
+    ],
+    bestTime: `The text fixes no time or count. Many devotees say it in the morning, at the start of a task, or along with other Hanuman prayers. Tuesday and Saturday are the days commonly kept for Hanuman, and you may say it on those days if that is your family practice. One recitation is enough, and 108 is a common choice for those who use a mala.`,
+    faqs: [
+      { q: 'What does Manojavam Marutatulyavegam mean?', a: 'It is a prayer that praises Hanuman as swift as the mind and equal to the wind, master of his senses and best among the wise, and takes refuge in him as the son of the Wind and the messenger of Shri Rama.' },
+      { q: 'Which scripture is it from?', a: 'None of the editions checked names a source or author. It is a traditional prayer to Hanuman, so it is best described that way and not tied to a single text.' },
+      { q: 'Why do some versions end differently?', a: 'Some editions end with shirasa namami, I bow with my head, and others with sharanam prapadye, I take refuge. Both are in circulation. This page uses sharanam prapadye.' },
+      { q: 'When should I chant it?', a: 'There is no fixed time. Many people say it in the morning or before starting work. Tuesday and Saturday are the days commonly kept for Hanuman.' },
+      { q: 'How many times should I chant it?', a: 'The text gives no count. One recitation is fine, and many people use 108 with a mala.' },
+      { q: 'Does it guarantee a result?', a: 'No. It is a prayer and not a promise of any worldly result, and it does not replace medical or professional advice.' },
+    ],
+  },
 };

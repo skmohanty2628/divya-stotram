@@ -1014,68 +1014,112 @@ export const GUIDES_LEARN = [
     ],
   },
   {
-    slug: 'aigiri-nandini-meaning-and-story',
-    category: 'Meaning and history',
-    title: 'Aigiri Nandini (Mahishasura Mardini Stotram): Meaning, Story and Background',
-    description:
-      'The story behind Aigiri Nandini, also called Mahishasura Mardini Stotram: the battle of Durga and Mahishasura, the structure and refrain of the hymn, authorship, and how it is used at Navaratri.',
-    h1: 'Aigiri Nandini: Meaning, Story and Background',
-    intro:
-      'Aigiri Nandini, formally the Mahishasura Mardini Stotram, is one of the most loved hymns to Goddess Durga. Its opening words and powerful rhythm are known to many who may not know the story behind it. This guide explains what the hymn says, where the story comes from, and how it is used.',
-    sections: [
+    "slug": "aigiri-nandini-meaning-and-story",
+    "category": "Meaning and history",
+    "title": "Aigiri Nandini (Mahishasura Mardini Stotram): Meaning, Story and Who Wrote It",
+    "description": "Aigiri Nandini explained: what Ayi Giri Nandini means, the Devi Mahatmya story behind the 21 stanzas, what each group of stanzas says, why versions differ and the debate over who wrote it.",
+    "h1": "Aigiri Nandini: Meaning, Story and Who Wrote It",
+    "intro": "Aigiri Nandini, formally the Mahishasura Mardini Stotram, is one of the best loved hymns to Goddess Durga. Many people know its opening words and its drum-like rhythm without knowing what the stanzas say. This guide explains the name, the story it draws on, what each group of stanzas describes, why printed versions differ and what is and is not known about its author.",
+    "sections": [
       {
-        h: 'What the name means',
-        p: [
-          `Mahishasura Mardini means the slayer of Mahishasura, the buffalo demon. The hymn opens with Aigiri Nandini, usually read as an address to the daughter of the mountain, a reference to Parvati, daughter of the Himalaya (Giri). The hymn praises the Goddess as the delight of the earth, the joy of the universe and the one who is worshipped by gods and sages.`,
-        ],
+        "h": "What the name means",
+        "p": [
+          "Mahishasura Mardini means the slayer of Mahishasura, the buffalo demon. The hymn begins with the words ayi giri nandini, which are usually written Aigiri Nandini. Ayi is a word of address, like O or hey, giri is mountain and nandini is daughter, so the opening is a call to the daughter of the mountain, that is Parvati, daughter of the Himalaya. The first stanza goes on to call her the delight of the earth and the joy of the world, and to place her on the peak of the Vindhya range."
+        ]
       },
       {
-        h: 'The story of Mahishasura',
-        p: [
-          `The best-known telling is in the Devi Mahatmya, part of the Markandeya Purana. The demon Mahishasura, who had received a boon that no man or god could kill him, conquered the heavens and drove out the gods. They combined their energies, and from this radiance emerged the Goddess Durga, armed by each god with a weapon. After a long battle she defeated and killed Mahishasura. This victory of divine feminine power over arrogance is the story told during Navaratri.`,
-        ],
+        "h": "The story behind it",
+        "p": [
+          "The hymn does not tell a story from start to finish. It assumes you know it, and it draws on the Devi Mahatmya, the text also known as the Durga Saptashati, which is part of the Markandeya Purana. In that telling the buffalo demon Mahishasura conquered the heavens and drove out the gods, who joined their energies to form the Goddess, and she defeated him in battle.",
+          "The stanzas name other foes from the same text. Madhu and Kaitabha appear in the third stanza, and Dhumralochana, Raktabija, Shumbha and Nishumbha in the seventh. Raktabija is the demon whose every drop of blood produced another demon, and the hymn praises the Goddess for drying up his blood."
+        ]
       },
       {
-        h: 'Structure and refrain',
-        p: [
-          `The hymn has about twenty-one verses, each followed by the same rousing refrain: jaya jaya he mahishasura mardini ramya kapardini shaila sute, a salutation to the victorious, beautiful, matted-haired daughter of the mountain. The verses use long, flowing compound words in the Sanskrit style, which gives the stotram its drum-like momentum and makes it easy to chant in a group.`,
-        ],
+        "h": "Structure: 21 stanzas and one refrain",
+        "p": [
+          "Wikipedia and the editions we checked give 21 stanzas. Each stanza has four lines, and the fourth line is the same in every stanza: jaya jaya he mahishasura mardini ramya kapardini shaila sute. It can be read as victory to the slayer of Mahishasura, the lovely one with coiled hair, the daughter of the mountain. Because the last line repeats, a group can join in even if they do not know the rest.",
+          "Not every version has all 21. One popular online text shows 20, and readers report that some recordings add or drop a stanza or end with a closing passage on the benefits of reciting it. If your printed copy or a recording differs from ours, this is usually the reason and not a mistake in either."
+        ]
       },
       {
-        h: 'Who composed it?',
-        p: [
-          `The authorship is not settled. Many people attribute the hymn to Adi Shankaracharya, and some scholars and traditions ascribe it to a later poet such as Ramakrishna Kavi. We do not claim to know. What is certain is that it is widely sung across India today, with different melodies in the south, east and north.`,
-        ],
+        "h": "What the stanzas say, in groups",
+        "p": [
+          "The first two stanzas are praise and invocation: the Goddess is the daughter of the mountain, the consort of Shiva, the giver of boons to the gods and the one who subdues the unruly. The third stanza places her in the Kadamba grove and on the Himalayan peaks. Stanzas four to six describe her fury in battle against enemy armies, and the seventh names Dhumralochana, Raktabija, Shumbha and Nishumbha.",
+          "Stanzas eight to ten move to the field of battle itself, with bows, arrows, anklets and the sounds of drums, and the dancing of celestial women. Stanzas eleven to sixteen turn to her beauty, her forest setting and her ornaments. The seventeenth stanza mentions King Suratha and the merchant Samadhi, the two devotees of the Devi Mahatmya who worshipped her. The last four stanzas are the devotee's own voice, taking refuge at her feet and asking for mercy."
+        ]
       },
       {
-        h: 'How it is used',
-        p: [
-          `The stotram is sung during Navaratri and Durga Puja, at temples, and by many families as a daily morning prayer. It is also sung in classical music and dance performances. In Odisha the hymn is popular, which is reflected in how many readers search for the Odia script version of the lyrics. On this site every stotram, including Aigiri Nandini, is available in English, Hindi, Odia and Telugu.`,
-        ],
+        "h": "Sound and rhythm",
+        "p": [
+          "The Sanskrit is packed with alliteration and echoing endings, and some stanzas imitate the sounds of drums and dancing, such as the repeated syllables in the dance stanza. Long compound words run together, which gives the hymn its momentum. On this site the transliteration is broken into smaller words so that a beginner can follow the compounds."
+        ]
       },
+      {
+        "h": "Who wrote it?",
+        "p": [
+          "Tradition attributes the hymn to Adi Shankaracharya, and Wikipedia describes it that way, adding that it is mentioned in the Shivarahasya Purana. The attribution is not settled. In a discussion among Sanskrit scholars on a public mailing list, one participant said the hymn appears within a longer collection called Bhagavatipadyapushpanjali whose closing verse names a poet, Ramakrishna Kavi, as the author. That claim was cited to sanskritdocuments.org and not independently confirmed here. Another source says the author is not clearly known, and no date has been fixed.",
+          "The safe wording is that it is attributed to Adi Shankaracharya by tradition, with another poet also proposed. We do not claim to know."
+        ]
+      },
+      {
+        "h": "How it is used",
+        "p": [
+          "The hymn is sung during Navaratri and Durga Puja, at temples and by many families as a morning prayer. Many readers in Odisha search for the Odia script version, so the page for this hymn on this site shows it in Odia, Hindi, Telugu and English letters along with the meaning. Read slowly at first, one stanza a day, and then sing it with a recording."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Is Aigiri Nandini the same as Mahishasura Mardini Stotram?',
-        a: 'Yes. Aigiri Nandini is the opening phrase, and Mahishasura Mardini Stotram is the formal name of the hymn.',
+        "q": "Is Aigiri Nandini the same as Mahishasura Mardini Stotram?",
+        "a": "Yes. Aigiri Nandini, from the opening words ayi giri nandini, is the popular name, and Mahishasura Mardini Stotram is the formal name of the hymn."
       },
       {
-        q: 'When is it chanted?',
-        a: 'Especially at Navaratri and Durga Puja, but many people recite it on any day, often in the morning.',
+        "q": "What does ayi giri nandini mean?",
+        "a": "Ayi is a word of address like O, giri means mountain and nandini means daughter. It is a call to the daughter of the mountain, Parvati or Durga."
       },
       {
-        q: 'Who wrote it?',
-        a: 'Authorship is uncertain. It is often attributed to Adi Shankaracharya, but some attribute it to Ramakrishna Kavi.',
+        "q": "How many stanzas does it have?",
+        "a": "21 in the editions we checked, each with four lines and the same closing refrain. Some versions show 20 or add a closing benefits passage."
       },
+      {
+        "q": "Who wrote Aigiri Nandini?",
+        "a": "It is traditionally attributed to Adi Shankaracharya. Scholars have not settled the question, and the poet Ramakrishna Kavi has also been proposed."
+      },
+      {
+        "q": "When is it chanted?",
+        "a": "Especially at Navaratri and Durga Puja, but many people recite it on any day, often in the morning. There is no fixed count."
+      },
+      {
+        "q": "Do I need to know Sanskrit to chant it?",
+        "a": "No. Read it in Hindi, Odia, Telugu or English letters, follow the meaning and listen to a recording. The long compounds are easier once you hear them sung."
+      },
+      {
+        "q": "Why do the words differ between websites?",
+        "a": "The text was copied and recopied for centuries, and some sites also lose long vowels in typing. Our stanzas were compared with two online editions and corrected where a word was clearly misspelt."
+      },
+      {
+        "q": "Does chanting it guarantee a result?",
+        "a": "No. It is a prayer and not a promise of any worldly result, and it does not replace medical or professional advice."
+      }
     ],
-    related: {
-      stotrams: ['aigiri-nandini', 'durga-stotram'],
-      guides: ['navaratri-nine-forms-of-durga', 'durga-mantra-during-navratri'],
+    "related": {
+      "stotrams": [
+        "aigiri-nandini",
+        "durga-stotram"
+      ],
+      "guides": [
+        "navaratri-nine-forms-of-durga",
+        "durga-mantra-during-navratri",
+        "durga-puja-odisha-guide"
+      ]
     },
-    sources: [
-      'Devi Mahatmya (Durga Saptashati), Markandeya Purana, chapters 2-4 (Mahishasura episode)',
-      'Standard references on Sanskrit stotra literature on the disputed authorship of the Mahishasura Mardini Stotram',
-    ],
+    "sources": [
+      "Wikipedia, Mahishasura Mardini Stotra (21 verses, traditional attribution to Adi Shankara, Shivarahasya Purana mention, links to Devi Mahatmya)",
+      "Devi Mahatmya (Durga Saptashati), Markandeya Purana (Mahishasura, Madhu and Kaitabha, Raktabija, Shumbha and Nishumbha, Suratha and Samadhi)",
+      "Drik Panchang and BhaktiBharat editions of the stotram text (21 four-line stanzas, compared for the stanza text on this site)",
+      "Vak1969 blog, Mahishasura Mardini: Context, Meaning, Learning (authorship not clearly known, 20 or 21 stanzas in different versions)",
+      "Samskrita mailing list thread, Date and composer of Mahishasura Mardini Stotram (Bhagavatipadyapushpanjali and Ramakrishna Kavi claim, not independently verified)"
+    ]
   },
 
   {
@@ -5248,6 +5292,208 @@ export const GUIDES_LEARN = [
       "HinduTone, Vaikuntha Chaturdashi 2026: Date (23 November), Hari-Hara Milan, Story and Manikarnika Snan (tithi, Nishita kaal, rituals, Ujjain, citing Drik Panchang)",
       "Wikipedia, Vaikuntha Chaturdashi (Shiva Purana legend, Kashi Vishwanath exchange of tulsi and bilva, Rishikesh, regional variation)",
       "Drik Panchang, Vaikuntha Chaturdashi date and time (Shiva Purana attribution of the legend)"
+    ]
+  },
+  {
+    "slug": "gita-jayanti-mokshada-ekadashi-2026-guide",
+    "category": "Festivals",
+    "title": "Gita Jayanti 2026: Date, Mokshada Ekadashi, How to Observe and What to Read",
+    "description": "Gita Jayanti 2026 falls on Sunday 20 December in India, the same day as Mokshada Ekadashi. See the tithi and parana timings, why the date differs abroad, and a simple way to observe it with the Gita.",
+    "h1": "Gita Jayanti 2026: Date, Mokshada Ekadashi and How to Observe It",
+    "intro": "Gita Jayanti marks the day on which, by tradition, Krishna spoke the Bhagavad Gita to Arjuna on the battlefield of Kurukshetra. It falls on the Ekadashi of the bright half of Margashirsha, which is also Mokshada Ekadashi, and many families combine the fast with reading the Gita. This guide gives the 2026 date and timings from published panchang listings, explains why the date differs abroad and suggests a simple way to keep the day.",
+    "sections": [
+      {
+        "h": "Date and timings in 2026",
+        "p": [
+          "In India, Gita Jayanti and Mokshada Ekadashi fall on Sunday 20 December 2026. A HinduTone article citing Drik Panchang gives the Ekadashi tithi as beginning at 10:09 pm on Saturday 19 December and ending at 8:14 pm on Sunday 20 December. The usual time to break the fast, the parana, is Monday 21 December after sunrise, and before Dwadashi ends at 5:36 pm that day. Haindavam also lists Mokshada Ekadashi on 20 December, with the Smarta observance on 19 December.",
+          "These timings are for New Delhi and change with the city. The same HinduTone article reports that Smarta households in the USA and Canada keep it on Saturday 19 December, while Vaishnava households there, and most places in the UK, the Gulf, Asia and Australia, keep it on Sunday 20 December. If you follow a temple or a family priest, use the date they announce."
+        ]
+      },
+      {
+        "h": "Why this day",
+        "p": [
+          "Tradition holds that Krishna taught the Gita on Margashirsha Shukla Ekadashi, so the day is treated as the birthday of the text. The Gita itself has Krishna saying, in chapter 10, that among the months he is Margashirsha. In South Indian temples the same Ekadashi is also kept as Vaikuntha Ekadashi.",
+          "The Gita is a dialogue of about 700 verses in 18 chapters, set in the Bhishma Parva of the Mahabharata. Arjuna is dismayed at the thought of fighting his own teachers and relatives, and Krishna, serving as his charioteer, answers him. Tradition ascribes the text to Vyasa, and scholars date it to roughly the last centuries before the Common Era; the exact date is not settled."
+        ]
+      },
+      {
+        "h": "A simple way to observe the day",
+        "p": [
+          "A common pattern is a light meal on Dashami, the day before, a bath early on the Ekadashi, a lamp and tulsi leaves for Vishnu or Krishna, and then reading from the Gita. Fasting follows family custom and health, and grains and beans are usually avoided. The fast is broken on the morning after. Our Ekadashi vrat guide explains the general rules.",
+          "Anyone who is pregnant or breastfeeding, elderly, diabetic, unwell or on regular medication should speak to a doctor before fasting. A day of reading and a simple meal is a perfectly good way to keep the festival."
+        ]
+      },
+      {
+        "h": "What to read",
+        "p": [
+          "The whole Gita can be read in a few hours, but many people choose a part. Chapter 2 gives the overview of the teaching and Chapter 12 is on devotion. Verse 4.24, the food prayer Brahmarpanam Brahma Havir, is on this site in four languages. You can also recite the Vishnu Sahasranamam or chant Om Namo Bhagavate Vasudevaya, which are the other practices commonly paired with the day.",
+          "If you are new to the book, read slowly and use one translation with notes. Our guide to starting the Gita explains the structure and gives a reading plan."
+        ]
+      },
+      {
+        "h": "Questions about the date",
+        "p": [
+          "Ekadashi dates are calculated from the sunrise tithi and can differ by a day between households, which is why Smarta and Vaishnava dates may not match. For one family, the right date is the one their tradition keeps. The timings here come from published listings and are not a substitute for your local panchang."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When is Gita Jayanti in 2026?",
+        "a": "Sunday 20 December 2026 in India, according to a HinduTone article citing Drik Panchang. It is the same day as Mokshada Ekadashi."
+      },
+      {
+        "q": "When does Ekadashi begin and end?",
+        "a": "For New Delhi, the tithi begins at 10:09 pm on 19 December and ends at 8:14 pm on 20 December, per the listing cited. Check your own city."
+      },
+      {
+        "q": "When do I break the fast?",
+        "a": "On Monday 21 December after sunrise and before Dwadashi ends at 5:36 pm in New Delhi, per the same listing."
+      },
+      {
+        "q": "Why does the date differ in the USA and Canada?",
+        "a": "Smarta households there keep Ekadashi on Saturday 19 December, while Vaishnava households keep Sunday 20 December. Follow your own tradition."
+      },
+      {
+        "q": "Do I have to fast on Gita Jayanti?",
+        "a": "No. Fasting is optional and follows family custom. People with health conditions should ask a doctor first."
+      },
+      {
+        "q": "How many chapters and verses does the Gita have?",
+        "a": "18 chapters and about 700 verses."
+      },
+      {
+        "q": "What can I read if I have little time?",
+        "a": "Chapter 2 for the overview, Chapter 12 on devotion, or a single verse such as 4.24 read slowly."
+      },
+      {
+        "q": "Is Gita Jayanti the same as Mokshada Ekadashi?",
+        "a": "They fall on the same lunar day, the Ekadashi of the bright half of Margashirsha. Gita Jayanti marks the Gita, and Mokshada Ekadashi is the fast of that Ekadashi."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "brahmarpanam-brahma-havir",
+        "vishnu-sahasranamam",
+        "krishna-vasudevaya-mantra"
+      ],
+      "guides": [
+        "ekadashi-vrat-guide",
+        "how-to-start-reading-the-bhagavad-gita-guide",
+        "prabodhini-ekadashi-bada-ekadashi-odisha-guide",
+        "vaikuntha-chaturdashi-hari-hara-guide"
+      ]
+    },
+    "sources": [
+      "HinduTone, Gita Jayanti 2026: Date (20 December), Mokshada Ekadashi Vrat and How to Read the Gita (dates and timings citing Drik Panchang, observance, regional dates)",
+      "Haindavam festival calendar, Mokshada Ekadashi 2026 (20 December, with Smarta date 19 December)",
+      "Wikipedia, Bhagavad Gita (18 chapters, 700 verses, Bhishma Parva, Kurukshetra setting, dating range)"
+    ]
+  },
+  {
+    "slug": "how-to-start-reading-the-bhagavad-gita-guide",
+    "category": "Daily practice",
+    "title": "How to Start Reading the Bhagavad Gita: Chapters, Structure and a Simple Plan",
+    "description": "A beginner's guide to the Bhagavad Gita: the 18 chapters and 700 verses, who speaks, what each chapter is about, how to choose a translation and a reading plan you can keep.",
+    "h1": "How to Start Reading the Bhagavad Gita",
+    "intro": "The Bhagavad Gita is a short book, about 700 verses in 18 chapters, but many first-time readers stop within a few pages. The setting is unfamiliar, the ideas come quickly and the Sanskrit terms are many. This guide explains the setting, shows what each chapter covers and gives a plan that fits a busy week.",
+    "sections": [
+      {
+        "h": "The setting and who speaks",
+        "p": [
+          "The Gita is a conversation inside the Mahabharata, in its sixth book, the Bhishma Parva. It takes place on the field of Kurukshetra just before the great war. Arjuna, a Pandava prince, sees his teachers, friends and relatives in the opposing army and refuses to fight. His charioteer Krishna answers him. Sanjaya, an advisor, reports the scene to the blind king Dhritarashtra, so the book has a frame narrator as well as the two speakers.",
+          "Standalone editions usually number the chapters from 1 to 18. Inside the Mahabharata the same verses are numbered 6.25 to 6.42 or 6.23 to 6.40, depending on the edition, so a verse reference may look different in different books."
+        ]
+      },
+      {
+        "h": "The 18 chapters at a glance",
+        "p": [
+          "Chapter 1 is Arjuna's despair. Chapter 2 gives the main outline of the teaching, on the self, duty and detachment. Chapter 3 is on action without craving for results and Chapter 4 on knowledge combined with action, including Krishna's return when dharma declines. Chapter 5 compares renunciation with life in the world and Chapter 6 is on meditation and self-restraint.",
+          "Chapters 7 to 9 are on knowledge, the imperishable Brahman and the royal secret of devotion. Chapter 10 describes the divine manifestations and Chapter 11 is Arjuna's vision of the cosmic form. Chapter 12 is on devotion. Chapters 13 to 15 are on the body and its knower, the three gunas and the supreme person. Chapters 16 and 17 contrast divine and demonic qualities and the three kinds of faith, and Chapter 18, the longest at 78 verses, is the summing up on liberation and surrender."
+        ]
+      },
+      {
+        "h": "Three paths, one book",
+        "p": [
+          "Readers often describe the Gita through three disciplines: knowledge (jnana), action (karma) and devotion (bhakti). Chapter 6 brings in meditation as well. You do not have to choose one. The book moves among them, and different readers find that a different thread speaks to them first."
+        ]
+      },
+      {
+        "h": "Choosing a translation",
+        "p": [
+          "Choose one translation with notes and stay with it for the first reading. The Gita has been translated many times, from Edwin Arnold's verse rendering of 1885 to modern editions, and over two hundred Sanskrit commentaries have been written on it. Read the introduction and the notes on difficult words. If you can, keep the Sanskrit beside the English and listen to a recitation, since the verses are in the anushtubh metre and are meant to be heard."
+        ]
+      },
+      {
+        "h": "A reading plan that you can keep",
+        "p": [
+          "A realistic plan is one short chapter or half a long one each day, for about five weeks. Another is three verses a day with a note in a notebook about what each says in your own words. Start with Chapter 2, then read from the beginning once you have the outline, because Chapter 2 gives the ground for the rest.",
+          "If you only have ten minutes, read one verse slowly, say it aloud, and stay with the meaning. Verse 4.24, Brahmarpanam Brahma Havir, is on this site with meaning in four languages and is a short place to begin."
+        ]
+      },
+      {
+        "h": "Dating and authorship",
+        "p": [
+          "Tradition ascribes the Gita to the sage Vyasa, the traditional compiler of the Mahabharata. Scholars generally treat it as a composite text and date it to roughly the last centuries before the Common Era, with estimates ranging from several centuries before to a few after. The question is open, and you do not need to settle it to benefit from the book."
+        ]
+      },
+      {
+        "h": "When to read it",
+        "p": [
+          "Any time is suitable. Many people read in the morning and some choose Ekadashi days. Gita Jayanti, which falls on Margashirsha Shukla Ekadashi, is the day many people choose to begin a reading."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How many chapters and verses does the Gita have?",
+        "a": "18 chapters and about 700 verses, in the Bhishma Parva of the Mahabharata."
+      },
+      {
+        "q": "Where should a beginner start?",
+        "a": "Many people begin with Chapter 2, which outlines the whole teaching, and then read from Chapter 1. A short verse such as 4.24 is also a good first read."
+      },
+      {
+        "q": "Which translation should I choose?",
+        "a": "One with notes and a clear introduction. Stay with it for the first reading rather than switching, and keep the Sanskrit beside it if you can."
+      },
+      {
+        "q": "Do I need to know Sanskrit?",
+        "a": "No. You can read the Sanskrit in your own script or in English letters beside the meaning and listen to a recitation."
+      },
+      {
+        "q": "How long does it take to read?",
+        "a": "A few hours for a single pass, but most people spread it over a few weeks, one chapter or a few verses a day."
+      },
+      {
+        "q": "Who wrote the Bhagavad Gita?",
+        "a": "Tradition ascribes it to Vyasa. Scholars treat it as a composite text of uncertain date."
+      },
+      {
+        "q": "When is Gita Jayanti?",
+        "a": "It falls on the Ekadashi of the bright half of Margashirsha. In 2026 it is on Sunday 20 December in India."
+      },
+      {
+        "q": "Is the Gita only for Hindus?",
+        "a": "No. It is a Hindu scripture, but people from many backgrounds read it for its ideas on duty, action and the mind."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "brahmarpanam-brahma-havir",
+        "krishna-vasudevaya-mantra",
+        "vishnu-sahasranamam"
+      ],
+      "guides": [
+        "gita-jayanti-mokshada-ekadashi-2026-guide",
+        "spiritual-routine-for-beginners",
+        "morning-prayer-routine",
+        "how-to-read-sanskrit-transliteration"
+      ]
+    },
+    "sources": [
+      "Wikipedia, Bhagavad Gita (18 chapters, 700 verses, Bhishma Parva numbering, setting, chapter list, translations, dating range, commentaries)",
+      "HinduTone, Gita Jayanti 2026 (tradition that the Gita was taught on Margashirsha Shukla Ekadashi, 2026 date)"
     ]
   },
 ];

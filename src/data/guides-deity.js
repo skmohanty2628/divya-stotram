@@ -148,7 +148,7 @@ export const GUIDES_DEITY = [
       },
     ],
     related: {
-      stotrams: ['hanuman-chalisa', 'bajrang-baan', 'sankat-mochan-hanuman-ashtak'],
+      stotrams: ['hanuman-chalisa', 'bajrang-baan', 'sankat-mochan-hanuman-ashtak', 'manojavam-marutatulyavegam'],
       guides: ['hanuman-chalisa-benefits', 'mantra-chanting-rules-faq', 'can-we-chant-during-periods'],
     },
     sources: [

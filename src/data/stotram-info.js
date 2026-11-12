@@ -240,8 +240,8 @@ export const STOTRAM_INFO = {
   },
 
   'aigiri-nandini': {
-    what: `Aigiri Nandini, formally known as Mahishasura Mardini Stotram, is a celebrated devotional hymn attributed to Adi Shankaracharya (8th century CE). It describes the battle of Goddess Durga against the buffalo demon Mahishasura in 21 electrifying verses set to the unique Chandrakala rhythmic meter. The refrain "Jai Jai He Mahishasura Mardini" has become one of the most iconic devotional refrains in Hinduism, beloved for its musical power and divine energy.`,
-    meaning: `The hymn opens with "Aigiri Nandini", O Daughter of the Mountain!, addressing Parvati/Durga as the daughter of Himavat (the Himalayan mountain). It then vividly describes the Goddess charging into battle on her lion, wielding weapons given by all the gods, cutting down demon armies, and finally slaying Mahishasura. The poem is both a battle narrative and a devotional surrender, ending with prayers for protection and grace.`,
+    what: `Aigiri Nandini, formally known as Mahishasura Mardini Stotram, is a celebrated devotional hymn traditionally attributed to Adi Shankaracharya, though its authorship and date are not firmly established. It praises Goddess Durga as the slayer of the buffalo demon Mahishasura in 21 stanzas of four lines each, and every stanza ends with the same refrain. The refrain "Jai Jai He Mahishasura Mardini" has become one of the most iconic devotional refrains in Hinduism, beloved for its musical power and divine energy.`,
+    meaning: `The hymn opens with "Aigiri Nandini", O Daughter of the Mountain!, addressing Parvati/Durga as the daughter of Himavat (the Himalayan mountain). The stanzas that follow praise her victories over Mahishasura, Madhu and Kaitabha, Dhumralochana, Raktabija, Shumbha and Nishumbha, describe her in fierce and playful moods, and speak of her beauty and her place among the hill forests. The poem ends with a prayer for her mercy and grace.`,
     benefits: [
       'Traditionally recited for protection and for overcoming adversity',
       'Grants the Goddess\'s complete divine protection',
@@ -253,7 +253,7 @@ export const STOTRAM_INFO = {
     ],
     bestTime: `Aigiri Nandini is most powerfully recited during Navratri, especially on the eighth day (Ashtami) and ninth day (Navami). Fridays and full moon nights are auspicious. The stotram is traditionally recited during morning worship (Pratah Puja) after bathing, facing east.`,
     faqs: [
-      { q: 'Who composed Aigiri Nandini?', a: 'Aigiri Nandini (Mahishasura Mardini Stotram) is attributed to Adi Shankaracharya, the 8th century CE philosopher and theologian who composed it in praise of Goddess Durga.' },
+      { q: 'Who composed Aigiri Nandini?', a: 'Aigiri Nandini (Mahishasura Mardini Stotram) is traditionally attributed to Adi Shankaracharya. Scholars treat the authorship and date as uncertain, so it is safest to say the hymn is attributed to him by tradition.' },
       { q: 'What does Aigiri Nandini mean?', a: '"Aigiri" refers to a mountain (Himavat), "Nandini" means daughter. So Aigiri Nandini means "O Daughter of the Mountain", an address to Parvati/Durga as daughter of the Himalayas.' },
       { q: 'How many verses are in Aigiri Nandini?', a: 'The complete Mahishasura Mardini Stotram has 21 verses, each ending with the powerful refrain "Jai Jai He Mahishasura Mardini, Ramyaka Pardini Shaila Sute."' },
       { q: 'When should Aigiri Nandini be recited?', a: 'It is most powerfully recited during Navratri, especially on Ashtami and Navami. Friday mornings and during Durga Puja celebrations are also highly auspicious.' },

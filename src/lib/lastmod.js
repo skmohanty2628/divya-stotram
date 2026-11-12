@@ -1,8 +1,13 @@
 // Real last-edit dates per page, taken from docs/verse-audit-log.md and later content changes.
 // Pages not listed here have not changed since the base date in site.js (CONTENT_UPDATED).
 export const LASTMOD = {
+  'how-to-chant-hanuman-chalisa': '2026-11-12',
+  'how-to-start-reading-the-bhagavad-gita-guide': '2026-11-12',
+  'gita-jayanti-mokshada-ekadashi-2026-guide': '2026-11-12',
+  'aigiri-nandini-meaning-and-story': '2026-11-12',
+  'manojavam-marutatulyavegam': '2026-11-12',
   'vaikuntha-chaturdashi-hari-hara-guide': '2026-11-11',
-  'aigiri-nandini': '2026-11-11',
+  'aigiri-nandini': '2026-11-12',
   'asato-ma-sadgamaya': '2026-10-31',
   'bahuda-yatra-suna-besha-niladri-bije-puri-guide': '2026-11-01',
   'bajrang-baan': '2026-11-11',

@@ -9,6 +9,8 @@ const BY_SLUG = {
   'kartika-purnima-dev-deepawali-guide': 'lamps',
   'how-to-perform-aarti-at-home-guide': 'lamps',
   'vaikuntha-chaturdashi-hari-hara-guide': 'lamps',
+  'gita-jayanti-mokshada-ekadashi-2026-guide': 'leaves',
+  'how-to-start-reading-the-bhagavad-gita-guide': 'smoke',
   'ekadashi-vrat-guide': 'leaves',
   'how-to-use-japa-mala': 'mala',
   'morning-prayer-routine': 'sun',

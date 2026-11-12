@@ -172,6 +172,11 @@ const SEO_COPY = {
     description:
       'Read Brahmarpanam Brahma Havir (ब्रह्मार्पणं ब्रह्म हविः), Bhagavad Gita 4.24, the food prayer said before meals, in English, Hindi, Odia and Telugu with meaning, when it is recited, and a video to follow along.',
   },
+  'manojavam-marutatulyavegam': {
+    title: 'Manojavam Marutatulyavegam Lyrics in English, Hindi, Odia & Telugu with Meaning (Hanuman Mantra)',
+    description:
+      'Read Manojavam Marutatulyavegam (मनोजवं मारुततुल्यवेगं), the Hanuman prayer to Rama\'s messenger, in English, Hindi, Odia and Telugu with meaning, when to chant it, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

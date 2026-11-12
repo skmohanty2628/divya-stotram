@@ -33,6 +33,7 @@ import { shantakaram } from '@/data/shantakaram-bhujagashayanam';
 import { guruBrahma } from '@/data/guru-brahma-guru-vishnu';
 import { purnamadah } from '@/data/purnamadah-purnamidam';
 import { brahmarpanam } from '@/data/brahmarpanam-brahma-havir';
+import { manojavam } from '@/data/manojavam-marutatulyavegam';
 
 export const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
@@ -70,4 +71,5 @@ export const VERSE_DATA = {
   'guru-brahma-guru-vishnu': guruBrahma,
   'purnamadah-purnamidam': purnamadah,
   'brahmarpanam-brahma-havir': brahmarpanam,
+  'manojavam-marutatulyavegam': manojavam,
 };

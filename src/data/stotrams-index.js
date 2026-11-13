@@ -793,6 +793,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'shri-ramachandra-kripalu',
+    title: {
+      en: 'Shri Ramachandra Kripalu Bhajman (Ram Stuti)',
+      hi: 'श्री रामचन्द्र कृपालु भज मन (राम स्तुति)',
+      od: 'ଶ୍ରୀ ରାମଚନ୍ଦ୍ର କୃପାଳୁ ଭଜ ମନ (ରାମ ସ୍ତୁତି)',
+      te: 'శ్రీ రామచంద్ర కృపాలు భజ మన (రామ స్తుతి)',
+    },
+    deity: 'Ram',
+    deityEmoji: '🏹',
+    deityIcon: '',
+    description: {
+      en: 'Shri Ramachandra Kripalu Bhajman, the Ram Stuti attributed to Tulsidas, in English, Hindi, Odia and Telugu with meaning and a video',
+      hi: 'श्री रामचन्द्र कृपालु भज मन, तुलसीदास जी की राम स्तुति, अर्थ और वीडियो सहित',
+      od: 'ଶ୍ରୀ ରାମଚନ୍ଦ୍ର କୃପାଳୁ ଭଜ ମନ, ତୁଳସୀଦାସଙ୍କ ରାମ ସ୍ତୁତି, ଅର୍ଥ ଓ ଭିଡିଓ ସହିତ',
+      te: 'శ్రీ రామచంద్ర కృపాలు భజ మన, తులసీదాసు రాముని స్తుతి, అర్థం మరియు వీడియోతో',
+    },
+    color: 'from-sky-950 to-indigo-950',
+    accent: '#5aa9e6',
+    youtubeId: '3lRt8gUSPB0',
+    verseCount: 5,
+    language: 'Awadhi and Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

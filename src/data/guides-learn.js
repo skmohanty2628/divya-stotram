@@ -808,7 +808,7 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['ram-raksha-stotram', 'hanuman-chalisa'],
+      stotrams: ['ram-raksha-stotram', 'hanuman-chalisa', 'shri-ramachandra-kripalu'],
       guides: ['hanuman-jayanti-guide', 'how-to-chant-hanuman-chalisa', 'hanuman-chalisa-history-tulsidas'],
     },
     sources: [
@@ -5494,6 +5494,202 @@ export const GUIDES_LEARN = [
     "sources": [
       "Wikipedia, Bhagavad Gita (18 chapters, 700 verses, Bhishma Parva numbering, setting, chapter list, translations, dating range, commentaries)",
       "HinduTone, Gita Jayanti 2026 (tradition that the Gita was taught on Margashirsha Shukla Ekadashi, 2026 date)"
+    ]
+  },
+  {
+    "slug": "vivah-panchami-2026-rama-sita-wedding-guide",
+    "category": "Festivals",
+    "title": "Vivah Panchami 2026: Date, Rama and Sita Wedding Story and How to Observe It",
+    "description": "Vivah Panchami 2026 falls on Monday 14 December in India. Learn the panchami tithi timings, the story of Rama and Sita's wedding in Mithila, how Janakpur and Ayodhya mark the day and a simple home puja.",
+    "h1": "Vivah Panchami: Date, Story of Rama and Sita's Wedding and How to Observe the Day",
+    "intro": "Vivah Panchami is the day on which Hindus remember the wedding of Lord Rama and Sita. It falls on the fifth lunar day of the bright half of the month of Margashirsha, which usually comes in late November or December. This guide gives the 2026 date and tithi timings, tells the story of the wedding as it is found in the Valmiki Ramayana and the Ramcharitmanas, describes how Janakpur and Ayodhya celebrate, explains a regional custom about weddings on this day, and sets out a simple way to observe it at home.",
+    "sections": [
+      {
+        "h": "Date and timings in 2026",
+        "p": [
+          "In India Vivah Panchami falls on Monday 14 December 2026. According to HinduTone, which takes its tithi times from Drik Panchang, the Panchami tithi begins at about 4:47 pm IST on Sunday 13 December and ends at about 7:15 pm IST on Monday 14 December. The Haindavam festival calendar, checked for Ujjain, shows the same end time to within a minute, 7:16 pm on 14 December. Because the tithi is already running at sunrise on Monday, most calendars place the festival on Monday.",
+          "These times are for India. In Janakpur in Nepal, HinduTone lists the tithi as running from about 5:02 pm on Sunday to about 7:31 pm on Monday, Nepal time. For people living outside India the calendar date can differ: the same listing gives Sunday 13 December for the United States and Canada, and Monday 14 December for the United Kingdom, the Gulf, Singapore and Australia. If you follow a temple or a family panchang, use the date it announces."
+        ]
+      },
+      {
+        "h": "What the day marks",
+        "p": [
+          "Vivah Panchami marks the wedding of Rama, prince of Ayodhya, and Sita, daughter of King Janaka of Mithila. Wikipedia places the festival on the fifth day of the waxing moon in Margashirsha, called Agrahayana or Mangsir in some calendars, and notes that it is observed at temples tied to Rama in the Mithila region of Nepal and in Ayodhya. Because it falls on a bright-half Panchami, the month name is the same in both the northern and the southern lunar calendars.",
+          "For many families the day is a celebration of an ideal marriage, shown as a partnership of devotion, patience and shared duty. Others treat it mainly as a day of Rama worship. Both views are common, and nothing in the observance requires you to hold one over the other."
+        ]
+      },
+      {
+        "h": "The story of the wedding",
+        "p": [
+          "The tale begins in Mithila. King Janaka had found Sita in a furrow of the field, and he kept in his palace the great bow of Shiva. He had declared that the man who could string it would marry Sita. Many princes tried and failed. When Rama, who had come with the sage Vishwamitra and his brother Lakshmana, lifted the bow and strung it, it broke. Janaka then offered Sita to him, and word was sent to King Dasharatha in Ayodhya.",
+          "Dasharatha arrived with his family and court. Rama and Sita were married, and on the same occasion the other three brothers were married to Sita's family: Lakshmana to Urmila, Bharata to Mandavi and Shatrughna to Shrutakirti. HinduTone notes that the Bala Kanda of Valmiki and the Ramcharitmanas of Tulsidas differ in some details, such as how the swayamvara is staged and the scene in the garden where Sita first sees Rama, so you will hear slightly different tellings depending on the book or performer.",
+          "The Manas also gives the scene in which Sita prays to Goddess Gauri in the garden before the swayamvara. Some printed editions of the hymn Shri Ramachandra Kripalu Bhajman add verses about that blessing at the end, and the hymn is often sung on this day."
+        ]
+      },
+      {
+        "h": "How Janakpur and Ayodhya mark the day",
+        "p": [
+          "Janakpur in Nepal is honoured as Sita's home, so the celebration is held from the bride's side. HinduTone describes multi-day festivities with a re-enactment of the breaking of the bow, the arrival of Rama's wedding party and the wedding rites at the Janaki temple. No official 2026 programme was published in the sources checked, so if you plan to travel, confirm the schedule with the temple.",
+          "In Ayodhya the day is celebrated from the groom's side. Temples hold their own events, which can include a symbolic wedding procession, readings of the wedding chapters of the Ramcharitmanas and devotional singing. Events differ from temple to temple and year to year."
+        ]
+      },
+      {
+        "h": "A regional custom about weddings",
+        "p": [
+          "In Mithila and parts of Nepal some families avoid fixing their own daughters' weddings on Vivah Panchami. The reason usually given is that after her marriage Sita faced hardship, including exile, abduction and separation. HinduTone presents this as a regional custom and not a rule of scripture, and many families elsewhere regard the day as auspicious. If you are choosing a wedding date, follow your family's tradition and the advice of your priest."
+        ]
+      },
+      {
+        "h": "A simple home observance",
+        "p": [
+          "No single method is laid down, and HinduTone publishes no fixed muhurat for the day. Most families worship in the morning after a bath, or in the evening on the same day if work makes the morning difficult. A simple plan is to place a picture or image of Rama, Sita, Lakshmana and Hanuman on a clean surface, light a lamp, offer flowers and a simple sweet, and read or sing a short text.",
+          "Suitable choices include the Ram Raksha Stotram, the Hanuman Chalisa and the Ram Stuti, Shri Ramachandra Kripalu Bhajman. Some families read the wedding chapters of the Ramcharitmanas, and some keep a light fast. A fast is optional. If you are pregnant, elderly, unwell or on medication, eat normally and ask your doctor if you are unsure."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When is Vivah Panchami in 2026?",
+        "a": "Monday 14 December 2026 in India. The Panchami tithi runs from about 4:47 pm IST on 13 December to about 7:15 pm IST on 14 December. In the United States and Canada the date can be Sunday 13 December."
+      },
+      {
+        "q": "What does Vivah Panchami celebrate?",
+        "a": "The wedding of Lord Rama and Sita in Mithila, on the fifth day of the bright half of Margashirsha."
+      },
+      {
+        "q": "Where is Vivah Panchami celebrated most?",
+        "a": "In Janakpur in Nepal, Sita's home, and in Ayodhya in India, along with Rama temples elsewhere."
+      },
+      {
+        "q": "Why do some families avoid weddings on this day?",
+        "a": "In Mithila and parts of Nepal some families avoid it because of the hardships Sita faced after her marriage. It is a regional custom and not a scriptural rule, and many families see the day as auspicious."
+      },
+      {
+        "q": "Which texts tell the wedding story?",
+        "a": "The Bala Kanda of the Valmiki Ramayana and the Ramcharitmanas of Tulsidas. They differ in some details, such as the garden scene and how the swayamvara is staged."
+      },
+      {
+        "q": "Do I have to fast on Vivah Panchami?",
+        "a": "No. A fast is optional, and many families simply worship and read a text. If you are unwell, pregnant, elderly or on medication, eat normally and consult your doctor."
+      },
+      {
+        "q": "Which stotram can I read on this day?",
+        "a": "The Ram Raksha Stotram, the Hanuman Chalisa or the Ram Stuti, Shri Ramachandra Kripalu Bhajman, are common choices. None is required."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "ram-raksha-stotram",
+        "shri-ramachandra-kripalu",
+        "hanuman-chalisa"
+      ],
+      "guides": [
+        "rama-navami-guide",
+        "how-to-chant-hanuman-chalisa",
+        "hanuman-chalisa-history-tulsidas"
+      ]
+    },
+    "sources": [
+      "HinduTone, Vivah Panchami 2026: Date (Monday 14 December), Panchami tithi, dates abroad, Ram Sita Vivah katha, Janakpur and puja at home (tithi times citing Drik Panchang, legend, Janakpur and Ayodhya customs, regional custom)",
+      "Haindavam festival calendar, Vivaha Panchami 14 December 2026 (tithi end time)",
+      "Wikipedia, Vivaha Panchami (festival, month and tithi, Janakpur and Ayodhya)"
+    ]
+  },
+  {
+    "slug": "kalabhairava-jayanti-2026-guide",
+    "category": "Festivals",
+    "title": "Kalabhairava Jayanti 2026: Date, Story, Kashi Kotwal and Puja Steps",
+    "description": "Kalabhairava Jayanti 2026 falls on Tuesday 1 December in India. Learn the Ashtami tithi timings, the story of Bhairava and Brahma's fifth head, his role as guardian of Kashi, and a simple home worship plan.",
+    "h1": "Kalabhairava Jayanti: Date, Story of Bhairava and How to Observe the Day",
+    "intro": "Kalabhairava Jayanti, also called Kalabhairava Ashtami or Bhairava Ashtami, is the day devotees mark the appearance of Kalabhairava, the fierce form of Lord Shiva. It falls on the eighth lunar day of the dark half of the month. This guide gives the 2026 date and tithi timings, tells the main legend and its meaning, explains his link with Kashi and the dog, and sets out a simple way to observe the day with safe fasting advice.",
+    "sections": [
+      {
+        "h": "Date and timings in 2026",
+        "p": [
+          "In India Kalabhairava Jayanti falls on Tuesday 1 December 2026. According to HinduTone, which takes its panchang details from Drik Panchang, the Krishna Paksha Ashtami tithi runs from about 12:11 am to about 11:13 pm IST on 1 December. The Haindavam calendar lists the same day, with the tithi ending about 11:14 pm. The two sources differ by only a minute, which is normal between calculation tools.",
+          "These times are for India. HinduTone's own calculation puts the observance night on Monday 30 November in the United States, Canada, the United Kingdom and the UAE, and on Tuesday 1 December in Singapore, Malaysia and Australia. Temples may announce different timings, so follow your local temple or family panchang if it differs.",
+          "One point of confusion is the month name. Wikipedia places Bhairava Ashtami in the dark half of Margashirsha. That is the purnimanta reckoning used in much of North India, where the month ends on the full moon. In amanta calendars such as those used in Odisha and the Telugu states, the same dark half counts as the end of the previous month, Kartika. The day is the same either way."
+        ]
+      },
+      {
+        "h": "Who is Kalabhairava",
+        "p": [
+          "Bhairava is a fierce form of Shiva. Wikipedia explains that the name comes from a word for fearsome and is also read as one who destroys fear or stands beyond it. Kalabhairava, meaning the Bhairava of time, is the form specially worshipped on this day. His vehicle is a dog, which is why he is also called Svashva, he whose vehicle is a dog. Temples to Kalabhairava exist in many places, including Varanasi and Ujjain."
+        ]
+      },
+      {
+        "h": "The legend of Brahma's fifth head",
+        "p": [
+          "The tale is found in several versions. In the one summarised by Wikipedia, Brahma falsely claimed to have found the top of a pillar of light, and Shiva produced Bhairava to punish this lie. Bhairava cut off Brahma's fifth head, and the skull stuck to his hand. A second version has Bhairava arise from a lock of Shiva's hair after Brahma's arrogance grew, and the skull in his hand marks the end of Brahma's pride.",
+          "HinduTone, summarising the Shiva Purana and other Shaiva texts, tells that Bhairava wandered as a mendicant with the skull in his hand until it fell away at Kashi, at the spot called Kapala Mochana. Most people read the story as a lesson about pride and penance and not as a call to harm anyone."
+        ]
+      },
+      {
+        "h": "The Kotwal of Kashi",
+        "p": [
+          "Wikipedia notes that Bhairava was freed of the burden of his act when he reached Kashi, the city of liberation, and that there are Kala Bhairava temples at Varanasi and Ujjain. HinduTone adds that Shiva made Bhairava the guardian of Kashi, honoured there as its Kotwal, a word for a city's chief guardian, and that pilgrims traditionally seek his permission before going about their visit. This is a tradition of devotees and not a rule that applies to those who cannot travel."
+        ]
+      },
+      {
+        "h": "How to observe the day at home",
+        "p": [
+          "Customs vary by family and region, and nothing here is compulsory. HinduTone lists these common practices: light a lamp with mustard or sesame oil, offer black sesame, flowers, bilva leaves, coconut and a simple sweet, and chant Om Kalabhairavaya Namah or read the Kalabhairava Ashtakam or the Bhairav Chalisa. Some families keep a night vigil, called jagaran. Feeding a dog, regarded as Bhairava's vehicle, or giving food to a person in need, is a widely followed act of charity.",
+          "Fasting is optional. If you are pregnant, elderly, diabetic, unwell or on medication, eat normally and ask your doctor if you are unsure. For text, Wikipedia says the hymn Kalabhairava Ashtakam is credited to Adi Shankara, who is said to have composed it at Kashi. The site also has the Shiva Chalisa, the Lingashtakam and the Maha Mrityunjaya Mantra, which are suitable on any day of Shiva worship."
+        ]
+      },
+      {
+        "h": "What to keep in mind",
+        "p": [
+          "Kalabhairava is feared by many people, but devotees describe him mainly as a protector who removes fear. Worship needs no special initiation for a simple lamp and prayer. Treat any claims of guaranteed results, such as a cure, wealth or the removal of bad luck, with caution. A prayer is a spiritual practice and does not replace medical, legal or financial advice."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When is Kalabhairava Jayanti in 2026?",
+        "a": "Tuesday 1 December 2026 in India. The Krishna Paksha Ashtami runs from about 12:11 am to about 11:13 pm IST that day. In the United States, Canada, the United Kingdom and the UAE the observance night falls on 30 November."
+      },
+      {
+        "q": "Is Kalabhairava Jayanti the same as Kalabhairava Ashtami?",
+        "a": "Yes. Kalabhairava Jayanti, Kalabhairava Ashtami and Bhairava Ashtami are names for the same day, the dark-half Ashtami on which Kalabhairava's appearance is remembered."
+      },
+      {
+        "q": "Which month does it fall in?",
+        "a": "In the purnimanta calendar of North India it is counted in Margashirsha. In amanta calendars such as Odisha and the Telugu states the same dark half counts as Kartika. The day is the same."
+      },
+      {
+        "q": "Why is a dog linked with Kalabhairava?",
+        "a": "The dog is his vehicle, and he is also called Svashva, he whose vehicle is a dog. Feeding a dog on this day is a common custom."
+      },
+      {
+        "q": "Who composed the Kalabhairava Ashtakam?",
+        "a": "It is credited to Adi Shankara, said to have written it at Kashi. As with many old hymns, authorship rests on tradition."
+      },
+      {
+        "q": "Do I have to fast on Kalabhairava Jayanti?",
+        "a": "No. A fast is optional. If you are pregnant, elderly, diabetic, unwell or on medication, eat normally and consult your doctor."
+      },
+      {
+        "q": "What can I offer at home?",
+        "a": "A lamp with mustard or sesame oil, black sesame, flowers, bilva leaves, coconut and a simple sweet are commonly listed. Simple prayer without any offering is also fine."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "shiv-chalisa",
+        "lingashtakam",
+        "maha-mrityunjaya-mantra"
+      ],
+      "guides": [
+        "maha-shivaratri-guide",
+        "how-to-chant-shiva-mantra",
+        "kartika-month-odisha-guide"
+      ]
+    },
+    "sources": [
+      "HinduTone, Kalabhairav Jayanti 2026 (Kaal Bhairav Ashtami): date, Ashtami tithi citing Drik Panchang, dates abroad, legend, Kashi Kotwal, customs",
+      "Haindavam festival calendar, Kala Bhairava Jayanthi 1 December 2026 (tithi times)",
+      "Wikipedia, Kalabhairava (Bhairava name, dog vehicle, Brahma's fifth head, Kashi, temples, Kalabhairava Ashtakam attribution to Adi Shankara)"
     ]
   },
 ];

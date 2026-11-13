@@ -177,6 +177,11 @@ const SEO_COPY = {
     description:
       'Read Manojavam Marutatulyavegam (मनोजवं मारुततुल्यवेगं), the Hanuman prayer to Rama\'s messenger, in English, Hindi, Odia and Telugu with meaning, when to chant it, and a video to follow along.',
   },
+  'shri-ramachandra-kripalu': {
+    title: 'Shri Ramachandra Kripalu Bhajman Lyrics in English, Hindi, Odia & Telugu with Meaning (Ram Stuti)',
+    description:
+      'Read Shri Ramachandra Kripalu Bhajman (श्री रामचन्द्र कृपालु भज मन), the Ram Stuti attributed to Tulsidas, in English, Hindi, Odia and Telugu with meaning, when it is sung, and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

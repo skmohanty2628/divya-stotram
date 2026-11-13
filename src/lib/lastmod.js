@@ -1,6 +1,11 @@
 // Real last-edit dates per page, taken from docs/verse-audit-log.md and later content changes.
 // Pages not listed here have not changed since the base date in site.js (CONTENT_UPDATED).
 export const LASTMOD = {
+  'shri-ramachandra-kripalu': '2026-11-13',
+  'vivah-panchami-2026-rama-sita-wedding-guide': '2026-11-13',
+  'kalabhairava-jayanti-2026-guide': '2026-11-13',
+  'rama-navami-guide': '2026-11-13',
+  'saraswati-vandana': '2026-11-13',
   'how-to-chant-hanuman-chalisa': '2026-11-12',
   'how-to-start-reading-the-bhagavad-gita-guide': '2026-11-12',
   'gita-jayanti-mokshada-ekadashi-2026-guide': '2026-11-12',

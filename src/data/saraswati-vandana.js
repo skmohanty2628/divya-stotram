@@ -37,9 +37,9 @@ export const saraswatiVandana = {
     {
       id:3, type:'shloka', num:3,
       transliteration:'Saraswati Namastubhyam Varade Kama Rupini\nVidyarambham Karishyami Siddhir Bhavatu Me Sada',
-      original:'सरस्वती नमस्तुभ्यं वरदे कामरूपिणि।\nविद्यारम्भं करिष्यामि सिद्धिर्भवतु मे सदा॥',
+      original:'सरस्वति नमस्तुभ्यं वरदे कामरूपिणि।\nविद्यारम्भं करिष्यामि सिद्धिर्भवतु मे सदा॥',
       script:{
-        od:'ସରସ୍ୱତୀ ନମସ୍ତୁଭ୍ୟଂ ବରଦେ କାମରୂପିଣୀ।\nବିଦ୍ୟାରମ୍ଭଂ କରିଷ୍ୟାମି ସିଦ୍ଧିର୍ଭବତୁ ମେ ସଦା॥',
+        od:'ସରସ୍ୱତି ନମସ୍ତୁଭ୍ୟଂ ବରଦେ କାମରୂପିଣୀ।\nବିଦ୍ୟାରମ୍ଭଂ କରିଷ୍ୟାମି ସିଦ୍ଧିର୍ଭବତୁ ମେ ସଦା॥',
         te:'సరస్వతి నమస్తుభ్యం వరదే కామ రూపిణి।\nవిద్యారంభం కరిష్యామి సిద్ధిర్భవతు మే సదా॥',
       },
       meaning:{
@@ -52,11 +52,11 @@ export const saraswatiVandana = {
 
     {
       id:4, type:'shloka', num:4,
-      transliteration:'Shuklaam Brahmavichara Sara Paramaadyaam Jagadvyapinim\nVeenam Pustaka Dharineem Abhayadam Jaadyaandhakaraapahaam',
-      original:'शुक्लां ब्रह्मविचारसार परमाद्यां जगद्व्यापिनीम्।\nवीणापुस्तकधारिणीम् अभयदां जाड्यान्धकारापहाम्॥',
+      transliteration:'Shuklaam Brahmavichara Saara Paramaam Aadyaam Jagadvyapinim\nVeenam Pustaka Dharineem Abhayadam Jaadyaandhakaraapahaam',
+      original:'शुक्लां ब्रह्मविचारसारपरमामाद्यां जगद्व्यापिनीम्।\nवीणापुस्तकधारिणीम् अभयदां जाड्यान्धकारापहाम्॥',
       script:{
-        od:'ଶୁକ୍ଳାଂ ବ୍ରହ୍ମବିଚାରସାର ପରମାଦ୍ୟାଂ ଜଗଦ୍ବ୍ୟାପିନୀମ୍।\nବୀଣାପୁସ୍ତକଧାରିଣୀମ୍ ଅଭୟଦାଂ ଜାଡ୍ୟାନ୍ଧକାରାପହାମ୍॥',
-        te:'శుక్లాం బ్రహ్మవిచారసార పరమాద్యాం జగద్వ్యాపినీమ్।\nవీణాపుస్తకధారిణీమ్ అభయదాం జాడ్యాంధకారాపహామ్॥',
+        od:'ଶୁକ୍ଳାଂ ବ୍ରହ୍ମବିଚାରସାରପରମାମାଦ୍ୟାଂ ଜଗଦ୍ବ୍ୟାପିନୀମ୍।\nବୀଣାପୁସ୍ତକଧାରିଣୀମ୍ ଅଭୟଦାଂ ଜାଡ୍ୟାନ୍ଧକାରାପହାମ୍॥',
+        te:'శుక్లాం బ్రహ్మవిచారసారపరమామాద్యాం జగద్వ్యాపినీమ్।\nవీణాపుస్తకధారిణీమ్ అభయదాం జాడ్యాంధకారాపహామ్॥',
       },
       meaning:{
         en:'She who is pure, spreads knowledge everywhere, holds a veena and book, and removes darkness of ignorance, I bow to her.',
@@ -84,11 +84,11 @@ export const saraswatiVandana = {
 
     {
       id:6, type:'shloka', num:6,
-      transliteration:'Saraswati Mahabhage Vidye Kamala Lochane\nVishvaroope Vishaalaakshi Vidyam Dehi Namostute',
-      original:'सरस्वती महाभागे विद्ये कमललोचने।\nविश्वरूपे विशालाक्षि विद्यां देहि नमोऽस्तु ते॥',
+      transliteration:'Saraswati Mahabhage Vidye Kamala Lochane\nVidyaroope Vishaalaakshi Vidyam Dehi Namostute',
+      original:'सरस्वति महाभागे विद्ये कमललोचने।\nविद्यारूपे विशालाक्षि विद्यां देहि नमोऽस्तु ते॥',
       script:{
-        od:'ସରସ୍ୱତୀ ମହାଭାଗେ ବିଦ୍ୟେ କମଳଲୋଚନେ।\nବିଶ୍ୱରୂପେ ବିଶାଳାକ୍ଷି ବିଦ୍ୟାଂ ଦେହି ନମୋସ୍ତୁ ତେ॥',
-        te:'సరస్వతీ మహాభాగే విద్యే కమలలోచనే।\nవిశ్వరూపే విశాలాక్షి విద్యాం దేహి నమోస్తు తే॥',
+        od:'ସରସ୍ୱତି ମହାଭାଗେ ବିଦ୍ୟେ କମଳଲୋଚନେ।\nବିଦ୍ୟାରୂପେ ବିଶାଳାକ୍ଷି ବିଦ୍ୟାଂ ଦେହି ନମୋସ୍ତୁ ତେ॥',
+        te:'సరస్వతి మహాభాగే విద్యే కమలలోచనే।\nవిద్యారూపే విశాలాక్షి విద్యాం దేహి నమోస్తు తే॥',
       },
       meaning:{
         en:'O Saraswati, giver of knowledge, bless me with wisdom.',

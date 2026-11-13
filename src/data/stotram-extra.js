@@ -446,4 +446,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does it guarantee a result?', a: 'No. It is a prayer and not a promise of any worldly result, and it does not replace medical or professional advice.' },
     ],
   },
+  'shri-ramachandra-kripalu': {
+    what: `Shri Ramachandra Kripalu Bhajman, also called Shri Ram Stuti, is a devotional hymn to Rama attributed to the sixteenth century poet-saint Tulsidas. It opens by telling the mind to worship the merciful Rama, describes his lotus-like eyes, face, hands and feet and his dark cloud-like form, and ends with a prayer that he make his home in the devotee's heart. The language mixes Sanskrit-style words with Awadhi.`,
+    meaning: `The five stanzas move from praise to prayer. The first two describe Rama's beauty: lotus eyes, a body like a fresh rain cloud, a yellow garment like lightning. The third and fourth name him as friend of the humble, destroyer of demon clans, son of Dasharatha and victor over Khara and Dushana, and describe his crown, earrings, tilak and long arms holding the bow. The last stanza carries the poet's name and asks Rama to live in the lotus of the heart and remove desire and the other inner enemies. Many printed editions add a few more verses about Sita's prayer to Gauri before the Swayamvara, which come from the Ramcharitmanas, and this page does not include them.`,
+    benefits: [
+      'Short enough to learn by heart and sing along with a recording',
+      'A familiar hymn for Ram Navami, Vijayadashami and Sundarkand readings',
+      'Brings attention to Rama as a compassionate, approachable deity',
+      'Easy to sing in a group, at home or at a temple',
+      'Open to everyone, with no initiation or special preparation needed',
+    ],
+    bestTime: `No time or count is fixed by the text. The hymn is widely sung on Ram Navami and Vijayadashami, during Sundarkand recitals, and at the end of Ram aarti. Many people sing it in the morning or evening prayer. Once is enough, and some families repeat it on Tuesdays or Saturdays or when starting something new.`,
+    faqs: [
+      { q: 'Who wrote Shri Ramachandra Kripalu Bhajman?', a: 'It is attributed to Tulsidas, the sixteenth century poet of the Ramcharitmanas, and the fifth stanza names him. It is often linked with his Vinaya Patrika, but editions differ on what they include, so this page calls it a hymn attributed to Tulsidas.' },
+      { q: 'What does Shri Ramachandra Kripalu Bhajman mean?', a: 'It begins "O mind, worship the merciful Shri Ramachandra, who removes the dreadful fear of worldly existence." The rest praises his beauty and qualities and asks him to live in the devotee\'s heart.' },
+      { q: 'Which language is it in?', a: 'A mixture of Sanskrit-style words and Awadhi, the literary language Tulsidas used.' },
+      { q: 'How many verses does this page have?', a: 'Five stanzas, which two editions agree on. Some printed versions add extra verses taken from the Ramcharitmanas, which are not included here.' },
+      { q: 'Why do some editions spell words differently?', a: 'Some print bhaju mana and others bhaja mana, koshala or kosala, udara or udaru. These are spelling and dialect variants and do not change the meaning.' },
+      { q: 'Does singing it guarantee a result?', a: 'No. It is a hymn of praise and prayer, not a promise of any worldly result, and it does not replace medical or professional advice.' },
+    ],
+  },
 };

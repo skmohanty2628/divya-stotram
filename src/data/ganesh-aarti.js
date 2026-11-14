@@ -84,6 +84,26 @@ Laddooan Ka Bhog Lage Sant Karen Seva`,
 
     {
       id:5, type:'aarti', num:5,
+      original:`'सूर' श्याम शरण आए सफल कीजे सेवा।
+माता जाकी पार्वती पिता महादेवा॥`,
+      transliteration:`Sur Shyam Sharan Aaye Safal Keeje Seva
+Mata Jaki Parvati Pita Mahadeva`,
+      script:{
+        od:`'ସୂର' ଶ୍ୟାମ ଶରଣ ଆସିଲା, ସେବା ସଫଳ କରନ୍ତୁ।
+ମାତା ଯାଙ୍କ ପାର୍ବତୀ, ପିତା ମହାଦେବ॥`,
+        te:`'సూర్' శ్యామ్ శరణు వచ్చాడు, సేవను సఫలం చేయి।
+తల్లి పార్వతి, తండ్రి మహాదేవుడు॥`
+      },
+      meaning:{
+        en:`The poet signs off in the last line: "Sur Shyam has come to your refuge, make this service fruitful." Your mother is Parvati and your father is Mahadeva.`,
+        hi:`अंतिम पद में कवि अपना नाम देकर कहता है कि सूर श्याम आपकी शरण में आया है, इस सेवा को सफल कीजिए। आपकी माता पार्वती और पिता महादेव हैं।`,
+        od:`ଶେଷ ପଦରେ କବି କହନ୍ତି, ସୂର ଶ୍ୟାମ ଆପଣଙ୍କ ଶରଣରେ ଆସିଛି, ଏହି ସେବାକୁ ସଫଳ କରନ୍ତୁ। ଆପଣଙ୍କ ମାତା ପାର୍ବତୀ ଓ ପିତା ମହାଦେବ।`,
+        te:`చివరి పాదంలో కవి తన పేరుతో చెబుతాడు: సూర్ శ్యామ్ నీ శరణు వచ్చాడు, ఈ సేవను సఫలం చేయి. నీ తల్లి పార్వతి, తండ్రి మహాదేవుడు.`
+      }
+    },
+
+    {
+      id:6, type:'aarti', num:6,
       original:`जय गणेश जय गणेश जय गणेश देवा।
 माता जाकी पार्वती पिता महादेवा॥`,
       transliteration:`Jai Ganesh Jai Ganesh Jai Ganesh Deva`,
@@ -100,7 +120,7 @@ Laddooan Ka Bhog Lage Sant Karen Seva`,
     },
 
     {
-  id:6, type:'aarti', num:6,
+  id:7, type:'aarti', num:7,
   transliteration:`Jai Jai Ji Ganapati Jag Vandana Hamara
 Sarva Sukhadata Karo Nayan Nihara`,
   original:`जय जय जी गणपति जग वन्दन हमारा।
@@ -120,7 +140,7 @@ Sarva Sukhadata Karo Nayan Nihara`,
 },
 
 {
-  id:7, type:'aarti', num:7,
+  id:8, type:'aarti', num:8,
   transliteration:`Dhoop Deep Aur Naivedya Bhakti Se Jo Laave
 Ganapati Prasanna Ho Sukh Sampatti Paave`,
   original:`धूप दीप नैवेद्य चढ़े, भक्त करें सेवकाई।
@@ -140,7 +160,7 @@ Ganapati Prasanna Ho Sukh Sampatti Paave`,
 },
 
 {
-  id:8, type:'aarti', num:8,
+  id:9, type:'aarti', num:9,
   transliteration:`Jo Koi Gave Aarti Prem Sahit Gaave
 Vighna Vinashak Ganapati Sukh Sampatti Paave`,
   original:`जो कोई गावे आरती, प्रेम सहित गावै।

@@ -553,68 +553,114 @@ export const GUIDES_LEARN = [
   },
 
   {
-    slug: 'how-to-use-japa-mala',
-    category: 'Daily practice',
-    title: 'How to Use a Japa Mala: 108 Beads, Counting and Choosing Beads',
-    description:
-      'A practical guide to the japa mala: why it has 108 beads, how to hold and count, what to do at the meru bead, and which bead materials are traditionally paired with which deity.',
-    h1: 'How to Use a Japa Mala',
-    intro:
-      'A mala is a string of beads used to count repetitions of a mantra. It keeps the count without needing to think about it, so your attention can stay on the sound and meaning. Here is how it is traditionally used.',
-    sections: [
+    "slug": "how-to-use-japa-mala",
+    "category": "Daily practice",
+    "title": "How to Use a Japa Mala: 108 Beads, Counting, the Meru Bead and Choosing Beads",
+    "description": "A practical guide to the japa mala: why it usually has 108 beads, how to hold and count, what to do at the meru bead, which materials suit which deity, how to care for it, and how it compares with other prayer beads.",
+    "h1": "How to Use a Japa Mala",
+    "intro": "A mala is a string of beads used to count repetitions of a mantra or a name of God. The word mala is Sanskrit for garland, and japa means quiet repetition of a prayer, often silently. The beads keep the count so that your attention can stay on the sound and meaning. This guide explains how it is traditionally held and counted, what to do at the meru bead, how bead materials are linked with different deities, and how to look after it, noting where traditions differ.",
+    "sections": [
       {
-        h: 'Why 108?',
-        p: [
-          `Most malas have 108 beads plus one larger bead, called the meru or sumeru, where the string joins. Traditions offer many explanations for 108, from astronomical ratios to the number of sacred sites or names. No single reason is universally agreed. In practice, 108 is a convenient round that people have used for centuries, and some use 54 or 27 beads for a shorter practice.`,
-        ],
+        "h": "What a japa mala is",
+        "p": [
+          "A japa mala is used mainly by Hindus, Buddhists and Sikhs as an aid to meditation and devotion, and it is common across India and the Buddhist countries. Hindupedia describes it as a rosary for counting repetitions of a mantra that are usually done silently. Because it is only a counting aid, you can chant without one, but many people find that holding a mala gives the practice a steady rhythm and a clear start and end."
+        ]
       },
       {
-        h: 'How to hold and count',
-        p: [
-          `Sit comfortably and hold the mala in your right hand, resting it on the middle finger and drawing each bead toward you with the thumb. Tradition advises not using the index finger. Begin with the bead next to the meru, chant the mantra once per bead, and move around the mala until you reach the meru again. That is one round of 108.`,
-        ],
+        "h": "Why 108 beads, and other counts",
+        "p": [
+          "Most Hindu malas have 108 beads plus one larger bead, called the meru or sumeru, where the string joins. New World Encyclopedia notes that 108 is significant in both Hindu and Buddhist traditions without giving one agreed reason. Traditions offer many explanations, from astronomical ratios to the number of sacred sites or names, and none is accepted by everyone. In Tibetan Buddhist practice one circuit of 108 is explained as 100 counted repetitions with 8 set aside for the benefit of all beings.",
+          "Shorter malas are also used. Hindupedia says a japamala should have 108 or 54 beads, and mentions rarer counts of 27, 32 and 64. A 27-bead mala is common in some Pure Land Buddhist practice, since 27 divides 108 evenly. If you use a shorter mala, you simply count more rounds to reach the same total."
+        ]
       },
       {
-        h: 'At the meru bead',
-        p: [
-          `Do not cross over the meru. When you reach it, pause, then turn the mala around and go back in the other direction. Some people bow to the meru bead as a gesture of respect to the teacher or the deity. If you want to count several rounds, keep a simple tally with a notebook or a small counter.`,
-        ],
+        "h": "How to hold and count",
+        "p": [
+          "Sit comfortably and hold the mala in your right hand. Rest it over the middle finger and draw each bead toward you with the thumb, chanting the mantra once per bead. New World Encyclopedia says the index finger is avoided because it is taken to stand for the ego. It also notes that some Shakta practitioners in Bengal and Assam drape the mala over the ring finger instead, so this is a custom and not a single rule.",
+          "Begin with the bead next to the meru and move around the string until you reach the meru again. That is one round of 108. If you want to count several rounds, keep a simple tally with a notebook, a small counter or a few grains in a bowl."
+        ]
       },
       {
-        h: 'Which beads for which practice',
-        p: [
-          `Traditionally rudraksha seeds are used for Shiva mantras, tulsi wood for Vishnu and Krishna, and lotus seeds or crystal (sphatik) for Lakshmi and Saraswati. Sandalwood is a general-purpose, calming choice. These are customs, not requirements. Any clean mala that you feel comfortable with will serve, and it is usual to keep one mala for one practice rather than share it.`,
-        ],
+        "h": "At the meru bead",
+        "p": [
+          "The meru is the extra bead where the two ends meet. It is not counted, and counting starts next to it. Hindupedia says counting should not go past it, and treats it as the start and end of the round. New World Encyclopedia says that in Vedic practice the user reverses direction at this bead instead of crossing it.",
+          "So when you reach the meru, pause, turn the mala around and go back in the other direction. Teachers describe the detail slightly differently, and one explanation given is that turning the mala keeps the beads from pulling tight on the string. Some people bow to the meru bead as a gesture of respect to the teacher or the deity. Follow the practice of your own family or teacher."
+        ]
       },
       {
-        h: 'Caring for the mala',
-        p: [
-          `Keep it clean and in a cloth pouch or a pure place when not in use. Do not let it touch the floor, and avoid wearing it during activities you consider impure, according to your own tradition. Treat the mala as a tool for remembrance, not an ornament or a lucky charm.`,
-        ],
+        "h": "Which beads for which practice",
+        "p": [
+          "Hindupedia lists beads made from rudraksha seeds, dried tulsi sticks, bilva wood, gold, crystal, quartz, coral and other stones. It says rudraksha suits devotees of Shiva and Devi, and tulsi suits devotees of Vishnu. New World Encyclopedia gives the same association for Shaiva and Vaishnava practitioners, and names sandalwood as the most common and least expensive choice. Hindupedia adds that pearl malas are traditionally said to give skill in all branches of knowledge. Crystal, called sphatika, and lotus seeds are also widely used, often for Lakshmi and Saraswati.",
+          "These are customs and not requirements. The thread can be cotton, silk, copper wire or silver wire. Any clean mala that feels comfortable to you will serve, and it is usual to keep one mala for one practice and not to share it."
+        ]
       },
+      {
+        "h": "Caring for the mala",
+        "p": [
+          "Keep it clean and in a cloth pouch or a pure place when not in use. Do not let it touch the floor, and avoid wearing it during activities you consider impure, according to your own tradition. Check the thread now and then, since a worn thread can break in the middle of a round. Treat the mala as a tool for remembrance, not an ornament or a lucky charm."
+        ]
+      },
+      {
+        "h": "Other prayer beads",
+        "p": [
+          "Many faiths use beads to count prayers. New World Encyclopedia compares the Catholic rosary with the japa mala, since both help believers track repeated prayers, and notes that Eastern Orthodox Christians use a prayer rope. Buddhist traditions have their own names, such as shu-zhu in China and juzu in Japan, and shorter strings are sometimes used to count prostrations."
+        ]
+      },
+      {
+        "h": "A simple way to start",
+        "p": [
+          "Choose a short mantra you already know, such as the Gayatri Mantra, Om Namah Shivaya or a name of your chosen deity. Sit quietly, take one round of 108 and see how it feels. One round takes about ten to fifteen minutes, depending on the mantra. Increase the number of rounds only if you wish. Regularity matters more than the count, and a calm mind matters more than a fast finish."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Do I need a mala to chant?',
-        a: 'No. A mala is only a counting aid. You can count on your fingers or not count at all.',
+        "q": "Do I need a mala to chant?",
+        "a": "No. A mala is only a counting aid. You can count on your fingers or not count at all."
       },
       {
-        q: 'How many rounds should I do?',
-        a: 'Start with one round of 108, about ten to fifteen minutes depending on the mantra, and increase only if you wish.',
+        "q": "Why does a mala have 108 beads?",
+        "a": "Traditions offer many reasons, from astronomical ratios to sacred names, and none is agreed by everyone. In Tibetan Buddhism the count is explained as 100 repetitions plus 8 for the benefit of all beings."
       },
       {
-        q: 'Can two people share a mala?',
-        a: 'Tradition suggests each person keep their own, but this is a custom of respect, not a rule of scripture.',
+        "q": "How many rounds should I do?",
+        "a": "Start with one round of 108, about ten to fifteen minutes depending on the mantra, and increase only if you wish."
       },
+      {
+        "q": "Which finger should hold the mala?",
+        "a": "The middle finger, with the thumb moving the beads. The index finger is avoided because it is taken to stand for the ego. Some Shakta practitioners use the ring finger."
+      },
+      {
+        "q": "What do I do when I reach the meru bead?",
+        "a": "Do not cross it. Pause, turn the mala around and go back in the other direction. Some people bow to it."
+      },
+      {
+        "q": "Which beads are traditionally used for which deity?",
+        "a": "Rudraksha for Shiva and Devi, and tulsi for Vishnu are the most common pairings. Sandalwood, crystal and lotus seeds are also widely used. These are customs and not requirements."
+      },
+      {
+        "q": "Can two people share a mala?",
+        "a": "Tradition suggests each person keep their own, but this is a custom of respect and not a rule of scripture."
+      },
+      {
+        "q": "Is a shorter mala acceptable?",
+        "a": "Yes. Malas of 54 or 27 beads are used, and you count more rounds to reach the same total."
+      }
     ],
-    related: {
-      stotrams: ['gayatri-mantra'],
-      guides: ['mantra-chanting-rules-faq', 'how-to-chant-gayatri-mantra'],
+    "related": {
+      "stotrams": [
+        "gayatri-mantra"
+      ],
+      "guides": [
+        "mantra-chanting-rules-faq",
+        "how-to-chant-gayatri-mantra",
+        "om-meaning-and-how-to-chant"
+      ]
     },
-    sources: [
-      'Standard references on Hindu worship practice, e.g. Kane, History of Dharmasastra',
-      'Common japa practice as taught in Vaishnava, Shaiva and Shakta traditions (counting at the meru bead)',
-    ],
+    "sources": [
+      "New World Encyclopedia, Japa Mala (definition, 108 beads, guru bead, holding and counting, materials, other prayer beads)",
+      "Hindupedia, Japamala (bead counts, materials and associations, counting on the middle finger, the meru bead)"
+    ]
   },
 
 
@@ -5676,6 +5722,7 @@ export const GUIDES_LEARN = [
     ],
     "related": {
       "stotrams": [
+        "kalabhairava-ashtakam",
         "shiv-chalisa",
         "lingashtakam",
         "maha-mrityunjaya-mantra"
@@ -5690,6 +5737,195 @@ export const GUIDES_LEARN = [
       "HinduTone, Kalabhairav Jayanti 2026 (Kaal Bhairav Ashtami): date, Ashtami tithi citing Drik Panchang, dates abroad, legend, Kashi Kotwal, customs",
       "Haindavam festival calendar, Kala Bhairava Jayanthi 1 December 2026 (tithi times)",
       "Wikipedia, Kalabhairava (Bhairava name, dog vehicle, Brahma's fifth head, Kashi, temples, Kalabhairava Ashtakam attribution to Adi Shankara)"
+    ]
+  },
+  {
+    "slug": "datta-jayanti-2026-dattatreya-guide",
+    "category": "Festivals",
+    "title": "Datta Jayanti 2026: Date, Who Is Dattatreya, Datta Kshetras and How to Observe the Day",
+    "description": "Datta Jayanti 2026 falls on Wednesday 23 December. Learn the Margashirsha Purnima tithi timings, who Lord Dattatreya is, the four main Datta pilgrimage places, Guru Charitra and Datta Bavani, and a simple home observance.",
+    "h1": "Datta Jayanti: Date, Who Is Dattatreya and How to Observe the Day",
+    "intro": "Datta Jayanti marks the birth of Lord Dattatreya, who is worshipped as a single form joining Brahma, Vishnu and Shiva and is honoured as the first teacher, the Adi Guru. It falls on the full moon day of the month of Margashirsha. This guide gives the 2026 date and timings, explains who Dattatreya is and what the cow, the four dogs and the twenty-four teachers stand for, names the Datta pilgrimage places, and sets out a simple observance at home, with the points on which traditions differ.",
+    "sections": [
+      {
+        "h": "Date and timings in 2026",
+        "p": [
+          "In India Datta Jayanti falls on Wednesday 23 December 2026, on Margashirsha Purnima. According to HinduTone, which takes its timings from Drik Panchang, the Purnima tithi begins at about 10:47 am IST on 23 December and ends at about 6:57 am IST on 24 December. The Haindavam calendar, which is set for Ujjain, gives the end as 6:58 am on 24 December, a difference of one minute. Because Dattatreya's birth is celebrated in the evening, the festival is kept on 23 December even though the tithi runs into the next morning.",
+          "HinduTone lists the same date, 23 December, for the United States, the United Kingdom, Canada, the United Arab Emirates, Singapore, Malaysia and Australia. Local temples sometimes differ, so if you follow a particular Datta temple or family panchang, use the date it announces."
+        ]
+      },
+      {
+        "h": "Who is Dattatreya",
+        "p": [
+          "Dattatreya is worshipped as one form that combines Brahma, Vishnu and Shiva. He is usually pictured with three heads and six arms, with a cow standing behind him and four dogs at his feet. HinduTone reads the cow as a sign of the Earth or of dharma, and the four dogs as the four Vedas. Other traditions explain the symbols differently, and you will hear several readings.",
+          "As commonly told, he was born to the sage Atri and his wife Anasuya. The story says that the wives of the three gods tested Anasuya's devotion, and that in return the three gods took birth as her child. Because his teaching came from direct experience and not from one lineage, he is called the Adi Guru, the first teacher. Many devotees see him as the pattern of a teacher who is unattached and wanders as an avadhuta."
+        ]
+      },
+      {
+        "h": "The twenty-four gurus",
+        "p": [
+          "One of the best known teachings linked with Dattatreya is that of twenty-four gurus. The Bhagavata Purana tells of an avadhuta who learned a lesson from each of twenty-four teachers drawn from nature and daily life, such as the earth, the wind, the sea, a bee and a child. The earth teaches patience, for example, and the bee teaches how to take only what is needed from many flowers. The message is that a seeker can learn from anything with an open mind.",
+          "The reading of the lessons varies among teachers and books, so treat any list you meet as one version and not the only one."
+        ]
+      },
+      {
+        "h": "Datta Kshetras",
+        "p": [
+          "Four places are commonly named as Datta kshetras, or pilgrimage places for Dattatreya. HinduTone lists Pithapuram in Andhra Pradesh, the birthplace of Sripada Srivallabha, Ganagapur in Karnataka, linked with Sri Narasimha Saraswati, Narsobawadi, also called Narsinhwadi, in Maharashtra, also linked with Narasimha Saraswati, and Audumbar in Maharashtra, on the Krishna river and named after the sacred audumbar tree. Other lists add more places. Check the temple's own announcements before you plan a visit, as festival programmes change from year to year."
+        ]
+      },
+      {
+        "h": "Guru Charitra and Datta Bavani",
+        "p": [
+          "The Guru Charitra is a Marathi text about Sripada Srivallabha and Narasimha Saraswati. HinduTone notes that many devotees read it over seven days so that they finish on the day of the festival. The Datta Bavani is a hymn of fifty-two verses in Gujarati, often recited on Thursdays and on Datta Jayanti. These are optional. A short prayer or a quiet period of remembrance is just as valid."
+        ]
+      },
+      {
+        "h": "A simple observance at home",
+        "p": [
+          "Customs differ, and nothing is compulsory. HinduTone lists these common practices: an early bath, a simple puja with a lamp, flowers and water in front of a picture or image of Dattatreya, a modest sweet offering, reading or chanting, and an evening aarti. Some families keep a fast, and many feed people or animals on the day, since the dog and the cow are part of Dattatreya's image.",
+          "A fast is optional. If you are pregnant, elderly, diabetic, unwell or on medication, eat normally and ask your doctor if you are unsure. Prayer is a spiritual practice and does not replace medical, legal or financial advice."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When is Datta Jayanti in 2026?",
+        "a": "Wednesday 23 December 2026. The Margashirsha Purnima tithi runs from about 10:47 am IST on 23 December to about 6:57 am IST on 24 December, and the festival is kept in the evening of the 23rd."
+      },
+      {
+        "q": "Who is Lord Dattatreya?",
+        "a": "He is worshipped as one form joining Brahma, Vishnu and Shiva, commonly told to be the son of the sage Atri and Anasuya, and honoured as the Adi Guru, the first teacher."
+      },
+      {
+        "q": "What do the cow and the four dogs stand for?",
+        "a": "HinduTone reads the cow as the Earth or dharma and the four dogs as the four Vedas. Other traditions give other readings."
+      },
+      {
+        "q": "What are the twenty-four gurus?",
+        "a": "The Bhagavata Purana describes an avadhuta who learned from twenty-four teachers in nature and daily life, such as the earth, the wind, the sea, a bee and a child."
+      },
+      {
+        "q": "Which are the main Datta pilgrimage places?",
+        "a": "HinduTone names Pithapuram in Andhra Pradesh, Ganagapur in Karnataka, and Narsobawadi and Audumbar in Maharashtra. Other lists add more places."
+      },
+      {
+        "q": "Do I need to read the Guru Charitra?",
+        "a": "No. Many devotees read it in seven days to finish on Datta Jayanti, but it is optional and a short prayer is equally valid."
+      },
+      {
+        "q": "Do I have to fast?",
+        "a": "No. A fast is optional. If you are pregnant, elderly, diabetic, unwell or on medication, eat normally and consult your doctor."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "maha-mrityunjaya-mantra",
+        "gayatri-mantra",
+        "vishnu-sahasranamam"
+      ],
+      "guides": [
+        "guru-brahma-guru-vishnu-meaning-and-guru-purnima",
+        "gita-jayanti-mokshada-ekadashi-2026-guide",
+        "kalabhairava-jayanti-2026-guide"
+      ]
+    },
+    "sources": [
+      "HinduTone, Datta Jayanti 2026: Date (23 December), Lord Dattatreya, Datta Kshetras and Guru Charitra Parayana (date, Purnima tithi citing Drik Panchang, dates abroad, symbols, kshetras, customs)",
+      "Haindavam festival calendar, Datta Jayanti 23 December 2026 (date and tithi end time)",
+      "Bhagavata Purana, Skandha 11 (the avadhuta and his twenty-four teachers)"
+    ]
+  },
+  {
+    "slug": "dhanurmasam-2026-tiruppavai-andal-guide",
+    "category": "Festivals",
+    "title": "Dhanurmasam 2026: Start Date, Tiruppavai of Andal and a Simple Daily Routine",
+    "description": "Dhanurmasam 2026 begins with Dhanu Sankranti on Wednesday 16 December and runs to Makar Sankranti. Learn what the month is, the thirty verses of Andal's Tiruppavai, and a simple pre-dawn routine for Telugu and Tamil homes.",
+    "h1": "Dhanurmasam: Start Date, Andal's Tiruppavai and a Simple Daily Routine",
+    "intro": "Dhanurmasam is the month in which the Sun moves through the zodiac sign Dhanu, or Sagittarius. Telugu and Tamil families treat it as a month of early rising and Vishnu worship, and it is called Margazhi in Tamil. Its best known text is the Tiruppavai, thirty Tamil verses by the poet-saint Andal, one for each day. This guide gives the 2026 start date, explains how the month is reckoned, introduces the Tiruppavai and offers a simple routine for those who want to follow it.",
+    "sections": [
+      {
+        "h": "Start date in 2026",
+        "p": [
+          "Dhanurmasam begins on Dhanu Sankranti, the day the Sun enters Dhanu. In 2026 this is Wednesday 16 December. The Haindavam festival calendar lists Dhanu Sankranti on 16 December, and HinduTone's festival guide carries the title Dhanurmasam 2026: Dates (16 December to Makar Sankranti). The exact moment of the Sun's entry differs by location, so a place near the end of the day on 15 December or the start of 16 December can see the month start on a different local date. Check a local panchang.",
+          "The month runs until Makar Sankranti, when the Sun enters Makara. HinduTone's festival list gives Makar Sankranti as Friday 15 January 2027. The month is reckoned by the Sun, not by the Moon, so it moves little against the calendar and always falls from mid December to mid January."
+        ]
+      },
+      {
+        "h": "Why this month is special",
+        "p": [
+          "Many Telugu and Tamil families regard the pre-dawn hours of this month as especially suited to prayer, and the month as given to Vishnu. In Tamil Nadu it is called Margazhi, in Telugu Dhanurmasam or Dhanurmasa. Families describe it as a month of discipline, with people waking early, lighting a lamp and recalling the divine before the day begins.",
+          "Different traditions differ in their rules. Some restrict auspicious family events such as weddings in this month. Others do not. If you are planning something, follow your own family's tradition and the advice of your priest."
+        ]
+      },
+      {
+        "h": "The Tiruppavai of Andal",
+        "p": [
+          "The Tiruppavai is a set of thirty Tamil hymns, called pasurams, by the poet-saint Andal. Wikipedia places her around the ninth or tenth century CE and notes that the hymns praise Vishnu and are part of the Nalayira Divya Prabandham, the collection of the Alvar poet-saints. The hymns belong to a tradition in which young women keep a vow during Margazhi, and each day of the month is linked with one verse.",
+          "In the poems Andal speaks as a cowherd girl of Gokulam who wishes to be united with Krishna. She wakes her friends, calls them to the river and then to the home of Nandagopa, and asks for the Lord's grace. Because the verses are in Tamil, Telugu readers often use a Telugu script edition with the meaning beside it. Reading one verse a day takes only a few minutes."
+        ]
+      },
+      {
+        "h": "A simple daily routine",
+        "p": [
+          "No single routine is laid down, and nothing here is compulsory. A simple plan that many families follow is to wake before sunrise, wash, light a lamp in front of a picture of Vishnu or Krishna and Godadevi, and read or sing the day's verse. A small rangoli, called muggu in Telugu and kolam in Tamil, at the front door is a common practice. Some temples hold a special early service every day of the month, so you can also go to your local temple.",
+          "If waking before dawn is not possible for health or work reasons, the same prayer can be said at any time of the day. The aim is steady daily remembrance, and a skipped day is not a failure. Prayer does not replace medical advice, and if you have a health condition, do not push a fast or an early schedule that your doctor would not advise."
+        ]
+      },
+      {
+        "h": "Offerings and food",
+        "p": [
+          "Many temples and homes offer a simple sweet or savoury rice dish as a morning offering during the month, often called prasadam once shared. The dish varies by region and family. HinduTone's festival pages for the month contain city by city schedules for people outside India, and these are a useful guide if you live abroad and want to find the dawn time in your own city."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When does Dhanurmasam start in 2026?",
+        "a": "On Dhanu Sankranti, Wednesday 16 December 2026. The exact time of the Sun's entry varies by place, so check a local panchang."
+      },
+      {
+        "q": "When does it end?",
+        "a": "On Makar Sankranti, which HinduTone lists as Friday 15 January 2027."
+      },
+      {
+        "q": "What is the Tiruppavai?",
+        "a": "A set of thirty Tamil hymns by the poet-saint Andal, placed around the ninth or tenth century CE and part of the Nalayira Divya Prabandham. Each day of Margazhi is linked with one verse."
+      },
+      {
+        "q": "Is Dhanurmasam the same as Margazhi?",
+        "a": "Margazhi is the Tamil name for the same solar month, and Dhanurmasam is the Telugu and Sanskrit name."
+      },
+      {
+        "q": "Do I have to wake before dawn?",
+        "a": "No. Early rising is the common custom, but the prayer can be said at any time. A skipped day is not a failure."
+      },
+      {
+        "q": "Are weddings avoided during Dhanurmasam?",
+        "a": "Some traditions avoid auspicious family events in this month and others do not. Follow your own family's custom and the advice of your priest."
+      },
+      {
+        "q": "Can I read the Tiruppavai if I do not know Tamil?",
+        "a": "Yes. Editions exist in Telugu, Hindi and English script with the meaning beside each verse. Reading with the meaning is a good way to start."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "vishnu-sahasranamam",
+        "krishna-vasudevaya-mantra",
+        "hanuman-chalisa"
+      ],
+      "guides": [
+        "makar-sankranti-odisha-guide",
+        "how-to-start-reading-the-bhagavad-gita-guide",
+        "morning-prayer-routine"
+      ]
+    },
+    "sources": [
+      "Haindavam festival calendar, Dhanu Sankranti 16 December 2026 (date)",
+      "HinduTone, Dhanurmasam 2026: Dates (16 December to Makar Sankranti), Tiruppavai Schedule, Andal and Vaikuntha Ekadashi (date range)",
+      "HinduTone, festival list (Makar Sankranti on 15 January 2027)",
+      "Wikipedia, Tiruppavai (thirty hymns, Andal, ninth or tenth century CE, Nalayira Divya Prabandham, Margazhi vow tradition)"
     ]
   },
 ];

@@ -466,4 +466,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does singing it guarantee a result?', a: 'No. It is a hymn of praise and prayer, not a promise of any worldly result, and it does not replace medical or professional advice.' },
     ],
   },
+  'kalabhairava-ashtakam': {
+    what: `Kalabhairava Ashtakam is an eight-verse hymn to Kalabhairava, the fierce form of Shiva who is honoured as the guardian of Kashi. Every verse ends with the same line, "I worship Kalabhairava, lord of the city of Kashi", and a ninth verse states the fruit of reciting it. It is traditionally credited to Adi Shankara. Sanskrit Documents prints it with a colophon naming Shankara and points to the Complete Works of Shankaracharya, and Wikipedia says the same, but as with many old hymns authorship rests on tradition.`,
+    meaning: `Each verse piles up epithets for Kalabhairava. The first describes the gods serving his lotus feet, the serpent thread and the crescent moon. The second calls him bright as ten million suns, the one who carries devotees across worldly life and the death of death. The next verses speak of his weapons, his dark form, his fearsome valour and his dance, his protection of dharma, his loud laughter that shakes the worlds and his garland of skulls. The last verse of the eight names him leader of spirits and purifier of those who live in Kashi. The closing verse says that reciting the hymn gives a means to knowledge and liberation and eases sorrow, delusion, greed and anger. Read these as the hymn's own words of praise, not as a promise of a particular result.`,
+    benefits: [
+      'Words of praise that many devotees recite for courage and steadiness of mind',
+      'Familiar on Kalabhairava Jayanti, which falls on the dark-half Ashtami',
+      'Eight uniform verses with a repeated last line, which makes it easy to learn',
+      'Links the reader to the Kashi tradition of Bhairava as the city guardian',
+      'Open to everyone, with no initiation needed for simple recitation',
+    ],
+    bestTime: `No fixed time or count is laid down in the text. Many devotees recite it on Kalabhairava Jayanti and on the dark-half Ashtami of each month, and some on Sundays or Tuesdays or at night. Once through takes only a few minutes.`,
+    faqs: [
+      { q: 'Who wrote the Kalabhairava Ashtakam?', a: 'It is traditionally credited to Adi Shankara. Sanskrit Documents prints a colophon naming him and Wikipedia says the same, but authorship of old hymns rests on tradition.' },
+      { q: 'How many verses does it have?', a: 'Eight verses, each ending with the same line, plus a ninth verse that states the fruit of reciting it. This page gives all nine.' },
+      { q: 'What does the repeated last line mean?', a: 'It says "I worship Kalabhairava, lord of the city of Kashi." Kashi is the city of Varanasi, where Bhairava is honoured as guardian.' },
+      { q: 'Are there different versions of the text?', a: 'A few words differ between editions, for example sthitam or sthiram in verse 4, and mokshanam or mokshadam in verse 6. These variants do not change the meaning.' },
+      { q: 'Is this the only hymn called Kalabhairava Ashtakam?', a: 'No. A different hymn with a similar title, which begins "angasundaratva" and ends each verse by naming a dweller of a mountain peak, is also in circulation. This page gives the better known hymn that begins "devarajasevyamana".' },
+      { q: 'Does reciting it guarantee a result?', a: 'No. The closing verse states what the tradition hopes for. A prayer is a spiritual practice and does not replace medical, legal or financial advice.' },
+    ],
+  },
 };

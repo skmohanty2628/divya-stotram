@@ -11,6 +11,8 @@ const BY_SLUG = {
   'vaikuntha-chaturdashi-hari-hara-guide': 'lamps',
   'vivah-panchami-2026-rama-sita-wedding-guide': 'lamps',
   'kalabhairava-jayanti-2026-guide': 'smoke',
+  'datta-jayanti-2026-dattatreya-guide': 'sun',
+  'dhanurmasam-2026-tiruppavai-andal-guide': 'lamps',
   'gita-jayanti-mokshada-ekadashi-2026-guide': 'leaves',
   'how-to-start-reading-the-bhagavad-gita-guide': 'smoke',
   'ekadashi-vrat-guide': 'leaves',

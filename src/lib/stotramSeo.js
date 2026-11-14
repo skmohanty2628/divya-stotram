@@ -182,6 +182,11 @@ const SEO_COPY = {
     description:
       'Read Shri Ramachandra Kripalu Bhajman (श्री रामचन्द्र कृपालु भज मन), the Ram Stuti attributed to Tulsidas, in English, Hindi, Odia and Telugu with meaning, when it is sung, and a video to follow along.',
   },
+  'kalabhairava-ashtakam': {
+    title: 'Kalabhairava Ashtakam Lyrics in English, Hindi, Odia & Telugu with Meaning (Deva Raja Sevyamana)',
+    description:
+      'Read Kalabhairava Ashtakam (देवराजसेव्यमान), the hymn to Kalabhairava of Kashi traditionally credited to Adi Shankara, in English, Hindi, Odia and Telugu with meaning, a note on when it is recited and a video.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

@@ -223,7 +223,8 @@ export const GUIDES_LEARN = [
       },
     ],
     related: {
-      stotrams: ['aigiri-nandini', 'durga-stotram'],
+      stotrams: [
+        'ya-devi-sarvabhuteshu','aigiri-nandini', 'durga-stotram'],
       guides: ['durga-mantra-during-navratri', 'how-to-chant-durga-mantra', 'durga-puja-odisha-guide', 'prathamastami-odisha-guide'],
     },
     sources: [
@@ -417,68 +418,102 @@ export const GUIDES_LEARN = [
 
 
   {
-    slug: 'ganesh-chaturthi-guide',
-    category: 'Festivals',
-    title: 'Ganesh Chaturthi: Meaning, Rituals, Eco-Friendly Celebration and What to Chant',
-    description:
-      'What Ganesh Chaturthi celebrates, how the ten-day festival is observed at home and in public, how to choose an eco-friendly idol, and the mantras and prayers devotees recite.',
-    h1: 'Ganesh Chaturthi: Meaning, Rituals and What to Chant',
-    intro:
-      'Ganesh Chaturthi celebrates the birth of Ganesha, the remover of obstacles, who is invoked at the start of almost every Hindu undertaking. This guide explains the festival, a simple home observance, and how to celebrate in a way that is kind to rivers and lakes.',
-    sections: [
+    "slug": "ganesh-chaturthi-guide",
+    "category": "Festivals",
+    "title": "Ganesh Chaturthi: Meaning, Rituals, Eco-Friendly Celebration and What to Chant",
+    "description": "What Ganesh Chaturthi celebrates, the history of the public festival, how the ten-day festival is observed at home, how to choose an eco-friendly idol under pollution board guidance, and the mantras devotees recite.",
+    "h1": "Ganesh Chaturthi: Meaning, Rituals and What to Chant",
+    "intro": "Ganesh Chaturthi celebrates the birth of Ganesha, the remover of obstacles, who is invoked at the start of almost every Hindu undertaking. This guide explains when the festival falls, how the public festival began, a simple home observance, how to celebrate in a way that is kind to rivers and lakes, and the prayers that are commonly recited.",
+    "sections": [
       {
-        h: 'When it falls',
-        p: [
-          `The festival begins on the fourth day (chaturthi) of the bright fortnight of the month of Bhadrapada, usually in August or September. Because the Hindu calendar follows the moon, the Gregorian date changes every year. The main festival lasts ten days in many places, ending on Anant Chaturdashi, though many households keep Ganesha for a day and a half, three, five or seven days.`,
-        ],
+        "h": "When it falls",
+        "p": [
+          "The festival begins on the fourth day (chaturthi) of the bright fortnight of the month of Bhadrapada, usually in August or September. Because the Hindu calendar follows the moon, the Gregorian date changes every year, so check a panchang or a calendar for your city each year. The main festival lasts ten days in many places, ending on Anant Chaturdashi, though many households keep Ganesha for a day and a half, three, five or seven days. There is no single rule, and families follow their own custom."
+        ]
       },
       {
-        h: 'A short history of the public festival',
-        p: [
-          `Ganesha worship at home is very old, but the large public festival with community pandals is usually traced to the late nineteenth century in Maharashtra. The freedom movement leader Bal Gangadhar Tilak promoted public celebration in Pune in 1893 as a way of bringing people of different communities together. Today the festival is celebrated far beyond Maharashtra.`,
-        ],
+        "h": "What the festival celebrates",
+        "p": [
+          "Ganesha is the elephant-headed son of Shiva and Parvati and is worshipped as the one who removes obstacles, which is why his name opens rituals, journeys, studies and new ventures. HinduTone notes that Ganapati is mentioned in the Rigveda and that the Puranas describe his birth in different ways, including from the turmeric paste of Parvati. Tellings of his story vary by region and by text, and this guide does not try to choose between them. Ganesh Chaturthi is observed as his birthday, and the days of the festival are a time to invite him into the home and to thank him when he departs."
+        ]
       },
       {
-        h: 'A simple home observance',
-        p: [
-          `Families bring home a clay idol of Ganesha, install it on a clean platform, and perform the pranapratishtha, the invitation of the deity into the image. Daily worship includes lamps, flowers, durva grass (three or five blades tied together) and modak, the sweet dumpling said to be Ganesha's favourite. At the end the idol is immersed in water in a ceremony called visarjan, with the prayer that Ganesha return next year.`,
-        ],
+        "h": "A short history of the public festival",
+        "p": [
+          "Ganesha worship at home is very old. Under the Peshwas of Pune in the eighteenth century the festival was celebrated on a grand scale, including at Shaniwar Wada, but after the Peshwa rule ended in 1818 the royal patronage stopped and the festival went back largely to homes and some temples.",
+          "The large public festival with community pandals is usually traced to Pune in the early 1890s. Bhausaheb Rangari's mandal is regarded by many as the first public installation, usually dated to 1892. The freedom movement leader Bal Gangadhar Tilak promoted public celebration in his Marathi newspaper Kesari in 1893, encouraging large public images and a ten-day festival ending in a joint immersion procession. Historians usually give three reasons for the shift: to bring people of different castes and communities together, to create a place for public gatherings at a time when the colonial government was wary of political meetings, and to build cultural pride.",
+          "Sources disagree on the exact dates and order of the first Pune mandals, and some historians credit individuals other than Tilak with founding them while crediting Tilak with the purpose and reach of the festival. After 1947 the festival spread widely beyond Maharashtra, and today very large idols and long immersion processions are a feature of cities such as Mumbai."
+        ]
       },
       {
-        h: 'Choosing an eco-friendly idol',
-        p: [
-          `Idols made of plaster of Paris and chemical paints dissolve poorly and can pollute lakes and rivers. Many cities and the pollution control authorities in India encourage idols made from natural clay (shadu mati), plant-based colours, and immersion in a bucket or artificial tank at home, with the water then used for plants. Some families keep a small permanent idol and immerse a symbolic one.`,
-        ],
+        "h": "A simple home observance",
+        "p": [
+          "Families bring home a clay idol of Ganesha, place it on a clean platform, and perform the pranapratishtha, the invitation of the deity into the image. Daily worship includes lamps, flowers, incense, durva grass (blades tied in a bunch) and modak, the sweet dumpling said to be Ganesha's favourite. Some families offer a fixed number of durva blades, and others simply offer a bunch. Follow your family's custom or ask a priest, since details differ between traditions.",
+          "At the end of the stay the idol is immersed in water in a ceremony called visarjan, with the prayer that Ganesha return next year. Many families say the aarti, offer a final sweet, and take the flowers and leaves from the altar for immersion with the idol or for composting."
+        ]
       },
       {
-        h: 'What to chant',
-        p: [
-          `The simplest and most popular mantra is Om Gam Ganapataye Namah. Many also recite the Ganesh Aarti at the end of worship, and the Ganapati Atharvashirsha, an Upanishadic hymn traditionally recited during the festival. Read the meaning of whatever you choose, and chant at a calm pace.`,
-        ],
+        "h": "Choosing an eco-friendly idol",
+        "p": [
+          "Idols made of plaster of Paris and chemical paints dissolve poorly in water and can pollute lakes and rivers. The Central Pollution Control Board issued guidelines in 2020 that ban plastic, plaster of Paris and thermocol in idols and recommend natural clay and plant-based colours. In June 2025 a CPCB expert committee told the Bombay High Court that these guidelines are advisory in nature, that final authority over whether plaster of Paris idols may be immersed rests with the state government, and that immersion should never take place in natural water bodies. The committee said designated artificial ponds or tanks could be used, with cleanup and safe storage of the residue afterwards. Rules differ by state and city, so check what your local authority permits.",
+          "At home, a practical choice is a small idol of natural clay (shadu mati), plant-based colours, and immersion in a bucket or tub with the water then poured onto plants. Some families keep a small permanent idol and immerse a symbolic one, or immerse a clay idol in an artificial tank provided by the municipality. Flowers and leaves can be composted instead of being thrown into water."
+        ]
       },
+      {
+        "h": "What to chant",
+        "p": [
+          "The simplest and most popular mantra is Om Gam Ganapataye Namah. Many families also recite the Ganesh Aarti at the end of worship, the Vakratunda Mahakaya mantra before starting any task, and the Shuklambaradharam verse that is said at the start of many prayers. The Ganapati Atharvashirsha, an Upanishadic hymn, is traditionally recited during the festival. Read the meaning of whatever you choose, and chant at a calm pace. All of these are open to everyone and need no initiation."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Why is Ganesha worshipped first?',
-        a: 'Tradition holds that Ganesha removes obstacles, so he is invoked at the beginning of rituals, journeys, studies and new ventures.',
+        "q": "Why is Ganesha worshipped first?",
+        "a": "Tradition holds that Ganesha removes obstacles, so he is invoked at the beginning of rituals, journeys, studies and new ventures."
       },
       {
-        q: 'How long should the idol stay at home?',
-        a: 'Families keep it for 1.5, 3, 5, 7 or 10 days according to their own family custom; there is no single rule.',
+        "q": "How long should the idol stay at home?",
+        "a": "Families keep it for one and a half, three, five, seven or ten days according to their own family custom. There is no single rule."
       },
       {
-        q: 'Why is immersion done?',
-        a: 'Visarjan expresses that the deity is invited for the festival and then sent off with thanks; the clay returns to the water.',
+        "q": "Why is immersion done?",
+        "a": "Visarjan expresses that the deity is invited for the festival and then sent off with thanks. The clay returns to the water."
       },
+      {
+        "q": "Who started the public Ganesh festival?",
+        "a": "The public festival is usually traced to Pune in the early 1890s. Bhausaheb Rangari's mandal is regarded by many as the first public installation, and Bal Gangadhar Tilak promoted public celebration in 1893. Sources disagree on the exact order."
+      },
+      {
+        "q": "Are plaster of Paris idols banned?",
+        "a": "The Central Pollution Control Board's 2020 guidelines ban plaster of Paris in idols, but in 2025 it told the Bombay High Court that the guidelines are advisory and that state governments decide. Check the rules for your city."
+      },
+      {
+        "q": "Can I celebrate without a large idol?",
+        "a": "Yes. A small clay idol at home, or even a symbolic image, is enough. The prayer matters more than the size of the idol."
+      },
+      {
+        "q": "What is the simplest mantra to chant?",
+        "a": "Om Gam Ganapataye Namah. Many families also say the Ganesh Aarti at the end of the puja."
+      }
     ],
-    related: {
-      stotrams: ['ganesh-aarti', 'vakratunda-mahakaya-mantra', 'shuklambaradharam-mantra'],
-      guides: ['spiritual-routine-for-beginners', 'mantra-chanting-rules-faq'],
+    "related": {
+      "stotrams": [
+        "ganesh-aarti",
+        "vakratunda-mahakaya-mantra",
+        "shuklambaradharam-mantra"
+      ],
+      "guides": [
+        "spiritual-routine-for-beginners",
+        "mantra-chanting-rules-faq",
+        "how-to-perform-aarti-at-home-guide"
+      ]
     },
-    sources: [
-      'Ganapati Atharvashirsha (Upanishad text)',
-      'Cashman, R., The Myth of the Lokamanya: Tilak and Mass Politics in Maharashtra (public Ganesh festival history)',
-    ],
+    "sources": [
+      "HinduTone, Who Started Public Ganesh Chaturthi? Lokmanya Tilak and the Story of 1893 (Peshwa era, Rangari, Kesari, aims, disagreement over dates)",
+      "HinduTone, History and Evolution of Ganesh Chaturthi Celebrations in India (Rigveda mention, Puranic birth accounts, spread after 1947)",
+      "Bar and Bench, report of the CPCB expert committee statement to the Bombay High Court on 9 June 2025 (guidelines advisory, no immersion in natural water bodies, artificial ponds)",
+      "Ganapati Atharvashirsha (Upanishad text)"
+    ]
   },
 
   {
@@ -5926,6 +5961,220 @@ export const GUIDES_LEARN = [
       "HinduTone, Dhanurmasam 2026: Dates (16 December to Makar Sankranti), Tiruppavai Schedule, Andal and Vaikuntha Ekadashi (date range)",
       "HinduTone, festival list (Makar Sankranti on 15 January 2027)",
       "Wikipedia, Tiruppavai (thirty hymns, Andal, ninth or tenth century CE, Nalayira Divya Prabandham, Margazhi vow tradition)"
+    ]
+  },
+  {
+    "slug": "ya-devi-sarvabhuteshu-meaning-and-story",
+    "category": "Meaning and history",
+    "title": "Ya Devi Sarvabhuteshu: Meaning, Story and Where the Hymn Comes From",
+    "description": "Ya Devi Sarvabhuteshu explained: where the hymn sits in the Devi Mahatmya, the story of the gods who sing it, what each name of the Goddess means, and how it is used in Navaratri.",
+    "h1": "Ya Devi Sarvabhuteshu: Meaning, Story and Where the Hymn Comes From",
+    "intro": "Few Sanskrit lines are heard as often in October as \"Ya Devi Sarvabhuteshu\". It is played in temples, sung in homes and recited before the Durga Saptashati, yet many people who know the tune do not know where the words come from or what each stanza says. This guide explains the source, the story that surrounds the hymn, the meaning of the Goddess's many names in it, and a few simple ways it is used. You can read the full text in four languages on the Ya Devi Sarvabhuteshu page of this site.",
+    "sections": [
+      {
+        "h": "Where the hymn comes from",
+        "p": [
+          "The hymn is part of the Devi Mahatmya, the Sanskrit text also called the Durga Saptashati or Chandi. It has 13 chapters and about 700 verses, which is how it gets the name Saptashati, \"seven hundred\". Printed editions count short utterances and half verses in slightly different ways, so the exact number varies a little between books. The text forms a section of the Markandeya Purana. In the numbering most often cited it is chapters 81 to 93, and in another well-known printed edition it is chapters 78 to 90. The Purana as a whole is usually assigned to roughly the fourth to sixth century CE, though the date of any ancient text is a matter of scholarly estimate and not of record.",
+          "The Devi Mahatmya is divided into three episodes. In the first, chapter 1, the Goddess is shown as Mahakali in the story of Madhu and Kaitabha. In the second, chapters 2 to 4, she is Mahalakshmi and defeats the buffalo demon Mahishasura. In the third, chapters 5 to 13, she is Mahasaraswati and faces the demons Shumbha and Nishumbha with their generals. Ya Devi Sarvabhuteshu belongs to chapter 5, the opening chapter of this third episode. It is not part of the Mahishasura story, a point that is often mixed up because both episodes are read during Navaratri."
+        ]
+      },
+      {
+        "h": "The story behind the hymn",
+        "p": [
+          "In the story, the demons Shumbha and Nishumbha have driven the gods out of heaven. The gods go to the Himalayas, to the bank of the Ganga, where they praise the Goddess. The praise they offer is the hymn on this page. One edition describes the chapter as the dialogue between the Goddess and a messenger sent by Shumbha, in which the praise by the gods is a long section of the chapter, and some printed editions call this section the Aparajita Stotra.",
+          "The setting explains the mood of the hymn. It is not a boast or a request for riches. It is the cry of beings who have lost their position and turn to the power that holds the world together. The gods do not describe battle tactics. They name the Goddess again and again as something that is already present in every living creature, and they bow."
+        ]
+      },
+      {
+        "h": "The five opening stanzas",
+        "p": [
+          "The text on this site begins with five stanzas that come before the famous refrain. They bow to the Goddess in her gentle and her terrible forms: Devi and Mahadevi, Prakriti, the fierce one, Gauri, the moonlight, the one who supports the world. Stanza 3 salutes Kalyani, Vriddhi and Siddhi, meaning welfare, growth and attainment, and also Nairriti and Sharvani. Stanza 4 names Durga, whose name suggests one who carries a person across difficulty, and also Khyati, Krishna and Dhumra. Stanza 5 describes her as both exceedingly gentle and exceedingly fierce. The point of this opening is that the same Goddess holds both qualities."
+        ]
+      },
+      {
+        "h": "The refrain and what it names",
+        "p": [
+          "After the opening, the hymn settles into a pattern. Each stanza begins \"Ya Devi Sarvabhuteshu\", which means \"the Goddess who in all beings\", then names a form, and the second line is always the same: \"Namastasyai namastasyai namastasyai namo namah\", a fourfold bow to her. In the text given on this site there are 21 of these stanzas.",
+          "The forms named are Vishnumaya, the divine power that holds the world in its spell; consciousness; intellect; sleep; hunger; shadow; power; thirst or craving; forbearance; birth or kind; modesty; peace; faith; radiance; prosperity, in the form of Lakshmi; livelihood or activity; memory; compassion; contentment; the mother; and delusion. Some of the words can be translated in more than one way. Chhaya can mean shadow or reflection, jati can mean birth or the kind of thing a being is, and vritti can mean livelihood, activity or the movement of the mind. This site gives one reading in the meaning column and notes that others exist.",
+          "What stands out in the list is that it includes hunger, thirst and delusion beside peace and compassion. The hymn does not limit the Goddess to pleasant qualities. It says that the force at work in the whole of experience, including its hard parts, is the one being. This is the idea a reader should take away: the Goddess is not far off in a heaven, but is the intelligence, appetite, rest and confusion of every ordinary day."
+        ]
+      },
+      {
+        "h": "The last two stanzas",
+        "p": [
+          "Stanza 27 says that she presides over the senses of all beings and is always present in all the elements. The word vyapti in it means pervading. Different editions split the compound in the last line differently, writing vyaptyai devyai in one and vyaptidevyai in another, but the meaning is the same: the Goddess of all-pervasion.",
+          "Stanza 28 closes the sequence by saying she stays pervading this whole world in the form of consciousness, chiti. After this the longer chapter continues with more verses and the story moves on. Many printed recitations stop at this point, which is why the hymn on this site ends here."
+        ]
+      },
+      {
+        "h": "A common mix-up with the Devi Sukta",
+        "p": [
+          "Some pages call this hymn the Devi Suktam. In the Chandi Path tradition the name is used for it, but it is a different text from the Devi Sukta of the Rigveda, which is a short hymn in the tenth book in which a speaker identifies herself with the power behind the world. If you read a verse labelled Devi Sukta, check which one it is before comparing translations."
+        ]
+      },
+      {
+        "h": "How it is used at Navaratri",
+        "p": [
+          "During Navaratri many families recite the whole Devi Mahatmya over the nine nights, or in one day on Ashtami or Navami. One common seven-day plan gives chapters 5 to 8 to the fourth day, so this hymn falls in the middle of the festival. The hymn is also sung on its own, set to many tunes, at the end of aarti, at the start of a Durga puja or on any Friday evening. No special initiation is required for simple recitation.",
+          "Practice varies by family and lineage. If you belong to a tradition with its own manner of reciting the Saptashati, follow that, and ask a priest or elder when in doubt."
+        ]
+      },
+      {
+        "h": "A simple way to read it",
+        "p": [
+          "Read the English meaning of one stanza at a time, then say the Sanskrit slowly. The refrain is easy to learn because only the middle word changes. Many learners find that after a week of reading three or four stanzas each morning they can say the whole hymn from memory. As with any prayer, reciting it is a devotional practice and does not promise any particular result."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which chapter of the Devi Mahatmya contains Ya Devi Sarvabhuteshu?",
+        "a": "Chapter 5, the first chapter of the third episode, in which the gods praise the Goddess after Shumbha and Nishumbha have driven them from heaven."
+      },
+      {
+        "q": "How many stanzas does the hymn have?",
+        "a": "The text on this site has 28: five opening stanzas, 21 refrain stanzas, and two closing stanzas. Numbering in printed editions of the full chapter differs."
+      },
+      {
+        "q": "What does Ya Devi Sarvabhuteshu mean?",
+        "a": "It means \"the Goddess who in all beings\". Each stanza then completes the sentence with a form such as intellect, sleep, peace or memory, and ends with a fourfold salutation."
+      },
+      {
+        "q": "Is it the same as the Devi Sukta of the Rigveda?",
+        "a": "No. The Rigvedic Devi Sukta is a separate hymn. The name Devi Suktam is also used for this hymn in the Chandi Path tradition, which causes confusion."
+      },
+      {
+        "q": "Why does the hymn name hunger and delusion?",
+        "a": "The hymn lists every way in which life is experienced and says the Goddess is present in all of them, pleasant or not."
+      },
+      {
+        "q": "Can I chant it outside Navaratri?",
+        "a": "Yes. It can be recited on any day, and many people say it on Fridays or as part of morning prayer."
+      },
+      {
+        "q": "Do I need a guru to recite it?",
+        "a": "No initiation is needed for simple recitation. If your family follows a particular manner of reciting the Saptashati, follow that."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "ya-devi-sarvabhuteshu",
+        "aigiri-nandini",
+        "durga-stotram"
+      ],
+      "guides": [
+        "navaratri-nine-forms-of-durga",
+        "durga-mantra-during-navratri",
+        "aigiri-nandini-meaning-and-story"
+      ]
+    },
+    "sources": [
+      "Dharmawiki, Devi Mahatmya (three episodes, chapter 5, Aparajita Stotra, Markandeya Purana chapter numbering, narrators)",
+      "HinduTone, Devi Mahatmya (Durga Saptashati / Chandi Path): The Complete Guide (13 chapters, about 700 verses, chapters 5 to 13, Navaratri recitation plan)",
+      "Shlokam.org, Devi Aparajita Stotram page (Sanskrit text of stanzas 1 to 28)",
+      "Vedicmarga.com, Ya Devi Sarvabhuteshu (Sanskrit text, second edition for comparison)"
+    ]
+  },
+  {
+    "slug": "sabarimala-mandalam-2026-ayyappa-vratham-guide",
+    "category": "Festivals",
+    "title": "Sabarimala Mandalam 2026: Start Date, 41-Day Ayyappa Vratham and Mandala Pooja",
+    "description": "The Sabarimala Mandalam season 2026 begins on Tuesday 17 November with Vrischikam 1 and Mandala Pooja is on 27 December. A guide to the 41-day vratham, the Irumudi, the climb and booking.",
+    "h1": "Sabarimala Mandalam 2026: Start Date, the 41-Day Vratham and Mandala Pooja",
+    "intro": "Every year, from the middle of November, thousands of devotees in Kerala, Tamil Nadu, Andhra Pradesh, Telangana, Karnataka and other states put on black or blue clothes, give up certain comforts for 41 days and prepare to climb to the hill shrine of Lord Ayyappa at Sabarimala. This guide explains when the Mandalam season starts in 2026, what the 41-day vratham involves, what the Irumudi is, how pilgrims reach the temple and what to check before you go. Dates for the temple itself are set by the Travancore Devaswom Board, so verify them with the Board before you travel.",
+    "sections": [
+      {
+        "h": "Dates for the 2026 Mandalam season",
+        "p": [
+          "The 41-day period, called Mandalakalam, begins with the first day of the Malayalam month Vrischikam. In 2026 this falls on Tuesday 17 November, according to Drik Panchang. The season ends 41 days later with Mandala Pooja, which Drik Panchang lists as Sunday 27 December 2026.",
+          "HinduTone expects the temple to open on the evening of Monday 16 November, to close after Mandala Pooja, and to reopen on Wednesday 30 December for the Makaravilakku period. It notes that the Travancore Devaswom Board had not published a confirmed schedule when its article was written, so these temple dates are expected and not confirmed. Makaravilakku is traditionally held around Makara Sankranti, and Drik Panchang puts the Sun's entry into Makara at 9:14 pm IST on 14 January 2027. Treat every date for the temple itself as provisional until the Board announces it."
+        ]
+      },
+      {
+        "h": "Who Ayyappa is",
+        "p": [
+          "Ayyappa is worshipped at Sabarimala as the deity of the hill shrine. In the verses of the Harivarasanam, the lullaby sung at the temple, he is described as the son of Hari and Hara, meaning Vishnu and Shiva, which is why he is often called Hariharaputra. Traditions differ on details of his story, and the Sabarimala temple is only one of several Ayyappa shrines, including the Dharma Sastha temple at Erumeli that pilgrims visit on the traditional route. Devotees address Ayyappa and each other with the word Swamy during the vratham."
+        ]
+      },
+      {
+        "h": "The 41-day vratham",
+        "p": [
+          "The vratham, also called the deeksha, begins when a devotee puts on a mala of beads, usually given by a Guru Swami or a temple priest. Many people start on Vrischikam 1, and others count back 41 days from the date they plan to climb. HinduTone lists these common rules of the vratham.",
+          "Wear black, blue or saffron clothes for the whole period. Keep strict celibacy. Eat simple vegetarian food with no meat, eggs, alcohol or tobacco, and many also avoid onion and garlic. Bathe and pray twice a day, avoid anger and harsh speech, and address everyone as Swamy, Ayyappa or Matha. Rules differ between families and gurus, so ask the Guru Swami who gives you the mala about the practice you should follow.",
+          "The vratham is a demanding discipline, and anyone with a health condition should speak to a doctor before beginning it. It is a spiritual practice and does not promise any particular result."
+        ]
+      },
+      {
+        "h": "The Irumudi",
+        "p": [
+          "The Irumudi is a two-part cloth bundle that pilgrims carry on the head. The front part holds offerings for Ayyappa, including a coconut filled with ghee that is used for the ghee abhishekam at the shrine. The back part holds the pilgrim's own provisions for the journey. The bundle is packed in a ceremony called Kettunirakkal, usually led by the Guru Swami. By tradition, pilgrims carrying the Irumudi climb the 18 sacred steps, known as the Pathinettam Padi."
+        ]
+      },
+      {
+        "h": "Reaching the temple",
+        "p": [
+          "Most pilgrims travel by road to Nilakkal, the base camp in recent years, and then take buses to Pamba. After a bath in the Pamba river, the climb to the Sannidhanam is about 5 km on foot, passing Neelimala, Appachimedu, Sabaripeedam and Saramkuthi. The older forest route from Erumeli, called the Peruvazhi, takes several days on foot. It runs only during the season under forest department rules and should be walked only with an experienced group. The Pullumedu route depends on forest department permission each season."
+        ]
+      },
+      {
+        "h": "Booking and rules at the temple",
+        "p": [
+          "HinduTone reports that the Board states that online Virtual-Q booking is mandatory for all pilgrims. Bookings are made on the official portal, sabarimalaonline.org. Registration generally asks for a name, a mobile number or email, a photo and an identity document, after which you pick a date and time slot and download a pass to carry with the same ID. Spot booking centres operated in 2025 to 2026, and pilgrims should check whether they run this year. For rules about entry to the temple, follow the Board's current instructions and not what is posted on social media."
+        ]
+      },
+      {
+        "h": "A note for first-time pilgrims",
+        "p": [
+          "The climb is physically tiring. Plan your slot, carry only what you need, keep your identity document with you and follow the instructions of the police and temple staff. If you are not ready for the full vratham, speak with your Guru Swami about the practice that suits your health and family situation."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When does the Sabarimala Mandalam season start in 2026?",
+        "a": "Mandalakalam begins on Vrischikam 1, which Drik Panchang gives as Tuesday 17 November 2026. The temple is expected to open the evening before, subject to the Travancore Devaswom Board's announcement."
+      },
+      {
+        "q": "When is Mandala Pooja in 2026?",
+        "a": "Drik Panchang lists Mandala Pooja on Sunday 27 December 2026, the end of the 41 days."
+      },
+      {
+        "q": "How long is the Ayyappa vratham?",
+        "a": "41 days, the period called Mandalakalam. Many devotees take the mala on Vrischikam 1, and others count back 41 days from the day they plan to climb."
+      },
+      {
+        "q": "What is the Irumudi?",
+        "a": "A two-part cloth bundle carried on the head. The front holds offerings for Ayyappa, including a ghee-filled coconut, and the back holds the pilgrim's own provisions."
+      },
+      {
+        "q": "Is Virtual-Q booking required?",
+        "a": "HinduTone reports that the Board states that it is mandatory for all pilgrims. Check sabarimalaonline.org and the Board's notices before you travel."
+      },
+      {
+        "q": "How far is the climb from Pamba?",
+        "a": "About 5 km on foot to the Sannidhanam, according to HinduTone. The old Erumeli forest route is much longer."
+      },
+      {
+        "q": "When is Makaravilakku?",
+        "a": "It is traditionally held around Makara Sankranti. Drik Panchang puts the Sun's entry into Makara at 9:14 pm IST on 14 January 2027, and the Board announces the exact schedule."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "krishna-vasudevaya-mantra",
+        "shiva-panchakshara-stotram",
+        "vishnu-sahasranamam"
+      ],
+      "guides": [
+        "makar-sankranti-odisha-guide",
+        "dhanurmasam-2026-tiruppavai-andal-guide",
+        "spiritual-routine-for-beginners"
+      ]
+    },
+    "sources": [
+      "Drik Panchang, Mandala Pooja 2026 (Mandalakalam start on 17 November 2026 and Mandala Pooja on 27 December 2026)",
+      "HinduTone, Sabarimala Mandalam and Makaravilakku 2026-27 season guide (expected temple dates, vratham rules, Irumudi, Pamba route, Virtual-Q)",
+      "Drik Panchang, Makara Sankranti Sun entry time on 14 January 2027, as cited by HinduTone"
     ]
   },
 ];

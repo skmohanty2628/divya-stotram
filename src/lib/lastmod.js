@@ -1,6 +1,14 @@
 // Real last-edit dates per page, taken from docs/verse-audit-log.md and later content changes.
 // Pages not listed here have not changed since the base date in site.js (CONTENT_UPDATED).
 export const LASTMOD = {
+  'ya-devi-sarvabhuteshu': '2026-11-15',
+  'aditya-hridayam': '2026-11-15',
+  'ya-devi-sarvabhuteshu-meaning-and-story': '2026-11-15',
+  'sabarimala-mandalam-2026-ayyappa-vratham-guide': '2026-11-15',
+  'ganesh-chaturthi-guide': '2026-11-15',
+  'navaratri-nine-forms-of-durga': '2026-11-15',
+  'durga-mantra-during-navratri': '2026-11-15',
+  'durga-stotram-benefits': '2026-11-15',
   'kalabhairava-ashtakam': '2026-11-14',
   'ganesh-aarti': '2026-11-14',
   'datta-jayanti-2026-dattatreya-guide': '2026-11-14',

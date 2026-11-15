@@ -841,6 +841,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'ya-devi-sarvabhuteshu',
+    title: {
+      en: 'Ya Devi Sarvabhuteshu (Devi Stuti)',
+      hi: 'या देवी सर्वभूतेषु (देवी स्तुति)',
+      od: 'ଯା ଦେବୀ ସର୍ବଭୂତେଷୁ (ଦେବୀ ସ୍ତୁତି)',
+      te: 'యా దేవీ సర్వభూతేషు (దేవీ స్తుతి)',
+    },
+    deity: 'Durga',
+    deityEmoji: '🔱',
+    deityIcon: '',
+    description: {
+      en: 'Ya Devi Sarvabhuteshu, the hymn of the gods to the Goddess from the Devi Mahatmya (Durga Saptashati), in English, Hindi, Odia and Telugu with meaning and a chanting video',
+      hi: 'या देवी सर्वभूतेषु, देवी माहात्म्य (दुर्गा सप्तशती) में देवताओं की देवी स्तुति, हिन्दी, ओड़िया, तेलुगु और अंग्रेज़ी लिपि में अर्थ और वीडियो सहित',
+      od: 'ଯା ଦେବୀ ସର୍ବଭୂତେଷୁ, ଦେବୀ ମାହାତ୍ମ୍ୟ (ଦୁର୍ଗା ସପ୍ତଶତୀ)ରୁ ଦେବତାମାନଙ୍କ ଦେବୀ ସ୍ତୁତି, ହିନ୍ଦୀ, ଓଡ଼ିଆ, ତେଲୁଗୁ ଓ ଇଂରାଜୀ ଲିପିରେ ଅର୍ଥ ଓ ଭିଡିଓ ସହିତ',
+      te: 'యా దేవీ సర్వభూతేషు, దేవీ మాహాత్మ్యం (దుర్గా సప్తశతి)లో దేవతలు చేసిన దేవీ స్తుతి, హిందీ, ఒడియా, తెలుగు, ఇంగ్లీష్ లిపిలో అర్థం మరియు వీడియోతో',
+    },
+    color: 'from-red-950 to-rose-950',
+    accent: '#e8a0a0',
+    youtubeId: '7CBrs3-c_Vg',
+    verseCount: 28,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

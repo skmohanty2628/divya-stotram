@@ -36,6 +36,7 @@ import { brahmarpanam } from '@/data/brahmarpanam-brahma-havir';
 import { manojavam } from '@/data/manojavam-marutatulyavegam';
 import { ramachandraKripalu } from '@/data/shri-ramachandra-kripalu';
 import { kalabhairavaAshtakam } from '@/data/kalabhairava-ashtakam';
+import { yaDeviSarvabhuteshu } from '@/data/ya-devi-sarvabhuteshu';
 
 export const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
@@ -76,4 +77,5 @@ export const VERSE_DATA = {
   'manojavam-marutatulyavegam': manojavam,
   'shri-ramachandra-kripalu': ramachandraKripalu,
   'kalabhairava-ashtakam': kalabhairavaAshtakam,
+  'ya-devi-sarvabhuteshu': yaDeviSarvabhuteshu,
 };

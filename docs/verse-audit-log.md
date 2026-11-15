@@ -384,3 +384,20 @@ One line per audit. Rotation: every stotram in every language (Hindi/Devanagari,
 - Upgraded guide: how-to-use-japa-mala, from 438 to about 1,080 words, 8 FAQs, 8 sections. Sources: New World Encyclopedia (Japa Mala) and Hindupedia (Japamala). The Wikipedia page was not on the fetch allowlist. The meru-bead treatment now notes that teachers describe the detail slightly differently.
 - Search Console: 5 URLs accepted on 14 Nov (vaikuntha-chaturdashi-hari-hara-guide, shri-ramachandra-kripalu and its Hindi, Odia and Telugu pages), then "Quota Exceeded" on the sixth (manojavam-marutatulyavegam).
 - GUIDES_UPDATED set to 2026-11-14. lastmod.js updated.
+
+## 2026-11-15
+- Audit: Aditya Hridayam, Hindi (plus the Odia, Telugu and transliteration columns synced to it). Sources: sanskritdocuments (doc_z_misc_navagraha/adityahriday) and bhaktibharat (amp, Aditya Hridaya Stotra). The second source is a different recension in places, so only points where both agreed or where the old text was ungrammatical were changed.
+- Fixed verse 3: spelling of the verb shrinu (श्रृणु to शृणु; Telugu శ్రుణు to శృణు). Source A prints शृणु.
+- Fixed verse 16: पश्चिमाय to पश्चिमायाद्रये (Odia ପଶ୍ଚିମାୟାଦ୍ରଯେ, Telugu పశ్చిమాయాద్రయే) and दिने-दिनपतये to दिनाधिपतये (Odia ଦିନାଧିପତଯେ, Telugu దినాధిపతయే). Both sources agree. Transliteration Dine Dinapataye corrected to Dinadhipataye.
+- Fixed verse 28: नष्टशोको अभवत्तदा to नष्टशोकोऽभवत्तदा in all scripts; both sources use the avagraha form. Verse 28 transliteration was garbled and is rewritten.
+- Rewrote the English transliterations of verses 11, 19, 26 and 27, which did not match the Sanskrit.
+- Cross-script check (Odia and Telugu converted back to Devanagari): Telugu verse 12 అగ్ని (was ఆగ్ని) and verse 13 భేదీ (was భేది) fixed. The other differences were script conventions (nukta, sandhi spacing, anusvara against m).
+- Left alone, needs human check: verse 2 भगवांस्तदा (source A: भगवानृषिः; source B agrees with the site), verse 9 साध्या अश्विनौ (A: ह्यश्विनौ; B agrees with the site), जप्त्वा च (A: जप्त्वा तु), धृतोत्सवः (A: धृतोऽभवत्), मार्तण्डाय. Only source A supports these changes and the editions are different recensions.
+- New mantra: Ya Devi Sarvabhuteshu (Devi Stuti), 28 stanzas, Hindi, Odia, Telugu and transliteration. Sources: shlokam.org (Devi Aparajita Stotram page) and vedicmarga.com. Both give the same 28 stanzas in the same order. Variants: vriddhyai or vriddhayai, nairrityai or nairrtyai, and in stanza 27 vyaptyai devyai (shlokam) against vyaptidevyai (vedicmarga); the site uses vriddhyai, siddhyai, nairrityai and vyaptidevyai. Meanings written in original words; refrain meanings follow a fixed pattern.
+- YouTube: T-Series Bhakti Sagar, Ya Devi Sarvabhuteshu Mantra by Blory Chana (7CBrs3-c_Vg), oembed 200. Other candidates also returned 200 (Sounds of Isha 3OqX-c9s2HU, Sanatan Music 9KAnpjTmA3w).
+- Chapter check: the hymn is chapter 5 of the Devi Mahatmya, the opening of the Uttama charita (Shumbha and Nishumbha), not the Mahishasura episode. Sources: Dharmawiki and HinduTone.
+- New guides: ya-devi-sarvabhuteshu-meaning-and-story (about 1,170 words); sabarimala-mandalam-2026-ayyappa-vratham-guide (about 825 words; Mandalakalam starts Tue 17 Nov 2026 and Mandala Pooja Sun 27 Dec 2026 per Drik Panchang; temple dates are expected, not confirmed, per HinduTone).
+- Upgraded guide: ganesh-chaturthi-guide, from about 450 to about 865 words, 7 FAQs. Sources: HinduTone (two articles) and the Bar and Bench report of the CPCB statement to the Bombay High Court (9 June 2025).
+- Cross-links added: the three Navaratri and Durga guides now list ya-devi-sarvabhuteshu in related stotrams.
+- Search Console: 8 URLs accepted on 15 Nov (manojavam-marutatulyavegam, kalabhairava-ashtakam and its Hindi, Odia and Telugu pages, and the dhanurmasam, datta-jayanti and vivah-panchami guides).
+- GUIDES_UPDATED set to 2026-11-15. lastmod.js updated.

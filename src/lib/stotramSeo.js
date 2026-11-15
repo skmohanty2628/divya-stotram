@@ -187,6 +187,11 @@ const SEO_COPY = {
     description:
       'Read Kalabhairava Ashtakam (देवराजसेव्यमान), the hymn to Kalabhairava of Kashi traditionally credited to Adi Shankara, in English, Hindi, Odia and Telugu with meaning, a note on when it is recited and a video.',
   },
+  'ya-devi-sarvabhuteshu': {
+    title: 'Ya Devi Sarvabhuteshu Lyrics in English, Hindi, Odia & Telugu with Meaning (Devi Stuti)',
+    description:
+      'Read Ya Devi Sarvabhuteshu (या देवी सर्वभूतेषु), the Devi Stuti from the Devi Mahatmya (Durga Saptashati), in English, Hindi, Odia and Telugu with meaning, when it is chanted and a video to follow along.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

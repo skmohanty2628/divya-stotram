@@ -53,10 +53,10 @@ export const adityaHridayam = {
       transliteration:
         'Rama Rama Maha Baaho Shrunu Guhyam Sanatanam\nYena Sarvaanari Vatsa Samare Vijayishyasi',
       original:
-        'राम राम महाबाहो श्रृणु गुह्यं सनातनम्।\nयेन सर्वानरीन् वत्स समरे विजयिष्यसि॥',
+        'राम राम महाबाहो शृणु गुह्यं सनातनम्।\nयेन सर्वानरीन् वत्स समरे विजयिष्यसि॥',
       script: {
         od: 'ରାମ ରାମ ମହାବାହୋ ଶୃଣୁ ଗୁହ୍ୟଂ ସନାତନମ୍।\nଯେନ ସର୍ବାନରୀନ୍ ବତ୍ସ ସମରେ ବିଜୟିଷ୍ୟସି॥',
-        te: 'రామ రామ మహాబాహో శ్రుణు గుహ్యం సనాతనం।\nయేన సర్వాన్ అరీన్ వత్స సమరే విజయిష్యసి॥',
+        te: 'రామ రామ మహాబాహో శృణు గుహ్యం సనాతనం।\nయేన సర్వాన్ అరీన్ వత్స సమరే విజయిష్యసి॥',
       },
       meaning: {
         en: `O Ram, O Ram, O mighty-armed one, listen to this eternal secret. O dear child, by this knowledge you shall conquer all your enemies in battle. Sage Agastya calls Ram affectionately as "Vatsa" (dear child).`,
@@ -203,7 +203,7 @@ export const adityaHridayam = {
       type: 'shloka',
       num: 11,
       transliteration:
-        'Harido Haridashvah Sahasrarchi Saptasaptih\nMarichi Timironmatho Shabari Shariro Ravir',
+        'Haridashvah Sahasrarchih Saptasaptir Marichiman\nTimironmathanah Shambhustvashta Martanda Anshuman',
       original:
         'हरिदश्वः सहस्रार्चिः सप्तसप्तिर्मरीचिमान्।\nतिमिरोन्मथनः शम्भुस्त्वष्टा मार्ताण्ड अंशुमान्॥',
       script: {
@@ -227,7 +227,7 @@ export const adityaHridayam = {
         'हिरण्यगर्भः शिशिरस्तपनो भास्करो रविः।\nअग्निगर्भोऽदितेः पुत्रः शङ्खः शिशिरनाशनः॥',
       script: {
         od: 'ହିରଣ୍ୟଗର୍ଭଃ ଶିଶିରସ୍ତପନୋ ଭାସ୍କରୋ ରବିଃ।\nଅଗ୍ନିଗର୍ଭୋଽଦିତେଃ ପୁତ୍ରଃ ଶଙ୍ଖଃ ଶିଶିରନାଶନଃ॥',
-        te: 'హిరణ్య గర్భః శిశిరస్తపనో భాస్కరో రవిః।\nఆగ్ని గర్భో\'దితేః పుత్రః శంఖః శిశిర నాశనః॥',
+        te: 'హిరణ్య గర్భః శిశిరస్తపనో భాస్కరో రవిః।\nఅగ్ని గర్భో\'దితేః పుత్రః శంఖః శిశిర నాశనః॥',
       },
       meaning: {
         en: `He is Hiranyagarbha (the golden womb of creation), Shishira (one who removes cold), Tapana (the one who heats), Bhaskara (maker of light), Ravi (the brilliant), Agnigarbha (with fire in his womb), son of Aditi, Shankha (the conch-like), and the destroyer of cold (Shishira-Nashana).`,
@@ -246,7 +246,7 @@ export const adityaHridayam = {
         'व्योमनाथस्तमोभेदी ऋग्यजुस्सामपारगः।\nघनवृष्टिरपां मित्रो विन्ध्यवीथीप्लवङ्गमः॥',
       script: {
         od: 'ବ୍ୟୋମନାଥସ୍ତମୋଭେଦୀ ଋଗ୍ୟଜୁସ୍ସାମପାରଗଃ।\nଘନବୃଷ୍ଟିରପାଂ ମିତ୍ରୋ ବିନ୍ଧ୍ୟବୀଥୀପ୍ଲବଙ୍ଗମଃ॥',
-        te: 'వ్యోమనాథ స్తమో భేది ఋగ్ యజుస్సామ పారగః।\nఘన వృష్టి రపాం మిత్రో వింధ్య వీథీ ప్లవంగమః॥',
+        te: 'వ్యోమనాథ స్తమో భేదీ ఋగ్ యజుస్సామ పారగః।\nఘన వృష్టి రపాం మిత్రో వింధ్య వీథీ ప్లవంగమః॥',
       },
       meaning: {
         en: `He is Vyomanatha (lord of the sky), the piercer of darkness, the one who has mastered Rig, Yajur, and Sama Vedas. He is the cause of heavy rains (Ghanavrishti), the friend of water (Apam Mitra), and he travels the path of the Vindhya mountains (Vindhyavithiplavan-gama).`,
@@ -298,12 +298,12 @@ export const adityaHridayam = {
       type: 'shloka',
       num: 16,
       transliteration:
-        'Namah Purvaya Giraye Pashchimayadraye Namah\nJyotirgananam Pataye Dine Dinapataye Namah',
+        'Namah Purvaya Giraye Pashchimayadraye Namah\nJyotirgananam Pataye Dinadhipataye Namah',
       original:
-        'नमः पूर्वाय गिरये पश्चिमाय नमः।\nज्योतिर्गणानां पतये दिने-दिनपतये नमः॥',
+        'नमः पूर्वाय गिरये पश्चिमायाद्रये नमः।\nज्योतिर्गणानां पतये दिनाधिपतये नमः॥',
       script: {
-        od: 'ନମଃ ପୂର୍ବାୟ ଗିରଯେ ପଶ୍ଚିମାୟ ନମଃ।\nଜ୍ୟୋତିର୍ଗଣାନାଂ ପତଯେ ଦିନେ ଦିନପତଯେ ନମଃ॥',
-        te: 'నమః పూర్వాయ గిరయే పశ్చిమాయ నమః।\nజ్యోతిర్గణానాం పతయే దినే దినపతయే నమః॥',
+        od: 'ନମଃ ପୂର୍ବାୟ ଗିରଯେ ପଶ୍ଚିମାୟାଦ୍ରଯେ ନମଃ।\nଜ୍ୟୋତିର୍ଗଣାନାଂ ପତଯେ ଦିନାଧିପତଯେ ନମଃ॥',
+        te: 'నమః పూర్వాయ గిరయే పశ్చిమాయాద్రయే నమః।\nజ్యోతిర్గణానాం పతయే దినాధిపతయే నమః॥',
       },
       meaning: {
         en: `Salutations to the eastern mountain (where the Sun rises) and to the western mountain (where the Sun sets). Salutations to the lord of all luminaries, salutations every day to the lord of the day (Dinapati, the Sun).`,
@@ -355,7 +355,7 @@ export const adityaHridayam = {
       type: 'shloka',
       num: 19,
       transliteration:
-        'Brahme Shatakratave Cha Vishnavepatagebhritam\nDaityaantakaya Devaaya Brahmaputraaya Te Namah',
+        'Brahmeshanachyuteshaya Suryayadityavarchase\nBhasvate Sarvabhakshaya Raudraya Vapushe Namah',
       original:
         'ब्रह्मेशानाच्युतेशाय सूर्यायादित्यवर्चसे।\nभास्वते सर्वभक्षाय रौद्राय वपुषे नमः॥',
       script: {
@@ -488,7 +488,7 @@ export const adityaHridayam = {
       type: 'shloka',
       num: 26,
       transliteration:
-        'Puja Yasteva Madhyahne Maha Balam Ravim Tatah\nTripatan Japate Dhimanah Shatruun Vijayate Ripoon',
+        'Pujayasvainam Ekagro Devadevam Jagatpatim\nEtat Trigunitam Japtva Yuddheshu Vijayishyasi',
       original:
         'पूजयस्वैनमेकाग्रो देवदेवं जगत्पतिम्।\nएतत् त्रिगुणितं जप्त्वा युद्धेषु विजयिष्यसि॥',
       script: {
@@ -507,7 +507,7 @@ export const adityaHridayam = {
       type: 'shloka',
       num: 27,
       transliteration:
-        'Asminksane Maha Baaho Ravana Vadha Mashnuta\nEvam Uktvaa Ttato Agastyah Jagaama Cha Yathagatam',
+        'Asminkshane Mahabaho Ravanam Tvam Vadhishyasi\nEvamuktva Tadagastyo Jagama Cha Yathagatam',
       original:
         'अस्मिन्क्षणे महाबाहो रावणं त्वं वधिष्यसि।\nएवमुक्त्वा तदाऽगस्त्यो जगाम च यथागतम्॥',
       script: {
@@ -526,12 +526,12 @@ export const adityaHridayam = {
       type: 'shloka',
       num: 28,
       transliteration:
-        'Etachchhrutva Maha Tejah Prashanna Abhu Ttadaa Raghavah\nDhaarayana Param Hrishto Ravane Bhimukhah Sthitah',
+        'Etacchhrutva Mahateja Nashtashoko Abhavat Tada\nDharayamasa Supreeto Raghavah Prayatatmavan',
       original:
-        'एतच्छ्रुत्वा महातेजा नष्टशोको अभवत्तदा।\nधारयामास सुप्रीतो राघवः प्रयतात्मवान्॥',
+        'एतच्छ्रुत्वा महातेजा नष्टशोकोऽभवत्तदा।\nधारयामास सुप्रीतो राघवः प्रयतात्मवान्॥',
       script: {
-        od: 'ଏତଚ୍ଛ୍ରୁତ୍ୱା ମହାତେଜା ନଷ୍ଟଶୋକୋ ଅଭବତ୍ତଦା।\nଧାରୟାମାସ ସୁପ୍ରୀତୋ ରାଘବଃ ପ୍ରୟତାତ୍ମବାନ୍॥',
-        te: 'ఏతచ్ఛ్రుత్వా మహాతేజా నష్ట శోకో అభవత్తదా।\nధారయామాస సుప్రీతో రాఘవః ప్రయతాత్మవాన్॥',
+        od: 'ଏତଚ୍ଛ୍ରୁତ୍ୱା ମହାତେଜା ନଷ୍ଟଶୋକୋଽଭବତ୍ତଦା।\nଧାରୟାମାସ ସୁପ୍ରୀତୋ ରାଘବଃ ପ୍ରୟତାତ୍ମବାନ୍॥',
+        te: 'ఏతచ్ఛ్రుత్వా మహాతేజా నష్టశోకోఽభవత్తదా।\nధారయామాస సుప్రీతో రాఘవః ప్రయతాత్మవాన్॥',
       },
       meaning: {
         en: `Hearing these words, the mighty (Mahateja) Ram, his grief completely destroyed, held these teachings in his heart with great delight, his soul now pure and composed (Prayatatma). Ram was now fully energized and ready for the final battle.`,

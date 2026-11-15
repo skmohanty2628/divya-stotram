@@ -10,6 +10,8 @@ const BY_SLUG = {
   'how-to-perform-aarti-at-home-guide': 'lamps',
   'vaikuntha-chaturdashi-hari-hara-guide': 'lamps',
   'vivah-panchami-2026-rama-sita-wedding-guide': 'lamps',
+  'ya-devi-sarvabhuteshu-meaning-and-story': 'lamps',
+  'sabarimala-mandalam-2026-ayyappa-vratham-guide': 'leaves',
   'kalabhairava-jayanti-2026-guide': 'smoke',
   'datta-jayanti-2026-dattatreya-guide': 'sun',
   'dhanurmasam-2026-tiruppavai-andal-guide': 'lamps',

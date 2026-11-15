@@ -362,7 +362,8 @@ export const GUIDES_DEITY = [
       },
     ],
     related: {
-      stotrams: ['durga-stotram', 'aigiri-nandini'],
+      stotrams: [
+        'ya-devi-sarvabhuteshu','durga-stotram', 'aigiri-nandini'],
       guides: ['durga-mantra-during-navratri', 'how-to-chant-durga-mantra'],
     },
     sources: [
@@ -431,7 +432,8 @@ export const GUIDES_DEITY = [
       },
     ],
     related: {
-      stotrams: ['durga-stotram', 'aigiri-nandini', 'mahalakshmi-ashtakam'],
+      stotrams: [
+        'ya-devi-sarvabhuteshu','durga-stotram', 'aigiri-nandini', 'mahalakshmi-ashtakam'],
       guides: ['durga-stotram-benefits', 'how-to-chant-durga-mantra'],
     },
     sources: [

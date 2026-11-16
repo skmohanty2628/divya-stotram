@@ -4,11 +4,11 @@ export const navagrahaStotram = {
   verses: [
     {
       id:'ng-1', type:'shloka', num:1,
-      transliteration:'Japaa Kusuma Sankasham Kaashyapeyam Mahaa Dyutim\nTamorim Sarva Paapahnam Pranato\'smi Divaakaram',
-      original:'जपाकुसुमसंकाशं काश्यपेयं महाद्युतिम्।\nतमोरिं सर्वपापघ्नं प्रणतोऽस्मि दिवाकरम्॥',
+      transliteration:'Japaa Kusuma Sankasham Kaashyapeyam Mahaa Dyutim\nTamo\'rim Sarva Paapaghnam Pranato\'smi Divaakaram',
+      original:'जपाकुसुमसंकाशं काश्यपेयं महाद्युतिम्।\nतमोऽरिं सर्वपापघ्नं प्रणतोऽस्मि दिवाकरम्॥',
       script:{
-        od:'ଜପାକୁସୁମ ସଂକାଶଂ କାଶ୍ୟପେୟଂ ମହାଦ୍ୟୁତିମ୍।\nତମୋରିଂ ସର୍ବପାପଘ୍ନଂ ପ୍ରଣତୋଽସ୍ମି ଦିବାକରମ୍॥',
-        te:'జపాకుసుమ సంకాశం కాశ్యపేయం మహాద్యుతిమ్।\nతమోరింసర్వపాపఘ్నం ప్రణతోస్మి దివాకరం॥',
+        od:'ଜପାକୁସୁମ ସଂକାଶଂ କାଶ୍ୟପେୟଂ ମହାଦ୍ୟୁତିମ୍।\nତମୋଽରିଂ ସର୍ବପାପଘ୍ନଂ ପ୍ରଣତୋଽସ୍ମି ଦିବାକରମ୍॥',
+        te:'జపాకుసుమ సంకాశం కాశ్యపేయం మహాద్యుతిమ్।\nతమోఽరిం సర్వపాపఘ్నం ప్రణతోఽస్మి దివాకరం॥',
       },
       meaning:{
         en:'I bow to Surya, who shines like the hibiscus flower, who is the son of Kashyapa, full of great radiance, destroyer of darkness and remover of sins.',
@@ -36,7 +36,7 @@ export const navagrahaStotram = {
 
     {
       id:'ng-3', type:'shloka', num:3,
-      transliteration:'Dharanee Garbha Sambhootam Vidyut Kaanti Samaprabhaam\nKumaram Shakti Hastam Tam Mangalam Pranamamyaham',
+      transliteration:'Dharanee Garbha Sambhootam Vidyut Kaanti Samaprabham\nKumaram Shakti Hastam Tam Mangalam Pranamamyaham',
       original:'धरणीगर्भसम्भूतं विद्युत्कान्तिसमप्रभम्।\nकुमारं शक्तिहस्तं तं मंगलं प्रणमाम्यहम्॥',
       script:{
         od:'ଧରଣୀଗର୍ଭ ସମ୍ଭୂତଂ ବିଦ୍ୟୁତ୍କାନ୍ତି ସମପ୍ରଭମ୍।\nକୁମାରଂ ଶକ୍ତିହସ୍ତଂ ତଂ ମଙ୍ଗଳଂ ପ୍ରଣମାମ୍ୟହମ୍॥',

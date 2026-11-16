@@ -401,3 +401,18 @@ One line per audit. Rotation: every stotram in every language (Hindi/Devanagari,
 - Cross-links added: the three Navaratri and Durga guides now list ya-devi-sarvabhuteshu in related stotrams.
 - Search Console: 8 URLs accepted on 15 Nov (manojavam-marutatulyavegam, kalabhairava-ashtakam and its Hindi, Odia and Telugu pages, and the dhanurmasam, datta-jayanti and vivah-panchami guides).
 - GUIDES_UPDATED set to 2026-11-15. lastmod.js updated.
+
+## 2026-11-16
+- Audit: Navagraha Stotram, Hindi (Odia, Telugu and transliteration synced). Sources: shlokam.org (Nava Graha Stotram) and sanskritdocuments (doc_z_misc_navagraha/navanew, Navagrahastotra). Both print तमोऽरिं in verse 1.
+- Fixed verse 1: तमोरिं to तमोऽरिं (Odia ତମୋରିଂ to ତମୋଽରିଂ; Telugu తమోరింసర్వపాపఘ్నం ప్రణతోస్మి to తమోఽరిం సర్వపాపఘ్నం ప్రణతోఽస్మి). Transliteration Tamorim Sarva Paapahnam corrected to Tamo'rim Sarva Paapaghnam.
+- Fixed verse 3 transliteration: Samaprabhaam to Samaprabham.
+- Disagreements kept as on the site because the second source agrees with the site: verse 5 बुद्धिभूतं (shlokam has बुद्धिमन्तं), verse 8 महावीर्यं and विमर्दनम् (shlokam has महावीरं and विमर्धनम्). Verse 6 दैत्यानां is correct (shlokam prints दैत्यानं).
+- Cross-script check (Odia and Telugu back to Devanagari): no real differences, only script conventions.
+- Needs a human check: both sources add a three-verse phalashruti (fruit of recitation) after verse 9. The site has not included it.
+- New mantra: Ganesha Pancharatnam (Mudakaratta Modakam), 6 verses (5 plus the closing phalashruti verse). Sources: shlokam.org (Ganesha Pancharathnam) and kamakoti.org (Ganesha Pancharatna Stotra). Both give the same six verses; variants are spelling only (shankaram or shamkaram, akinchana or akimchana, mudakaratta joined or split, and the final m of bhushanam in verse 4). Attribution: traditionally credited to Adi Shankara.
+- YouTube: Rajshri Soul, Mudakaratha Modakam, Ganesha Pancharatnam With Lyrics (bgnEJM0C1Cg), oembed 200. Other candidates with 200: Sindhu Smitha KnkvNO_Mf-I, Sri Sathya Sai Telugu Ec5LzyOJ03w.
+- New guides: annapurna-jayanti-2026-guide (about 815 words; Thu 24 Dec 2026 per Drik Panchang via HinduTone, with the 23/24 December tithi note); utpanna-ekadashi-2026-guide (about 715 words; Fri 4 Dec 2026 per Drik Panchang, tithi and parana times given for Lancaster, California and flagged as location-specific).
+- Upgraded guide: mantra-chanting-rules-faq, from about 460 to about 820 words, 8 FAQs. Sources: Manusmriti 2.85, Bhagavad Gita 10.25 and Yoga Sutra 1.28 with Swami Krishnananda's commentary.
+- Cross-links: ganesh-chaturthi-guide now lists ganesha-pancharatnam in related stotrams.
+- Search Console, 15 Nov: 3 URLs accepted (ya-devi-sarvabhuteshu and its Hindi and Odia pages), then Quota Exceeded on the Telugu page.
+- GUIDES_UPDATED set to 2026-11-16. lastmod.js updated.

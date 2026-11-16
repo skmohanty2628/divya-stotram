@@ -498,6 +498,7 @@ export const GUIDES_LEARN = [
     ],
     "related": {
       "stotrams": [
+        "ganesha-pancharatnam",
         "ganesh-aarti",
         "vakratunda-mahakaya-mantra",
         "shuklambaradharam-mantra"
@@ -6175,6 +6176,192 @@ export const GUIDES_LEARN = [
       "Drik Panchang, Mandala Pooja 2026 (Mandalakalam start on 17 November 2026 and Mandala Pooja on 27 December 2026)",
       "HinduTone, Sabarimala Mandalam and Makaravilakku 2026-27 season guide (expected temple dates, vratham rules, Irumudi, Pamba route, Virtual-Q)",
       "Drik Panchang, Makara Sankranti Sun entry time on 14 January 2027, as cited by HinduTone"
+    ]
+  },
+  {
+    "slug": "annapurna-jayanti-2026-guide",
+    "category": "Festivals",
+    "title": "Annapurna Jayanti 2026: Date, the Story of Annapurna Devi of Kashi and How to Observe It",
+    "description": "Annapurna Jayanti 2026 falls on Margashirsha Purnima in late December. Learn the date question, the story of the goddess of food in Kashi, a simple home observance and ideas for food donation.",
+    "h1": "Annapurna Jayanti 2026: Date, the Story of Annapurna Devi and a Simple Observance",
+    "intro": "Annapurna Jayanti honours Annapurna, the goddess of food, who is closely associated with the city of Kashi (Varanasi). It falls on the full moon of the month of Margashirsha, and it is a day when many families clean the kitchen, offer a simple meal, and share food with others. This guide explains how the date is fixed and why two dates are in circulation in 2026, retells the story that is usually told, describes a simple home observance, and ends with a few practical ideas for food donation.",
+    "sections": [
+      {
+        "h": "The date in 2026 and why you may see two",
+        "p": [
+          "Annapurna Jayanti is observed on Margashirsha Purnima, the full moon day of the month of Margashirsha. Drik Panchang, as cited by HinduTone, lists Thursday 24 December 2026 for Annapurna Jayanti, using New Delhi as its basis. The Purnima tithi begins in the late morning of 23 December and runs into the early hours of 24 December, according to the same article, so the full moon spans two civil days.",
+          "This is the reason for the confusion. The same HinduTone table places Margashirsha Purnima and Datta Jayanti on 23 December and Annapurna Jayanti on 24 December. Different festivals take the tithi at different times of day, and a calendar for another city can shift the result. Our guide on Datta Jayanti uses 23 December, following the Haindavam calendar. If the date matters for a fast or a temple visit, check a panchang for your own city and follow the custom of your family or temple."
+        ]
+      },
+      {
+        "h": "Who is Annapurna",
+        "p": [
+          "The name Annapurna means one who is full of food or who gives food. She is understood as a form of Parvati, the consort of Shiva, and she is worshipped especially in Kashi. HinduTone attributes a well-known Annapurna stotram to Adi Shankara, and the traditional attribution rests on the same kind of tradition as for other hymns under his name. Many homes also keep an image of Annapurna in the kitchen or beside the grain store."
+        ]
+      },
+      {
+        "h": "The story that is usually told",
+        "p": [
+          "The popular story, as HinduTone retells it, begins with an argument. Shiva says that the world is maya, an illusion, and that food is part of that illusion. Parvati is hurt by this and withdraws from the world, and as she goes, nourishment disappears. Hunger spreads. Shiva sees that food is not an illusion for those who go without it, and Parvati appears in Kashi as Annapurna to feed the hungry. In the story she serves food to Shiva himself, who comes as a beggar, Bhikshatana, with an alms bowl.",
+          "Tellings differ in detail between regions and texts, and this guide gives only the outline that the sources agree on. What the story is usually taken to say is that food is a form of the divine and that feeding people is a sacred duty. That idea is the reason why the festival has become a day of food donation."
+        ]
+      },
+      {
+        "h": "The Annapurna temple in Varanasi",
+        "p": [
+          "The Annapurna Devi Mandir stands in the old city of Varanasi, near the Kashi Vishwanath temple. HinduTone describes it as known for annadanam, the free feeding of devotees, and for the Annakoot, a large display of food offered to the goddess and later shared as prasad, which it says is generally held around Diwali. For darshan timings or special offerings, check the temple's official channels, since arrangements change from year to year."
+        ]
+      },
+      {
+        "h": "A simple observance at home",
+        "p": [
+          "The customs that HinduTone describes are simple. Clean the kitchen. Many families worship the stove, the grain containers and the cooking vessels as a sign of respect for what feeds the household. Cook a plain, sattvic meal without onion and garlic if that is your family custom, offer it first to Annapurna, and then eat it together. You can say the Annapurna stotram if you know it, or the short mantra Om Annapurnayai Namah.",
+          "Fasting on this day is optional and customs differ. The same article advises against strict fasts for people with health conditions, pregnant women, children and older adults, and that is sensible advice for any fast. If you are unsure, eat normally and keep the day for sharing food."
+        ]
+      },
+      {
+        "h": "Food donation and waste",
+        "p": [
+          "Because the day is about feeding, many people use it to share food. Ideas given in the sources include sharing extra cooked food with neighbours, donating to a food bank or an annadanam programme, feeding animals and birds, and teaching children not to waste food. Check with a local organisation before taking cooked food to anyone, and follow food safety rules. A small, regular act of sharing is closer to the spirit of the story than one large gesture."
+        ]
+      },
+      {
+        "h": "Margashirsha context",
+        "p": [
+          "Margashirsha is the month that follows Kartika in the north Indian calendar and is associated in many traditions with Vishnu worship. Its full moon is Margashirsha Purnima, which is the day of Datta Jayanti in many calendars and of Annapurna Jayanti in others. In Odisha the Thursdays of this month are known for the worship of Lakshmi in the Manabasa custom. See our guides on Datta Jayanti and Manabasa Gurubara for those observances."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When is Annapurna Jayanti in 2026?",
+        "a": "Drik Panchang, as cited by HinduTone, lists Thursday 24 December 2026 for New Delhi. The Purnima tithi starts on 23 December, so check a panchang for your own city."
+      },
+      {
+        "q": "Who is Annapurna?",
+        "a": "Annapurna is the goddess of food, understood as a form of Parvati and worshipped especially in Kashi."
+      },
+      {
+        "q": "What is the story of Annapurna?",
+        "a": "In the usual telling Shiva calls food an illusion, Parvati withdraws and food disappears from the world, and she then appears in Kashi as Annapurna to feed the hungry, including Shiva as a beggar."
+      },
+      {
+        "q": "Do I have to fast on Annapurna Jayanti?",
+        "a": "No. Fasting is optional. People with health conditions, pregnant women, children and older adults are advised not to keep strict fasts."
+      },
+      {
+        "q": "What can I chant?",
+        "a": "Many devotees say the Annapurna stotram, which is attributed to Adi Shankara, or the short mantra Om Annapurnayai Namah."
+      },
+      {
+        "q": "How can I observe the day if I live far from Kashi?",
+        "a": "Clean the kitchen, cook a simple meal, offer it with a prayer, and share food with someone or donate to a local food programme."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "mahalakshmi-ashtakam",
+        "vishnu-sahasranamam"
+      ],
+      "guides": [
+        "datta-jayanti-2026-dattatreya-guide",
+        "manabasa-gurubara-odisha-guide",
+        "how-to-perform-aarti-at-home-guide"
+      ]
+    },
+    "sources": [
+      "HinduTone, Annapurna Jayanti 2026: Date (24 December), Story of Annapurna Devi of Kashi, Puja and Food Donation (date, story, temple, customs, stotram attribution)",
+      "Drik Panchang, Annapurna Jayanti 2026 (date for New Delhi, as cited by HinduTone)",
+      "Haindavam festival calendar, Datta Jayanti 23 December 2026 (used in the Datta Jayanti guide)"
+    ]
+  },
+  {
+    "slug": "utpanna-ekadashi-2026-guide",
+    "category": "Festivals",
+    "title": "Utpanna Ekadashi 2026: Date, Parana Time, the Story of Ekadashi and the Vrat",
+    "description": "Utpanna Ekadashi 2026 falls on Friday 4 December. Learn how the date is fixed, the story of the goddess Ekadashi and the demon Mura, how the vrat is kept and when to break the fast.",
+    "h1": "Utpanna Ekadashi 2026: Date, Parana Time, the Story and How the Vrat Is Kept",
+    "intro": "Utpanna Ekadashi is the Ekadashi of the dark fortnight after Kartika Purnima. Many devotees treat it as the birth of Ekadashi itself, and some who vow to keep the fast through the year begin on this day. This guide gives the 2026 date and tithi times, explains the parana window and why the times differ by city, retells the story of the goddess Ekadashi and the demon Mura, and describes how the vrat is commonly kept.",
+    "sections": [
+      {
+        "h": "Date and timing in 2026",
+        "p": [
+          "Drik Panchang lists Utpanna Ekadashi on Friday 4 December 2026. The times it gives are for Lancaster, California, so they will differ from city to city. For that location the Ekadashi tithi begins at 9:33 am on 3 December and ends at 10:14 am on 4 December. The parana window, the recommended time to break the fast, is from 6:45 am to 8:44 am on 5 December, and the Dwadashi tithi ends at 11:21 am on 5 December.",
+          "These clock times are only an example. A tithi runs for a length of time that depends on the Moon, and the time on the clock depends on where you live, so a city in India, Europe or Australia will see a different start, end and parana window. Use a panchang for your own city. The date can also shift by a day between traditions, which is covered below."
+        ]
+      },
+      {
+        "h": "Why the day is called Utpanna",
+        "p": [
+          "Utpanna means arisen or born. The day is called Utpanna Ekadashi because it is regarded as the day on which the goddess Ekadashi arose. Drik Panchang describes it as the Ekadashi of the Krishna Paksha, the dark fortnight, after Kartik Purnima, and calls it the birth of Ekadashi. For devotees who take a vow to fast on every Ekadashi of the year, this is the traditional day to begin."
+        ]
+      },
+      {
+        "h": "The story of Ekadashi and Mura",
+        "p": [
+          "As Drik Panchang tells it, a demon named Mura planned to attack Lord Vishnu while he slept. A goddess arose from Vishnu to defeat Mura, and she is named Ekadashi. Because she is a protective power of Vishnu, Ekadashi fasts are dedicated to her.",
+          "The story appears in several traditional tellings, and details such as where the sleep took place and how the demon was killed differ between versions. This guide gives only the outline on which the sources agree. What many families take from it is that the fast belongs to Vishnu's protection and is a way of asking for the same."
+        ]
+      },
+      {
+        "h": "How the vrat is commonly kept",
+        "p": [
+          "The details of an Ekadashi fast differ between families, temples and sects, and a teacher or elder of your own tradition is the best guide. In general, the fast runs from sunrise on the Ekadashi day to sunrise the next morning, as Drik Panchang notes. Devotees commonly avoid grains and pulses, bathe early, worship Vishnu with flowers, lamps and tulsi leaves, and spend the day in prayer, reading or chanting. Some keep a complete fast without food or water, while others take fruit, milk or a single simple meal. Our guide to the Ekadashi vrat explains the common rules in more detail.",
+          "The next morning, the fast is broken within the parana window with a simple meal after prayer. Breaking it outside the window is generally avoided, which is why the parana time is published beside the date."
+        ]
+      },
+      {
+        "h": "When Ekadashi dates differ",
+        "p": [
+          "You may see Ekadashi on two different days in different calendars. Some traditions follow a rule that the tithi must be present at sunrise, and some Vaishnava traditions keep the next day if the Ekadashi tithi overlaps in a particular way. This is why many panchangs list a Smarta and a Vaishnava date. For 2026, check the calendar of your own temple or community, and if you follow a particular sampradaya, follow its rule."
+        ]
+      },
+      {
+        "h": "A simple routine for the day",
+        "p": [
+          "If you are new to the vrat, start with something modest. Wake early, bathe, light a lamp and offer a tulsi leaf or a flower to Vishnu. You might recite the Vishnu Sahasranamam, the Krishna Vasudevaya mantra or any prayer to Vishnu that you know, and read a short passage from the Bhagavad Gita. Eat light, simple food that fits your tradition, and break the fast within the parana window. People with health conditions, pregnant women, children and older adults should not keep strict fasts and should speak to a doctor if in doubt. The vrat is a spiritual practice and does not promise any particular result."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When is Utpanna Ekadashi in 2026?",
+        "a": "Drik Panchang lists Friday 4 December 2026. The tithi begins on 3 December and ends on 4 December, with clock times that depend on your city."
+      },
+      {
+        "q": "What is the parana time?",
+        "a": "For Lancaster, California, Drik Panchang gives 6:45 am to 8:44 am on 5 December. It will differ in other cities, so use a local panchang."
+      },
+      {
+        "q": "What does Utpanna mean?",
+        "a": "It means arisen or born. The day is regarded as the birth of the goddess Ekadashi."
+      },
+      {
+        "q": "What is the story of Utpanna Ekadashi?",
+        "a": "A demon named Mura planned to attack Vishnu as he slept, and a goddess arose from Vishnu and defeated him. She is named Ekadashi."
+      },
+      {
+        "q": "Should I start the yearly Ekadashi fast on this day?",
+        "a": "Drik Panchang notes that devotees who vow to fast every year often begin on Utpanna Ekadashi. It is a custom and not a requirement."
+      },
+      {
+        "q": "Can I fast if I have a health condition?",
+        "a": "Speak to a doctor first. A strict fast is not advised for people with health conditions, pregnant women, children or older adults, and a lighter observance is acceptable."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "vishnu-sahasranamam",
+        "krishna-vasudevaya-mantra"
+      ],
+      "guides": [
+        "ekadashi-vrat-guide",
+        "prabodhini-ekadashi-bada-ekadashi-odisha-guide",
+        "gita-jayanti-mokshada-ekadashi-2026-guide"
+      ]
+    },
+    "sources": [
+      "Drik Panchang, Utpanna Ekadashi 2026 (date, tithi and parana times for Lancaster, California, origin story, fasting from sunrise to sunrise)"
     ]
   },
 ];

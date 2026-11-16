@@ -506,4 +506,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does reciting it guarantee a result?', a: 'No. It is a prayer and a devotional practice, not a promise of any worldly result, and it does not replace medical, legal or financial advice.' },
     ],
   },
+  'ganesha-pancharatnam': {
+    what: `Ganesha Pancharatnam, also called Mudakaratta Modakam after its first words, is a hymn of five verses in praise of Ganesha, followed by a sixth verse that states the fruit of reciting it. The word pancharatnam means five gems. It is traditionally credited to Adi Shankara, and the Kamakoti site gives it under his name, though the authorship of old hymns rests on tradition. It is one of the best known Ganesha stotras in South India and is often recited on Ganesh Chaturthi.`,
+    meaning: `Each verse piles up epithets for Ganesha. The first describes him holding a modaka, wearing the crescent moon, protecting the world and quickly removing the misfortune of those who bow. The second calls him fearsome to those who do not bow, bright as the newly risen sun and lord of the gods, of treasures, of elephants and of the Ganas. The third speaks of his large belly, his elephant face and his compassion, forgiveness, joy and fame. The fourth recalls him as the first son of Shiva and the one who crushes pride, and the fifth says he lives in the hearts of yogis and that the singer thinks of the one-tusked lord without a break. The sixth verse names the hoped-for fruits of daily recitation.`,
+    benefits: [
+      'A well-known hymn that many devotees recite on Ganesh Chaturthi',
+      'Only five verses plus a closing verse, so it can be learned in a short time',
+      'Strings together many names and qualities of Ganesha, which helps with learning his stories',
+      'Often recited at dawn, which many families make part of a morning routine',
+      'Open to everyone, with no initiation needed for simple recitation',
+    ],
+    bestTime: `The closing verse speaks of reciting the hymn every morning, so many devotees say it at dawn. It is also recited on Ganesh Chaturthi. Once through takes only a few minutes.`,
+    faqs: [
+      { q: 'Who wrote the Ganesha Pancharatnam?', a: 'It is traditionally credited to Adi Shankara. Kamakoti.org prints it under his name, but authorship of old hymns rests on tradition.' },
+      { q: 'What does pancharatnam mean?', a: 'It means five gems, a name given to short hymns of five main verses. This one also has a sixth verse that states the fruit of reciting it.' },
+      { q: 'What does Mudakaratta Modakam mean?', a: 'It is the first word of the hymn and means holding a modaka sweet in the hand with delight.' },
+      { q: 'Are there different versions of the text?', a: 'Editions agree on all six verses. A few differ in spelling, for example shankaram or shamkaram, and whether the first words are joined or written as two words. The meaning is the same.' },
+      { q: 'Can it be chanted every day?', a: 'Yes. The closing verse itself speaks of daily recitation at dawn, and many families say it every morning.' },
+      { q: 'Does reciting it guarantee a result?', a: 'No. The last verse states what the tradition hopes for. A prayer is a spiritual practice and does not replace medical, legal or financial advice.' },
+    ],
+  },
 };

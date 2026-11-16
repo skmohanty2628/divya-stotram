@@ -407,83 +407,121 @@ export const GUIDES_PRACTICE = [
   },
 
   {
-    slug: 'mantra-chanting-rules-faq',
-    category: 'Understanding practice',
-    title: 'Mantra Chanting Rules: Time, Count, Direction, Cleanliness and Common Questions',
-    description:
-      'Clear answers to common questions about chanting: how many times, what direction to face, whether you need to bathe, chanting silently or lying down, what if you miss a day, and what is really essential.',
-    h1: 'Mantra Chanting Rules: Common Questions Answered',
-    intro:
-      'People often worry that they are chanting incorrectly. This guide answers the most common practical questions in plain language and distinguishes between what is traditional, what is helpful, and what is truly required.',
-    sections: [
+    "slug": "mantra-chanting-rules-faq",
+    "category": "Understanding practice",
+    "title": "Mantra Chanting Rules: Time, Count, Direction, Cleanliness and Common Questions",
+    "description": "Clear answers to common questions about chanting: how many times, what direction to face, whether you need to bathe, chanting aloud, whispered or silent, what if you miss a day, and what is really essential.",
+    "h1": "Mantra Chanting Rules: Common Questions Answered",
+    "intro": "People often worry that they are chanting incorrectly. This guide answers the most common practical questions in plain language and separates what is traditional, what is helpful, and what is truly required. Where a text is cited, the reference is given so that you can check it. Where traditions differ, the guide says so, and for your own mantra the instruction of your own teacher or family comes first.",
+    "sections": [
       {
-        h: 'What is truly essential',
-        p: [
-          `Teachers across traditions agree that three things matter most: sincerity, attention, and regularity. Everything else, from direction to clothing to the kind of mala, is secondary and exists to support those three. If a rule becomes a source of anxiety, it has stopped serving its purpose.`,
-        ],
+        "h": "What is truly essential",
+        "p": [
+          "Teachers across traditions agree that three things matter most: sincerity, attention and regularity. Everything else, from direction to clothing to the kind of mala, is secondary and exists to support those three. If a rule becomes a source of anxiety, it has stopped serving its purpose.",
+          "The classical texts point the same way. In the Bhagavad Gita, chapter 10 verse 25, Krishna says that among sacrifices he is the sacrifice of japa, the quiet repetition of a mantra. The Yoga Sutras of Patanjali, sutra 1.28, link repetition of Om with contemplation of its meaning, and a commentary by Swami Krishnananda explains that repeating the sound while feeling its meaning impresses the idea on the mind. In both cases the emphasis is on the inner act and not on outer conditions."
+        ]
       },
       {
-        h: 'How many times should I chant?',
-        p: [
-          `For a short mantra, 108 repetitions, one mala, is the traditional unit. Counts of 11, 21, 27 and 54 are common for shorter practice. For a stotram or chalisa, once a day is standard, with larger numbers for special occasions. Choose a count you can keep consistently.`,
-        ],
+        "h": "How many times should I chant?",
+        "p": [
+          "For a short mantra, 108 repetitions, one mala, is the traditional unit. Counts of 11, 21, 27 and 54 are common for shorter practice. For a stotram or chalisa, once a day is standard, with larger numbers for special occasions. Choose a count you can keep consistently, since a small daily practice is more useful than a large one that you drop after a week. Our guide on how to use a japa mala explains how the beads are counted."
+        ]
       },
       {
-        h: 'Which direction should I face?',
-        p: [
-          `East, the direction of sunrise, is the most widely recommended for morning prayer, with north as another favoured direction. Some traditions suggest facing the deity's image. If your space does not allow a particular direction, face wherever you can be comfortable and undisturbed.`,
-        ],
+        "h": "Aloud, whispered or silent",
+        "p": [
+          "Tradition describes grades of japa. Manusmriti 2.85 says that japa-yajna is better than a ritual carried out by prescribed rules by a factor of ten, and that whispered repetition (upamshu) is a hundred times better and mental repetition (manasa) a thousand times better. The figures are a traditional way of saying that the quieter and more inward the repetition, the more subtle it is considered. They are not a measure that any person can check, so treat them as a teaching and not as a promise.",
+          "In practice this means that all three ways are accepted. Beginners often find that chanting aloud helps them to keep their attention, and many move to whispering or silent repetition over time. A stotram, which is a hymn of many verses, is normally recited aloud or sung."
+        ]
       },
       {
-        h: 'Do I need to bathe or wear special clothes?',
-        p: [
-          `A bath beforehand is traditional and helps with feeling fresh, but it is not a condition of prayer. If you are ill, travelling or short of time, recite anyway. Clean, comfortable clothes are enough.`,
-        ],
+        "h": "Which direction should I face?",
+        "p": [
+          "East, the direction of sunrise, is the most widely recommended for morning prayer, with north as another favoured direction. Some traditions suggest facing the deity's image. These are customs and not conditions. If your space does not allow a particular direction, face wherever you can be comfortable and undisturbed."
+        ]
       },
       {
-        h: 'Silent, lying down, walking',
-        p: [
-          `Mental repetition is described in the tradition as more subtle than aloud. Whispering is intermediate. Chanting while walking or travelling is common, and chanting lying down is acceptable when sitting is not possible, such as in illness or before sleep. Sitting upright is simply helpful for attention.`,
-        ],
+        "h": "Do I need to bathe or wear special clothes?",
+        "p": [
+          "A bath beforehand is traditional and helps with feeling fresh, but it is not a condition of prayer. If you are ill, travelling or short of time, recite anyway. Clean, comfortable clothes are enough. Some families also keep a separate cloth or seat for prayer, which is a helpful habit because it marks the time as set apart, but it is not required."
+        ]
       },
       {
-        h: 'Best time and missing a day',
-        p: [
-          `Early morning and dusk are traditional, but the best time is the one you can keep. If you miss a day, continue the next day. If you are on a forty-day vow and miss, many teachers advise simply continuing, or adding a day at the end. They do not treat it as a sin.`,
-        ],
+        "h": "Sitting, lying down, walking",
+        "p": [
+          "Chanting while walking or travelling is common, and chanting lying down is acceptable when sitting is not possible, such as in illness or before sleep. Sitting upright is simply helpful for attention. If you find that you fall asleep while chanting in the evening, move the practice to the morning or sit up for a few minutes."
+        ]
       },
       {
-        h: 'Mispronunciation',
-        p: [
-          `Do not let fear of mispronunciation stop you. Vedic chanting follows strict phonetic rules, and students of that discipline learn from teachers. For devotional recitation at home, sincere effort is welcomed. Listening to recordings and improving gradually is the usual path.`,
-        ],
+        "h": "Best time and missing a day",
+        "p": [
+          "Early morning and dusk are traditional, but the best time is the one you can keep. Tie the practice to something that already happens every day, such as after your bath or before dinner. If you miss a day, continue the next day. If you are on a forty-day vow and miss, many teachers advise simply continuing, or adding a day at the end. They do not treat it as a sin, and guilt tends to make people stop altogether."
+        ]
       },
+      {
+        "h": "Mispronunciation",
+        "p": [
+          "Do not let fear of mispronunciation stop you. Vedic chanting follows strict phonetic rules, and students of that discipline learn from teachers. For devotional recitation at home, sincere effort is welcomed. Listen to a recording from a respected reciter, read the transliteration slowly, and improve gradually. On this site each stotram has a transliteration and a meaning beside the original, so you can learn what the words say as well as how they sound."
+        ]
+      },
+      {
+        "h": "Who may chant",
+        "p": [
+          "For common devotional hymns such as the Hanuman Chalisa and the Vishnu and Shiva hymns on this site, recitation is open to anyone who wishes to say them. Some specific mantras are traditionally given by a guru in a ceremony called diksha, and in that case the instruction of the guru applies. If you are unsure, ask a teacher of your own tradition. Our guide on chanting during periods explains how different traditions treat that question."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Can I chant without bathing?',
-        a: 'Yes, though bathing is traditional. Do not skip prayer because you cannot bathe.',
+        "q": "Can I chant without bathing?",
+        "a": "Yes, though bathing is traditional. Do not skip prayer because you cannot bathe."
       },
       {
-        q: 'Can I chant lying down?',
-        a: 'Yes, if you are unwell or before sleep. Sitting upright is more helpful for attention.',
+        "q": "Can I chant lying down?",
+        "a": "Yes, if you are unwell or before sleep. Sitting upright is more helpful for attention."
       },
       {
-        q: 'What if I forget the count?',
-        a: 'Start a new round or continue to the nearest round number. It is not a problem.',
+        "q": "What if I forget the count?",
+        "a": "Start a new round or continue to the nearest round number. It is not a problem."
       },
       {
-        q: 'Does the mala matter?',
-        a: 'Rudraksha for Shiva, tulsi for Vishnu and Krishna are traditional, but any clean mala or a counter is fine.',
+        "q": "Does the mala matter?",
+        "a": "Rudraksha for Shiva and tulsi for Vishnu and Krishna are traditional, but any clean mala or a counter is fine."
       },
+      {
+        "q": "Is silent chanting better than chanting aloud?",
+        "a": "Manusmriti 2.85 describes whispered and mental repetition as higher grades than audible repetition. Beginners can chant aloud to keep attention, and many move inward with time."
+      },
+      {
+        "q": "Do I need a guru to chant?",
+        "a": "Not for common devotional hymns. Some mantras are traditionally given by a guru at diksha, and then the guru's instruction applies."
+      },
+      {
+        "q": "What if I mispronounce a word?",
+        "a": "Keep going and improve with practice. Sincere effort is welcomed in devotional recitation at home."
+      },
+      {
+        "q": "Does chanting guarantee a result?",
+        "a": "No. It is a spiritual and devotional practice and does not replace medical, legal or financial advice."
+      }
     ],
-    related: {
-      stotrams: ['hanuman-chalisa', 'gayatri-mantra'],
-      guides: ['can-we-chant-during-periods', 'how-to-chant-hanuman-chalisa', 'spiritual-routine-for-beginners'],
+    "related": {
+      "stotrams": [
+        "hanuman-chalisa",
+        "gayatri-mantra"
+      ],
+      "guides": [
+        "can-we-chant-during-periods",
+        "how-to-chant-hanuman-chalisa",
+        "spiritual-routine-for-beginners",
+        "how-to-use-japa-mala"
+      ]
     },
-    sources: [
-      'Traditional japa practice as taught in Hindu devotional literature',
-    ],
+    "sources": [
+      "Manusmriti 2.85 (japa-yajna and the grades of audible, whispered and mental repetition), as printed on enjoylearningsanskrit.com",
+      "Bhagavad Gita 10.25 (Krishna names japa-yajna among sacrifices)",
+      "Patanjali, Yoga Sutras 1.28, with the commentary of Swami Krishnananda (repetition with contemplation of meaning)"
+    ]
   },
 
   {

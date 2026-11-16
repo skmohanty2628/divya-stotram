@@ -865,6 +865,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'ganesha-pancharatnam',
+    title: {
+      en: 'Ganesha Pancharatnam (Mudakaratta Modakam)',
+      hi: 'गणेश पञ्चरत्नम् (मुदाकरात्तमोदकम्)',
+      od: 'ଗଣେଶ ପଞ୍ଚରତ୍ନମ୍ (ମୁଦାକରାତ୍ତମୋଦକମ୍)',
+      te: 'గణేశ పంచరత్నం (ముదాకరాత్తమోదకం)',
+    },
+    deity: 'Ganesha',
+    deityEmoji: '🐘',
+    deityIcon: '',
+    description: {
+      en: 'Ganesha Pancharatnam (Mudakaratta Modakam), the five-verse hymn to Ganesha traditionally credited to Adi Shankara, with its closing verse, in English, Hindi, Odia and Telugu with meaning and a chanting video',
+      hi: 'गणेश पञ्चरत्नम् (मुदाकरात्तमोदकम्), आदि शंकराचार्य को परम्परा से श्रेय दी गई गणेश की पाँच श्लोकों की स्तुति और समापन श्लोक, हिन्दी, ओड़िया, तेलुगु और अंग्रेज़ी लिपि में अर्थ और वीडियो सहित',
+      od: 'ଗଣେଶ ପଞ୍ଚରତ୍ନମ୍ (ମୁଦାକରାତ୍ତମୋଦକମ୍), ଆଦି ଶଙ୍କରାଚାର୍ଯ୍ୟଙ୍କ ନାମରେ ପରମ୍ପରାଗତ ଗଣେଶଙ୍କ ପାଞ୍ଚ ଶ୍ଳୋକର ସ୍ତୁତି ଓ ସମାପନ ଶ୍ଳୋକ, ହିନ୍ଦୀ, ଓଡ଼ିଆ, ତେଲୁଗୁ ଓ ଇଂରାଜୀ ଲିପିରେ ଅର୍ଥ ଓ ଭିଡିଓ ସହିତ',
+      te: 'గణేశ పంచరత్నం (ముదాకరాత్తమోదకం), ఆది శంకరాచార్యులకు సంప్రదాయంగా ఆపాదించబడిన గణేశుని ఐదు శ్లోకాల స్తుతి, ముగింపు శ్లోకంతో, హిందీ, ఒడియా, తెలుగు, ఇంగ్లీష్ లిపిలో అర్థం మరియు వీడియోతో',
+    },
+    color: 'from-orange-950 to-amber-950',
+    accent: '#f0b060',
+    youtubeId: 'bgnEJM0C1Cg',
+    verseCount: 6,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

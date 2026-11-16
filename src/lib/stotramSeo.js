@@ -192,6 +192,11 @@ const SEO_COPY = {
     description:
       'Read Ya Devi Sarvabhuteshu (या देवी सर्वभूतेषु), the Devi Stuti from the Devi Mahatmya (Durga Saptashati), in English, Hindi, Odia and Telugu with meaning, when it is chanted and a video to follow along.',
   },
+  'ganesha-pancharatnam': {
+    title: 'Ganesha Pancharatnam Lyrics in English, Hindi, Odia & Telugu with Meaning (Mudakaratta Modakam)',
+    description:
+      'Read Ganesha Pancharatnam (मुदाकरात्तमोदकं), the five-verse hymn to Ganesha traditionally credited to Adi Shankara, in English, Hindi, Odia and Telugu with meaning, when it is recited and a video.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

@@ -526,4 +526,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does reciting it guarantee a result?', a: 'No. The last verse states what the tradition hopes for. A prayer is a spiritual practice and does not replace medical, legal or financial advice.' },
     ],
   },
+  'nirvana-shatakam': {
+    what: `Nirvana Shatakam, also called Atma Shatkam, is a hymn of six verses that ends each time with the line "Chidananda Rupah Shivoham Shivoham", meaning "I am Shiva, whose form is consciousness and bliss". It is traditionally credited to Adi Shankara, and Drik Panchang prints it under his name as Atma Shatkam. The Sringeri Math's Bhagavatpadiyam site also includes it among the works of Shankara. It belongs to the Advaita tradition, which teaches that the self is not different from pure consciousness, and it is widely sung and chanted.`,
+    meaning: `Each verse lists things the speaker is not, and then names what remains. The first verse says the self is not the mind, intellect, ego or memory, not the senses, and not the elements. The second denies the vital breath, the five vital airs, the bodily tissues and the five sheaths, and the organs of action. The third denies the inner states of hatred, greed, pride and envy and the four aims of life. The fourth sets aside merit and sin, pleasure and pain, rituals and pilgrimage, and the roles of food, eater and eaten. The fifth sets aside death, fear, caste, birth, family and the roles of teacher and student. The sixth says the self is without thought-constructs and form, and pervades all. Each verse ends by naming what is left, which is consciousness and bliss.`,
+    benefits: [
+      'A well-known hymn of Advaita Vedanta that many people chant for reflection and calm',
+      'Short, with only six verses and a repeating last line, so it is easy to learn',
+      'Helps readers think through the idea of the self as distinct from body, mind and roles',
+      'Chanted by many people before meditation',
+      'Open to everyone, with no initiation needed for simple recitation',
+    ],
+    bestTime: `There is no fixed time. Many people chant it in the morning or before meditation. Chanting all six verses slowly takes about five minutes.`,
+    faqs: [
+      { q: 'Who composed the Nirvana Shatakam?', a: 'It is traditionally credited to Adi Shankara. Drik Panchang prints it under his name, and the Sringeri Math lists it among the works of Shankara. As with other old hymns, authorship rests on tradition.' },
+      { q: 'What is the difference between Nirvana Shatakam and Atma Shatkam?', a: 'They are two names for the same six verses. Atma Shatkam means six verses on the self.' },
+      { q: 'What does Chidananda Rupah Shivoham mean?', a: 'It means "I am Shiva, whose form is consciousness and bliss". The line is repeated at the end of every verse.' },
+      { q: 'Are there different readings of the text?', a: 'Yes, in small places. Editions differ over spellings such as pancha-koshah and pancha-koshaah, and over the word padam or padau in verse 2. In verse 6 the widely sung reading is "na meyah", while the Sringeri text prints "na bandhah". The site follows the widely sung reading.' },
+      { q: 'Is it a Shiva hymn of worship?', a: 'It uses the name Shiva for the self, in the sense of pure consciousness, and is a hymn of Advaita reflection and not a prayer to a separate deity. Many devotees also chant it as a Shiva hymn.' },
+      { q: 'Does reciting it guarantee a result?', a: 'No. It is a spiritual practice for reflection and does not promise any worldly result or replace medical, legal or financial advice.' },
+    ],
+  },
 };

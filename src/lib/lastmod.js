@@ -1,6 +1,10 @@
 // Real last-edit dates per page, taken from docs/verse-audit-log.md and later content changes.
 // Pages not listed here have not changed since the base date in site.js (CONTENT_UPDATED).
 export const LASTMOD = {
+  'nirvana-shatakam': '2026-11-17',
+  'nirvana-shatakam-meaning-and-story': '2026-11-17',
+  'telugu-sankranti-bhogi-kanuma-2027-guide': '2026-11-17',
+  'maha-shivaratri-guide': '2026-11-17',
   'ganesha-pancharatnam': '2026-11-16',
   'navagraha-stotram': '2026-11-16',
   'annapurna-jayanti-2026-guide': '2026-11-16',
@@ -80,7 +84,6 @@ export const LASTMOD = {
   'lingashtakam': '2026-11-03',
   'maha-mrityunjaya-mantra': '2026-10-30',
   'maha-mrityunjaya-mantra-meaning': '2026-10-30',
-  'maha-shivaratri-guide': '2026-11-03',
   'maha-shivaratri-lingaraj-mahadeepa-bhubaneswar-guide': '2026-11-03',
   'mahalakshmi-ashtakam': '2026-11-11',
   'mahalaya-pitru-paksha-odisha-guide': '2026-10-30',

@@ -197,6 +197,11 @@ const SEO_COPY = {
     description:
       'Read Ganesha Pancharatnam (मुदाकरात्तमोदकं), the five-verse hymn to Ganesha traditionally credited to Adi Shankara, in English, Hindi, Odia and Telugu with meaning, when it is recited and a video.',
   },
+  'nirvana-shatakam': {
+    title: 'Nirvana Shatakam Lyrics in English, Hindi, Odia & Telugu with Meaning (Chidananda Rupah Shivoham)',
+    description:
+      'Read Nirvana Shatakam (निर्वाण षट्कम्), also called Atma Shatkam, the six verses of Chidananda Rupah Shivoham attributed to Adi Shankara, in English, Hindi, Odia and Telugu with meaning and a video.',
+  },
   'indra-jimi-jambh-par': {
     title: 'Indra Jimi Jambh Par | Shivaji Maharaj Kavitt | Kavi Bhushan Poem with Meaning',
     description:

@@ -74,74 +74,100 @@ export const GUIDES_LEARN = [
   },
 
   {
-    slug: 'maha-shivaratri-guide',
-    category: 'Festivals',
-    title: 'Maha Shivaratri: Meaning, Fasting, Night Vigil and What to Chant',
-    description:
-      'What Maha Shivaratri is, how its date is fixed, how devotees fast and keep the night vigil, the four prahar worship, and which mantras and stotrams people recite.',
-    h1: 'Maha Shivaratri: Meaning, Observance and What to Chant',
-    intro:
-      'Maha Shivaratri, the Great Night of Shiva, is one of the most widely observed Hindu festivals. This guide explains what it commemorates, how people observe it, and how to take part simply and respectfully.',
-    sections: [
+    "slug": "maha-shivaratri-guide",
+    "category": "Festivals",
+    "title": "Maha Shivaratri: Meaning, Fasting, Night Vigil and What to Chant",
+    "description": "What Maha Shivaratri is, the 2027 date and puja times, how devotees fast and keep the night vigil, the four prahar worship, the main stories, and which mantras and stotrams people recite.",
+    "h1": "Maha Shivaratri: Meaning, Observance and What to Chant",
+    "intro": "Maha Shivaratri, the Great Night of Shiva, is one of the most widely observed Hindu festivals. This guide explains what it commemorates, gives the 2027 date and times from a published panchang, describes how people fast and keep the vigil, and shows how to take part simply and respectfully.",
+    "sections": [
       {
-        h: 'When is it observed?',
-        p: [
-          `Maha Shivaratri falls on the night of the fourteenth day of the dark fortnight (Krishna Paksha Chaturdashi) of the month of Magha or Phalguna, depending on whether the calendar is reckoned from the full moon or the new moon. In the Gregorian calendar this is usually in February or March. Because the Hindu calendar is lunisolar, the date changes every year, so check a panchang for your location.`,
-        ],
+        "h": "When is it observed?",
+        "p": [
+          "Maha Shivaratri falls on the night of the fourteenth day of the dark fortnight (Krishna Paksha Chaturdashi). The South Indian lunar calendar, which counts months from new moon to new moon, names the month as Magha, while the North Indian calendar, which counts from full moon to full moon, names it Phalguna. Both regions keep the festival on the same day. In the Gregorian calendar it usually falls in February or March, and because the Hindu calendar is lunisolar the date changes every year.",
+          "In 2027 Drik Panchang gives Saturday 6 March. The Chaturdashi tithi begins at 12:03 pm on 6 March and ends at 1:46 pm on 7 March (Indian Standard Time). The Nishita Kaal, the midnight window most tied to the festival, is given as roughly 12:07 am to 12:57 am on the night of 6 to 7 March for New Delhi, and it differs by city. In parts of North America, such as Los Angeles and Seattle, the page gives Friday 5 March, because the tithi covers their Friday night. Check a panchang or your temple's announcement for your own location."
+        ]
       },
       {
-        h: 'What does it commemorate?',
-        p: [
-          `Traditions differ. Many devotees remember it as the night of the marriage of Shiva and Parvati; others as the night Shiva danced the cosmic dance of creation and dissolution. Some Shaiva traditions emphasise it as a night for self-reflection and overcoming ignorance. All agree it is a night for staying awake in devotion.`,
-        ],
+        "h": "What does it commemorate?",
+        "p": [
+          "Traditions differ, and the sources agree that the stories vary across the Puranas, regions and families. Many devotees remember it as the night of the marriage of Shiva and Parvati, which is how it is widely kept in north India. Others tell of Lingodbhava, in which Brahma and Vishnu search for the top and the base of a pillar of light and Shiva appears from it. Some tellings link the night to Shiva holding the poison that came up when the ocean was churned. Some Shaiva traditions emphasise it as a night for self-reflection and overcoming ignorance. All agree it is a night for staying awake in devotion.",
+          "A well known folk story tells of a lost hunter who spends the night in a bilva tree and drops leaves onto a Shiva lingam below as he tries to stay awake. Without knowing it he completes the night's worship. Drik Panchang names him Guru-Druha, and other books call him Chitrabhanu, which is one more sign that the tellings differ."
+        ]
       },
       {
-        h: 'Fasting and the night vigil',
-        p: [
-          `Many people fast through the day, either completely or on fruit, milk and simple foods, and keep a vigil (jagaran) through the night. Fasting is a personal choice; those who are ill, pregnant, elderly or on medication should not fast in ways that harm their health, and no tradition requires it.`,
-        ],
+        "h": "Fasting and the night vigil",
+        "p": [
+          "Many people fast through the day, either completely or on fruit, milk and simple foods, and keep a vigil (jagaran) through the night. One published pattern is to eat a single meal on Trayodashi, the day before, then on Shivaratri morning to take a vow after the morning rituals, to bathe again in the evening before puja, and to keep the vigil. The fast is broken the next morning, after sunrise and bath. In 2027 Drik Panchang gives the parana window for New Delhi as 6:40 am to 1:46 pm on 7 March, and it also notes a differing view that the fast should be broken only after Chaturdashi ends.",
+          "Fasting is a personal choice. People who are pregnant, elderly, diabetic, or who have heart, kidney or blood pressure conditions should speak to a doctor first, and no tradition requires harm to health. Drink enough water and do not drive when drowsy after a night without sleep."
+        ]
       },
       {
-        h: 'Worship through the four prahars',
-        p: [
-          `The night is often divided into four prahars of about three hours each, with a worship (puja) offered in each. A common offering is the abhisheka, pouring water, milk, honey and other substances over the Shiva lingam, with bilva leaves, which are traditionally dear to Shiva. At home a simple version is fine: water, a bilva leaf if available, and the mantra.`,
-        ],
+        "h": "Worship through the four prahars",
+        "p": [
+          "The night is often divided into four prahars of about three hours each, with a worship (puja) offered in each. For New Delhi in 2027 the four prahars are given as about 6:24 pm to 9:28 pm, 9:28 pm to 12:32 am, 12:32 am to 3:36 am and 3:36 am to 6:40 am. A common offering is the abhisheka, pouring water, milk and other substances over the Shiva lingam, with bilva leaves, which are traditionally dear to Shiva. One published pattern uses water and milk in the first prahar, curd in the second, ghee in the third and honey before dawn, but families vary.",
+          "At home a simple version is fine. One abhisheka with water and a bilva leaf in the Nishita Kaal is described in the HinduTone guide as a complete puja. The common practice is to offer a lamp, water, a leaf if available, and the mantra."
+        ]
       },
       {
-        h: 'What to chant',
-        p: [
-          `The five-syllable Om Namah Shivaya is the most common mantra and is easy to repeat through the night. Many also recite the Shiva Tandava Stotram, traditionally attributed to Ravana, or the Shiv Chalisa. Read the meaning of whichever you choose so that the words are meaningful and not only sounds.`,
-        ],
+        "h": "What to chant",
+        "p": [
+          "The five-syllable Om Namah Shivaya is the most common mantra and is easy to repeat through the night. Many also recite the Shiva Tandava Stotram, traditionally attributed to Ravana, the Shiv Chalisa, the Lingashtakam or the Shiva Panchakshara Stotram. For a quiet, reflective text, the Nirvana Shatakam is often read on this night as well. Read the meaning of whichever you choose so that the words are meaningful and not only sounds."
+        ]
       },
       {
-        h: 'Keeping it simple',
-        p: [
-          `You do not need elaborate ritual. Light a lamp, offer water, chant with attention, and spend some quiet time. Sincerity matters more than scale. See our guide on how to chant Shiva mantras for pronunciation and counting.`,
-        ],
-      },
+        "h": "Keeping it simple",
+        "p": [
+          "You do not need elaborate ritual. Light a lamp, offer water, chant with attention, and spend some quiet time. Sincerity matters more than scale. See our guide on how to chant Shiva mantras for pronunciation and counting. For how the night is kept at one of Odisha's great temples, read our Lingaraj Mahadeepa guide."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Do I have to fast on Maha Shivaratri?',
-        a: 'No. Fasting is a common custom but a personal one. Anyone with health concerns should eat appropriately.',
+        "q": "When is Maha Shivaratri in 2027?",
+        "a": "Drik Panchang gives Saturday 6 March 2027 for India, with Chaturdashi from 12:03 pm on 6 March to 1:46 pm on 7 March. In parts of North America the night is Friday 5 March, so check a local panchang."
       },
       {
-        q: 'Is Maha Shivaratri the same as monthly Shivaratri?',
-        a: 'No. Masik Shivaratri occurs every month on the Krishna Chaturdashi; Maha Shivaratri is the one in Magha/Phalguna and is the most important.',
+        "q": "Do I have to fast on Maha Shivaratri?",
+        "a": "No. Fasting is a common custom but a personal one. Anyone with health concerns should eat appropriately and ask a doctor."
       },
       {
-        q: 'Why are bilva leaves offered?',
-        a: 'In tradition the bilva (bael) leaf is associated with Shiva and is offered in worship; devotees take it as a sign of simple, sincere offering.',
+        "q": "Is Maha Shivaratri the same as monthly Shivaratri?",
+        "a": "No. Masik Shivaratri occurs every month on the Krishna Chaturdashi. Maha Shivaratri is the one in Magha by the South Indian calendar and Phalguna by the North Indian calendar, and it is the most important."
       },
+      {
+        "q": "Why are bilva leaves offered?",
+        "a": "In tradition the bilva (bael) leaf is associated with Shiva and is offered in worship. Devotees take it as a sign of simple, sincere offering."
+      },
+      {
+        "q": "Is it necessary to do all four prahar pujas?",
+        "a": "No. Puja can be done once or four times. HinduTone's guide describes a single abhisheka with water and a bilva leaf in the Nishita Kaal as a complete puja."
+      },
+      {
+        "q": "What is the story of the hunter?",
+        "a": "A lost hunter spends the night in a bilva tree and drops leaves on a lingam below while trying to stay awake, and so unknowingly keeps the vigil. His name is given differently in different books."
+      }
     ],
-    related: {
-      stotrams: ['shiva-tandav', 'shiv-chalisa', 'shiva-panchakshara-stotram', 'lingashtakam'],
-      guides: ['how-to-chant-shiva-mantra', 'shiva-tandav-benefits', 'maha-shivaratri-lingaraj-mahadeepa-bhubaneswar-guide'],
+    "related": {
+      "stotrams": [
+        "shiva-tandav",
+        "shiv-chalisa",
+        "shiva-panchakshara-stotram",
+        "lingashtakam",
+        "nirvana-shatakam"
+      ],
+      "guides": [
+        "how-to-chant-shiva-mantra",
+        "shiva-tandav-benefits",
+        "maha-shivaratri-lingaraj-mahadeepa-bhubaneswar-guide",
+        "nirvana-shatakam-meaning-and-story"
+      ]
     },
-    sources: [
-      'Kane, P.V., History of Dharmasastra, Vol. V (Shivaratri vrata)',
-      'Shiva Purana (Shivaratri-mahatmya) as summarised in standard reference works on Hindu festivals',
-    ],
+    "sources": [
+      "Drik Panchang, Maha Shivaratri 2027 (date, tithi, Nishita Kaal, four prahar times and parana for New Delhi, fasting steps)",
+      "HinduTone, Maha Shivratri 2027: Date, Four-Prahar Puja Vidhi, Fasting and NRI Night Worship (tithi, city times, stories, health notes)",
+      "Kane, P.V., History of Dharmasastra, Vol. V (Shivaratri vrata)"
+    ]
   },
 
   {
@@ -6362,6 +6388,201 @@ export const GUIDES_LEARN = [
     },
     "sources": [
       "Drik Panchang, Utpanna Ekadashi 2026 (date, tithi and parana times for Lancaster, California, origin story, fasting from sunrise to sunrise)"
+    ]
+  },
+  {
+    "slug": "nirvana-shatakam-meaning-and-story",
+    "category": "Meaning and history",
+    "title": "Nirvana Shatakam: Meaning, Story and the Six Verses Explained",
+    "description": "Nirvana Shatakam (Atma Shatakam) explained: the traditional story of Shankara and his guru Govindapada, what each of the six verses denies, the meaning of the Shivoham refrain, and how the hymn is used.",
+    "h1": "Nirvana Shatakam: Meaning, Story and the Six Verses",
+    "intro": "Nirvana Shatakam, also called Atma Shatakam, is a hymn of six short verses that answers one question: who am I? Each verse lists things the speaker is not, and each ends with the same line declaring pure awareness and bliss, Shivoham. This guide explains where the hymn is said to come from, what the six verses say in turn, and what to keep in mind when you read or chant it.",
+    "sections": [
+      {
+        "h": "What the names mean",
+        "p": [
+          "The hymn is known by two names. Atma Shatakam can be read as six verses on the Self, since atma is the Self and shatakam points to a set of six. Nirvana Shatakam uses nirvana in the sense of complete freedom and peace. Both names are in common use, and printed editions and recordings use either one.",
+          "Tradition credits the hymn to Adi Shankaracharya, the teacher associated with the revival of Advaita Vedanta, the view that the individual self and the ultimate reality are not two. It is worth saying plainly that this attribution comes from tradition. Reference works that discuss the text describe the Shankara authorship and the story below as traditional accounts and do not offer manuscript evidence that settles the question. If you want to be careful, say that the hymn is traditionally attributed to Shankara."
+        ]
+      },
+      {
+        "h": "The traditional story of Shankara and Govindapada",
+        "p": [
+          "The story told with this hymn goes as follows. A young Shankara, said in some tellings to be about eight years old, travelled in search of a teacher and reached the banks of the Narmada river. There he met a sage named Govinda Bhagavatpada, who asked the boy who he was. Instead of giving a name, a family or a place, the boy answered in six verses, each saying that he was none of the things people usually point to when they say 'I', and each ending with the claim that he was auspicious awareness itself. Govindapada accepted him as a disciple.",
+          "The details differ between sources. One modern article on the hymn gives no age and no place for the meeting, and encyclopedia entries present both the guru and the meeting as tradition. So the safest way to tell the story is as a traditional account: it explains why the hymn is read as a reply to the question 'who are you?', and that is the main thing the story does for the reader."
+        ]
+      },
+      {
+        "h": "Verse by verse: what the hymn denies",
+        "p": [
+          "The first verse sets the pattern. The speaker is not the mind, the intellect, the ego or memory, and not the ears, tongue, nose or eyes, and not the space, earth, fire or air. The second continues in the same way with the vital breath, the layers or sheaths of a person, and the organs of speech, hand and foot. The list is long on purpose. Whatever a listener might be tempted to name as the self is set aside, one item after another.",
+          "The third verse turns from the body and senses to feelings and aims. Hatred and attachment, greed and delusion, pride and jealousy are not the speaker, and neither are the four goals of life that people pursue, dharma, wealth, desire and liberation. The fourth goes further and says that merit and sin, pleasure and pain, mantras, pilgrimages, the Vedas and sacrifices do not define the speaker either. It also denies the divisions of enjoyment, the thing enjoyed and the one who enjoys.",
+          "The fifth verse speaks of fear of death, of social divisions, of father and mother, birth, relatives, friends, teacher and student. The sixth verse describes the speaker as formless and without division, present everywhere and beyond the reach of the senses, neither liberated nor bound. Two small variants appear in printed texts, in the fifth and sixth verses, and this site records them on the stotram page and in its audit notes. They do not change the sense of the verse."
+        ]
+      },
+      {
+        "h": "The refrain: Shivoham",
+        "p": [
+          "Every verse closes with the same line, which says that the speaker is the form of awareness and bliss, Shiva, Shiva. Shivoham is read as Shiva and aham, I am Shiva. Here Shiva is not mainly a god with a form and a story. The word shiva also means auspicious, and the Advaita reading takes it to name pure awareness, which is said to be the same in everyone. The line is the positive statement that follows all the denials. After setting aside everything that changes, the hymn names what is left.",
+          "This is why the hymn is often described as a method of negation. By denying one item after another it points the mind away from its usual descriptions of itself. A reader who is not from an Advaita background can still follow the pattern, and devotional readers sometimes take the closing line as a statement of closeness to Shiva instead. The text itself is short enough that each reader can decide how to hear it."
+        ]
+      },
+      {
+        "h": "How people use the hymn",
+        "p": [
+          "Nirvana Shatakam is mostly used for quiet recitation and reflection, not for a fixed ritual. People read it slowly, one verse at a time, and stop at the denials to notice what they are being asked to set aside. Others chant it in a group, since its short lines and steady refrain are easy to follow. It is also sung widely, and recordings by well known singers are easy to find.",
+          "There is no rule that fixes a time, a number of repeats or a particular day. If you wish to link it to worship of Shiva, many people recite it on Mondays or during Maha Shivaratri, but that is a custom and not a requirement. Do not expect any particular outcome from reciting it. Read the meaning first, then chant at a pace where you can follow the words."
+        ]
+      },
+      {
+        "h": "Reading it with care",
+        "p": [
+          "A few points help a new reader. First, the verses are not a rejection of family, duty or worship. They are a statement about what the word 'I' finally refers to, and Advaita teachers say the hymn is meant to be practised alongside ordinary life. Second, the Sanskrit is compact, so a literal word by word translation can sound cold. Read a good commentary or this site's meaning for each verse. Third, if you are a beginner, begin with the first two verses and the refrain, and add the rest as you become familiar with the sound."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Nirvana Shatakam the same as Atma Shatakam?",
+        "a": "Yes. They are two names for the same six-verse hymn. Some editions use one name and some the other."
+      },
+      {
+        "q": "Did Adi Shankaracharya write Nirvana Shatakam?",
+        "a": "Tradition says so, and the hymn is widely credited to him. The attribution and the story of his meeting with Govindapada are traditional accounts, not facts settled by manuscripts, so it is fair to say 'traditionally attributed'."
+      },
+      {
+        "q": "What does Shivoham mean?",
+        "a": "It is read as Shiva aham, I am Shiva. In the Advaita reading it means the speaker is pure, auspicious awareness, and it is not a claim that a person is a god with a form."
+      },
+      {
+        "q": "How many verses does it have?",
+        "a": "Six, as the name shatakam suggests. Some websites divide the lines differently, but the hymn is usually given as six verses of four lines each with the same closing refrain."
+      },
+      {
+        "q": "Can anyone recite it?",
+        "a": "Yes. It is a short hymn with no initiation requirement in common practice. Read the meaning first so that the words are understood as you chant."
+      },
+      {
+        "q": "Is there a fixed time to chant it?",
+        "a": "No. Some people recite it in the morning or on Mondays or on Maha Shivaratri, but these are customs and not rules."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "nirvana-shatakam",
+        "shiva-panchakshara-stotram",
+        "maha-mrityunjaya-mantra"
+      ],
+      "guides": [
+        "om-meaning-and-how-to-chant",
+        "how-to-chant-shiva-mantra",
+        "maha-shivaratri-guide"
+      ]
+    },
+    "sources": [
+      "Atma Shatkam, Wikipedia (names, traditional attribution to Shankara, the Narmada story as tradition, structure of the text)",
+      "Integral Yoga Magazine, Nirvana Shatakam: A Gateway to the Infinite (themes of the six verses, the Shivoham refrain, hedged tradition of the Govindapada meeting)",
+      "Drik Panchang and shlokam.org, Nirvana Shatakam text and variant readings (used for the text on this site)"
+    ]
+  },
+  {
+    "slug": "telugu-sankranti-bhogi-kanuma-2027-guide",
+    "category": "Festivals",
+    "title": "Sankranti 2027 in Andhra and Telangana: Bhogi, Pedda Panduga, Kanuma and Mukkanuma",
+    "description": "The four days of Telugu Sankranti in 2027: Bhogi on 14 January, Sankranti on 15 January, Kanuma on 16 January and Mukkanuma on 17 January, with customs, foods and how the dates are fixed.",
+    "h1": "Telugu Sankranti 2027: Bhogi, Pedda Panduga, Kanuma and Mukkanuma",
+    "intro": "In Andhra Pradesh and Telangana, Sankranti is called Pedda Panduga, the big festival, and it is kept over four days. This guide gives the 2027 dates from a published panchang, describes what families do on each day, and explains where customs differ so that you can follow your own family or village practice.",
+    "sections": [
+      {
+        "h": "The 2027 dates and how they are fixed",
+        "p": [
+          "Makar Sankranti is the day the Sun enters the sign of Makara. In 2027 the panchang places that moment at 9:14 pm IST on Thursday 14 January, and because it comes late in the evening the festival day itself is given as Friday 15 January. The four days of Telugu Sankranti then fall as follows: Bhogi on Thursday 14 January, Sankranti on Friday 15 January, Kanuma on Saturday 16 January and Mukkanuma on Sunday 17 January.",
+          "Some government holiday lists mark Sankranti on 14 January, and the Andhra Pradesh and Telangana holiday lists for 2027 had not been published when the sources used here were checked in November 2026. If you live outside India the dates can shift. Drik Panchang lists Bhogi on Wednesday 13 January for the USA, Canada and the UK, so check the panchang for your own city and your temple's announcements."
+        ]
+      },
+      {
+        "h": "Bhogi: clearing out the old",
+        "p": [
+          "Bhogi is the day before Sankranti. Before dawn many Telugu families light a small fire called Bhogi mantalu and burn old wooden items and other solid fuel. The usual explanation is that it stands for letting go of what is old and making room for the new. Dried cow dung cakes made from the decorations of the previous weeks are also put into the fire in some homes. Families in flats and cities often keep the fire very small or only symbolic, for safety and for the sake of air quality.",
+          "In the evening many households hold Bhogi pallu for young children, roughly three to six years old. Regi pallu, the small ber fruit, is mixed with flower petals, sugarcane pieces, chickpeas and coins and poured over the child's head with a blessing. It is believed to protect the child from the evil eye and to wish long life. The Goda Kalyanam, the wedding of Andal and Lord Ranganatha that closes the month of Dhanurmasam, falls on Bhogi day in many Vishnu temples. Timings differ between temples, so look for your own temple's notice."
+        ]
+      },
+      {
+        "h": "Sankranti or Pedda Panduga: the main day",
+        "p": [
+          "The main day begins with an early bath and a large muggu, the rice flour pattern drawn at the doorstep. Families pray to the Sun and prepare sweet rice offerings, and many remember ancestors by offering water, laying out a meal on banana leaves or giving in charity. Practices for ancestors differ between families and communities, so follow your own household's custom.",
+          "Muggulu are drawn through the whole month before Sankranti, and on the festival days women often add gobbemmalu, small balls of cow dung decorated with flowers and turmeric, at the centre of the pattern. Where cow dung is hard to get, flats use clay or flower balls instead. Some homes also arrange Bommala Koluvu, a display of dolls on steps. A Haridasu, a wandering singer who comes with a small cymbal set and receives rice, and a Gangireddu, a decorated bull that performs at doorways, are part of the festival season in many villages, although fewer families keep the Haridasu visit now."
+        ]
+      },
+      {
+        "h": "Kanuma: the day for cattle",
+        "p": [
+          "Kanuma is the third day. It is the day for thanking the cattle that plough the fields, pull carts and give milk. Families wash the animals, paint their horns, and decorate them with turmeric, kumkum, garlands, new ropes and bells. Arati is offered and the animals are given a special feed. Drik Panchang connects the day to Krishna lifting Govardhana hill and treats it as the same observance as Govardhan Puja, while many families simply see it as harvest thanks.",
+          "If you decorate animals, use non-toxic colours and keep them away from the eyes and nose, give sweets in small portions, keep firecrackers well away, and keep children clear of bulls. Elders often advise against setting out on a journey on Kanuma, since cattle once pulled the carts and were given rest on their own festival. It is a custom and not a rule of scripture. Food on Kanuma varies by community. Black gram dishes such as garelu are traditional in many homes, some families include mutton or chicken, and others keep the meal vegetarian."
+        ]
+      },
+      {
+        "h": "Mukkanuma and the foods of the season",
+        "p": [
+          "Mukkanuma closes the festival. Sources describe no fixed ritual for it, and for many families it is a quiet last day at home with relatives before going back to work or school. Many people who travel for Sankranti plan their return for this day.",
+          "The foods of the season use rice, jaggery and sesame. Common dishes include ariselu, sakinalu, chakkara pongali, pulihora, garelu and paramannam, along with sweets such as gavvalu and sunnundalu. Recipes differ between districts and families, so there is no single menu."
+        ]
+      },
+      {
+        "h": "Kites and regional differences",
+        "p": [
+          "Kite flying is common in both states and is especially associated with rooftops in Hyderabad. Use plain cotton thread and avoid synthetic or glass-coated string, which the National Green Tribunal has restricted because it injures birds and people. Coastal Andhra is known for bullock-cart races and the Prabhala Teertham procession in Konaseema, and in Rayalaseema, cattle festivals are held in Chittoor and Tirupati, where Kanuma is also called Pasuvula Panduga. Cockfights are sometimes mentioned in news about the festival, but they are illegal under the Prevention of Cruelty to Animals Act, 1960.",
+          "The festival is a thanksgiving for the harvest as well as a religious day, and customs differ between districts, villages and families. Where this guide and your elders disagree, follow your family's practice."
+        ]
+      },
+      {
+        "h": "Prayers and mantras for the season",
+        "p": [
+          "Because Sankranti is the Sun's turn northward, many devotees recite a prayer to the Sun in these days. This site has the Aditya Hridayam and the Gayatri mantra, which is addressed to the Sun as Savitr. For the Dhanurmasam month that ends at Bhogi, see our guide on Tiruppavai and Andal. For the same festival as it is kept in Odisha, see our Makar Sankranti Odisha guide."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What are the dates of Bhogi, Sankranti and Kanuma in 2027?",
+        "a": "Bhogi is on Thursday 14 January, Sankranti on Friday 15 January, Kanuma on Saturday 16 January and Mukkanuma on Sunday 17 January, as given by the panchang for India. Outside India the dates can be a day earlier."
+      },
+      {
+        "q": "Why do some lists show Sankranti on 14 January?",
+        "a": "The Sun enters Makara at 9:14 pm IST on 14 January 2027. The panchang gives the festival day as 15 January, but some government lists mark 14 January. Check your local list and temple."
+      },
+      {
+        "q": "What are Bhogi mantalu and Bhogi pallu?",
+        "a": "Bhogi mantalu is the early morning fire of old wood and fuel that stands for letting go of the old. Bhogi pallu is the evening blessing in which regi pallu, flower petals and coins are poured over young children."
+      },
+      {
+        "q": "What are gobbemmalu?",
+        "a": "Gobbemmalu are small balls of cow dung decorated with flowers and turmeric and placed on the muggulu. Flats often use clay or flower balls instead."
+      },
+      {
+        "q": "Why do people avoid travelling on Kanuma?",
+        "a": "Elders say that cattle once pulled the carts and were given rest on their festival, and families stay together. It is a custom, not a scriptural rule, and many people travel back on Mukkanuma."
+      },
+      {
+        "q": "Is Kanuma the same as Mattu Pongal?",
+        "a": "They fall on the same day and both honour cattle. Kanuma is the Telugu observance and Mattu Pongal is the Tamil one, and each follows its own regional customs."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "aditya-hridayam",
+        "gayatri-mantra"
+      ],
+      "guides": [
+        "makar-sankranti-odisha-guide",
+        "dhanurmasam-2026-tiruppavai-andal-guide",
+        "gopashtami-gopastami-cow-worship-guide"
+      ]
+    },
+    "sources": [
+      "HinduTone, Sankranti in Andhra Pradesh and Telangana: The Four Days, Customs and Foods (four days and 2027 dates, customs, regional variations)",
+      "HinduTone, Bhogi 2027: Telugu Tradition, Date, Bhogi Mantalu and Bhogi Pallu (Bhogi date citing Drik Panchang, Sankranti moment 9:14 pm IST on 14 January, Goda Kalyanam)",
+      "HinduTone, Kanuma and Mukkanuma 2027 (Kanuma and Mukkanuma dates citing Drik Panchang Hyderabad, cattle customs, the travel custom, legal note on cockfights)"
     ]
   },
 ];

@@ -889,6 +889,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'nirvana-shatakam',
+    title: {
+      en: 'Nirvana Shatakam (Atma Shatkam)',
+      hi: 'निर्वाण षट्कम् (आत्मषट्कम्)',
+      od: 'ନିର୍ବାଣ ଷଟ୍କମ୍ (ଆତ୍ମଷଟ୍କମ୍)',
+      te: 'నిర్వాణ షట్కం (ఆత్మషట్కం)',
+    },
+    deity: 'Shiva',
+    deityEmoji: '🕉️',
+    deityIcon: '',
+    description: {
+      en: 'Nirvana Shatakam (Atma Shatkam), the six verses of "Chidananda Rupah Shivoham" traditionally credited to Adi Shankara, in English, Hindi, Odia and Telugu with meaning and a chanting video',
+      hi: 'निर्वाण षट्कम् (आत्मषट्कम्), आदि शंकराचार्य को परम्परा से श्रेय दिए गए "चिदानन्दरूपः शिवोऽहम्" के छह श्लोक, हिन्दी, ओड़िया, तेलुगु और अंग्रेज़ी लिपि में अर्थ और वीडियो सहित',
+      od: 'ନିର୍ବାଣ ଷଟ୍କମ୍ (ଆତ୍ମଷଟ୍କମ୍), ଆଦି ଶଙ୍କରାଚାର୍ଯ୍ୟଙ୍କ ନାମରେ ପରମ୍ପରାଗତ "ଚିଦାନନ୍ଦ ରୂପଃ ଶିବୋଽହମ୍"ର ଛଅ ଶ୍ଳୋକ, ହିନ୍ଦୀ, ଓଡ଼ିଆ, ତେଲୁଗୁ ଓ ଇଂରାଜୀ ଲିପିରେ ଅର୍ଥ ଓ ଭିଡିଓ ସହିତ',
+      te: 'నిర్వాణ షట్కం (ఆత్మషట్కం), ఆది శంకరాచార్యులకు సంప్రదాయంగా ఆపాదించబడిన "చిదానంద రూపః శివోఽహం" ఆరు శ్లోకాలు, హిందీ, ఒడియా, తెలుగు, ఇంగ్లీష్ లిపిలో అర్థం మరియు వీడియోతో',
+    },
+    color: 'from-slate-900 to-indigo-950',
+    accent: '#a0b4f0',
+    youtubeId: 'KfYCBYy6jFA',
+    verseCount: 6,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

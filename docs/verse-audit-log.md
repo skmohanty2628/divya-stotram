@@ -416,3 +416,14 @@ One line per audit. Rotation: every stotram in every language (Hindi/Devanagari,
 - Cross-links: ganesh-chaturthi-guide now lists ganesha-pancharatnam in related stotrams.
 - Search Console, 15 Nov: 3 URLs accepted (ya-devi-sarvabhuteshu and its Hindi and Odia pages), then Quota Exceeded on the Telugu page.
 - GUIDES_UPDATED set to 2026-11-16. lastmod.js updated.
+
+## 2026-11-17
+- Audit: Shiva Panchakshara Stotram, Hindi (Odia, Telugu and transliteration synced). Sources: shlokam.org, Drik Panchang and sanskritdocuments (the sanskritdocuments Devanagari page was garbled in the browser, so it was not used for line by line comparison). The site text matches Drik Panchang. No file change.
+- Variants noted, site spelling kept because both clean sources agree with it: यज्ञ against यक्ष in the fourth verse reading, and वशिष्ठ against वसिष्ठ.
+- Needs a human check: the Odia text writes word-initial य as ୟ in places where other Odia pages on the site use ଯ. This is a site-wide convention question, not an error in this stotram.
+- New mantra: Nirvana Shatakam (Atma Shatakam), 6 verses, traditionally attributed to Adi Shankaracharya. Sources: shlokam.org and Drik Panchang, with Sringeri's text checked for the sixth verse. Variants: verse 2 वाक्पाणिपादं and पञ्चकोशः, verse 5 जन्म and गुरुर्नैव शिष्यः, verse 6 मेयः (site and Drik) against बन्धः (Sringeri). The widely sung reading is kept.
+- YouTube: Roop Kumar Rathod, Nirvana Shatakam (Topic channel) (KfYCBYy6jFA), oembed 200. Other candidates also returned 200.
+- New guides: nirvana-shatakam-meaning-and-story (about 1,200 words; attribution and the Govindapada meeting presented as tradition); telugu-sankranti-bhogi-kanuma-2027-guide (about 1,200 words; Bhogi Thu 14 Jan, Sankranti Fri 15 Jan, Kanuma Sat 16 Jan, Mukkanuma Sun 17 Jan 2027, Sun enters Makara 9:14 pm IST on 14 Jan, per HinduTone citing Drik Panchang; some government lists use 14 Jan).
+- Upgraded guide: maha-shivaratri-guide, from about 420 to about 1,020 words, 6 FAQs. Added the 2027 date (Sat 6 March; Chaturdashi 12:03 pm 6 Mar to 1:46 pm 7 Mar IST; Nishita and four prahar times for New Delhi; North America 5 March), the stories (Lingodbhava, wedding, hunter) and parana. Sources: Drik Panchang and HinduTone.
+- Cross-links: maha-shivaratri-guide now lists nirvana-shatakam and the new Nirvana guide.
+- GUIDES_UPDATED set to 2026-11-17. lastmod.js updated.

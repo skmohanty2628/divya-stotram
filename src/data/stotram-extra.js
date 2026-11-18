@@ -546,4 +546,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does reciting it guarantee a result?', a: 'No. It is a spiritual practice for reflection and does not promise any worldly result or replace medical, legal or financial advice.' },
     ],
   },
+  'rudrashtakam': {
+    what: `Rudrashtakam is a hymn of eight verses to Shiva that begins "Namami Shamishan Nirvana Roopam". It is found in the Uttara Kanda of the Ramcharitmanas by Tulsidas, where it is sung by a teacher to praise Shiva. Printed texts add a ninth closing verse that says Shambhu is pleased with those who recite the hymn with devotion. Each line is built in the Bhujangaprayata metre, which gives the hymn a steady, flowing rhythm that is easy to chant.`,
+    meaning: `The first verse bows to Ishana, the form of liberation, and calls him all-pervading, beyond the qualities and free of desire. The second describes him as formless, the root of Om, beyond speech and the senses, fearsome as the Time that ends Time, and also merciful. The third and fourth verses paint his appearance: fair as a snow mountain, the Ganga on his head, the crescent moon on his brow, a blue throat, a lion's skin and a garland of skulls. The fifth praises his power and his trident. The sixth asks him to be gracious. The seventh says that people find no lasting peace until they turn to the lotus feet of Uma's lord. The eighth is a plain prayer from someone who knows no yoga, japa or ritual and asks for protection.`,
+    benefits: [
+      'A much-loved Shiva hymn that many people chant on Mondays and at Shivaratri',
+      'Compact, with eight verses and a closing verse, so it can be learned in a few days',
+      'Mixes praise of Shiva with an honest prayer of humility in the last verses',
+      'Helps readers connect with the Ramcharitmanas as a devotional text',
+      'Open to everyone, with no initiation needed for simple recitation',
+    ],
+    bestTime: `There is no fixed time. Many people chant it in the morning, on Mondays, on Pradosha evenings or through Maha Shivaratri. Chanting all nine verses slowly takes about seven to ten minutes.`,
+    faqs: [
+      { q: 'Who composed the Rudrashtakam?', a: 'The hymn is printed in the Uttara Kanda of the Ramcharitmanas by Tulsidas. In the story, a teacher recites it to praise Shiva, and the closing verse says a Brahmin spoke it to please Hara. A few websites name other composers, so it is fair to say it comes down to us through the Ramcharitmanas.' },
+      { q: 'What is the story behind the Rudrashtakam?', a: 'In the Ramcharitmanas, Kakabhushundi tells Garuda about an earlier life in Ujjain. He was a proud Shiva devotee who did not rise to greet his teacher, and a voice from the sky pronounced a curse. The teacher, moved by compassion, praised Shiva with this hymn, and Shiva softened the curse. Details are as the Ramcharitmanas tradition tells them.' },
+      { q: 'How many verses does the Rudrashtakam have?', a: 'Eight verses, as the name ashtakam says, plus a closing ninth verse on the fruit of reciting it. This site shows all nine.' },
+      { q: 'Are there different readings of the text?', a: 'Yes, in small places. Editions differ over spellings such as gabhiram and gambhiram in verse 3, trayah and tryah in verse 5, and yavat or yavad in verse 7. This site follows the readings that fit the metre and appear in most printed texts.' },
+      { q: 'When is the Rudrashtakam chanted?', a: 'Many people chant it on Mondays, at Pradosha, on Masik Shivaratri and on Maha Shivaratri. These are customs and not rules, and it can be recited at any time.' },
+      { q: 'Does reciting it guarantee a result?', a: 'No. The last verse states what the tradition hopes for. A prayer is a spiritual practice and does not replace medical, legal or financial advice.' },
+    ],
+  },
 };

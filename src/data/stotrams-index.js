@@ -913,6 +913,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'rudrashtakam',
+    title: {
+      en: 'Rudrashtakam (Namami Shamishan Nirvana Roopam)',
+      hi: 'रुद्राष्टकम् (नमामीशमीशान निर्वाणरूपं)',
+      od: 'ରୁଦ୍ରାଷ୍ଟକମ୍ (ନମାମୀଶମୀଶାନ ନିର୍ବାଣରୂପଂ)',
+      te: 'రుద్రాష్టకం (నమామీశమీశాన నిర్వాణరూపం)',
+    },
+    deity: 'Shiva',
+    deityEmoji: '🔱',
+    deityIcon: '',
+    description: {
+      en: 'Rudrashtakam (Namami Shamishan Nirvana Roopam), the eight-verse hymn to Shiva from Tulsidas\'s Ramcharitmanas, in English, Hindi, Odia and Telugu with meaning and a chanting video',
+      hi: 'रुद्राष्टकम् (नमामीशमीशान निर्वाणरूपं), तुलसीदास के रामचरितमानस का भगवान शिव को समर्पित आठ श्लोकों का स्तोत्र, हिन्दी, ओड़िया, तेलुगु और अंग्रेज़ी लिपि में अर्थ और वीडियो सहित',
+      od: 'ରୁଦ୍ରାଷ୍ଟକମ୍ (ନମାମୀଶମୀଶାନ ନିର୍ବାଣରୂପଂ), ତୁଳସୀଦାସଙ୍କ ରାମଚରିତମାନସର ଶିବଙ୍କୁ ସମର୍ପିତ ଆଠ ଶ୍ଳୋକର ସ୍ତୋତ୍ର, ହିନ୍ଦୀ, ଓଡ଼ିଆ, ତେଲୁଗୁ ଓ ଇଂରାଜୀ ଲିପିରେ ଅର୍ଥ ଓ ଭିଡିଓ ସହିତ',
+      te: 'రుద్రాష్టకం (నమామీశమీశాన నిర్వాణరూపం), తులసీదాసు రామచరితమానస్‌లోని శివుని ఎనిమిది శ్లోకాల స్తోత్రం, హిందీ, ఒడియా, తెలుగు, ఇంగ్లీష్ లిపిలో అర్థం మరియు వీడియోతో',
+    },
+    color: 'from-slate-900 to-blue-950',
+    accent: '#90b8f0',
+    youtubeId: 'vAv6a0D2mtw',
+    verseCount: 9,
+    language: 'Sanskrit',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

@@ -154,7 +154,8 @@ export const GUIDES_LEARN = [
         "shiv-chalisa",
         "shiva-panchakshara-stotram",
         "lingashtakam",
-        "nirvana-shatakam"
+        "nirvana-shatakam",
+        "rudrashtakam"
       ],
       "guides": [
         "how-to-chant-shiva-mantra",
@@ -6583,6 +6584,189 @@ export const GUIDES_LEARN = [
       "HinduTone, Sankranti in Andhra Pradesh and Telangana: The Four Days, Customs and Foods (four days and 2027 dates, customs, regional variations)",
       "HinduTone, Bhogi 2027: Telugu Tradition, Date, Bhogi Mantalu and Bhogi Pallu (Bhogi date citing Drik Panchang, Sankranti moment 9:14 pm IST on 14 January, Goda Kalyanam)",
       "HinduTone, Kanuma and Mukkanuma 2027 (Kanuma and Mukkanuma dates citing Drik Panchang Hyderabad, cattle customs, the travel custom, legal note on cockfights)"
+    ]
+  },
+  {
+    "slug": "rudrashtakam-meaning-and-story",
+    "category": "Meaning and history",
+    "title": "Rudrashtakam: Meaning, Story and Where Namami Shamishan Comes From",
+    "description": "Rudrashtakam (Namami Shamishan Nirvana Roopam) explained: its place in Tulsidas's Ramcharitmanas, the story of Kakabhushundi and his teacher, what each of the eight verses says, and how the hymn is chanted.",
+    "h1": "Rudrashtakam: Meaning, Story and the Eight Verses",
+    "intro": "Rudrashtakam, the hymn that begins Namami Shamishan Nirvana Roopam, is one of the most loved prayers to Shiva. It is short, rhythmic and easy to learn, and many people first meet it in a bhajan or a Monday recitation. This guide explains where it appears, the story that surrounds it in the Ramcharitmanas, what the eight verses and the closing verse say, and how people use it.",
+    "sections": [
+      {
+        "h": "What the name means and where the hymn is found",
+        "p": [
+          "Ashtakam means a set of eight, and Rudra is a name of Shiva, so Rudrashtakam is the eight verses to Rudra. The hymn is printed in the Uttara Kanda, the seventh book, of the Ramcharitmanas by Tulsidas. One online edition places it after Doha 107 of that book, and printed texts of the Manas give it as a Sanskrit passage among the Awadhi verses. The Ramcharitmanas is mainly in Awadhi, so a Sanskrit hymn in the middle of it stands out, and that is part of why it is often chanted on its own.",
+          "Printed versions add a ninth verse. It says that this Rudrashtakam was spoken by a Brahmin to please Hara, and that Shambhu is pleased with those who recite it with devotion. All the sources used for this site's text carry that closing verse, which is why the page here shows nine verses and not eight."
+        ]
+      },
+      {
+        "h": "The story told in the Ramcharitmanas",
+        "p": [
+          "In the Uttara Kanda, the crow-sage Kakabhushundi tells Garuda about an earlier life in the city of Ujjain. He was a devout follower of Shiva, but he had become proud. One day his teacher came to the temple, and the disciple stayed seated and did not rise to greet him. The teacher was patient and did not react, but a voice from the sky pronounced a heavy curse on the disciple for his disrespect.",
+          "The teacher was moved by compassion for his student and, instead of defending himself, turned to Shiva and praised him with this hymn. Shiva then softened the curse and blessed the disciple. The story is told in the Manas tradition, and details differ a little between tellers, so it is best read as the tale as the Manas gives it. It explains why the hymn mixes high praise of Shiva with a plain prayer for protection in its last verses."
+        ]
+      },
+      {
+        "h": "Verse by verse",
+        "p": [
+          "The first verse bows to Ishana, the Lord of all, and names him as the form of liberation, all-pervading and beyond the qualities. The second describes the formless one who is the root of Om and who stands beyond waking, dream and deep sleep, beyond speech and the senses. It also calls him fearsome as the Time that ends Time, and merciful in the same breath.",
+          "The third and fourth verses turn to the form devotees picture: a body fair as a snow mountain, the Ganga flowing from his head, a young crescent moon on his brow, snakes around his neck, a blue throat, swaying earrings, a serene face, a lion's skin and a garland of skulls. The fifth verse praises his power and his trident, and calls him the husband of Bhavani who is reached through devotion.",
+          "The sixth verse asks him to be gracious and calls him the joy of good people and the enemy of Kama. The seventh makes a quiet claim about life itself: as long as people do not turn to the lotus feet of Uma's lord, in this world or the next, they find no lasting happiness, peace or end of distress. The eighth is the most personal. The speaker says that he knows no yoga, no japa and no ritual, that he bows to Shambhu at all times, and that he is burning in the sorrows of old age and birth, and asks for protection."
+        ]
+      },
+      {
+        "h": "The sound and metre",
+        "p": [
+          "Each line of the hymn is written in the Bhujangaprayata metre, which is built from four repeating groups of one short and two long syllables. That pattern gives the hymn its steady, rolling rhythm, a little like a snake gliding, which is what the metre's name suggests. The rhythm is one reason the hymn is easy to remember. If you learn the pattern, a hesitation in a line can often be found by listening for the missing beat.",
+          "The same metre helps decide between spellings. In verse 3 some editions print gabhiram and others gambhiram, and in verse 5 some print trayah and others tryah. The readings that fit the metre, gabhiram and trayah, are the ones this site uses."
+        ]
+      },
+      {
+        "h": "How people use the hymn",
+        "p": [
+          "Rudrashtakam is chanted on its own and in group worship. Many people recite it on Mondays, at Pradosha in the evening, on the monthly Shivaratri and on Maha Shivaratri, and some count a set number of repeats on that night. These are customs, not rules, and the hymn can be recited at any hour. Chanting all nine verses slowly takes about seven to ten minutes.",
+          "If you are learning it, take two verses at a time, read the transliteration aloud with the Devanagari in front of you, and then add the next pair. A recording by a trained singer helps with pronunciation of long compounds such as Chidakasham Akasha Vasam, which are written together in the verse but are spoken as separate words."
+        ]
+      },
+      {
+        "h": "Reading it with care",
+        "p": [
+          "The hymn is a devotional text. It asks for the grace of Shiva and does not promise a particular worldly result, and the closing verse speaks of his being pleased, not of a guaranteed outcome. Prayer sits beside, and does not replace, medical, legal or financial advice. The text also differs slightly between printed editions, so if your family follows a particular book, keep to that reading."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Who wrote the Rudrashtakam?",
+        "a": "It is printed in the Uttara Kanda of the Ramcharitmanas by Tulsidas, and in the story a teacher recites it. A few websites name other composers, so it is safest to say it has come down through the Ramcharitmanas."
+      },
+      {
+        "q": "What is Namami Shamishan?",
+        "a": "It is the common name for the first line of the Rudrashtakam, Namami Shamishan Nirvana Roopam. Different spellings of the line are in use, such as Namami Shamishan and Namamisham Ishana."
+      },
+      {
+        "q": "Why does the hymn have nine verses if it is an ashtakam?",
+        "a": "Eight verses form the hymn. The ninth is a closing verse on the fruit of reciting it, which is printed with the hymn in all common editions."
+      },
+      {
+        "q": "Which verse is about asking for protection?",
+        "a": "The eighth. The speaker says that he knows no yoga, japa or ritual, bows to Shambhu, and asks to be protected."
+      },
+      {
+        "q": "When should I chant Rudrashtakam?",
+        "a": "There is no fixed time. Many people chant it on Mondays, on Pradosha, on the monthly Shivaratri and on Maha Shivaratri."
+      },
+      {
+        "q": "Is it the same as the Shiva Tandava Stotram?",
+        "a": "No. Rudrashtakam is from Tulsidas's Ramcharitmanas and has eight verses plus a closing verse. The Shiva Tandava Stotram is a separate hymn traditionally credited to Ravana."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "rudrashtakam",
+        "shiva-tandav",
+        "shiv-chalisa"
+      ],
+      "guides": [
+        "how-to-chant-shiva-mantra",
+        "maha-shivaratri-guide",
+        "hanuman-chalisa-history-tulsidas"
+      ]
+    },
+    "sources": [
+      "HinduTone, Rudrashtakam Stotram: Tulsidas's 8-Verse Shiva Hymn (placement in the Uttara Kanda after Doha 107, the Kakabhushundi and teacher story, eight verses plus a closing verse, customary occasions)",
+      "Wikipedia, Rudrashtakam (eight stanzas, Bhujangaprayata metre, Uttara Kanda of the Ramcharitmanas)",
+      "shlokam.org, bhaktibharat.com and the vedicscripturesinc Tulsidas page (text and variant readings used for this site)"
+    ]
+  },
+  {
+    "slug": "subrahmanya-shashti-champa-shashti-2026-guide",
+    "category": "Festivals",
+    "title": "Subrahmanya Shashti and Champa Shashti 2026: Date, Kartikeya and Khandoba",
+    "description": "Subrahmanya Shashti and Champa Shashti fall on 15 December 2026. How the date is fixed, who Kartikeya and Khandoba are, how Kukke Subrahmanya, Telugu homes and Maharashtra observe it, and a simple home worship.",
+    "h1": "Subrahmanya Shashti and Champa Shashti 2026",
+    "intro": "In the lunar month of Margashirsha, the sixth day of the bright fortnight is a festival in several parts of India under different names. Karnataka, Andhra Pradesh and Telangana call it Subrahmanya Shashti, and in Maharashtra it is Champa Shashti, the last day of a six-day festival of Khandoba. This guide gives the 2026 date, explains how it is fixed, and describes who is worshipped and how.",
+    "sections": [
+      {
+        "h": "The 2026 date and how it is fixed",
+        "p": [
+          "Drik Panchang gives Tuesday 15 December 2026 for Subrahmanya Shashti in India. The Shashthi tithi begins at 7:15 pm IST on Monday 14 December and ends at 9:19 pm IST on Tuesday 15 December, with times given for New Delhi. The vrat follows the Shashthi that is in effect at local sunrise, which is why the date can differ by place. A published guide that applies this rule gives Tuesday 15 December for eastern North America, the UK, the Gulf, Singapore and Australia, and Monday 14 December for the US West Coast and western Canada, where the tithi begins before Monday's sunrise.",
+          "Because of this, it is wise to check a panchang for your own city. Temples may also announce the main abhishekam on a different day by their own calendar, and the best source for a temple's timings is the temple itself."
+        ]
+      },
+      {
+        "h": "Subrahmanya, Skanda and Murugan",
+        "p": [
+          "Subrahmanya, Skanda, Kartikeya and Murugan are names of the same deity, the son of Shiva and Parvati and the commander of the gods' army. He is shown riding a peacock and carrying a spear, and he is said to have six faces because he was raised by the six Krittika star-maidens. Tradition says he defeated the demons Tarakasura and Surapadma.",
+          "Shashthi, the sixth tithi, is his day. Tamil Nadu keeps the great Skanda Shashti in the month of Aippasi, which ends with Soorasamharam, and in 2026 that fell on 15 November. Subrahmanya Shashti in Margashirsha is a separate observance, and it is the major one in Karnataka, Andhra Pradesh and Telangana. Monthly Shukla Shashthis are also kept by many devotees."
+        ]
+      },
+      {
+        "h": "Kukke Subrahmanya and Telugu homes",
+        "p": [
+          "In Karnataka, the annual festival at the Kukke Subrahmanya temple in Dakshina Kannada peaks around this Shashthi, and includes a chariot procession. Many families pray there for the wellbeing of their children.",
+          "In Andhra Pradesh and Telangana, devotees hold abhishekam at Subrahmanya temples, and in many villages the serpent form of the deity is worshipped at anthills. Customs differ between districts and families, so follow the practice of your own household and temple."
+        ]
+      },
+      {
+        "h": "Champa Shashti and Khandoba in Maharashtra",
+        "p": [
+          "On the same day, Maharashtra observes Champa Shashti. It is the final day of a six-day festival of Khandoba, which begins on Margashirsha Shukla Pratipada, around 9 to 10 December this year. Khandoba is understood as a form of Shiva, known as Martanda Bhairava and Malhari, and is shown as a warrior on horseback, often with a dog. He is the family deity of many households in Maharashtra and North Karnataka, and his best known temple is on a hill at Jejuri near Pune.",
+          "The commonly told story is that two demon brothers, Mani and Malla, troubled sages and people. Shiva, as Martanda Bhairava, fought them for six days and defeated them on the sixth, which is Champa Shashti. Accounts differ in detail. Turmeric, called bhandara, is offered to the deity and scattered, which is why Jejuri is called the golden town. A common offering is roasted brinjal with millet bhakri, and some families fast for all six days, some eat one meal a day and many keep only the last day."
+        ]
+      },
+      {
+        "h": "A simple home worship",
+        "p": [
+          "Devotees may fast until the evening or eat one simple vegetarian meal. A typical home puja has an abhishekam of the image with water, milk or panchamrita, offerings of red and yellow flowers, a ghee lamp, and fruit or sweets. Common short mantras are Om Saravanabhavaya Namah and Om Sri Subrahmanyaya Namah, and the Subrahmanya Bhujangam is often recited.",
+          "If you wish to keep a Shiva hymn alongside, the Rudrashtakam and the Shiv Chalisa on this site are both addressed to Shiva, the father of Kartikeya. Fasting is optional. People who are pregnant or breastfeeding, elderly, diabetic or unwell, and those on regular medication, should eat normally or speak to a doctor first. Prayer is an offering of devotion and does not promise a particular result."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When is Subrahmanya Shashti in 2026?",
+        "a": "Drik Panchang gives Tuesday 15 December 2026 for India. The Shashthi tithi runs from 7:15 pm IST on 14 December to 9:19 pm IST on 15 December. On the US West Coast and in western Canada, a published guide gives Monday 14 December."
+      },
+      {
+        "q": "Is Subrahmanya Shashti the same as Skanda Shashti?",
+        "a": "They honour the same deity on different Shashthis. Skanda Shashti with Soorasamharam is in Aippasi and was on 15 November 2026. Subrahmanya Shashti is in Margashirsha."
+      },
+      {
+        "q": "What is Champa Shashti?",
+        "a": "It is the Maharashtra name for the same day. It ends the six-day festival of Khandoba, a form of Shiva, which begins on Margashirsha Shukla Pratipada."
+      },
+      {
+        "q": "Who is Khandoba?",
+        "a": "He is a warrior form of Shiva known as Martanda Bhairava or Malhari, shown on horseback with a dog. He is the family deity of many Maharashtrian households, and his famous temple is at Jejuri."
+      },
+      {
+        "q": "Do I have to fast?",
+        "a": "No. Fasting is optional. A simple meal or a fast until the evening is common, and anyone with a health condition should eat normally or ask a doctor."
+      },
+      {
+        "q": "What can I chant?",
+        "a": "Om Saravanabhavaya Namah and Om Sri Subrahmanyaya Namah are short mantras, and the Subrahmanya Bhujangam is often recited."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "rudrashtakam",
+        "shiv-chalisa"
+      ],
+      "guides": [
+        "karthika-masam-telugu-month-2026-dates-guide",
+        "dhanurmasam-2026-tiruppavai-andal-guide",
+        "how-to-use-japa-mala",
+        "kalabhairava-jayanti-2026-guide"
+      ]
+    },
+    "sources": [
+      "Drik Panchang, Subrahmanya Sashti 2026 (date and Shashthi tithi times for New Delhi, Margashirsha, Skanda Sashti after Soorasamharam on 15 November 2026)",
+      "HinduTone, Subrahmanya Shashti 2026 (sunrise rule and dates abroad, Kartikeya description, Kukke Subrahmanya, Telugu customs, home worship and health notes)",
+      "HinduTone, Champa Shashti 2026: Khandoba of Jejuri (six-day festival, the Mani and Malla story, turmeric and bharit customs)"
     ]
   },
 ];

@@ -14,6 +14,8 @@ const BY_SLUG = {
   'annapurna-jayanti-2026-guide': 'leaves',
   'utpanna-ekadashi-2026-guide': 'lamps',
   'nirvana-shatakam-meaning-and-story': 'night',
+  'rudrashtakam-meaning-and-story': 'night',
+  'subrahmanya-shashti-champa-shashti-2026-guide': 'lamps',
   'telugu-sankranti-bhogi-kanuma-2027-guide': 'sun',
   'sabarimala-mandalam-2026-ayyappa-vratham-guide': 'leaves',
   'kalabhairava-jayanti-2026-guide': 'smoke',

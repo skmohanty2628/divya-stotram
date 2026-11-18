@@ -73,74 +73,115 @@ export const GUIDES_TOPIC = [
   },
 
   {
-    slug: 'best-prayer-for-inner-peace',
-    category: 'Peace of mind',
-    title: 'Best Prayers and Mantras for Inner Peace: Shanti Mantras and Daily Practice',
-    description:
-      'Shanti mantras from the Upanishads and Vedas for inner peace and family harmony: Asato Ma Sadgamaya, Om Purnamadah, Om Sarve Bhavantu Sukhinah, with meaning and a daily practice.',
-    h1: 'Best Prayers and Mantras for Inner Peace',
-    intro:
-      'Peace in Hindu tradition is not the absence of problems; it is the steadiness to meet them. The shanti mantras collected here come from the Vedas and Upanishads and are recited at the start and end of study, worship and ceremonies. This guide explains their meaning and offers a simple daily routine.',
-    sections: [
+    "slug": "best-prayer-for-inner-peace",
+    "category": "Peace of mind",
+    "title": "Best Prayers and Mantras for Inner Peace: Shanti Mantras and Daily Practice",
+    "description": "Shanti mantras from the Upanishads and Vedas for inner peace and family harmony: Asato Ma Sadgamaya, Om Purnamadah, Sahana Vavatu and Sarve Bhavantu Sukhinah, with meaning, sources and a simple daily practice.",
+    "h1": "Best Prayers and Mantras for Inner Peace",
+    "intro": "Peace in Hindu tradition is not the absence of problems. It is the steadiness to meet them. The shanti mantras collected here come from the Vedas and Upanishads and are recited at the start and end of study, worship and ceremonies. This guide explains where each one comes from, what it asks for, and how to build a short daily practice around one of them, with honest notes on what prayer can and cannot do.",
+    "sections": [
       {
-        h: 'The meaning of shanti',
-        p: [
-          `Shanti means peace, and the tradition says it three times, Shanti Shanti Shanti, to address three sources of disturbance: those from within (the mind and body), those from the world around (people and events), and those from forces beyond our control (accidents, nature, fate). Understanding this gives the repeated word a purpose; it is a systematic prayer for calm on every front.`,
-        ],
+        "h": "The meaning of shanti",
+        "p": [
+          "Shanti means peace, and the tradition says it three times, Shanti Shanti Shanti, to address three sources of disturbance: those from within (the mind and body), those from the world around (people and events), and those from forces beyond our control (accidents, nature, fate). Understanding this gives the repeated word a purpose. It is a systematic prayer for calm on every front, and it is why a shanti mantra usually ends with the three-fold word."
+        ]
       },
       {
-        h: 'Four mantras to know',
-        p: [
-          `Asato Ma Sadgamaya, Tamaso Ma Jyotirgamaya, Mrityor Ma Amritam Gamaya, from the Brihadaranyaka Upanishad (1.3.28), means: lead me from untruth to truth, from darkness to light, from death to immortality. Om Purnamadah Purnamidam, the invocation of the Isha Upanishad, says that this is whole, that is whole, and wholeness comes from wholeness; it is a meditation on completeness. Om Dyauh Shantir Antariksham Shantih, from the Yajurveda (36.17), prays for peace in the sky, the atmosphere, the earth, the waters, the plants and all beings. Om Sarve Bhavantu Sukhinah prays that all beings be happy, healthy, see auspiciousness, and none suffer.`,
-        ],
+        "h": "What the Gita says about peace",
+        "p": [
+          "The Bhagavad Gita speaks of peace in a practical way. Verse 2.66 begins nasti buddhir ayuktasya and says that a person whose mind and senses are not disciplined cannot have a steady intellect, that without that steadiness there is no real peace, and that without peace there can be no lasting happiness. The order matters. Many people look for happiness first and hope peace follows, while the verse puts inner steadiness at the base.",
+          "This is why shanti mantras are traditionally paired with a practice. Reciting a mantra is a way of training attention, and the calm comes from the repeated steadying of the mind, not from the words alone."
+        ]
       },
       {
-        h: 'A daily practice',
-        p: [
-          `Choose one mantra and keep it for a month. Sit for ten minutes in the morning, repeat it slowly, and spend the last two minutes in silence, noticing how you feel. Over time many people find that the mantra rises unprompted in difficult moments, which is the point.`,
-        ],
+        "h": "Five mantras to know",
+        "p": [
+          "Asato Ma Sadgamaya, Tamaso Ma Jyotirgamaya, Mrityor Ma Amritam Gamaya, from the Brihadaranyaka Upanishad (1.3.28), means: lead me from untruth to truth, from darkness to light, from death to immortality.",
+          "Om Purnamadah Purnamidam is a verse from the Brihadaranyaka Upanishad (5.1.1) that is also used as the invocation of the Isha Upanishad. It says that this is whole, that is whole, and wholeness comes out of wholeness while wholeness remains. It is a meditation on completeness, and the word purna can be read as full and inexhaustible.",
+          "Om Sahana Vavatu is the invocation of the Taittiriya Upanishad, recited by teacher and student together before study. It asks that both be protected and nourished, that they work together with energy, that what they study be bright and effective, and that they never turn against each other. It is a good choice for anyone whose peace is disturbed by a shared workplace, school or home.",
+          "Om Dyauh Shantir Antariksham Shantih, from the Yajurveda (36.17), prays for peace in the sky, the atmosphere, the earth, the waters, the plants and all beings. Om Sarve Bhavantu Sukhinah prays that all beings be happy, healthy, see auspiciousness, and none suffer. This site has text and meaning pages for Asato Ma Sadgamaya, Purnamadah, Sahana Vavatu and Sarve Bhavantu Sukhinah."
+        ]
       },
       {
-        h: 'Peace at home',
-        p: [
-          `Families sometimes recite a shanti mantra together at dinner or before bed. It sets a tone, reminds everyone that the household is a shared project, and can make arguments easier to leave behind. If tensions run high, do not force it; a short silent recitation by one person is still valuable.`,
-          `For conflicts that need practical resolution, such as money disputes or ongoing disrespect, prayer should sit beside honest conversation and, where needed, counselling or mediation.`,
-        ],
+        "h": "A daily practice",
+        "p": [
+          "Choose one mantra and keep it for a month. Sit for ten minutes in the morning, repeat it slowly, and spend the last two minutes in silence, noticing how you feel. Over time many people find that the mantra rises unprompted in difficult moments, which is the point.",
+          "If ten minutes is too long, start with three. Say the mantra aloud once, then softly, then silently, and end with Shanti three times. A lit lamp and a fixed seat help the habit hold, but neither is required. Reading the meaning once before you begin makes the words more than sound."
+        ]
       },
       {
-        h: 'Devotional options',
-        p: [
-          `If you prefer a deity-centred practice, Vishnu Sahasranamam, the Shiv Chalisa and Krishna mantras are traditional sources of calm. Evening recitation of any gentle hymn with a lit lamp is a simple way to close the day.`,
-        ],
+        "h": "Peace at home",
+        "p": [
+          "Families sometimes recite a shanti mantra together at dinner or before bed. It sets a tone, reminds everyone that the household is a shared project, and can make arguments easier to leave behind. If tensions run high, do not force it. A short silent recitation by one person is still valuable.",
+          "For conflicts that need practical resolution, such as money disputes or ongoing disrespect, prayer should sit beside honest conversation and, where needed, counselling or mediation."
+        ]
       },
+      {
+        "h": "When prayer is not enough",
+        "p": [
+          "Mantras support a calm mind, but they are not a treatment. If worry, low mood or sleeplessness is constant, gets worse, or affects your work and relationships, please speak to a doctor or a qualified counsellor, and keep your prayer as a companion to that care and not a substitute for it. Asking for help is consistent with the tradition's own advice to act wisely and not only to pray."
+        ]
+      },
+      {
+        "h": "Devotional options",
+        "p": [
+          "If you prefer a deity-centred practice, Vishnu Sahasranamam, the Shiv Chalisa, the Rudrashtakam and Krishna mantras are traditional sources of calm. Evening recitation of any gentle hymn with a lit lamp is a simple way to close the day."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Why is shanti repeated three times?',
-        a: 'To pray for peace from inner, outer and unseen causes of disturbance.',
+        "q": "Why is shanti repeated three times?",
+        "a": "To pray for peace from inner, outer and unseen causes of disturbance."
       },
       {
-        q: 'Which shanti mantra should I start with?',
-        a: 'Om Sarve Bhavantu Sukhinah is the simplest. Asato Ma Sadgamaya is also widely loved.',
+        "q": "Which shanti mantra should I start with?",
+        "a": "Om Sarve Bhavantu Sukhinah is the simplest. Asato Ma Sadgamaya is also widely loved. If your stress comes from working with others, try Sahana Vavatu."
       },
       {
-        q: 'Can children recite these mantras?',
-        a: 'Yes. They are commonly taught in schools in India.',
+        "q": "Where does Om Purnamadah come from?",
+        "a": "It is a verse of the Brihadaranyaka Upanishad (5.1.1) and it is also used as the invocation of the Isha Upanishad."
       },
       {
-        q: 'How long until I notice a difference?',
-        a: 'Experience varies; many people report feeling steadier within a few weeks of daily practice.',
+        "q": "What is Sahana Vavatu?",
+        "a": "It is the shanti invocation of the Taittiriya Upanishad, recited by teacher and student before study, asking for shared protection, nourishment and harmony."
       },
+      {
+        "q": "Can children recite these mantras?",
+        "a": "Yes. They are commonly taught in schools in India."
+      },
+      {
+        "q": "How long until I notice a difference?",
+        "a": "Experience varies. Many people report feeling steadier within a few weeks of daily practice, but there is no guaranteed time."
+      },
+      {
+        "q": "Do shanti mantras replace professional help?",
+        "a": "No. If anxiety or low mood is persistent, please see a doctor or counsellor and keep the mantra as a supportive practice."
+      }
     ],
-    related: {
-      stotrams: ['vishnu-sahasranamam', 'gayatri-mantra', 'sarve-bhavantu-sukhinah', 'asato-ma-sadgamaya', 'purnamadah-purnamidam'],
-      guides: ['best-mantra-for-anxiety', 'night-prayer-routine', 'spiritual-routine-for-beginners'],
+    "related": {
+      "stotrams": [
+        "vishnu-sahasranamam",
+        "gayatri-mantra",
+        "sarve-bhavantu-sukhinah",
+        "asato-ma-sadgamaya",
+        "purnamadah-purnamidam",
+        "sahana-vavatu-mantra",
+        "rudrashtakam"
+      ],
+      "guides": [
+        "best-mantra-for-anxiety",
+        "night-prayer-routine",
+        "spiritual-routine-for-beginners"
+      ]
     },
-    sources: [
-      'Brihadaranyaka Upanishad 1.3.28',
-      'Isha Upanishad, invocation',
-      'Yajurveda 36.17',
-    ],
+    "sources": [
+      "Brihadaranyaka Upanishad 1.3.28 and 5.1.1",
+      "Isha Upanishad, invocation",
+      "Taittiriya Upanishad, Sahana Vavatu invocation (text checked on this site against shlokam.org, greenmesg.org and sanskritdocuments.org)",
+      "Yajurveda 36.17",
+      "Bhagavad Gita 2.66 (holy-bhagavad-gita.org)"
+    ]
   },
 
   {

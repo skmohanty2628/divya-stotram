@@ -39,6 +39,7 @@ import { kalabhairavaAshtakam } from '@/data/kalabhairava-ashtakam';
 import { yaDeviSarvabhuteshu } from '@/data/ya-devi-sarvabhuteshu';
 import { ganeshaPancharatnam } from '@/data/ganesha-pancharatnam';
 import { nirvanaShatakam } from '@/data/nirvana-shatakam';
+import { rudrashtakam } from '@/data/rudrashtakam';
 
 export const VERSE_DATA = {
   'hanuman-chalisa': hanumanChalisa,
@@ -82,4 +83,5 @@ export const VERSE_DATA = {
   'ya-devi-sarvabhuteshu': yaDeviSarvabhuteshu,
   'ganesha-pancharatnam': ganeshaPancharatnam,
   'nirvana-shatakam': nirvanaShatakam,
+  'rudrashtakam': rudrashtakam,
 };

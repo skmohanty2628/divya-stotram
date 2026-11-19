@@ -15,6 +15,8 @@ const BY_SLUG = {
   'utpanna-ekadashi-2026-guide': 'lamps',
   'nirvana-shatakam-meaning-and-story': 'night',
   'rudrashtakam-meaning-and-story': 'night',
+  'vishnu-sahasranamam-meaning-and-story': 'lamps',
+  'vaikuntha-ekadashi-mukkoti-ekadashi-2026-guide': 'lamps',
   'subrahmanya-shashti-champa-shashti-2026-guide': 'lamps',
   'telugu-sankranti-bhogi-kanuma-2027-guide': 'sun',
   'sabarimala-mandalam-2026-ayyappa-vratham-guide': 'leaves',

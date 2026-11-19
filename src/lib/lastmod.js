@@ -1,6 +1,10 @@
 // Real last-edit dates per page, taken from docs/verse-audit-log.md and later content changes.
 // Pages not listed here have not changed since the base date in site.js (CONTENT_UPDATED).
 export const LASTMOD = {
+  'vishnu-sahasranamam-meaning-and-story': '2026-11-19',
+  'vaikuntha-ekadashi-mukkoti-ekadashi-2026-guide': '2026-11-19',
+  'which-god-to-pray-for-success': '2026-11-19',
+  'vishnu-sahasranamam': '2026-11-19',
   'rudrashtakam': '2026-11-18',
   'rudrashtakam-meaning-and-story': '2026-11-18',
   'subrahmanya-shashti-champa-shashti-2026-guide': '2026-11-18',
@@ -115,5 +119,4 @@ export const LASTMOD = {
   'tulsi-vivah-dev-uthani-ekadashi-guide': '2026-11-11',
   'vakratunda-mahakaya-mantra': '2026-10-29',
   'vasant-panchami-saraswati-puja-guide': '2026-11-04',
-  'vishnu-sahasranamam': '2026-11-10',
 };

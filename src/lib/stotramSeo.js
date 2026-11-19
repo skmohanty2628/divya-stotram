@@ -13,9 +13,9 @@ const SEO_COPY = {
       'Shiv Tandav Stotram lyrics in English (Jatatavi Galajjala), with meaning, the tradition that Ravana composed it, how to chant it and FAQs. Also in Hindi, Odia and Telugu script.',
   },
   'vishnu-sahasranamam': {
-    title: 'Vishnu Sahasranamam in English, Hindi, Odia & Telugu with Meaning',
+    title: 'Complete Vishnu Sahasranamam Lyrics in Hindi, English, Odia & Telugu with Meaning',
     description:
-      'Read Vishnu Sahasranamam, 1000 names of Lord Vishnu in English, Hindi, Odia and Telugu with meaning. From Mahabharata, structured reading support, benefits and FAQs.',
+      'Complete Vishnu Sahasranamam, all 1000 names of Lord Vishnu in 107 verses plus the closing verse, from the Mahabharata. Devanagari text checked against four editions, with transliteration, Odia, Telugu and meaning.',
   },
   'durga-stotram': {
     title: 'Durga Stotram in English, Hindi, Odia & Telugu with Meaning',

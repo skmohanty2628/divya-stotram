@@ -972,15 +972,16 @@ export const GUIDES_TOPIC = [
     category: 'Guidance',
     title: 'Which Hindu God to Pray to for What? A Beginner\'s Guide to Deities and Their Roles',
     description:
-      'A beginner-friendly guide to which Hindu deity people pray to for beginnings, wisdom, courage, prosperity, health, peace and family, and how to find your own ishta devata.',
+      'A beginner-friendly guide to which Hindu deity people pray to for beginnings, wisdom, courage, prosperity, health, peace and family, with weekday customs, regional deities and how to find your own ishta devata.',
     h1: 'Which Hindu God to Pray to for What?',
     intro:
-      'Hindu tradition has many deities, and newcomers often ask which one to pray to. The honest answer is that there is no wrong choice: all prayers are said to reach the same source. But each deity has traditional associations, and this guide lays them out.',
+      'Hindu tradition has many deities, and newcomers often ask which one to pray to. The honest answer is that there is no wrong choice: the tradition holds that all sincere prayers reach the same source. But each deity has traditional associations, and families follow weekday and regional customs. This guide lays out the common associations, what the scriptures say about praying to many forms, and a simple way to find the one that fits you.',
     sections: [
       {
         h: 'The idea of the ishta devata',
         p: [
           `Hindu tradition speaks of the ishta devata, the chosen deity, the form of the divine you feel closest to. It may be inherited from your family, found through a teacher, or discovered through a moment of feeling. You do not have to choose only one, and you may change over time. The tradition regards the many deities as many faces of one reality, a view expressed in the Rigveda: Ekam sad vipra bahudha vadanti, the truth is one, the wise call it by many names.`,
+          `The Bhagavad Gita says something similar in two places. In 7.21 Krishna says that whatever form a devotee wishes to worship with faith, he makes that faith steady. In 9.23 he says that those who worship other deities with faith are also worshipping him, though not by the usual rule. Whether or not a person reads these verses in a Vaishnava way, they show how old the idea is that sincere worship of any form is respected.`,
         ],
       },
       {
@@ -993,18 +994,31 @@ export const GUIDES_TOPIC = [
         h: 'By situation',
         p: [
           `Starting something new: Ganesha. Studying or exams: Saraswati and Ganesha. Feeling afraid: Hanuman or Durga. Seeking prosperity: Lakshmi. Health concerns: Shiva (Maha Mrityunjaya), Dhanvantari and Surya. Marriage: Parvati, Katyayani, Rama and Sita. Peace of mind: Vishnu, Shiva and the shanti mantras. Gratitude and celebration: Krishna, Lakshmi and Ganesha. Use these associations as a map, not as a rulebook.`,
+          `If your question is about success in a job or an exam, many families pray to Ganesha and Saraswati for the beginning and for clear thinking, and to Lakshmi for steady livelihood. Prayer is usually treated as a companion to effort, not a replacement for it. The Gita (2.47) tells us that the right is to the action and not to its fruits, and the closing verse (18.78) links good fortune and victory to the combination of the divine and the effort of the practitioner. Prayer is a way of steadying the mind, and no prayer guarantees an outcome.`,
+        ],
+      },
+      {
+        h: 'Weekday customs',
+        p: [
+          `Many families give each day of the week to a deity. Monday is commonly kept for Shiva, Tuesday for Hanuman and Durga, Wednesday for Ganesha and Krishna, Thursday for Vishnu and teachers, Friday for Lakshmi and the goddess, Saturday for Hanuman and Shani, and Sunday for Surya. The assignments differ from region to region and family to family, so treat them as customs, not laws. You can choose a day that suits your own deity, or simply light a lamp and read a short prayer each morning.`,
+        ],
+      },
+      {
+        h: 'Regional and family deities',
+        p: [
+          `Beyond the pan-Indian deities, many people pray to the form their region or family has long worshipped. In Odisha, Jagannath of Puri and Lingaraj of Bhubaneswar are central, along with the goddesses of local shrines. In Telugu-speaking regions Venkateswara of Tirumala, Subrahmanya and Annapurna have a large following. In the Hindi belt Hanuman, Rama, Krishna and Durga are everyday names. A kuladevata is the deity of a family line, and an elder in the family can usually tell you who it is. Praying to the family deity is often the simplest place to begin.`,
         ],
       },
       {
         h: 'Finding your own',
         p: [
-          `Read a few hymns. Notice which words stay with you. Visit a temple or listen to recordings. Ask older family members whom they pray to and why. Over a few weeks you will notice a leaning. Many people also keep a Ganesha image at the start of their prayer and then turn to the deity of their heart.`,
+          `Read a few hymns. Notice which words stay with you. Visit a temple or listen to recordings. Ask older family members whom they pray to and why. Over a few weeks you will notice a leaning. Many people also keep a Ganesha image at the start of their prayer and then turn to the deity of their heart. If nothing stands out, the Gayatri Mantra and the Hanuman Chalisa are widely recited and easy to learn, and the Vishnu Sahasranamam and the Shiva stotras are good for slow reading.`,
         ],
       },
       {
         h: 'On respect and sincerity',
         p: [
-          `The Bhagavad Gita (9.26) says that whoever offers a leaf, a flower, a fruit or water with devotion, that offering is accepted. The emphasis is on sincerity. No deity is said to be offended by an honest beginner's mistake.`,
+          `The Bhagavad Gita (9.26) says that whoever offers a leaf, a flower, a fruit or water with devotion, that offering is accepted. The emphasis is on sincerity. No deity is said to be offended by an honest beginner's mistake, and a short prayer said with attention is better than a long one said in a hurry.`,
         ],
       },
     ],
@@ -1015,11 +1029,19 @@ export const GUIDES_TOPIC = [
       },
       {
         q: 'Can I pray to more than one deity?',
-        a: 'Yes. Most Hindus do.',
+        a: 'Yes. Most Hindus do. The tradition treats the many deities as forms of one reality.',
       },
       {
         q: 'What is an ishta devata?',
-        a: 'The deity you personally feel closest to.',
+        a: 'The deity you personally feel closest to. It may be inherited from the family or found later.',
+      },
+      {
+        q: 'What is a kuladevata?',
+        a: 'The deity worshipped by a family line over generations. An elder can usually say who it is.',
+      },
+      {
+        q: 'Will praying to a particular god guarantee success?',
+        a: 'No. The scriptures treat prayer as a companion to effort. Prayer steadies the mind, but it does not promise a result.',
       },
       {
         q: 'Does it matter which language I pray in?',
@@ -1027,12 +1049,12 @@ export const GUIDES_TOPIC = [
       },
     ],
     related: {
-      stotrams: ['ganesh-aarti', 'hanuman-chalisa', 'durga-stotram', 'mahalakshmi-ashtakam'],
-      guides: ['spiritual-routine-for-beginners', 'morning-prayer-routine'],
+      stotrams: ['ganesh-aarti', 'hanuman-chalisa', 'durga-stotram', 'mahalakshmi-ashtakam', 'saraswati-vandana', 'vishnu-sahasranamam'],
+      guides: ['spiritual-routine-for-beginners', 'morning-prayer-routine', 'best-mantra-for-study-focus', 'best-mantra-for-job'],
     },
     sources: [
-      'Rigveda 1.164.46',
-      'Bhagavad Gita 9.26',
+      'Rigveda 1.164.46 (the truth is one, the wise call it by many names)',
+      'Bhagavad Gita 2.47, 7.21, 9.23, 9.26 and 18.78 (action and its fruits, steady faith in any form, worship of other deities, the offering of a leaf, closing verse)',
     ],
   },
 ];

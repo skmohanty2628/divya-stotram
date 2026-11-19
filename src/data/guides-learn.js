@@ -6769,4 +6769,214 @@ export const GUIDES_LEARN = [
       "HinduTone, Champa Shashti 2026: Khandoba of Jejuri (six-day festival, the Mani and Malla story, turmeric and bharit customs)"
     ]
   },
+  {
+    "slug": "vishnu-sahasranamam-meaning-and-story",
+    "category": "Meaning and history",
+    "title": "Vishnu Sahasranamam: Meaning, Story and How the Thousand Names Are Arranged",
+    "description": "The story of the Vishnu Sahasranamam in the Mahabharata, the questions Yudhishthira put to Bhishma, how the 107 verses are built, what some well-known names mean, and a simple way to read it.",
+    "h1": "Vishnu Sahasranamam: Meaning and Story of the Thousand Names",
+    "intro": "The Vishnu Sahasranamam is a hymn of a thousand names of Vishnu, set inside the Mahabharata as Bhishma's answer to a question about the highest refuge. Many families know it as a recording played on Ekadashi mornings, but the text has its own setting, structure and long history of commentary. This guide explains where the hymn comes from, what Yudhishthira asked, how the verses are arranged, what a few of the best-known names say, and how the text on this site was checked.",
+    "sections": [
+      {
+        "h": "Where the thousand names come from",
+        "p": [
+          "The hymn belongs to the Anushasana Parva of the Mahabharata, the book of teachings that follows the war. In the commonly printed text it is chapter 149. Bhishma, the grandfather of the Kuru house, lies on the bed of arrows and is waiting for the sun to turn north before he leaves the world. Yudhishthira has been listening to him explain dharma at length, and the chapter opens with Vaishampayana telling King Janamejaya how Yudhishthira put one more question to Bhishma.",
+          "The text is therefore not a stand-alone temple hymn that was later attached to the epic. It is spoken as part of a conversation, and that is why it begins with a question and an answer before the names start."
+        ]
+      },
+      {
+        "h": "The questions Yudhishthira asked",
+        "p": [
+          "Yudhishthira asks four things in two verses. Who is the one god in the world, and who is the one refuge? By praising and worshipping whom do people reach their welfare? Which dharma does Bhishma consider the highest of all? And what japa frees a living being from the bond of birth and the cycle of worldly life?",
+          "Bhishma answers that a person who keeps praising the Lord of the world, the endless Vishnu who is the highest Person, with his thousand names, and who also worships him with devotion, meditation and bowing, goes beyond all sorrow. He calls this the greatest of all dharmas in his view, namely to worship the lotus-eyed one with praise and devotion. He then says he will recite the names that great sages have sung, for the good of those who hear them."
+        ]
+      },
+      {
+        "h": "How the text labels itself",
+        "p": [
+          "Before the names begin, the text gives the usual labels of a mantra. The sage is Vedavyasa, the metre is anushtubh, and the deity is Bhagavan, the son of Devaki. The line \"amritamshudbhavo bhanuh\" is named as the seed, and \"trisama hridayam\" is the heart. These labels are what a reciter says before a formal chanting, and they tell us how the tradition itself classes the names: as a mantra with a rishi, a metre and a deity, and not only as a list of titles."
+        ]
+      },
+      {
+        "h": "How the 107 verses are built",
+        "p": [
+          "The thousand names are strung through 107 verses. Each verse is a pair of lines in the anushtubh metre, so every line has sixteen syllables, and each verse usually holds about eight to ten names. The names are mostly single words or compounds, set one after another with very little grammar between them, which is why the hymn is easy to learn by ear.",
+          "The first name is Vishvam, the universe itself, and the last verse of the thousand ends with Sarvapraharanayudhah, the one whose weapons are of every kind. Printed booklets then add a short protective verse, \"Vanamali gadi sharngi\", asking the glorious Narayana to guard the reciter. This site gives all 107 verses and that closing verse.",
+          "The count of a thousand is traditional. A few names appear more than once, for example Vasupradah in verse 74 and Vedavit in verse 14, and commentators arrive at the total depending on how they divide compounds and treat repeated names."
+        ]
+      },
+      {
+        "h": "A few names and what they say",
+        "p": [
+          "Vishvam means the universe, and Vishnu means the one who pervades it. Achyuta is the one who never falls from his own nature, and Ananta is the endless. Hrishikesha is the master of the senses, Padmanabha the one with a lotus rising from his navel, Keshava and Madhava are among the names of Krishna, and Purushottama is the highest Person. Names such as Narasimhavapuh, Vamana and Mahavaraha point to forms of Vishnu that appear in the Puranas.",
+          "Some names seem to belong to other gods, and this surprises first-time readers. Verse 4 contains Sharva, Shiva and Sthanu. Adi Shankara's commentary reads Shiva here as the auspicious or pure one, an epithet of Vishnu in this hymn, and not as a statement about another deity."
+        ]
+      },
+      {
+        "h": "Commentaries and schools",
+        "p": [
+          "The hymn has been explained by many teachers. A commentary attributed to Adi Shankara is the best known and is often quoted for the sense of individual names. Parasara Bhattar, a twelfth-century follower of Ramanuja, wrote a Shri Vaishnava commentary called Bhagavad Guna Darpana. The Dvaita tradition has commentaries by Vidyadhiraja Tirtha, Satyanidhi Tirtha and Satyasandha Tirtha, and Baladeva Vidyabhushana wrote one from the Gaudiya viewpoint. Each school reads the names through its own philosophy, so the same word can be explained in different ways."
+        ]
+      },
+      {
+        "h": "Why printed copies differ, and how we checked",
+        "p": [
+          "Different printed and online editions of the hymn are not identical. They differ in sandhi, which is how neighbouring words are joined, in the way nasal sounds are spelled, and in a small number of names. We compared four independent editions verse by verse. They agreed on every verse apart from spelling and joining, except a short list of real variants, such as shashvatah or shashvato in verse 7, purandarah or purandharah in verse 36, and amritasho or amritamsho in verse 87. Where editions disagreed, we kept the reading shared by most of them and recorded the other in the data file.",
+          "The text is given here in the unjoined style that keeps every name readable. If your family booklet reads a little differently from this page, it may be following another recension, and your own tradition's reading is the right one for your chanting."
+        ]
+      },
+      {
+        "h": "A simple way to read it",
+        "p": [
+          "Read a few verses at a time instead of the whole hymn on the first day. Read the Devanagari or your own script aloud, glance at the one-paragraph meaning under each verse, and then read it again without the meaning. Many people first learn the flow from a recording by a trained reciter and then read along. Thursday and Ekadashi are the usual days, but there is no rule that you must wait for them.",
+          "If you want to read the hymn on a festival, the Vaikuntha Ekadashi guide on this site is a good companion, and the benefits guide covers what the tradition says about reciting it."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Who composed the Vishnu Sahasranamam?",
+        "a": "In the Mahabharata it is spoken by Bhishma. The text itself names Vedavyasa as the sage of the mantra, and the tradition regards Vyasa as the compiler of the epic."
+      },
+      {
+        "q": "Where in the Mahabharata is it?",
+        "a": "In the Anushasana Parva, chapter 149 in the commonly printed text. Other editions number chapters differently, so check which edition a citation uses."
+      },
+      {
+        "q": "Does the hymn really have exactly 1000 names?",
+        "a": "The count of a thousand is traditional. Some names repeat, and commentators divide compounds in different ways, so lists of names do not always number exactly one thousand."
+      },
+      {
+        "q": "Why does it include names like Shiva?",
+        "a": "The hymn uses them as epithets of Vishnu. Adi Shankara's commentary explains Shiva here as the auspicious one, and traditions explain the shared names in their own ways."
+      },
+      {
+        "q": "How long does it take to chant?",
+        "a": "About half an hour at a steady pace and longer if you read slowly. Beginners can read a few verses each day."
+      },
+      {
+        "q": "Is it only for men or for a certain group?",
+        "a": "Many families read it at home, and temples and traditions have their own customs. Follow the practice of your own family or temple."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "vishnu-sahasranamam",
+        "krishna-vasudevaya-mantra",
+        "shantakaram-bhujagashayanam"
+      ],
+      "guides": [
+        "vishnu-sahasranamam-benefits",
+        "how-to-chant-vishnu-mantra",
+        "ekadashi-vrat-guide",
+        "vaikuntha-ekadashi-mukkoti-ekadashi-2026-guide"
+      ]
+    },
+    "sources": [
+      "Mahabharata, Anushasana Parva, chapter 149 (Bhishma and Yudhishthira, the opening questions, the rishi, metre and deity labels; text via sanskritdocuments.org and the Gita Press chapter summary on Krishnakosh)",
+      "Wikipedia, Vishnu sahasranama (commentaries by Adi Shankara, Parasara Bhattar, Vidyadhiraja Tirtha, Satyanidhi Tirtha, Satyasandha Tirtha and Baladeva Vidyabhushana)",
+      "Divya Stotram verse check of 2026-11-19 against sanskritdocuments.org, stotranidhi.com, brahmabhakti.com and vignanam.org (variants listed in the data file)"
+    ]
+  },
+  {
+    "slug": "vaikuntha-ekadashi-mukkoti-ekadashi-2026-guide",
+    "category": "Festivals",
+    "title": "Vaikuntha Ekadashi 2026: Date, Mukkoti Ekadashi, Vaikuntha Dwara and How to Observe",
+    "description": "Vaikuntha Ekadashi 2026 falls on Sunday 20 December. See the tithi and parana timings, the story of Ekadashi and Mura, the Vaikuntha Dwara at Srirangam and Tirumala, and a simple way to observe the day at home.",
+    "h1": "Vaikuntha Ekadashi 2026: Date, Mukkoti Ekadashi and the Gate of Vaikuntha",
+    "intro": "Vaikuntha Ekadashi is the bright-half Ekadashi of the month of Dhanurmasa, when Vishnu temples in the south open a special gateway that represents the entrance to Vaikuntha, his abode. In Telugu-speaking regions the same day is called Mukkoti Ekadashi, and in the north it is better known as Mokshada Ekadashi. This guide gives the date and timings for 2026, the story that tradition tells, what happens at Srirangam and Tirumala, and a plain way to keep the day at home.",
+    "sections": [
+      {
+        "h": "Date and timings in 2026",
+        "p": [
+          "Vaikuntha Ekadashi in 2026 falls on Sunday 20 December. For New Delhi, the Ekadashi tithi begins at 10:09 pm on Saturday 19 December and ends at 8:14 pm on Sunday 20 December, according to the listing at Drik Panchang. Dhanurmasam, the month in which it falls, begins on 16 December.",
+          "The fast is broken on Monday 21 December, after sunrise and within Dwadashi. For New Delhi the cited window is about 7:10 am to 9:13 am, and Dwadashi ends at 5:36 pm. Times change with the city and its sunrise, so check a local panchang. Some households abroad keep Ekadashi a day earlier by their own tradition, and you should follow the custom of your family.",
+          "The same day is Gita Jayanti and Mokshada Ekadashi in the north, and the Gita Jayanti guide on this site explains that side of the day."
+        ]
+      },
+      {
+        "h": "What the day is called",
+        "p": [
+          "Vaikuntha Ekadashi is the name used in much of South India and among Vaishnavas, and it is the Shukla Paksha Ekadashi in the solar month of Dhanus, which the Tamil calendar calls Margazhi. In Telugu regions the name is Mukkoti Ekadashi. Mukkoti means three crore, and the belief is that three crore gods gather on this day to worship Vishnu. In North India the Ekadashi in the same lunar fortnight is called Mokshada Ekadashi."
+        ]
+      },
+      {
+        "h": "The story behind the day",
+        "p": [
+          "The Padma Purana, as summarised in reference works, tells of an asura named Mura who troubled the gods because a boon from Brahma had made him very hard to defeat. Vishnu fought him and then withdrew to a cave called Simhavati near Badarikashrama, and Mura followed. There Vishnu called forth a goddess from his own energy, who killed the asura. Pleased, Vishnu named her Ekadashi and said she would remove the sins of people on earth who observe the day. Vaishnavas count this as the first Ekadashi.",
+          "A second tradition says that Vishnu opened the gate of Vaikuntha for two asuras, despite their hostility, and that they asked that anyone who heard their story and saw the image of Vishnu emerging from the gate on this day would also reach Vaikuntha. Temples recall this by building a gateway that devotees walk through."
+        ]
+      },
+      {
+        "h": "The Vaikuntha Dwara at Srirangam",
+        "p": [
+          "At the Sri Ranganathaswamy temple in Srirangam, the Vaikuntha Ekadashi festival is spread over two ten-day parts. The first is Pagal Pathu, the days, and the second is Ra Pathu, the nights, and the Divya Prabandham of the Alvars is recited through the period. On the morning of Ekadashi the northern gateway, called Paramapada Vasal, is opened. The processional image of the Lord, Namperumal, is brought out through it. The gate is opened only on this occasion in the year, and devotees queue, often through the night, to walk through it."
+        ]
+      },
+      {
+        "h": "The Vaikuntha Dwara at Tirumala",
+        "p": [
+          "At the Venkateswara temple in Tirumala, a gateway that circles the sanctum is opened on Vaikuntha Ekadashi, and pilgrims who pass through it on that day believe they are moving toward Vaikuntha. The crowds are very large. Dates and arrangements for darshan, including tokens, are announced by the Tirumala Tirupati Devasthanams, so rely only on the official announcements and not on third-party sites when you plan a visit."
+        ]
+      },
+      {
+        "h": "How families observe the day at home",
+        "p": [
+          "The usual pattern is simple. Many households eat a light vegetarian meal on Dashami, the day before. On Ekadashi they bathe early, make a resolve, light a lamp and offer tulasi to an image of Vishnu. Grains are avoided, and families choose a fast of fruit, of fruit and milk, or a complete fast, according to custom and health. Some keep a night vigil with bhajans or reading, though this is optional.",
+          "Reading the Vishnu Sahasranamam is a common part of the day, and so is a reading from the Gita. The fast is broken the next morning within the parana window. People who are pregnant, unwell or on regular medicine should ask a doctor before fasting, and children and older people can eat normally. The day does not require a fast to be meaningful."
+        ]
+      },
+      {
+        "h": "What to read and chant",
+        "p": [
+          "The Vishnu Sahasranamam on this site is given in full, in 107 verses with the closing verse, in Hindi, English, Odia and Telugu script. If you have only a few minutes, the Krishna Vasudevaya mantra and the Shantakaram prayer are short alternatives. The Ekadashi vrat guide explains the basic rules of an Ekadashi fast."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the date of Vaikuntha Ekadashi in 2026?",
+        "a": "Sunday 20 December 2026 in India. For New Delhi the tithi runs from 10:09 pm on 19 December to 8:14 pm on 20 December. Check your own city."
+      },
+      {
+        "q": "When do I break the fast?",
+        "a": "On Monday 21 December, after sunrise and before Dwadashi ends. For New Delhi the cited window is about 7:10 am to 9:13 am."
+      },
+      {
+        "q": "Is Vaikuntha Ekadashi the same as Mukkoti Ekadashi?",
+        "a": "Yes. Vaikuntha Ekadashi is the common South Indian name and Mukkoti Ekadashi is the Telugu name for the same Ekadashi."
+      },
+      {
+        "q": "Is it the same day as Gita Jayanti?",
+        "a": "In 2026 it falls on the same day, 20 December, as Gita Jayanti and Mokshada Ekadashi in the north."
+      },
+      {
+        "q": "Do I have to fast?",
+        "a": "No. Fasting follows family custom, and people with health conditions should ask a doctor first. Prayer and reading are enough for many households."
+      },
+      {
+        "q": "How do I plan a visit to Tirumala or Srirangam?",
+        "a": "Follow the announcements of the temple authorities. At Tirumala, darshan tokens and dates are announced by the Tirumala Tirupati Devasthanams, and crowds are very large."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "vishnu-sahasranamam",
+        "krishna-vasudevaya-mantra",
+        "shantakaram-bhujagashayanam"
+      ],
+      "guides": [
+        "ekadashi-vrat-guide",
+        "gita-jayanti-mokshada-ekadashi-2026-guide",
+        "dhanurmasam-2026-tiruppavai-andal-guide",
+        "vishnu-sahasranamam-meaning-and-story"
+      ]
+    },
+    "sources": [
+      "Drik Panchang, Vaikuntha Ekadashi 2026 (date Sunday 20 December and tithi timings for New Delhi)",
+      "HinduTone, Vaikuntha Ekadashi 2026 for India (parana window, Dhanurmasam start date, vrat guidance, Srirangam and Tirumala notes)",
+      "Wikipedia, Vaikunta Ekadasi (Padma Purana legend of Mura and Ekadashi, Vaikuntha Dvaram, Srirangam Pagal Pathu and Ra Pathu, Tirumala observance)",
+      "Srirangam temple information page, Vaikunda Ekadasi (Paramapada Vasal, Pagal Pathu and Ra Pathu)"
+    ]
+  },
 ];

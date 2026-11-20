@@ -111,11 +111,11 @@ export const hanumanAshtak = {
       id: 'hma-7',
       type: 'shloka',
       num: 7,
-      original: "बंधु समेत जबै अहिरावन, लै रघुनाथ पताल सिधारो।\nदेवहिं पूजि भली बिधि सों बलि, देउ सबै मिलि मंत्र विचारो॥\nजाय सहाय भयो तब ही, अहिरावन सैन्य समेत संहारो।\nको नहिं जानत है जग में कपि, संकट मोचन नाम तिहारो॥",
-      transliteration: "Bandhu Samet Jabai Ahiraavan, Lai Raghunaath Paataal Sidhaaro\nDevahin Pooji Bhali Bidhi Son Bali, Deu Sabai Mili Mantra Bichaaro\nJaay Sahaay Bhayo Tab Hi, Ahiraavan Sainya Samet Sanhaaro\nKo Nahin Janat Hai Jag Mein Kapi, Sankat Mochan Naam Tiharo",
+      original: "बंधु समेत जबै अहिरावन, लै रघुनाथ पताल सिधारो।\nदेबिहिं पूजि भली बिधि सों बलि, देउ सबै मिलि मंत्र विचारो॥\nजाय सहाय भयो तब ही, अहिरावन सैन्य समेत संहारो।\nको नहिं जानत है जग में कपि, संकट मोचन नाम तिहारो॥",
+      transliteration: "Bandhu Samet Jabai Ahiraavan, Lai Raghunaath Paataal Sidhaaro\nDebihin Pooji Bhali Bidhi Son Bali, Deu Sabai Mili Mantra Bichaaro\nJaay Sahaay Bhayo Tab Hi, Ahiraavan Sainya Samet Sanhaaro\nKo Nahin Janat Hai Jag Mein Kapi, Sankat Mochan Naam Tiharo",
       script: {
-        od: "ବଂଧୁ ସମେତ ଜବୈ ଅହିରାବନ, ଲୈ ରଘୁନାଥ ପତାଲ ସିଧାରୋ।\nଦେବହିଂ ପୂଜି ଭଲୀ ବିଧି ସୋଂ ବଲି, ଦେଉ ସବୈ ମିଲି ମଂତ୍ର ବିଚାରୋ॥\nଜାୟ ସହାୟ ଭୟୋ ତବ ହୀ, ଅହିରାବନ ସୈନ୍ୟ ସମେତ ସଂହାରୋ।\nକୋ ନହିଂ ଜାନତ ହୈ ଜଗ ମେଂ କପି, ସଂକଟ ମୋଚନ ନାମ ତିହାରୋ॥",
-        te: "బంధు సమేత జబై అహిరావన, లై రఘునాథ పతాల సిధారో।\nదేవహిం పూజి భలీ బిధి సోం బలి, దేఉ సబై మిలి మంత్ర విచారో॥\nజాయ సహాయ భయో తబ హీ, అహిరావన సైన్య సమేత సంహారో।\nకో నహిం జానత హై జగ మేం కపి, సంకట మోచన నామ తిహారో॥",
+        od: "ବଂଧୁ ସମେତ ଜବୈ ଅହିରାବନ, ଲୈ ରଘୁନାଥ ପତାଲ ସିଧାରୋ।\nଦେବିହିଂ ପୂଜି ଭଲୀ ବିଧି ସୋଂ ବଲି, ଦେଉ ସବୈ ମିଲି ମଂତ୍ର ବିଚାରୋ॥\nଜାୟ ସହାୟ ଭୟୋ ତବ ହୀ, ଅହିରାବନ ସୈନ୍ୟ ସମେତ ସଂହାରୋ।\nକୋ ନହିଂ ଜାନତ ହୈ ଜଗ ମେଂ କପି, ସଂକଟ ମୋଚନ ନାମ ତିହାରୋ॥",
+        te: "బంధు సమేత జబై అహిరావన, లై రఘునాథ పతాల సిధారో।\nదేబిహిం పూజి భలీ బిధి సోం బలి, దేఉ సబై మిలి మంత్ర విచారో॥\nజాయ సహాయ భయో తబ హీ, అహిరావన సైన్య సమేత సంహారో।\nకో నహిం జానత హై జగ మేం కపి, సంకట మోచన నామ తిహారో॥",
       },
       meaning: {
         en: "When Ahiravana carried Raghunatha and his brother away to the netherworld, he and his people planned together to worship the goddess properly and offer a sacrifice. You went there and helped at that very hour, and destroyed Ahiravana along with his army. Who in the world does not know your name, Sankat Mochan?",

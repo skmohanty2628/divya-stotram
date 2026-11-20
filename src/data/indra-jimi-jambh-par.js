@@ -6,7 +6,7 @@ export const indraJimiJambhPar = {
       type: 'kavitt',
       num: 1,
       original:
-        'इंद्र जिमि जंभ पर, बाड़व सुअंभ पर, रावण सदंभ पर, रघुकुलराज है।\nपौन बारिबाह पर, संभु रतिनाह पर, ज्यों सहसबाह पर, राम द्विजराज है॥',
+        'इंद्र जिमि जंभ पर, बाड़व सुअंभ पर, रावण सदंभ पर, रघुकुलराज है।\nपौन बारिबाह पर, संभु रतिनाह पर, ज्यों सहस्रबाह पर, राम द्विजराज है॥',
       transliteration:
         'Indra jimi jambh par, baadav su-ambh par, Raavan sadambh par, Raghukulraaj hai.\nPaun baaribaah par, Sambhu ratinaah par, jyon sahasabaah par, Raam dwijaraaj hai.',
       script: {
@@ -15,7 +15,7 @@ export const indraJimiJambhPar = {
       },
       meaning: {
         en: 'As Indra is to the demon Jambhasur, as the underwater fire (Badavagni) is to the ocean, as Raghukulraj (Lord Ram) is to the arrogant Ravana, so is Shivaji. As the wind is to the clouds, as Shambhu (Shiva) is to Kamadeva (Rati\'s husband), as Parashuram is to Sahasrabahu, so is Shivaji.',
-        hi: 'जैसे इंद्र जंभासुर पर, जैसे बड़वाग्नि समुद्र पर, जैसे रघुकुलराज रावण के दंभ पर, वैसे ही शिवाजी हैं। जैसे पवन बादलों पर, जैसे शंभु कामदेव पर, जैसे परशुराम सहसबाहु पर, वैसे ही शिवाजी हैं।',
+        hi: 'जैसे इंद्र जंभासुर पर, जैसे बड़वाग्नि समुद्र पर, जैसे रघुकुलराज रावण के दंभ पर, वैसे ही शिवाजी हैं। जैसे पवन बादलों पर, जैसे शंभु कामदेव पर, जैसे परशुराम सहस्रबाहु पर, वैसे ही शिवाजी हैं।',
         od: 'ଯେପରି ଇନ୍ଦ୍ର ଜଂଭାସୁର ଉପରେ, ବଡ଼ବାଗ୍ନି ସମୁଦ୍ରରେ, ରଘୁ ରାଜ ରାବଣ ଉପରେ, ସେହିପରି ଶିବାଜୀ। ଯେପରି ପବନ ମେଘ ଉପରେ, ଶଂଭୁ କାମଦେବ ଉପରେ, ପରଶୁରାମ ସହସ୍ର ବାହୁ ଉପରେ, ସେହିପରି ଶିବାଜୀ।',
         te: 'ఇంద్రుడు జంభాసురుడిపై ఉన్నట్లు, బడబాగ్ని సముద్రంపై ఉన్నట్లు, రఘుకులరాజు రావణుడిపై ఉన్నట్లు, అలాంటివాడు శివాజీ. వాయువు మేఘాలపై ఉన్నట్లు, శంభుడు కామదేవుడిపై ఉన్నట్లు, పరశురాముడు సహస్రబాహుడిపై ఉన్నట్లు, అలాంటివాడు శివాజీ.',
       },
@@ -25,12 +25,12 @@ export const indraJimiJambhPar = {
       type: 'kavitt',
       num: 2,
       original:
-        'दावा दृमदंड पर, चीता मृगझुंड पर, भूषण वितुंड पर, जैसे मृगराज है।\nतेज तमअंस पर, कन्ह जिमि कंस पर, त्यों म्लेंच्छ बंस पर, शेर शिवराज है॥',
+        'दावा द्रुमदंड पर, चीता मृगझुंड पर, भूषण वितुंड पर, जैसे मृगराज है।\nतेज तमअंस पर, कन्ह जिमि कंस पर, त्यों म्लेंच्छ बंस पर, शेर शिवराज है॥',
       transliteration:
         'Daava drumdand par, Cheeta mrigajhund par, Bhushan vitund par, jaise mrigraj hai.\nTej tam-ans par, Kanh jimi Kans par, tyon mlechchh-bans par, Sher Shivaraj hai.',
       script: {
         od: 'ଦାବା ଦ୍ରୁମ ଦଣ୍ଡ ପର, ଚୀତା ମୃଗ ଝୁଣ୍ଡ ପର, ଭୂଷଣ ବିତୁଣ୍ଡ ପର, ଜୈସେ ମୃଗ ରାଜ ହୈ।\nତେଜ ତମ ଅଂସ ପର, କନ୍ହ ଜିମି କଂସ ପର, ତ୍ୟୋଁ ମ୍ଲେଚ୍ଛ ବଂସ ପର, ଶେର ଶିବ ରାଜ ହୈ॥',
-        te: 'దావా డ్రుమ్ దండ పర, చీతా మృగఝుండ పర, భూషణ విటుండ పర, జైసే మృగరాజ్ హై।\nతేజ్ తమ అంస పర, కన్హ జిమి కంస పర, త్యో మ్లేచ్ఛ బంస పర, శేర్ శివరాజ్ హై॥',
+        te: 'దావా ద్రుమ్ దండ పర, చీతా మృగఝుండ పర, భూషణ వితుండ పర, జైసే మృగరాజ్ హై।\nతేజ్ తమ అంస పర, కన్హ జిమి కంస పర, త్యో మ్లేచ్ఛ బంస పర, శేర్ శివరాజ్ హై॥',
       },
       meaning: {
         en: 'As a forest fire is to the trees, as a cheetah is to a herd of deer, as a lion (says Bhushan) is to elephants, so is Shivaji the lion-king. As a ray of light destroys darkness, as Krishna destroyed Kansa, so does the Tiger Shivaji destroy the clan of the mlechchhas (foreign invaders).',

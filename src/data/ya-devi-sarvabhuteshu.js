@@ -44,14 +44,14 @@ Jyotsnayai Chendurupinyai Sukhayai Satatam Namah`,
     },
     {
       id: 3, type: 'shloka', num: 3,
-      original: `कल्याण्यै प्रणता वृद्ध्यै सिद्ध्यै कुर्मो नमो नमः।
+      original: `कल्याण्यै प्रणतां वृद्ध्यै सिद्ध्यै कुर्मो नमो नमः।
 नैर्ऋत्यै भूभृतां लक्ष्म्यै शर्वाण्यै ते नमो नमः॥`,
-      transliteration: `Kalyanyai Pranata Vriddhyai Siddhyai Kurmo Namo Namah
+      transliteration: `Kalyanyai Pranatam Vriddhyai Siddhyai Kurmo Namo Namah
 Nairrityai Bhubhritam Lakshmyai Sharvanyai Te Namo Namah`,
       script: {
-        od: `କଲ୍ୟାଣ୍ୟୈ ପ୍ରଣତା ବୃଦ୍ଧ୍ୟୈ ସିଦ୍ଧ୍ୟୈ କୁର୍ମୋ ନମୋ ନମଃ।
+        od: `କଲ୍ୟାଣ୍ୟୈ ପ୍ରଣତାଂ ବୃଦ୍ଧ୍ୟୈ ସିଦ୍ଧ୍ୟୈ କୁର୍ମୋ ନମୋ ନମଃ।
 ନୈର୍ଋତ୍ୟୈ ଭୂଭୃତାଂ ଲକ୍ଷ୍ମ୍ୟୈ ଶର୍ବାଣ୍ୟୈ ତେ ନମୋ ନମଃ॥`,
-        te: `కల్యాణ్యై ప్రణతా వృద్ధ్యై సిద్ధ్యై కుర్మో నమో నమః।
+        te: `కల్యాణ్యై ప్రణతాం వృద్ధ్యై సిద్ధ్యై కుర్మో నమో నమః।
 నైర్ఋత్యై భూభృతాం లక్ష్మ్యై శర్వాణ్యై తే నమో నమః॥`,
       },
       meaning: {
@@ -534,6 +534,44 @@ Namastasyai Namastasyai Namastasyai Namo Namah`,
         hi: `जो देवी चैतन्य (चिति) रूप से इस सम्पूर्ण जगत को व्याप्त करके स्थित हैं, उन्हें बार-बार नमस्कार है।`,
         od: `ଯେଉଁ ଦେବୀ ଚିତି (ଚୈତନ୍ୟ) ରୂପରେ ଏହି ସମଗ୍ର ଜଗତକୁ ବ୍ୟାପ୍ତ କରି ସ୍ଥିତ, ତାଙ୍କୁ ବାରମ୍ବାର ନମସ୍କାର।`,
         te: `చితి (చైతన్య) రూపంలో ఈ సమస్త జగత్తును వ్యాపించి ఉన్న దేవికి మాటిమాటికి నమస్కారం.`,
+      },
+    },
+    {
+      id: 29, type: 'shloka', num: 29,
+      original: `स्तुता सुरैः पूर्वमभीष्टसंश्रयात्तथा सुरेन्द्रेण दिनेषु सेविता।
+करोतु सा नः शुभहेतुरीश्वरी शुभानि भद्राण्यभिहन्तु चापदः॥`,
+      transliteration: `Stuta Surai Purvamabhishtasamshrayattatha Surendrena Dineshu Sevita
+Karotu Sa Nah Shubhaheturishvari Shubhani Bhadranyabhihantu Chapadah`,
+      script: {
+        od: `ସ୍ତୁତା ସୁରୈଃ ପୂର୍ୱମଭୀଷ୍ଟସଂଶ୍ରୟାତ୍ତଥା ସୁରେନ୍ଦ୍ରେଣ ଦିନେଷୁ ସେୱିତା।
+କରୋତୁ ସା ନଃ ଶୁଭହେତୁରୀଶ୍ୱରୀ ଶୁଭାନି ଭଦ୍ରାଣ୍ୟଭିହନ୍ତୁ ଚାପଦଃ॥`,
+        te: `స్తుతా సురైః పూర్వమభీష్టసంశ్రయాత్తథా సురేన్ద్రేణ దినేషు సేవితా।
+కరోతు సా నః శుభహేతురీశ్వరీ శుభాని భద్రాణ్యభిహన్తు చాపదః॥`,
+      },
+      meaning: {
+        en: `May the Goddess whom the gods praised in the past when they sought refuge in her for their wishes, and whom Indra served over many days, become the source of our good fortune. May that sovereign Goddess bring us auspicious and blessed things and drive away our misfortunes.`,
+        hi: `जिन देवी की स्तुति देवताओं ने पहले अपनी इच्छाओं की पूर्ति के लिए शरण लेकर की थी और जिनकी इन्द्र ने अनेक दिनों तक सेवा की थी, वे ईश्वरी हमारे कल्याण का कारण बनें, हमें शुभ और मंगलकारी फल दें और हमारी विपत्तियों को दूर करें।`,
+        od: `ଯେଉଁ ଦେବୀଙ୍କୁ ଦେବତାମାନେ ପୂର୍ବେ ନିଜ ଅଭୀଷ୍ଟ ପାଇଁ ଶରଣ ନେଇ ସ୍ତୁତି କରିଥିଲେ ଏବଂ ଯାହାଙ୍କୁ ଇନ୍ଦ୍ର ଅନେକ ଦିନ ଧରି ସେବା କରିଥିଲେ, ସେହି ଈଶ୍ୱରୀ ଆମର ମଙ୍ଗଳର କାରଣ ହୁଅନ୍ତୁ, ଆମକୁ ଶୁଭ ଓ କଲ୍ୟାଣ ଦିଅନ୍ତୁ ଏବଂ ଆମର ବିପଦ ଦୂର କରନ୍ତୁ।`,
+        te: `పూర్వం దేవతలు తమ కోరికల కోసం శరణు పొంది ఏ దేవిని స్తుతించారో, ఇంద్రుడు అనేక రోజులు ఏ దేవిని సేవించాడో, ఆ ఈశ్వరి మాకు శుభకారణమై ఉండుగాక; మాకు శుభాలను, మంగళాలను ప్రసాదించి ఆపదలను తొలగించుగాక.`,
+      },
+    },
+    {
+      id: 30, type: 'shloka', num: 30,
+      original: `या साम्प्रतं चोद्धतदैत्यतापितैरस्माभिरीशा च सुरैर्नमस्यते।
+या च स्मृता तत्क्षणमेव हन्ति नः सर्वापदो भक्तिविनम्रमूर्तिभिः॥`,
+      transliteration: `Ya Sampratam Choddhatadaityatapitairasmabhirisha Cha Surairnamasyate
+Ya Cha Smrita Tatkshanameva Hanti Nah Sarvapado Bhaktivinamramurtibhih`,
+      script: {
+        od: `ୟା ସାମ୍ପ୍ରତଂ ଚୋଦ୍ଧତଦୈତ୍ୟତାପିତୈରସ୍ମାଭିରୀଶା ଚ ସୁରୈର୍ନମସ୍ୟତେ।
+ୟା ଚ ସ୍ମୃତା ତତ୍କ୍ଷଣମେୱ ହନ୍ତି ନଃ ସର୍ୱାପଦୋ ଭକ୍ତିୱିନମ୍ରମୂର୍ତିଭିଃ॥`,
+        te: `యా సామ్ప్రతం చోద్ధతదైత్యతాపితైరస్మాభిరీశా చ సురైర్నమస్యతే।
+యా చ స్మృతా తత్క్షణమేవ హన్తి నః సర్వాపదో భక్తివినమ్రమూర్తిభిః॥`,
+      },
+      meaning: {
+        en: `She whom we gods now bow to, troubled as we are by arrogant demons, and who removes all our dangers the very moment she is remembered by those who bow before her in devotion: to that Goddess, our salutation.`,
+        hi: `उद्दण्ड दैत्यों से पीड़ित हम देवता इस समय जिन देवी को नमस्कार करते हैं, और जो भक्ति से विनम्र होकर स्मरण करने वालों की सब विपत्तियाँ उसी क्षण हर लेती हैं, उन देवी को हमारा प्रणाम।`,
+        od: `ଉଦ୍ଧତ ଦୈତ୍ୟମାନଙ୍କ ଦ୍ୱାରା ପୀଡ଼ିତ ଆମେ ଦେବତାମାନେ ବର୍ତ୍ତମାନ ଯେଉଁ ଦେବୀଙ୍କୁ ନମସ୍କାର କରୁଛୁ, ଏବଂ ଭକ୍ତିରେ ବିନମ୍ର ହୋଇ ସ୍ମରଣ କଲେ ଯେ ସେହି କ୍ଷଣରେ ସମସ୍ତ ବିପଦ ହରଣ କରନ୍ତି, ସେହି ଦେବୀଙ୍କୁ ପ୍ରଣାମ।`,
+        te: `గర్వితులైన రాక్షసుల వల్ల బాధపడుతున్న మేము దేవతలం ఇప్పుడు ఏ దేవికి నమస్కరిస్తున్నామో, భక్తితో వినమ్రులై స్మరించినప్పుడు ఏ దేవి ఆ క్షణంలోనే సమస్త ఆపదలను హరిస్తుందో, ఆ దేవికి ప్రణామం.`,
       },
     },
   ],

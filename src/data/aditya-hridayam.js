@@ -32,12 +32,12 @@ export const adityaHridayam = {
       type: 'shloka',
       num: 2,
       transliteration:
-        'Daivataishcha Samagamya Drashtum Abhyagato Ranam\nUpagamya Abraveeddramam Agastyo Bhagavanstada',
+        'Daivataishcha Samagamya Drashtum Abhyagato Ranam\nUpagamya Abraveeddramam Agastyo Bhagavan Rishih',
       original:
-        'दैवतैश्च समागम्य द्रष्टुमभ्यागतो रणम्।\nउपागम्याब्रवीद् रामं अगस्त्यो भगवांस्तदा॥',
+        'दैवतैश्च समागम्य द्रष्टुमभ्यागतो रणम्।\nउपागम्याब्रवीद् रामं अगस्त्यो भगवान् ऋषिः॥',
       script: {
-        od: 'ଦୈବତୈଶ୍ଚ ସମାଗମ୍ୟ ଦ୍ରଷ୍ଟୁମଭ୍ୟାଗତୋ ରଣମ୍।\nଉପାଗମ୍ୟାବ୍ରବୀଦ୍ ରାମଂ ଅଗସ୍ତ୍ୟୋ ଭଗବାଂସ୍ତଦା॥',
-        te: 'దైవతైశ్చ సమాగమ్య ద్రష్టుమ్ అభ్యాగతో రణం।\nఉపాగమ్య అబ్రవీద్ రామం అగస్త్యో భగవాంస్తదా॥',
+        od: 'ଦୈବତୈଶ୍ଚ ସମାଗମ୍ୟ ଦ୍ରଷ୍ଟୁମଭ୍ୟାଗତୋ ରଣମ୍।\nଉପାଗମ୍ୟାବ୍ରବୀଦ୍ ରାମଂ ଅଗସ୍ତ୍ୟୋ ଭଗବାନ୍ ଋଷିଃ॥',
+        te: 'దైవతైశ్చ సమాగమ్య ద్రష్టుమ్ అభ్యాగతో రణం।\nఉపాగమ్య అబ్రవీద్ రామం అగస్త్యో భగవాన్ ఋషిః॥',
       },
       meaning: {
         en: `The divine sage Agastya, who had come together with all the gods to witness the battle, approached Lord Ram at that moment and spoke these powerful words that would change the course of the war.`,
@@ -70,12 +70,12 @@ export const adityaHridayam = {
       type: 'shloka',
       num: 4,
       transliteration:
-        'Aditya Hridayam Punyam Sarva Shatru Vinashanam\nJayavaham Japennityam Akshayam Paramam Shivam',
+        'Aditya Hridayam Punyam Sarva Shatru Vinashanam\nJayavaham Japennityam Akshayyam Paramam Shivam',
       original:
-        'आदित्यहृदयं पुण्यं सर्वशत्रुविनाशनम्।\nजयावहं जपेन्नित्यं अक्षयं परमं शिवम्॥',
+        'आदित्यहृदयं पुण्यं सर्वशत्रुविनाशनम्।\nजयावहं जपेन्नित्यं अक्षय्यं परमं शिवम्॥',
       script: {
-        od: 'ଆଦିତ୍ୟହୃଦୟଂ ପୁଣ୍ୟଂ ସର୍ବଶତ୍ରୁବିନାଶନମ୍।\nଜୟାବହଂ ଜପେନ୍ନିତ୍ୟଂ ଅକ୍ଷୟଂ ପରମଂ ଶିବମ୍॥',
-        te: 'ఆదిత్య హృదయం పుణ్యం సర్వ శత్రు వినాశనం।\nజయావహం జపేన్నిత్యం అక్షయం పరమం శివం॥',
+        od: 'ଆଦିତ୍ୟହୃଦୟଂ ପୁଣ୍ୟଂ ସର୍ବଶତ୍ରୁବିନାଶନମ୍।\nଜୟାବହଂ ଜପେନ୍ନିତ୍ୟଂ ଅକ୍ଷୟ୍ୟଂ ପରମଂ ଶିବମ୍॥',
+        te: 'ఆదిత్య హృదయం పుణ్యం సర్వ శత్రు వినాశనం।\nజయావహం జపేన్నిత్యం అక్షయ్యం పరమం శివం॥',
       },
       meaning: {
         en: `The Aditya Hridayam is sacred and destroys all enemies. Chanting it daily brings victory, it is imperishable (Akshayam) and grants supreme auspiciousness (Paramam Shivam). O Ram, this is the heart-secret of the Sun God.`,
@@ -165,12 +165,12 @@ export const adityaHridayam = {
       type: 'shloka',
       num: 9,
       transliteration:
-        'Pitaro Vasavah Sadhya Ashvinou Maruto Manuh\nVayur Vahnih Praja Pranah Ritukarta Prabhakara',
+        'Pitaro Vasavah Sadhya Hyashvinou Maruto Manuh\nVayur Vahnih Praja Pranah Ritukarta Prabhakara',
       original:
-        'पितरो वसवः साध्या अश्विनौ मरुतो मनुः।\nवायुर्वह्निः प्रजाप्राण ऋतुकर्ता प्रभाकरः॥',
+        'पितरो वसवः साध्या ह्यश्विनौ मरुतो मनुः।\nवायुर्वह्निः प्रजाप्राण ऋतुकर्ता प्रभाकरः॥',
       script: {
-        od: 'ପିତରୋ ବସବଃ ସାଧ୍ୟା ଅଶ୍ୱିନୌ ମରୁତୋ ମନୁଃ।\nବାୟୁର୍ବହ୍ନିଃ ପ୍ରଜାପ୍ରାଣ ଋତୁକର୍ତ୍ତା ପ୍ରଭାକରଃ॥',
-        te: 'పితరో వసవః సాధ్యా అశ్వినౌ మరుతో మనుః।\nవాయుర్వహ్నిః ప్రజాప్రాణ ఋతు కర్తా ప్రభాకరః॥',
+        od: 'ପିତରୋ ବସବଃ ସାଧ୍ୟା ହ୍ୟଶ୍ୱିନୌ ମରୁତୋ ମନୁଃ।\nବାୟୁର୍ବହ୍ନିଃ ପ୍ରଜାପ୍ରାଣ ଋତୁକର୍ତ୍ତା ପ୍ରଭାକରଃ॥',
+        te: 'పితరో వసవః సాధ్యా హ్యశ్వినౌ మరుతో మనుః।\nవాయుర్వహ్నిః ప్రజాప్రాణ ఋతు కర్తా ప్రభాకరః॥',
       },
       meaning: {
         en: `The Sun is the Pitaras (ancestors), the Vasus (eight elemental gods), the Sadhyas, the twin Ashvins (divine physicians), the Maruts (wind gods), Manu (the primal human), Vayu (wind), Agni (fire), the life-breath of all beings, the creator of seasons, and the brilliant Prabhakara.`,
@@ -547,10 +547,10 @@ export const adityaHridayam = {
       transliteration:
         'Aadityam Prekshya Japtvaa Tu Param Harsham Avaaptavan\nTriraachamya Shuchir Bhootvaa Dhanuradaya Veerayaan',
       original:
-        'आदित्यं प्रेक्ष्य जप्त्वा च परं हर्षमवाप्तवान्।\nत्रिराचम्य शुचिर्भूत्वा धनुरादाय वीर्यवान्॥',
+        'आदित्यं प्रेक्ष्य जप्त्वा तु परं हर्षमवाप्तवान्।\nत्रिराचम्य शुचिर्भूत्वा धनुरादाय वीर्यवान्॥',
       script: {
-        od: 'ଆଦିତ୍ୟଂ ପ୍ରେକ୍ଷ୍ୟ ଜପ୍ତ୍ୱା ଚ ପରଂ ହର୍ଷମବାପ୍ତବାନ୍।\nତ୍ରିରାଚମ୍ୟ ଶୁଚିର୍ଭୂତ୍ୱା ଧନୁରାଦାୟ ବୀର୍ୟବାନ୍॥',
-        te: 'ఆదిత్యం ప్రేక్ష్య జప్త్వా చ పరం హర్షమ్ అవాప్తవాన్।\nత్రిరాచమ్య శుచిర్భూత్వా ధనురాదాయ వీర్యవాన్॥',
+        od: 'ଆଦିତ୍ୟଂ ପ୍ରେକ୍ଷ୍ୟ ଜପ୍ତ୍ୱା ତୁ ପରଂ ହର୍ଷମବାପ୍ତବାନ୍।\nତ୍ରିରାଚମ୍ୟ ଶୁଚିର୍ଭୂତ୍ୱା ଧନୁରାଦାୟ ବୀର୍ୟବାନ୍॥',
+        te: 'ఆదిత్యం ప్రేక్ష్య జప్త్వా తు పరం హర్షమ్ అవాప్తవాన్।\nత్రిరాచమ్య శుచిర్భూత్వా ధనురాదాయ వీర్యవాన్॥',
       },
       meaning: {
         en: `Looking at the Sun and chanting the prayer, Ram attained supreme joy. He sipped water three times (Achaman, a purification ritual), became pure, and the valiant Ram took up his bow. He was now fully energized and purified for the final battle.`,
@@ -564,12 +564,12 @@ export const adityaHridayam = {
       type: 'shloka',
       num: 30,
       transliteration:
-        'Ravanam Prekshya Hrishtatmaa Yuddhaya Samupagamat\nSarva Yatnena Mahata Vadhe Tasya Dhritotsavah',
+        'Ravanam Prekshya Hrishtatmaa Yuddhaya Samupagamat\nSarva Yatnena Mahata Vadhe Tasya Dhrito Abhavat',
       original:
-        'रावणं प्रेक्ष्य हृष्टात्मा युद्धाय समुपागमत्।\nसर्वयत्नेन महता वधे तस्य धृतोत्सवः॥',
+        'रावणं प्रेक्ष्य हृष्टात्मा युद्धाय समुपागमत्।\nसर्वयत्नेन महता वधे तस्य धृतोऽभवत्॥',
       script: {
-        od: 'ରାବଣଂ ପ୍ରେକ୍ଷ୍ୟ ହୃଷ୍ଟାତ୍ମା ଯୁଦ୍ଧାୟ ସମୁପାଗମତ୍।\nସର୍ବଯତ୍ନେନ ମହତା ବଧେ ତସ୍ୟ ଧୃତୋତ୍ସବଃ॥',
-        te: 'రావణం ప్రేక్ష్య హృష్టాత్మా యుద్ధాయ సముపాగమత్।\nసర్వ యత్నేన మహతా వధే తస్య ధృతోత్సవః॥',
+        od: 'ରାବଣଂ ପ୍ରେକ୍ଷ୍ୟ ହୃଷ୍ଟାତ୍ମା ଯୁଦ୍ଧାୟ ସମୁପାଗମତ୍।\nସର୍ବଯତ୍ନେନ ମହତା ବଧେ ତସ୍ୟ ଧୃତୋଽଭବତ୍॥',
+        te: 'రావణం ప్రేక్ష్య హృష్టాత్మా యుద్ధాయ సముపాగమత్।\nసర్వ యత్నేన మహతా వధే తస్య ధృతోఽభవత్॥',
       },
       meaning: {
         en: `With a joyful soul, Ram advanced toward Ravana for battle with great determination. With all his might and utmost effort he was resolved to slay Ravana. The transformation in Ram, from exhausted and sorrowful to joyful and determined, was complete.`,

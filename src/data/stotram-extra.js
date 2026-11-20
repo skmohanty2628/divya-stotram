@@ -491,7 +491,7 @@ export const STOTRAM_EXTRA = {
     meaning: `The refrain says that the Goddess lives in every being under many names and forms, and the gods bow to her each time. She is named as consciousness, intellect, sleep, hunger, shadow, power, thirst, forbearance, birth, modesty, peace, faith, radiance, prosperity, livelihood, memory, compassion, contentment, mother and delusion. The list includes gentle qualities and also hunger, thirst and delusion, which shows that the text sees the Goddess as present in all the ways life is experienced. The opening stanzas bow to her fierce and gentle aspects, and the closing two stanzas say she presides over the senses of all beings and pervades the whole world as pure consciousness.`,
     benefits: [
       'A well-known verse of praise that many devotees recite during Navaratri',
-      'Easy to learn, because 21 of the 28 stanzas share the same second line',
+      'Easy to learn, because 21 of the 30 stanzas share the same second line',
       'Draws attention to the Goddess as present in everyday qualities such as memory, peace and compassion',
       'Often recited before or after the Durga Saptashati and other Devi hymns',
       'Open to everyone, with no initiation needed for simple recitation',
@@ -499,7 +499,7 @@ export const STOTRAM_EXTRA = {
     bestTime: `No fixed time or count is laid down. Many devotees recite it during the nine nights of Navaratri, on Durga Ashtami, or on Fridays, and some include it in their morning prayers. The full hymn takes about ten minutes to chant slowly.`,
     faqs: [
       { q: 'Where does Ya Devi Sarvabhuteshu come from?', a: 'It comes from chapter 5 of the Devi Mahatmya (Durga Saptashati), which is part of the Markandeya Purana. The gods sing it to the Goddess after the demons Shumbha and Nishumbha have driven them out of heaven.' },
-      { q: 'How many stanzas does it have?', a: 'This page gives 28 stanzas as printed in the editions checked: five opening stanzas, twenty-one refrain stanzas, and two closing stanzas. Printed editions of the longer Chandi chapter number the verses differently, and some recitations give only a few of the refrain stanzas.' },
+      { q: 'How many stanzas does it have?', a: 'This page gives 30 stanzas as printed in the two editions checked (Drik Panchang and Sanskrit Documents): a set of opening stanzas, the refrain stanzas, and closing prayers. Printed editions of the longer Chandi chapter number the verses differently, and some recitations give only a few of the refrain stanzas.' },
       { q: 'Is this the same as the Devi Sukta of the Rigveda?', a: 'No. The Rigvedic Devi Sukta is a separate hymn in the tenth book of the Rigveda. The hymn on this page is the Devi Stuti of the Chandi Path, which some editions also call Devi Suktam.' },
       { q: 'Why do some editions spell a few words differently?', a: 'Editions differ in small spellings such as vriddhyai or vriddhayai, and in how the compound vyaptidevyai in stanza 27 is split. The meaning is the same in each case.' },
       { q: 'Can it be chanted outside Navaratri?', a: 'Yes. It is a hymn of praise and can be recited on any day. Navaratri is simply when it is most often heard.' },

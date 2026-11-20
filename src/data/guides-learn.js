@@ -3,74 +3,137 @@
 
 export const GUIDES_LEARN = [
   {
-    slug: 'stotram-mantra-chalisa-aarti-difference',
-    category: 'Understanding practice',
-    title: 'Stotram, Mantra, Chalisa, Aarti and Ashtakam: What Is the Difference?',
-    description:
-      'A plain-language guide to the names of Hindu devotional texts: stotram, mantra, chalisa, aarti, ashtakam, kavacham, sahasranama and bhajan, with a well-known example of each.',
-    h1: 'Stotram, Mantra, Chalisa, Aarti and Ashtakam: What Is the Difference?',
-    intro:
-      'Visit any devotional site and you meet a string of unfamiliar words. They are not interchangeable: each names a different kind of text with its own form, length and purpose. Knowing the difference helps you choose what to recite and understand what you are reading.',
-    sections: [
+    "slug": "stotram-mantra-chalisa-aarti-difference",
+    "category": "Understanding practice",
+    "title": "Stotram, Mantra, Chalisa, Aarti and Ashtakam: What Is the Difference?",
+    "description": "A plain guide to the names of Hindu devotional texts: stotram, mantra, chalisa, aarti, ashtakam, kavacham, sahasranama and bhajan, with a well-known example of each.",
+    "h1": "Stotram, Mantra, Chalisa, Aarti and Ashtakam: What Is the Difference?",
+    "intro": "Visit any devotional site and you meet a string of unfamiliar words. They are not interchangeable: each names a different kind of text with its own form, length and purpose. Knowing the difference helps you choose what to recite and understand what you are reading.",
+    "sections": [
       {
-        h: 'Mantra: a short sacred formula',
-        p: [
-          `A mantra is a short phrase, syllable or verse repeated for focus and devotion. Om Namah Shivaya and Om Gam Ganapataye Namah are mantras. The Gayatri Mantra is a single verse from the Rig Veda, one of the oldest and most widely chanted. Mantras are usually repeated many times, often counted on a mala of 108 beads.`,
-        ],
+        "h": "Mantra: a short sacred formula",
+        "p": [
+          "A mantra is a short phrase, syllable or verse repeated for focus and devotion. Om Namah Shivaya and Om Gam Ganapataye Namah are mantras. The Gayatri Mantra is a single verse from the Rig Veda, one of the oldest and most widely chanted. Mantras are usually repeated many times, often counted on a mala of 108 beads."
+        ]
       },
       {
-        h: 'Stotram: a hymn of praise',
-        p: [
-          `Stotram (also written stotra) comes from the Sanskrit root meaning to praise. A stotram is a composed hymn that describes the qualities, deeds and forms of a deity. It is usually in verse, often in Sanskrit, and is meant to be recited or sung once through rather than repeated like a mantra. Examples on this site include the Shiva Tandava Stotram and the Ram Raksha Stotram.`,
-        ],
+        "h": "Stotram: a hymn of praise",
+        "p": [
+          "Stotram (also written stotra) comes from the Sanskrit root meaning to praise. A stotram is a composed hymn that describes the qualities, deeds and forms of a deity. It is usually in verse, often in Sanskrit, and is meant to be recited or sung once through rather than repeated like a mantra. Examples on this site include the Shiva Tandava Stotram and the Ram Raksha Stotram."
+        ]
       },
       {
-        h: 'Chalisa: forty verses',
-        p: [
-          `Chalisa comes from the Hindi word chalis, meaning forty. A chalisa is a devotional poem of about forty verses, usually in Awadhi or Hindi rather than Sanskrit, which made it easy for ordinary people to learn. The Hanuman Chalisa, attributed to the sixteenth-century poet Tulsidas, is the best-known example; the Shiv Chalisa follows the same pattern.`,
-        ],
+        "h": "Chalisa: forty verses",
+        "p": [
+          "Chalisa comes from the Hindi word chalis, meaning forty. A chalisa is a devotional poem of about forty verses, usually in Awadhi or Hindi rather than Sanskrit, which made it easy for ordinary people to learn. The Hanuman Chalisa, attributed to the sixteenth-century poet Tulsidas, is the best-known example; the Shiv Chalisa follows the same pattern."
+        ]
       },
       {
-        h: 'Ashtakam, kavacham and sahasranama',
-        p: [
-          `An ashtakam has eight verses (ashta means eight), such as the Mahalakshmi Ashtakam. A kavacham means armour: a prayer asking a deity for protection. A sahasranama is a litany of a thousand names of a deity; the Vishnu Sahasranamam, recited from the Mahabharata, is the most famous.`,
-        ],
+        "h": "Ashtakam, kavacham and sahasranama",
+        "p": [
+          "An ashtakam has eight verses (ashta means eight), such as the Mahalakshmi Ashtakam. A kavacham means armour: a prayer asking a deity for protection. A sahasranama is a litany of a thousand names of a deity; the Vishnu Sahasranamam, recited from the Mahabharata, is the most famous."
+        ]
       },
       {
-        h: 'Aarti and bhajan: worship in song',
-        p: [
-          `An aarti is sung while a lamp is waved before the image of a deity, usually at the end of a puja. Ganesh Aarti is a common example. A bhajan is a devotional song, often in a regional language and often sung in a group. Both are more about shared worship than formal recitation.`,
-        ],
+        "h": "Aarti and bhajan: worship in song",
+        "p": [
+          "An aarti is sung while a lamp is waved before the image of a deity, usually at the end of a puja. Ganesh Aarti is a common example. A bhajan is a devotional song, often in a regional language and often sung in a group. Both are more about shared worship than formal recitation."
+        ]
       },
       {
-        h: 'Which should a beginner choose?',
-        p: [
-          `Start with a short mantra to build the habit, then add one longer text you enjoy, such as a chalisa or a short stotram. Read the meaning first so the words are not just sounds. Our beginner routine shows how to combine them in ten minutes.`,
-        ],
+        "h": "Which should a beginner choose?",
+        "p": [
+          "Start with a short mantra to build the habit, then add one longer text you enjoy, such as a chalisa or a short stotram. Read the meaning first so the words are not just sounds. Our beginner routine shows how to combine them in ten minutes."
+        ]
       },
+      {
+        "h": "Where the words come from",
+        "p": [
+          "The vocabulary is easier to hold in mind once you see the roots. Mantra is commonly explained as man, mind, plus tra, a tool or instrument, so a mantra is a tool of the mind. Stotra comes from stu, to praise, and the genre has early traces in the Vedic tradition, especially around the Samaveda. Aarti is traced to the Sanskrit aratrika, glossed as the lamp rite that removes darkness, and it is also called Mahaniranjana. Chalisa is simply the Hindi chalis, forty, and ashtakam is from ashta, eight. Chalisa and ashtakam are named by their count, which is why each can be about any deity."
+        ]
+      },
+      {
+        "h": "Sung or recited: a practical difference",
+        "p": [
+          "Writers on the genre note that a stotra is meant to be sung with melody, whereas a shastra is meant to be recited. Most stotras that are not litanies repeat a line at the end of each verse, which gives them a pleasing return. A nama-stotra, such as a sahasranama listing a thousand names or a shorter list of 108, can also be repeated and so sits close to mantra practice. Practice varies, and a teacher or family may recite the same text slowly, sing it, or listen to it."
+        ]
+      },
+      {
+        "h": "Mantras across history",
+        "p": [
+          "In the Vedic period mantras were verses used in rituals, and some were used for practical aims such as health or safe travel. In later Hinduism they were more often recited to seek spiritual goals. Om is regarded as the basic mantra and is called pranava. Bija mantras are single syllables, such as gam for Ganesha or dum for Durga, which are traditionally given by a teacher at initiation. If you hold a bija mantra from your own teacher, follow that guidance, as lineages differ on this."
+        ]
+      },
+      {
+        "h": "The shape of the Hanuman Chalisa",
+        "p": [
+          "The Hanuman Chalisa is in Awadhi and credited to Tulsidas, a poet of the sixteenth century. It has 43 verses: two opening dohas, forty chaupais and a closing doha. The name refers to the forty chaupais. Roughly speaking, the early verses describe Hanuman's qualities, the middle ones his service to Rama, and the closing doha asks him to dwell in the heart with Rama, Lakshmana and Sita. Seeing the shape helps when you memorise it in sections."
+        ]
+      },
+      {
+        "h": "How an aarti is performed",
+        "p": [
+          "In an aarti a lit lamp is waved before the image of a deity, commonly clockwise, while a hymn is sung. The lamp may use ghee, oil or camphor. Afterwards it is brought to the worshippers, who hold their palms over the flame and then touch them to the forehead and eyes. Om Jai Jagdish Hare is often called the universal aarti because it is sung in many settings. Customs differ: Sikh arti kirtan is sung without ritual objects, Jain arti has its own form, and Durga Puja in Bengal includes the dhunuchi dance. If you want a step by step method, see our guide to performing aarti at home."
+        ]
+      },
+      {
+        "h": "A quick comparison",
+        "p": [
+          "Mantra: shortest, repeated, often counted. Stotra: a composed hymn of praise, usually Sanskrit and sung or recited through. Chalisa: a forty-verse Hindi poem. Ashtakam: eight verses. Kavacham: a prayer for protection. Sahasranama: a thousand names. Aarti: a lamp ritual with a song. Bhajan: a devotional song, often regional. In daily speech, people sometimes use these words loosely, and a text may belong to more than one category."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Is a stotram the same as a mantra?',
-        a: 'No. A mantra is a short formula repeated many times; a stotram is a longer composed hymn of praise that is recited through.',
+        "q": "Is a stotram the same as a mantra?",
+        "a": "No. A mantra is a short formula repeated many times; a stotram is a longer composed hymn of praise that is recited through."
       },
       {
-        q: 'Why is it called Hanuman Chalisa?',
-        a: 'Chalisa comes from chalis, the Hindi word for forty, because the poem has forty verses (plus opening and closing couplets).',
+        "q": "Why is it called Hanuman Chalisa?",
+        "a": "Chalisa comes from chalis, the Hindi word for forty, because the poem has forty verses (plus opening and closing couplets)."
       },
       {
-        q: 'Do I need to know Sanskrit to recite a stotram?',
-        a: 'No. Transliteration lets you read the sounds, and a meaning in your own language helps you follow. Accuracy of pronunciation improves with listening and practice.',
+        "q": "Do I need to know Sanskrit to recite a stotram?",
+        "a": "No. Transliteration lets you read the sounds, and a meaning in your own language helps you follow. Accuracy of pronunciation improves with listening and practice."
       },
+      {
+        "q": "Is a chalisa a kind of stotra?",
+        "a": "People often use the words loosely, but stotra is a Sanskrit genre term and chalisa is a Hindi poem named by its forty verses. A chalisa does praise a deity, so the two overlap in purpose."
+      },
+      {
+        "q": "What does aarti literally mean?",
+        "a": "It comes from the Sanskrit aratrika, explained as the rite that removes darkness. It is also described as a ceremony of lights."
+      },
+      {
+        "q": "Can a stotram be repeated like a mantra?",
+        "a": "Nama-stotras, which list names, are often repeated, and many families repeat a favourite verse. Whether to do so is a matter of family or teacher guidance."
+      },
+      {
+        "q": "How many verses does the Hanuman Chalisa have in all?",
+        "a": "43: two opening dohas, forty chaupais and a closing doha."
+      }
     ],
-    related: {
-      stotrams: ['hanuman-chalisa', 'shiva-tandav', 'gayatri-mantra'],
-      guides: ['spiritual-routine-for-beginners', 'mantra-chanting-rules-faq'],
+    "related": {
+      "stotrams": [
+        "hanuman-chalisa",
+        "shiva-tandav",
+        "gayatri-mantra"
+      ],
+      "guides": [
+        "spiritual-routine-for-beginners",
+        "mantra-chanting-rules-faq",
+        "how-to-perform-aarti-at-home-guide",
+        "om-meaning-and-how-to-chant",
+        "hanuman-chalisa-history-tulsidas"
+      ]
     },
-    sources: [
-      'Monier-Williams, A Sanskrit-English Dictionary (entries: stotra, mantra, ashtaka, kavaca)',
-      'Tulsidas, Hanuman Chalisa (forty-verse structure)',
-    ],
+    "sources": [
+      "Monier-Williams, A Sanskrit-English Dictionary (entries: stotra, mantra, ashtaka, kavaca)",
+      "Tulsidas, Hanuman Chalisa (forty-verse structure)",
+      "Wikipedia, Stotra (etymology from stu, Vedic traces, sung against recited, nama-stotras; secondary source)",
+      "Wikipedia, Mantra, and Wikipedia, Arti (Hinduism) (etymology of mantra and aratrika, bija mantras, how aarti is performed and its variants; secondary sources)",
+      "Encyclopaedia Britannica, entry on arti (the ceremony of lights, lamp circled three times clockwise); Wikipedia, Hanuman Chalisa (43 verses: two dohas, forty chaupais, closing doha; Awadhi)"
+    ]
   },
 
   {
@@ -548,74 +611,134 @@ export const GUIDES_LEARN = [
   },
 
   {
-    slug: 'diwali-lakshmi-puja-guide',
-    category: 'Festivals',
-    title: 'Diwali Lakshmi Puja: Meaning, Five Days of the Festival and What to Chant',
-    description:
-      'A clear guide to Diwali: the five days from Dhanteras to Bhai Dooj, the meaning of Lakshmi Puja on the new moon night, regional differences, and the prayers and stotrams commonly recited.',
-    h1: 'Diwali and Lakshmi Puja: Meaning and What to Chant',
-    intro:
-      'Diwali, the festival of lights, is celebrated across India and by Hindu communities worldwide. Its central evening ritual in many homes is Lakshmi Puja. This guide explains the five days, the regional stories behind the festival and a simple way to worship.',
-    sections: [
+    "slug": "diwali-lakshmi-puja-guide",
+    "category": "Festivals",
+    "title": "Diwali Lakshmi Puja: Meaning, Five Days of the Festival and What to Chant",
+    "description": "A guide to Diwali and Lakshmi Puja: the five days, how the new moon date is fixed, the 2026 date, old textual references, Kali Puja in Odisha and a simple home puja.",
+    "h1": "Diwali and Lakshmi Puja: Meaning and What to Chant",
+    "intro": "Diwali, the festival of lights, is celebrated across India and by Hindu communities worldwide. Its central evening ritual in many homes is Lakshmi Puja. This guide explains the five days, the regional stories behind the festival and a simple way to worship.",
+    "sections": [
       {
-        h: 'When it falls',
-        p: [
-          `The main day of Diwali is the new moon (amavasya) night of the Hindu month of Kartika (Ashvin in the purnimanta calendar), usually in October or November. The exact date changes every year, and when the new moon spans two civil days the panchang of your region decides, since Lakshmi Puja is performed in the evening (pradosh) period.`,
-        ],
+        "h": "When it falls",
+        "p": [
+          "The main day of Diwali is the new moon (amavasya) night of the Hindu month of Kartika (Ashvin in the purnimanta calendar), usually in October or November. The exact date changes every year, and when the new moon spans two civil days the panchang of your region decides, since Lakshmi Puja is performed in the evening (pradosh) period."
+        ]
       },
       {
-        h: 'The five days',
-        p: [
-          `Day 1 is Dhanteras (Dhantrayodashi), associated with wealth and with Dhanvantari, the physician of the gods. Day 2 is Naraka Chaturdashi, remembering the defeat of the demon Naraka. Day 3 is the main Diwali night with Lakshmi Puja. Day 4 is Govardhan Puja or Annakut in many regions, and the new year in Gujarat. Day 5 is Bhai Dooj, honouring the bond between brothers and sisters.`,
-        ],
+        "h": "The five days",
+        "p": [
+          "Day 1 is Dhanteras (Dhantrayodashi), associated with wealth and with Dhanvantari, the physician of the gods. Day 2 is Naraka Chaturdashi, remembering the defeat of the demon Naraka. Day 3 is the main Diwali night with Lakshmi Puja. Day 4 is Govardhan Puja or Annakut in many regions, and the new year in Gujarat. Day 5 is Bhai Dooj, honouring the bond between brothers and sisters."
+        ]
       },
       {
-        h: 'Different stories for different regions',
-        p: [
-          `In much of north India, Diwali celebrates the return of Rama to Ayodhya after fourteen years of exile, welcomed with rows of lamps. In many other regions the focus is on Lakshmi. In Bengal, Odisha and Assam the same night is mainly Kali Puja. Jains observe it as the day of Mahavira's liberation, and Sikhs celebrate Bandi Chhor Divas. The diversity is part of the festival.`,
-        ],
+        "h": "Different stories for different regions",
+        "p": [
+          "In much of north India, Diwali celebrates the return of Rama to Ayodhya after fourteen years of exile, welcomed with rows of lamps. In many other regions the focus is on Lakshmi. In Bengal, Odisha and Assam the same night is mainly Kali Puja. Jains observe it as the day of Mahavira's liberation, and Sikhs celebrate Bandi Chhor Divas. The diversity is part of the festival."
+        ]
       },
       {
-        h: 'A simple Lakshmi Puja at home',
-        p: [
-          `Clean the house, light lamps (diyas) at the entrance and around the home, and set up an image or idol of Lakshmi, often together with Ganesha. Offer flowers, sweets and fruit, light incense, and recite prayers. Many families also keep the account books or tools of their work near the altar as a sign of respect for livelihood. Wealth in this tradition is understood as welfare and well-being, not only money.`,
-        ],
+        "h": "A simple Lakshmi Puja at home",
+        "p": [
+          "Clean the house, light lamps (diyas) at the entrance and around the home, and set up an image or idol of Lakshmi, often together with Ganesha. Offer flowers, sweets and fruit, light incense, and recite prayers. Many families also keep the account books or tools of their work near the altar as a sign of respect for livelihood. Wealth in this tradition is understood as welfare and well-being, not only money."
+        ]
       },
       {
-        h: 'What to chant',
-        p: [
-          `Begin with a prayer to Ganesha, then recite the Mahalakshmi Ashtakam, the eight-verse hymn to Lakshmi, or the Shri Suktam. The simple mantra Om Shreem Mahalakshmiyei Namah can be repeated 108 times. A calm, sincere recitation with understanding of the meaning is better than a hurried long one.`,
-        ],
+        "h": "What to chant",
+        "p": [
+          "Begin with a prayer to Ganesha, then recite the Mahalakshmi Ashtakam, the eight-verse hymn to Lakshmi, or the Shri Suktam. The simple mantra Om Shreem Mahalakshmiyei Namah can be repeated 108 times. A calm, sincere recitation with understanding of the meaning is better than a hurried long one."
+        ]
       },
       {
-        h: 'Celebrating thoughtfully',
-        p: [
-          `Many people now choose lamps over loud firecrackers because of air-quality and noise concerns, especially for children, the elderly, animals and people with breathing problems. Sharing sweets and gifts and helping those in need are as much a part of Diwali as the puja.`,
-        ],
+        "h": "Celebrating thoughtfully",
+        "p": [
+          "Many people now choose lamps over loud firecrackers because of air-quality and noise concerns, especially for children, the elderly, animals and people with breathing problems. Sharing sweets and gifts and helping those in need are as much a part of Diwali as the puja."
+        ]
       },
+      {
+        "h": "How the date is fixed, and Diwali in 2026",
+        "p": [
+          "Lakshmi Puja is tied to the amavasya (new moon) tithi of the dark fortnight, and it is done in the evening, so the day chosen is the one on which amavasya covers the evening (pradosh) hours. Drik Panchang describes the date as the amavasya of Kartika in the purnimanta calendar, which is Ashwin in the amanta calendar. When the tithi runs across two civil days, almanacs can choose differently, which is why an Odia panjika and a north Indian calendar sometimes disagree.",
+          "For 2026, Drik Panchang lists Diwali on Sunday 8 November. News reports that cite Drik give the amavasya as beginning at 11:27 am on 8 November and ending at 12:31 pm on 9 November, with Dhanteras on 6 November and Naraka Chaturdashi on 7 November. The puja window differs by city (Drik shows 6:27 pm to 8:27 pm for Mumbai and 5:54 pm to 7:50 pm for New Delhi), so readers in the diaspora should look up the timing for their own town."
+        ]
+      },
+      {
+        "h": "What the old texts say",
+        "p": [
+          "Diwali has a long written history, though the stories attached to it are many. An overview on Sahapedia notes that the Padma Purana and the Skanda Purana place the lighting of lamps from the thirteenth day of Kartika in the purnimanta reckoning, and that the Skanda Purana connects the lamps with Yama. The Nilamata Purana, a Kashmiri text, describes rows of lamps and the worship of Lakshmi after sunset, though under a different festival name.",
+          "Outside the Puranas, the seventh-century play Nagananda by Harsha mentions Deepotsava and gift-giving, and the traveller Alberuni, writing around 1030, calls the festival Dibali. The same overview points out that the Ramayana and the Ramcharitmanas do not mention Diwali, so the popular link with Rama's return to Ayodhya is best understood as a tradition that grew later, held with sincere devotion in many homes."
+        ]
+      },
+      {
+        "h": "Lakshmi and Kali on the same night",
+        "p": [
+          "In Odisha, Bengal and Assam the new moon night of Kartika is also the night of Kali Puja, usually done late at night, and many Odia homes mark both goddesses. The Odia guide to Kali Puja on Dipabali amavasya explains this in more detail. In Odisha the same period also carries the ancestor-calling custom of Bada Badua Daka, when lamps are lit for the departed as well as for Lakshmi.",
+          "Almanac differences can show in Puri too. In 2024, a temple servitor told Odisha news channel OMM that confusion over almanac dates led to Kali Puja being observed on 31 October and Paya Shraddha and Diwali on 1 November at the Srimandira. This is a good reminder to check your local panjika instead of assuming one date for all of India."
+        ]
+      },
+      {
+        "h": "The puja in order",
+        "p": [
+          "Customs differ from family to family, but the sequence most households follow is simple. Clean the home and the threshold, light lamps at dusk, set the images of Lakshmi and Ganesha on a clean cloth, invoke Ganesha first, offer flowers, incense and a sweet, then recite the hymn or mantra you have chosen, close with an aarti and share the offering as prasad. Some families add Saraswati and Kubera to the altar, and traders often worship their account books on this evening. If you are unsure of any step, a family elder or a local priest can guide you."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Why is Lakshmi worshipped on Diwali?',
-        a: 'In many traditions Lakshmi, the goddess of prosperity, is believed to visit clean, well-lit homes on the new moon night, so families light lamps and welcome her.',
+        "q": "Why is Lakshmi worshipped on Diwali?",
+        "a": "In many traditions Lakshmi, the goddess of prosperity, is believed to visit clean, well-lit homes on the new moon night, so families light lamps and welcome her."
       },
       {
-        q: 'Is Diwali the same day everywhere?',
-        a: 'The main day is the same new moon night for most regions, but the second, fourth and fifth days and some customs vary by region.',
+        "q": "Is Diwali the same day everywhere?",
+        "a": "The main day is the same new moon night for most regions, but the second, fourth and fifth days and some customs vary by region."
       },
       {
-        q: 'Can I do Lakshmi Puja without a priest?',
-        a: 'Yes. Many families perform a simple puja themselves with lamps, flowers, an aarti and a recitation.',
+        "q": "Can I do Lakshmi Puja without a priest?",
+        "a": "Yes. Many families perform a simple puja themselves with lamps, flowers, an aarti and a recitation."
       },
+      {
+        "q": "What is the date of Diwali in 2026?",
+        "a": "Drik Panchang lists Sunday 8 November 2026 for Lakshmi Puja. Check your local panchang for the exact evening timing in your city."
+      },
+      {
+        "q": "Why do Odisha, Bengal and Assam also worship Kali on Diwali night?",
+        "a": "The same new moon night is sacred to Kali in these regions, so Kali Puja is done late at night, often alongside Lakshmi Puja at home."
+      },
+      {
+        "q": "Is the Rama story found in the old texts on Diwali?",
+        "a": "Scholarly overviews note that the Ramayana and Ramcharitmanas do not mention Diwali. The Rama story is a popular tradition in north India, while Puranic texts speak of lamps, Lakshmi and Yama."
+      },
+      {
+        "q": "I live outside India. Which timing should I use?",
+        "a": "Use the amavasya and evening timing listed for your own city, since sunset and the tithi change with location."
+      },
+      {
+        "q": "Why are account books worshipped?",
+        "a": "Merchants traditionally open new account books around Diwali and honour their books and tools as part of Lakshmi worship. It is a custom of respect for livelihood, not a promise of any result."
+      }
     ],
-    related: {
-      stotrams: ['mahalakshmi-ashtakam', 'ganesh-aarti'],
-      guides: ['lakshmi-mantra-friday-ritual', 'best-mantra-for-money', 'kali-puja-odisha-dipabali-amavasya-puri-guide', 'chhath-puja-surya-shashthi-guide', 'gopashtami-gopastami-cow-worship-guide'],
+    "related": {
+      "stotrams": [
+        "mahalakshmi-ashtakam",
+        "ganesh-aarti"
+      ],
+      "guides": [
+        "lakshmi-mantra-friday-ritual",
+        "best-mantra-for-money",
+        "kali-puja-odisha-dipabali-amavasya-puri-guide",
+        "chhath-puja-surya-shashthi-guide",
+        "gopashtami-gopastami-cow-worship-guide",
+        "kaunria-kathi-bada-badua-daka-odisha-guide",
+        "kartika-month-odisha-guide"
+      ]
     },
-    sources: [
-      'Kane, P.V., History of Dharmasastra, Vol. V (Dipavali)',
-      'Mahalakshmi Ashtakam (attributed to Indra, from the Padma Purana tradition)',
-    ],
+    "sources": [
+      "Kane, P.V., History of Dharmasastra, Vol. V (Dipavali)",
+      "Mahalakshmi Ashtakam (attributed to Indra, from the Padma Purana tradition)",
+      "Drik Panchang, Diwali page and Diwali 2026 listing, supports the 8 November 2026 date and the amavasya and Lakshmi Puja timing by city",
+      "Sahapedia, The Festival of Lights in Various Religious and Literary Texts of South Asia, supports references in the Padma, Skanda and Nilamata Puranas, Nagananda and Alberuni",
+      "Sahapedia, Diwali: Origins and the Evolution of the Festival of Lights, supports the meaning of Dipavali, Lakshmi and Kali Puja in Odisha, Bengal and Assam",
+      "OMM (Odisha), report on Paya Shraddha and Diwali at Puri Srimandira amid almanac date confusion, October 2024, supports the date difference in 2024"
+    ]
   },
 
   {
@@ -1890,85 +2013,148 @@ export const GUIDES_LEARN = [
   },
 
   {
-    slug: 'jagannath-ratha-yatra-puri-guide',
-    category: 'Festivals',
-    title: 'Jagannath Ratha Yatra in Puri: Meaning, the Three Chariots and the Rituals',
-    description:
-      'A guide to the Ratha Yatra of Lord Jagannath in Puri: when it is held, the three chariots Nandighosa, Taladhwaja and Darpadalana, Snana Purnima, Chhera Pahanra, the Gundicha Temple and Bahuda Yatra.',
-    h1: 'Jagannath Ratha Yatra in Puri: Meaning and Rituals',
-    intro:
-      'The Ratha Yatra of Puri is one of the best-known festivals in India and the most important in Odisha. Each year Lord Jagannath, his brother Balabhadra and his sister Subhadra leave the Srimandira on three great chariots and travel to the Gundicha Temple. This guide explains how the festival is timed, what happens on each stage, and the traditions that surround it.',
-    sections: [
+    "slug": "jagannath-ratha-yatra-puri-guide",
+    "category": "Festivals",
+    "title": "Jagannath Ratha Yatra in Puri: Meaning, the Three Chariots and the Rituals",
+    "description": "A guide to the Ratha Yatra in Puri: the date rule, three chariots, Anasara, Pahandi, Chhera Pahanra, Gundicha, Hera Panchami, Bahuda Yatra and Suna Besha.",
+    "h1": "Jagannath Ratha Yatra in Puri: Meaning and Rituals",
+    "intro": "The Ratha Yatra of Puri is one of the best-known festivals in India and the most important in Odisha. Each year Lord Jagannath, his brother Balabhadra and his sister Subhadra leave the Srimandira on three great chariots and travel to the Gundicha Temple. This guide explains how the festival is timed, what happens on each stage, and the traditions that surround it.",
+    "sections": [
       {
-        h: 'When the festival is held',
-        p: [
-          `The Ratha Yatra is held on the second day (dwitiya) of the bright fortnight of the month of Ashadha, which usually falls in June or July. Because the Hindu calendar is lunisolar, the date changes every year, and the temple authorities and the Odia panjika announce it. The festival is part of a longer cycle of rituals that begins weeks earlier.`,
-        ],
+        "h": "When the festival is held",
+        "p": [
+          "The Ratha Yatra is held on the second day (dwitiya) of the bright fortnight of the month of Ashadha, which usually falls in June or July. Because the Hindu calendar is lunisolar, the date changes every year, and the temple authorities and the Odia panjika announce it. The festival is part of a longer cycle of rituals that begins weeks earlier."
+        ]
       },
       {
-        h: 'Snana Purnima and the period of rest',
-        p: [
-          `On the full moon day of the month of Jyeshtha, called Snana Purnima, the deities are bathed in 108 pots of water drawn from a well within the temple precincts. After this public bathing, tradition says the deities fall ill and withdraw from public view for roughly two weeks, a period called Anavasara. During this time devotees cannot have the usual darshan, and the deities receive simple offerings. They reappear shortly before the Ratha Yatra.`,
-        ],
+        "h": "Snana Purnima and the period of rest",
+        "p": [
+          "On the full moon day of the month of Jyeshtha, called Snana Purnima, the deities are bathed in 108 pots of water drawn from a well within the temple precincts. After this public bathing, tradition says the deities fall ill and withdraw from public view for roughly two weeks, a period called Anavasara. During this time devotees cannot have the usual darshan, and the deities receive simple offerings. They reappear shortly before the Ratha Yatra."
+        ]
       },
       {
-        h: 'The three chariots',
-        p: [
-          `Three new chariots are built every year from specific kinds of wood by hereditary craftsmen. Lord Jagannath travels on Nandighosa, which has sixteen wheels. Balabhadra travels on Taladhwaja, with fourteen wheels, and Subhadra on Darpadalana, with twelve wheels. They stand roughly forty-three to forty-five feet tall, and each has its own colours and canopy. Accounts differ slightly on exact heights and on alternative names, so we give the figures as approximate.`,
-        ],
+        "h": "The three chariots",
+        "p": [
+          "Three new chariots are built every year from specific kinds of wood by hereditary craftsmen. Lord Jagannath travels on Nandighosa, which has sixteen wheels. Balabhadra travels on Taladhwaja, with fourteen wheels, and Subhadra on Darpadalana, with twelve wheels. They stand roughly forty-three to forty-five feet tall, and each has its own colours and canopy. Accounts differ slightly on exact heights and on alternative names, so we give the figures as approximate."
+        ]
       },
       {
-        h: 'Chhera Pahanra: the king sweeps the chariot',
-        p: [
-          `Before the chariots move, the Gajapati king of Puri performs Chhera Pahanra, sweeping the floor of each chariot with a golden-handled broom and sprinkling sandalwood water, before offering prayers. The ritual is understood as a statement that before the Lord, even the king is a servant, and it is one of the most cited customs of the festival.`,
-        ],
+        "h": "Chhera Pahanra: the king sweeps the chariot",
+        "p": [
+          "Before the chariots move, the Gajapati king of Puri performs Chhera Pahanra, sweeping the floor of each chariot with a golden-handled broom and sprinkling sandalwood water, before offering prayers. The ritual is understood as a statement that before the Lord, even the king is a servant, and it is one of the most cited customs of the festival."
+        ]
       },
       {
-        h: 'The journey to the Gundicha Temple',
-        p: [
-          `Thousands of devotees pull the chariots by ropes along the Grand Road, Bada Danda, to the Gundicha Temple, about two miles from the Srimandira. The Gundicha Temple is regarded as the Lord's garden house and as his aunt's home, and the deities stay there for around a week. Pulling a chariot rope is regarded as an act of devotion open to people of any background, which is one of the reasons the festival is so widely loved.`,
-        ],
+        "h": "The journey to the Gundicha Temple",
+        "p": [
+          "Thousands of devotees pull the chariots by ropes along the Grand Road, Bada Danda, to the Gundicha Temple, about two miles from the Srimandira. The Gundicha Temple is regarded as the Lord's garden house and as his aunt's home, and the deities stay there for around a week. Pulling a chariot rope is regarded as an act of devotion open to people of any background, which is one of the reasons the festival is so widely loved."
+        ]
       },
       {
-        h: 'Bahuda Yatra and after',
-        p: [
-          `The return journey is called Bahuda Yatra. On the way back the chariots halt briefly at the Mausi Maa temple, where tradition says the deities are offered poda pitha, a baked cake. After the return the deities are dressed in gold ornaments in the ceremony known as Suna Besha, worshipped on their chariots in view of the crowds. The cycle concludes with the deities re-entering the sanctum.`,
-        ],
+        "h": "Bahuda Yatra and after",
+        "p": [
+          "The return journey is called Bahuda Yatra. On the way back the chariots halt briefly at the Mausi Maa temple, where tradition says the deities are offered poda pitha, a baked cake. After the return the deities are dressed in gold ornaments in the ceremony known as Suna Besha, worshipped on their chariots in view of the crowds. The cycle concludes with the deities re-entering the sanctum."
+        ]
       },
       {
-        h: 'Taking part respectfully',
-        p: [
-          `The festival draws very large crowds, and visitors should follow the guidance of the temple administration and local authorities. Entry to the Srimandira itself is governed by temple rules. Many devotees who cannot travel observe the day at home by reading about Jagannath, singing bhajans or reciting the Jagannath Ashtakam, and Odia families around the world often hold small processions with a model chariot.`,
-        ],
+        "h": "Taking part respectfully",
+        "p": [
+          "The festival draws very large crowds, and visitors should follow the guidance of the temple administration and local authorities. Entry to the Srimandira itself is governed by temple rules. Many devotees who cannot travel observe the day at home by reading about Jagannath, singing bhajans or reciting the Jagannath Ashtakam, and Odia families around the world often hold small processions with a model chariot."
+        ]
       },
+      {
+        "h": "Building the chariots and the days of Anasara",
+        "p": [
+          "Chariot building starts on Akshaya Tritiya, with fire worship, and the three chariots are built fresh each year from specified trees. Encyclopaedic accounts name phassi and dhausa and say hereditary carpenters bring logs from the former state of Dasapalla; one account adds that the logs were traditionally rafted down the Mahanadi. We found the river detail in one source only.",
+          "During Anasara the deities are kept in a room called the Anasara Ghara. Deccan Chronicle describes servitors known as Daitapatis giving treatment, including a paste of the roots of ten plants called Dasamula, and temple painters retouching the images in private, a step known as Banaka Lagi. The fortnight ends with Netrotsava, the painting of the eyes, and Naba Jaubana (Naba Yauvana) Darshan, when the deities appear youthful. Devotees who cannot see the Lords in this period traditionally visit the Alarnath temple at Brahmagiri. For believers this is a ritual of care, not a medical matter."
+        ]
+      },
+      {
+        "h": "Pahandi and the pull",
+        "p": [
+          "On the day, the deities are carried out in Pahandi, a rhythmic procession with instruments and chanting. OdishaTV notes that Subhadra and Sudarshan are carried on the shoulders while Jagannath and Balabhadra move with pauses. After Chhera Pahanra the chariots are pulled to the Gundicha Temple. Nandighosa, Taladhwaja and Darpadalana are reported at about 44.2, 43.3 and 42.3 feet, with charioteers Daruka, Matali and Arjuna. On the way, Jagannath's chariot is reported to pause near the tomb of Salabeg, a devotee.",
+          "Wikipedia's account notes the Dahuka, who recites verses from the chariot, and that the Daitapatis hold nearly exclusive service rights in this period."
+        ]
+      },
+      {
+        "h": "At Gundicha and the return",
+        "p": [
+          "The fifth day of the bright fortnight is Hera Panchami, when Lakshmi is said to come to the Gundicha Temple, find the gate shut and break a part of Nandighosa in her displeasure. The practice is traced to the Skanda Purana in encyclopaedic summaries, and the Madala Panji is cited for a gold image of Lakshmi introduced under King Kapilendra Deva. Reports differ on counting: some say the Lords stay eight days at Gundicha, while others say about a week.",
+          "Bahuda Yatra follows, with the stop at Mausi Maa for poda pitha. Suna Besha takes place on Ashadha Shukla Ekadashi, when the deities, still on their chariots, wear gold ornaments. Jagannath holds a golden chakra and silver sankha, and Balabhadra a golden hala and gada, according to the Orissa Review. Adhara Pana, a sweet drink offered in large pots, falls on the same Ekadashi, and the closing rite is the return to the sanctum, called Niladri Bije, in which Lakshmi is said to bar the gate until Jagannath offers rasagolla."
+        ]
+      },
+      {
+        "h": "The date in 2026",
+        "p": [
+          "The festival follows the Ashadha Shukla Dwitiya rule above, so the date moves between years. The Odisha Tourism listing on the Incredible India site gives 16 July 2026, and a news report says the festival began that day. In other years it can be in June or early July, so use the temple's announcement for the year you are travelling."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'On which day is the Ratha Yatra held?',
-        a: 'On the second day of the bright fortnight of Ashadha, usually in June or July. The exact date changes each year.',
+        "q": "On which day is the Ratha Yatra held?",
+        "a": "On the second day of the bright fortnight of Ashadha, usually in June or July. The exact date changes each year."
       },
       {
-        q: 'What are the names of the three chariots?',
-        a: 'Nandighosa for Jagannath, Taladhwaja for Balabhadra and Darpadalana for Subhadra.',
+        "q": "What are the names of the three chariots?",
+        "a": "Nandighosa for Jagannath, Taladhwaja for Balabhadra and Darpadalana for Subhadra."
       },
       {
-        q: 'What is Chhera Pahanra?',
-        a: 'It is the ritual in which the Gajapati king sweeps the chariots before they move, as a sign of humility before the Lord.',
+        "q": "What is Chhera Pahanra?",
+        "a": "It is the ritual in which the Gajapati king sweeps the chariots before they move, as a sign of humility before the Lord."
       },
       {
-        q: 'Where do the deities go during the festival?',
-        a: 'They travel to the Gundicha Temple, about two miles from the main temple, stay for about a week, and return in the Bahuda Yatra.',
+        "q": "Where do the deities go during the festival?",
+        "a": "They travel to the Gundicha Temple, about two miles from the main temple, stay for about a week, and return in the Bahuda Yatra."
       },
+      {
+        "q": "What is Anasara?",
+        "a": "It is the period of about a fortnight after Snana Purnima when the deities are kept away from public view, with private treatment and repainting, ending in Netrotsava and Naba Jaubana Darshan."
+      },
+      {
+        "q": "How long does the Ratha Yatra last?",
+        "a": "Odisha Tourism describes a nine-day festival. Counting the closing rites such as Adhara Pana and Niladri Bije, other reports describe about twelve days."
+      },
+      {
+        "q": "What happens on Hera Panchami?",
+        "a": "Lakshmi is said to visit the Gundicha Temple, find the gate closed and break a part of Nandighosa. It is a symbolic play about the Lord leaving home."
+      },
+      {
+        "q": "What is Suna Besha?",
+        "a": "It is the gold attire the deities wear on their chariots on Ashadha Shukla Ekadashi after the Bahuda Yatra. Tradition credits Kapilendra Deva with starting it in 1460."
+      },
+      {
+        "q": "When was the Ratha Yatra in 2026?",
+        "a": "The Odisha Tourism listing gives 16 July 2026."
+      }
     ],
-    related: {
-      stotrams: ['vishnu-sahasranamam', 'krishna-vasudevaya-mantra', 'jagannath-ashtakam'],
-      guides: ['kartika-month-odisha-guide', 'krishna-janmashtami-guide', 'snana-yatra-snana-purnima-puri-guide', 'bahuda-yatra-suna-besha-niladri-bije-puri-guide', 'jagannath-mahaprasad-ananda-bazar-puri-guide', 'hera-panchami-lakshmi-gundicha-puri-guide'],
+    "related": {
+      "stotrams": [
+        "vishnu-sahasranamam",
+        "krishna-vasudevaya-mantra",
+        "jagannath-ashtakam"
+      ],
+      "guides": [
+        "kartika-month-odisha-guide",
+        "krishna-janmashtami-guide",
+        "snana-yatra-snana-purnima-puri-guide",
+        "bahuda-yatra-suna-besha-niladri-bije-puri-guide",
+        "jagannath-mahaprasad-ananda-bazar-puri-guide",
+        "hera-panchami-lakshmi-gundicha-puri-guide",
+        "chandan-yatra-puri-guide",
+        "nabakalebara-puri-jagannath-guide"
+      ]
     },
-    sources: [
-      'Incredible India (Ministry of Tourism, Government of India), Rath Yatra festival page',
-      'Ratha Yatra (Puri), encyclopaedic summary of Snana Purnima, chariot wheel counts, Bahuda Yatra and Suna Besha',
-      'Shri Jagannath Temple Administration, Puri, official temple materials on the festival calendar',
-    ],
+    "sources": [
+      "Incredible India (Ministry of Tourism, Government of India), Rath Yatra festival page",
+      "Ratha Yatra (Puri), encyclopaedic summary of Snana Purnima, chariot wheel counts, Bahuda Yatra and Suna Besha",
+      "Shri Jagannath Temple Administration, Puri, official temple materials on the festival calendar",
+      "Odisha Tourism via Incredible India (Ministry of Tourism), Rath Yatra page, supports the 16 July 2026 date, nine-day length and named rituals",
+      "Deccan Chronicle, From Anasara to Chhera Pahanra: the rituals of Puri Rath Yatra, supports Anasara, Dasamula paste, Netrotsava and Pahandi",
+      "OdishaTV, Jagannath Rath Yatra of Puri: everything you need to know, supports chariot dimensions, Hera Panchami, Adhara Pana and Niladri Bije",
+      "Sabita Barik and Sobha Barik, Beshas of Deities, Orissa Review, June 2006, supports Suna Besha and Naba Jaubana Besha",
+      "Wikipedia, Ratha Yatra (Puri), citing Hermann Kulke, Rathas and Rajas (1980) and Sarat Chandra Mahapatra, Car Festival of Lord Jagannath, supports chariot wood, Dahuka, Daitapatis and Skanda Purana mentions"
+    ]
   },
 
   {
@@ -2054,160 +2240,288 @@ export const GUIDES_LEARN = [
   },
 
   {
-    slug: 'kumar-purnima-odisha-guide',
-    category: 'Festivals',
-    title: 'Kumar Purnima in Odisha: Meaning, Chanda Puja, Kartikeya and Traditions',
-    description:
-      'A guide to Kumar Purnima, the Ashwin full moon festival of Odisha: the worship of Kartikeya and the moon, the Anjuli Bandha at sunrise, Chanda puja in the evening, traditional offerings, swings and the game of pasa kheli.',
-    h1: 'Kumar Purnima in Odisha: Meaning and Traditions',
-    intro:
-      'Kumar Purnima is a festival of the full moon of the month of Ashwin, celebrated across Odisha especially by young girls. It honours Kumar, a name of Kartikeya, and the moon at its clearest after the monsoon. This guide explains the festival, the rituals of the day and evening, and how the date is decided.',
-    sections: [
+    "slug": "kumar-purnima-odisha-guide",
+    "category": "Festivals",
+    "title": "Kumar Purnima in Odisha: Meaning, Chanda Puja, Kartikeya and Traditions",
+    "description": "Kumar Purnima, the Ashwin full moon festival of Odisha: Anjuli at sunrise, Chanda Chakata at moonrise, the 2026 date, puchi khela, Gajalaxmi Puja and Kartika.",
+    "h1": "Kumar Purnima in Odisha: Meaning and Traditions",
+    "intro": "Kumar Purnima is a festival of the full moon of the month of Ashwin, celebrated across Odisha especially by young girls. It honours Kumar, a name of Kartikeya, and the moon at its clearest after the monsoon. This guide explains the festival, the rituals of the day and evening, and how the date is decided.",
+    "sections": [
       {
-        h: 'When it is observed',
-        p: [
-          `Kumar Purnima falls on the full moon day (Purnima) of the month of Ashwin, usually in October. The same full moon is known elsewhere in India as Sharad Purnima or Kojagari Purnima. Because the Purnima tithi often begins in one afternoon and ends the next morning, panchangs can disagree by a day. Some calendars list the day on which the full moon is present at night, while some Odia panjikas list the day on which the tithi is running at sunrise. The practical rule is to follow your family's Odia panjika or the official Odisha holiday list.`,
-        ],
+        "h": "When it is observed",
+        "p": [
+          "Kumar Purnima falls on the full moon day (Purnima) of the month of Ashwin, usually in October. The same full moon is known elsewhere in India as Sharad Purnima or Kojagari Purnima. Because the Purnima tithi often begins in one afternoon and ends the next morning, panchangs can disagree by a day. Some calendars list the day on which the full moon is present at night, while some Odia panjikas list the day on which the tithi is running at sunrise. The practical rule is to follow your family's Odia panjika or the official Odisha holiday list."
+        ]
       },
       {
-        h: 'Who is Kumar?',
-        p: [
-          `Kumar means the young prince, and in this festival it is a name of Kartikeya, also called Skanda, Subrahmanya and Murugan, the son of Shiva and Parvati. Tradition, citing the Skanda Purana, holds that on this day Kartikeya defeated the demon Tarakasura and was made the commander of the army of the gods. The festival therefore remembers courage and righteousness as well as youth and beauty.`,
-        ],
+        "h": "Who is Kumar?",
+        "p": [
+          "Kumar means the young prince, and in this festival it is a name of Kartikeya, also called Skanda, Subrahmanya and Murugan, the son of Shiva and Parvati. Tradition, citing the Skanda Purana, holds that on this day Kartikeya defeated the demon Tarakasura and was made the commander of the army of the gods. The festival therefore remembers courage and righteousness as well as youth and beauty."
+        ]
       },
       {
-        h: 'Morning: the offering to the sun',
-        p: [
-          `Young girls rise early, bathe before sunrise and offer flowers, fruit and water to the rising sun, with hands cupped together in a gesture called Anjuli Bandha. Many keep a day-long fast, though practice differs between families and some take only light food. The fast is a personal choice, and anyone with a health condition should eat sensibly.`,
-        ],
+        "h": "Morning: the offering to the sun",
+        "p": [
+          "Young girls rise early, bathe before sunrise and offer flowers, fruit and water to the rising sun, with hands cupped together in a gesture called Anjuli Bandha. Many keep a day-long fast, though practice differs between families and some take only light food. The fast is a personal choice, and anyone with a health condition should eat sensibly."
+        ]
       },
       {
-        h: 'Evening: Chanda puja',
-        p: [
-          `After moonrise, girls wearing new clothes gather in a courtyard, on a rooftop or balcony and worship the moon, called Chanda or Janha in Odia. The offering is placed in a kula, the bamboo winnowing basket, on banana leaves, and a lamp is lit. The usual items are chuda (flattened rice), banana, coconut, jaggery, curd, cucumber, sugarcane and other seasonal fruit, though the exact items vary by family. After the prayer the offering is shared and eaten, which also breaks the fast.`,
-        ],
+        "h": "Evening: Chanda puja",
+        "p": [
+          "After moonrise, girls wearing new clothes gather in a courtyard, on a rooftop or balcony and worship the moon, called Chanda or Janha in Odia. The offering is placed in a kula, the bamboo winnowing basket, on banana leaves, and a lamp is lit. The usual items are chuda (flattened rice), banana, coconut, jaggery, curd, cucumber, sugarcane and other seasonal fruit, though the exact items vary by family. After the prayer the offering is shared and eaten, which also breaks the fast."
+        ]
       },
       {
-        h: 'Songs, swings and games',
-        p: [
-          `The evening is full of folk songs sung in groups and passed down orally, praising Kartikeya and wishing for a bright future. The wording varies from village to village. Swings are tied and decorated, and girls take turns on them while singing. Pasa kheli, a traditional board game played with dice or cowrie shells, is played in the evening and often through the night. In cities, families gather on rooftops and balconies to watch the moon together.`,
-        ],
+        "h": "Songs, swings and games",
+        "p": [
+          "The evening is full of folk songs sung in groups and passed down orally, praising Kartikeya and wishing for a bright future. The wording varies from village to village. Swings are tied and decorated, and girls take turns on them while singing. Pasa kheli, a traditional board game played with dice or cowrie shells, is played in the evening and often through the night. In cities, families gather on rooftops and balconies to watch the moon together."
+        ]
       },
       {
-        h: 'What the festival means',
-        p: [
-          `For girls, the festival is traditionally an occasion to pray for virtue, health, a good future and, as the custom is commonly told, a husband as fine as Kartikeya. Today many families treat it more broadly as a celebration of daughters, of the moon and the harvest season, and of a gathering of friends and relatives. Whether or not one keeps the fast, the evening of songs and shared food is the heart of it.`,
-        ],
+        "h": "What the festival means",
+        "p": [
+          "For girls, the festival is traditionally an occasion to pray for virtue, health, a good future and, as the custom is commonly told, a husband as fine as Kartikeya. Today many families treat it more broadly as a celebration of daughters, of the moon and the harvest season, and of a gathering of friends and relatives. Whether or not one keeps the fast, the evening of songs and shared food is the heart of it."
+        ]
       },
       {
-        h: 'Observing it away from Odisha',
-        p: [
-          `You can keep a simple version anywhere. Offer chuda, banana and coconut under the moon on a plate, light a lamp, say a short prayer to Kartikeya and the moon, and share the offering with family. Odia associations in many cities also organise community Kumar Purnima gatherings with songs and games.`,
-        ],
+        "h": "Observing it away from Odisha",
+        "p": [
+          "You can keep a simple version anywhere. Offer chuda, banana and coconut under the moon on a plate, light a lamp, say a short prayer to Kartikeya and the moon, and share the offering with family. Odia associations in many cities also organise community Kumar Purnima gatherings with songs and games."
+        ]
       },
+      {
+        "h": "The 2026 date",
+        "p": [
+          "Office Holidays lists Kumar Purnima on Sunday 25 October 2026 as a regional holiday in Odisha, and an OdishaBytes feature published that day describes the celebrations. The same site lists 15 October 2027, which we could verify in one source only. Different almanacs and Odia panjikas can differ when the tithi spans two days, so confirm with your own panjika."
+        ]
+      },
+      {
+        "h": "The morning Anjuli in detail",
+        "p": [
+          "OdishaBytes and Kalinga TV describe the girls offering Anjuli (a palmful) to the rising sun beside the Brundabati, the tulsi altar, seven times. The offering is lia or khai, puffed rice, taken from a kula, along with coconut, banana, cucumber, betel nut, janhi (a striped gourd), sugarcane and flowers. A lamp, an arati and the sound of huluhuli, the ululation, round off the morning. The exact items differ by family and village."
+        ]
+      },
+      {
+        "h": "Chanda Chakata and the Uila Janha",
+        "p": [
+          "At moonrise comes Chanda Chakata, a sweet arranged in a half-moon shape on the kula and offered to the moon beside the tulsi. Reports list khai, jaggery, banana, coconut, sugarcane, cucumber, ghee, honey and milk, with ginger and ice apple (tala saja) named in one account. The rite ends with huluhuli and the conch.",
+          "Folklore says girls should see the Uila Janha, the freshly risen moon, as they eat the prasad, and tells of a youthful husband for those who do and an older one for those who delay. This is a playful belief handed down in song and story, and it is not a promise of any outcome."
+        ]
+      },
+      {
+        "h": "Who is actually worshipped?",
+        "p": [
+          "An OdishaBytes feature notes that although the day is linked with Kartikeya, no ritual is directed to him: the sun and the moon are worshipped. Two stories sit behind the link. Kalinga TV and OdishaBytes give the day as his birth, while the account that cites the Skanda Purana says he defeated Tarakasura on this day and became commander of the gods. The two are held side by side and neither has been checked here against the Skanda Purana text."
+        ]
+      },
+      {
+        "h": "Puchi, cowries and Gajalaxmi Puja",
+        "p": [
+          "Puchi khela is a game played in a squat, shifting weight quickly from one foot to the other, and village contests are held under the moon. Cowrie games and chanda khela are also mentioned, while the men of the house often play pasha or cards. Kumar Purnima opens eleven days of Gajalaxmi Puja, celebrated especially in Ganjam and Dhenkanal, when families worship Lakshmi and stay awake into the night. One OdishaBytes report adds that in the Srimandira servitors play a ritual cowrie game for Jagannath and Mahalaxmi, which we found in that report only."
+        ]
+      },
+      {
+        "h": "The start of Kartika",
+        "p": [
+          "The Ashwin full moon is also the eve of Kartika. Devotees who keep the Habisa observance eat a simple meal once a day before dusk, such as habisa dalma made with moong dal, colocasia, raw banana and ghee, without turmeric. See the Kartika guide for the month ahead."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'What is Kumar Purnima?',
-        a: 'It is the Ashwin full moon festival of Odisha, when Kartikeya (Kumar) and the moon are worshipped, especially by girls.',
+        "q": "What is Kumar Purnima?",
+        "a": "It is the Ashwin full moon festival of Odisha, when Kartikeya (Kumar) and the moon are worshipped, especially by girls."
       },
       {
-        q: 'Is Kumar Purnima the same as Sharad Purnima?',
-        a: 'It falls on the same full moon day. Different regions give it different names and customs.',
+        "q": "Is Kumar Purnima the same as Sharad Purnima?",
+        "a": "It falls on the same full moon day. Different regions give it different names and customs."
       },
       {
-        q: 'What is offered to the moon?',
-        a: 'Commonly chuda, banana, coconut, jaggery, curd, cucumber and fruit, though items vary by family.',
+        "q": "What is offered to the moon?",
+        "a": "Commonly chuda, banana, coconut, jaggery, curd, cucumber and fruit, though items vary by family."
       },
       {
-        q: 'Do all girls fast?',
-        a: 'No. Many keep a day-long fast, but some eat lightly. It is a personal custom.',
+        "q": "Do all girls fast?",
+        "a": "No. Many keep a day-long fast, but some eat lightly. It is a personal custom."
       },
+      {
+        "q": "When was Kumar Purnima in 2026?",
+        "a": "Office Holidays lists Sunday 25 October 2026. Confirm with your Odia panjika, as tithi timing can differ."
+      },
+      {
+        "q": "What is Chanda Chakata?",
+        "a": "It is a half-moon shaped sweet of puffed rice, jaggery, banana, coconut and other items, offered to the moon in the evening."
+      },
+      {
+        "q": "What is Uila Janha?",
+        "a": "It is the freshly risen moon. Folklore says girls try to see it while taking the offering, but this is a custom of play and not a guarantee of any result."
+      },
+      {
+        "q": "Is Kartikeya worshipped directly?",
+        "a": "One OdishaBytes feature says no ritual is aimed at him, and the sun and moon are the deities worshipped. His name gives the festival its meaning."
+      },
+      {
+        "q": "What is Puchi khela?",
+        "a": "It is a squatting game in which players quickly shift their weight from one leg to the other, played in villages under the moon."
+      }
     ],
-    related: {
-      stotrams: ['aditya-hridayam'],
-      guides: ['kartika-month-odisha-guide', 'manabasa-gurubara-odisha-guide'],
+    "related": {
+      "stotrams": [
+        "aditya-hridayam"
+      ],
+      "guides": [
+        "kartika-month-odisha-guide",
+        "manabasa-gurubara-odisha-guide",
+        "kartika-purnima-dev-deepawali-guide"
+      ]
     },
-    sources: [
-      'Achyuta Samanta, essay on Kumar Purnima (morning Anjuli Bandha, evening Chanda offering, Skanda Purana account of Tarakasura)',
-      'Hindutone, Kumar Purnima in Odisha (Ashwin Purnima, tithi differences between panchangs and Odia panjikas, Chanda puja, pasa kheli, swings)',
-      'Skanda Purana (Kartikeya and Tarakasura), as cited in the sources above',
-    ],
+    "sources": [
+      "Achyuta Samanta, essay on Kumar Purnima (morning Anjuli Bandha, evening Chanda offering, Skanda Purana account of Tarakasura)",
+      "Hindutone, Kumar Purnima in Odisha (Ashwin Purnima, tithi differences between panchangs and Odia panjikas, Chanda puja, pasa kheli, swings)",
+      "Skanda Purana (Kartikeya and Tarakasura), as cited in the sources above",
+      "Office Holidays, Kumar Purnima in India, supports the 25 October 2026 and 15 October 2027 dates and the Odisha regional holiday",
+      "OdishaBytes, Kumar Purnima: know more about this unique full-moon festival of Odia girls, supports Anjuli, Chanda Chakata, Uila Janha and puchi khela",
+      "OdishaBytes, From Sunrise Prayers to Sacred Dice: How Odisha Celebrates Kumar Purnima, October 2026, supports the Kauri Khela at the Srimandira and Habisa dalma",
+      "Kalinga TV, Kumar Purnima 2025: how it is celebrated, supports the Anjuli items, Chanda Chakata and the birth account of Kartikeya",
+      "OdishaBytes, Festivities continue in Odisha with Anjuli and Puchi Khela, October 2022, supports Gajalaxmi Puja, cowrie games and the point that no ritual is directed to Kartikeya"
+    ]
   },
 
   {
-    slug: 'kaunria-kathi-bada-badua-daka-odisha-guide',
-    category: 'Festivals',
-    title: 'Kaunria Kathi and Bada Badua Daka: Odisha\'s Diwali Tradition of Calling the Ancestors',
-    description:
-      'What Kaunria Kathi and Bada Badua Daka are: the Odia Diwali custom of lighting jute sticks to call the ancestors, the chant, where and when it is done, its uncertain origins, and how it fits with the Kartika month.',
-    h1: 'Kaunria Kathi and Bada Badua Daka in Odisha',
-    intro:
-      'In Odisha, Diwali carries an older custom alongside the lamps and Lakshmi Puja. Families light bundles of jute stalks and call out to their ancestors to come down from the dark and return along a lit path. The custom is known as Kaunria Kathi or Bada Badua Daka. This guide explains what happens, what the words mean and what is and is not known about its origins.',
-    sections: [
+    "slug": "kaunria-kathi-bada-badua-daka-odisha-guide",
+    "category": "Festivals",
+    "title": "Kaunria Kathi and Bada Badua Daka: Odisha's Diwali Custom for Ancestors",
+    "description": "What Kaunria Kathi and Bada Badua Daka are: the Odia Diwali custom of lighting jute sticks to call the ancestors, the chant, Paya Shraddha in Puri and uncertain origins.",
+    "h1": "Kaunria Kathi and Bada Badua Daka in Odisha",
+    "intro": "In Odisha, Diwali carries an older custom alongside the lamps and Lakshmi Puja. Families light bundles of jute stalks and call out to their ancestors to come down from the dark and return along a lit path. The custom is known as Kaunria Kathi or Bada Badua Daka. This guide explains what happens, what the words mean and what is and is not known about its origins.",
+    "sections": [
       {
-        h: 'What the custom is',
-        p: [
-          `Kaunria Kathi means sticks of jute (kaunria kathi are the dried stalks of the jute plant). Bada Badua Daka means the call to the elders, the ancestors. On the day of Diwali, families gather bunches of jute sticks, light them and hold the burning sticks up to the sky while calling out to their departed forefathers. The flames are understood as a path of light for the ancestors to find their way to their descendants.`,
-        ],
+        "h": "What the custom is",
+        "p": [
+          "Kaunria Kathi means sticks of jute (kaunria kathi are the dried stalks of the jute plant). Bada Badua Daka means the call to the elders, the ancestors. On the day of Diwali, families gather bunches of jute sticks, light them and hold the burning sticks up to the sky while calling out to their departed forefathers. The flames are understood as a path of light for the ancestors to find their way to their descendants."
+        ]
       },
       {
-        h: 'The chant',
-        p: [
-          `The call is usually led by the eldest man in the family, and the others repeat it. A commonly quoted form of the call, in Odia, begins Bada badua ho, andhara re aasa, alua re jaa. It is translated as: Oh honoured ancestors, come in the darkness and go back along the path of light. Wording differs between families and districts, so treat this as one familiar version and not a single fixed text.`,
-        ],
+        "h": "The chant",
+        "p": [
+          "The call is usually led by the eldest man in the family, and the others repeat it. A commonly quoted form of the call, in Odia, begins Bada badua ho, andhara re aasa, alua re jaa. It is translated as: Oh honoured ancestors, come in the darkness and go back along the path of light. Wording differs between families and districts, so treat this as one familiar version and not a single fixed text."
+        ]
       },
       {
-        h: 'When and where',
-        p: [
-          `Sources describe the timing slightly differently. One account places it on Naraka Chaturdashi, the fourth day of the Diwali festival, while another describes it on Diwali itself, from morning to late evening. Practice varies by family and locality, so follow your family and your local Odia panjika. In the town of Puri the call is a public event on the Grand Road in front of the Jagannath Temple, with many people holding lit jute sticks together. Elsewhere it is mostly done privately at home, in the courtyard or at the doorstep.`,
-        ],
+        "h": "When and where",
+        "p": [
+          "Sources describe the timing slightly differently. One account places it on Naraka Chaturdashi, the fourth day of the Diwali festival, while another describes it on Diwali itself, from morning to late evening. Practice varies by family and locality, so follow your family and your local Odia panjika. In the town of Puri the call is a public event on the Grand Road in front of the Jagannath Temple, with many people holding lit jute sticks together. Elsewhere it is mostly done privately at home, in the courtyard or at the doorstep."
+        ]
       },
       {
-        h: 'Link to ancestor worship',
-        p: [
-          `The custom belongs to the wider Hindu tradition of remembering the departed, especially at this time of the year when the nights are lengthening. Families often combine it with offerings and prayers for their ancestors and a meal in their memory. It sits alongside the lamp-lighting of Diwali, with the lamps for Lakshmi and the jute torches for the ancestors, so that the house is lit for both the living and the departed.`,
-        ],
+        "h": "Link to ancestor worship",
+        "p": [
+          "The custom belongs to the wider Hindu tradition of remembering the departed, especially at this time of the year when the nights are lengthening. Families often combine it with offerings and prayers for their ancestors and a meal in their memory. It sits alongside the lamp-lighting of Diwali, with the lamps for Lakshmi and the jute torches for the ancestors, so that the house is lit for both the living and the departed."
+        ]
       },
       {
-        h: 'Where does it come from?',
-        p: [
-          `The honest answer is that nobody is certain. Some people link the custom to the Bhakti movement associated with Chaitanya Mahaprabhu, around five hundred years ago. Others connect it to the ancient Odia seafaring traders, the sadhabas, and to Boita Bandana, with the lit sticks recalling the signal fires that guided boats home. These are traditions of explanation, not proven history, and the two are not mutually exclusive.`,
-        ],
+        "h": "Where does it come from?",
+        "p": [
+          "The honest answer is that nobody is certain. Some people link the custom to the Bhakti movement associated with Chaitanya Mahaprabhu, around five hundred years ago. Others connect it to the ancient Odia seafaring traders, the sadhabas, and to Boita Bandana, with the lit sticks recalling the signal fires that guided boats home. These are traditions of explanation, not proven history, and the two are not mutually exclusive."
+        ]
       },
       {
-        h: 'Practising it safely',
-        p: [
-          `Burning sticks are a real fire risk. Keep a bucket of water nearby, light the sticks outdoors or in an open courtyard, keep children and loose clothing well away from the flames, and never leave burning bundles unattended. Dried jute stalks burn quickly. A diya or a candle can stand in for the sticks if you are in an apartment or a place where open flames are not safe.`,
-        ],
+        "h": "Practising it safely",
+        "p": [
+          "Burning sticks are a real fire risk. Keep a bucket of water nearby, light the sticks outdoors or in an open courtyard, keep children and loose clothing well away from the flames, and never leave burning bundles unattended. Dried jute stalks burn quickly. A diya or a candle can stand in for the sticks if you are in an apartment or a place where open flames are not safe."
+        ]
       },
+      {
+        "h": "Paya Shraddha and the pinda offering in Puri",
+        "p": [
+          "In Puri the same occasion is widely called Paya Shraddha. OdishaTV reported that on Diwali in October 2025 devotees gathered in large numbers near the Srimandira, that the state declared a holiday for the two days, that barricades were set up at Emar Mutt Square and that 28 platoons of police were deployed. The report adds that devotees prepare pinda, rice offered with water and flower petals, as a sign of remembrance and gratitude for ancestors.",
+          "The sources reviewed describe lamps, burning jute sticks and pinda. They do not give a full tarpan text, so if your family performs a formal shraddha or tarpan, follow the sequence your family priest teaches."
+        ]
+      },
+      {
+        "h": "The Mahalaya link",
+        "p": [
+          "Odia accounts describe a belief that the ancestors come down at Mahalaya, the end of Pitru Paksha, and return at Diwali. OdishaBytes and OMM say the lit sticks are offered at dusk to light their path back. The Mahalaya and Pitru Paksha guide on this site covers the earlier part of the cycle, and the Kartika guide covers the month that follows."
+        ]
+      },
+      {
+        "h": "Who leads and what varies",
+        "p": [
+          "Reports say the eldest son or a priest usually holds the lit bundle, often in the courtyard beside the tulsi plant, and raises it towards the sky while the family says the call. OdishaBytes writes that in southern Odisha some Brahmin families use sugarcane sticks wrapped with ghee-dipped cotton wicks in place of jute, with the same chant. It also lists the by-lanes of Puri, the area around the Srimandira and the banks of Bindu Sagar in Bhubaneswar as places where the custom is seen.",
+          "One account, in an OMM feature, gives a lamp symbolism: ten lamps for the elements, fourteen for the saptarishis and sixty-four for generations of forefathers. We found this in a single report, so treat it as one family's way of explaining the lamps and not a fixed rule."
+        ]
+      },
+      {
+        "h": "When the date is unclear",
+        "p": [
+          "In 2024 a Puri servitor told OMM that almanac confusion led to Kali Puja on 31 October and Paya Shraddha and Diwali on 1 November. The Pujapanda Nijog said the Srimandira observance would take place on 1 November. This shows why the day can differ even within one town, and why a local panjika matters more than any national calendar."
+        ]
+      },
+      {
+        "h": "Shraddha Besha is a separate observance",
+        "p": [
+          "Some popular articles say the Lords of Puri wear Shraddha Besha on the night of Bada Badua Daka. The Orissa Review (2006) places Sraddha Besha in the month of Margasira, when Jagannath is described as performing rites for Nanda, Vasudeva and Dasaratha, and OdishaTV's 2025 report on the Margasira Dev Deepawali rituals says the Lords wear Shraddha Besha across three days. Because the sources disagree on the timing, this guide does not place the besha on Diwali night."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'What does Bada Badua Daka mean?',
-        a: 'It means the call to the elders, the ancestors, whom families invite to the light of Diwali.',
+        "q": "What does Bada Badua Daka mean?",
+        "a": "It means the call to the elders, the ancestors, whom families invite to the light of Diwali."
       },
       {
-        q: 'What are Kaunria Kathi?',
-        a: 'They are the dried stalks of the jute plant, burnt in bundles during the ritual.',
+        "q": "What are Kaunria Kathi?",
+        "a": "They are the dried stalks of the jute plant, burnt in bundles during the ritual."
       },
       {
-        q: 'On which day is it done?',
-        a: 'Sources give Naraka Chaturdashi or Diwali day itself. Follow your family and your local panjika.',
+        "q": "On which day is it done?",
+        "a": "Sources give Naraka Chaturdashi or Diwali day itself. Follow your family and your local panjika."
       },
       {
-        q: 'Where is it a public event?',
-        a: 'In Puri, on the Grand Road in front of the Jagannath Temple.',
+        "q": "Where is it a public event?",
+        "a": "In Puri, on the Grand Road in front of the Jagannath Temple."
       },
+      {
+        "q": "What is Paya Shraddha?",
+        "a": "It is the name used in Puri for the Diwali ancestor observance, where devotees light lamps and jute sticks near the Srimandira and offer pinda for their forefathers."
+      },
+      {
+        "q": "Is Bada Badua Daka a formal tarpan?",
+        "a": "The reports reviewed describe it as a lamp and jute-stick call, with pinda in Puri. A formal tarpan or shraddha follows your family's own priest and tradition."
+      },
+      {
+        "q": "Who traditionally leads the call?",
+        "a": "Usually the eldest son of the family, or a priest where there is no eldest son at home."
+      },
+      {
+        "q": "Do all families use jute sticks?",
+        "a": "No. OdishaBytes notes that some families in southern Odisha use sugarcane sticks wrapped in ghee-dipped cotton wicks, with the same chant."
+      },
+      {
+        "q": "Can visitors join the Puri gathering?",
+        "a": "The gathering is a family and community rite. Outlook Traveller describes it as deeply personal and not a tourist event, so visitors should watch quietly from the edge, keep clear of burning sticks and follow police guidance."
+      }
     ],
-    related: {
-      stotrams: ['mahalakshmi-ashtakam'],
-      guides: ['diwali-lakshmi-puja-guide', 'kartika-month-odisha-guide', 'kali-puja-odisha-dipabali-amavasya-puri-guide'],
+    "related": {
+      "stotrams": [
+        "mahalakshmi-ashtakam"
+      ],
+      "guides": [
+        "diwali-lakshmi-puja-guide",
+        "kartika-month-odisha-guide",
+        "kali-puja-odisha-dipabali-amavasya-puri-guide",
+        "mahalaya-pitru-paksha-odisha-guide",
+        "boita-bandana-bali-jatra-kartika-purnima-guide"
+      ]
     },
-    sources: [
-      'Outlook Traveller, article on the story of Bada Badua Daka in Odisha',
-      'Daily Pioneer, article on the holy month of Kartika and Odia traditions (Kaunria Kathi, Boita Bandana, Bali Jatra)',
-    ],
+    "sources": [
+      "Outlook Traveller, article on the story of Bada Badua Daka in Odisha",
+      "Daily Pioneer, article on the holy month of Kartika and Odia traditions (Kaunria Kathi, Boita Bandana, Bali Jatra)",
+      "OdishaBytes, A Night Of Shraddha Ritual: Here's Odisha's Unique Diwali, supports who leads, southern Odisha variation, locations and origin theories",
+      "OMM (Odisha), Diwali beyond fireworks: remembering forefathers through Bada Badua Daka, supports the Mahalaya belief and lamp symbolism account",
+      "OdishaTV, report on Paya Shraddha rituals in Puri, October 2025, supports the pinda offering, holiday and crowd arrangements",
+      "Sabita Barik and Sobha Barik, Beshas of Deities, Orissa Review, June 2006, pp. 54-57, supports Sraddha Besha in Margasira"
+    ]
   },
   {
     slug: 'boita-bandana-bali-jatra-kartika-purnima-guide',

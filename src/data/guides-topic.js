@@ -4,72 +4,133 @@
 
 export const GUIDES_TOPIC = [
   {
-    slug: 'best-mantra-for-anxiety',
-    category: 'Peace of mind',
-    title: 'Best Mantras for Anxiety, Stress and Overthinking: A Gentle Practice Guide',
-    description:
-      'Hindu mantras and prayers people use during anxiety, stress, fear and overthinking: Hanuman Chalisa, Om, Narayana and shanti mantras, with a simple breathing method and honest limits.',
-    h1: 'Best Mantras for Anxiety, Stress and Overthinking',
-    intro:
-      'When the mind races, a short, rhythmic prayer can give it something steady to hold. This guide shares mantras that many people use in anxious periods, a simple way to practise them, and an honest note on where devotion ends and professional help should begin.',
-    sections: [
+    "slug": "best-mantra-for-anxiety",
+    "category": "Peace of mind",
+    "title": "Best Mantras for Anxiety, Stress and Overthinking: A Gentle Practice Guide",
+    "description": "Mantras people use for anxiety and overthinking: Hanuman Chalisa, Om Namah Shivaya, shanti mantras, a breathing method, what research shows and when to seek help.",
+    "h1": "Best Mantras for Anxiety, Stress and Overthinking",
+    "intro": "When the mind races, a short, rhythmic prayer can give it something steady to hold. This guide shares mantras that many people use in anxious periods, a simple way to practise them, and an honest note on where devotion ends and professional help should begin.",
+    "sections": [
       {
-        h: 'Why a mantra can steady a racing mind',
-        p: [
-          `Anxious thinking tends to loop: the same worry, again and again, with no resting place. A mantra works by giving attention a different, gentler loop. Because it is short, rhythmic and familiar, it asks nothing of the mind except to follow. Many contemplative traditions use repeated phrases for this reason. Small studies on slow rhythmic recitation, such as the 2001 BMJ paper by Bernardi and colleagues, reported more regular breathing and heart rhythms during mantra and rosary recitation at about six breaths per minute. These are modest findings and not a treatment, but they match what practitioners describe.`,
-        ],
+        "h": "Why a mantra can steady a racing mind",
+        "p": [
+          "Anxious thinking tends to loop: the same worry, again and again, with no resting place. A mantra works by giving attention a different, gentler loop. Because it is short, rhythmic and familiar, it asks nothing of the mind except to follow. Many contemplative traditions use repeated phrases for this reason. Small studies on slow rhythmic recitation, such as the 2001 BMJ paper by Bernardi and colleagues, reported more regular breathing and heart rhythms during mantra and rosary recitation at about six breaths per minute. These are modest findings and not a treatment, but they match what practitioners describe."
+        ]
       },
       {
-        h: 'Mantras people turn to',
-        p: [
-          `Hanuman Chalisa is the most popular choice for fear and nervousness because its imagery is about courage. Om Namah Shivaya is brief, easy to pair with breath, and widely used for calm. Om Namo Narayanaya or Om Namo Bhagavate Vasudevaya are gentle Vishnu mantras many people prefer in the evening. The shanti mantras, such as Om Sarve Bhavantu Sukhinah (may all be happy) and Om Shanti Shanti Shanti, turn attention toward peace and away from personal worry. If a mantra feels unfamiliar, choose the one whose sound you like; ease matters more than tradition.`,
-        ],
+        "h": "Mantras people turn to",
+        "p": [
+          "Hanuman Chalisa is the most popular choice for fear and nervousness because its imagery is about courage. Om Namah Shivaya is brief, easy to pair with breath, and widely used for calm. Om Namo Narayanaya or Om Namo Bhagavate Vasudevaya are gentle Vishnu mantras many people prefer in the evening. The shanti mantras, such as Om Sarve Bhavantu Sukhinah (may all be happy) and Om Shanti Shanti Shanti, turn attention toward peace and away from personal worry. If a mantra feels unfamiliar, choose the one whose sound you like; ease matters more than tradition."
+        ]
       },
       {
-        h: 'A five-minute practice',
-        p: [
-          `Sit or lie down comfortably. Let your shoulders drop. Breathe in through the nose for a slow count of four, and as you breathe out for a count of six, say the mantra silently or in a whisper, one repetition per out-breath. Continue for five minutes. If your mind wanders, which it will, simply return to the next breath without scolding yourself. Do this at the same time each day, and also whenever you notice tension rising, such as before a call or on a commute.`,
-        ],
+        "h": "A five-minute practice",
+        "p": [
+          "Sit or lie down comfortably. Let your shoulders drop. Breathe in through the nose for a slow count of four, and as you breathe out for a count of six, say the mantra silently or in a whisper, one repetition per out-breath. Continue for five minutes. If your mind wanders, which it will, simply return to the next breath without scolding yourself. Do this at the same time each day, and also whenever you notice tension rising, such as before a call or on a commute."
+        ]
       },
       {
-        h: 'Overthinking at night',
-        p: [
-          `Late-night overthinking is the most common reason people reach for a mantra. Keep the practice very quiet: low light, phone away, a soft voice. Choose a short mantra and let it fade out as you grow sleepy. Our guide on mantras for sleep adds routines for the hour before bed.`,
-        ],
+        "h": "Overthinking at night",
+        "p": [
+          "Late-night overthinking is the most common reason people reach for a mantra. Keep the practice very quiet: low light, phone away, a soft voice. Choose a short mantra and let it fade out as you grow sleepy. Our guide on mantras for sleep adds routines for the hour before bed."
+        ]
       },
       {
-        h: 'Know the limits',
-        p: [
-          `Prayer can be a companion in hard times, but it is not a treatment for an anxiety disorder or depression. If anxiety is affecting your sleep, work, appetite or relationships for more than a couple of weeks, or if you ever feel unsafe, please speak to a doctor or qualified mental health professional. In the United States you can call or text 988 at any time; in India, Tele-MANAS is available on 14416. Many people find that therapy and devotional practice work well side by side, and there is nothing in the tradition that asks you to choose between them.`,
-        ],
+        "h": "Know the limits",
+        "p": [
+          "Prayer can be a companion in hard times, but it is not a treatment for an anxiety disorder or depression. If anxiety is affecting your sleep, work, appetite or relationships for more than a couple of weeks, or if you ever feel unsafe, please speak to a doctor or qualified mental health professional. In the United States you can call or text 988 at any time; in India, Tele-MANAS is available on 14416. Many people find that therapy and devotional practice work well side by side, and there is nothing in the tradition that asks you to choose between them."
+        ]
       },
+      {
+        "h": "What research has and has not shown",
+        "p": [
+          "The 2001 BMJ study by Bernardi and colleagues, listed in our sources, involved 23 healthy adults in Italy. When they recited either an Ave Maria or a yoga mantra at about six repetitions a minute, their breathing and heart-rate rhythms became more regular and synchronised, and a measure of blood pressure reflex sensitivity rose. The authors suggested such rhythmic recitation may have favourable effects, and they called for larger studies. It was a small study of healthy people, not of anyone with an anxiety disorder.",
+          "A 2022 systematic review and meta-analysis in the International Journal of Environmental Research and Public Health pooled randomised trials of mantra-based meditation, a group that includes structured methods such as transcendental meditation. It reported small-to-moderate reductions in anxiety, stress and depression scores compared with control conditions. The authors also noted that many trials had a risk of bias, few studies involved people with psychiatric diagnoses, and there was little long-term follow-up. So the honest summary is that the evidence is encouraging but limited, and that it concerns structured meditation methods, which are not identical to devotional chanting."
+        ]
+      },
+      {
+        "h": "Choosing one mantra and staying with it",
+        "p": [
+          "It helps to pick a single mantra for a few weeks instead of trying a new one each night. Choose by sound and ease: a short one such as Om Namah Shivaya or Om Shanti is easier to hold when you are tense than a long hymn. If you know the meaning, let it sit lightly in the background rather than analysing it. If a mantra begins to feel like a chore or an obligation, change it or shorten the practice. The aim is a place for the mind to rest, not a performance."
+        ]
+      },
+      {
+        "h": "When the practice itself becomes a source of worry",
+        "p": [
+          "Sometimes people start to feel that they must repeat a mantra a certain number of times or something bad will happen. If chanting becomes driven by fear, or if repeating it brings more distressing thoughts instead of less, loosen the rules: shorten the practice, drop the count and breathe quietly. If the pressure continues, mention it to a doctor or counsellor. It is a useful thing for them to know, and it does not mean your faith is wrong."
+        ]
+      },
+      {
+        "h": "Telling your doctor or counsellor about your practice",
+        "p": [
+          "Devotional practice and professional care can sit side by side. You can tell a doctor, therapist or counsellor what you chant and when, so that they understand your daily routine. If a clinician has recommended treatment, therapy or medication, continue it as advised and do not stop it in favour of prayer. If you are unsure whether your symptoms are anxiety, such as chest pain, a racing heart that does not settle, or breathlessness, seek medical advice promptly instead of assuming it is stress."
+        ]
+      },
+      {
+        "h": "Where to find help",
+        "p": [
+          "In India, Tele-MANAS is the government's free tele mental health service. It can be reached on 14416 or 1800-89-14416, and it is described as available around the clock in many Indian languages. In the United States, the 988 Suicide and Crisis Lifeline can be reached by call or text to 988. If you are in immediate danger, contact your local emergency number. Reaching out is a sign of care for yourself, and the tradition itself never asks you to carry distress alone."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Which mantra is best for anxiety?',
-        a: 'There is no single best. Hanuman Chalisa, Om Namah Shivaya and shanti mantras are the most commonly used. Choose one you find soothing.',
+        "q": "Which mantra is best for anxiety?",
+        "a": "There is no single best. Hanuman Chalisa, Om Namah Shivaya and shanti mantras are the most commonly used. Choose one you find soothing."
       },
       {
-        q: 'How long should I chant?',
-        a: 'Five minutes daily is a good start. Increase only if it feels natural.',
+        "q": "How long should I chant?",
+        "a": "Five minutes daily is a good start. Increase only if it feels natural."
       },
       {
-        q: 'Can chanting replace therapy or medication?',
-        a: 'No. It can complement professional care but not replace it.',
+        "q": "Can chanting replace therapy or medication?",
+        "a": "No. It can complement professional care but not replace it."
       },
       {
-        q: 'Can I chant silently?',
-        a: 'Yes. Silent repetition is traditionally considered the most subtle form of chanting.',
+        "q": "Can I chant silently?",
+        "a": "Yes. Silent repetition is traditionally considered the most subtle form of chanting."
       },
+      {
+        "q": "Is there scientific proof that mantras reduce anxiety?",
+        "a": "There is some encouraging evidence, mostly from structured mantra-based meditation trials, with small-to-moderate effects reported. The authors of the reviews call the evidence limited, so chanting should be seen as a supportive habit, not a treatment."
+      },
+      {
+        "q": "Can I chant during a panic attack?",
+        "a": "Many people find a very short mantra paired with slow breathing helpful. If it is the first time, if you have chest pain, or if you are unsure it is anxiety, seek medical help promptly."
+      },
+      {
+        "q": "Should I tell my therapist or doctor that I chant?",
+        "a": "Yes, if you wish. It helps them understand your routine, and chanting can sit alongside professional care."
+      },
+      {
+        "q": "Do I need to know the meaning of the mantra?",
+        "a": "No. Meaning can deepen the practice, but many people begin by simply following the sound and the breath. Learn the meaning gradually if you wish."
+      },
+      {
+        "q": "When should I seek professional help instead of relying on prayer?",
+        "a": "If worry affects your sleep, work, appetite or relationships for more than a couple of weeks, or if you ever feel unsafe, speak to a doctor or counsellor. Prayer is not a substitute for professional care."
+      }
     ],
-    related: {
-      stotrams: ['hanuman-chalisa', 'shiv-chalisa', 'krishna-vasudevaya-mantra'],
-      guides: ['best-mantra-for-sleep', 'best-prayer-for-inner-peace', 'science-behind-chanting'],
+    "related": {
+      "stotrams": [
+        "hanuman-chalisa",
+        "shiv-chalisa",
+        "krishna-vasudevaya-mantra"
+      ],
+      "guides": [
+        "best-mantra-for-sleep",
+        "best-prayer-for-inner-peace",
+        "science-behind-chanting"
+      ]
     },
-    sources: [
-      'Bernardi L. et al., Effect of rosary prayer and yoga mantras on autonomic cardiovascular rhythms, BMJ 2001;323:1446',
-      'Traditional shanti mantras of the Yajurveda and Upanishads',
-    ],
+    "sources": [
+      "Bernardi L. et al., Effect of rosary prayer and yoga mantras on autonomic cardiovascular rhythms, BMJ 2001;323:1446",
+      "Traditional shanti mantras of the Yajurveda and Upanishads",
+      "PubMed, Bernardi L. et al., BMJ 2001, abstract of the comparative study (23 healthy adults, six recitations per minute, rise in baroreflex sensitivity)",
+      "PubMed, Effectiveness of Mantra-Based Meditation on Mental Health: A Systematic Review and Meta-Analysis, Int J Environ Res Public Health 2022 (PMID 35329068), small-to-moderate effects on anxiety, authors' caveats on bias and follow-up",
+      "Press Information Bureau, Government of India, Tele-MANAS national tele mental health programme document, helpline 14416 or 1800-89-14416, 24 hours, 20 languages",
+      "SAMHSA, 988 Suicide and Crisis Lifeline, call or text 988 in the United States"
+    ]
   },
 
   {

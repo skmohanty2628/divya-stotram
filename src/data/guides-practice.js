@@ -2,73 +2,123 @@
 
 export const GUIDES_PRACTICE = [
   {
-    slug: 'science-behind-chanting',
-    category: 'Understanding practice',
-    title: 'The Science Behind Chanting: What Research Does and Does Not Say About Mantras',
-    description:
-      'An honest look at research on mantra chanting: slow breathing and heart-rate variability, the OM chanting fMRI pilot study, what is promising, what is not proven, and how to approach practice.',
-    h1: 'The Science Behind Chanting: What Research Does and Does Not Say',
-    intro:
-      'Claims about chanting range from sensible to wildly exaggerated. This guide sticks to what published studies have actually found, notes their limits, and explains why many people find the practice valuable regardless of how far science has caught up.',
-    sections: [
+    "slug": "science-behind-chanting",
+    "category": "Understanding practice",
+    "title": "The Science Behind Chanting: What Research Does and Does Not Say",
+    "description": "An honest look at research on mantra chanting: slow breathing, the OM chanting fMRI pilot study, what is promising, what is unproven, and how to approach practice.",
+    "h1": "The Science Behind Chanting: What Research Does and Does Not Say",
+    "intro": "Claims about chanting range from sensible to wildly exaggerated. This guide sticks to what published studies have actually found, notes their limits, and explains why many people find the practice valuable regardless of how far science has caught up.",
+    "sections": [
       {
-        h: 'Breath, rhythm and the nervous system',
-        p: [
-          `The best-known study is by Luciano Bernardi and colleagues, published in the British Medical Journal in 2001. They compared the recitation of the Ave Maria rosary prayer and a yoga mantra with spontaneous breathing in healthy adults. Both types of recitation slowed breathing to about six breaths a minute and was associated with stronger, more synchronised variations in heart rate and blood pressure, and with improved baroreflex sensitivity. The authors suggested that the rhythm of the prayer, not its specific religious content, produced the effect.`,
-          `This is useful context for any chanting tradition: a measured, slow, repeated phrase does tend to produce a particular breathing pattern. It is a physiological relaxation response that can be reproduced by other slow-breathing techniques as well.`,
-        ],
+        "h": "Breath, rhythm and the nervous system",
+        "p": [
+          "The best-known study is by Luciano Bernardi and colleagues, published in the British Medical Journal in 2001. They compared the recitation of the Ave Maria rosary prayer and a yoga mantra with spontaneous breathing in healthy adults. Both types of recitation slowed breathing to about six breaths a minute and was associated with stronger, more synchronised variations in heart rate and blood pressure, and with improved baroreflex sensitivity. The authors suggested that the rhythm of the prayer, not its specific religious content, produced the effect.",
+          "This is useful context for any chanting tradition: a measured, slow, repeated phrase does tend to produce a particular breathing pattern. It is a physiological relaxation response that can be reproduced by other slow-breathing techniques as well."
+        ]
       },
       {
-        h: 'OM chanting and the brain',
-        p: [
-          `A small pilot study by Kalyani and colleagues in the International Journal of Yoga (2011) used functional MRI on twelve healthy volunteers and reported reduced activity in parts of the limbic system during OM chanting compared with a control sound. The sample is tiny and the design basic, so the result should be treated as an interesting lead rather than a proof. Larger, better-controlled studies are needed.`,
-        ],
+        "h": "OM chanting and the brain",
+        "p": [
+          "A small pilot study by Kalyani and colleagues in the International Journal of Yoga (2011) used functional MRI on twelve healthy volunteers and reported reduced activity in parts of the limbic system during OM chanting compared with a control sound. The sample is tiny and the design basic, so the result should be treated as an interesting lead rather than a proof. Larger, better-controlled studies are needed."
+        ]
       },
       {
-        h: 'What is not established',
-        p: [
-          `There is no good evidence that chanting cures disease, changes your fortunes, or has effects through any mechanism beyond attention, breath, belief, community and meaning. Claims such as vibrations that heal cells, or that particular frequencies repair DNA, have not been demonstrated in credible research. We think it serves readers better to be honest about this, and the tradition does not need exaggeration to be valuable.`,
-        ],
+        "h": "What is not established",
+        "p": [
+          "There is no good evidence that chanting cures disease, changes your fortunes, or has effects through any mechanism beyond attention, breath, belief, community and meaning. Claims such as vibrations that heal cells, or that particular frequencies repair DNA, have not been demonstrated in credible research. We think it serves readers better to be honest about this, and the tradition does not need exaggeration to be valuable."
+        ]
       },
       {
-        h: 'What practitioners value',
-        p: [
-          `Many people describe benefits that are hard to measure: a sense of belonging to a long tradition, a pause in a busy day, a way of marking time, a language for gratitude and grief. These are real human goods. Meditation research more broadly suggests that regular contemplative practice can support mood and stress management, though results vary with the type of practice, the person, and the quality of the study.`,
-        ],
+        "h": "What practitioners value",
+        "p": [
+          "Many people describe benefits that are hard to measure: a sense of belonging to a long tradition, a pause in a busy day, a way of marking time, a language for gratitude and grief. These are real human goods. Meditation research more broadly suggests that regular contemplative practice can support mood and stress management, though results vary with the type of practice, the person, and the quality of the study."
+        ]
       },
       {
-        h: 'How to approach it sensibly',
-        p: [
-          `Try a practice for a month and notice what changes. Keep it gentle: a few minutes daily is plenty. Do not stop medical or psychological care you need. If a claim sounds too good to be true, it probably is, whoever is making it. A good teacher will be comfortable with questions.`,
-        ],
+        "h": "How to approach it sensibly",
+        "p": [
+          "Try a practice for a month and notice what changes. Keep it gentle: a few minutes daily is plenty. Do not stop medical or psychological care you need. If a claim sounds too good to be true, it probably is, whoever is making it. A good teacher will be comfortable with questions."
+        ]
       },
+      {
+        "h": "The Bernardi study in more detail",
+        "p": [
+          "The 2001 BMJ paper by Bernardi and colleagues, from Florence and Pavia in Italy, studied 23 healthy adults. Participants recited the Ave Maria in Latin or a yoga mantra, and the team recorded breathing, heart-rate intervals, blood pressure and blood flow to the brain, both during spontaneous breathing and during breathing paced by a metronome. Reciting at about six times a minute produced strong, synchronised increases in existing cardiovascular rhythms. Baroreflex sensitivity, a measure of how the body regulates blood pressure from beat to beat, rose from 9.5 to 11.5 ms per mmHg, with a reported P value below 0.05.",
+          "The authors were careful. They concluded that rhythmic formulas at six breaths a minute may produce favourable psychological and possibly physiological effects. The sample was small, the participants were healthy, the measurements were taken in a short laboratory session, and the study does not show lasting benefit or any effect on illness."
+        ]
+      },
+      {
+        "h": "The OM fMRI pilot study in more detail",
+        "p": [
+          "The study by Kalyani and colleagues scanned 12 right-handed healthy volunteers, nine of them men, aged 22 to 39, in a 3 tesla scanner. Four had yoga or meditation training. They alternated 15-second blocks of chanting OM aloud, a sustained 'ssss' sound as a control and rest. The authors reported no significant activation during chanting, but significant deactivation in several regions, including the anterior cingulate, hippocampus, thalamus, parts of the orbitofrontal cortex and the right amygdala. The 'ssss' sound did not produce the same change.",
+          "The authors describe it as a pilot and compare the pattern with that seen in vagus nerve stimulation, a link they call preliminary. They also acknowledge that a general relaxation effect could not be ruled out. With only twelve people, no comparison with other chants or prayers, and a short scan session, the finding cannot tell us what chanting does in everyday life."
+        ]
+      },
+      {
+        "h": "Does meaning matter? A scholarly debate",
+        "p": [
+          "Scholars of mantra disagree about whether the words carry meaning at all. Frits Staal argued that many mantras are valued mostly for their rhythm and exact sound structure, while Harvey Alper argued that mantras are meaningful linguistic tools with philosophical or devotional content. Both sides accept that mantras are carefully constructed in sound. For a reader, this means the physiological studies and the tradition's own language of devotion are looking at different things, and one does not cancel the other."
+        ]
+      },
+      {
+        "h": "How to read a headline about chanting",
+        "p": [
+          "When a news item or social post says that chanting does something, ask a few plain questions. How many people took part? Was there a comparison group? Was the measure a lab reading or a feeling people reported? Was it published in a journal, and has anyone repeated it? A claim about specific vibrations, frequencies or cures that cites none of this should be treated with caution. A single small study, even a good one, is a starting point for further research."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Does chanting reduce stress?',
-        a: 'Small studies suggest slow rhythmic recitation relaxes breathing and heart rhythms, and many people find it calming. It is not a replacement for treatment.',
+        "q": "Does chanting reduce stress?",
+        "a": "Small studies suggest slow rhythmic recitation relaxes breathing and heart rhythms, and many people find it calming. It is not a replacement for treatment."
       },
       {
-        q: 'Is there proof that Om vibrations heal?',
-        a: 'No. The research is preliminary and does not support strong claims.',
+        "q": "Is there proof that Om vibrations heal?",
+        "a": "No. The research is preliminary and does not support strong claims."
       },
       {
-        q: 'Does the language matter?',
-        a: 'The Bernardi study suggested rhythm and breath were key, not the specific language. For believers, language and meaning matter in other ways.',
+        "q": "Does the language matter?",
+        "a": "The Bernardi study suggested rhythm and breath were key, not the specific language. For believers, language and meaning matter in other ways."
       },
       {
-        q: 'How long should I try before judging?',
-        a: 'A month of daily practice gives a fair impression.',
+        "q": "How long should I try before judging?",
+        "a": "A month of daily practice gives a fair impression."
       },
+      {
+        "q": "How many people were in the main studies?",
+        "a": "The Bernardi study had 23 healthy adults and the OM fMRI pilot had 12 healthy volunteers. Both are small."
+      },
+      {
+        "q": "Did the OM study prove chanting changes the brain for good?",
+        "a": "No. It measured brain activity during chanting in a scanner. It does not show lasting change or any treatment effect, and the authors call it a pilot."
+      },
+      {
+        "q": "Can chanting replace treatment for anxiety or blood pressure?",
+        "a": "No. These studies do not test chanting as treatment. If you have a medical or mental health concern, speak to a qualified professional."
+      },
+      {
+        "q": "Is it the mantra's meaning or the breathing that helps?",
+        "a": "Researchers have not settled this. Bernardi's team pointed to rhythm and slow breathing, while believers value meaning and devotion. Scholars of mantra also disagree about how much the words matter."
+      }
     ],
-    related: {
-      stotrams: ['gayatri-mantra', 'hanuman-chalisa'],
-      guides: ['best-mantra-for-anxiety', 'spiritual-routine-for-beginners'],
+    "related": {
+      "stotrams": [
+        "gayatri-mantra",
+        "hanuman-chalisa"
+      ],
+      "guides": [
+        "best-mantra-for-anxiety",
+        "spiritual-routine-for-beginners",
+        "om-meaning-and-how-to-chant"
+      ]
     },
-    sources: [
-      'Bernardi L. et al., Effect of rosary prayer and yoga mantras on autonomic cardiovascular rhythms: comparative study, BMJ 2001;323:1446-9',
-      'Kalyani B.G. et al., Neurohemodynamic correlates of OM chanting: a pilot fMRI study, International Journal of Yoga 2011;4(1):3-6',
-    ],
+    "sources": [
+      "Bernardi L. et al., Effect of rosary prayer and yoga mantras on autonomic cardiovascular rhythms: comparative study, BMJ 2001;323:1446-9",
+      "Kalyani B.G. et al., Neurohemodynamic correlates of OM chanting: a pilot fMRI study, International Journal of Yoga 2011;4(1):3-6",
+      "PubMed record of Bernardi L. et al., BMJ 2001, PMID 11751348 (23 healthy adults, six breaths per minute, baroreflex sensitivity 9.5 to 11.5 ms/mmHg, authors' hedged conclusion)",
+      "PubMed Central, Kalyani B.G. et al., Int J Yoga 2011, PMC3099099 (12 volunteers, 3T fMRI, OM against 'ssss' control, limbic deactivation, pilot status and relaxation confound)",
+      "Wikipedia, Mantra (summary of the Staal and Alper scholarly debate on whether mantras have literal meaning; secondary source)"
+    ]
   },
 
   {
@@ -525,70 +575,129 @@ export const GUIDES_PRACTICE = [
   },
 
   {
-    slug: 'can-we-chant-during-periods',
-    category: 'Understanding practice',
-    title: 'Can We Chant Mantras During Periods? Traditions, Modern Views and a Respectful Answer',
-    description:
-      'A balanced answer to whether women can chant, pray or recite Hanuman Chalisa during menstruation: what different traditions say, the history of these customs, modern teachers, and personal choice.',
-    h1: 'Can We Chant Mantras and Prayers During Periods?',
-    intro:
-      'This is one of the most frequently asked questions about Hindu practice, and the answers differ between families, regions and traditions. This guide sets out the range of views honestly and respectfully, so that readers can decide for themselves.',
-    sections: [
+    "slug": "can-we-chant-during-periods",
+    "category": "Understanding practice",
+    "title": "Can We Chant Mantras During Periods? Traditions and Modern Views",
+    "description": "Can women chant, pray or recite the Hanuman Chalisa during periods? A fair look at what different traditions and modern teachers say, and why personal choice matters.",
+    "h1": "Can We Chant Mantras and Prayers During Periods?",
+    "intro": "This is one of the most frequently asked questions about Hindu practice, and the answers differ between families, regions and traditions. This guide sets out the range of views honestly and respectfully, so that readers can decide for themselves.",
+    "sections": [
       {
-        h: 'What some traditions say',
-        p: [
-          `In many orthodox households, women are traditionally advised to refrain from certain ritual activities during menstruation, such as entering the pooja room, touching the idols, performing havan or visiting temples. These customs are linked to concepts of ritual purity and, historically, to a need for rest in times without modern hygiene facilities. Practices vary greatly: some families observe strict restrictions, some observe a few, and many none.`,
-        ],
+        "h": "What some traditions say",
+        "p": [
+          "In many orthodox households, women are traditionally advised to refrain from certain ritual activities during menstruation, such as entering the pooja room, touching the idols, performing havan or visiting temples. These customs are linked to concepts of ritual purity and, historically, to a need for rest in times without modern hygiene facilities. Practices vary greatly: some families observe strict restrictions, some observe a few, and many none."
+        ]
       },
       {
-        h: 'What about chanting and mental prayer?',
-        p: [
-          `Even among those who observe ritual restrictions, there is wide agreement that remembrance of the divine, mental japa and listening to hymns are permitted at all times. Many teachers hold that the name of God purifies and cannot be polluted. Under this view, chanting the Hanuman Chalisa silently, listening to a recording, or repeating a mantra in the mind is entirely fine, even if one does not touch the idols or perform formal puja.`,
-        ],
+        "h": "What about chanting and mental prayer?",
+        "p": [
+          "Even among those who observe ritual restrictions, there is wide agreement that remembrance of the divine, mental japa and listening to hymns are permitted at all times. Many teachers hold that the name of God purifies and cannot be polluted. Under this view, chanting the Hanuman Chalisa silently, listening to a recording, or repeating a mantra in the mind is entirely fine, even if one does not touch the idols or perform formal puja."
+        ]
       },
       {
-        h: 'Modern and reformist views',
-        p: [
-          `Many contemporary spiritual teachers, women scholars and organisations say that menstruation is a natural biological process and should not bar anyone from prayer, temples or rituals at all. They point out that the scriptural basis for strict restriction is limited and that early Vedic texts do not mention it as an exclusion. Debates about temple entry have also reached Indian courts and public life. Reasonable, devout people hold different views.`,
-        ],
+        "h": "Modern and reformist views",
+        "p": [
+          "Many contemporary spiritual teachers, women scholars and organisations say that menstruation is a natural biological process and should not bar anyone from prayer, temples or rituals at all. They point out that the scriptural basis for strict restriction is limited and that early Vedic texts do not mention it as an exclusion. Debates about temple entry have also reached Indian courts and public life. Reasonable, devout people hold different views."
+        ]
       },
       {
-        h: 'Our view',
-        p: [
-          `We are an educational site, not a religious authority. What we can say is this: no major tradition forbids remembering God in the mind, and many do not restrict any prayer at all. The decision is personal, and no one should feel shame about a biological process. If your family has customs, you can respect them while also finding your own practice. If you feel more comfortable chanting, do so; if you prefer to rest, that is also fine.`,
-        ],
+        "h": "Our view",
+        "p": [
+          "We are an educational site, not a religious authority. What we can say is this: no major tradition forbids remembering God in the mind, and many do not restrict any prayer at all. The decision is personal, and no one should feel shame about a biological process. If your family has customs, you can respect them while also finding your own practice. If you feel more comfortable chanting, do so; if you prefer to rest, that is also fine."
+        ]
       },
       {
-        h: 'Practical suggestions',
-        p: [
-          `If you wish to honour a family custom but also want to pray, you can recite mentally, listen to the stotram on this site, read the meaning of the verses, or sing quietly. Use this time for rest, and do not feel guilty about a break from routine. If you have a trusted elder or teacher, you could ask for their perspective.`,
-        ],
+        "h": "Practical suggestions",
+        "p": [
+          "If you wish to honour a family custom but also want to pray, you can recite mentally, listen to the stotram on this site, read the meaning of the verses, or sing quietly. Use this time for rest, and do not feel guilty about a break from routine. If you have a trusted elder or teacher, you could ask for their perspective."
+        ]
       },
+      {
+        "h": "Texts that are usually cited",
+        "p": [
+          "Discussions of this topic point to several Sanskrit sources, and it helps to know that they are of different kinds. The Taittiriya Samhita tells a story in which women took on a share of a sin of Indra and it appears as monthly bleeding, and it is cited for the idea of impurity. Smriti texts such as the Parashara Smriti and the Vyasa Samhita describe days of withdrawal from household and ritual duties, with purification on the fourth day. The Angirasa Smriti is quoted as advising against sacred activities, and the Vasishtha Dharma Sutra as advising against touching fire, which some readers apply to both cooking and fire worship.",
+          "Scholars read these passages differently. Some see rules of ritual eligibility, some see a rest period, and others see social control. The same sources are mostly about formal rites such as havan and pitr rites. They do not describe quiet remembrance of God, which is why many teachers draw the line there. Ayurvedic works such as the Sushruta Samhita also give advice for these days, but it concerns rest and diet, not worship."
+        ]
+      },
+      {
+        "h": "Regional customs differ widely",
+        "p": [
+          "Practice is not uniform across India. In parts of South India, girls' first menstruation is celebrated with elaborate family ceremonies, while many northern communities mark it more simply. Some places turn the cycle itself into a festival. Kamakhya Temple in Assam closes for three days during Ambubachi, and reopens afterwards. In Odisha, Raja Parba gives the earth three days of rest, and farmers do not plough. In these customs the cycle is linked with the earth's fertility and honoured with a pause, which shows how varied the attitudes are.",
+          "Within a single state, families differ. Some do not enter the puja room for a few days, some skip only formal rituals such as handling the idol or preparing offerings, and some follow no restriction. A grandmother's habits and a daughter's habits can differ in the same house, and both can be sincere."
+        ]
+      },
+      {
+        "h": "Temples and public debate",
+        "p": [
+          "Temple rules are a separate question from home prayer. The Sabarimala case brought it to the Supreme Court of India. On 28 September 2018 a Constitution Bench ruled by 4 to 1 that the custom barring women aged 10 to 50 from the temple was unconstitutional. In November 2019 a review bench, by 3 to 2, kept the review petitions pending and referred wider questions on religious freedom to a larger bench. This note is only a record of what the court did. Devotees on different sides, including many women, hold their views with real conviction, and we do not take sides here."
+        ]
+      },
+      {
+        "h": "What surveys of practice suggest",
+        "p": [
+          "A study of 798 schoolgirls by Gujarathi, Jani and Murthy, as quoted in an article on the Indica site, found that about 42 percent avoided religious activities and about 48 percent avoided temple visits, the most commonly kept restrictions in that sample. A small number followed none. Many who no longer kept restrictions fully said they were impractical today. This is one sample, cited second-hand, from one region, so it shows only that observance is mixed. The article itself is an opinion piece, so we use its figures cautiously."
+        ]
+      },
+      {
+        "h": "Talking about it within the family",
+        "p": [
+          "If you are a girl or woman unsure what to do, you may find it easier to ask what the custom means in your family before deciding. If you are a parent or elder, explaining the reasons you were taught, and listening to your daughter's view, tends to go better than simply stating a rule. Both generations can honour the tradition and the person."
+        ]
+      }
     ],
-    faqs: [
+    "faqs": [
       {
-        q: 'Can I chant Hanuman Chalisa during periods?',
-        a: 'Many families permit silent chanting or listening. Practice varies, and the decision is personal.',
+        "q": "Can I chant Hanuman Chalisa during periods?",
+        "a": "Many families permit silent chanting or listening. Practice varies, and the decision is personal."
       },
       {
-        q: 'Is mental chanting allowed?',
-        a: 'Most traditions hold that remembrance of God in the mind is allowed at all times.',
+        "q": "Is mental chanting allowed?",
+        "a": "Most traditions hold that remembrance of God in the mind is allowed at all times."
       },
       {
-        q: 'Do ancient scriptures forbid it?',
-        a: 'Opinions differ. Some later texts mention restrictions; many scholars say they are customary, not essential.',
+        "q": "Do ancient scriptures forbid it?",
+        "a": "Opinions differ. Some later texts mention restrictions; many scholars say they are customary, not essential."
       },
       {
-        q: 'What should I do if my family disagrees?',
-        a: 'Respect their wishes where you can and keep your private mental practice. A respectful conversation helps.',
+        "q": "What should I do if my family disagrees?",
+        "a": "Respect their wishes where you can and keep your private mental practice. A respectful conversation helps."
       },
+      {
+        "q": "Can I go to a temple during periods?",
+        "a": "Traditions differ. Some temples and families ask women not to visit, others place no restriction, and the law has been debated in India. Follow your family's custom or your own conscience."
+      },
+      {
+        "q": "Can I listen to bhajans or stotrams on this site?",
+        "a": "Listening is widely regarded as acceptable, since it involves no ritual handling. Families vary, and the choice is yours."
+      },
+      {
+        "q": "Why do some families avoid touching the idol or lighting the lamp?",
+        "a": "Those families treat formal puja as needing ritual purity under their custom. It is a household rule of ritual eligibility, not a judgement of the woman."
+      },
+      {
+        "q": "Is it wrong to continue my daily prayer?",
+        "a": "No single answer fits every tradition. Many teachers say mental prayer is always open, and others follow stricter customs. Nobody should feel shame for either choice."
+      },
+      {
+        "q": "What are Ambubachi and Raja Parba?",
+        "a": "Ambubachi at Kamakhya in Assam and Raja Parba in Odisha are festivals that pause work or worship for three days in connection with the earth's fertility. They show how varied attitudes within India are."
+      }
     ],
-    related: {
-      stotrams: ['hanuman-chalisa', 'durga-stotram'],
-      guides: ['mantra-chanting-rules-faq', 'spiritual-routine-for-beginners'],
+    "related": {
+      "stotrams": [
+        "hanuman-chalisa",
+        "durga-stotram"
+      ],
+      "guides": [
+        "mantra-chanting-rules-faq",
+        "spiritual-routine-for-beginners"
+      ]
     },
-    sources: [
-      'Discussions of menstruation and ritual in Hindu Dharmashastra literature and modern scholarship',
-    ],
+    "sources": [
+      "Discussions of menstruation and ritual in Hindu Dharmashastra literature and modern scholarship",
+      "DharmaWiki, Rajodharma (cites the Taittiriya Samhita, Parashara Smriti, Vyasa Samhita and Sushruta Samhita on menstruation; also regional customs such as Ambubachi and Raja Parba)",
+      "Indica Today, article on menstruation and worship (cites the Angirasa Smriti, the Vasishtha Dharma Sutra, and a survey of 798 girls by Gujarathi, Jani and Murthy; an opinion piece, so used with caution)",
+      "Supreme Court Observer, Sabarimala Temple Entry and Sabarimala Review case pages (28 September 2018 judgment, 4 to 1; 14 November 2019 review order, 3 to 2)"
+    ]
   },
 ];

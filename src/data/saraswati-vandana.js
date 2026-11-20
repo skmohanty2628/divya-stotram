@@ -39,7 +39,7 @@ export const saraswatiVandana = {
       transliteration:'Saraswati Namastubhyam Varade Kama Rupini\nVidyarambham Karishyami Siddhir Bhavatu Me Sada',
       original:'सरस्वति नमस्तुभ्यं वरदे कामरूपिणि।\nविद्यारम्भं करिष्यामि सिद्धिर्भवतु मे सदा॥',
       script:{
-        od:'ସରସ୍ୱତି ନମସ୍ତୁଭ୍ୟଂ ବରଦେ କାମରୂପିଣୀ।\nବିଦ୍ୟାରମ୍ଭଂ କରିଷ୍ୟାମି ସିଦ୍ଧିର୍ଭବତୁ ମେ ସଦା॥',
+        od:'ସରସ୍ୱତି ନମସ୍ତୁଭ୍ୟଂ ବରଦେ କାମରୂପିଣି।\nବିଦ୍ୟାରମ୍ଭଂ କରିଷ୍ୟାମି ସିଦ୍ଧିର୍ଭବତୁ ମେ ସଦା॥',
         te:'సరస్వతి నమస్తుభ్యం వరదే కామ రూపిణి।\nవిద్యారంభం కరిష్యామి సిద్ధిర్భవతు మే సదా॥',
       },
       meaning:{
@@ -71,8 +71,8 @@ export const saraswatiVandana = {
       transliteration:'Om Aim Hrim Shrim Saraswatyai Namah\nJaya Jaya Devi Saraswati Mata\nVidya Daan Dijo, Anand Data',
       original:'ॐ ऐं ह्रीं श्रीं सरस्वत्यै नमः।\nजय जय देवी सरस्वती माता।\nविद्या दान दीजो, आनन्द दाता॥',
       script:{
-        od:'ଓଁ ଐଁ ହ୍ରୀଁ ଶ୍ରୀଁ ସରସ୍ୱତ୍ୟୈ ନମଃ।\nଜୟ ଜୟ ଦେବୀ ସରସ୍ୱତୀ ମାତା।\nବିଦ୍ୟା ଦାନ ଦିଅ, ଆନନ୍ଦ ଦାତା॥',
-        te:'ఓం ఐం హ్రీం శ్రీం సరస్వత్యై నమః।\nజయ జయ దేవి సరస్వతి మాత।\nవిద్యా దాన్ దీజో ఆనంద దాత॥',
+        od:'ଓଁ ଐଁ ହ୍ରୀଁ ଶ୍ରୀଁ ସରସ୍ୱତ୍ୟୈ ନମଃ।\nଜୟ ଜୟ ଦେବୀ ସରସ୍ୱତୀ ମାତା।\nବିଦ୍ୟା ଦାନ ଦୀଜୋ, ଆନନ୍ଦ ଦାତା॥',
+        te:'ఓం ఐం హ్రీం శ్రీం సరస్వత్యై నమః।\nజయ జయ దేవీ సరస్వతీ మాతా।\nవిద్యా దాన దీజో, ఆనంద దాతా॥',
       },
       meaning:{
         en:'Victory to Saraswati, grant us knowledge and happiness.',

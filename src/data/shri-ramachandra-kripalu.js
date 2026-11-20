@@ -1,7 +1,9 @@
 // SHRI RAMACHANDRA KRIPALU BHAJMAN (Shri Ram Stuti), a hymn to Rama attributed to Tulsidas.
-// Text checked on 2026-11-13 against bhaktibharat.com (Hindi page) and vedicfeed.com (Devanagari). The five stanzas agree word for word apart from spacing and these variants:
+// Text checked on 2026-11-13 against bhaktibharat.com (Hindi page) and vedicfeed.com (Devanagari). Stanzas 1 to 5 agree word for word apart from spacing and these variants:
 // bhaja mana (vedicfeed, Wikipedia) versus bhaju mana (bhaktibharat); koshala (bhaktibharat) versus kosala (vedicfeed); udara (vedicfeed) versus udaru (bhaktibharat); ruchi (bhaktibharat) versus ruchi with long u (vedicfeed).
-// Not included: the Ramcharitmanas stanzas about Gauri's blessing that bhaktibharat appends (vedicfeed omits them), because only one source was checked for them.
+// Stanzas 6 and 7 (Gauri's blessing to Sita, from the Ramcharitmanas) added on 2026-11-20: stanza 6 is in bhaktibharat.com, melyric.com, shubhpanchang.com and archive.arunachala.org; stanza 7 is in bhaktibharat.com, melyric.com and shubhpanchang.com (arunachala skips it). vedicfeed carries only stanzas 1 to 5.
+// Variants in 6 and 7: bhaktibharat reads man jahi rachyo milahi / vara / sheela sneha / suna / harashita, while melyric, shubhpanchang (and arunachala for 6) read manu jahin racheu milihi / baru / silu sanehu / suni / harashin; the majority reading is used. Karuna with n (melyric, shubhpanchang) versus retroflex n (bhaktibharat, arunachala) is a 2 to 2 spelling split; the retroflex form is used.
+// The traditional closing stanza by Tulsidas ('iti vadati Tulasidasa') is stanza 5 in every source, with 6 and 7 following it as the Manas stanzas. The Sortha (jani gauri anukula) after them is in bhaktibharat, shubhpanchang and arunachala but is not included here.
 export const ramachandraKripalu = {
   slug: 'shri-ramachandra-kripalu',
   verses: [
@@ -88,6 +90,40 @@ export const ramachandraKripalu = {
         hi: "तुलसीदास कहते हैं: आप शंकर, शेष और मुनियों के मन को आनन्द देने वाले हैं। मेरे हृदय-कमल में निवास कीजिए और काम आदि दुष्ट शत्रु-दल का नाश कीजिए।",
         od: "ତୁଳସୀଦାସ କହନ୍ତି: ଆପଣ ଶଙ୍କର, ଶେଷ ଓ ମୁନିମାନଙ୍କ ମନକୁ ଆନନ୍ଦ ଦିଅନ୍ତି। ମୋ ହୃଦୟ-ପଦ୍ମରେ ବାସ କରନ୍ତୁ ଏବଂ କାମ ଆଦି ଦୁଷ୍ଟ ଶତ୍ରୁଦଳକୁ ନାଶ କରନ୍ତୁ।",
         te: "తులసీదాసు చెబుతున్నాడు: నీవు శంకరుని, శేషుని, మునుల మనసులను ఆనందింపజేస్తావు. నా హృదయ కమలంలో నివసించు, కామం మొదలైన దుష్ట శత్రు సమూహాన్ని నాశనం చేయి.",
+      },
+    },
+    {
+      id: 'rk-6',
+      type: 'shloka',
+      num: 6,
+      original: "मनु जाहिं राचेउ मिलिहि सो बरु सहज सुन्दर सांवरो।\nकरुणा निधान सुजान सीलु सनेहु जानत रावरो॥",
+      transliteration: "Manu Jahin Racheu Milihi So Baru Sahaja Sundara Sanvaro\nKaruna Nidhana Sujana Silu Sanehu Janata Ravaro",
+      script: {
+        od: "ମନୁ ଜାହିଂ ରାଚେଉ ମିଲିହି ସୋ ବରୁ ସହଜ ସୁନ୍ଦର ସାଂବରୋ।\nକରୁଣା ନିଧାନ ସୁଜାନ ସୀଲୁ ସନେହୁ ଜାନତ ରାବରୋ॥",
+        te: "మను జాహిం రాచేఉ మిలిహి సో బరు సహజ సుందర సాంవరో।\nకరుణా నిధాన సుజాన సీలు సనేహు జానత రావరో॥",
+      },
+      meaning: {
+        en: "Gauri says to Sita: the dark, naturally beautiful bridegroom on whom your heart has settled will be yours. He is a treasure of compassion, wise, and fully aware of your virtue and your love.",
+        hi: "गौरी माँ कहती हैं: जिसमें तुम्हारा मन रम गया है, वही स्वभाव से सुन्दर साँवला वर तुम्हें मिलेगा। वे करुणा के भण्डार और सब कुछ जानने वाले हैं, और तुम्हारे शील तथा स्नेह को भली-भाँति जानते हैं।",
+        od: "ଗୌରୀ ମା କହନ୍ତି: ଯାହାଠାରେ ତୁମ ମନ ରମିଯାଇଛି, ସେହି ସ୍ୱଭାବତଃ ସୁନ୍ଦର ଶ୍ୟାମଳ ବର ତୁମକୁ ମିଳିବେ। ସେ କରୁଣାର ଭଣ୍ଡାର ଓ ସର୍ବଜ୍ଞ, ତୁମର ଶୀଳ ଓ ସ୍ନେହକୁ ଭଲ ଭାବରେ ଜାଣନ୍ତି।",
+        te: "గౌరీ మాత చెబుతోంది: నీ మనసు ఎవరిపై నిలిచిందో, సహజ సౌందర్యంతో ఉన్న ఆ శ్యామల వరుడే నీకు లభిస్తాడు. ఆయన కరుణా నిధి, సర్వజ్ఞుడు, నీ శీలాన్ని, నీ ప్రేమను బాగా ఎరిగినవాడు.",
+      },
+    },
+    {
+      id: 'rk-7',
+      type: 'shloka',
+      num: 7,
+      original: "एहि भांति गौरी असीस सुनि सिय सहित हिय हरषीं अली।\nतुलसी भवानिहि पूजि पुनि पुनि मुदित मन मन्दिर चली॥",
+      transliteration: "Ehi Bhanti Gauri Asisa Suni Siya Sahita Hiya Harashin Ali\nTulasi Bhavanihi Puji Puni Puni Mudita Mana Mandira Chali",
+      script: {
+        od: "ଏହି ଭାଂତି ଗୌରୀ ଅସୀସ ସୁନି ସିୟ ସହିତ ହିୟ ହରଷୀଂ ଅଲୀ।\nତୁଲସୀ ଭବାନିହି ପୂଜି ପୁନି ପୁନି ମୁଦିତ ମନ ମନ୍ଦିର ଚଲୀ॥",
+        te: "ఏహి భాంతి గౌరీ అసీస సుని సియ సహిత హియ హరషీం అలీ।\nతులసీ భవానిహి పూజి పుని పుని ముదిత మన మందిర చలీ॥",
+      },
+      meaning: {
+        en: "Hearing Gauri's blessing, Sita and her companions were glad at heart. Bowing again and again to Bhavani, they went back to the palace with joyful minds.",
+        hi: "गौरी का आशीर्वाद सुनकर सीता और उनकी सखियाँ मन में हर्षित हुईं। भवानी की बार-बार पूजा करके वे प्रसन्न मन से महल की ओर लौट चलीं।",
+        od: "ଗୌରୀଙ୍କ ଆଶୀର୍ବାଦ ଶୁଣି ସୀତା ଓ ତାଙ୍କ ସଖୀମାନେ ମନେ ମନେ ଖୁସି ହେଲେ। ଭବାନୀଙ୍କୁ ବାରମ୍ବାର ପୂଜା କରି ସେମାନେ ଆନନ୍ଦିତ ମନରେ ମହଲକୁ ଫେରିଲେ।",
+        te: "గౌరీ ఆశీర్వాదం విని సీత, ఆమె చెలికత్తెలు మనసులో సంతోషించారు. భవానీ దేవిని మళ్లీ మళ్లీ పూజించి, సంతోషభరిత మనసుతో రాజమందిరానికి తిరిగి వెళ్లారు.",
       },
     },
   ],

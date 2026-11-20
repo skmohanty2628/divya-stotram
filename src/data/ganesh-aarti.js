@@ -9,10 +9,10 @@ export const ganeshAarti = {
       transliteration:`Jai Ganesh Jai Ganesh Jai Ganesh Deva
 Mata Jaki Parvati Pita Mahadeva`,
       script:{
-        od:`ଜୟ ଗଣେଶ ଜୟ ଗଣେଶ ଜୟ ଗଣେଶ ଦେବ।
-ମାତା ଯାକୀ ପାର୍ବତୀ ପିତା ମହାଦେବ॥`,
+        od:`ଜଯ ଗଣେଶ ଜଯ ଗଣେଶ ଜଯ ଗଣେଶ ଦେୱା।
+ମାତା ଜାକୀ ପାର୍ୱତୀ ପିତା ମହାଦେୱା॥`,
         te:`జయ గణేశ జయ గణేశ జయ గణేశ దేవా।
-మాతా జాకీ పార్వతి పితా మహాదేవా॥`
+మాతా జాకీ పార్వతీ పితా మహాదేవా॥`
       },
       meaning:{
         en:`Victory to Lord Ganesha, son of Parvati and Mahadev.`,
@@ -29,10 +29,10 @@ Mata Jaki Parvati Pita Mahadeva`,
       transliteration:`Ekadanta Dayavanta Char Bhujadhari
 Mathe Sindoor Sohe Moose Ki Sawari`,
       script:{
-        od:`ଏକଦନ୍ତ ଦୟାବନ୍ତ ଚାରି ଭୁଜାଧାରୀ।
-ମାଥାରେ ସିନ୍ଦୂର ଶୋଭେ ମୂଷିକ ସୱାରୀ॥`,
-        te:`ఏకదంత దయావంత చార్ భుజాధారి।
-మాథే సిందూర్ సోహే మూసే కి సవారి॥`
+        od:`ଏକଦନ୍ତ ଦଯାୱନ୍ତ ଚାର ଭୁଜାଧାରୀ।
+ମାଥେ ସିଂଦୂର ସୋହେ ମୂସେ କୀ ସୱାରୀ॥`,
+        te:`ఏకదన్త దయావన్త చార భుజాధారీ।
+మాథే సిందూర సోహే మూసే కీ సవారీ॥`
       },
       meaning:{
         en:`One-tusked, compassionate, with four arms, riding a mouse.`,
@@ -44,15 +44,35 @@ Mathe Sindoor Sohe Moose Ki Sawari`,
 
     {
       id:3, type:'aarti', num:3,
+      original:`पान चढ़े फूल चढ़े और चढ़े मेवा।
+लड्डुअन का भोग लगे संत करें सेवा॥`,
+      transliteration:`Paan Chade Phool Chade Aur Chade Meva
+Ladduan Ka Bhog Lage Sant Karen Seva`,
+      script:{
+        od:`ପାନ ଚଢ଼େ ଫୂଲ ଚଢ଼େ ଔର ଚଢ଼େ ମେୱା।
+ଲଡ୍ଡୁଅନ କା ଭୋଗ ଲଗେ ସଂତ କରେଂ ସେୱା॥`,
+        te:`పాన చఢే ఫూల చఢే ఔర చఢే మేవా।
+లడ్డుఅన కా భోగ లగే సంత కరేం సేవా॥`
+      },
+      meaning:{
+        en:`Betel leaves, flowers and dry fruits are offered to Ganesha, laddus are presented as bhog, and saints and devotees serve him.`,
+        hi:`गणेश जी को पान, फूल और मेवा चढ़ाए जाते हैं, लड्डुओं का भोग लगता है और संत उनकी सेवा करते हैं।`,
+        od:`ଗଣେଶଙ୍କୁ ପାନ, ଫୁଲ ଓ ମେୱା ଅର୍ପଣ କରାଯାଏ, ଲଡ୍ଡୁର ଭୋଗ ଲାଗେ ଏବଂ ସନ୍ତମାନେ ସେବା କରନ୍ତି।`,
+        te:`గణేశునికి తమలపాకులు, పూలు, మేవా సమర్పిస్తారు, లడ్డూల నైవేద్యం పెడతారు, సాధువులు సేవ చేస్తారు.`
+      }
+    },
+
+    {
+      id:4, type:'aarti', num:4,
       original:`अंधन को आंख देत कोढ़िन को काया।
 बांझन को पुत्र देत निर्धन को माया॥`,
       transliteration:`Andhan Ko Aankh Det Kodhin Ko Kaya
 Banjhan Ko Putra Det Nirdhan Ko Maya`,
       script:{
-        od:`ଅନ୍ଧଙ୍କୁ ଆଖି ଦିଅନ୍ତି, କୁଷ୍ଠରୋଗୀଙ୍କୁ ଶରୀର।
-ବନ୍ଧ୍ୟାଙ୍କୁ ପୁତ୍ର ଦିଅନ୍ତି, ଦରିଦ୍ରଙ୍କୁ ସମ୍ପତ୍ତି॥`,
-        te:`అంధునికి కళ్ళు ఇస్తాడు, రోగులకు ఆరోగ్యం ఇస్తాడు।
-సంతానం లేనివారికి పిల్లలు, పేదలకు సంపద ఇస్తాడు॥`
+        od:`ଅଂଧନ କୋ ଆଂଖ ଦେତ କୋଢ଼ିନ କୋ କାଯା।
+ବାଂଝନ କୋ ପୁତ୍ର ଦେତ ନିର୍ଧନ କୋ ମାଯା॥`,
+        te:`అంధన కో ఆంఖ దేత కోఢిన కో కాయా।
+బాంఝన కో పుత్ర దేత నిర్ధన కో మాయా॥`
       },
       meaning:{
         en:`You bless the blind, sick, childless, and poor.`,
@@ -63,36 +83,16 @@ Banjhan Ko Putra Det Nirdhan Ko Maya`,
     },
 
     {
-      id:4, type:'aarti', num:4,
-      original:`हार चढ़े फूल चढ़े और चढ़े मेवा।
-लड्डूअन का भोग लगे संत करें सेवा॥`,
-      transliteration:`Haar Chade Phool Chade Aur Chade Meva
-Laddooan Ka Bhog Lage Sant Karen Seva`,
-      script:{
-        od:`ହାର ଚଢ଼େ ଫୁଲ ଚଢ଼େ ଓ ଚଢ଼େ ମେୱା।
-ଲଡ୍ଡୁର ଭୋଗ ଲାଗେ ସନ୍ତମାନେ ସେବା କରନ୍ତି॥`,
-        te:`హార్ చఢే ఫూల్ చఢే ఔర్ చఢే మేవా।
-లడ్డూ భోగం సమర్పిస్తారు సంతులు సేవ చేస్తారు॥`
-      },
-      meaning:{
-        en:`Devotees offer flowers, sweets, and serve you with devotion.`,
-        hi:`भक्त फूल, मिष्ठान अर्पित करते हैं और सेवा करते हैं।`,
-        od:`ଭକ୍ତମାନେ ଫୁଲ, ମିଠା ଦେଇ ଭକ୍ତି କରନ୍ତି।`,
-        te:`భక్తులు పూలు, ప్రసాదం సమర్పించి సేవ చేస్తారు.`
-      }
-    },
-
-    {
       id:5, type:'aarti', num:5,
       original:`'सूर' श्याम शरण आए सफल कीजे सेवा।
 माता जाकी पार्वती पिता महादेवा॥`,
-      transliteration:`Sur Shyam Sharan Aaye Safal Keeje Seva
+      transliteration:`'Sur' Shyam Sharan Aaye Safal Keeje Seva
 Mata Jaki Parvati Pita Mahadeva`,
       script:{
-        od:`'ସୂର' ଶ୍ୟାମ ଶରଣ ଆସିଲା, ସେବା ସଫଳ କରନ୍ତୁ।
-ମାତା ଯାଙ୍କ ପାର୍ବତୀ, ପିତା ମହାଦେବ॥`,
-        te:`'సూర్' శ్యామ్ శరణు వచ్చాడు, సేవను సఫలం చేయి।
-తల్లి పార్వతి, తండ్రి మహాదేవుడు॥`
+        od:`'ସୂର' ଶ୍ଯାମ ଶରଣ ଆଏ ସଫଲ କୀଜେ ସେୱା।
+ମାତା ଜାକୀ ପାର୍ୱତୀ ପିତା ମହାଦେୱା॥`,
+        te:`'సూర' శ్యామ శరణ ఆఏ సఫల కీజే సేవా।
+మాతా జాకీ పార్వతీ పితా మహాదేవా॥`
       },
       meaning:{
         en:`The poet signs off in the last line: "Sur Shyam has come to your refuge, make this service fruitful." Your mother is Parvati and your father is Mahadeva.`,
@@ -104,82 +104,43 @@ Mata Jaki Parvati Pita Mahadeva`,
 
     {
       id:6, type:'aarti', num:6,
-      original:`जय गणेश जय गणेश जय गणेश देवा।
-माता जाकी पार्वती पिता महादेवा॥`,
-      transliteration:`Jai Ganesh Jai Ganesh Jai Ganesh Deva`,
+      original:`दीनन की लाज रखो शंभु सुतकारी।
+कामना को पूर्ण करो जाऊं बलिहारी॥`,
+      transliteration:`Deenan Ki Laaj Rakho Shambhu Sutkari
+Kamna Ko Poorn Karo Jaoon Balihari`,
       script:{
-        od:`ଜୟ ଗଣେଶ ଜୟ ଗଣେଶ ଜୟ ଗଣେଶ ଦେବ॥`,
-        te:`జయ గణేశ జయ గణేశ జయ గణేశ దేవా॥`
+        od:`ଦୀନନ କୀ ଲାଜ ରଖୋ ଶଂଭୁ ସୁତକାରୀ।
+କାମନା କୋ ପୂର୍ଣ କରୋ ଜାଊଂ ବଲିହାରୀ॥`,
+        te:`దీనన కీ లాజ రఖో శంభు సుతకారీ।
+కామనా కో పూర్ణ కరో జాఊం బలిహారీ॥`
       },
       meaning:{
-        en:`Victory to Lord Ganesha.`,
-        hi:`गणेश जी को जय।`,
-        od:`ଗଣେଶ ଦେବଙ୍କୁ ଜୟ।`,
-        te:`గణేశుడికి జయము.`
+        en:`Protect the honour of the humble, O son of Shambhu. Fulfil our wishes; I offer myself to you in devotion.`,
+        hi:`हे शंभु के पुत्र, दीनों की लाज रखिए और हमारी कामनाएँ पूरी कीजिए; मैं आप पर न्योछावर हूँ।`,
+        od:`ହେ ଶମ୍ଭୁପୁତ୍ର, ଦୀନଜନଙ୍କ ମାନ ରଖନ୍ତୁ ଏବଂ ଆମ କାମନା ପୂରଣ କରନ୍ତୁ; ମୁଁ ଆପଣଙ୍କ ଚରଣରେ ସମର୍ପିତ।`,
+        te:`శంభుసుతా, దీనుల మానం కాపాడు, మా కోరికలు తీర్చు; నేను నీకే అర్పితుడను.`
       }
     },
 
     {
-  id:7, type:'aarti', num:7,
-  transliteration:`Jai Jai Ji Ganapati Jag Vandana Hamara
-Sarva Sukhadata Karo Nayan Nihara`,
-  original:`जय जय जी गणपति जग वन्दन हमारा।
-सर्व सुखदाता करो नयन निहारा॥`,
-  script:{
-    od:`ଜୟ ଜୟ ଜୀ ଗଣପତି, ଜଗ ବନ୍ଦନ ହମାରା।
-ସର୍ବ ସୁଖଦାତା, କର ନୟନ ନିହାରା॥`,
-    te:`జయ జయ జీ గణపతి, జగ వందన మా।
-సర్వ సుఖదాత, మా మీద దృష్టి పెట్టు॥`
-  },
-  meaning:{
-    en:`O Ganapati, worshipped by the whole world, bless us with happiness.`,
-    hi:`हे गणपति, जो जगत द्वारा वंदित हैं, हमें सुख प्रदान करें।`,
-    od:`ହେ ଗଣପତି! ଆପଣ ସମସ୍ତଙ୍କ ଦ୍ୱାରା ପୂଜିତ। ଆମକୁ ସୁଖ ଦିଅନ୍ତୁ।`,
-    te:`ఓ గణపతి! ప్రపంచం నిన్ను వందిస్తుంది. మాకు సుఖం ఇవ్వు.`
-  }
-},
-
-{
-  id:8, type:'aarti', num:8,
-  transliteration:`Dhoop Deep Aur Naivedya Bhakti Se Jo Laave
-Ganapati Prasanna Ho Sukh Sampatti Paave`,
-  original:`धूप दीप नैवेद्य चढ़े, भक्त करें सेवकाई।
-गणपति प्रसन्न होवें, सुख संपत्ति आई॥`,
-  script:{
-    od:`ଧୂପ ଦୀପ ନୈବେଦ୍ୟ ଅର୍ପଣ କରି, ଭକ୍ତମାନେ ସେବା କରନ୍ତି।
-ଗଣପତି ପ୍ରସନ୍ନ ହେଲେ, ସୁଖ ସମ୍ପତ୍ତି ମିଳେ॥`,
-    te:`ధూప దీప నైవేద్యం సమర్పించి భక్తులు సేవ చేస్తారు।
-గణపతి సంతోషిస్తే సుఖ సంపదలు లభిస్తాయి॥`
-  },
-  meaning:{
-    en:`Those who offer prayers with devotion receive happiness and prosperity.`,
-    hi:`भक्ति से पूजा करने वालों को सुख और संपत्ति मिलती है।`,
-    od:`ଭକ୍ତିଭାବରେ ପୂଜା କଲେ ସୁଖ ଓ ସମ୍ପତ୍ତି ମିଳେ।`,
-    te:`భక్తితో పూజ చేస్తే సుఖ సంపదలు లభిస్తాయి.`
-  }
-},
-
-{
-  id:9, type:'aarti', num:9,
-  transliteration:`Jo Koi Gave Aarti Prem Sahit Gaave
-Vighna Vinashak Ganapati Sukh Sampatti Paave`,
-  original:`जो कोई गावे आरती, प्रेम सहित गावै।
-विघ्न विनाशक गणपति, सुख संपत्ति पावै॥`,
-  script:{
-    od:`ଯେ କେହି ପ୍ରେମଭାବରେ ଏହି ଆରତୀ ଗାଏ,
-ବିଘ୍ନବିନାଶକ ଗଣପତି ସେଠାରେ ସୁଖ ସମ୍ପତ୍ତି ଦିଅନ୍ତି॥`,
-    te:`ఎవరు ప్రేమతో ఈ ఆరతిని పాడుతారో,
-విఘ్న వినాశక గణపతి వారికి సుఖ సంపదలు ఇస్తాడు॥`
-  },
-  meaning:{
-    en:`Whoever sings this with devotion receives blessings and prosperity.`,
-    hi:`जो प्रेम से आरती गाता है उसे सुख और संपत्ति मिलती है।`,
-    od:`ଯେ ଭକ୍ତିସହ ଗାଏ, ସେ ସୁଖ ଓ ସମ୍ପତ୍ତି ପାଏ।`,
-    te:`ప్రేమతో పాడినవారికి గణపతి సుఖ సంపదలను ఇస్తాడు.`
-  }
-}
+      id:7, type:'aarti', num:7,
+      original:`जय गणेश जय गणेश जय गणेश देवा।
+माता जाकी पार्वती पिता महादेवा॥`,
+      transliteration:`Jai Ganesh Jai Ganesh Jai Ganesh Deva
+Mata Jaki Parvati Pita Mahadeva`,
+      script:{
+        od:`ଜଯ ଗଣେଶ ଜଯ ଗଣେଶ ଜଯ ଗଣେଶ ଦେୱା।
+ମାତା ଜାକୀ ପାର୍ୱତୀ ପିତା ମହାଦେୱା॥`,
+        te:`జయ గణేశ జయ గణేశ జయ గణేశ దేవా।
+మాతా జాకీ పార్వతీ పితా మహాదేవా॥`
+      },
+      meaning:{
+        en:`The refrain returns to close the aarti: victory to Lord Ganesha, son of Parvati and Mahadeva.`,
+        hi:`आरती के अंत में फिर वही टेक: पार्वती और महादेव के पुत्र गणेश जी की जय।`,
+        od:`ଆରତୀର ଶେଷରେ ପୁନର୍ବାର ସେହି ପଦ: ପାର୍ବତୀ ଓ ମହାଦେବଙ୍କ ପୁତ୍ର ଗଣେଶଙ୍କୁ ଜୟ।`,
+        te:`ఆరతి చివరన మళ్ళీ అదే పల్లవి: పార్వతి, మహాదేవుల పుత్రుడైన గణేశునికి జయము.`
+      }
+    }
 
   ]
 };
-
-

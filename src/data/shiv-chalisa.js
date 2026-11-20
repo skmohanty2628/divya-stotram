@@ -63,12 +63,12 @@ export const shivChalisa = {
       type: 'chaupai',
       num: 4,
       transliteration:
-        'Anga Gaur Shir Ganga Bahaye\nMundamal Tan Chhar Lagaye',
+        'Anga Gaur Shir Ganga Bahaye\nMundamal Tan Kshaar Lagaye',
       original:
-        'अंग गौर शिर गंग बहाये।\nमुण्डमाल तन छार लगाये॥',
+        'अंग गौर शिर गंग बहाये।\nमुण्डमाल तन क्षार लगाये॥',
       script: {
-        od: 'ଅଙ୍ଗ ଗୌର ଶିର ଗଙ୍ଗ ବହାଏ।\nମୁଣ୍ଡମାଳ ତନ ଛାର ଲଗାଏ॥',
-        te: 'అంగ గౌర శిర గంగ బహాయే।\nముండమాల తన్ ఛార్ లగాయే॥',
+        od: 'ଅଙ୍ଗ ଗୌର ଶିର ଗଙ୍ଗ ବହାଏ।\nମୁଣ୍ଡମାଳ ତନ କ୍ଷାର ଲଗାଏ॥',
+        te: 'అంగ గౌర శిర గంగ బహాయే।\nముండమాల తన్ క్షార్ లగాయే॥',
       },
       meaning: {
         en: 'His body is fair and radiant, and the sacred Ganga flows from his head. He wears a garland of skulls and smears holy ash over his body.',
@@ -82,18 +82,18 @@ export const shivChalisa = {
       type: 'chaupai',
       num: 5,
       transliteration:
-        'Vastra Khaal Baghambar Sohe\nChhavi Ko Dekh Naag Muni Mohe',
+        'Vastra Khaal Baghambar Sohe\nChhavi Ko Dekhi Naag Man Mohe',
       original:
-        'वस्त्र खाल बाघम्बर सोहे।\nछवि को देख नाग मुनि मोहे॥',
+        'वस्त्र खाल बाघम्बर सोहे।\nछवि को देखि नाग मन मोहे॥',
       script: {
-        od: 'ବସ୍ତ୍ର ଖାଲ ବାଘମ୍ବର ସୋହେ।\nଛବି କୋ ଦେଖ ନାଗ ମୁନି ମୋହେ॥',
-        te: 'వస్త్ర ఖాల్ బాఘంబర సోహే।\nఛవి కో దేఖ నాగ ముని మోహే॥',
+        od: 'ବସ୍ତ୍ର ଖାଲ ବାଘମ୍ବର ସୋହେ।\nଛବି କୋ ଦେଖି ନାଗ ମନ ମୋହେ॥',
+        te: 'వస్త్ర ఖాల్ బాఘంబర సోహే।\nఛవి కో దేఖి నాగ మన మోహే॥',
       },
       meaning: {
-        en: 'Tiger skin adorns Shiva like a glorious garment. Seeing his divine beauty, serpents and sages alike become enchanted.',
-        hi: 'बाघम्बर उनके वस्त्र के समान शोभा देता है। उनकी सुंदर छवि देखकर नाग और मुनि भी मोहित हो जाते हैं।',
-        od: 'ବାଘଚର୍ମ ତାଙ୍କର ବସ୍ତ୍ରର ଭଳି ଶୋଭା ପାଉଛି। ତାଙ୍କ ଦିବ୍ୟ ରୂପକୁ ଦେଖି ନାଗ ଓ ଋଷିମାନେ ମୋହିତ ହୁଅନ୍ତି।',
-        te: 'పులిచర్మం ఆయనకు దివ్య వస్త్రముగా శోభిస్తోంది. ఆయన రూపాన్ని చూసి నాగులు, మునులు సైతం మోహితులౌతారు.',
+        en: 'Tiger skin adorns Shiva like a glorious garment. Seeing his divine beauty, even the minds of the serpents are charmed.',
+        hi: 'बाघम्बर उनके वस्त्र के समान शोभा देता है। उनकी सुंदर छवि देखकर नागों का मन भी मोहित हो जाता है।',
+        od: 'ବାଘଚର୍ମ ତାଙ୍କର ବସ୍ତ୍ରର ଭଳି ଶୋଭା ପାଉଛି। ତାଙ୍କ ଦିବ୍ୟ ରୂପକୁ ଦେଖି ନାଗମାନଙ୍କ ମନ ମୋହିତ ହୁଏ।',
+        te: 'పులిచర్మం ఆయనకు దివ్య వస్త్రముగా శోభిస్తోంది. ఆయన రూపాన్ని చూసి నాగుల మనసు కూడా మోహితమవుతుంది.',
       },
     },
     {
@@ -162,8 +162,8 @@ export const shivChalisa = {
       original:
         'कार्तिक श्याम और गणराऊ।\nया छवि को कहि जात न काऊ॥',
       script: {
-        od: 'କାର୍ତ୍ତିକ ଶ୍ୟାମ ଔର ଗଣରାଉ।\nୟା ଛବି କୋ କହି ଯାତ ନ କାଉ॥',
-        te: 'కార్తిక శ్యామ్ ఔర్ గణరావు।\nయా ఛవి కో కహి జాత్ న కౌ॥',
+        od: 'କାର୍ତ୍ତିକ ଶ୍ୟାମ ଔର ଗଣରାଉ।\nୟା ଛବି କୋ କହି ଜାତ ନ କାଉ॥',
+        te: 'కార్తిక శ్యామ్ ఔర్ గణరావు।\nయా ఛవి కో కహి జాత్ న కాఊ॥',
       },
       meaning: {
         en: 'Kartikeya and the divine attendants also beautify the assembly. This glorious vision of Shiva\'s family cannot be fully described in words.',
@@ -181,7 +181,7 @@ export const shivChalisa = {
       original:
         'देवन जबहीं जाय पुकारा।\nतबहीं दुख प्रभु आप निवारा॥',
       script: {
-        od: 'ଦେବନ ଯବହିଁ ଯାୟ ପୁକାରା।\nତବହିଁ ଦୁଃଖ ପ୍ରଭୁ ଆପ ନିବାରା॥',
+        od: 'ଦେବନ ଜବହିଁ ଜାୟ ପୁକାରା।\nତବହିଁ ଦୁଃଖ ପ୍ରଭୁ ଆପ ନିବାରା॥',
         te: 'దేవన్ జబహీం జాయ్ పుకారా।\nతబహీం దుఃఖ ప్రభు ఆప్ నివారా॥',
       },
       meaning: {
@@ -295,8 +295,8 @@ export const shivChalisa = {
       original:
         'दानिन मह तुम्ह सम कोउ नाहीं।\nसेवक स्तुति करत सदाहीं॥',
       script: {
-        od: 'ଦାନିନ ମହ ତୁମ୍ହ ସମ କଉ ନାହିଁ।\nସେବକ ସ୍ତୁତି କରତ ସଦାହିଁ॥',
-        te: 'దానిన్ మహ్ తుమ్ సమ్ కౌ నాహిం।\nసేవక్ స్తుతి కరత్ సదాహిం॥',
+        od: 'ଦାନିନ ମହ ତୁମ୍ହ ସମ କୋଉ ନାହିଁ।\nସେବକ ସ୍ତୁତି କରତ ସଦାହିଁ॥',
+        te: 'దానిన్ మహ్ తుమ్ సమ్ కోఉ నాహిం।\nసేవక్ స్తుతి కరత్ సదాహిం॥',
       },
       meaning: {
         en: 'Among all generous givers, none is equal to you. Your devotees forever sing your praise with gratitude and devotion.',
@@ -371,7 +371,7 @@ export const shivChalisa = {
       original:
         'पूजन रामचन्द्र जब कीन्हा।\nजीत के लंक विभीषण दीन्हा॥',
       script: {
-        od: 'ପୂଜନ ରାମଚନ୍ଦ୍ର ଯବ କୀନ୍ହା।\nଜୀତ କେ ଲଂକ ବିଭୀଷଣ ଦୀନ୍ହା॥',
+        od: 'ପୂଜନ ରାମଚନ୍ଦ୍ର ଜବ କୀନ୍ହା।\nଜୀତ କେ ଲଂକ ବିଭୀଷଣ ଦୀନ୍ହା॥',
         te: 'పూజన్ రామచంద్ర జబ్ కీన్హా।\nజీత్ కే లంక విభీషణ్ దీన్హా॥',
       },
       meaning: {
@@ -467,7 +467,7 @@ export const shivChalisa = {
         'दुष्ट सकल नित मोहि सतावै।\nभ्रमत रहौं मोहि चैन न आवै॥',
       script: {
         od: 'ଦୁଷ୍ଟ ସକଳ ନିତ ମୋହି ସତାୱୈ।\nଭ୍ରମତ ରହଉଁ ମୋହି ଚୈନ ନ ଆୱୈ॥',
-        te: 'దుష్ట్ సకల్ నిత్ మొహి సతావై।\nభ్రమత్ రహౌం మొహి చైన్ న ఆవై॥',
+        te: 'దుష్ట్ సకల్ నిత్ మోహి సతావై।\nభ్రమత్ రహౌం మోహి చైన్ న ఆవై॥',
       },
       meaning: {
         en: 'The wicked constantly trouble me, and I wander in restlessness without inner peace. This is the cry of the devotee seeking refuge in Shiva.',
@@ -486,7 +486,7 @@ export const shivChalisa = {
         'त्राहि त्राहि मैं नाथ पुकारो।\nयहि अवसर मोहि आन उबारो॥',
       script: {
         od: 'ତ୍ରାହି ତ୍ରାହି ମୈଁ ନାଥ ପୁକାରୋ।\nୟହି ଅବସର ମୋହି ଆନ ଉବାରୋ॥',
-        te: 'త్రాహి త్రాహి మైం నాథ్ పుకారో।\nయహి అవసర్ మొహి ఆన్ ఉబారో॥',
+        te: 'త్రాహి త్రాహి మైం నాథ్ పుకారో।\nయహి అవసర్ మోహి ఆన్ ఉబారో॥',
       },
       meaning: {
         en: 'I cry out, "Save me, save me, O Lord!" This is the moment, please come and rescue me now.',
@@ -505,7 +505,7 @@ export const shivChalisa = {
         'लै त्रिशूल शत्रुन को मारो।\nसंकट से मोहि आन उबारो॥',
       script: {
         od: 'ଲୈ ତ୍ରିଶୂଳ ଶତ୍ରୁନ କୋ ମାରୋ।\nସଂକଟ ସେ ମୋହି ଆନ ଉବାରୋ॥',
-        te: 'లై త్రిశూల్ శత్రున్ కో మారో।\nసంకట్ సే మొహి ఆన్ ఉబారో॥',
+        te: 'లై త్రిశూల్ శత్రున్ కో మారో।\nసంకట్ సే మోహి ఆన్ ఉబారో॥',
       },
       meaning: {
         en: 'Wield your trident and destroy the forces of evil; please deliver me from danger and hardship.',
@@ -581,7 +581,7 @@ export const shivChalisa = {
         'स्तुति केहि विधि करौं तुम्हारी।\nक्षमहु नाथ अब चूक हमारी॥',
       script: {
         od: 'ସ୍ତୁତି କେହି ବିଧି କରଉଁ ତୁମ୍ହାରୀ।\nକ୍ଷମହୁ ନାଥ ଅବ ଚୂକ ହମାରୀ॥',
-        te: 'స్తుతి కెహి విధి కరౌం తుమ్హారీ।\nక్షమహు నాథ్ అబ్ చూక్ హమారీ॥',
+        te: 'స్తుతి కేహి విధి కరౌం తుమ్హారీ।\nక్షమహు నాథ్ అబ్ చూక్ హమారీ॥',
       },
       meaning: {
         en: 'How can I adequately praise you, O Lord? Forgive my shortcomings and mistakes in this humble hymn.',
@@ -595,12 +595,12 @@ export const shivChalisa = {
       type: 'chaupai',
       num: 32,
       transliteration:
-        'Shankar Ho Sankat Ke Naashan\nVighna Vinashan Mangal Kaaran',
+        'Shankar Ho Sankat Ke Naashan\nMangal Kaaran Vighna Vinashan',
       original:
-        'शंकर हो संकट के नाशन।\nविघ्न विनाशन मंगल कारण॥',
+        'शंकर हो संकट के नाशन।\nमंगल कारण विघ्न विनाशन॥',
       script: {
-        od: 'ଶଂକର ହୋ ସଂକଟ କେ ନାଶନ।\nବିଘ୍ନ ବିନାଶନ ମଙ୍ଗଳ କାରଣ॥',
-        te: 'శంకర్ హో సంకట్ కే నాశన్।\nవిఘ్న వినాశన్ మంగళ కారణ॥',
+        od: 'ଶଂକର ହୋ ସଂକଟ କେ ନାଶନ।\nମଙ୍ଗଳ କାରଣ ବିଘ୍ନ ବିନାଶନ॥',
+        te: 'శంకర్ హో సంకట్ కే నాశన్।\nమంగళ కారణ విఘ్న వినాశన్॥',
       },
       meaning: {
         en: 'O Shankara, you are the destroyer of distress, remover of obstacles, and the source of all auspiciousness.',
@@ -766,12 +766,12 @@ export const shivChalisa = {
       type: 'chaupai',
       num: 41,
       transliteration:
-        'Janma Janma Ke Paap Nasaave\nAnt Vaas Shivpur Mein Paave',
+        'Janma Janma Ke Paap Nasaave\nAnt Dhaam Shivpur Mein Paave',
       original:
-        'जन्म जन्म के पाप नसावै।\nअन्त वास शिवपुर में पावै॥',
+        'जन्म जन्म के पाप नसावै।\nअन्त धाम शिवपुर में पावै॥',
       script: {
-        od: 'ଜନ୍ମ ଜନ୍ମ କେ ପାପ ନସାୱୈ।\nଅନ୍ତ ବାସ ଶିବପୁର ମେଁ ପାୱୈ॥',
-        te: 'జన్మ జన్మ కే పాప్ నసావై।\nఅంత్ వాస్ శివ్‌పుర్ మేన్ పావై॥',
+        od: 'ଜନ୍ମ ଜନ୍ମ କେ ପାପ ନସାୱୈ।\nଅନ୍ତ ଧାମ ଶିବପୁର ମେଁ ପାୱୈ॥',
+        te: 'జన్మ జన్మ కే పాప్ నసావై।\nఅంత్ ధామ్ శివ్‌పుర్ మేన్ పావై॥',
       },
       meaning: {
         en: 'This sacred recitation destroys sins accumulated over many births, and in the end grants abode in the holy realm of Shiva.',
@@ -785,12 +785,12 @@ export const shivChalisa = {
       type: 'doha',
       num: 42,
       transliteration:
-        'Nitya Nema Kari Pratah Hi, Paath Karau Chalis\nTum Meri Manokamana, Pooran Karahu Jagadish',
+        'Nit Nem Uthi Pratah Hi, Paath Karo Chalis\nTum Meri Mankamana, Pooran Karo Jagadish',
       original:
-        'नित्य नेम करि प्रातःहीं, पाठ करौं चालीस।\nतुम मेरी मनोकामना, पूर्ण करहु जगदीश॥',
+        'नित नेम उठि प्रातःही, पाठ करो चालीस।\nतुम मेरी मनकामना, पूर्ण करो जगदीश॥',
       script: {
-        od: 'ନିତ୍ୟ ନେମ କରି ପ୍ରାତଃହୀଁ, ପାଠ କରଉଁ ଚାଳୀସ।\nତୁମ ମେରୀ ମନୋକାମନା, ପୂରଣ କରହୁ ଜଗଦୀଶ॥',
-        te: 'నిత్య నేమ్ కరి ప్రాతఃహీం, పాఠ్ కరౌం చాలీస్।\nతుమ్ మేరీ మనోకామనా, పూరణ్ కరహు జగదీశ్॥',
+        od: 'ନିତ ନେମ ଉଠି ପ୍ରାତଃହୀ, ପାଠ କରୋ ଚାଳୀସ।\nତୁମ ମେରୀ ମନକାମନା, ପୂରଣ କରୋ ଜଗଦୀଶ॥',
+        te: 'నిత్ నేమ్ ఉఠి ప్రాతఃహీ, పాఠ్ కరో చాలీస్।\nతుమ్ మేరీ మనకామనా, పూరణ్ కరో జగదీశ్॥',
       },
       meaning: {
         en: 'By observing daily discipline and reciting this Chalisa every morning, may the Lord of the universe fulfill my sincere wishes and spiritual aspirations.',

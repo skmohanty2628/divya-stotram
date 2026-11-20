@@ -1,6 +1,8 @@
 // Which decorative animation each guide gets. Guides on a similar theme share an effect.
 // Themes are drawn in src/components/ThemeCanvas.jsx. Unlisted guides fall back to their category.
 const BY_SLUG = {
+  'pradosh-vrat-2026-guide': 'night',
+  'sankashti-chaturthi-2026-guide': 'orbs',
   'diwali-lakshmi-puja-guide': 'diwali',
   'chhath-puja-surya-shashthi-guide': 'sun',
   'gopashtami-gopastami-cow-worship-guide': 'feathers',

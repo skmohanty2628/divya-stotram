@@ -396,67 +396,101 @@ export const GUIDES_TOPIC = [
     category: 'Livelihood',
     title: 'Best Mantras for Job, Career and Success: Hanuman, Ganesha, Vishnu and Surya',
     description:
-      'Traditional prayers for career and new jobs: Hanuman Chalisa, Ganesha, Aditya Hridayam and Vishnu mantras, with the Bhagavad Gita view of work and a practical preparation plan.',
+      'Traditional prayers for career and new jobs: Hanuman Chalisa, Ganesha, Aditya Hridayam and Vishnu mantras, the Bhagavad Gita view of work, an interview-day routine and a practical preparation plan.',
     h1: 'Best Mantras for Job, Career and Success',
     intro:
-      'Job hunting and career pressure are among the most common reasons people turn to prayer. This guide lists the deities and mantras traditionally associated with work and effort, along with the Gita teaching on action that gives the practice its proper frame.',
+      'Job hunting and career pressure are among the most common reasons people turn to prayer. This guide lists the deities and mantras traditionally associated with work and effort, explains where the Bhagavad Gita sits in the picture, and gives a short routine for the morning, for interview day and for the days when an application is rejected. Prayer here is a way of steadying the mind. It does not replace the work of preparing.',
     sections: [
       {
         h: 'Which deity for which need',
         p: [
-          `Ganesha is invoked before new beginnings, including interviews and first days at work. Hanuman is associated with courage, discipline and service, and many people recite the Hanuman Chalisa before important meetings. Surya, through the Aditya Hridayam, is linked with authority, vitality and steady effort. Vishnu is the preserver, prayed to for stability. Lakshmi is worshipped for prosperity. Most people use more than one: Ganesha to begin, then the deity they feel closest to.`,
+          `Ganesha is invoked before new beginnings, including interviews and first days at work, and the short mantra Om Gam Ganapataye Namah is the usual way to ask for a clear start. Hanuman is associated with courage, discipline and service, and many people recite the Hanuman Chalisa before important meetings. Surya, through the Aditya Hridayam, is linked with authority, vitality and steady effort. Vishnu is the preserver, prayed to for stability, and Lakshmi is worshipped for prosperity. Saraswati is the deity of learning, and students and people learning a new skill often begin with the Saraswati Vandana.`,
+          `Most people use more than one. A common pattern is Ganesha to begin, then the deity they feel closest to. This site has the Hanuman Chalisa, the Aditya Hridayam, the Ganesh aarti, the Mahalakshmi Ashtakam and the Saraswati Vandana in full, in Hindi, Odia, Telugu and English script, so you can pick the one that suits your family.`,
         ],
       },
       {
-        h: 'A routine for job seekers',
+        h: 'A morning routine for job seekers',
         p: [
-          `Choose a fixed time each morning. Recite Om Gam Ganapataye Namah eleven times, then the Hanuman Chalisa once, then sit in silence for two minutes and picture the day's tasks: the applications you will send, the people you will call. Prayer then flows into action. Before an interview, recite the Gayatri Mantra three times and take three slow breaths. The Aditya Hridayam is traditionally recited on Sundays for renewed resolve.`,
+          `Choose a fixed time each morning and keep it short, about ten minutes. Light a lamp if you wish. Recite Om Gam Ganapataye Namah eleven times, then the Hanuman Chalisa once, then sit in silence for two minutes and picture the day's tasks: the applications you will send, the people you will call. Prayer then flows into action. The point of the pause is to start the day with a plan and not with worry.`,
+          `The Aditya Hridayam is traditionally recited on Sundays and before a hard task. In the Valmiki Ramayana (Yuddha Kanda, chapter 107) the sage Agastya teaches it to Rama on the battlefield before the final fight with Ravana, so people take it as a prayer for resolve when a task looks heavy. If it is too long for your morning, read it once on Sunday and keep the shorter prayers for weekdays.`,
+        ],
+      },
+      {
+        h: 'The day of an interview or test',
+        p: [
+          `On the morning, recite the Gayatri Mantra three times and take three slow breaths. The Gayatri Mantra is from the Rig Veda (3.62.10) and is a prayer for clear understanding, which fits the occasion. Then do the practical things that no mantra replaces: check the address or the video link, keep your documents ready, and arrive early.`,
+          `If your hands shake or your mind races, try the short breathing pause before you enter the room. Research on performance anxiety suggests that telling yourself "I am excited" can help more than trying to force calm, because it treats the nerves as energy for the task and not as a threat. A line of prayer and a deliberate breath together make a useful ritual. For more on this, see the guide on mantras for confidence and interviews.`,
         ],
       },
       {
         h: 'The Gita view of work',
         p: [
-          `Krishna tells Arjuna that we have a right to action but not to its fruits, and that we should not be attached to inaction either. This is useful for anyone anxious about outcomes. It does not say outcomes do not matter; it says attention is best spent on doing the work well, since results depend on many things beyond our control. Prayer in this spirit is a way of offering your effort and letting go of excessive worry.`,
+          `Krishna tells Arjuna in Bhagavad Gita 2.47 that we have a right to action but not to its fruits, and that we should not be attached to inaction either. This is useful for anyone anxious about outcomes. It does not say outcomes do not matter. It says attention is best spent on doing the work well, since results depend on many things beyond our control.`,
+          `Other verses add to this. In 2.50 Krishna describes yoga as skill in action. In 3.19 he says to do your duty steadily without attachment. In 18.46 he says a person worships the divine through their own work. Taken together, these verses say that doing your job honestly and with care is itself a kind of offering. Prayer in this spirit is a way of giving your effort to something larger and letting go of excessive worry.`,
         ],
       },
       {
         h: 'Preparation still matters',
         p: [
-          `The tradition is explicit that grace works through effort. Update your resume, practise interview questions, build skills, reach out to your network. If a job search is draining you emotionally, talk to friends, mentors or a counsellor. A mantra will help you stay calm while you do the work; it will not do the work for you.`,
+          `The tradition is clear that grace works through effort. Update your resume, practise interview questions, build skills, reach out to your network and follow up on applications. If a job search is draining you emotionally, talk to friends, mentors or a counsellor, and if you are under real financial or mental strain, ask for help from people who can give it. A mantra will help you stay calm while you do the work. It will not do the work for you.`,
         ],
       },
       {
         h: 'On days of rejection',
         p: [
-          `Rejection is part of every career. After a setback, a short prayer of gratitude for what you learned, followed by one concrete next step, helps many people recover faster than rumination does. Hanuman, who is never described as giving up, is a good companion for that moment.`,
+          `Rejection is part of every career. After a setback, a short prayer of gratitude for what you learned, followed by one concrete next step, helps many people recover faster than rumination does. Hanuman, who is never described as giving up in the Ramayana, is a good companion for that moment. Write down one thing you will change in the next application, send it, and then rest.`,
+        ],
+      },
+      {
+        h: 'Starting a new job',
+        p: [
+          `On the first day, many people bow before an image of Ganesha at home, say the Om Gam Ganapataye Namah mantra and then leave for work. Some families offer a short prayer of thanks on the first salary day. These are customs and not rules. What matters is that you begin with a calm mind and some gratitude for the people who helped you get there.`,
         ],
       },
     ],
     faqs: [
       {
         q: 'Which god should I pray to for a job?',
-        a: 'Ganesha for beginnings, Hanuman for courage and Lakshmi or Vishnu for stability are common. Pray to the deity you feel closest to.',
+        a: 'Ganesha for beginnings, Hanuman for courage and Lakshmi or Vishnu for stability are common. Pray to the deity you feel closest to, or to your family deity.',
       },
       {
         q: 'Which mantra before an interview?',
-        a: 'Om Gam Ganapataye Namah and the Gayatri Mantra are widely used, with a slow breathing exercise.',
+        a: 'Om Gam Ganapataye Namah and the Gayatri Mantra are widely used, with a slow breathing exercise. Keep it short and finish your practical preparation first.',
       },
       {
         q: 'Can chanting guarantee a job?',
-        a: 'No. It supports calm and focus; effort and preparation are essential.',
+        a: 'No. It supports calm and focus. Effort, skills and preparation are essential, and no prayer replaces them.',
       },
       {
         q: 'How long should I continue?',
-        a: 'Many people keep a 40-day practice, but any steady routine is fine.',
+        a: 'Many people keep a 40-day practice, but any steady routine is fine. A short daily habit is better than a long one that you drop after a week.',
+      },
+      {
+        q: 'What does the Gita say about work?',
+        a: 'Bhagavad Gita 2.47 says we have a right to action and not to its fruits. Verses 2.50, 3.19 and 18.46 describe skill in action, steady duty without attachment, and work as worship.',
+      },
+      {
+        q: 'Is the Aditya Hridayam good for career problems?',
+        a: 'People recite it for resolve and steady effort, following the Ramayana scene where Agastya teaches it to Rama before battle. It is a prayer and not a guarantee, and it takes about ten minutes to read.',
+      },
+      {
+        q: 'What should I do after a rejection?',
+        a: 'Pause, say a short prayer of thanks for what you learned, and take one concrete step such as improving a line on your resume. If the search is hurting your health, talk to a counsellor or a trusted person.',
+      },
+      {
+        q: 'Which mantra is good for a first day at work?',
+        a: 'Om Gam Ganapataye Namah is the usual choice for a new beginning. Some people add a few lines of the Hanuman Chalisa. Customs vary by family.',
       },
     ],
     related: {
-      stotrams: ['hanuman-chalisa', 'aditya-hridayam', 'ganesh-aarti'],
-      guides: ['best-mantra-for-confidence', 'best-mantra-for-money', 'which-god-to-pray-for-success'],
+      stotrams: ['hanuman-chalisa', 'aditya-hridayam', 'ganesh-aarti', 'mahalakshmi-ashtakam', 'saraswati-vandana', 'gayatri-mantra'],
+      guides: ['best-mantra-for-confidence', 'best-mantra-for-money', 'which-god-to-pray-for-success', 'how-to-chant-gayatri-mantra'],
     },
     sources: [
-      'Bhagavad Gita 2.47',
-      'Valmiki Ramayana, Yuddha Kanda 107, Aditya Hridayam',
+      'Bhagavad Gita 2.47, 2.50, 3.19 and 18.46 (action without attachment to results, skill in action, steady duty, work as worship)',
+      'Valmiki Ramayana, Yuddha Kanda 107 (Agastya teaches the Aditya Hridayam to Rama before the battle with Ravana)',
+      'Rig Veda 3.62.10 (the Gayatri Mantra)',
+      'Brooks, A. W. (2014), Get excited: Reappraising pre-performance anxiety as excitement, Journal of Experimental Psychology: General',
     ],
   },
 

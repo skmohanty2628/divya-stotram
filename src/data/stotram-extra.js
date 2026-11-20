@@ -566,4 +566,24 @@ export const STOTRAM_EXTRA = {
       { q: 'Does reciting it guarantee a result?', a: 'No. The last verse states what the tradition hopes for. A prayer is a spiritual practice and does not replace medical, legal or financial advice.' },
     ],
   },
+  'om-jai-shiv-omkara-aarti': {
+    what: `Om Jai Shiv Omkara is the aarti most often sung to Shiva in homes and temples across India. An aarti is a short song of praise sung while a lamp is waved before the deity. This one has twelve stanzas, each followed by the refrain "Om Jai Shiv Omkara". The closing stanza names Shivananda Swami, and the aarti is traditionally credited to him, although the authorship is not firmly documented and printed editions do not agree on every line.`,
+    meaning: `The aarti opens by praising Shiva as Omkara, the sound Om, and names Brahma, Vishnu and Sadashiva together. The next stanzas describe the three forms with their faces, arms and vehicles, and the garlands and ornaments Shiva wears. The middle stanzas say that the three are one in the syllable Om, name Lakshmi, Savitri and Parvati, and describe Shiva's life at Kailasa with the Ganga in his hair and sacred ash on his body. One stanza places him in Kashi as Vishwanath. The last stanza says that whoever sings the aarti will find comfort and prosperity.`,
+    benefits: [
+      'The most familiar Shiva aarti, easy to sing along with from the first hearing',
+      'Brings Brahma, Vishnu and Shiva together in a single praise',
+      'Short enough to sing in three to five minutes at the end of a puja',
+      'Commonly sung on Mondays, at Pradosha and on Maha Shivaratri',
+      'Open to everyone, with no initiation needed',
+    ],
+    bestTime: `There is no fixed time. Many families sing it at the end of the morning or evening puja, on Mondays, on Pradosha evenings and on Maha Shivaratri. Singing all twelve stanzas at an easy pace takes about four to six minutes.`,
+    faqs: [
+      { q: 'Who wrote Om Jai Shiv Omkara?', a: 'The closing stanza names Shivananda Swami, so the aarti is traditionally credited to him. Little is firmly documented about the author, and the same name appears in other aartis, so it is fair to say "traditionally credited" and no more.' },
+      { q: 'How many stanzas does it have?', a: 'This site shows twelve stanzas, each with the refrain. Some prints and recordings leave out a few stanzas or change their order.' },
+      { q: 'Why do different websites print different lines?', a: 'Aartis passed on by singing, and printed editions vary. Some prints read "tripurari kansari, kar mala dhari" in the fourth stanza and others "chandan mrigamad sohai, bhale shashidhari". This site follows the reading that two of the three editions checked print, and notes the other in the source file.' },
+      { q: 'Where does the Shivananda stanza go?', a: 'Some editions place it after the seventh stanza and others put it at the end. This site puts it last, as the closing stanza, which is the usual place for the line that names the author.' },
+      { q: 'When is this aarti sung?', a: 'Many people sing it on Mondays, at Pradosha, in Shravan and on Maha Shivaratri. These are customs and not rules, and it can be sung at the end of any Shiva puja.' },
+      { q: 'Does singing it guarantee a result?', a: 'No. The last stanza states what the tradition hopes for. Prayer is a spiritual practice and does not replace medical, legal or financial advice.' },
+    ],
+  },
 };

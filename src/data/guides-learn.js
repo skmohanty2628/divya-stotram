@@ -150,6 +150,7 @@ export const GUIDES_LEARN = [
     ],
     "related": {
       "stotrams": [
+        "om-jai-shiv-omkara-aarti",
         "shiva-tandav",
         "shiv-chalisa",
         "shiva-panchakshara-stotram",
@@ -158,6 +159,7 @@ export const GUIDES_LEARN = [
         "rudrashtakam"
       ],
       "guides": [
+        "pradosh-vrat-2026-guide",
         "how-to-chant-shiva-mantra",
         "shiva-tandav-benefits",
         "maha-shivaratri-lingaraj-mahadeepa-bhubaneswar-guide",
@@ -531,6 +533,7 @@ export const GUIDES_LEARN = [
         "shuklambaradharam-mantra"
       ],
       "guides": [
+        "sankashti-chaturthi-2026-guide",
         "spiritual-routine-for-beginners",
         "mantra-chanting-rules-faq",
         "how-to-perform-aarti-at-home-guide"
@@ -5284,6 +5287,7 @@ export const GUIDES_LEARN = [
     ],
     "related": {
       "stotrams": [
+        "om-jai-shiv-omkara-aarti",
         "om-jai-jagdish-hare-aarti",
         "ganesh-aarti",
         "karagre-vasate-lakshmi"
@@ -6977,6 +6981,195 @@ export const GUIDES_LEARN = [
       "HinduTone, Vaikuntha Ekadashi 2026 for India (parana window, Dhanurmasam start date, vrat guidance, Srirangam and Tirumala notes)",
       "Wikipedia, Vaikunta Ekadasi (Padma Purana legend of Mura and Ekadashi, Vaikuntha Dvaram, Srirangam Pagal Pathu and Ra Pathu, Tirumala observance)",
       "Srirangam temple information page, Vaikunda Ekadasi (Paramapada Vasal, Pagal Pathu and Ra Pathu)"
+    ]
+  },
+  {
+    "slug": "pradosh-vrat-2026-guide",
+    "category": "Festivals",
+    "title": "Pradosh Vrat 2026: Dates, Puja Method and Mantras",
+    "description": "Pradosh Vrat is the twilight fast to Shiva on Trayodashi. Dates for 22 November, 6 December and 21 December 2026, how the day is chosen, a simple puja method and what to chant.",
+    "h1": "Pradosh Vrat 2026: Dates, Puja Method and Mantras",
+    "intro": "Pradosh Vrat is a fortnightly fast kept for Shiva on the thirteenth lunar day, Trayodashi, with the main worship done in the twilight just after sunset. In South India the same observance is called Pradosham. This guide gives the dates for the rest of 2026, explains how the correct day is chosen, and sets out a simple method that a household can follow without a priest.",
+    "sections": [
+      {
+        "h": "What Pradosh means and how the day is chosen",
+        "p": [
+          "The word pradosha refers to the early evening, the period that begins at sunset. The vrat is kept twice in every lunar month, once in the Shukla (waxing) fortnight and once in the Krishna (waning) fortnight, always on Trayodashi. Some people treat the two Pradoshas as equal, while others give them separate names or emphasis. Drik Panchang notes that some observers make a distinction between the Shukla and Krishna Pradosh.",
+          "The rule for fixing the day is not simply \"the day Trayodashi begins\". The vrat is kept on the day when Trayodashi is present during the Pradosh Kaal, the twilight period that starts at sunset. When the tithi touches the twilight on two days, or only just misses it, panchang makers apply further rules, so two calendars can sometimes differ by a day. Because sunset changes from city to city, the date and the worship window should be taken from a panchang for your own place.",
+          "When the day falls on a particular weekday it gets a name. A Pradosh on Monday is called Soma Pradosh, on Tuesday Bhauma Pradosh and on Saturday Shani Pradosh. A Pradosh on Sunday is often called Ravi Pradosh. These names are used in panchangs and by many devotees, and some families give special importance to Soma Pradosh because Monday is the weekday of Shiva."
+        ]
+      },
+      {
+        "h": "Pradosh Vrat dates for the rest of 2026",
+        "p": [
+          "Drik Panchang, calculated for New Delhi, lists these Pradosh days: Sunday 22 November 2026, Sunday 6 December 2026 and Monday 21 December 2026. A second calendar, Hindupad, gives the same three dates and names them Ravi Pradosh (22 November), Ravi Pradosh (6 December) and Soma Pradosh (21 December), and lists the 22 November and 21 December days as Shukla Trayodashi and the 6 December day as Krishna Trayodashi.",
+          "Treat these as dates for India. For a city abroad, or even for another Indian city, the twilight may belong to a different civil day, so check a local panchang before you plan the fast. The 21 December observance is a Soma Pradosh, which some households mark with extra care. It also falls the day after Vaikuntha Ekadashi in 2026, so families who keep both days may like to plan their meals ahead."
+        ]
+      },
+      {
+        "h": "The story people tell about Pradosh",
+        "p": [
+          "The most familiar story links Pradosh to the churning of the ocean. In the account that is widely told, gods and demons churned the ocean for nectar and the poison called Halahala came up first. Shiva drank it to protect the worlds, and his throat turned blue, which is why he is called Neelakantha. Many tellings say the gods then worshipped him in the evening twilight, and that is the origin of the Pradosh worship.",
+          "This is devotional tradition, and the details differ from region to region. Another popular belief says that Shiva is especially pleased at this hour and that Nandi, his bull, is honoured first. Readers who want a named source should note that the churning story itself is found in the Puranas and the Mahabharata, while the link to the Trayodashi twilight is a custom that has been handed down by practice."
+        ]
+      },
+      {
+        "h": "A simple way to keep the vrat",
+        "p": [
+          "There is no single approved method, and families follow their own custom. A simple outline is this. Bathe in the afternoon, wear clean clothes and make a quiet resolve to keep the vrat. Many people fast during the day, taking only water, fruit or milk, and others eat one light vegetarian meal. A fast is optional, and anyone who is unwell, pregnant, elderly or on regular medicine should ask a doctor before fasting.",
+          "A little before sunset, set up a lamp and an image or Shiva linga. Offer water, milk or bilva leaves if you have them, and flowers, incense and a lamp. Many devotees offer a few words of respect to Nandi first. Chant for as long as feels natural, then sing an aarti. After the evening worship the fast is usually broken with a simple meal, though customs vary and some families wait until the next morning.",
+          "Keep the offering simple. The point of the vrat is attention, and a short prayer said with focus is worth more than a long one said in a hurry."
+        ]
+      },
+      {
+        "h": "What to chant and read",
+        "p": [
+          "Om Namah Shivaya is the simplest mantra and fits any Pradosh. The Shiva Panchakshara Stotram on this site expands the five syllables into five verses. The Rudrashtakam, a hymn to Shiva from the Ramcharitmanas, is another favourite for the evening, and the Shiv Chalisa is widely recited too. Many families end with the aarti Om Jai Shiv Omkara, which is given here in full with the meaning of each stanza. For the Maha Mrityunjaya mantra, see the guide on its meaning before you begin.",
+          "If you are new to chanting, read the guide on how to chant Shiva mantras first. It covers posture, counting and the pace that works for beginners."
+        ]
+      },
+      {
+        "h": "Pradosh and Maha Shivaratri",
+        "p": [
+          "Pradosh is a monthly occasion for Shiva, while Maha Shivaratri is the great annual night. The two share the habit of evening worship and fasting, and a household that keeps Pradosh regularly will find the Shivaratri vigil familiar. The Maha Shivaratri guide on this site gives the 2027 date and the four prahar worship times."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When is Pradosh Vrat in 2026 after today?",
+        "a": "For New Delhi, Drik Panchang lists Sunday 22 November, Sunday 6 December and Monday 21 December 2026. Check a panchang for your own city, because the twilight may fall on a different day elsewhere."
+      },
+      {
+        "q": "What is the difference between Pradosh and Pradosham?",
+        "a": "They are the same observance. Pradosham is the name used in South India, and Pradosh is common in the north."
+      },
+      {
+        "q": "Why is Soma Pradosh special?",
+        "a": "Soma Pradosh is the Pradosh that falls on Monday, the weekday linked with Shiva. Many families give it extra importance, but every Pradosh is a valid day for the vrat."
+      },
+      {
+        "q": "Do I have to fast?",
+        "a": "No. A fast is a custom and not a rule. People with health conditions should ask a doctor before fasting, and prayer without fasting is also acceptable."
+      },
+      {
+        "q": "How long is the Pradosh Kaal?",
+        "a": "It starts at sunset. Sources differ on how long it lasts, and panchangs give a window for each city, so use a local panchang for the exact times."
+      },
+      {
+        "q": "Does keeping Pradosh Vrat guarantee a result?",
+        "a": "No. It is a devotional practice. It does not replace medical, legal or financial advice."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "shiva-panchakshara-stotram",
+        "rudrashtakam",
+        "om-jai-shiv-omkara-aarti",
+        "shiv-chalisa",
+        "maha-mrityunjaya-mantra"
+      ],
+      "guides": [
+        "how-to-chant-shiva-mantra",
+        "maha-shivaratri-guide",
+        "how-to-perform-aarti-at-home-guide",
+        "ekadashi-vrat-guide"
+      ]
+    },
+    "sources": [
+      "Drik Panchang, Pradosh Vrat dates 2026 for New Delhi (Sunday 22 November, Sunday 6 December and Monday 21 December 2026; weekday names; rule that the vrat is kept on the day Trayodashi covers the Pradosh Kaal that starts at sunset)",
+      "Hindupad, Pradosh days 2026 (the same three dates with Ravi and Soma Pradosh names and Shukla or Krishna Trayodashi labels)"
+    ]
+  },
+  {
+    "slug": "sankashti-chaturthi-2026-guide",
+    "category": "Festivals",
+    "title": "Sankashti Chaturthi 2026: Dates, Moonrise and How to Keep the Vrat",
+    "description": "Sankashti Chaturthi is a monthly fast to Ganesha that ends after moonrise. Dates for 27 November and 26 December 2026, how it differs from Vinayaka Chaturthi, and a simple way to keep it.",
+    "h1": "Sankashti Chaturthi 2026: Dates, Moonrise and How to Keep the Vrat",
+    "intro": "Sankashti Chaturthi is a monthly fast kept for Ganesha on the fourth lunar day of the waning fortnight. The fast is broken only after the moon has risen, so the moonrise time matters as much as the date. This guide gives the two remaining dates of 2026, explains the name and its monthly forms, and describes a simple way to keep the vrat at home.",
+    "sections": [
+      {
+        "h": "What the name means",
+        "p": [
+          "Sankashti comes from a Sanskrit word for difficulty or distress, and the day is understood as one on which people ask Ganesha, the remover of obstacles, to see them through hard times. The vrat is kept on Chaturthi, the fourth tithi, of the Krishna (waning) fortnight. The Chaturthi of the Shukla (waxing) fortnight is a different observance, usually called Vinayaka Chaturthi, and it is kept without the moonrise rule.",
+          "When Sankashti falls on a Tuesday it is often called Angaraki Sankashti, and many devotees treat it as especially important. In 2026 neither of the two dates below is a Tuesday, so the name does not apply to them."
+        ]
+      },
+      {
+        "h": "Sankashti Chaturthi dates for the rest of 2026",
+        "p": [
+          "Drik Panchang, calculated for New Delhi, lists Friday 27 November 2026 and Saturday 26 December 2026. For the first date the Chaturthi tithi begins at 9:48 am on 27 November and ends at 6:39 am on 28 November, and moonrise is at about 8:18 pm. For the second date the tithi begins at 8:04 pm on 26 December and ends at 5:12 pm on 27 December, and moonrise is at about 8:19 pm. Hindupad, a second calendar, gives the same two dates, with tithi times within a minute and a moonrise time that differs because it is calculated for another place.",
+          "Moonrise is the part that changes most from city to city, sometimes by half an hour or more. Use a panchang or a moonrise table for your own location, and keep the date as a guide only. If the sky is cloudy, many families go by the calendar time and offer prayers facing the direction of the moon.",
+          "Each month's Sankashti has its own name. Drik Panchang calls the 27 November observance Ganadhipa Sankashti and the 26 December one Akhuratha Sankashti, and explains that month names differ between the amanta and purnimanta calendars. Akhuratha means \"he who has a mouse as his chariot\", a reference to Ganesha's vehicle. The monthly names are used in panchangs and are not required for the worship."
+        ]
+      },
+      {
+        "h": "How the vrat is kept",
+        "p": [
+          "Customs differ widely, so treat this as an outline. In the morning, bathe, light a lamp before an image of Ganesha and make a resolve to keep the vrat. Many people fast through the day, taking only water, fruit or milk, and others keep a lighter fast with one simple meal. A fast is a personal choice, and people who are unwell, pregnant, elderly or on regular medicine should ask a doctor before fasting.",
+          "In the evening, after bathing again, offer flowers, durva grass, incense and a lamp, and offer a sweet such as modak or laddu if you wish. Chant or read a Ganesha prayer, then wait for moonrise. When the moon is seen, many devotees offer water to it and bow to Ganesha before breaking the fast. The meal is simple and vegetarian."
+        ]
+      },
+      {
+        "h": "What to chant",
+        "p": [
+          "The Vakratunda Mahakaya mantra is short and suits beginners, and the Shuklambaradharam verse is the usual opening for any puja. The Ganesha Pancharatnam, a five-verse hymn, is a good choice for an evening of quiet reading. Many families close the worship with the Ganesh aarti. The guide on how to perform aarti at home explains the lamp, the circles and the words in simple steps.",
+          "If you want a longer background on Ganesha worship, the Ganesh Chaturthi guide on this site covers the annual festival, its origins and how it is observed today."
+        ]
+      },
+      {
+        "h": "Sankashti and Vinayaka Chaturthi compared",
+        "p": [
+          "The two Chaturthis fall roughly two weeks apart. Vinayaka Chaturthi comes in the waxing fortnight and Sankashti in the waning one. Vinayaka Chaturthi worship is generally done in the daytime, and Sankashti is tied to the moonrise. Both are open to everyone, and many families keep both."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When is Sankashti Chaturthi in November 2026?",
+        "a": "For New Delhi, Friday 27 November 2026. The Chaturthi tithi runs from 9:48 am on 27 November to 6:39 am on 28 November, and moonrise is at about 8:18 pm."
+      },
+      {
+        "q": "When is Sankashti Chaturthi in December 2026?",
+        "a": "For New Delhi, Saturday 26 December 2026. The tithi runs from 8:04 pm on 26 December to 5:12 pm on 27 December, and moonrise is at about 8:19 pm."
+      },
+      {
+        "q": "Why is the fast broken after moonrise?",
+        "a": "It is the custom of this vrat that the fast is ended after the moon is seen. Many devotees offer water to the moon first. Moonrise differs by city, so use a local table."
+      },
+      {
+        "q": "What is Angaraki Sankashti?",
+        "a": "The name given to a Sankashti Chaturthi that falls on a Tuesday. Many devotees treat it as especially important."
+      },
+      {
+        "q": "Do I have to fast?",
+        "a": "No. Fasting is a custom and not a rule, and people with health conditions should ask a doctor before fasting. Prayer is enough for many households."
+      },
+      {
+        "q": "Does the vrat guarantee that problems will end?",
+        "a": "No. It is a devotional practice. It does not replace medical, legal or financial advice."
+      }
+    ],
+    "related": {
+      "stotrams": [
+        "vakratunda-mahakaya-mantra",
+        "shuklambaradharam-mantra",
+        "ganesha-pancharatnam",
+        "ganesh-aarti"
+      ],
+      "guides": [
+        "ganesh-chaturthi-guide",
+        "how-to-perform-aarti-at-home-guide",
+        "how-to-chant-shiva-mantra",
+        "ekadashi-vrat-guide"
+      ]
+    },
+    "sources": [
+      "Drik Panchang, Sankashti Chaturthi dates 2026 for New Delhi (27 November and 26 December 2026)",
+      "Drik Panchang, Ganadhipa Sankashti Chaturthi 2026 (tithi 9:48 am 27 November to 6:39 am 28 November; moonrise about 8:18 pm)",
+      "Drik Panchang, Akhuratha Sankashti Chaturthi 2026 (tithi 8:04 pm 26 December to 5:12 pm 27 December; moonrise about 8:19 pm; month names under amanta and purnimanta calendars)",
+      "Hindupad, Sankashti vrata 2026 (the same two dates and tithi times, with a moonrise time for another location)"
     ]
   },
 ];

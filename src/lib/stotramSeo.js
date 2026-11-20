@@ -202,6 +202,11 @@ const SEO_COPY = {
     description:
       'Read Nirvana Shatakam (निर्वाण षट्कम्), also called Atma Shatkam, the six verses of Chidananda Rupah Shivoham attributed to Adi Shankara, in English, Hindi, Odia and Telugu with meaning and a video.',
   },
+  'om-jai-shiv-omkara-aarti': {
+    title: 'Om Jai Shiv Omkara Aarti Lyrics in English, Hindi, Odia & Telugu with Meaning (Shiv Aarti)',
+    description:
+      'Read the Shiv Aarti Om Jai Shiv Omkara (ॐ जय शिव ओंकारा) with all twelve stanzas in English, Hindi, Odia and Telugu, the meaning of each stanza, when it is sung and a video.',
+  },
   'rudrashtakam': {
     title: 'Rudrashtakam Lyrics in English, Hindi, Odia & Telugu with Meaning (Namami Shamishan Nirvana Roopam)',
     description:

@@ -937,6 +937,30 @@ export const STOTRAMS_INDEX = [
     language: 'Sanskrit',
     featured: false,
   },
+  {
+    slug: 'om-jai-shiv-omkara-aarti',
+    title: {
+      en: 'Om Jai Shiv Omkara Aarti (Shiv Aarti)',
+      hi: 'ॐ जय शिव ओंकारा आरती (शिव आरती)',
+      od: 'ଓଁ ଜୟ ଶିବ ଓଂକାରା ଆରତୀ (ଶିବ ଆରତୀ)',
+      te: 'ఓం జయ శివ ఓంకారా ఆరతి (శివ ఆరతి)',
+    },
+    deity: 'Shiva',
+    deityEmoji: '🔱',
+    deityIcon: '',
+    description: {
+      en: 'Om Jai Shiv Omkara, the best-known Shiva aarti, with all twelve stanzas in English, Hindi, Odia and Telugu, meaning for each stanza and a video',
+      hi: 'ॐ जय शिव ओंकारा, भगवान शिव की सबसे प्रसिद्ध आरती, सभी बारह पदों के साथ हिन्दी, ओड़िया, तेलुगु और अंग्रेज़ी लिपि में, हर पद का अर्थ और वीडियो सहित',
+      od: 'ଓଁ ଜୟ ଶିବ ଓଂକାରା, ଭଗବାନ ଶିବଙ୍କର ସବୁଠାରୁ ପ୍ରସିଦ୍ଧ ଆରତୀ, ସମସ୍ତ ବାର ପଦ ସହିତ ହିନ୍ଦୀ, ଓଡ଼ିଆ, ତେଲୁଗୁ ଓ ଇଂରାଜୀ ଲିପିରେ, ପ୍ରତି ପଦର ଅର୍ଥ ଓ ଭିଡିଓ ସହିତ',
+      te: 'ఓం జయ శివ ఓంకారా, శివుని అత్యంత ప్రసిద్ధ ఆరతి, మొత్తం పన్నెండు చరణాలతో హిందీ, ఒడియా, తెలుగు, ఇంగ్లీష్ లిపిలో, ప్రతి చరణం అర్థం మరియు వీడియోతో',
+    },
+    color: 'from-slate-900 to-blue-950',
+    accent: '#90b8f0',
+    youtubeId: 'BhwOproElxU',
+    verseCount: 12,
+    language: 'Hindi',
+    featured: false,
+  },
 ];
 
 export function getStotramBySlug(slug) {

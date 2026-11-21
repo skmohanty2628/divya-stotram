@@ -48,7 +48,7 @@ export const TRAVEL_PLACES = {
   'kaunria-kathi-bada-badua-daka-odisha-guide': { place: 'Puri', official: 'odisha' },
   'tulsi-vivah-dev-uthani-ekadashi-guide': { place: 'Pandharpur and Vrindavan' },
   'karthika-masam-telugu-month-2026-dates-guide': { place: 'Srisailam' },
-  'chhath-puja-surya-shashthi-guide': { place: 'Patna and Varanasi' },
+  'chhath-puja-surya-shashthi-guide': { place: 'Patna and Deo (Bihar)' },
   'gopashtami-gopastami-cow-worship-guide': { place: 'Vrindavan and Puri' },
   'prabodhini-ekadashi-bada-ekadashi-odisha-guide': { place: 'Puri', official: 'odisha' },
   'kartika-purnima-dev-deepawali-guide': { place: 'Varanasi' },

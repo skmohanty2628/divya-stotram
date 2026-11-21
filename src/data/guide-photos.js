@@ -439,6 +439,16 @@ const RAW = {
     ['Snana Jatra 2023.jpg', 1200, 'Government of Odisha', 'B4'],
     ['Gajanana Besh on 2022 Sanana Jatra.jpg', 1200, 'Government of Odisha', 'B4'],
   ],
+  'chhath-puja-surya-shashthi-guide': [
+    ['Chatt Ghat.jpg', 2272, 'Abhishek Chandra', 'PD'],
+    ['Chatt Puja Celebration 3.jpg', 2048, 'Debavasya', 'A4'],
+    ['Chhat Puja 2.jpg', 1600, 'Alokjain19883105', 'A4'],
+    ['Chhat Puja 1.jpg', 1600, 'Alokjain19883105', 'A4'],
+    ['Chatta puja on morning.jpg', 4160, 'Punpuntrails', 'A4'],
+    ['Chath Puja Traditional Daura.jpg', 718, 'Rrkush22', 'A4'],
+    ['Chat Puja.jpg', 4608, 'Abricum', 'A4'],
+    ['Chatt Puja Celebration 1.jpg', 2048, 'Debavasya', 'A4'],
+  ],
   'maha-shivaratri-lingaraj-mahadeepa-bhubaneswar-guide': [
     ['Lingaraj Temple, Bhubaneswar, Odisha, India (2023) 01.jpg', 3264, 'AmlanBiswal25', 'A4'],
     ['Lingaraj Temple, Bhubaneswar, Odisha, India (2023) 02.jpg', 3264, 'AmlanBiswal25', 'A4'],

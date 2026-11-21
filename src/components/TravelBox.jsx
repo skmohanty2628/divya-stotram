@@ -1,4 +1,5 @@
 import { TRAVEL_PROVIDERS, OFFICIAL, TRAVEL_PLACES } from '@/data/travel-links';
+import { PLACE_SECTIONS } from '@/data/place-sections';
 
 // Plain outbound links (no affiliate tracking). Shown only on place-based guides.
 export default function TravelBox({ slug, place, officialLink, extra = [] }) {
@@ -6,7 +7,17 @@ export default function TravelBox({ slug, place, officialLink, extra = [] }) {
   if (!t) return null;
   const official = officialLink || (t.official ? OFFICIAL[t.official] : null);
   const items = [...extra.map((e, i) => ({ id: 'x' + i, ...e })), ...TRAVEL_PROVIDERS];
+  const about = slug ? PLACE_SECTIONS[slug] : null;
   return (
+    <>
+    {about && (
+      <section className="mt-12" aria-labelledby="place-heading">
+        <h2 id="place-heading" className="font-cinzel text-xl font-bold text-[#8b1a00] md:text-2xl">{about.h}</h2>
+        {about.p.map((para, i) => (
+          <p key={i} className="mt-3 font-garamond text-lg leading-relaxed text-[#3d1a00]/90">{para}</p>
+        ))}
+      </section>
+    )}
     <section className="mt-12 rounded-2xl border border-[#c9922a]/25 bg-white p-6" aria-labelledby="travel-heading">
       <h2 id="travel-heading" className="font-cinzel text-xl font-bold text-[#8b1a00]">Planning to visit {t.place}?</h2>
       <p className="mt-1 font-garamond text-base text-[#3d1a00]/70">
@@ -47,5 +58,6 @@ export default function TravelBox({ slug, place, officialLink, extra = [] }) {
         Festival dates can shift by a day between calendars, so confirm the date before you book. Book refundable options where possible.
       </p>
     </section>
+    </>
   );
 }

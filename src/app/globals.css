@@ -122,7 +122,7 @@ summary::-webkit-details-marker { display: none; }
   * { animation: none !important; }
 }
 
-/* Cinzel Decorative joins double letters such as "oo" into an infinity-like ligature. Turn all ligatures off. */
+/* Headings use plain Cinzel. The old Cinzel Decorative font joined letters such as "oo" and "th" into odd shapes. Ligatures stay off. */
 html, body, * {
   font-variant-ligatures: none;
   font-feature-settings: "liga" 0, "clig" 0, "dlig" 0, "hlig" 0, "calt" 0;

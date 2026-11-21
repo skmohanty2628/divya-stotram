@@ -14,7 +14,7 @@ module.exports = {
         'ivory-dim':  '#e8d5b5',
       },
       fontFamily: {
-        cinzel:  ['Cinzel Decorative', 'serif'],
+        cinzel:  ['Cinzel', 'serif'],
         'cinzel-reg': ['Cinzel', 'serif'],
         garamond: ['EB Garamond', 'Georgia', 'serif'],
       },

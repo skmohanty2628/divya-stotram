@@ -50,6 +50,9 @@ export const TEMPLES = [
     sections: [
       {
         h: 'What Kedarnath is and why it matters',
+        photos: [
+          P('Kedar Nath.jpg', 'Kedarnath Temple in its valley with snow peaks behind', 'The temple in its Himalayan valley', 'Swantikumar', 'CC BY-SA 4.0'),
+        ],
         blocks: [
           { t: 'p', text: `Kedarnath Temple stands in the Garhwal Himalaya near the Mandakini river, a tributary of the Ganga, in Rudraprayag district of Uttarakhand. It is dedicated to Shiva and counts among the twelve Jyotirlingas, the self-luminous lingams that Shaiva tradition holds to be the most sacred seats of the god. At 3,583 metres it is the highest of the twelve. It is also one of the four shrines of the Uttarakhand Char Dham circuit (Yamunotri, Gangotri, Kedarnath and Badrinath) and the first of the Panch Kedar temples.` },
           { t: 'p', text: `The name comes from Sanskrit kedara, a field, and natha, lord. Tradition links the field to the harvest of liberation, and the Kashi Kedara Mahatmya plays on this image. For the pilgrim the practical meaning is simpler: this is a high, cold, weather-bound shrine that is open for only about seven months a year, and a visit needs planning that a lowland temple does not.` },
@@ -57,6 +60,10 @@ export const TEMPLES = [
       },
       {
         h: 'The legend of the Pandavas and the bull',
+        photos: [
+          P('Draupadi and Pandavas.jpg', 'Painting of Draupadi and the five Pandavas by Raja Ravi Varma', 'Draupadi and the Pandavas, painting by Raja Ravi Varma', 'Raja Ravi Varma', 'Public domain'),
+          P('A map showing the Panch Kedar Hindu Tirtha sites, Uttarakhand India.jpg', 'Map of the five Panch Kedar temple sites in Uttarakhand', 'Map of the five Panch Kedar sites', 'Ms Sarah Welch', 'CC BY 4.0'),
+        ],
         blocks: [
           { t: 'p', text: `The best-known story belongs to the aftermath of the Mahabharata war. The Pandavas, burdened by the deaths of kinsmen, sought Shiva's forgiveness. Shiva avoided them and took the form of a bull. Bhima recognised the animal near Guptkashi and caught hold of it, and the bull sank into the earth. It is said to have reappeared in five parts at five places, which are the Panch Kedar: the hump at Kedarnath, the arms at Tungnath, the face at Rudranath, the navel and stomach at Madhyamaheshwar and the hair at Kalpeshwar.` },
           { t: 'p', text: `The Pandavas then worshipped Shiva, performed a yajna and are said to have left for heaven by the Swargarohini peak near Badrinath. Pilgrims connect the custom of rubbing the lingam with ghee to Bhima's grip on the bull. One caution belongs in an honest guide: the Mahabharata itself does not name a place called Kedarnath, so this story comes from later Puranic and local tradition, not from the epic text.` },
@@ -64,6 +71,9 @@ export const TEMPLES = [
       },
       {
         h: 'History of the temple',
+        photos: [
+          P('1882 Photograph of Kedarnath.jpg', 'Photograph of Kedarnath taken in 1882', 'Kedarnath in 1882, Geological Survey of India', 'Geological Survey of India', 'Public domain'),
+        ],
         blocks: [
           { t: 'p', text: `Kedara is named in the Skanda Purana, usually dated to about the seventh or eighth century, as the place where Shiva released the waters of the Ganga from his matted hair. The temple is also remembered in the Tamil Tevaram hymns of Sambandar, Appar and Sundarar, and it is counted as one of the 275 paadal petra sthalams. The twelfth-century Kritya-kalpataru of the Gahadavala minister Bhatta Lakshmidhara mentions it too.` },
           { t: 'p', text: `Tradition credits Adi Shankara with reviving the shrine, and a samadhi shrine for him stands behind the temple. Accounts of where Shankara died differ, and some give Kanchipuram, so the samadhi is best taken as a place of devotion rather than settled biography. After the 1815 partition of Garhwal the area fell under British-ruled Garhwal. Today the Shri Badrinath-Kedarnath Temple Committee (BKTC), created under a 1939 Act, manages the temple.` },
@@ -72,6 +82,10 @@ export const TEMPLES = [
       },
       {
         h: 'What you will see at the temple',
+        photos: [
+          P('Kedarnath003.jpg', 'Stone spire and front of Kedarnath Temple', 'The stone temple front and spire', 'Shubhanshri01', 'CC BY-SA 4.0'),
+          P('Kedarnath Nandi.jpg', 'Nandi, the bull of Shiva, at Kedarnath', 'Nandi facing the shrine', 'Deepak Seth', 'CC BY-SA 4.0'),
+        ],
         blocks: [
           { t: 'p', text: `The temple is a stone structure of grey, closely fitted blocks, set on a plateau with snow peaks rising directly behind it. The Kedarnath peak reaches 6,940 m and Kedar Dome 6,831 m. The sanctum holds not a carved image but a large natural rock form, worshipped as svayambhu, self-manifested, and described as about 3.6 m in circumference. The entrance hall has figures of Parvati, the five Pandavas, Krishna, Nandi, Virabhadra and Draupadi, and a Nandi stands outside facing the shrine.` },
           { t: 'p', text: `Behind the temple is the large boulder known as Bhim Shila, and nearby the samadhi of Adi Shankara. On a ridge to the east is the open-air shrine of Bhukund Bhairavnath, the guardian deity of the place, who is believed to watch over the empty valley in winter.` },
@@ -79,6 +93,10 @@ export const TEMPLES = [
       },
       {
         h: 'The 2013 flood and the Bhim Shila',
+        photos: [
+          P('Bhim shila, Kedarnath temple, Uttrakhand.jpg', 'The Bhim Shila boulder behind Kedarnath Temple', 'Bhim Shila, the boulder behind the temple', 'Rohit Sharma', 'CC BY-SA 4.0'),
+          P('Kedarnath Temple in 2014.jpg', 'Kedarnath Temple with rubble and rocks around it in 2014', 'The temple and the rubble around it in 2014', 'Kiranmadhu.e', 'CC BY-SA 4.0'),
+        ],
         blocks: [
           { t: 'p', text: `On 16 and 17 June 2013 a landslide and a surge of water from the Chorabari lake area swept through the valley. Thousands died or went missing, and more than 100,000 people were later airlifted out of the region. The temple structure survived with no major damage because a large boulder lodged behind it and split the flow of water and debris. That rock is now worshipped as Bhim Shila.` },
           { t: 'p', text: `Engineers from IIT Madras and the Archaeological Survey of India found the structure stable, the town was rebuilt in the following years, and the pilgrimage resumed in 2014. This history is also why registration, weather checks and trek rules are enforced strictly today: the valley is beautiful and also unforgiving.` },
@@ -86,6 +104,9 @@ export const TEMPLES = [
       },
       {
         h: 'Opening and closing dates, and how they are fixed',
+        photos: [
+          P('Kedarnadh.jpg', 'Kedarnath Temple in evening mist with lights on', 'The temple in evening mist', 'Iamvrt46', 'CC BY-SA 4.0'),
+        ],
         blocks: [
           { t: 'p', text: `The temple does not follow a fixed calendar date. The opening day is tied to Akshaya Tritiya and is announced on Maha Shivaratri by the priests at the Omkareshwar Temple in Ukhimath after calculation from the Panchang. The closing day is fixed on Bhai Dooj, and the doors close after the morning puja.` },
           { t: 'ul', items: [
@@ -98,6 +119,10 @@ export const TEMPLES = [
       },
       {
         h: 'Best time to visit Kedarnath, month by month',
+        photos: [
+          P('Kedarnath 001.jpg', 'Snow peaks above the Kedarnath temple town', 'Snow peaks above the temple town', 'Saisumanth532', 'CC BY-SA 4.0'),
+          P('Kedarnath 3.jpg', 'Kedarnath Temple under heavy cloud', 'The temple under cloud', 'Iamvrt46', 'CC BY-SA 4.0'),
+        ],
         blocks: [
           { t: 'p', text: `Two windows suit most pilgrims: late May to June, and mid September to mid October. The monsoon months of July and August are the wettest of the year, and landslides on the approach road and the trek are most likely then. April is the coldest of the open months with snow still around, and the first days after opening can have very heavy crowds.` },
           { t: 'table',
@@ -198,6 +223,10 @@ export const TEMPLES = [
       },
       {
         h: 'Darshan, aarti and temple etiquette',
+        photos: [
+          P('Devotees at Kedarnath temple, Uttrakhand 01.jpg', 'Devotees outside Kedarnath Temple', 'Devotees outside the temple', 'Rohit Sharma', 'CC BY-SA 4.0'),
+          P('Devotees at Kedarnath temple, Uttrakhand 02.jpg', 'Pilgrims gathered at Kedarnath Temple', 'Pilgrims gathered at the temple', 'Rohit Sharma', 'CC BY-SA 4.0'),
+        ],
         blocks: [
           { t: 'p', text: `Published timings vary. One source lists darshan from 4:00 AM to 9:00 PM with an aarti at 4:00 AM and another at 6:00 PM, while others describe a midday break of two hours or so. Because the hours change with season and crowd, ask the temple office or a BKTC notice on arrival and plan to be in the queue early. Evening aarti is the most atmospheric time, when the temple is lit against the dark peaks.` },
           { t: 'ul', items: [
@@ -222,6 +251,9 @@ export const TEMPLES = [
       },
       {
         h: 'What to see in and around Kedarnath',
+        photos: [
+          P('BhairavnathJi.jpg', 'Shrine of Bhairavnath at Kedarnath', 'Bhairavnath, the guardian deity', 'Samadolfo', 'CC BY-SA 3.0'),
+        ],
         blocks: [
           { t: 'ul', items: [
             `Bhairavnath Temple: about 500 m from the main temple on a ridge. Visit it especially at the opening and closing of the season.`,
@@ -277,6 +309,9 @@ export const TEMPLES = [
       },
       {
         h: 'Prayers and mantras to chant',
+        photos: [
+          P('Devotee at Kedarnath Temple (India).jpg', 'A devotee at Kedarnath Temple', 'A devotee at the temple', 'Abhishek.katariya1804', 'CC BY-SA 4.0'),
+        ],
         blocks: [
           { t: 'p', text: `Pilgrims commonly chant the five-syllable Om Namah Shivaya on the climb, and many recite the Shiva Tandava Stotram, the Maha Mrityunjaya Mantra and the Shiv Chalisa at the shrine. Pages for these are on this site, with Hindi, Odia and Telugu text and meanings.` },
         ],

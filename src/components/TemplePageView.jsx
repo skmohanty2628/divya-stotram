@@ -9,6 +9,7 @@ import ShareBar from '@/components/ShareBar';
 import ReadingBar from '@/components/ReadingBar';
 import TravelBox from '@/components/TravelBox';
 import TempleGear from '@/components/TempleGear';
+import SectionPhotos from '@/components/SectionPhotos';
 import { getTempleBySlug, TEMPLES_UPDATED } from '@/data/temples';
 import { getGuideBySlug } from '@/data/guides';
 import { STOTRAMS_INDEX } from '@/data/stotrams-index';
@@ -36,7 +37,7 @@ function Block({ b }) {
     );
   if (b.t === 'table')
     return (
-      <div className="overflow-x-auto rounded-xl border border-[#c9922a]/25">
+      <div className="clear-both overflow-x-auto rounded-xl border border-[#c9922a]/25">
         <table className="w-full min-w-[480px] text-left text-base">
           <thead className="bg-[#fff1d1] font-cinzel-reg text-[11px] uppercase tracking-[2px] text-[#8a5f00]">
             <tr>{b.head.map((h) => <th key={h} className="px-4 py-3">{h}</th>)}</tr>
@@ -53,7 +54,7 @@ function Block({ b }) {
     );
   if (b.t === 'links')
     return (
-      <div className="grid gap-3 sm:grid-cols-2">
+      <div className="clear-both grid gap-3 sm:grid-cols-2">
         {b.items.map((l) => (
           <a key={l.url} href={l.url} target="_blank" rel="noopener noreferrer" className="rounded-xl border border-[#c9922a]/30 bg-[#fffaf1] p-4 no-underline transition-all hover:-translate-y-0.5 hover:border-[#c9922a] hover:shadow-md">
             <span className="block font-cinzel text-sm font-bold text-[#8b1a00]">{l.label} →</span>
@@ -179,8 +180,9 @@ export default function TemplePageView({ slug }) {
         <article>
           {t.sections.map((s, i) => (
             <div key={s.h}>
-              <section id={idFor(s.h)} className="scroll-mt-24 pt-10">
+              <section id={idFor(s.h)} className="flow-root scroll-mt-24 pt-10">
                 <h2 className="mb-4 font-cinzel text-2xl font-bold text-[#8b1a00]">{s.h}</h2>
+                <SectionPhotos photos={s.photos} />
                 <Prose>{s.blocks.map((b, j) => <Block key={j} b={b} />)}</Prose>
               </section>
               {i === 1 && <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_IN_ARTICLE} />}

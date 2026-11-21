@@ -17,6 +17,7 @@ import ReadingBar from '@/components/ReadingBar';
 import GuideThumb from '@/components/GuideThumb';
 import GuideEffect from '@/components/GuideEffect';
 import TravelBox from '@/components/TravelBox';
+import SectionPhotos from '@/components/SectionPhotos';
 
 const idFor = (text) =>
   text
@@ -45,6 +46,18 @@ export default function GuidePageView({ slug }) {
     return ph ? commonsUrl(ph.file, 640) : null;
   };
   const sameCategory = GUIDES.filter((g) => g.category === guide.category && g.slug !== guide.slug).slice(0, 3);
+
+  // Section photo cards: a section's own `photos` win, otherwise the guide's gallery photos are spread over its sections.
+  const pool = GUIDE_PHOTOS[guide.slug] || [];
+  const secCount = guide.sections.length;
+  const sectionPhotos = guide.sections.map((s, i) => {
+    if (s.photos && s.photos.length) return s.photos;
+    if (pool.length < 2) return [];
+    if (pool.length >= secCount) return [pool[(i + 1) % pool.length]];
+    const slot = Math.floor((i * pool.length) / secCount);
+    const prev = i === 0 ? -1 : Math.floor(((i - 1) * pool.length) / secCount);
+    return slot !== prev || i === 0 ? [pool[(slot + 1) % pool.length]] : [];
+  });
 
   const article = {
     '@context': 'https://schema.org',
@@ -145,8 +158,9 @@ export default function GuidePageView({ slug }) {
         <article>
           {guide.sections.map((s, i) => (
             <div key={s.h}>
-              <section id={idFor(s.h)} className="scroll-mt-24 pt-10">
+              <section id={idFor(s.h)} className="flow-root scroll-mt-24 pt-10">
                 <h2 className="mb-4 font-cinzel text-2xl font-bold text-[#8b1a00]">{s.h}</h2>
+                <SectionPhotos photos={sectionPhotos[i]} />
                 <Prose>
                   {s.p.map((para, j) => (
                     <p key={j}>{para}</p>

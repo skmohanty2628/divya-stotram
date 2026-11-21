@@ -158,6 +158,13 @@ export default function Navbar() {
             </Link>
 
             <Link
+              href="/temples"
+              className="font-cinzel-reg text-xs tracking-[1.5px] xl:tracking-[2px] uppercase whitespace-nowrap text-[#3d1a00]/70 hover:text-[#8b1a00] transition-colors"
+            >
+              Temples
+            </Link>
+
+            <Link
               href="/festivals"
               className="font-cinzel-reg text-xs tracking-[1.5px] xl:tracking-[2px] uppercase whitespace-nowrap text-[#3d1a00]/70 hover:text-[#8b1a00] transition-colors"
             >
@@ -360,6 +367,13 @@ export default function Navbar() {
                   className="block py-3 px-3 rounded-xl font-cinzel-reg text-sm text-[#3d1a00]/70 hover:bg-white/70 transition-colors"
                 >
                   Guides
+                </Link>
+                <Link
+                  href="/temples"
+                  onClick={closeMobileMenu}
+                  className="block py-3 px-3 rounded-xl font-cinzel-reg text-sm text-[#3d1a00]/70 hover:bg-white/70 transition-colors"
+                >
+                  Temples
                 </Link>
                 <Link
                   href="/festivals"

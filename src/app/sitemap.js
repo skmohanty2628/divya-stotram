@@ -2,6 +2,7 @@ import { STOTRAMS_INDEX } from '@/data/stotrams-index';
 import { GUIDES } from '@/data/guides';
 import { SITE_URL, LANGS, stotramUrl, CONTENT_UPDATED } from '@/lib/site';
 import { LASTMOD } from '@/lib/lastmod';
+import { TEMPLES, TEMPLES_UPDATED } from '@/data/temples';
 
 export default function sitemap() {
   const dateFor = (slug) => new Date((slug && LASTMOD[slug]) || CONTENT_UPDATED);
@@ -25,6 +26,7 @@ export default function sitemap() {
     listing(`${SITE_URL}/all-stotrams`, 'weekly', 0.9),
     listing(`${SITE_URL}/guides`, 'weekly', 0.8),
     listing(`${SITE_URL}/festivals`, 'weekly', 0.8),
+    { url: `${SITE_URL}/temples`, lastModified: new Date(TEMPLES_UPDATED), changeFrequency: 'weekly', priority: 0.8 },
     entry(`${SITE_URL}/chanting-room`, 'monthly', 0.5),
     entry(`${SITE_URL}/glossary`, 'monthly', 0.6),
     listing(`${SITE_URL}/odia-stotras`, 'weekly', 0.8),
@@ -45,9 +47,11 @@ export default function sitemap() {
 
   const guides = GUIDES.map((g) => entry(`${SITE_URL}/${g.slug}`, 'monthly', 0.7, g.slug));
 
+  const temples = TEMPLES.map((t) => ({ url: `${SITE_URL}/temples/${t.slug}`, lastModified: new Date(TEMPLES_UPDATED), changeFrequency: 'monthly', priority: 0.8 }));
+
   const statics = ['about', 'contact', 'editorial-policy', 'privacy-policy', 'terms', 'disclaimer'].map((p) =>
     entry(`${SITE_URL}/${p}`, 'yearly', 0.3)
   );
 
-  return [...core, ...stotrams, ...guides, ...statics];
+  return [...core, ...stotrams, ...guides, ...temples, ...statics];
 }

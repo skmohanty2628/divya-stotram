@@ -1,11 +1,11 @@
 import { TRAVEL_PROVIDERS, OFFICIAL, TRAVEL_PLACES } from '@/data/travel-links';
 
 // Plain outbound links (no affiliate tracking). Shown only on place-based guides.
-export default function TravelBox({ slug }) {
-  const t = TRAVEL_PLACES[slug];
+export default function TravelBox({ slug, place, officialLink, extra = [] }) {
+  const t = slug && TRAVEL_PLACES[slug] ? TRAVEL_PLACES[slug] : place ? { place } : null;
   if (!t) return null;
-  const official = t.official ? OFFICIAL[t.official] : null;
-  const items = [...TRAVEL_PROVIDERS];
+  const official = officialLink || (t.official ? OFFICIAL[t.official] : null);
+  const items = [...extra.map((e, i) => ({ id: 'x' + i, ...e })), ...TRAVEL_PROVIDERS];
   return (
     <section className="mt-12 rounded-2xl border border-[#c9922a]/25 bg-white p-6" aria-labelledby="travel-heading">
       <h2 id="travel-heading" className="font-cinzel text-xl font-bold text-[#8b1a00]">Planning to visit {t.place}?</h2>

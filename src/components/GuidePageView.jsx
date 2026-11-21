@@ -18,6 +18,8 @@ import GuideThumb from '@/components/GuideThumb';
 import GuideEffect from '@/components/GuideEffect';
 import TravelBox from '@/components/TravelBox';
 import SectionPhotos from '@/components/SectionPhotos';
+import TempleGear from '@/components/TempleGear';
+import { FESTIVAL_SHOPPING } from '@/data/festival-shopping';
 
 const idFor = (text) =>
   text
@@ -174,6 +176,12 @@ export default function GuidePageView({ slug }) {
         </article>
 
         <TravelBox slug={guide.slug} />
+
+        {(FESTIVAL_SHOPPING[guide.slug] || guide.gear) && (
+          <Card id="what-to-buy" title={(FESTIVAL_SHOPPING[guide.slug] || guide.gear).title || 'What to pack'}>
+            <TempleGear gear={FESTIVAL_SHOPPING[guide.slug] || guide.gear} />
+          </Card>
+        )}
 
         {!!relatedStotrams.length && (
           <section className="mt-12 rounded-2xl border border-[#c9922a]/25 bg-gradient-to-br from-[#fff7e8] to-[#fff1d1] p-6">

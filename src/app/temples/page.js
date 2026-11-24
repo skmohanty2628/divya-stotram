@@ -10,6 +10,8 @@ export const metadata = {
   description:
     'Detailed guides to the great temples of India: history and legend, registration and booking, best time to visit, how to reach, what to see, eat and buy, and what to pack.',
   alternates: { canonical: `${SITE_URL}/temples` },
+  // Kept out of search until the section has enough guides to stand on its own.
+  robots: { index: false, follow: true },
 };
 
 export default function TemplesHub() {
@@ -29,7 +31,7 @@ export default function TemplesHub() {
           <h1 className="mt-3 font-cinzel text-4xl font-bold text-[#8b1a00] md:text-5xl">Temples of India</h1>
           <p className="mx-auto mt-4 max-w-2xl font-garamond text-xl leading-relaxed text-[#3d1a00]/75">
             Each temple guide covers the legend and history, registration and booking, the best months, the route,
-            what to see, eat and buy, and a packing list for men, women, kids and elders. More temples are added every day.
+            what to see, eat and buy, and a packing list for men, women, kids and elders.
           </p>
         </header>
         <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

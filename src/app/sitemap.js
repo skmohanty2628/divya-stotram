@@ -26,7 +26,6 @@ export default function sitemap() {
     listing(`${SITE_URL}/all-stotrams`, 'weekly', 0.9),
     listing(`${SITE_URL}/guides`, 'weekly', 0.8),
     listing(`${SITE_URL}/festivals`, 'weekly', 0.8),
-    { url: `${SITE_URL}/temples`, lastModified: new Date(TEMPLES_UPDATED), changeFrequency: 'weekly', priority: 0.8 },
     entry(`${SITE_URL}/chanting-room`, 'monthly', 0.5),
     entry(`${SITE_URL}/glossary`, 'monthly', 0.6),
     listing(`${SITE_URL}/odia-stotras`, 'weekly', 0.8),

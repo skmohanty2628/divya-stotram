@@ -66,7 +66,7 @@ export default function MusicPlayer({ youtubeId, title }) {
                 className="rounded-lg"
               />
               <p className="mt-2 font-garamond text-[11px] text-[#e8d5b5]/40 text-center">
-                🎵 Devotional music · Copyright-safe
+                Plays from YouTube. The recording belongs to its original channel.
               </p>
             </div>
           )}

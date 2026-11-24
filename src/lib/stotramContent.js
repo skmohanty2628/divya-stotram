@@ -1,11 +1,14 @@
 import { STOTRAM_INFO } from '@/data/stotram-info';
 import { STOTRAM_EXTRA } from '@/data/stotram-extra';
 import { STOTRAM_ARTICLES } from '@/data/stotram-articles';
+import { STOTRAM_ARTICLES_MORE_A } from '@/data/stotram-articles-more';
+import { STOTRAM_ARTICLES_MORE_B } from '@/data/stotram-articles-more2';
 import { GUIDES } from '@/data/guides';
 
 export function getStotramContent(slug) {
   const info = STOTRAM_INFO[slug] || STOTRAM_EXTRA[slug] || null;
-  const article = STOTRAM_ARTICLES[slug] || null;
+  const article =
+    STOTRAM_ARTICLES[slug] || STOTRAM_ARTICLES_MORE_A[slug] || STOTRAM_ARTICLES_MORE_B[slug] || null;
   return {
     what: info?.what || '',
     meaning: info?.meaning || '',

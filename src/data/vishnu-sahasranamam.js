@@ -274,10 +274,10 @@ export const vishnuSahasranamam = {
     {
       id: "pp-21", type: 'shloka', num: -1,
       transliteration: "Amritamshudbhavo Bijam Shaktirdevakinandanah\nTrisama Hridayam Tasya Shantyarthe Viniyujyate",
-      original: "अमृतांशूद्भवो बीजं शक्तिर्देवकिनन्दनः।\nत्रिसामा हृदयं तस्य शान्त्यर्थे विनियुज्यते॥",
+      original: "अमृतांशूद्भवो बीजं शक्तिर्देवकीनन्दनः।\nत्रिसामा हृदयं तस्य शान्त्यर्थे विनियुज्यते॥",
       script: {
-        od: "ଅମୃତାଂଶୂଦ୍ଭବୋ ବୀଜଂ ଶକ୍ତିର୍ଦେବକିନନ୍ଦନଃ।\nତ୍ରିସାମା ହୃଦୟଂ ତସ୍ୟ ଶାନ୍ତ୍ୟର୍ଥେ ବିନିୟୁଜ୍ୟତେ॥",
-        te: "అమృతాంశూద్భవో బీజం శక్తిర్దేవకినన్దనః।\nత్రిసామా హృదయం తస్య శాన్త్యర్థే వినియుజ్యతే॥",
+        od: "ଅମୃତାଂଶୂଦ୍ଭବୋ ବୀଜଂ ଶକ୍ତିର୍ଦେବକୀନନ୍ଦନଃ।\nତ୍ରିସାମା ହୃଦୟଂ ତସ୍ୟ ଶାନ୍ତ୍ୟର୍ଥେ ବିନିୟୁଜ୍ୟତେ॥",
+        te: "అమృతాంశూద్భవో బీజం శక్తిర్దేవకీనన్దనః।\nత్రిసామా హృదయం తస్య శాన్త్యర్థే వినియుజ్యతే॥",
       },
       meaning: {
         en: "Amritamshudbhava is the seed and Devakinandana the power; Trisama is its heart, and the hymn is applied for the sake of peace.",

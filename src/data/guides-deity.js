@@ -51,6 +51,20 @@ export const GUIDES_DEITY = [
           `Start with one recitation a day for seven days. Read the meaning beside each verse at first, so that you know what you are saying. When you are comfortable, add Tuesday or Saturday as special days. Read our companion guide on how to chant the Hanuman Chalisa for pronunciation, timing and counts.`,
         ],
       },
+      {
+        h: 'Using the Chalisa through a difficult week',
+        p: [
+          `When something frightening is coming, such as a medical appointment, a hard conversation or an exam, the Chalisa gives the waiting hours a shape. A person can recite it once on waking and once before sleep, and between those two points treat the rest of the day as ordinary. The recitation takes about ten minutes, which is long enough to settle the breathing and short enough to fit even a crowded day.`,
+          `What tends to help most is not intensity but regularity. Reciting it in a rush, five times in a row, often leaves people more agitated than before. A single slow recitation, with attention on the meaning of a few lines, is calmer. If the mind wanders, bring it back to the next line without scolding yourself; the wandering is part of the practice, not a failure of it.`,
+        ],
+      },
+      {
+        h: 'A realistic one-month practice',
+        p: [
+          `If you want to see what the Chalisa does for you, give it a plain trial of thirty days. Choose a fixed time, perhaps just after washing in the morning. Sit in the same place. Recite once, at a pace where you can follow each word. Afterwards, spend one minute in silence.`,
+          `At the end of the month, ask yourself honest questions. Do you find it easier to start the day? Do you react more slowly to small irritations? Do you feel less alone in a hard period? Some people will answer yes, some will see little change, and both results are acceptable. The Chalisa is a devotional text, and its worth does not depend on an experiment. We suggest treating it as a companion for the day and keeping medical, financial and legal decisions with qualified professionals.`,
+        ],
+      },
     ],
     faqs: [
       {
@@ -1065,6 +1079,20 @@ export const GUIDES_DEITY = [
         h: 'Practical points',
         p: [
           `Say the mantra at a pace you can keep, with clear syllables. Keep a regular time and count, and begin small: 11 or 21 repetitions are enough for a start. A mala is a counting aid and not a requirement, and mental repetition is accepted when you cannot chant aloud. Chanting is a devotional practice and is not a substitute for medical or professional help.`,
+        ],
+      },
+      {
+        h: 'Pronunciation and pace',
+        p: [
+          `The two best-known Vishnu mantras are short, and the main thing to get right is the sound of each syllable. In Om Namo Narayanaya, the vowels are long and open, and the word Narayanaya is said as four clear beats. In Om Namo Bhagavate Vasudevaya, take care with the middle word, Bhagavate, which has four syllables. Say each one without clipping the ends.`,
+          `A comfortable pace is about one repetition for each slow out-breath. Do not try to be fast; speed is not the aim. If you use a mala of 108 beads, one round takes roughly ten to fifteen minutes at this pace, which is a sensible daily amount for most people.`,
+        ],
+      },
+      {
+        h: 'Common mistakes and gentle corrections',
+        p: [
+          `A frequent mistake is to treat the mala as a target to be finished. If you notice that you are counting more than listening, put the beads down for a few minutes and recite without counting. Another is to chant while doing something else; that is fine for ordinary remembrance during the day, but the main sitting practice deserves your full attention.`,
+          `People also worry about getting a syllable wrong. In most traditions the sincerity of the intention matters first, and with time and listening to a good recitation the pronunciation improves. If you want precision, ask a teacher or a knowledgeable elder in your family to listen to you once. As elsewhere on this site, we describe these as devotional practices and do not promise particular results.`,
         ],
       },
     ],

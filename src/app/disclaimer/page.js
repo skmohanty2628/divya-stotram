@@ -51,6 +51,37 @@ export default function DisclaimerPage() {
               <strong>External links and third parties.</strong> We are not responsible for the content of external
               sites, including embedded videos.
             </p>
+            <p>
+              <strong>Fasting, food and physical practices.</strong> Several pages describe fasts (vrata), simple diets
+              for festival days, or sitting practices. These are traditional customs. Fasting and long sitting are not
+              suitable for everyone, including people who are pregnant, elderly, diabetic, on regular medication or
+              recovering from illness. Please ask your doctor before fasting, and treat any fast as optional.
+            </p>
+            <p>
+              <strong>Festival dates, timings and temple information.</strong> Festival dates depend on the regional
+              almanac (panchang) and can differ by a day between places and traditions. Temple pages describe history,
+              customs and visiting practicalities as best we know them, but opening hours, dress rules, ticketing and
+              festival arrangements change. Please confirm with the temple or its official channel before you travel.
+            </p>
+            <p>
+              <strong>Attributions and history.</strong> Where a hymn is traditionally ascribed to a poet or sage, such
+              as Adi Shankara or Tulsidas, we say so as a tradition and not as settled historical fact. Stories from the
+              Puranas and epics are presented as stories within the tradition.
+            </p>
+            <p>
+              <strong>Advertising and links.</strong> The site may show advertisements and may link to books, devotional
+              items or travel services. We do not endorse any advertiser, and we do not let advertising decide what we
+              write. Please use your own judgement before buying anything.
+            </p>
+            <p>
+              <strong>Respect for readers of all backgrounds.</strong> The site is written from within the Hindu
+              devotional tradition for readers who want to learn or practise. We do not make claims about other faiths,
+              and we welcome readers of every background who come with respect.
+            </p>
+            <p>
+              <strong>How we handle errors.</strong> If you find a mistake in a verse, a meaning, a date or a fact, write
+              to us. We check the report against reliable sources and correct the page.
+            </p>
             <p>Questions or corrections: {CONTACT_EMAIL}</p>
           </Prose>
         </div>

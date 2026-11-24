@@ -158,10 +158,10 @@ export const STOTRAMS_INDEX = [
     deityEmoji: '🏹',
     deityIcon: '',
     description: {
-      en: 'The divine protective hymn composed by sage Budha Kaushika, chanting Ram Raksha Stotram daily removes all diseases, destroys enemies and grants victory',
-      hi: 'ऋषि बुधकौशिक रचित दिव्य रक्षा स्तोत्र, राम रक्षा स्तोत्र का नित्य पाठ रोग नाश, शत्रु नाश और विजय देता है',
-      od: 'ଋଷି ବୁଧ କୌଶିକ ରଚିତ ଦିବ୍ୟ ରକ୍ଷା ସ୍ତୋତ୍ର, ନିତ୍ୟ ପାଠ ରୋଗ ଓ ଶତ୍ରୁ ନଷ୍ଟ କରି ବିଜୟ ଦିଏ',
-      te: 'ఋషి బుధ కౌశిక రచించిన దివ్య రక్షా స్తోత్రం, రోజూ పఠిస్తే రోగాలు, శత్రువులు నశిస్తాయి',
+      en: 'A protective hymn to Rama, traditionally attributed to the sage Budha Kaushika, recited daily by devotees as a prayer for safety and steady courage',
+      hi: 'श्रीराम को समर्पित रक्षा स्तोत्र, परंपरा में ऋषि बुधकौशिक को श्रेय दिया जाता है; भक्त इसे सुरक्षा और साहस की प्रार्थना के रूप में नित्य पढ़ते हैं',
+      od: 'ଶ୍ରୀରାମଙ୍କ ପ୍ରତି ରକ୍ଷା ସ୍ତୋତ୍ର, ପରମ୍ପରାରେ ଋଷି ବୁଧ କୌଶିକଙ୍କୁ ଶ୍ରେୟ ଦିଆଯାଏ; ଭକ୍ତମାନେ ଏହାକୁ ସୁରକ୍ଷା ଓ ସାହସର ପ୍ରାର୍ଥନା ରୂପେ ପାଠ କରନ୍ତି',
+      te: 'శ్రీరాముని రక్షా స్తోత్రం, సంప్రదాయంలో బుధ కౌశిక ఋషికి ఆపాదిస్తారు; భక్తులు దీనిని రక్షణ, ధైర్యం కోసం ప్రార్థనగా రోజూ పఠిస్తారు',
     },
     color: 'from-red-950 to-orange-950',
     accent: '#e8760a',
@@ -177,7 +177,7 @@ export const STOTRAMS_INDEX = [
     deityEmoji: '🚩',
     deityIcon: '',
     description: {
-      en: 'The sacred Sun hymn from Valmiki Ramayana taught by sage Agastya to Lord Ram before the battle with Ravana, grants victory, health and destroys all enemies',
+      en: 'The sacred Sun hymn from Valmiki Ramayana taught by sage Agastya to Lord Ram before the battle with Ravana, and recited by devotees at sunrise as a prayer of gratitude to the Sun',
       hi: 'वाल्मीकि रामायण से महर्षि अगस्त्य द्वारा श्रीराम को रावण युद्ध से पूर्व दिया गया सूर्य स्तोत्र',
       od: 'ବାଲ୍ମୀକ ରାମାୟଣ ଅଗସ୍ତ୍ୟ ଋଷି ଦ୍ୱାରା ଶ୍ରୀ ରାମଙ୍କ ଦିଆ ସୂର୍ଯ୍ୟ ସ୍ତୋତ୍ର',
       te: 'వాల్మీకి రామాయణంలో అగస్త్య ఋషి రాముడికి చెప్పిన సూర్య స్తోత్రం',
@@ -253,7 +253,7 @@ export const STOTRAMS_INDEX = [
     deityEmoji: '🏹',
     deityIcon: '',
     description: {
-      en: 'The powerful protective arrow-prayer to Lord Hanuman, Nishchay Prem Prateeti Te, destroys enemies, removes all fear, evil and obstacles, grants fearlessness and divine protection',
+      en: 'The powerful protective arrow-prayer to Lord Hanuman, Nishchay Prem Prateeti Te, recited by devotees as a prayer for courage and protection in times of fear',
       hi: 'भगवान हनुमान को समर्पित शक्तिशाली सुरक्षात्मक बाण-प्रार्थना, निश्चय प्रेम प्रतीति ते',
       od: 'ହନୁମାନଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ ଶକ୍ତିଶାଳୀ ସୁରକ୍ଷ ବାଣ ପ୍ରାର୍ଥନା',
       te: 'హనుమంతుని శక్తివంతమైన రక్షణ బాణ ప్రార్థన',

@@ -213,7 +213,7 @@ export const STOTRAM_INFO = {
     faqs: [
       { q: 'What is Aditya Hridayam?', a: 'It is a powerful Sun hymn from the Valmiki Ramayana that sage Agastya taught Lord Ram before his battle with Ravana to grant victory, energy, and divine grace.' },
       { q: 'Who composed Aditya Hridayam?', a: 'Aditya Hridayam is part of the Valmiki Ramayana, attributed to sage Valmiki. It was narrated by sage Agastya to Lord Ram during the battle with Ravana.' },
-      { q: 'How many times should Aditya Hridayam be chanted?', a: 'Sage Agastya specifically instructed Ram to chant it 3 times for guaranteed victory. Daily recitation at sunrise brings cumulative blessings.' },
+      { q: 'How many times should Aditya Hridayam be chanted?', a: 'In the Ramayana, Sage Agastya teaches the hymn to Rama before the battle, and the tradition mentions reciting it three times. Many devotees read it once at sunrise, which is a custom and not a rule. We present the benefits as matters of faith and do not promise any outcome.' },
       { q: 'What are the benefits of Aditya Hridayam?', a: 'It grants victory over enemies, excellent health, mental clarity, removes depression, improves eyesight, and invokes Surya\'s blessings for success in all endeavors.' },
       { q: 'Can Aditya Hridayam be chanted by women?', a: 'Yes, Aditya Hridayam can be chanted by anyone. It is from the Ramayana and is open to all devotees regardless of gender or background.' },
     ],

@@ -297,6 +297,20 @@ export const GUIDES_TOPIC = [
         "p": [
           "If your sleep time keeps changing, use the same short mantra and breathing pattern whenever you lie down, whatever the hour. The routine becomes a cue. New parents can use the same silent practice during night feeds. A familiar verse also helps when you are in a strange bed on a journey."
         ]
+      },
+      {
+        "h": "When the mind races in the middle of the night",
+        "p": [
+          "Waking at three in the morning with a loop of worries is common. The first rule is not to fight it. Lie still, keep the lights low, and begin a slow, quiet recitation of a short mantra on the out-breath. Do not count or check the clock. If your mind drifts, return to the sound without comment.",
+          "If after twenty or thirty minutes you are still wide awake, it can help to sit up for a short while with a dim light, drink some water, and then try again. The aim is to avoid turning the bed into a place associated with frustration."
+        ]
+      },
+      {
+        "h": "Setting up the room",
+        "p": [
+          "A calm room helps any bedtime practice. Keep it cool and dark if you can, and put the phone out of reach. If you like, light a small lamp or a stick of incense an hour before sleeping and then put it out, so you are not sleeping with an open flame.",
+          "We describe these as habits that many people find soothing. Persistent trouble with sleep can have medical causes, and if it continues for weeks, we encourage you to speak with a doctor."
+        ]
       }
     ],
     "faqs": [
@@ -605,6 +619,20 @@ export const GUIDES_TOPIC = [
         "p": [
           "The most reliable confidence comes from preparation. Rehearse answers aloud, ask a friend to mock-interview you, and sleep well the night before. Mantras help you feel steady. They do not replace readiness. If social anxiety or fear of speaking is severe and persistent, a therapist can offer techniques that work well alongside devotional practice."
         ]
+      },
+      {
+        "h": "Preparing the body as well as the mind",
+        "p": [
+          "Confidence is physical as much as mental. Before a talk, an interview or a performance, many people find that slowing the breath, dropping the shoulders and standing with both feet on the ground does as much as any thought. A mantra fits naturally into this: take one slow breath in, and say the mantra silently on the breath out.",
+          "Hanuman and Durga mantras suit this purpose because their imagery is about strength and steadiness. If the sound of a Sanskrit mantra feels unfamiliar, a short English phrase of your own, said with the same slow breathing, is a fair way to begin."
+        ]
+      },
+      {
+        "h": "Keeping a record of small wins",
+        "p": [
+          "Confidence usually grows from evidence, not from affirmation alone. Keep a small notebook in which you record one thing each day that you handled well. It can be small: a clear email, a difficult conversation, a task finished on time. After a few weeks, you have a record that answers the inner voice that says you cannot cope.",
+          "Pair this with a brief prayer or mantra at the start of the day, if that is meaningful to you. The prayer sets the intention, and the notebook shows the result. Neither guarantees success in any given task, but together they build a habit of facing things steadily."
+        ]
       }
     ],
     "faqs": [
@@ -815,6 +843,20 @@ export const GUIDES_TOPIC = [
         "p": [
           "Many families choose one fixed time, for example the early morning or the evening lamp, and say the same mantra for the same number of rounds each day. A fixed rhythm gives the household something steady while everything else is uncertain. Keep it short enough to continue on hard days, and let go of any rule that makes you feel guilty for missing a day."
         ]
+      },
+      {
+        "h": "Using a mantra in a hospital or sickroom",
+        "p": [
+          "Hospitals are noisy and busy, and many hospitals have rules about candles, incense and loud recitation. A quiet inner recitation is almost always possible. Some families keep a small picture or a string of beads in a bag, and a few minutes of silent chanting while sitting beside a patient can steady the person doing it.",
+          "If the patient wants to hear the mantra, a soft recording played at low volume, or a gentle recitation in a low voice, is usually acceptable. Ask the staff first, and always give way to the needs of the medical team. The prayer is there to support the people in the room, not to interrupt care."
+        ]
+      },
+      {
+        "h": "Looking after the one who prays",
+        "p": [
+          "Caregivers frequently forget themselves. They skip meals, sleep badly and carry the worry silently. A short daily practice of five minutes, whether it is a mantra, a few slow breaths or a walk, is not selfish. It helps the person who is carrying the load to keep going.",
+          "If the illness is serious, it is also wise to seek support from family, friends, a hospital social worker or a counsellor. We offer these mantras as a source of comfort and not as a treatment, and we urge readers to follow the advice of their doctors."
+        ]
       }
     ],
     "faqs": [
@@ -921,6 +963,20 @@ export const GUIDES_TOPIC = [
         "h": "Keeping a marriage warm",
         "p": [
           "Couples can recite a shanti mantra together, light a lamp on their anniversary, and share a few quiet minutes each evening. A short daily habit, such as saying one thing you appreciated about each other, builds a sense of shared sacred space, which many couples say is worth more than any special ritual."
+        ]
+      },
+      {
+        "h": "Supporting someone who is waiting",
+        "p": [
+          "If you are the parent, sibling or friend of someone who is waiting for a marriage, the most useful thing is rarely a ritual. People in this position often feel that their lives are being measured against a calendar. A relative who offers steady company, without asking for updates at every gathering, does more good than an extra fast or recitation.",
+          "If the person themselves wants to pray, you can offer to sit with them for a few minutes while they do. Let them choose the mantra. Katyayani, Shiva and Parvati, and Rama and Sita are all traditional choices, but the right one is the one that feels natural to them."
+        ]
+      },
+      {
+        "h": "After the wedding",
+        "p": [
+          "Many couples find that the tradition's emphasis on partnership continues to be useful after the ceremony. A shared practice, even something as small as lighting a lamp together on a weekend evening, gives the couple a regular, quiet moment that does not depend on any task or conversation.",
+          "Marriage also asks for ordinary skills such as listening, apologising and dividing work fairly, and no mantra replaces those. We present these prayers as expressions of hope and of commitment to the relationship, and we encourage couples who are struggling to speak with a counsellor or a trusted elder in addition to praying."
         ]
       }
     ],

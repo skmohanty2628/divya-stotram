@@ -42,6 +42,34 @@ const TERMS = [
   ['Veda', 'The oldest body of Hindu sacred texts, composed in Sanskrit: the Rig, Yajur, Sama and Atharva Vedas.'],
   ['Visarjan', 'The immersion of a deity image in water at the end of a festival such as Ganesh Chaturthi or Durga Puja.'],
   ['Vrata', 'A vow, often involving fasting or a special observance for a period of time.'],
+  ['Abhishekam', 'The ritual bathing of a deity image or linga with water, milk, honey or other offerings, accompanied by mantras.'],
+  ['Archana', 'Worship by offering flowers or leaves while reciting the names of a deity, often one hundred and eight or a thousand names.'],
+  ['Atman', 'The inner self, understood in Vedanta as ultimately one with Brahman.'],
+  ['Bilva', 'The leaf of the wood-apple tree, offered to Shiva in a set of three leaflets.'],
+  ['Brahman', 'The ultimate reality in the Upanishads, without form and beyond description.'],
+  ['Darshan', 'The act of seeing and being seen by a deity, a holy place or a revered teacher, regarded as a blessing in itself.'],
+  ['Deepam', 'A lamp, often of ghee or sesame oil, lit before a deity; the word is common in southern India and Odisha.'],
+  ['Guru', 'A teacher, especially a spiritual one, who guides a student in study and practice.'],
+  ['Homa', 'A fire ritual in which offerings are made into a consecrated fire while mantras are recited.'],
+  ['Ishta devata', 'The deity a person chooses, or a family inherits, as the centre of personal worship.'],
+  ['Kalasha', 'A pot, often of brass or copper, filled with water and topped with leaves and a coconut, used as a symbol of auspiciousness in rituals.'],
+  ['Kumkum', 'A red powder, usually made from turmeric, applied as a mark on the forehead or offered to the Goddess.'],
+  ['Mudra', 'A hand gesture used in worship, dance and meditation.'],
+  ['Murti', 'A consecrated image or statue of a deity used in worship.'],
+  ['Naivedya', 'Food offered to a deity before it is shared as prasad.'],
+  ['Namaskar', 'A greeting made by folding the palms together, also used as an act of reverence.'],
+  ['Phalashruti', 'The closing verses of a hymn that describe the fruit of reciting it; we treat these as part of the tradition, not as promises.'],
+  ['Pradakshina', 'Walking clockwise around a shrine, a temple or a sacred object as an act of respect.'],
+  ['Pradosha', 'The twilight period of the thirteenth lunar day, considered especially auspicious for worship of Shiva.'],
+  ['Rudraksha', 'The seed of a tree used to make prayer beads, associated with Shiva.'],
+  ['Sandhya', 'The junctures of the day, dawn, noon and dusk, traditionally used for prayer.'],
+  ['Shanti', 'Peace; the word is repeated three times at the end of many Vedic prayers.'],
+  ['Shraddha', 'Faith or sincere trust; also the name for rites in memory of ancestors.'],
+  ['Tilak', 'A mark applied to the forehead with sandal paste, ash or powder, indicating devotion or tradition.'],
+  ['Upanishad', 'One of the philosophical texts at the end of the Vedas, which explore the nature of the self and ultimate reality.'],
+  ['Vahana', 'The animal or vehicle associated with a deity, such as the lion of Durga or the mouse of Ganesha.'],
+  ['Vibhuti', 'Sacred ash applied to the forehead and body, especially by devotees of Shiva.'],
+  ['Yantra', 'A geometric diagram used as a focus for worship and meditation.'],
 ];
 
 export default function GlossaryPage() {
@@ -66,14 +94,30 @@ export default function GlossaryPage() {
           </Link>{' '}
           and the <Link href="/guides" className="underline decoration-[#c9922a]/50">prayer guides</Link>.
         </p>
-        <dl className="mt-10 divide-y divide-[#c9922a]/25">
-          {TERMS.map(([name, desc]) => (
+        <h2 className="mt-12 font-cinzel text-2xl font-bold text-[#8b1a00]">How to use this glossary</h2>
+        <p className="mt-3 text-[#3d1a00]/90">
+          The entries are in alphabetical order. Most of the words are Sanskrit, and they are written here in a simple
+          Roman spelling without diacritics, so you may see slightly different spellings elsewhere. When a word has
+          several meanings in different traditions, we give the most common one and say so. If you are new to the
+          vocabulary, begin with mantra, stotram, japa, puja and aarti, which cover most of the daily practice described
+          on this site.
+        </p>
+        <h2 className="mt-12 font-cinzel text-2xl font-bold text-[#8b1a00]">Terms and definitions</h2>
+        <dl className="mt-4 divide-y divide-[#c9922a]/25">
+          {[...TERMS].sort((x, y) => x[0].localeCompare(y[0])).map(([name, desc]) => (
             <div key={name} className="py-4">
               <dt className="font-cinzel text-xl font-semibold text-[#8b1a00]">{name}</dt>
               <dd className="mt-1 text-[#3d1a00]/90">{desc}</dd>
             </div>
           ))}
         </dl>
+        <h2 className="mt-12 font-cinzel text-2xl font-bold text-[#8b1a00]">A note on spelling and meaning</h2>
+        <p className="mt-3 text-[#3d1a00]/90">
+          Hindu practice is not a single rulebook. A word such as puja can mean a five minute lamp offering in one home
+          and a day-long ritual in another. Regional spellings also differ: Odia, Telugu, Hindi and Sanskrit sources may
+          write the same word differently. Treat these definitions as a friendly starting point, and when you want a
+          precise ritual meaning, ask a teacher or a knowledgeable elder in your own tradition.
+        </p>
       </div>
     </SiteShell>
   );

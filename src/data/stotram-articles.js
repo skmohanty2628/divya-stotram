@@ -191,7 +191,7 @@ export const STOTRAM_ARTICLES = {
       ['Content', 'One thousand names of Vishnu'],
       ['Commentary', 'Classical commentaries by Adi Shankaracharya and Parasara Bhattar'],
       ['Duration', 'About 20 to 30 minutes in full recitation'],
-      ['On this page', '22 opening verses, all 107 verses of the thousand names and the closing verse, with meanings'],
+      ['On this page', '22 opening verses, 7 dhyana verses, all 107 verses of the thousand names with the closing verse, and the 33-verse phalashruti, with meanings'],
     ],
     sections: [
       {
@@ -205,7 +205,7 @@ export const STOTRAM_ARTICLES = {
         h: 'How a name teaches',
         p: [
           `Each name is a short philosophical statement. Vishvam, the first name, means the universe itself. Vishnu means the all-pervading. Achyuta is the one who never falls. Ananta is the endless. Shankaracharya's commentary draws out several meanings from each name, and devotees often study one name a day rather than racing through the whole text.`,
-          `The page opens with the verses that precede the names in the standard text, beginning with the dhyana verse Shuklambaradharam Vishnum, which many families recite to begin any auspicious work. Recitations usually end with a phalashruti about the fruit of reciting, which is not included here.`,
+          `The page opens with the verses that precede the names in the standard text, beginning with the dhyana verse Shuklambaradharam Vishnum, which many families recite to begin any auspicious work. After the names comes the phalashruti, the traditional section on the fruit of reciting. Its promises are devotional tradition and are reported as the text states them; they are not medical, legal or financial claims.`,
         ],
       },
       {

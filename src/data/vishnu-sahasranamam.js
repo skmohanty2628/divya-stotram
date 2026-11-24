@@ -1,6 +1,7 @@
 // VISHNU SAHASRANAMAM (Shri Vishnu Sahasranama Stotram), the thousand names of Vishnu as taught by Bhishma to Yudhishthira in the Mahabharata, Anushasana Parva, chapter 149 (vulgate numbering).
 // pp-1 to pp-22 are the opening (purvapithika): six invocation verses, the question of Yudhishthira, Bhishma's reply and the introduction to the names, as printed in the standard text and sung at the start of full recordings. Added 2026-11-24, checked against the Divine Life Society edition (swami-krishnananda.org) and the captions of the Nova Spiritual India full-lyrics video.
-// 107 verses carry the thousand names (vs-1 to vs-107) and vs-108 is the closing protection verse (vanamali verse). The long fruit-of-reciting section (phalashruti) found in printed booklets is not part of this page set.
+// dh-1 to dh-7 are the seven dhyana verses sung after the opening in full recordings. ph-1 to ph-33 are the phalashruti, the traditional closing section; its promised results are reported as the text states them, as devotional tradition. Both added 2026-11-24 from the Divine Life Society edition, and the order matches the Nova Spiritual India full video.
+// 107 verses carry the thousand names (vs-1 to vs-107) and vs-108 is the closing protection verse (vanamali verse).
 // Text checked on 2026-11-19, verse by verse, against four independent editions: sanskritdocuments.org (vsahasranew, from the Mahabharata, used as the base), stotranidhi.com, brahmabhakti.com and vignanam.org. All four agree on every verse except the points below.
 // Spelling and sandhi only (site follows the unsandhied Gita Press style of the base): visarga sandhi (stotranidhi and vignanam write -stsa style joins), anusvara against a nasal consonant, maharddhi and pararddhi (verses 38 and 42, doubled dd after r, brahmabhakti and vignanam write it single), sannyasa spelling (verse 62), apamnidhi against apannidhi (verse 35), divaspRk against divahspRk (verse 61).
 // Real variants, decided by the reading shared by the most editions (and the usual chanted name): shashvatah or shashvato (verse 7, kept shashvatah), mahadridhrik or mahadridhrit (19, kept mahadridhrik), vishvadhrik or vishvasrik (26, kept vishvadhrik), purandarah or purandharah (36, kept purandarah), trilokadhrik or trilokadhrit (80, kept dhrik, vignanam lists both), amritasho or amritamsho (87, kept amritasho), svasyah or svasthyah (90, kept svasyah), virochanah or vilochanah (94, kept virochanah), savah or stavah (78, kept savah), jivanah or jivanam (99, kept jivanah), yajnabhug or yajnabhuk (105, kept yajnabhug), satkirtish-chhinna or satkirtich-chhinna (66, kept the first, vignanam prints chinna which is a slip).
@@ -294,6 +295,97 @@ export const vishnuSahasranamam = {
       meaning: {
         en: "I bow to the Supreme Person, Vishnu, Jishnu, Mahavishnu, Prabhavishnu and Maheshvara, who takes many forms and ends the demons.",
         hi: "मैं विष्णु, जिष्णु, महाविष्णु, प्रभविष्णु और महेश्वर, अनेक रूप धारण करने वाले दैत्यनाशक पुरुषोत्तम को नमस्कार करता हूँ।",
+      },
+    },
+    {
+      id: "dh-1", type: 'shloka', num: 1001,
+      transliteration: "Kshirodanvatpradeshe Shuchimanivilasatsaikate Mauktikanam\nMalaklriptasanasthah Sphatikamaninibhairmauktikairmanditangah\nShubhrairabhrairadabhrairuparivirachitairmuktapiyushavarshaih\nAnandi Nah Puniyadarinalinagadashankhapanirmukundah",
+      original: "क्षीरोदन्वत्प्रदेशे शुचिमणिविलसत्सैकते मौक्तिकानां\nमालाक्लृप्तासनस्थः स्फटिकमणिनिभैर्मौक्तिकैर्मण्डिताङ्गः।\nशुभ्रैरभ्रैरदभ्रैरुपरिविरचितैर्मुक्तपीयूषवर्षैः\nआनन्दी नः पुनीयादरिनलिनगदाशङ्खपाणिर्मुकुन्दः॥",
+      script: {
+        od: "କ୍ଷୀରୋଦନ୍ୱତ୍ପ୍ରଦେଶେ ଶୁଚିମଣିବିଲସତ୍ସୈକତେ ମୌକ୍ତିକାନାଂ\nମାଲାକ୍ଲୃପ୍ତାସନସ୍ଥଃ ସ୍ଫଟିକମଣିନିଭୈର୍ମୌକ୍ତିକୈର୍ମଣ୍ଡିତାଙ୍ଗଃ।\nଶୁଭ୍ରୈରଭ୍ରୈରଦଭ୍ରୈରୁପରିବିରଚିତୈର୍ମୁକ୍ତପୀୟୂଷବର୍ଷୈଃ\nଆନନ୍ଦୀ ନଃ ପୁନୀୟାଦରିନଲିନଗଦାଶଙ୍ଖପାଣିର୍ମୁକୁନ୍ଦଃ॥",
+        te: "క్షీరోదన్వత్ప్రదేశే శుచిమణివిలసత్సైకతే మౌక్తికానాం\nమాలాక్లృప్తాసనస్థః స్ఫటికమణినిభైర్మౌక్తికైర్మణ్డితాఙ్గః।\nశుభ్రైరభ్రైరదభ్రైరుపరివిరచితైర్ముక్తపీయూషవర్షైః\nఆనన్దీ నః పునీయాదరినలినగదాశఙ్ఖపాణిర్ముకున్దః॥",
+      },
+      meaning: {
+        en: "On a shore of the milk ocean, seated on a throne strung with pearls and adorned with pearls, bathed in a rain of nectar from bright clouds above, may joyful Mukunda, holding the discus, lotus, mace and conch, purify us.",
+        hi: "क्षीरसागर के तट पर, मोतियों से बने आसन पर विराजमान, मोतियों से सजे, ऊपर श्वेत मेघों से बरसती अमृत-वर्षा में स्नान करते, चक्र, कमल, गदा और शंख धारण करने वाले आनन्दमय मुकुन्द हमें पवित्र करें।",
+      },
+    },
+    {
+      id: "dh-2", type: 'shloka', num: 1002,
+      transliteration: "Bhuh Padau Yasya Nabhirviyadasuranilashchandrasuryau Cha Netre\nKarnavashah Shiro Dyaurmukhamapi Dahano Yasya Vasteyamabdhih\nAntahstham Yasya Vishvam Suranarakhagagobhogigandharvadaityaih\nChitram Ram Ramyate Tam Tribhuvanavapusham Vishnumisham Namami",
+      original: "भूः पादौ यस्य नाभिर्वियदसुरनिलश्चन्द्रसूर्यौ च नेत्रे\nकर्णावाशाः शिरो द्यौर्मुखमपि दहनो यस्य वास्तेयमब्धिः।\nअन्तःस्थं यस्य विश्वं सुरनरखगगोभोगिगन्धर्वदैत्यैः\nचित्रं रं रम्यते तं त्रिभुवनवपुषं विष्णुमीशं नमामि॥",
+      script: {
+        od: "ଭୂଃ ପାଦୌ ଯସ୍ୟ ନାଭିର୍ବିୟଦସୁରନିଲଶ୍ଚନ୍ଦ୍ରସୂର୍ୟୌ ଚ ନେତ୍ରେ\nକର୍ଣାବାଶାଃ ଶିରୋ ଦ୍ୟୌର୍ମୁଖମପି ଦହନୋ ଯସ୍ୟ ବାସ୍ତେୟମବ୍ଧିଃ।\nଅନ୍ତଃସ୍ଥଂ ଯସ୍ୟ ବିଶ୍ୱଂ ସୁରନରଖଗଗୋଭୋଗିଗନ୍ଧର୍ବଦୈତ୍ୟୈଃ\nଚିତ୍ରଂ ରଂ ରମ୍ୟତେ ତଂ ତ୍ରିଭୁବନବପୁଷଂ ବିଷ୍ଣୁମୀଶଂ ନମାମି॥",
+        te: "భూః పాదౌ యస్య నాభిర్వియదసురనిలశ్చన్ద్రసూర్యౌ చ నేత్రే\nకర్ణావాశాః శిరో ద్యౌర్ముఖమపి దహనో యస్య వాస్తేయమబ్ధిః।\nఅన్తఃస్థం యస్య విశ్వం సురనరఖగగోభోగిగన్ధర్వదైత్యైః\nచిత్రం రం రమ్యతే తం త్రిభువనవపుషం విష్ణుమీశం నమామి॥",
+      },
+      meaning: {
+        en: "I bow to Lord Vishnu, whose body is the three worlds: earth his feet, sky his navel, wind his breath, moon and sun his eyes, the directions his ears, heaven his head, fire his mouth and the ocean his dwelling, and within whom the whole universe of gods, humans, birds, cattle, serpents, gandharvas and demons rejoices.",
+        hi: "मैं उन त्रिभुवन-रूप विष्णु को प्रणाम करता हूँ, जिनके पाँव भूमि, नाभि आकाश, श्वास वायु, नेत्र चन्द्र-सूर्य, कान दिशाएँ, सिर स्वर्ग, मुख अग्नि और निवास सागर है, और जिनके भीतर देव, मनुष्य, पक्षी, गौएँ, नाग, गन्धर्व और दैत्य सहित सारा विश्व रमता है।",
+      },
+    },
+    {
+      id: "dh-3", type: 'shloka', num: 1003,
+      transliteration: "Om Shantakaram Bhujagashayanam Padmanabham Suresham\nVishvadharam Gaganasadrisham Meghavarnam Shubhangam\nLakshmikantam Kamalanayanam Yogibhirdhyanagamyam\nVande Vishnum Bhavabhayaharam Sarvalokaikanatham",
+      original: "ॐ शान्ताकारं भुजगशयनं पद्मनाभं सुरेशं\nविश्वाधारं गगनसदृशं मेघवर्णं शुभाङ्गम्।\nलक्ष्मीकान्तं कमलनयनं योगिभिर्ध्यानगम्यं\nवन्दे विष्णुं भवभयहरं सर्वलोकैकनाथम्॥",
+      script: {
+        od: "ଓଁ ଶାନ୍ତାକାରଂ ଭୁଜଗଶୟନଂ ପଦ୍ମନାଭଂ ସୁରେଶଂ\nବିଶ୍ୱାଧାରଂ ଗଗନସଦୃଶଂ ମେଘବର୍ଣଂ ଶୁଭାଙ୍ଗମ୍।\nଲକ୍ଷ୍ମୀକାନ୍ତଂ କମଲନୟନଂ ଯୋଗିଭିର୍ଧ୍ୟାନଗମ୍ୟଂ\nବନ୍ଦେ ବିଷ୍ଣୁଂ ଭବଭୟହରଂ ସର୍ବଲୋକୈକନାଥମ୍॥",
+        te: "ఓం శాన్తాకారం భుజగశయనం పద్మనాభం సురేశం\nవిశ్వాధారం గగనసదృశం మేఘవర్ణం శుభాఙ్గమ్।\nలక్ష్మీకాన్తం కమలనయనం యోగిభిర్ధ్యానగమ్యం\nవన్దే విష్ణుం భవభయహరం సర్వలోకైకనాథమ్॥",
+      },
+      meaning: {
+        en: "I bow to Vishnu, peaceful in form, resting on the serpent, lotus-navelled, Lord of the gods, support of the universe, vast as the sky, cloud-hued and beautiful of limb, beloved of Lakshmi, lotus-eyed, reached by yogis in meditation, remover of the fear of worldly existence and sole Lord of all worlds.",
+        hi: "मैं उन विष्णु को वन्दन करता हूँ जो शान्त स्वरूप हैं, शेषनाग पर शयन करते हैं, जिनकी नाभि में कमल है, जो देवों के स्वामी, विश्व के आधार, आकाश-सदृश, मेघवर्ण और सुन्दर अंगों वाले हैं, लक्ष्मी के प्रिय, कमलनयन, योगियों के ध्यान से प्राप्य, संसार का भय हरने वाले और सब लोकों के एकमात्र नाथ हैं।",
+      },
+    },
+    {
+      id: "dh-4", type: 'shloka', num: 1004,
+      transliteration: "Meghashyamam Pitakausheyavasam\nShrivatsankam Kaustubhodbhasitangam\nPunyopetam Pundarikayataksham\nVishnum Vande Sarvalokaikanatham",
+      original: "मेघश्यामं पीतकौशेयवासं\nश्रीवत्साङ्कं कौस्तुभोद्भासिताङ्गम्।\nपुण्योपेतं पुण्डरीकायताक्षं\nविष्णुं वन्दे सर्वलोकैकनाथम्॥",
+      script: {
+        od: "ମେଘଶ୍ୟାମଂ ପୀତକୌଶେୟବାସଂ\nଶ୍ରୀବତ୍ସାଙ୍କଂ କୌସ୍ତୁଭୋଦ୍ଭାସିତାଙ୍ଗମ୍।\nପୁଣ୍ୟୋପେତଂ ପୁଣ୍ଡରୀକାୟତାକ୍ଷଂ\nବିଷ୍ଣୁଂ ବନ୍ଦେ ସର୍ବଲୋକୈକନାଥମ୍॥",
+        te: "మేఘశ్యామం పీతకౌశేయవాసం\nశ్రీవత్సాఙ్కం కౌస్తుభోద్భాసితాఙ్గమ్।\nపుణ్యోపేతం పుణ్డరీకాయతాక్షం\nవిష్ణుం వన్దే సర్వలోకైకనాథమ్॥",
+      },
+      meaning: {
+        en: "I bow to Vishnu, dark as a rain cloud and clad in yellow silk, marked with Shrivatsa and shining with the Kaustubha gem, full of merit, with wide lotus eyes, the sole Lord of all worlds.",
+        hi: "मैं उन विष्णु को वन्दन करता हूँ जो मेघ के समान श्याम हैं, पीत रेशमी वस्त्र पहनते हैं, श्रीवत्स चिह्न और कौस्तुभ मणि से शोभित हैं, पुण्यमय हैं, कमल जैसे विशाल नेत्रों वाले और सब लोकों के एकमात्र नाथ हैं।",
+      },
+    },
+    {
+      id: "dh-5", type: 'shloka', num: 1005,
+      transliteration: "Namah Samastabhutanamadibhutaya Bhubhrite\nAnekaruparupaya Vishnave Prabhavishnave",
+      original: "नमः समस्तभूतानामादिभूताय भूभृते।\nअनेकरूपरूपाय विष्णवे प्रभविष्णवे॥",
+      script: {
+        od: "ନମଃ ସମସ୍ତଭୂତାନାମାଦିଭୂତାୟ ଭୂଭୃତେ।\nଅନେକରୂପରୂପାୟ ବିଷ୍ଣବେ ପ୍ରଭବିଷ୍ଣବେ॥",
+        te: "నమః సమస్తభూతానామాదిభూతాయ భూభృతే।\nఅనేకరూపరూపాయ విష్ణవే ప్రభవిష్ణవే॥",
+      },
+      meaning: {
+        en: "Salutations to Vishnu, the first source of all beings and the bearer of the earth, who takes countless forms and is all-powerful.",
+        hi: "सब प्राणियों के आदि कारण, पृथ्वी को धारण करने वाले, अनेक रूप धारण करने वाले और सर्वसमर्थ विष्णु को नमस्कार है।",
+      },
+    },
+    {
+      id: "dh-6", type: 'shloka', num: 1006,
+      transliteration: "Sashankhachakram Sakiritakundalam\nSapitavastram Sarasiruhekshanam\nSaharavakshahsthalashobhikaustubham\nNamami Vishnum Shirasa Chaturbhujam",
+      original: "सशङ्खचक्रं सकिरीटकुण्डलं\nसपीतवस्त्रं सरसीरुहेक्षणम्।\nसहारवक्षःस्थलशोभिकौस्तुभं\nनमामि विष्णुं शिरसा चतुर्भुजम्॥",
+      script: {
+        od: "ସଶଙ୍ଖଚକ୍ରଂ ସକିରୀଟକୁଣ୍ଡଲଂ\nସପୀତବସ୍ତ୍ରଂ ସରସୀରୁହେକ୍ଷଣମ୍।\nସହାରବକ୍ଷଃସ୍ଥଲଶୋଭିକୌସ୍ତୁଭଂ\nନମାମି ବିଷ୍ଣୁଂ ଶିରସା ଚତୁର୍ଭୁଜମ୍॥",
+        te: "సశఙ్ఖచక్రం సకిరీటకుణ్డలం\nసపీతవస్త్రం సరసీరుహేక్షణమ్।\nసహారవక్షఃస్థలశోభికౌస్తుభం\nనమామి విష్ణుం శిరసా చతుర్భుజమ్॥",
+      },
+      meaning: {
+        en: "I bow my head to four-armed Vishnu, who bears the conch and discus, wears a crown and earrings and a yellow garment, has lotus eyes, and whose chest shines with a garland and the Kaustubha jewel.",
+        hi: "मैं शंख-चक्र धारण करने वाले, मुकुट-कुण्डल और पीत वस्त्र पहने, कमलनयन, हार और कौस्तुभ से शोभित वक्षस्थल वाले चतुर्भुज विष्णु को सिर झुकाकर प्रणाम करता हूँ।",
+      },
+    },
+    {
+      id: "dh-7", type: 'shloka', num: 1007,
+      transliteration: "Chhayayam Parijatasya Hemasimhasanopari\nAsinamambudashyamayatakshamalankritam\nChandrananam Chaturbahum Shrivatsankitavakshasam\nRukminisatyabhamabhyam Sahitam Krishnamashraye",
+      original: "छायायां पारिजातस्य हेमसिंहासनोपरि\nआसीनमम्बुदश्यामायताक्षमलङ्कृतम्।\nचन्द्राननं चतुर्बाहुं श्रीवत्साङ्कितवक्षसम्\nरुक्मिणीसत्यभामाभ्यां सहितं कृष्णमाश्रये॥",
+      script: {
+        od: "ଛାୟାୟାଂ ପାରିଜାତସ୍ୟ ହେମସିଂହାସନୋପରି\nଆସୀନମମ୍ବୁଦଶ୍ୟାମାୟତାକ୍ଷମଲଙ୍କୃତମ୍।\nଚନ୍ଦ୍ରାନନଂ ଚତୁର୍ବାହୁଂ ଶ୍ରୀବତ୍ସାଙ୍କିତବକ୍ଷସମ୍\nରୁକ୍ମିଣୀସତ୍ୟଭାମାଭ୍ୟାଂ ସହିତଂ କୃଷ୍ଣମାଶ୍ରୟେ॥",
+        te: "ఛాయాయాం పారిజాతస్య హేమసింహాసనోపరి\nఆసీనమమ్బుదశ్యామాయతాక్షమలఙ్కృతమ్।\nచన్ద్రాననం చతుర్బాహుం శ్రీవత్సాఙ్కితవక్షసమ్\nరుక్మిణీసత్యభామాభ్యాం సహితం కృష్ణమాశ్రయే॥",
+      },
+      meaning: {
+        en: "I take refuge in Krishna, seated on a golden throne in the shade of the Parijata tree, cloud-dark with wide eyes and fine ornaments, moon-faced and four-armed, the Shrivatsa mark on his chest, accompanied by Rukmini and Satyabhama.",
+        hi: "मैं पारिजात की छाया में स्वर्ण सिंहासन पर विराजमान, मेघ-श्याम, विशाल नेत्रों वाले, अलंकृत, चन्द्रमुख, चतुर्भुज, श्रीवत्स चिह्न वाले, रुक्मिणी और सत्यभामा सहित श्रीकृष्ण की शरण लेता हूँ।",
       },
     },
     {
@@ -1914,6 +2006,435 @@ export const vishnuSahasranamam = {
         hi: "जो वनमाला, गदा, शार्ङ्ग, शंख, चक्र और नंदक तलवार धारण करते हैं, वे श्रीमान नारायण, विष्णु और वासुदेव हम सबकी रक्षा करें। 🙏",
         od: "ଯେ ଭଗବାନ ବନମାଳା, ଗଦା, ଶାରଙ୍ଗ ଧନୁଷ, ଶଙ୍ଖ, ଚକ୍ର ଏବଂ ନନ୍ଦକ ତଳୱାର ଧାରଣ କରନ୍ତି, ସେହି ଶ୍ରୀମାନ୍ ନାରାୟଣ, ବିଷ୍ଣୁ ଓ ବାସୁଦେବ ସଦା ଆମକୁ ରକ୍ଷା କରନ୍ତୁ। 🙏",
         te: "వనమాల, గద, శార్ంగ ధనుస్సు, శంఖం, చక్రం, నందకఖడ్గం ధరించే, శ్రీమాన్ నారాయణ, విష్ణువు, వాసుదేవుడు మనల్ని రక్షించుగాక. 🙏",
+      },
+    },
+    {
+      id: "ph-1", type: 'shloka', num: 2001,
+      transliteration: "Bhishma Uvacha\nItidam Kirtaniyasya Keshavasya Mahatmanah\nNamnam Sahasram Divyanamasheshena Prakirtitam",
+      original: "भीष्म उवाच।\nइतीदं कीर्तनीयस्य केशवस्य महात्मनः।\nनाम्नां सहस्रं दिव्यानामशेषेण प्रकीर्तितम्॥",
+      script: {
+        od: "ଭୀଷ୍ମ ଉବାଚ।\nଇତୀଦଂ କୀର୍ତନୀୟସ୍ୟ କେଶବସ୍ୟ ମହାତ୍ମନଃ।\nନାମ୍ନାଂ ସହସ୍ରଂ ଦିବ୍ୟାନାମଶେଷେଣ ପ୍ରକୀର୍ତିତମ୍॥",
+        te: "భీష్మ ఉవాచ।\nఇతీదం కీర్తనీయస్య కేశవస్య మహాత్మనః।\nనామ్నాం సహస్రం దివ్యానామశేషేణ ప్రకీర్తితమ్॥",
+      },
+      meaning: {
+        en: "Bhishma said: Thus the thousand divine names of Keshava, the Great Soul who is worthy of praise, have been recited in full.",
+        hi: "भीष्म बोले: इस प्रकार स्तुति के योग्य महात्मा केशव के सहस्र दिव्य नाम पूर्ण रूप से कहे गए।",
+      },
+    },
+    {
+      id: "ph-2", type: 'shloka', num: 2002,
+      transliteration: "Ya Idam Shrinuyannityam Yashchapi Parikirtayet\nNashubham Prapnuyatkinchitso Amutreha Cha Manavah",
+      original: "य इदं शृणुयान्नित्यं यश्चापि परिकीर्तयेत्।\nनाशुभं प्राप्नुयात्किञ्चित्सोऽमुत्रेह च मानवः॥",
+      script: {
+        od: "ଯ ଇଦଂ ଶୃଣୁୟାନ୍ନିତ୍ୟଂ ଯଶ୍ଚାପି ପରିକୀର୍ତୟେତ୍।\nନାଶୁଭଂ ପ୍ରାପ୍ନୁୟାତ୍କିଞ୍ଚିତ୍ସୋଽମୁତ୍ରେହ ଚ ମାନବଃ॥",
+        te: "య ఇదం శృణుయాన్నిత్యం యశ్చాపి పరికీర్తయేత్।\nనాశుభం ప్రాప్నుయాత్కిఞ్చిత్సోఽముత్రేహ చ మానవః॥",
+      },
+      meaning: {
+        en: "Whoever hears this daily or recites it will meet nothing inauspicious, here or hereafter.",
+        hi: "जो इसे नित्य सुनता या पढ़ता है, उसे इस लोक या परलोक में कुछ भी अशुभ प्राप्त नहीं होता।",
+      },
+    },
+    {
+      id: "ph-3", type: 'shloka', num: 2003,
+      transliteration: "Vedantago Brahmanah Syatkshatriyo Vijayi Bhavet\nVaishyo Dhanasamriddhah Syachchhudrah Sukhamavapnuyat",
+      original: "वेदान्तगो ब्राह्मणः स्यात्क्षत्रियो विजयी भवेत्।\nवैश्यो धनसमृद्धः स्याच्छूद्रः सुखमवाप्नुयात्॥",
+      script: {
+        od: "ବେଦାନ୍ତଗୋ ବ୍ରାହ୍ମଣଃ ସ୍ୟାତ୍କ୍ଷତ୍ରିୟୋ ବିଜୟୀ ଭବେତ୍।\nବୈଶ୍ୟୋ ଧନସମୃଦ୍ଧଃ ସ୍ୟାଚ୍ଛୂଦ୍ରଃ ସୁଖମବାପ୍ନୁୟାତ୍॥",
+        te: "వేదాన్తగో బ్రాహ్మణః స్యాత్క్షత్రియో విజయీ భవేత్।\nవైశ్యో ధనసమృద్ధః స్యాచ్ఛూద్రః సుఖమవాప్నుయాత్॥",
+      },
+      meaning: {
+        en: "The text lists the traditional results by station: the Brahmin becomes learned in Vedanta, the Kshatriya victorious, the Vaishya rich and the Shudra happy.",
+        hi: "पाठ परम्परागत फल गिनाता है: ब्राह्मण वेदान्त का ज्ञाता, क्षत्रिय विजयी, वैश्य धन-समृद्ध और शूद्र सुखी होता है।",
+      },
+    },
+    {
+      id: "ph-4", type: 'shloka', num: 2004,
+      transliteration: "Dharmarthi Prapnuyaddharmamartharthi Charthamapnuyat\nKamanavapnuyatkami Prajarthi Prapnuyatprajam",
+      original: "धर्मार्थी प्राप्नुयाद्धर्ममर्थार्थी चार्थमाप्नुयात्।\nकामानवाप्नुयात्कामी प्रजार्थी प्राप्नुयात्प्रजाम्॥",
+      script: {
+        od: "ଧର୍ମାର୍ଥୀ ପ୍ରାପ୍ନୁୟାଦ୍ଧର୍ମମର୍ଥାର୍ଥୀ ଚାର୍ଥମାପ୍ନୁୟାତ୍।\nକାମାନବାପ୍ନୁୟାତ୍କାମୀ ପ୍ରଜାର୍ଥୀ ପ୍ରାପ୍ନୁୟାତ୍ପ୍ରଜାମ୍॥",
+        te: "ధర్మార్థీ ప్రాప్నుయాద్ధర్మమర్థార్థీ చార్థమాప్నుయాత్।\nకామానవాప్నుయాత్కామీ ప్రజార్థీ ప్రాప్నుయాత్ప్రజామ్॥",
+      },
+      meaning: {
+        en: "One who seeks dharma attains dharma, one who seeks wealth gains wealth, one who desires gains his desires, and one who wants children gains children.",
+        hi: "धर्म चाहने वाला धर्म पाता है, धन चाहने वाला धन, कामना वाला कामनाएँ और सन्तान चाहने वाला सन्तान पाता है।",
+      },
+    },
+    {
+      id: "ph-5", type: 'shloka', num: 2005,
+      transliteration: "Bhaktiman Yah Sadotthaya Shuchistadgatamanasah\nSahasram Vasudevasya Namnametatprakirtayet",
+      original: "भक्तिमान् यः सदोत्थाय शुचिस्तद्गतमानसः।\nसहस्रं वासुदेवस्य नाम्नामेतत्प्रकीर्तयेत्॥",
+      script: {
+        od: "ଭକ୍ତିମାନ୍ ଯଃ ସଦୋତ୍ଥାୟ ଶୁଚିସ୍ତଦ୍ଗତମାନସଃ।\nସହସ୍ରଂ ବାସୁଦେବସ୍ୟ ନାମ୍ନାମେତତ୍ପ୍ରକୀର୍ତୟେତ୍॥",
+        te: "భక్తిమాన్ యః సదోత్థాయ శుచిస్తద్గతమానసః।\nసహస్రం వాసుదేవస్య నామ్నామేతత్ప్రకీర్తయేత్॥",
+      },
+      meaning: {
+        en: "A devoted person who rises early, pure and with a focused mind, and recites these thousand names of Vasudeva.",
+        hi: "जो भक्त सदा उठकर, शुद्ध और एकाग्र मन से वासुदेव के इन सहस्र नामों का पाठ करता है।",
+      },
+    },
+    {
+      id: "ph-6", type: 'shloka', num: 2006,
+      transliteration: "Yashah Prapnoti Vipulam Jnatipradhanyameva Cha\nAchalam Shriyamapnoti Shreyah Prapnotyanuttamam",
+      original: "यशः प्राप्नोति विपुलं ज्ञातिप्राधान्यमेव च।\nअचलां श्रियमाप्नोति श्रेयः प्राप्नोत्यनुत्तमम्॥",
+      script: {
+        od: "ଯଶଃ ପ୍ରାପ୍ନୋତି ବିପୁଲଂ ଜ୍ଞାତିପ୍ରାଧାନ୍ୟମେବ ଚ।\nଅଚଲାଂ ଶ୍ରିୟମାପ୍ନୋତି ଶ୍ରେୟଃ ପ୍ରାପ୍ନୋତ୍ୟନୁତ୍ତମମ୍॥",
+        te: "యశః ప్రాప్నోతి విపులం జ్ఞాతిప్రాధాన్యమేవ చ।\nఅచలాం శ్రియమాప్నోతి శ్రేయః ప్రాప్నోత్యనుత్తమమ్॥",
+      },
+      meaning: {
+        en: "gains wide fame, standing among his kin, lasting prosperity and the highest good.",
+        hi: "वह विपुल यश, जाति-बन्धुओं में प्रधानता, अचल लक्ष्मी और सर्वोत्तम कल्याण पाता है।",
+      },
+    },
+    {
+      id: "ph-7", type: 'shloka', num: 2007,
+      transliteration: "Na Bhayam Kvachidapnoti Viryam Tejashcha Vindati\nBhavatyarogo Dyutimanbalarupagunanvitah",
+      original: "न भयं क्वचिदाप्नोति वीर्यं तेजश्च विन्दति।\nभवत्यरोगो द्युतिमान्बलरूपगुणान्वितः॥",
+      script: {
+        od: "ନ ଭୟଂ କ୍ୱଚିଦାପ୍ନୋତି ବୀର୍ୟଂ ତେଜଶ୍ଚ ବିନ୍ଦତି।\nଭବତ୍ୟରୋଗୋ ଦ୍ୟୁତିମାନ୍ବଲରୂପଗୁଣାନ୍ୱିତଃ॥",
+        te: "న భయం క్వచిదాప్నోతి వీర్యం తేజశ్చ విన్దతి।\nభవత్యరోగో ద్యుతిమాన్బలరూపగుణాన్వితః॥",
+      },
+      meaning: {
+        en: "He meets no fear anywhere, gains vigour and radiance, and becomes healthy, bright, and endowed with strength, beauty and virtues.",
+        hi: "उसे कहीं भय नहीं होता, वह बल और तेज पाता है, नीरोग, कान्तिमान तथा बल, रूप और गुणों से युक्त होता है।",
+      },
+    },
+    {
+      id: "ph-8", type: 'shloka', num: 2008,
+      transliteration: "Rogarto Muchyate Rogadbaddho Muchyeta Bandhanat\nBhayanmuchyeta Bhitastu Muchyetapanna Apadah",
+      original: "रोगार्तो मुच्यते रोगाद्बद्धो मुच्येत बन्धनात्।\nभयान्मुच्येत भीतस्तु मुच्येतापन्न आपदः॥",
+      script: {
+        od: "ରୋଗାର୍ତୋ ମୁଚ୍ୟତେ ରୋଗାଦ୍ବଦ୍ଧୋ ମୁଚ୍ୟେତ ବନ୍ଧନାତ୍।\nଭୟାନ୍ମୁଚ୍ୟେତ ଭୀତସ୍ତୁ ମୁଚ୍ୟେତାପନ୍ନ ଆପଦଃ॥",
+        te: "రోగార్తో ముచ్యతే రోగాద్బద్ధో ముచ్యేత బన్ధనాత్।\nభయాన్ముచ్యేత భీతస్తు ముచ్యేతాపన్న ఆపదః॥",
+      },
+      meaning: {
+        en: "The sick are freed from illness, the bound from bondage, the frightened from fear, and the distressed from calamity.",
+        hi: "रोगी रोग से, बन्धन में पड़ा बन्धन से, भयभीत भय से और संकट में पड़ा संकट से मुक्त होता है।",
+      },
+    },
+    {
+      id: "ph-9", type: 'shloka', num: 2009,
+      transliteration: "Durganyatitaratyashu Purushah Purushottamam\nStuvannamasahasrena Nityam Bhaktisamanvitah",
+      original: "दुर्गाण्यतितरत्याशु पुरुषः पुरुषोत्तमम्।\nस्तुवन्नामसहस्रेण नित्यं भक्तिसमन्वितः॥",
+      script: {
+        od: "ଦୁର୍ଗାଣ୍ୟତିତରତ୍ୟାଶୁ ପୁରୁଷଃ ପୁରୁଷୋତ୍ତମମ୍।\nସ୍ତୁବନ୍ନାମସହସ୍ରେଣ ନିତ୍ୟଂ ଭକ୍ତିସମନ୍ୱିତଃ॥",
+        te: "దుర్గాణ్యతితరత్యాశు పురుషః పురుషోత్తమమ్।\nస్తువన్నామసహస్రేణ నిత్యం భక్తిసమన్వితః॥",
+      },
+      meaning: {
+        en: "A person who always praises the Supreme Person with the thousand names, with devotion, quickly crosses over difficulties.",
+        hi: "जो मनुष्य भक्ति से नित्य सहस्र नामों द्वारा पुरुषोत्तम की स्तुति करता है, वह शीघ्र कठिनाइयों को पार कर जाता है।",
+      },
+    },
+    {
+      id: "ph-10", type: 'shloka', num: 2010,
+      transliteration: "Vasudevashrayo Martyo Vasudevaparayanah\nSarvapapavishuddhatma Yati Brahma Sanatanam",
+      original: "वासुदेवाश्रयो मर्त्यो वासुदेवपरायणः।\nसर्वपापविशुद्धात्मा याति ब्रह्म सनातनम्॥",
+      script: {
+        od: "ବାସୁଦେବାଶ୍ରୟୋ ମର୍ତ୍ୟୋ ବାସୁଦେବପରାୟଣଃ।\nସର୍ବପାପବିଶୁଦ୍ଧାତ୍ମା ଯାତି ବ୍ରହ୍ମ ସନାତନମ୍॥",
+        te: "వాసుదేవాశ్రయో మర్త్యో వాసుదేవపరాయణః।\nసర్వపాపవిశుద్ధాత్మా యాతి బ్రహ్మ సనాతనమ్॥",
+      },
+      meaning: {
+        en: "The mortal who takes refuge in Vasudeva and is devoted to him, purified of all sin, reaches the eternal Brahman.",
+        hi: "वासुदेव का आश्रय लेने वाला और उन्हीं में परायण मनुष्य सब पापों से शुद्ध होकर सनातन ब्रह्म को प्राप्त होता है।",
+      },
+    },
+    {
+      id: "ph-11", type: 'shloka', num: 2011,
+      transliteration: "Na Vasudevabhaktanamashubham Vidyate Kvachit\nJanmamrityujaravyadhibhayam Naivopajayate",
+      original: "न वासुदेवभक्तानामशुभं विद्यते क्वचित्।\nजन्ममृत्युजराव्याधिभयं नैवोपजायते॥",
+      script: {
+        od: "ନ ବାସୁଦେବଭକ୍ତାନାମଶୁଭଂ ବିଦ୍ୟତେ କ୍ୱଚିତ୍।\nଜନ୍ମମୃତ୍ୟୁଜରାବ୍ୟାଧିଭୟଂ ନୈବୋପଜାୟତେ॥",
+        te: "న వాసుదేవభక్తానామశుభం విద్యతే క్వచిత్।\nజన్మమృత్యుజరావ్యాధిభయం నైవోపజాయతే॥",
+      },
+      meaning: {
+        en: "Nothing inauspicious ever touches the devotees of Vasudeva, and fear of birth, death, old age and disease does not arise.",
+        hi: "वासुदेव के भक्तों को कहीं अशुभ नहीं होता, और जन्म, मृत्यु, जरा तथा व्याधि का भय उत्पन्न नहीं होता।",
+      },
+    },
+    {
+      id: "ph-12", type: 'shloka', num: 2012,
+      transliteration: "Imam Stavamadhiyanah Shraddhabhaktisamanvitah\nYujyetatmasukhakshantishridhritismritikirtibhih",
+      original: "इमं स्तवमधीयानः श्रद्धाभक्तिसमन्वितः।\nयुज्येतात्मसुखक्षान्तिश्रीधृतिस्मृतिकीर्तिभिः॥",
+      script: {
+        od: "ଇମଂ ସ୍ତବମଧୀୟାନଃ ଶ୍ରଦ୍ଧାଭକ୍ତିସମନ୍ୱିତଃ।\nଯୁଜ୍ୟେତାତ୍ମସୁଖକ୍ଷାନ୍ତିଶ୍ରୀଧୃତିସ୍ମୃତିକୀର୍ତିଭିଃ॥",
+        te: "ఇమం స్తవమధీయానః శ్రద్ధాభక్తిసమన్వితః।\nయుజ్యేతాత్మసుఖక్షాన్తిశ్రీధృతిస్మృతికీర్తిభిః॥",
+      },
+      meaning: {
+        en: "One who reads this hymn with faith and devotion is blessed with inner happiness, patience, prosperity, steadiness, memory and good name.",
+        hi: "जो श्रद्धा और भक्ति से इस स्तोत्र का पाठ करता है, वह आत्मसुख, क्षमा, श्री, धैर्य, स्मृति और कीर्ति से युक्त होता है।",
+      },
+    },
+    {
+      id: "ph-13", type: 'shloka', num: 2013,
+      transliteration: "Na Krodho Na Cha Matsaryam Na Lobho Nashubha Matih\nBhavanti Kritapunyanam Bhaktanam Purushottame",
+      original: "न क्रोधो न च मात्सर्यं न लोभो नाशुभा मतिः।\nभवन्ति कृतपुण्यानां भक्तानां पुरुषोत्तमे॥",
+      script: {
+        od: "ନ କ୍ରୋଧୋ ନ ଚ ମାତ୍ସର୍ୟଂ ନ ଲୋଭୋ ନାଶୁଭା ମତିଃ।\nଭବନ୍ତି କୃତପୁଣ୍ୟାନାଂ ଭକ୍ତାନାଂ ପୁରୁଷୋତ୍ତମେ॥",
+        te: "న క్రోధో న చ మాత్సర్యం న లోభో నాశుభా మతిః।\nభవన్తి కృతపుణ్యానాం భక్తానాం పురుషోత్తమే॥",
+      },
+      meaning: {
+        en: "Anger, envy, greed and evil thoughts do not arise in devotees of the Supreme Person who have done good deeds.",
+        hi: "पुरुषोत्तम के पुण्यात्मा भक्तों में क्रोध, ईर्ष्या, लोभ और अशुभ बुद्धि उत्पन्न नहीं होती।",
+      },
+    },
+    {
+      id: "ph-14", type: 'shloka', num: 2014,
+      transliteration: "Dyauh Sachandrarkanakshatra Kham Disho Bhurmahodadhih\nVasudevasya Viryena Vidhritani Mahatmanah",
+      original: "द्यौः सचन्द्रार्कनक्षत्रा खं दिशो भूर्महोदधिः।\nवासुदेवस्य वीर्येण विधृतानि महात्मनः॥",
+      script: {
+        od: "ଦ୍ୟୌଃ ସଚନ୍ଦ୍ରାର୍କନକ୍ଷତ୍ରା ଖଂ ଦିଶୋ ଭୂର୍ମହୋଦଧିଃ।\nବାସୁଦେବସ୍ୟ ବୀର୍ୟେଣ ବିଧୃତାନି ମହାତ୍ମନଃ॥",
+        te: "ద్యౌః సచన్ద్రార్కనక్షత్రా ఖం దిశో భూర్మహోదధిః।\nవాసుదేవస్య వీర్యేణ విధృతాని మహాత్మనః॥",
+      },
+      meaning: {
+        en: "The sky with moon, sun and stars, space, the directions, the earth and the great ocean are all upheld by the power of the Great Soul Vasudeva.",
+        hi: "चन्द्र, सूर्य और नक्षत्रों सहित आकाश, दिशाएँ, पृथ्वी और महासागर महात्मा वासुदेव के बल से धारण किए गए हैं।",
+      },
+    },
+    {
+      id: "ph-15", type: 'shloka', num: 2015,
+      transliteration: "Sasurasuragandharvam Sayakshoragarakshasam\nJagadvashe Vartatedam Krishnasya Sacharacharam",
+      original: "ससुरासुरगन्धर्वं सयक्षोरगराक्षसम्।\nजगद्वशे वर्ततेदं कृष्णस्य सचराचरम्॥",
+      script: {
+        od: "ସସୁରାସୁରଗନ୍ଧର୍ବଂ ସୟକ୍ଷୋରଗରାକ୍ଷସମ୍।\nଜଗଦ୍ୱଶେ ବର୍ତତେଦଂ କୃଷ୍ଣସ୍ୟ ସଚରାଚରମ୍॥",
+        te: "ససురాసురగన్ధర్వం సయక్షోరగరాక్షసమ్।\nజగద్వశే వర్తతేదం కృష్ణస్య సచరాచరమ్॥",
+      },
+      meaning: {
+        en: "This whole moving and unmoving world, with gods, demons, gandharvas, yakshas, serpents and rakshasas, is under the control of Krishna.",
+        hi: "देव, असुर, गन्धर्व, यक्ष, नाग और राक्षसों सहित यह चर-अचर जगत कृष्ण के वश में है।",
+      },
+    },
+    {
+      id: "ph-16", type: 'shloka', num: 2016,
+      transliteration: "Indriyani Mano Buddhih Sattvam Tejo Balam Dhritih\nVasudevatmakanyahuh Kshetram Kshetrajna Eva Cha",
+      original: "इन्द्रियाणि मनो बुद्धिः सत्त्वं तेजो बलं धृतिः।\nवासुदेवात्मकान्याहुः क्षेत्रं क्षेत्रज्ञ एव च॥",
+      script: {
+        od: "ଇନ୍ଦ୍ରିୟାଣି ମନୋ ବୁଦ୍ଧିଃ ସତ୍ତ୍ୱଂ ତେଜୋ ବଲଂ ଧୃତିଃ।\nବାସୁଦେବାତ୍ମକାନ୍ୟାହୁଃ କ୍ଷେତ୍ରଂ କ୍ଷେତ୍ରଜ୍ଞ ଏବ ଚ॥",
+        te: "ఇన్ద్రియాణి మనో బుద్ధిః సత్త్వం తేజో బలం ధృతిః।\nవాసుదేవాత్మకాన్యాహుః క్షేత్రం క్షేత్రజ్ఞ ఏవ చ॥",
+      },
+      meaning: {
+        en: "The senses, mind, intellect, goodness, energy, strength and steadiness are said to be of Vasudeva's nature, as are the field and its knower.",
+        hi: "इन्द्रियाँ, मन, बुद्धि, सत्त्व, तेज, बल और धैर्य वासुदेव-स्वरूप कहे गए हैं, तथा क्षेत्र और क्षेत्रज्ञ भी।",
+      },
+    },
+    {
+      id: "ph-17", type: 'shloka', num: 2017,
+      transliteration: "Sarvagamanamacharah Prathamam Parikalpyate\nAcharaprabhavo Dharmo Dharmasya Prabhurachyutah",
+      original: "सर्वागमानामाचारः प्रथमं परिकल्प्यते।\nआचारप्रभवो धर्मो धर्मस्य प्रभुरच्युतः॥",
+      script: {
+        od: "ସର୍ବାଗମାନାମାଚାରଃ ପ୍ରଥମଂ ପରିକଲ୍ପ୍ୟତେ।\nଆଚାରପ୍ରଭବୋ ଧର୍ମୋ ଧର୍ମସ୍ୟ ପ୍ରଭୁରଚ୍ୟୁତଃ॥",
+        te: "సర్వాగమానామాచారః ప్రథమం పరికల్ప్యతే।\nఆచారప్రభవో ధర్మో ధర్మస్య ప్రభురచ్యుతః॥",
+      },
+      meaning: {
+        en: "Right conduct is counted first among all scriptures; dharma arises from conduct, and the master of dharma is Achyuta.",
+        hi: "सब शास्त्रों में आचार को प्रथम माना गया है; धर्म आचार से उत्पन्न होता है और धर्म के स्वामी अच्युत हैं।",
+      },
+    },
+    {
+      id: "ph-18", type: 'shloka', num: 2018,
+      transliteration: "Rishayah Pitaro Deva Mahabhutani Dhatavah\nJangamajangamam Chedam Jagannarayanodbhavam",
+      original: "ऋषयः पितरो देवा महाभूतानि धातवः।\nजङ्गमाजङ्गमं चेदं जगन्नारायणोद्भवम्॥",
+      script: {
+        od: "ଋଷୟଃ ପିତରୋ ଦେବା ମହାଭୂତାନି ଧାତବଃ।\nଜଙ୍ଗମାଜଙ୍ଗମଂ ଚେଦଂ ଜଗନ୍ନାରାୟଣୋଦ୍ଭବମ୍॥",
+        te: "ఋషయః పితరో దేవా మహాభూతాని ధాతవః।\nజఙ్గమాజఙ్గమం చేదం జగన్నారాయణోద్భవమ్॥",
+      },
+      meaning: {
+        en: "Sages, ancestors, gods, the great elements and substances, and this whole moving and unmoving world arise from Narayana.",
+        hi: "ऋषि, पितर, देव, महाभूत, धातुएँ और यह सारा चर-अचर जगत नारायण से उत्पन्न है।",
+      },
+    },
+    {
+      id: "ph-19", type: 'shloka', num: 2019,
+      transliteration: "Yogo Jnanam Tatha Sankhyam Vidyah Shilpadi Karma Cha\nVedah Shastrani Vijnanametatsarvam Janardanat",
+      original: "योगो ज्ञानं तथा साङ्ख्यं विद्याः शिल्पादि कर्म च।\nवेदाः शास्त्राणि विज्ञानमेतत्सर्वं जनार्दनात्॥",
+      script: {
+        od: "ଯୋଗୋ ଜ୍ଞାନଂ ତଥା ସାଙ୍ଖ୍ୟଂ ବିଦ୍ୟାଃ ଶିଲ୍ପାଦି କର୍ମ ଚ।\nବେଦାଃ ଶାସ୍ତ୍ରାଣି ବିଜ୍ଞାନମେତତ୍ସର୍ବଂ ଜନାର୍ଦନାତ୍॥",
+        te: "యోగో జ్ఞానం తథా సాఙ్ఖ్యం విద్యాః శిల్పాది కర్మ చ।\nవేదాః శాస్త్రాణి విజ్ఞానమేతత్సర్వం జనార్దనాత్॥",
+      },
+      meaning: {
+        en: "Yoga, knowledge, Samkhya, the sciences, crafts and works, the Vedas, the scriptures and all learning come from Janardana.",
+        hi: "योग, ज्ञान, सांख्य, विद्याएँ, शिल्प आदि कर्म, वेद, शास्त्र और विज्ञान सब जनार्दन से हैं।",
+      },
+    },
+    {
+      id: "ph-20", type: 'shloka', num: 2020,
+      transliteration: "Eko Vishnurmahadbhutam Prithagbhutanyanekashah\nTrimllokanvyapya Bhutatma Bhunkte Vishvabhugavyayah",
+      original: "एको विष्णुर्महद्भूतं पृथग्भूतान्यनेकशः।\nत्रींल्लोकान्व्याप्य भूतात्मा भुङ्क्ते विश्वभुगव्ययः॥",
+      script: {
+        od: "ଏକୋ ବିଷ୍ଣୁର୍ମହଦ୍ଭୂତଂ ପୃଥଗ୍ଭୂତାନ୍ୟନେକଶଃ।\nତ୍ରୀଂଲ୍ଲୋକାନ୍ୱ୍ୟାପ୍ୟ ଭୂତାତ୍ମା ଭୁଙ୍କ୍ତେ ବିଶ୍ୱଭୁଗବ୍ୟୟଃ॥",
+        te: "ఏకో విష్ణుర్మహద్భూతం పృథగ్భూతాన్యనేకశః।\nత్రీంల్లోకాన్వ్యాప్య భూతాత్మా భుఙ్క్తే విశ్వభుగవ్యయః॥",
+      },
+      meaning: {
+        en: "The one great Being, Vishnu, pervades the three worlds in many separate forms; as the Self of all beings, the imperishable one enjoys the universe.",
+        hi: "एक महान सत्ता विष्णु अनेक रूपों में तीनों लोकों में व्याप्त हैं; सब प्राणियों के आत्मा, अविनाशी विश्वभोक्ता वही हैं।",
+      },
+    },
+    {
+      id: "ph-21", type: 'shloka', num: 2021,
+      transliteration: "Imam Stavam Bhagavato Vishnorvyasena Kirtitam\nPathedya Ichchhetpurushah Shreyah Praptum Sukhani Cha",
+      original: "इमं स्तवं भगवतो विष्णोर्व्यासेन कीर्तितम्।\nपठेद्य इच्छेत्पुरुषः श्रेयः प्राप्तुं सुखानि च॥",
+      script: {
+        od: "ଇମଂ ସ୍ତବଂ ଭଗବତୋ ବିଷ୍ଣୋର୍ବ୍ୟାସେନ କୀର୍ତିତମ୍।\nପଠେଦ୍ୟ ଇଚ୍ଛେତ୍ପୁରୁଷଃ ଶ୍ରେୟଃ ପ୍ରାପ୍ତୁଂ ସୁଖାନି ଚ॥",
+        te: "ఇమం స్తవం భగవతో విష్ణోర్వ్యాసేన కీర్తితమ్।\nపఠేద్య ఇచ్ఛేత్పురుషః శ్రేయః ప్రాప్తుం సుఖాని చ॥",
+      },
+      meaning: {
+        en: "A person who wishes to attain the highest good and happiness should read this hymn to Lord Vishnu, sung by Vyasa.",
+        hi: "जो पुरुष श्रेय और सुख पाना चाहे, वह व्यास द्वारा गाए गए भगवान विष्णु के इस स्तोत्र का पाठ करे।",
+      },
+    },
+    {
+      id: "ph-22", type: 'shloka', num: 2022,
+      transliteration: "Vishveshvaramajam Devam Jagatah Prabhumavyayam\nBhajanti Ye Pushkaraksham Na Te Yanti Parabhavam",
+      original: "विश्वेश्वरमजं देवं जगतः प्रभुमव्ययम्।\nभजन्ति ये पुष्कराक्षं न ते यान्ति पराभवम्॥",
+      script: {
+        od: "ବିଶ୍ୱେଶ୍ୱରମଜଂ ଦେବଂ ଜଗତଃ ପ୍ରଭୁମବ୍ୟୟମ୍।\nଭଜନ୍ତି ଯେ ପୁଷ୍କରାକ୍ଷଂ ନ ତେ ଯାନ୍ତି ପରାଭବମ୍॥",
+        te: "విశ్వేశ్వరమజం దేవం జగతః ప్రభుమవ్యయమ్।\nభజన్తి యే పుష్కరాక్షం న తే యాన్తి పరాభవమ్॥",
+      },
+      meaning: {
+        en: "Those who worship the lotus-eyed, unborn Lord of the universe, the imperishable ruler of the world, are never defeated.",
+        hi: "जो विश्वेश्वर, अजन्मा, अविनाशी, जगत के स्वामी कमलनयन देव को भजते हैं, उनका पराभव नहीं होता।",
+      },
+    },
+    {
+      id: "ph-23", type: 'shloka', num: 2023,
+      transliteration: "Arjuna Uvacha\nPadmapatravishalaksha Padmanabha Surottama\nBhaktanamanuraktanam Trata Bhava Janardana",
+      original: "अर्जुन उवाच।\nपद्मपत्रविशालाक्ष पद्मनाभ सुरोत्तम।\nभक्तानामनुरक्तानां त्राता भव जनार्दन॥",
+      script: {
+        od: "ଅର୍ଜୁନ ଉବାଚ।\nପଦ୍ମପତ୍ରବିଶାଲାକ୍ଷ ପଦ୍ମନାଭ ସୁରୋତ୍ତମ।\nଭକ୍ତାନାମନୁରକ୍ତାନାଂ ତ୍ରାତା ଭବ ଜନାର୍ଦନ॥",
+        te: "అర్జున ఉవాచ।\nపద్మపత్రవిశాలాక్ష పద్మనాభ సురోత్తమ।\nభక్తానామనురక్తానాం త్రాతా భవ జనార్దన॥",
+      },
+      meaning: {
+        en: "Arjuna said: O lotus-eyed, lotus-navelled best of gods, protector of your loving devotees, be my saviour, Janardana.",
+        hi: "अर्जुन बोले: हे कमलनयन, पद्मनाभ, देवश्रेष्ठ जनार्दन! अपने अनुरक्त भक्तों के रक्षक बनिए।",
+      },
+    },
+    {
+      id: "ph-24", type: 'shloka', num: 2024,
+      transliteration: "Shribhagavanuvacha\nYo Mam Namasahasrena Stotumichchhati Pandava\nSo Ahamekena Shlokena Stuta Eva Na Samshayah",
+      original: "श्रीभगवानुवाच।\nयो मां नामसहस्रेण स्तोतुमिच्छति पाण्डव।\nसोऽहमेकेन श्लोकेन स्तुत एव न संशयः॥",
+      script: {
+        od: "ଶ୍ରୀଭଗବାନୁବାଚ।\nଯୋ ମାଂ ନାମସହସ୍ରେଣ ସ୍ତୋତୁମିଚ୍ଛତି ପାଣ୍ଡବ।\nସୋଽହମେକେନ ଶ୍ଲୋକେନ ସ୍ତୁତ ଏବ ନ ସଂଶୟଃ॥",
+        te: "శ్రీభగవానువాచ।\nయో మాం నామసహస్రేణ స్తోతుమిచ్ఛతి పాణ్డవ।\nసోఽహమేకేన శ్లోకేన స్తుత ఏవ న సంశయః॥",
+      },
+      meaning: {
+        en: "The Lord said: O Pandava, one who wishes to praise me with the thousand names, I am praised by a single verse, without doubt.",
+        hi: "श्रीभगवान बोले: हे पाण्डव! जो मुझे सहस्र नामों से स्तुति करना चाहता है, मैं एक ही श्लोक से स्तुत हो जाता हूँ, इसमें संशय नहीं।",
+      },
+    },
+    {
+      id: "ph-25", type: 'shloka', num: 2025,
+      transliteration: "Vyasa Uvacha\nVasanadvasudevasya Vasitam Bhuvanatrayam\nSarvabhutanivaso Asi Vasudeva Namo Astu Te",
+      original: "व्यास उवाच।\nवासनाद्वासुदेवस्य वासितं भुवनत्रयम्।\nसर्वभूतनिवासोऽसि वासुदेव नमोऽस्तु ते॥",
+      script: {
+        od: "ବ୍ୟାସ ଉବାଚ।\nବାସନାଦ୍ୱାସୁଦେବସ୍ୟ ବାସିତଂ ଭୁବନତ୍ରୟମ୍।\nସର୍ବଭୂତନିବାସୋଽସି ବାସୁଦେବ ନମୋଽସ୍ତୁ ତେ॥",
+        te: "వ్యాస ఉవాచ।\nవాసనాద్వాసుదేవస్య వాసితం భువనత్రయమ్।\nసర్వభూతనివాసోఽసి వాసుదేవ నమోఽస్తు తే॥",
+      },
+      meaning: {
+        en: "Vyasa said: The three worlds are pervaded by the presence of Vasudeva. You dwell in all beings, Vasudeva; salutations to you.",
+        hi: "व्यास बोले: वासुदेव की सत्ता से तीनों लोक व्याप्त हैं। आप सब प्राणियों में निवास करते हैं, वासुदेव, आपको नमस्कार।",
+      },
+    },
+    {
+      id: "ph-26", type: 'shloka', num: 2026,
+      transliteration: "Parvatyuvacha\nKenopayena Laghuna Vishnornamasahasrakam\nPathyate Panditairnityam Shrotumichchhamyaham Prabho",
+      original: "पार्वत्युवाच।\nकेनोपायेन लघुना विष्णोर्नामसहस्रकम्।\nपठ्यते पण्डितैर्नित्यं श्रोतुमिच्छाम्यहं प्रभो॥",
+      script: {
+        od: "ପାର୍ବତ୍ୟୁବାଚ।\nକେନୋପାୟେନ ଲଘୁନା ବିଷ୍ଣୋର୍ନାମସହସ୍ରକମ୍।\nପଠ୍ୟତେ ପଣ୍ଡିତୈର୍ନିତ୍ୟଂ ଶ୍ରୋତୁମିଚ୍ଛାମ୍ୟହଂ ପ୍ରଭୋ॥",
+        te: "పార్వత్యువాచ।\nకేనోపాయేన లఘునా విష్ణోర్నామసహస్రకమ్।\nపఠ్యతే పణ్డితైర్నిత్యం శ్రోతుమిచ్ఛామ్యహం ప్రభో॥",
+      },
+      meaning: {
+        en: "Parvati said: By what short means do the learned recite the thousand names of Vishnu each day? I wish to hear it, Lord.",
+        hi: "पार्वती बोलीं: हे प्रभो! पण्डित किस सरल उपाय से नित्य विष्णु के सहस्र नाम पढ़ते हैं? मैं सुनना चाहती हूँ।",
+      },
+    },
+    {
+      id: "ph-27", type: 'shloka', num: 2027,
+      transliteration: "Ishvara Uvacha\nShrirama Rama Rameti Rame Rame Manorame\nSahasranama Tattulyam Ramanama Varanane",
+      original: "ईश्वर उवाच।\nश्रीराम राम रामेति रमे रामे मनोरमे।\nसहस्रनाम तत्तुल्यं रामनाम वरानने॥",
+      script: {
+        od: "ଈଶ୍ୱର ଉବାଚ।\nଶ୍ରୀରାମ ରାମ ରାମେତି ରମେ ରାମେ ମନୋରମେ।\nସହସ୍ରନାମ ତତ୍ତୁଲ୍ୟଂ ରାମନାମ ବରାନନେ॥",
+        te: "ఈశ్వర ఉవాచ।\nశ్రీరామ రామ రామేతి రమే రామే మనోరమే।\nసహస్రనామ తత్తుల్యం రామనామ వరాననే॥",
+      },
+      meaning: {
+        en: "Ishvara (Shiva) said: Sri Rama, Rama, Rama: I delight in the lovely name of Rama, fair-faced one; the name of Rama equals the thousand names.",
+        hi: "ईश्वर (शिव) बोले: श्रीराम राम राम, इस मनोहर राम नाम में मैं रमता हूँ, हे वरानने! राम नाम सहस्र नामों के तुल्य है।",
+      },
+    },
+    {
+      id: "ph-28", type: 'shloka', num: 2028,
+      transliteration: "Brahmovacha\nNamo Astvanantaya Sahasramurtaye Sahasrapadakshishirorubahave\nSahasranamne Purushaya Shashvate Sahasrakotiyugadharine Namah",
+      original: "ब्रह्मोवाच।\nनमोऽस्त्वनन्ताय सहस्रमूर्तये सहस्रपादाक्षिशिरोरुबाहवे।\nसहस्रनाम्ने पुरुषाय शाश्वते सहस्रकोटियुगधारिणे नमः॥",
+      script: {
+        od: "ବ୍ରହ୍ମୋବାଚ।\nନମୋଽସ୍ତ୍ୱନନ୍ତାୟ ସହସ୍ରମୂର୍ତୟେ ସହସ୍ରପାଦାକ୍ଷିଶିରୋରୁବାହବେ।\nସହସ୍ରନାମ୍ନେ ପୁରୁଷାୟ ଶାଶ୍ୱତେ ସହସ୍ରକୋଟିୟୁଗଧାରିଣେ ନମଃ॥",
+        te: "బ్రహ్మోవాచ।\nనమోఽస్త్వనన్తాయ సహస్రమూర్తయే సహస్రపాదాక్షిశిరోరుబాహవే।\nసహస్రనామ్నే పురుషాయ శాశ్వతే సహస్రకోటియుగధారిణే నమః॥",
+      },
+      meaning: {
+        en: "Brahma said: Salutations to the Infinite, of a thousand forms, with a thousand feet, eyes, heads, thighs and arms, the eternal Person of a thousand names, who upholds a thousand crores of ages.",
+        hi: "ब्रह्मा बोले: सहस्र मूर्तियों वाले, सहस्र पाँव, नेत्र, सिर, जंघा और भुजाओं वाले, सहस्र नाम वाले शाश्वत पुरुष, सहस्र कोटि युगों को धारण करने वाले अनन्त को नमस्कार।",
+      },
+    },
+    {
+      id: "ph-29", type: 'shloka', num: 2029,
+      transliteration: "Sanjaya Uvacha\nYatra Yogeshvarah Krishno Yatra Partho Dhanurdharah\nTatra Shrirvijayo Bhutirdhruva Nitirmatirmama",
+      original: "सञ्जय उवाच।\nयत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः।\nतत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम॥",
+      script: {
+        od: "ସଞ୍ଜୟ ଉବାଚ।\nଯତ୍ର ଯୋଗେଶ୍ୱରଃ କୃଷ୍ଣୋ ଯତ୍ର ପାର୍ଥୋ ଧନୁର୍ଧରଃ।\nତତ୍ର ଶ୍ରୀର୍ବିଜୟୋ ଭୂତିର୍ଧ୍ରୁବା ନୀତିର୍ମତିର୍ମମ॥",
+        te: "సఞ్జయ ఉవాచ।\nయత్ర యోగేశ్వరః కృష్ణో యత్ర పార్థో ధనుర్ధరః।\nతత్ర శ్రీర్విజయో భూతిర్ధ్రువా నీతిర్మతిర్మమ॥",
+      },
+      meaning: {
+        en: "Sanjaya said: Where Krishna, lord of yoga, is, and Arjuna the archer, there are fortune, victory, prosperity and steady policy; this is my conviction.",
+        hi: "संजय बोले: जहाँ योगेश्वर कृष्ण और धनुर्धर पार्थ हैं, वहीं श्री, विजय, वैभव और अटल नीति है, ऐसा मेरा मत है।",
+      },
+    },
+    {
+      id: "ph-30", type: 'shloka', num: 2030,
+      transliteration: "Shribhagavanuvacha\nAnanyashchintayanto Mam Ye Janah Paryupasate\nTesham Nityabhiyuktanam Yogakshemam Vahamyaham",
+      original: "श्रीभगवानुवाच।\nअनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम्॥",
+      script: {
+        od: "ଶ୍ରୀଭଗବାନୁବାଚ।\nଅନନ୍ୟାଶ୍ଚିନ୍ତୟନ୍ତୋ ମାଂ ଯେ ଜନାଃ ପର୍ୟୁପାସତେ।\nତେଷାଂ ନିତ୍ୟାଭିୟୁକ୍ତାନାଂ ଯୋଗକ୍ଷେମଂ ବହାମ୍ୟହମ୍॥",
+        te: "శ్రీభగవానువాచ।\nఅనన్యాశ్చిన్తయన్తో మాం యే జనాః పర్యుపాసతే।\nతేషాం నిత్యాభియుక్తానాం యోగక్షేమం వహామ్యహమ్॥",
+      },
+      meaning: {
+        en: "The Lord said: To those who think of me with no other thought and worship me, ever steadfast, I bring what they lack and protect what they have.",
+        hi: "श्रीभगवान बोले: जो अनन्य भाव से मेरा चिन्तन करते हुए उपासना करते हैं, उन नित्य युक्त भक्तों का योगक्षेम मैं वहन करता हूँ।",
+      },
+    },
+    {
+      id: "ph-31", type: 'shloka', num: 2031,
+      transliteration: "Paritranaya Sadhunam Vinashaya Cha Dushkritam\nDharmasamsthapanarthaya Sambhavami Yuge Yuge",
+      original: "परित्राणाय साधूनां विनाशाय च दुष्कृताम्।\nधर्मसंस्थापनार्थाय सम्भवामि युगे युगे॥",
+      script: {
+        od: "ପରିତ୍ରାଣାୟ ସାଧୂନାଂ ବିନାଶାୟ ଚ ଦୁଷ୍କୃତାମ୍।\nଧର୍ମସଂସ୍ଥାପନାର୍ଥାୟ ସମ୍ଭବାମି ଯୁଗେ ଯୁଗେ॥",
+        te: "పరిత్రాణాయ సాధూనాం వినాశాయ చ దుష్కృతామ్।\nధర్మసంస్థాపనార్థాయ సమ్భవామి యుగే యుగే॥",
+      },
+      meaning: {
+        en: "To protect the good, to destroy evildoers and to establish dharma, I take birth in every age.",
+        hi: "साधुओं की रक्षा, दुष्टों के विनाश और धर्म की स्थापना के लिए मैं युग-युग में प्रकट होता हूँ।",
+      },
+    },
+    {
+      id: "ph-32", type: 'shloka', num: 2032,
+      transliteration: "Artah Vishannah Shithilashcha Bhitah Ghoreshu Cha Vyadhishu Vartamanah\nSankirtya Narayanashabdamatram Vimuktaduhkhah Sukhino Bhavanti",
+      original: "आर्ताः विषण्णाः शिथिलाश्च भीताः घोरेषु च व्याधिषु वर्तमानाः।\nसङ्कीर्त्य नारायणशब्दमात्रं विमुक्तदुःखाः सुखिनो भवन्ति॥",
+      script: {
+        od: "ଆର୍ତାଃ ବିଷଣ୍ଣାଃ ଶିଥିଲାଶ୍ଚ ଭୀତାଃ ଘୋରେଷୁ ଚ ବ୍ୟାଧିଷୁ ବର୍ତମାନାଃ।\nସଙ୍କୀର୍ତ୍ୟ ନାରାୟଣଶବ୍ଦମାତ୍ରଂ ବିମୁକ୍ତଦୁଃଖାଃ ସୁଖିନୋ ଭବନ୍ତି॥",
+        te: "ఆర్తాః విషణ్ణాః శిథిలాశ్చ భీతాః ఘోరేషు చ వ్యాధిషు వర్తమానాః।\nసఙ్కీర్త్య నారాయణశబ్దమాత్రం విముక్తదుఃఖాః సుఖినో భవన్తి॥",
+      },
+      meaning: {
+        en: "The afflicted, the despondent, the weak and the frightened, and those in terrible illness, are freed from sorrow and become happy by merely uttering the word Narayana.",
+        hi: "पीड़ित, विषादग्रस्त, निर्बल, भयभीत और भयंकर रोगों में पड़े लोग केवल नारायण शब्द का उच्चारण करके दुःखमुक्त और सुखी हो जाते हैं।",
+      },
+    },
+    {
+      id: "ph-33", type: 'shloka', num: 2033,
+      transliteration: "Kayena Vacha Manasendriyairva Buddhyatmana Va Prakriteh Svabhavat\nKaromi Yadyat Sakalam Parasmai Narayanayeti Samarpayami",
+      original: "कायेन वाचा मनसेन्द्रियैर्वा बुद्ध्यात्मना वा प्रकृतेः स्वभावात्।\nकरोमि यद्यत् सकलं परस्मै नारायणायेति समर्पयामि॥",
+      script: {
+        od: "କାୟେନ ବାଚା ମନସେନ୍ଦ୍ରିୟୈର୍ବା ବୁଦ୍ଧ୍ୟାତ୍ମନା ବା ପ୍ରକୃତେଃ ସ୍ୱଭାବାତ୍।\nକରୋମି ଯଦ୍ୟତ୍ ସକଲଂ ପରସ୍ମୈ ନାରାୟଣାୟେତି ସମର୍ପୟାମି॥",
+        te: "కాయేన వాచా మనసేన్ద్రియైర్వా బుద్ధ్యాత్మనా వా ప్రకృతేః స్వభావాత్।\nకరోమి యద్యత్ సకలం పరస్మై నారాయణాయేతి సమర్పయామి॥",
+      },
+      meaning: {
+        en: "Whatever I do with body, speech, mind, senses or intellect, or by my own nature, I offer all of it to the Supreme Narayana.",
+        hi: "शरीर, वाणी, मन, इन्द्रियों, बुद्धि या स्वभाव से मैं जो कुछ करता हूँ, वह सब परम नारायण को समर्पित करता हूँ।",
       },
     },
   ],

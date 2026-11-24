@@ -153,6 +153,24 @@ export default function ContactPage() {
             </div>
           )}
 
+          {/* What to write about */}
+          <section className="mt-10 bg-white border border-[#c9922a]/30 shadow-sm rounded-2xl p-8">
+            <h2 className="font-cinzel text-xl font-bold text-[#8b1a00] mb-4">What you can write to us about</h2>
+            <p className="font-garamond text-[#3d1a00]/85 leading-relaxed mb-4">
+              Divya Stotram is run by one person, Subham Mohanty, so every message is read by the person who edits the site. Writing to us is the fastest way to make the pages better, and these are the messages we find most useful.
+            </p>
+            <ul className="font-garamond text-[#3d1a00]/85 leading-relaxed space-y-3 list-disc pl-5">
+              <li><strong>Corrections.</strong> If a verse, a transliteration, a meaning or a fact on any page looks wrong, tell us the page address and the line. We check it against the printed text or a published edition and fix it, usually within a week.</li>
+              <li><strong>Requests for a stotram or mantra.</strong> Tell us the name, and the family or regional tradition you know it from, since many prayers exist in more than one version.</li>
+              <li><strong>Translation help.</strong> If you read Hindi, Odia or Telugu and spot an awkward or incorrect phrase in our translations, we would be grateful to hear it.</li>
+              <li><strong>Audio and copyright.</strong> Recordings on this site are played from YouTube and belong to their original channels. If you are a rights holder and want a recording removed from a page, write to us with the page address and we will take it off.</li>
+              <li><strong>Anything else.</strong> Questions about how to chant, how a page was written, or how the site is run are welcome too.</li>
+            </ul>
+            <p className="font-garamond text-[#3d1a00]/85 leading-relaxed mt-4">
+              We cannot give medical, legal or financial advice, and we do not perform rituals or offer personal predictions. For how we research and review our pages, read our <Link href="/editorial-policy" className="text-[#8b1a00] underline">editorial policy</Link>, and for how we handle your details, read our <Link href="/privacy-policy" className="text-[#8b1a00] underline">privacy policy</Link>.
+            </p>
+          </section>
+
           <div className="text-center mt-8">
             <Link href="/" className="font-cinzel-reg text-xs tracking-widest uppercase text-[#8b1a00]/70 hover:text-[#8a5f00] transition-colors">
               ← Back to home

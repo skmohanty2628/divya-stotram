@@ -15,7 +15,7 @@ const SEO_COPY = {
   'vishnu-sahasranamam': {
     title: 'Complete Vishnu Sahasranamam Lyrics in Hindi, English, Odia & Telugu with Meaning',
     description:
-      'Complete Vishnu Sahasranamam, all 1000 names of Lord Vishnu in 107 verses plus the closing verse, from the Mahabharata. Devanagari text checked against four editions, with transliteration, Odia, Telugu and meaning.',
+      'Complete Vishnu Sahasranamam, the 22 opening verses, all 1000 names of Lord Vishnu in 107 verses and the closing verse, from the Mahabharata. Devanagari text checked against four editions, with transliteration, Odia, Telugu and meaning.',
   },
   'durga-stotram': {
     title: 'Durga Stotram in English, Hindi, Odia & Telugu with Meaning',

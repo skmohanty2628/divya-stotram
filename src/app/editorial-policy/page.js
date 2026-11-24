@@ -37,6 +37,26 @@ const SECTIONS = [
     ],
   },
   {
+    h: 'How we check a text',
+    p: [
+      `Checking a prayer means comparing it, word by word, with other versions. For longer texts we compare the Devanagari with several editions, note where they disagree, and choose the reading that is most widely printed while keeping the others in mind. Differences that are only spelling or sandhi choices, such as how two words are joined, do not change the meaning and we follow the most common form.`,
+      `Transliteration is generated from the checked text and then read through for obvious errors. Odia and Telugu scripts are produced from the Devanagari text. Because we are not native scholars of every script, we ask readers who are to tell us about mistakes, and we correct what they report.`,
+    ],
+  },
+  {
+    h: 'How we write meanings and articles',
+    p: [
+      `Each meaning and article is written for this site in plain language. We do not copy translations from other websites. We look at the primary text, at a recognised commentary where one exists, and at reliable reference works, and then we write what the verse says in our own words.`,
+      `We separate fact from belief. If a page says that a hymn comes from a Purana, that is stated as the tradition's account unless we can point to the text. We avoid dates and authorship claims that we cannot support, and say so when a question is unsettled.`,
+    ],
+  },
+  {
+    h: 'Festival and temple information',
+    p: [
+      `Festival dates follow the Hindu lunar calendar and can differ by a day between regions and almanacs, so we give the date as published for the year and advise readers to confirm it with a local temple or panchang. Temple pages give practical information that can change, such as timings, so please check with the temple before travelling.`,
+    ],
+  },
+  {
     h: 'Respect for the tradition',
     p: [
       `Hindu practice is diverse. Families and lineages differ on rituals, days, counts and even wording. We aim to present the mainstream range of practice respectfully and without insisting that one way is the only way. We are an educational site and not a religious authority; for initiation, vows or complex rituals, please consult a qualified teacher.`,

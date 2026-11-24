@@ -59,6 +59,32 @@ export default function AboutPage() {
               <Link href="/editorial-policy">Editorial Policy</Link> explains how we work, and our{' '}
               <Link href="/disclaimer">Disclaimer</Link> explains the limits of what this site is.
             </p>
+            <h2>How a page is made</h2>
+            <p>
+              Every stotram page starts with the Sanskrit or Hindi text. We compare it with more than one printed or
+              published edition, and we correct slips such as a wrong vowel length or a split word. For example, the
+              Vishnu Sahasranamam page was checked line by line against several editions, and its 108 verses of the
+              thousand names were compared with a volunteer-proofread edition of the text. We then add a transliteration,
+              a plain-language meaning, a short article on the background of the prayer, a glossary of key words and
+              frequently asked questions.
+            </p>
+            <p>
+              Meanings are written in our own words rather than copied from another site, and we try to keep each
+              explanation close to what the verse actually says. When a verse can be read in more than one way, we give
+              the common reading and say that others exist.
+            </p>
+            <h2>What you will not find here</h2>
+            <p>
+              You will not find promises of miracle results, astrology predictions, or paid blessings. We do not sell
+              rituals or ask for donations on behalf of any temple. The guides on festivals and temples give dates,
+              customs and practical information, and they say plainly when dates change from year to year or between regions.
+            </p>
+            <h2>Who the site is for</h2>
+            <p>
+              The site is for anyone who wants to read, understand or learn a prayer: a student who learned it by ear
+              and wants to see the words, a family member abroad who wants a transliteration to follow, or a reader who
+              is curious about what a well-known verse means. You do not need any background to use it.
+            </p>
             <h2>Languages</h2>
             <p>
               Hindu devotional texts are shared across many languages. We offer every stotram in English, Hindi, Odia

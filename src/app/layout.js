@@ -4,6 +4,7 @@ import { SubscribePopup } from '@/components/SubscribeWidget';
 import SubscriberPing from '@/components/SubscriberPing';
 import VisitTracker from '@/components/VisitTracker';
 import FeedbackWidget from '@/components/FeedbackWidget';
+import AdScript from '@/components/AdScript';
 import { SITE_URL } from '@/lib/site';
 
 export const viewport = {
@@ -219,17 +220,10 @@ export default function RootLayout({ children }) {
           </>
         )}
 
-        {process.env.NEXT_PUBLIC_ADSENSE_CLIENT &&
-          process.env.NEXT_PUBLIC_ADSENSE_CLIENT !== 'ca-pub-your-id-here' && (
-            <script
-              async
-              src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_CLIENT}`}
-              crossOrigin="anonymous"
-            />
-          )}
       </head>
 
       <body className="min-h-screen bg-white text-[#1a0a00]">
+        <AdScript client={process.env.NEXT_PUBLIC_ADSENSE_CLIENT} />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-[10000] focus:rounded-full focus:bg-[#8b1a00] focus:px-5 focus:py-2.5 focus:font-cinzel-reg focus:text-xs focus:uppercase focus:tracking-[2px] focus:text-white"

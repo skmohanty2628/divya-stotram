@@ -33,7 +33,8 @@ export default function AboutPage() {
               hearing at home. Divya Stotram started with a simple frustration: whenever I wanted a prayer, I had to
               piece it together from several places. One site had the verses, another had a rough transliteration, and
               a third had a meaning that did not quite match the words. I wanted all of it in one clean page, in the
-              languages our families actually speak.
+              languages our families actually speak. These prayers were part of the sound of my home growing up, and I still
+              want to understand every word I say.
             </p>
             <p>
               Today the site has {STOTRAMS_INDEX.length} stotrams and mantras, each in English, Hindi, Odia and Telugu,

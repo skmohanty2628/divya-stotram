@@ -29,77 +29,84 @@ export default function AboutPage() {
         <div className="mt-8">
           <Prose>
             <p>
-              Divya Stotram is an independent devotional website created by Subham Mohanty, from India.
-              He started it because the prayers we grew up reciting were hard to find in one clean place, with the
-              original text, an accurate transliteration and a meaning that an ordinary reader could follow, in the
+              Hello, I&apos;m Subham Mohanty, and this is my little corner of the internet for the prayers I grew up
+              hearing at home. Divya Stotram started with a simple frustration: whenever I wanted a prayer, I had to
+              piece it together from several places. One site had the verses, another had a rough transliteration, and
+              a third had a meaning that did not quite match the words. I wanted all of it in one clean page, in the
               languages our families actually speak.
             </p>
             <p>
-              Today the site carries {STOTRAMS_INDEX.length} stotrams and mantras, each available in English, Hindi,
-              Odia and Telugu, and {GUIDES.length} practical guides on how, when and why people chant. Each stotram page
-              includes the verses, transliteration, a plain-language meaning, an original article on the prayer's
-              background, a glossary of key terms and, where available, audio.
+              Today the site has {STOTRAMS_INDEX.length} stotrams and mantras, each in English, Hindi, Odia and Telugu,
+              along with {GUIDES.length} guides on how, when and why people chant. Every stotram page gives you the
+              verses, a transliteration, a meaning in plain language, a short article on where the prayer comes from, a
+              glossary of the harder words and, for some prayers, audio.
             </p>
             <h2>Who is behind this site</h2>
             <p>
-              <strong>Subham Mohanty</strong> is the founder and editor. He builds and maintains the site, prepares and
-              checks the texts, transliterations and guides, and answers reader messages. He is a data and analytics
-              professional by training, and brings the same habit of checking sources and numbers to devotional content.
-              He can be reached at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+              It is just me. I build the site, prepare and check the texts, transliterations and guides, and read every
+              message that comes in. By training I work in data and analytics, so I carry the same habit into this
+              project: check the source, check it again, and do not publish what I cannot back up. You can write to me
+              at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
             </p>
             <p>
-              The site is not run by priests or Sanskrit scholars, and we say so plainly. Where a text, date or custom varies by
-              region or tradition, we say that too, and we welcome corrections from readers who know better.
+              I should be honest about one thing. I am not a priest or a Sanskrit scholar, and this site is not run by
+              one. I am a devotee and a careful reader who likes getting things right. When a text, a date or a custom
+              differs from one region or tradition to another, I say so on the page. And if you know better, please tell
+              me. I would much rather fix a mistake than leave it standing.
             </p>
-            <h2>What we promise</h2>
+            <h2>What I promise</h2>
             <p>
-              We write for understanding, not for traffic. We name our sources, we say when the tradition is unsure
-              about authorship or dating, and we do not promise results. Prayer is a personal practice; we will never
-              tell you a mantra will cure an illness or guarantee money, a job or a marriage. Our{' '}
-              <Link href="/editorial-policy">Editorial Policy</Link> explains how we work, and our{' '}
-              <Link href="/disclaimer">Disclaimer</Link> explains the limits of what this site is.
+              I write to help you understand a prayer, not to chase clicks. I name my sources. When tradition is unsure
+              about who wrote a verse or when, I say that instead of pretending to know. And I will never tell you that a
+              mantra will cure an illness or bring you money, a job or a marriage. Prayer is a personal practice, and no
+              website can promise what it will do for you. The <Link href="/editorial-policy">Editorial Policy</Link>{' '}
+              explains how I work, and the <Link href="/disclaimer">Disclaimer</Link> explains what this site is and is
+              not.
             </p>
             <h2>How a page is made</h2>
             <p>
-              Every stotram page starts with the Sanskrit or Hindi text. We compare it with more than one printed or
-              published edition, and we correct slips such as a wrong vowel length or a split word. For example, the
-              Vishnu Sahasranamam page was checked line by line against several editions, and its 108 verses of the
-              thousand names were compared with a volunteer-proofread edition of the text. We then add a transliteration,
-              a plain-language meaning, a short article on the background of the prayer, a glossary of key words and
-              frequently asked questions.
+              Each stotram begins with the Sanskrit or Hindi text. I compare it against more than one printed or
+              published edition and fix the small slips that creep in, such as a wrong vowel length or a word split in
+              the wrong place. The Vishnu Sahasranamam page is a good example. I checked it line by line against several
+              editions, and compared its 108 verses of the thousand names with a volunteer-proofread edition. After the
+              text is settled, I add the transliteration, the meaning, a short note on the background of the prayer, a
+              glossary and a few frequently asked questions.
             </p>
             <p>
-              Meanings are written in our own words rather than copied from another site, and we try to keep each
-              explanation close to what the verse actually says. When a verse can be read in more than one way, we give
-              the common reading and say that others exist.
+              The meanings are written in my own words rather than copied from another site, and I try to stay close to
+              what the verse actually says. When a verse can be read in more than one way, I give the common reading and
+              mention that others exist.
             </p>
             <h2>What you will not find here</h2>
             <p>
-              You will not find promises of miracle results, astrology predictions, or paid blessings. We do not sell
-              rituals or ask for donations on behalf of any temple. The guides on festivals and temples give dates,
-              customs and practical information, and they say plainly when dates change from year to year or between regions.
+              You will not find promises of miracle results, astrology predictions or paid blessings. I do not sell
+              rituals, and I do not collect donations on behalf of any temple. The festival and temple guides give dates,
+              customs and practical details, and they tell you plainly when a date changes from year to year or from one
+              region to another.
             </p>
             <h2>Who the site is for</h2>
             <p>
-              The site is for anyone who wants to read, understand or learn a prayer: a student who learned it by ear
-              and wants to see the words, a family member abroad who wants a transliteration to follow, or a reader who
-              is curious about what a well-known verse means. You do not need any background to use it.
+              Anyone who wants to read, understand or learn a prayer. Maybe you learned it by ear as a child and want to
+              finally see the words. Maybe you live far from home and want a transliteration to follow along with your
+              family. Or maybe you have heard a famous verse a hundred times and simply wonder what it means. You do not
+              need any background to use this site.
             </p>
-            <h2>Languages</h2>
+            <h2>Why four languages</h2>
             <p>
-              Hindu devotional texts are shared across many languages. We offer every stotram in English, Hindi, Odia
-              and Telugu so that readers can follow along in the script they find most natural. Each language has its own
-              page, so you can bookmark and share exactly the version you read.
+              Hindu devotional texts travel across many languages, and people feel closest to a prayer in the script they
+              grew up reading. That is why every stotram is available in English, Hindi, Odia and Telugu. Each language
+              has its own page, so you can bookmark or share exactly the version you read.
             </p>
             <h2>Support and corrections</h2>
             <p>
-              The site is funded by modest advertising. If you notice a mistake in a text or translation, or want us to
-              add a prayer, write to us at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> or use the{' '}
-              <Link href="/contact">contact page</Link>. We read every message.
+              The site is paid for by modest advertising, which covers the cost of keeping it running. If you spot a
+              mistake in a text or a translation, or you would like me to add a prayer, write to me at{' '}
+              <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> or use the <Link href="/contact">contact page</Link>.
+              I read every message.
             </p>
             <p>
-              Begin with the <Link href="/all-stotrams">full list of stotrams</Link> or the{' '}
-              <Link href="/guides">prayer guides</Link>.
+              If you are new here, a good place to begin is the <Link href="/all-stotrams">full list of stotrams</Link>{' '}
+              or the <Link href="/guides">prayer guides</Link>. Thank you for visiting.
             </p>
           </Prose>
         </div>
